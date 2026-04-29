@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "state": "MD",
+    "state_name": "Maryland",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 23,
+      "counties_with_data": 23,
+      "crossref_complete": true,
+      "deals_count": 4995,
+      "contributions_matched": 2620
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 2545757884.0,
+    "total_beneficiaries": 4995,
+    "total_donations_usd": 18893692.93,
+    "matched_donors": 2620,
+    "pct_beneficiaries_donating": 0.2585
+  },
+  "top_findings": [
+    "2,620 of 4,995 subsidized companies (25.9%) made campaign donations — $18.9M total.",
+    "$5.6M in donations flowed from beneficiaries to 811 political committees. Top recipient: Democratic State Central Committee Of Maryland ($471,500).",
+    "$2.55B in total subsidies tracked across 4,995 beneficiary companies in Maryland."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 5560418.13,
+    "num_committees_receiving": 811,
+    "top_committee_name": "Democratic State Central Committee Of Maryland",
+    "top_committee_amount": 471500.0,
+    "top_committee_pct": 1.01
+  },
+  "counties": [
+    {
+      "name": "Calvert",
+      "slug": "calvert",
+      "score": 57.5,
+      "total_exemptions_usd": 506283018.0,
+      "cost_per_household_usd": 15211.0,
+      "total_beneficiaries": 0,
+      "num_awards": 21,
+      "fips_county": "009"
+    },
+    {
+      "name": "Baltimore City",
+      "slug": "baltimore-city",
+      "score": 37.3,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 4638,
+      "fips_county": "510"
+    },
+    {
+      "name": "Montgomery",
+      "slug": "montgomery",
+      "score": 32.5,
+      "total_exemptions_usd": 224021095.0,
+      "cost_per_household_usd": 581.44,
+      "total_beneficiaries": 0,
+      "num_awards": 1023,
+      "fips_county": "031"
+    },
+    {
+      "name": "Baltimore",
+      "slug": "baltimore",
+      "score": 26.3,
+      "total_exemptions_usd": 144576760.0,
+      "cost_per_household_usd": 439.96,
+      "total_beneficiaries": 0,
+      "num_awards": 904,
+      "fips_county": "005"
+    },
+    {
+      "name": "Prince George S",
+      "slug": "prince-george-s",
+      "score": 24.2,
+      "total_exemptions_usd": 153163896.0,
+      "cost_per_household_usd": 449.09,
+      "total_beneficiaries": 0,
+      "num_awards": 503,
+      "fips_county": "033"
+    },
+    {
+      "name": "Howard",
+      "slug": "howard",
+      "score": 19.3,
+      "total_exemptions_usd": 34221211.0,
+      "cost_per_household_usd": 287.02,
+      "total_beneficiaries": 0,
+      "num_awards": 762,
+      "fips_county": "027"
+    },
+    {
+      "name": "Anne Arundel",
+      "slug": "anne-arundel",
+      "score": 17.5,
+      "total_exemptions_usd": 80184028.0,
+      "cost_per_household_usd": 361.67,
+      "total_beneficiaries": 0,
+      "num_awards": 572,
+      "fips_county": "003"
+    },
+    {
+      "name": "Caroline",
+      "slug": "caroline",
+      "score": 16.7,
+      "total_exemptions_usd": 7622448.0,
+      "cost_per_household_usd": 634.52,
+      "total_beneficiaries": 0,
+      "num_awards": 27,
+      "fips_county": "011"
+    },
+    {
+      "name": "Frederick",
+      "slug": "frederick",
+      "score": 16.5,
+      "total_exemptions_usd": 85930054.0,
+      "cost_per_household_usd": 860.24,
+      "total_beneficiaries": 0,
+      "num_awards": 309,
+      "fips_county": "021"
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "score": 15.3,
+      "total_exemptions_usd": 34176843.0,
+      "cost_per_household_usd": 578.77,
+      "total_beneficiaries": 0,
+      "num_awards": 231,
+      "fips_county": "043"
+    },
+    {
+      "name": "Harford",
+      "slug": "harford",
+      "score": 14.6,
+      "total_exemptions_usd": 42464428.0,
+      "cost_per_household_usd": 429.71,
+      "total_beneficiaries": 0,
+      "num_awards": 191,
+      "fips_county": "025"
+    },
+    {
+      "name": "Wicomico",
+      "slug": "wicomico",
+      "score": 11.5,
+      "total_exemptions_usd": 5584343.0,
+      "cost_per_household_usd": 139.82,
+      "total_beneficiaries": 0,
+      "num_awards": 55,
+      "fips_county": "045"
+    },
+    {
+      "name": "Garrett",
+      "slug": "garrett",
+      "score": 10.7,
+      "total_exemptions_usd": 7106779.0,
+      "cost_per_household_usd": 570.92,
+      "total_beneficiaries": 0,
+      "num_awards": 49,
+      "fips_county": "023"
+    },
+    {
+      "name": "Queen Anne S",
+      "slug": "queen-anne-s",
+      "score": 9.0,
+      "total_exemptions_usd": 2432019.0,
+      "cost_per_household_usd": 125.68,
+      "total_beneficiaries": 0,
+      "num_awards": 57,
+      "fips_county": "035"
+    },
+    {
+      "name": "Somerset",
+      "slug": "somerset",
+      "score": 9.0,
+      "total_exemptions_usd": 137139.0,
+      "cost_per_household_usd": 16.41,
+      "total_beneficiaries": 0,
+      "num_awards": 11,
+      "fips_county": "039"
+    },
+    {
+      "name": "Carroll",
+      "slug": "carroll",
+      "score": 8.2,
+      "total_exemptions_usd": 13756939.0,
+      "cost_per_household_usd": 217.27,
+      "total_beneficiaries": 0,
+      "num_awards": 184,
+      "fips_county": "013"
+    },
+    {
+      "name": "Allegany",
+      "slug": "allegany",
+      "score": 1.6,
+      "total_exemptions_usd": 552000.0,
+      "cost_per_household_usd": 20.1,
+      "total_beneficiaries": 0,
+      "num_awards": 12,
+      "fips_county": "001"
+    },
+    {
+      "name": "Cecil",
+      "slug": "cecil",
+      "score": 0.5,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 12,
+      "fips_county": "015"
+    },
+    {
+      "name": "Dorchester",
+      "slug": "dorchester",
+      "score": 0.5,
+      "total_exemptions_usd": 1650000.0,
+      "cost_per_household_usd": 124.85,
+      "total_beneficiaries": 0,
+      "num_awards": 6,
+      "fips_county": "019"
+    },
+    {
+      "name": "Worcester",
+      "slug": "worcester",
+      "score": 0.4,
+      "total_exemptions_usd": 303820.0,
+      "cost_per_household_usd": 12.95,
+      "total_beneficiaries": 0,
+      "num_awards": 21,
+      "fips_county": "047"
+    },
+    {
+      "name": "Charles",
+      "slug": "charles",
+      "score": 0.2,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 6,
+      "fips_county": "017"
+    },
+    {
+      "name": "Kent",
+      "slug": "kent",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "029"
+    },
+    {
+      "name": "St Mary S",
+      "slug": "st-mary-s",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "037"
+    },
+    {
+      "name": "St. Mary S",
+      "slug": "st-mary-s",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "000"
+    },
+    {
+      "name": "Talbot",
+      "slug": "talbot",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "041"
+    }
+  ]
+}

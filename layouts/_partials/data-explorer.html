@@ -1,0 +1,237 @@
+{{/*
+  Reusable single-dataset data explorer — no tabs, just filter+sort+search.
+
+  Usage:
+    {{ partial "data-explorer.html" (dict
+      "id"          "water-explorer"
+      "title"       "Explore EPA Facility Data"
+      "description" "Search EPA-regulated facilities..."
+      "jsonUrl"     "/data/water_top_50_violators.csv"
+      "csvUrl"      "/data/water_top_50_violators.csv"
+      "columns"     (slice
+        (dict "key" "facility" "label" "Facility" "type" "text")
+        (dict "key" "state"    "label" "State"    "type" "text")
+      )
+      "stateField"  "state"
+      "countyField" ""
+      "context"     ""
+    ) }}
+*/}}
+
+{{ $id := .id }}
+{{ $title := .title }}
+{{ $description := .description | default "" }}
+{{ $jsonUrl := .jsonUrl }}
+{{ $csvUrl := .csvUrl }}
+{{ $stateField := .stateField | default "" }}
+{{ $countyField := .countyField | default "" }}
+{{ $context := .context | default "" }}
+
+<section class="data-explorer-section" aria-labelledby="{{ $id }}-title">
+  <h2 id="{{ $id }}-title">{{ $title }}</h2>
+  {{ with $description }}<p class="data-tab-description">{{ . }}</p>{{ end }}
+  {{ with $context }}<div class="context-callout">{{ . | safeHTML }}</div>{{ end }}
+
+  <div class="data-controls">
+    {{ if $stateField }}
+    <div class="data-control-group">
+      <label for="{{ $id }}-state">State</label>
+      <select id="{{ $id }}-state">
+        <option value="">All states</option>
+      </select>
+    </div>
+    {{ end }}
+
+    {{ if $countyField }}
+    <div class="data-control-group">
+      <label for="{{ $id }}-county">County</label>
+      <select id="{{ $id }}-county">
+        <option value="">All counties</option>
+      </select>
+    </div>
+    {{ end }}
+
+    <div class="data-control-group">
+      <label for="{{ $id }}-search">Search</label>
+      <input type="text" id="{{ $id }}-search" placeholder="Search...">
+    </div>
+
+    <div class="data-control-group data-control-meta">
+      <span id="{{ $id }}-count" role="status" aria-live="polite"></span>
+      <a href="{{ $csvUrl }}" class="btn btn--secondary btn--sm" aria-label="Download CSV">Download CSV</a>
+    </div>
+  </div>
+
+  <div class="data-table-wrapper">
+    <table id="{{ $id }}-table" class="data-table">
+      <caption class="sr-only">{{ $title }}</caption>
+      <thead id="{{ $id }}-thead"></thead>
+      <tbody id="{{ $id }}-tbody"></tbody>
+    </table>
+  </div>
+</section>
+
+<script>
+(function() {
+  var ID = {{ $id }};
+  var JSON_URL = {{ $jsonUrl }};
+  var COLUMNS = {{ .columns | jsonify | safeJS }};
+  var STATE_FIELD = {{ $stateField }};
+  var COUNTY_FIELD = {{ $countyField }};
+
+  var data = null;
+  var sort = { col: null, asc: true };
+
+  var stateEl  = document.getElementById(ID + '-state');
+  var countyEl = document.getElementById(ID + '-county');
+  var searchEl = document.getElementById(ID + '-search');
+  var countEl  = document.getElementById(ID + '-count');
+  var thead    = document.getElementById(ID + '-thead');
+  var tbody    = document.getElementById(ID + '-tbody');
+
+  function fmt(val, type) {
+    if (val === null || val === undefined || val === '') return '\u2014';
+    if (type === 'money') return '$' + Number(val).toLocaleString('en-US', { maximumFractionDigits: 0 });
+    if (type === 'num') return Number(val).toLocaleString('en-US');
+    return val;
+  }
+
+  function getUnique(rows, field) {
+    var seen = {};
+    rows.forEach(function(r) { if (r[field]) seen[r[field]] = true; });
+    return Object.keys(seen).sort();
+  }
+
+  function populateSelect(el, values) {
+    var prev = el.value;
+    var first = el.options[0].textContent;
+    el.innerHTML = '<option value="">' + first + '</option>';
+    values.forEach(function(v) {
+      var opt = document.createElement('option');
+      opt.value = v; opt.textContent = v;
+      el.appendChild(opt);
+    });
+    if (values.indexOf(prev) !== -1) el.value = prev;
+  }
+
+  function render() {
+    if (!data) return;
+    var stateVal  = stateEl  ? stateEl.value  : '';
+    var countyVal = countyEl ? countyEl.value : '';
+    var search    = searchEl.value.toLowerCase();
+
+    var rows = data.filter(function(r) {
+      if (stateVal  && STATE_FIELD  && r[STATE_FIELD]  !== stateVal)  return false;
+      if (countyVal && COUNTY_FIELD && r[COUNTY_FIELD] !== countyVal) return false;
+      if (search) {
+        var h = COLUMNS.map(function(c) { return String(r[c.key] || '').toLowerCase(); }).join(' ');
+        if (h.indexOf(search) === -1) return false;
+      }
+      return true;
+    });
+
+    if (sort.col !== null) {
+      var col = COLUMNS[sort.col];
+      var asc = sort.asc;
+      rows.sort(function(a, b) {
+        var va = a[col.key], vb = b[col.key];
+        if (col.type === 'num' || col.type === 'money') {
+          va = Number(va) || 0; vb = Number(vb) || 0;
+        } else {
+          va = String(va || '').toLowerCase(); vb = String(vb || '').toLowerCase();
+        }
+        return va < vb ? (asc ? -1 : 1) : va > vb ? (asc ? 1 : -1) : 0;
+      });
+    }
+
+    thead.innerHTML = '<tr>' + COLUMNS.map(function(c, i) {
+      var arrow = sort.col === i ? (sort.asc ? ' &#9650;' : ' &#9660;') : '';
+      var cls   = sort.col === i ? ' class="sorted"' : '';
+      var as    = sort.col === i ? (sort.asc ? ' aria-sort="ascending"' : ' aria-sort="descending"') : ' aria-sort="none"';
+      return '<th scope="col"' + cls + as + ' data-col="' + i + '" tabindex="0" role="columnheader">' + c.label + '<span class="sort-arrow">' + arrow + '</span></th>';
+    }).join('') + '</tr>';
+
+    tbody.innerHTML = rows.map(function(r) {
+      return '<tr>' + COLUMNS.map(function(c) {
+        var cls = (c.type === 'num' || c.type === 'money') ? ' class="' + c.type + '"' : '';
+        return '<td' + cls + '>' + fmt(r[c.key], c.type) + '</td>';
+      }).join('') + '</tr>';
+    }).join('');
+
+    countEl.textContent = rows.length + ' of ' + data.length + ' rows';
+
+    thead.querySelectorAll('th').forEach(function(th) {
+      function doSort() {
+        var c = parseInt(th.getAttribute('data-col'));
+        sort.col === c ? (sort.asc = !sort.asc) : (sort = { col: c, asc: true });
+        render();
+        var newTh = thead.querySelector('th[data-col="' + c + '"]');
+        if (newTh) newTh.focus();
+      }
+      th.addEventListener('click', doSort);
+      th.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); doSort(); }
+      });
+    });
+
+    if (countyEl && COUNTY_FIELD) {
+      var base = stateVal && STATE_FIELD
+        ? data.filter(function(r) { return r[STATE_FIELD] === stateVal; })
+        : data;
+      populateSelect(countyEl, getUnique(base, COUNTY_FIELD));
+      countyEl.value = countyVal;
+    }
+  }
+
+  function parseCSV(text) {
+    var lines = text.split('\n').filter(function(l) { return l.trim(); });
+    if (!lines.length) return [];
+    var headers = lines[0].split(',').map(function(h) { return h.trim().replace(/^"|"$/g, ''); });
+    return lines.slice(1).map(function(line) {
+      var vals = [];
+      var current = '';
+      var inQuotes = false;
+      for (var i = 0; i < line.length; i++) {
+        var ch = line[i];
+        if (ch === '"') { inQuotes = !inQuotes; }
+        else if (ch === ',' && !inQuotes) { vals.push(current.trim()); current = ''; }
+        else { current += ch; }
+      }
+      vals.push(current.trim());
+      var obj = {};
+      headers.forEach(function(h, idx) { obj[h] = vals[idx] || ''; });
+      return obj;
+    });
+  }
+
+  fetch(JSON_URL)
+    .then(function(r) { return r.text(); })
+    .then(function(text) {
+      var rows;
+      try { rows = JSON.parse(text); } catch(e) { rows = parseCSV(text); }
+      return rows;
+    })
+    .then(function(rows) {
+      data = rows;
+      if (stateEl && STATE_FIELD) {
+        populateSelect(stateEl, getUnique(rows, STATE_FIELD));
+      }
+      if (countyEl && COUNTY_FIELD && !STATE_FIELD) {
+        populateSelect(countyEl, getUnique(rows, COUNTY_FIELD));
+      }
+      render();
+    });
+
+  if (stateEl) stateEl.addEventListener('change', function() {
+    if (countyEl) countyEl.value = '';
+    render();
+  });
+  if (countyEl) countyEl.addEventListener('change', render);
+
+  var timer;
+  searchEl.addEventListener('input', function() {
+    clearTimeout(timer);
+    timer = setTimeout(render, 300);
+  });
+})();
+</script>

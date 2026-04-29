@@ -1,0 +1,8 @@
+{{ $label := .label }}
+{{ $value := .value }}
+{{ $note := .note }}
+<div class="stat-card">
+  <div class="stat-card__value">{{ $value }}</div>
+  <div class="stat-card__label">{{ $label }}</div>
+  {{ with $note }}<div class="stat-card__note">{{ . }}</div>{{ end }}
+</div>

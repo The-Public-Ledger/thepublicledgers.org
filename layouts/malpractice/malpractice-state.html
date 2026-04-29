@@ -1,0 +1,179 @@
+{{ define "main" }}
+{{ $abbr := .Params.state_abbr }}
+{{ $stateData := index site.Data.malpractice.states $abbr }}
+
+<article class="section" data-pagefind-meta="investigation:Malpractice, state:{{ $stateData.meta.state_name }}">
+  <div class="container">
+    {{ partial "malpractice/breadcrumb.html" (dict "state" (dict "abbr" $abbr "name" $stateData.meta.state_name)) }}
+
+    <header class="page-header">
+      <div class="page-header__meta">
+        <span class="section-label">Malpractice Accountability</span>
+      </div>
+      <h1>{{ $stateData.meta.state_name }}</h1>
+    </header>
+
+    {{ with $stateData.summary_stats }}
+    <div class="totals-bar">
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ .excluded_count }}</span>
+        <span class="totals-bar__label">Excluded physicians</span>
+      </div>
+      {{ if gt .physician_population 0 }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ lang.FormatNumber 0 .physician_population }}</span>
+        <span class="totals-bar__label">Active physicians</span>
+      </div>
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ printf "%.2f" .per_1000_physicians }}</span>
+        <span class="totals-bar__label">Per 1,000 physicians</span>
+      </div>
+      {{ end }}
+      {{ if gt .double_flagged 0 }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ .double_flagged }}</span>
+        <span class="totals-bar__label">Flagged by federal + state <small style="font-weight:400;opacity:.7">(CA/FL/NY data)</small></span>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ with $stateData.exclusion_types }}
+    <section class="findings-section">
+      <h2>Why These Physicians Were Excluded</h2>
+      <p>Federal exclusion types for physicians in {{ $stateData.meta.state_name }} who still have active provider records.</p>
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <caption class="sr-only">Exclusion type breakdown for {{ $stateData.meta.state_name }}</caption>
+          <thead>
+            <tr><th scope="col">Reason for Exclusion</th><th scope="col">Count</th></tr>
+          </thead>
+          <tbody>
+            {{ range . }}
+            <tr>
+              <td>{{ .label }} <abbr title="Section {{ .code }}" class="exclusion-badge exclusion-badge--{{ .code }}">{{ .code }}</abbr></td>
+              <td>{{ .count }}</td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </section>
+    {{ end }}
+
+    {{ if or $stateData.migrants_in $stateData.migrants_out }}
+    <section class="findings-section">
+      <h2>Excluded Physicians Who Moved</h2>
+      <p>After being excluded, some physicians move to a different state. The new state's medical board may not be aware of the federal exclusion.</p>
+      <div class="migration-grid">
+        {{ with $stateData.migrants_in }}
+        {{ if gt (len .) 0 }}
+        <div class="migration-panel">
+          <h3>Moved to {{ $stateData.meta.state_name }}</h3>
+          <table class="data-table">
+            <thead><tr><th scope="col">From</th><th scope="col">Count</th></tr></thead>
+            <tbody>
+              {{ range . }}
+              <tr><td>{{ .from_name }}</td><td>{{ .count }}</td></tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+        {{ end }}
+        {{ end }}
+        {{ with $stateData.migrants_out }}
+        {{ if gt (len .) 0 }}
+        <div class="migration-panel">
+          <h3>Left {{ $stateData.meta.state_name }}</h3>
+          <table class="data-table">
+            <thead><tr><th scope="col">To</th><th scope="col">Count</th></tr></thead>
+            <tbody>
+              {{ range . }}
+              <tr><td>{{ .to_name }}</td><td>{{ .count }}</td></tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    {{ with $stateData.priority_cases }}
+    {{ if gt (len .) 0 }}
+    <section class="findings-section">
+      <h2>Highest-Priority Cases</h2>
+      <p class="methodology-note">Inclusion on this list reflects a federal exclusion record and an active NPI registry entry — it does not confirm the physician is currently seeing patients. NPIs may remain active for billing, research, teaching, or administrative purposes. <a href="/methodology/#malpractice">Full methodology</a></p>
+      <p>These physicians have the most concerning combination of serious offense, recent registry activity, and cross-state movement.</p>
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <caption class="sr-only">Highest-priority excluded physicians in {{ $stateData.meta.state_name }}</caption>
+          <thead>
+            <tr>
+              <th scope="col">Physician</th>
+              <th scope="col">Reason for Exclusion</th>
+              <th scope="col">Exclusion Date</th>
+              <th scope="col">Specialty</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range . }}
+            <tr>
+              <td>{{ .name }}</td>
+              <td>{{ .exclusion_label }}</td>
+              <td>{{ .exclusion_date }}</td>
+              <td>{{ .specialty }}</td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </section>
+    {{ end }}
+    {{ end }}
+
+    {{ with $stateData.industry_payments }}
+    {{ if gt (len .) 0 }}
+    <section class="findings-section">
+      <h2>Pharmaceutical Payments to Excluded Physicians</h2>
+      <p>Drug and medical device companies made these payments to excluded physicians in {{ $stateData.meta.state_name }} between 2018 and 2024.</p>
+      <div class="data-table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr><th scope="col">Physician</th><th scope="col">Total</th><th scope="col">Payments</th><th scope="col">Companies</th></tr>
+          </thead>
+          <tbody>
+            {{ range . }}
+            <tr>
+              <td>{{ .name }}</td>
+              <td>${{ lang.FormatNumber 0 .total_usd }}</td>
+              <td>{{ .payment_count }}</td>
+              <td>{{ .companies }}</td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </section>
+    {{ end }}
+    {{ end }}
+
+    <!-- Action box -->
+    <div class="action-box">
+      <div class="action-box__title">If you found your doctor on this page</div>
+      <ol>
+        <li>An active registry record does not confirm they are currently practicing.</li>
+        <li>Check your state medical board for their current license status.</li>
+        <li>Report concerns to the <strong>OIG Hotline</strong>: <a href="tel:18004478477">1-800-HHS-TIPS</a>.</li>
+      </ol>
+    </div>
+
+    {{ partial "ida/source-citation.html" (dict "sources" (slice "OIG List of Excluded Individuals/Entities (LEIE)" "CMS National Plan and Provider Enumeration System (NPPES)" "CMS Open Payments") "date" $stateData.meta.last_updated) }}
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+{{ end }}

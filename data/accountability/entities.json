@@ -1,0 +1,10186 @@
+[
+  {
+    "rank": 1,
+    "name": "Amazon",
+    "score": 13,
+    "source_count": 6,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "ida_oh",
+      "oge_trade",
+      "opioid_vendor",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 2,
+    "name": "FedEx",
+    "score": 11,
+    "source_count": 5,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "ida_oh",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 3,
+    "name": "International Paper Co.",
+    "score": 11,
+    "source_count": 5,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "ida_oh",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 4,
+    "name": "Tractor Supply Company",
+    "score": 11,
+    "source_count": 5,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "ida_oh",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 5,
+    "name": "Cardinal Health",
+    "score": 10,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 6,
+    "name": "Booz Allen Hamilton Inc.",
+    "score": 9,
+    "source_count": 5,
+    "sources": [
+      "capitol_trade",
+      "fara",
+      "ida_ny",
+      "ida_oh",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 7,
+    "name": "Air Products and Chemicals, Inc.",
+    "score": 9,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 8,
+    "name": "Bristol-Myers Squibb Co., Inc.",
+    "score": 9,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 9,
+    "name": "General Mills, Inc.",
+    "score": 9,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 10,
+    "name": "McKesson Corporation",
+    "score": 9,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "ida_oh",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 11,
+    "name": "Nucor Corp.",
+    "score": 9,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 12,
+    "name": "Schlumberger",
+    "score": 9,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "fara_principal",
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 13,
+    "name": "Target Corporation",
+    "score": 9,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 14,
+    "name": "Thermo Fisher Scientific",
+    "score": 9,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 15,
+    "name": "Whirlpool",
+    "score": 9,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 16,
+    "name": "Ford Motor",
+    "score": 8,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "ida_oh",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 17,
+    "name": "General Electric",
+    "score": 8,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "ida_oh",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 18,
+    "name": "International Business Machines",
+    "score": 8,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "ida_oh",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 19,
+    "name": "Lockheed Martin Corp.",
+    "score": 8,
+    "source_count": 4,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "ida_oh",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 20,
+    "name": "Advanced Drainage Systems",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 21,
+    "name": "Avery Dennison",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 22,
+    "name": "Carvana",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 23,
+    "name": "Caterpillar",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 24,
+    "name": "Church Dwight",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 25,
+    "name": "City of Atlanta",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "opioid_vendor",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "government"
+  },
+  {
+    "rank": 26,
+    "name": "City of Vienna",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "fara_principal",
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "government"
+  },
+  {
+    "rank": 27,
+    "name": "Corning",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 28,
+    "name": "Cummins Inc.",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 29,
+    "name": "DTE Energy Co",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 30,
+    "name": "Marathon Petroleum",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 31,
+    "name": "Michigan State University",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "education"
+  },
+  {
+    "rank": 32,
+    "name": "Mondelez Global",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 33,
+    "name": "Owens Corning",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 34,
+    "name": "PPG Industries",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 35,
+    "name": "Parker Hannifin",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 36,
+    "name": "State of Colorado",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 3,
+    "entity_type": "government"
+  },
+  {
+    "rank": 37,
+    "name": "State of New Mexico",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 3,
+    "entity_type": "government"
+  },
+  {
+    "rank": 38,
+    "name": "Sunoco, Inc.",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 39,
+    "name": "United Parcel Service",
+    "score": 8,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 3,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 40,
+    "name": "\"General Motors, LLC\"",
+    "score": 7,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 41,
+    "name": "\"Praxair, Inc.  \"",
+    "score": 7,
+    "source_count": 3,
+    "sources": [
+      "ida_ny",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 42,
+    "name": "American Regent Inc",
+    "score": 7,
+    "source_count": 3,
+    "sources": [
+      "ida_ny",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 43,
+    "name": "Ashland",
+    "score": 7,
+    "source_count": 3,
+    "sources": [
+      "ida_oh",
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 44,
+    "name": "Cintas Corporation",
+    "score": 7,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 45,
+    "name": "Eaton",
+    "score": 7,
+    "source_count": 3,
+    "sources": [
+      "ida_oh",
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 46,
+    "name": "Ferguson Enterprises",
+    "score": 7,
+    "source_count": 3,
+    "sources": [
+      "ida_ny",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 47,
+    "name": "Huhtamaki, Inc.",
+    "score": 7,
+    "source_count": 3,
+    "sources": [
+      "ida_ny",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 48,
+    "name": "Hyponex Corporation",
+    "score": 7,
+    "source_count": 3,
+    "sources": [
+      "ida_ny",
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 49,
+    "name": "Jefferson County",
+    "score": 7,
+    "source_count": 3,
+    "sources": [
+      "opioid",
+      "opioid_vendor",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 50,
+    "name": "Plug Power Inc",
+    "score": 7,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 51,
+    "name": "Preferred Family Healthcare, Inc.",
+    "score": 7,
+    "source_count": 3,
+    "sources": [
+      "hrsa_340b",
+      "opioid",
+      "opioid_vendor"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 52,
+    "name": "Good Samaritan Hospital",
+    "score": 6,
+    "source_count": 4,
+    "sources": [
+      "faith_hospital",
+      "hrsa_340b",
+      "nursing_home",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "patients"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 53,
+    "name": "Mercy Medical Center",
+    "score": 6,
+    "source_count": 4,
+    "sources": [
+      "faith_hospital",
+      "hrsa_340b",
+      "nursing_home",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "patients"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 54,
+    "name": "Abbott Laboratories",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 55,
+    "name": "Amgen",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 56,
+    "name": "Bank of America Corporation",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 57,
+    "name": "BlackRock, Inc.",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 58,
+    "name": "Costco Wholesale Corporation",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 59,
+    "name": "Domino's Pizza",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "opioid_vendor"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 60,
+    "name": "Grady Memorial Hospital",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "hrsa_340b",
+      "ida_oh",
+      "nursing_home"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 61,
+    "name": "Intel",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 62,
+    "name": "Intuit",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 63,
+    "name": "Mercy Health - Lourdes Hospital",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "faith_hospital",
+      "hrsa_340b",
+      "opioid_vendor"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 64,
+    "name": "Netflix",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 65,
+    "name": "Peloton Interactive",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_oh",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 66,
+    "name": "Pepsico, Inc.",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 67,
+    "name": "Regeneron Pharmaceuticals, Inc.",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "ida_ny",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 68,
+    "name": "Trinity Health Corporation",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "hrsa_340b",
+      "ida_oh",
+      "nursing_home"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 69,
+    "name": "United Memorial Medical Center",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "faith_hospital",
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 70,
+    "name": "Walmart, Inc.",
+    "score": 6,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "opioid_vendor"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 71,
+    "name": "AT&T",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 72,
+    "name": "Advocate Trinity Hospital",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "faith_hospital",
+      "hrsa_340b",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "patients"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 73,
+    "name": "Apple Inc.",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 74,
+    "name": "Barnes Jewish Hospital",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "hrsa_340b",
+      "nursing_home",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "patients"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 75,
+    "name": "Canadian National Railway Co",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "fara_principal",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 76,
+    "name": "Colgate-Palmolive Co.",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 77,
+    "name": "Dollar General Corp.",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 78,
+    "name": "Dover Corporation",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 79,
+    "name": "Exxon Mobil Corp.",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 80,
+    "name": "Honeywell International, Inc.",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 81,
+    "name": "Kimberly-Clark Corp.",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 82,
+    "name": "L3Harris Technologies, Inc.",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 83,
+    "name": "Memorial Medical Center",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "hrsa_340b",
+      "nursing_home",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "patients"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 84,
+    "name": "New York City Health and Hospitals Corporation",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "hrsa_340b",
+      "nursing_home"
+    ],
+    "categories": [
+      "governing",
+      "patients"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 85,
+    "name": "Rockwell Automation, Inc.",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 86,
+    "name": "ST Francis Medical Center",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "faith_hospital",
+      "hrsa_340b",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "patients"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 87,
+    "name": "ST Joseph Hospital",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "faith_hospital",
+      "hrsa_340b",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "patients"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 88,
+    "name": "Saint Joseph Hospital",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "faith_hospital",
+      "hrsa_340b",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "patients"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 89,
+    "name": "Tesla, Inc.",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 90,
+    "name": "Texas Instruments Inc",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 91,
+    "name": "Xcel Energy Inc",
+    "score": 5,
+    "source_count": 3,
+    "sources": [
+      "capitol_trade",
+      "oge_trade",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "governing"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Governing Pays"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 92,
+    "name": "\"\"\"Lafarge North America, Inc.\"\"\"",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 93,
+    "name": "\"American Rock Salt, LLC\"",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 94,
+    "name": "\"Cox & Company, Inc.\"",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 95,
+    "name": "\"Midland Asphalt Materials, Inc.\"",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 96,
+    "name": "\"Moog, Inc.\"",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 97,
+    "name": "\"Newchem, Inc.\"",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 98,
+    "name": "\"Nicholas H. Noyes Memorial Hospital, Inc.\"",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 99,
+    "name": "\"Steuben Foods, Inc.\"",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 100,
+    "name": "\"Sweeteners Plus, Inc\"",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 101,
+    "name": "\"Tri-Supreme Optical, LLC\"",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 102,
+    "name": "ABB",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 103,
+    "name": "AIDS Action Coalition of Huntsville",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 104,
+    "name": "API Heat Transfer",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 105,
+    "name": "Accelerated Learning Center",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 106,
+    "name": "Ada Township",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 107,
+    "name": "Advancepierre Foods",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 108,
+    "name": "Agc Flat Glass North America",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 109,
+    "name": "Akzo Nobel Coatings",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 110,
+    "name": "Albany Medical Center Hospital",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 111,
+    "name": "Albrecht",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "fara",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 112,
+    "name": "Alcoa",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 113,
+    "name": "Aletheia House, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 114,
+    "name": "Allina Health System",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 115,
+    "name": "Alstom Transportation Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 116,
+    "name": "AltaPointe Health Systems, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 117,
+    "name": "American Electric Power",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 118,
+    "name": "American Financial Group",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 119,
+    "name": "American Packaging Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 120,
+    "name": "American Trim",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 121,
+    "name": "Amg Vanadium",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 122,
+    "name": "Amneal Pharmaceuticals",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 123,
+    "name": "Anchor Glass Container",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 124,
+    "name": "Andersons",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 125,
+    "name": "Anheuser Busch LLC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 126,
+    "name": "Annex Charter School",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 127,
+    "name": "Anomatic Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 128,
+    "name": "Antrim County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 129,
+    "name": "Aptargroup, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_ny"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 130,
+    "name": "Arcelormittal Tubular Products USA",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 131,
+    "name": "Archbold Village",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 132,
+    "name": "Arlington City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 133,
+    "name": "Arvinmeritor",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 134,
+    "name": "Asotin County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 135,
+    "name": "Athens Village",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 136,
+    "name": "Atlantic City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 137,
+    "name": "Atricure",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 138,
+    "name": "Auld Technologies",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 139,
+    "name": "AvalonBay Communities, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_ny"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 140,
+    "name": "Baldwin County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 141,
+    "name": "Ball Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 142,
+    "name": "Basf Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 143,
+    "name": "Bay Mills Indian Community",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 144,
+    "name": "Bayer Materialscience",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 145,
+    "name": "Becker County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 146,
+    "name": "Bent County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid_vendor"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 147,
+    "name": "Benton County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 148,
+    "name": "Bethany",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 149,
+    "name": "Bluffton Village",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 150,
+    "name": "Bothell City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 151,
+    "name": "Boundary County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 152,
+    "name": "Bowling Green State University",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "education"
+  },
+  {
+    "rank": 153,
+    "name": "Bridgeport",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 154,
+    "name": "Bridgestone",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 155,
+    "name": "Broadwater County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 156,
+    "name": "Broome County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 157,
+    "name": "Buena Vista",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 158,
+    "name": "CVS",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid_vendor",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 159,
+    "name": "Caci International Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_ny"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 160,
+    "name": "Cahaba Medical Care Foundation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 161,
+    "name": "Calgon Carbon Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 162,
+    "name": "Calumet City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 163,
+    "name": "Camden City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 164,
+    "name": "Campbell Soup Supply",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 165,
+    "name": "Capital Health Services",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "nursing_home"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 166,
+    "name": "Carbondale",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 167,
+    "name": "Cargill, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 168,
+    "name": "Carlisle Construction Materials Incorporated",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 169,
+    "name": "Carousel Center Co LP",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 170,
+    "name": "Carter County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 171,
+    "name": "Castle Rock",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 172,
+    "name": "Cayuga Medical Center at Ithaca",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 173,
+    "name": "Cbiz",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 174,
+    "name": "Ccl Label",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 175,
+    "name": "Cencora Inc",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 176,
+    "name": "Central High School",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 177,
+    "name": "Champion Home Builders Co.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 178,
+    "name": "Charlton Heston Academy",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 179,
+    "name": "Chemtron Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 180,
+    "name": "Chewy",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 181,
+    "name": "Chickasaw County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 182,
+    "name": "City of Anderson",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 183,
+    "name": "City of Bowie",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 184,
+    "name": "City of Bridgeport",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 185,
+    "name": "City of Cameron",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 186,
+    "name": "City of Columbia",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 187,
+    "name": "City of Detroit",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 188,
+    "name": "City of Dunbar",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 189,
+    "name": "City of Florence",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 190,
+    "name": "City of Gary",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 191,
+    "name": "City of Glen Dale",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 192,
+    "name": "City of Havre de Grace",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 193,
+    "name": "City of Henderson",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 194,
+    "name": "City of Huntington",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 195,
+    "name": "City of Jacksonville",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 196,
+    "name": "City of Mitchell",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 197,
+    "name": "City of North Charleston",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 198,
+    "name": "City of Pennsboro",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 199,
+    "name": "City of Petersburg",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 200,
+    "name": "City of Portland",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 201,
+    "name": "City of Rochester",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 202,
+    "name": "City of Shelby",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 203,
+    "name": "City of St. Albans",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 204,
+    "name": "City of Wellsburg",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 205,
+    "name": "City of Wheeling",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 206,
+    "name": "Clark County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 207,
+    "name": "Clarkston City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 208,
+    "name": "Clear Creek County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 209,
+    "name": "Clinton County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 210,
+    "name": "Coca Cola Refreshments USA",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 211,
+    "name": "Coeymans Recycling Center LLC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 212,
+    "name": "Coltene Whaledent",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 213,
+    "name": "Columbia County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 214,
+    "name": "Columbia Gas Transmission",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 215,
+    "name": "Columbia Memorial Hospital",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 216,
+    "name": "Community Healthcare Network",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 217,
+    "name": "Conagra Foods Packaged Foods",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 218,
+    "name": "Consolidated Grain and Barge",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 219,
+    "name": "Constellation Brands Inc",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_ny"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 220,
+    "name": "Contitech USA",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 221,
+    "name": "CoreWeave, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_ny"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 222,
+    "name": "Corvac Composites",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 223,
+    "name": "Cowlitz County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 224,
+    "name": "Crocs",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 225,
+    "name": "Crown Holdings Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_ny"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 226,
+    "name": "Csx Transportation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 227,
+    "name": "Curran Renewable Energy, LLC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 228,
+    "name": "Dalton City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 229,
+    "name": "Days Creek Charter School",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 230,
+    "name": "Defiance City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 231,
+    "name": "Dekalb County Government",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid_vendor"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 232,
+    "name": "Delta County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 233,
+    "name": "Denver Health and Hospital Authority",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid_vendor"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 234,
+    "name": "Des Moines City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 235,
+    "name": "Desert Star Community School",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 236,
+    "name": "Discover Financial Services",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 237,
+    "name": "Dover Chemical",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 238,
+    "name": "Dover Town",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 239,
+    "name": "Dresden Village",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 240,
+    "name": "Dupage County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 241,
+    "name": "EPR Properties",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_ny"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 242,
+    "name": "Eastman Kodak Company",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 243,
+    "name": "Eaton Aeroquip",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 244,
+    "name": "Echols County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 245,
+    "name": "Empire Town",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 246,
+    "name": "Englewood City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 247,
+    "name": "Exel",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "fara_principal",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 248,
+    "name": "Fancher Chair Co. Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 249,
+    "name": "Federal Express Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 250,
+    "name": "Feldmeier Equipment, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 251,
+    "name": "Ferro Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 252,
+    "name": "First Solar",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 253,
+    "name": "Fort Recovery Industries",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 254,
+    "name": "Frito Lay",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 255,
+    "name": "Galion City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 256,
+    "name": "Gallatin County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 257,
+    "name": "Garden City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 258,
+    "name": "Garlock Sealing Technologies",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 259,
+    "name": "Gerry Homes",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "nursing_home"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 260,
+    "name": "Gershow Recycling Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 261,
+    "name": "Gig Harbor City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 262,
+    "name": "Givaudan Flavors",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 263,
+    "name": "Gloucester City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 264,
+    "name": "GoDaddy Inc",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid_vendor"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 265,
+    "name": "Google",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 266,
+    "name": "Graphic Packaging International",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 267,
+    "name": "Greenidge Generation, LLC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 268,
+    "name": "Greenville Technology",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 269,
+    "name": "Grosse Ile Township",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 270,
+    "name": "Guardian Industries",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 271,
+    "name": "H B Fuller Company",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 272,
+    "name": "Hamilton Health Center INC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid_vendor"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 273,
+    "name": "Hampton",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 274,
+    "name": "Harrison Town",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 275,
+    "name": "Hazlet Township",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 276,
+    "name": "Health Management Associates LLC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 277,
+    "name": "Health Partners of Western Ohio",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_oh"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 278,
+    "name": "Heart of Ohio Family Health Centers",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_oh"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 279,
+    "name": "Hebron INC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 280,
+    "name": "Henkel Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 281,
+    "name": "Hennepin County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 282,
+    "name": "Henry Schein, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_ny"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 283,
+    "name": "Heritage Elementary School",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 284,
+    "name": "Hill Country Youth Ranch",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 285,
+    "name": "Hillside Village",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 286,
+    "name": "Home Depot USA",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 287,
+    "name": "Hoover Universal",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 288,
+    "name": "Hudson River HealthCare",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 289,
+    "name": "Hunter Health Clinic Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 290,
+    "name": "Huntington Bancshares Incorporated",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 291,
+    "name": "ITT Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_ny"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 292,
+    "name": "Indium Corporation of America",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 293,
+    "name": "Ineos USA",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 294,
+    "name": "Installed Building Products",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 295,
+    "name": "Integra Lifesciences Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 296,
+    "name": "Isabella County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 297,
+    "name": "JD& Sons",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 298,
+    "name": "Janis Solar LLC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 299,
+    "name": "Jeff Davis",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 300,
+    "name": "Jefferson Academy",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 301,
+    "name": "Jeld Wen",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 302,
+    "name": "John F. Kennedy High School",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 303,
+    "name": "Johns Manville",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 304,
+    "name": "Johnson Controls Battery Group",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 305,
+    "name": "Jsw Steel USA Ohio",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 306,
+    "name": "Kearny Town",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 307,
+    "name": "Kennametal",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 308,
+    "name": "Kenton City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 309,
+    "name": "King County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 310,
+    "name": "Koneta",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 311,
+    "name": "Konza Prairie Community Health Center, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 312,
+    "name": "LA Clinica Tepeyac INC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid_vendor"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 313,
+    "name": "La Salle",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 314,
+    "name": "Lafayette County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 315,
+    "name": "Lake City Plating",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 316,
+    "name": "Laurel Ridge",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 317,
+    "name": "Lebanon",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "fara_principal",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 318,
+    "name": "Lenawee County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 319,
+    "name": "Lewis and Clark County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 320,
+    "name": "Lincoln County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 321,
+    "name": "Livingston County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 322,
+    "name": "Lorain County Community College",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 323,
+    "name": "Lord Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 324,
+    "name": "Loreal USA Products",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 325,
+    "name": "Love's Travel Stops & Country Stores, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 326,
+    "name": "Lubrizol Advanced Materials",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 327,
+    "name": "Lyons Village",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 328,
+    "name": "M & T Bank",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_ny"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 329,
+    "name": "M S International",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 330,
+    "name": "M Tek",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 331,
+    "name": "Manchester",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 332,
+    "name": "Manistee County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 333,
+    "name": "Mansfield",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 334,
+    "name": "Materion Brush",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 335,
+    "name": "Mcafee Tool and Die",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 336,
+    "name": "Medford",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 337,
+    "name": "Mediacom Realty, LLC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 338,
+    "name": "Medical University of South Carolina",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "education"
+  },
+  {
+    "rank": 339,
+    "name": "Mercer County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 340,
+    "name": "Mercy Health",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "nursing_home"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 341,
+    "name": "Merrick County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 342,
+    "name": "MetLife",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_ny"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 343,
+    "name": "Metalx",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 344,
+    "name": "Miba Bearings US",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 345,
+    "name": "Millville City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 346,
+    "name": "Minova USA",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 347,
+    "name": "Missoula County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 348,
+    "name": "Momentive Performance Materials",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 349,
+    "name": "Momentive Specialty Chemicals",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 350,
+    "name": "Mongodb",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 351,
+    "name": "Monmouth",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 352,
+    "name": "Monroe County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 353,
+    "name": "Morgan Advanced Ceramics",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 354,
+    "name": "Morris Ridge Solar Energy Center LLC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 355,
+    "name": "Morristown",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 356,
+    "name": "Morton Salt, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 357,
+    "name": "Motorola Solutions Inc",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid_vendor"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 358,
+    "name": "Mount Pleasant City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 359,
+    "name": "Mpw Industrial Services",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 360,
+    "name": "Multnomah County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 361,
+    "name": "NRG Energy, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_ny"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 362,
+    "name": "Nathan Littauer Hospital",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 363,
+    "name": "Native American Community Clinic",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 364,
+    "name": "Neighborhood HealthSource",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 365,
+    "name": "Neshoba County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 366,
+    "name": "Nestle Purina Petcare",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 367,
+    "name": "Nestle Waters North America Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 368,
+    "name": "New York Air Brake LLC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 369,
+    "name": "New York Community Bancorp",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 370,
+    "name": "New York Community Bank",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "oge_trade"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 371,
+    "name": "Niagara Bottling",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 372,
+    "name": "Niles Township",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 373,
+    "name": "Nordson Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 374,
+    "name": "Norfolk Southern Railway",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 375,
+    "name": "North Country Dairy",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 376,
+    "name": "North Jersey Trailer & Truck Service, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 377,
+    "name": "Novelis Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 378,
+    "name": "Nvr",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 379,
+    "name": "Oakwood Healthcare INC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 380,
+    "name": "Oceana County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 381,
+    "name": "Olean General Hospital",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 382,
+    "name": "Omnicare",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "nursing_home"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 383,
+    "name": "Omnisource Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 384,
+    "name": "Omnova Solutions",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 385,
+    "name": "Onslow County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 386,
+    "name": "Orange City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 387,
+    "name": "Ormet Primary Aluminum",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 388,
+    "name": "Overnite Transportation Co",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 389,
+    "name": "Owens Brockway Glass Container",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 390,
+    "name": "Paccar",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 391,
+    "name": "Pactiv",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 392,
+    "name": "Paul smiths College",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 393,
+    "name": "Pcc Airfoils",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 394,
+    "name": "Perth Amboy City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 395,
+    "name": "Pharmavite",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 396,
+    "name": "Phelps Memorial Hospital Center",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 397,
+    "name": "Phillips Edison Company",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 398,
+    "name": "Phillipsburg Town",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 399,
+    "name": "Plainville",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 400,
+    "name": "Plastic Platers",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 401,
+    "name": "Plastipak Packaging",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 402,
+    "name": "Pontotoc County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 403,
+    "name": "Powder River County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 404,
+    "name": "Pratt Industries",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 405,
+    "name": "Precision Gear Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 406,
+    "name": "Preston",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 407,
+    "name": "Prologis",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 408,
+    "name": "Public Storage",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_ny"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 409,
+    "name": "R L Carriers",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 410,
+    "name": "Randolph County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 411,
+    "name": "Real Alloy Recycling",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 412,
+    "name": "Regents of the University of Minnesota",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "education"
+  },
+  {
+    "rank": 413,
+    "name": "Reladyne",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 414,
+    "name": "Renton City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 415,
+    "name": "Resonetics",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 416,
+    "name": "Rich Products Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 417,
+    "name": "Richard Weiner",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "fara",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 418,
+    "name": "Ridgewood Village",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 419,
+    "name": "Roosevelt Elementary",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 420,
+    "name": "Roxbury Township",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 421,
+    "name": "SI Group Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 422,
+    "name": "ST Joseph Medical Center",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "faith_hospital",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 423,
+    "name": "ST Louis County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 424,
+    "name": "Saint Gobain Performance Plastics",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 425,
+    "name": "Sammamish City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 426,
+    "name": "Sanilac County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 427,
+    "name": "Sarepta Therapeutics",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 428,
+    "name": "Saunders County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 429,
+    "name": "Savage",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 430,
+    "name": "Schenectady County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 431,
+    "name": "Schoolcraft County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 432,
+    "name": "Schuyler Hospital, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 433,
+    "name": "Sciegen Pharmaceuticals, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 434,
+    "name": "Science Applications International",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 435,
+    "name": "Scotland",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 436,
+    "name": "Secaucus Town",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 437,
+    "name": "Sectional Stamping",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 438,
+    "name": "Seneca Foods Corp.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 439,
+    "name": "Sherwin Williams",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 440,
+    "name": "Shining Stars Daycare Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 441,
+    "name": "Siemens Energy, Inc.",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 442,
+    "name": "Simpson Manufacturing",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 443,
+    "name": "Skagit County",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 444,
+    "name": "Smurfit Stone Container",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 445,
+    "name": "South Point Village",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 446,
+    "name": "Special Metals Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 447,
+    "name": "Spokane Valley City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 448,
+    "name": "Spring Lake Township",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 449,
+    "name": "Sps Technologies",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 450,
+    "name": "St John's Riverside Hospital",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 451,
+    "name": "St. Joseph's Medical Center",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 452,
+    "name": "St. Luke's Cornwall Hospital",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "hrsa_340b",
+      "ida_ny"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 453,
+    "name": "Standard Register",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 454,
+    "name": "State of Arkansas",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 455,
+    "name": "State of California",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 456,
+    "name": "State of Florida",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 457,
+    "name": "State of Georgia",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 458,
+    "name": "State of Hawaii",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 459,
+    "name": "State of Illinois",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 460,
+    "name": "State of Iowa",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 461,
+    "name": "State of Louisiana",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 462,
+    "name": "State of Maine",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 463,
+    "name": "State of Massachusetts",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 464,
+    "name": "State of Michigan",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 465,
+    "name": "State of Mississippi",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 466,
+    "name": "State of Montana",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 467,
+    "name": "State of Nevada",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 468,
+    "name": "State of New Jersey",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 469,
+    "name": "State of New York",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 470,
+    "name": "State of Ohio",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 471,
+    "name": "State of Oklahoma",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 472,
+    "name": "State of Oregon",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 473,
+    "name": "State of Rhode Island",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 474,
+    "name": "State of South Carolina",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 475,
+    "name": "State of Tennessee",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 476,
+    "name": "State of Texas",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 477,
+    "name": "State of Vermont",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 478,
+    "name": "State of Washington",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "opioid"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 479,
+    "name": "State of Wyoming",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "nursing_home",
+      "opioid"
+    ],
+    "categories": [
+      "money",
+      "patients"
+    ],
+    "category_labels": [
+      "Where did the money go?",
+      "Who's protecting patients?"
+    ],
+    "category_count": 2,
+    "entity_type": "government"
+  },
+  {
+    "rank": 480,
+    "name": "Stone Creek School",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 481,
+    "name": "Stratford",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 482,
+    "name": "Suit-Kote Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 483,
+    "name": "Sun Chemical Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 484,
+    "name": "Sunny Wolf Charter School",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 485,
+    "name": "Sutphen Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 486,
+    "name": "Sylvania City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 487,
+    "name": "Syracuse City",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 488,
+    "name": "Sysco Syracuse, LLC",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 489,
+    "name": "Syscom Advanced Materials",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 490,
+    "name": "Tekni Plex",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 491,
+    "name": "Tenneco",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 492,
+    "name": "Tennessee Gas Pipeline",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 493,
+    "name": "The Andersons",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 494,
+    "name": "The Kroger",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 495,
+    "name": "The Tjx Companies",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "capitol_trade",
+      "ida_oh"
+    ],
+    "categories": [
+      "governing",
+      "money"
+    ],
+    "category_labels": [
+      "Governing Pays",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 496,
+    "name": "Therm O Disc",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 497,
+    "name": "Thomaston",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "opioid",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 498,
+    "name": "Three Lakes Academy",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "charter_school",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 499,
+    "name": "Titanium Metals Corporation",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_oh",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  },
+  {
+    "rank": 500,
+    "name": "Tonawanda Coke",
+    "score": 5,
+    "source_count": 2,
+    "sources": [
+      "ida_ny",
+      "water_epa"
+    ],
+    "categories": [
+      "environment",
+      "money"
+    ],
+    "category_labels": [
+      "Pollution & Enforcement",
+      "Where did the money go?"
+    ],
+    "category_count": 2,
+    "entity_type": "corporate"
+  }
+]

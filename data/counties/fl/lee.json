@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "FL",
+    "state_name": "Florida",
+    "county": "Lee",
+    "county_slug": "lee",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 4.1,
+    "total_exemptions_usd": 227126000.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 540.88,
+    "total_beneficiaries": 27,
+    "num_donor_beneficiaries": 7,
+    "donor_rate_pct": 25.93,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 43,
+    "warn_workers_affected": 0,
+    "warn_notices": 0
+  },
+  "benchmarks": {
+    "state_rank": 6,
+    "state_total_counties": 78,
+    "state_percentile": 92,
+    "state_median_subsidy_usd": 8033000.0,
+    "state_median_donor_rate": 28.09,
+    "state_median_cost_per_hh": 96.46,
+    "subsidy_context": "28.3× the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Lee County ranks 6th out of 78 Florida counties for total tax exemptions, with $227.1M in property tax breaks — 28.3× the state median. 26% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $541.",
+    "subsidy_context": "28.3× the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

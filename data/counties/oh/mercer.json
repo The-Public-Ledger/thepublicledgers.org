@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Mercer",
+    "county_slug": "mercer",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 10.2,
+    "total_exemptions_usd": 6916311.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 3009.99,
+    "total_beneficiaries": 10,
+    "num_donor_beneficiaries": 3,
+    "donor_rate_pct": 30.0,
+    "total_donations_usd": 57047.13,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 53872812.82,
+    "households": 17898,
+    "bundling_clusters": 4,
+    "round_trips": 5,
+    "multi_dippers": 3,
+    "num_awards": 23
+  },
+  "benchmarks": {
+    "state_rank": 35,
+    "state_total_counties": 88,
+    "state_percentile": 60,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "above the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Mercer County ranks 35th out of 88 Ohio counties for total tax exemptions, with $6.9M in property tax breaks — above the state median. 30% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $3,010.",
+    "subsidy_context": "above the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

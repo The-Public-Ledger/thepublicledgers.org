@@ -1,0 +1,353 @@
+{{ define "main" }}
+{{ $idx := site.Data.accountability.index }}
+{{ $entities := site.Data.accountability.entities }}
+<article class="section">
+  <div class="container">
+    <header class="page-header">
+      <span class="section-label">Cross-Investigation Intelligence</span>
+      <h1>{{ .Title }}</h1>
+      <p class="lead">{{ .Description }}</p>
+      <p class="data-updated">Data generated {{ $idx.generated }} from {{ $idx.total_hub_entities | lang.FormatNumber 0 }} entity hub records across 13 investigation sources.</p>
+    </header>
+
+    {{/* ── Headline stats ──────────────────────────────────────────── */}}
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-card__value">{{ $idx.indexed_entities | lang.FormatNumber 0 }}</div>
+        <div class="stat-card__label">Entities in 2+ investigations</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">{{ $idx.max_score }}</div>
+        <div class="stat-card__label">Highest accountability score</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">{{ $idx.avg_score }}</div>
+        <div class="stat-card__label">Average score</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">13</div>
+        <div class="stat-card__label">Investigation sources</div>
+      </div>
+    </div>
+
+    {{/* ── Category breakdown ──────────────────────────────────────── */}}
+    <section class="ai-categories" aria-labelledby="ai-cat-title">
+      <h2 id="ai-cat-title">Entities by investigation category</h2>
+      <div class="ai-cat-grid">
+        {{ $cats := $idx.entities_by_category }}
+        <div class="ai-cat-card ai-cat-card--money">
+          <div class="ai-cat-card__count">{{ index $cats "money" | lang.FormatNumber 0 }}</div>
+          <div class="ai-cat-card__label">Where did the money go?</div>
+          <div class="ai-cat-card__desc">IDA subsidies, opioid settlements, opioid vendors</div>
+        </div>
+        <div class="ai-cat-card ai-cat-card--patients">
+          <div class="ai-cat-card__count">{{ index $cats "patients" | lang.FormatNumber 0 }}</div>
+          <div class="ai-cat-card__label">Who's protecting patients?</div>
+          <div class="ai-cat-card__desc">Nursing homes, faith hospitals, HRSA 340B</div>
+        </div>
+        <div class="ai-cat-card ai-cat-card--environment">
+          <div class="ai-cat-card__count">{{ index $cats "environment" | lang.FormatNumber 0 }}</div>
+          <div class="ai-cat-card__label">Pollution &amp; Enforcement</div>
+          <div class="ai-cat-card__desc">EPA water violations, environmental justice</div>
+        </div>
+        <div class="ai-cat-card ai-cat-card--governing">
+          <div class="ai-cat-card__count">{{ index $cats "governing" | lang.FormatNumber 0 }}</div>
+          <div class="ai-cat-card__label">Governing Pays</div>
+          <div class="ai-cat-card__desc">OGE trades, Capitol Trades, FARA registrants</div>
+        </div>
+      </div>
+    </section>
+
+    {{/* ── Top entities table ──────────────────────────────────────── */}}
+    <section class="ai-top" aria-labelledby="ai-top-title">
+      <h2 id="ai-top-title">Highest-scoring entities</h2>
+      <p class="data-tab-description">Entities scored by investigation breadth, category diversity, and public money exposure. <a href="#methodology">See scoring methodology</a>.</p>
+
+      <div class="data-controls">
+        <div class="data-control-group">
+          <label for="ai-cat-filter">Category</label>
+          <select id="ai-cat-filter">
+            <option value="">All categories</option>
+            <option value="money">Where did the money go?</option>
+            <option value="patients">Who's protecting patients?</option>
+            <option value="environment">Pollution &amp; Enforcement</option>
+            <option value="governing">Governing Pays</option>
+          </select>
+        </div>
+        <div class="data-control-group">
+          <label for="ai-type-filter">Entity type</label>
+          <select id="ai-type-filter">
+            <option value="">All types</option>
+            <option value="corporate">Corporate</option>
+            <option value="government">Government</option>
+            <option value="education">Education</option>
+            <option value="foreign_gov">Foreign government</option>
+          </select>
+        </div>
+        <div class="data-control-group">
+          <label for="ai-search">Search</label>
+          <input type="text" id="ai-search" placeholder="Search entities...">
+        </div>
+        <div class="data-control-group data-control-meta">
+          <span id="ai-count" role="status" aria-live="polite"></span>
+          <a href="/data/accountability_entities.csv" class="btn btn--secondary btn--sm" aria-label="Download full CSV">Download CSV</a>
+        </div>
+      </div>
+
+      <div class="data-table-wrapper">
+        <table id="ai-table" class="data-table">
+          <caption class="sr-only">Accountability Index entities ranked by score</caption>
+          <thead>
+            <tr>
+              <th scope="col" class="ai-th-sortable" data-sort="rank" aria-sort="ascending">#</th>
+              <th scope="col" class="ai-th-sortable" data-sort="name">Entity</th>
+              <th scope="col" class="ai-th-sortable" data-sort="score">Score</th>
+              <th scope="col" class="ai-th-sortable" data-sort="source_count">Sources</th>
+              <th scope="col" class="ai-th-sortable" data-sort="category_count">Categories</th>
+              <th scope="col">Investigation categories</th>
+              <th scope="col" class="ai-th-sortable" data-sort="entity_type">Type</th>
+            </tr>
+          </thead>
+          <tbody id="ai-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    {{/* ── Methodology ─────────────────────────────────────────────── */}}
+    <section class="ai-methodology" id="methodology" aria-labelledby="ai-method-title">
+      <h2 id="ai-method-title">Scoring methodology</h2>
+      <div class="context-callout">
+        <p>The accountability score measures cross-investigation visibility, not wrongdoing. A high score means the entity appears across multiple public record datasets spanning different accountability domains.</p>
+      </div>
+      <div class="ai-method-grid">
+        <div class="ai-method-item">
+          <div class="ai-method-item__score">+1</div>
+          <div class="ai-method-item__desc">
+            <strong>Base score</strong>
+            <span>Per investigation appearance</span>
+          </div>
+        </div>
+        <div class="ai-method-item">
+          <div class="ai-method-item__score">+2</div>
+          <div class="ai-method-item__desc">
+            <strong>Category breadth</strong>
+            <span>For each category beyond the first</span>
+          </div>
+        </div>
+        <div class="ai-method-item">
+          <div class="ai-method-item__score">+3</div>
+          <div class="ai-method-item__desc">
+            <strong>Cross-domain bonus</strong>
+            <span>If entity spans all 4 categories</span>
+          </div>
+        </div>
+        <div class="ai-method-item">
+          <div class="ai-method-item__score">+1</div>
+          <div class="ai-method-item__desc">
+            <strong>Public money weight</strong>
+            <span>Per money-category investigation appearance</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {{/* ── Content (from _index.md) ────────────────────────────────── */}}
+    <div class="content mt-8">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+
+<script>
+(function() {
+  var DATA_URL = '/data/accountability_entities.csv';
+  var allRows = [];
+  var sortKey = 'rank';
+  var sortAsc = true;
+  var debounceTimer = null;
+
+  function fetchCSV(url, cb) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url);
+    xhr.onload = function() {
+      if (xhr.status === 200) cb(parseCSV(xhr.responseText));
+    };
+    xhr.send();
+  }
+
+  function parseCSV(text) {
+    var lines = text.trim().split('\n');
+    if (lines.length < 2) return [];
+    var headers = parseCSVLine(lines[0]);
+    var rows = [];
+    for (var i = 1; i < lines.length; i++) {
+      if (!lines[i].trim()) continue;
+      var vals = parseCSVLine(lines[i]);
+      var row = {};
+      for (var j = 0; j < headers.length; j++) {
+        row[headers[j]] = vals[j] || '';
+      }
+      rows.push(row);
+    }
+    return rows;
+  }
+
+  function parseCSVLine(line) {
+    line = line.replace(/\r$/, '');
+    var fields = [];
+    var field = '';
+    var inQuotes = false;
+    for (var i = 0; i < line.length; i++) {
+      var ch = line[i];
+      if (inQuotes) {
+        if (ch === '"') {
+          if (i + 1 < line.length && line[i + 1] === '"') {
+            field += '"';
+            i++;
+          } else {
+            inQuotes = false;
+          }
+        } else {
+          field += ch;
+        }
+      } else {
+        if (ch === '"') {
+          inQuotes = true;
+        } else if (ch === ',') {
+          fields.push(field);
+          field = '';
+        } else {
+          field += ch;
+        }
+      }
+    }
+    fields.push(field);
+    return fields;
+  }
+
+  function render(rows) {
+    var tbody = document.getElementById('ai-tbody');
+    var count = document.getElementById('ai-count');
+    var html = '';
+    var limit = Math.min(rows.length, 500);
+    for (var i = 0; i < limit; i++) {
+      var r = rows[i];
+      var cats = (r.categories || '').split('; ');
+      var catHTML = '';
+      for (var c = 0; c < cats.length; c++) {
+        var cls = catClass(cats[c]);
+        catHTML += '<span class="ai-cat-tag ai-cat-tag--' + cls + '">' + escHTML(cats[c]) + '</span> ';
+      }
+      var typeLabel = typeDisplay(r.entity_type || 'corporate');
+      html += '<tr>' +
+        '<td>' + escHTML(r.rank) + '</td>' +
+        '<td class="ai-entity-name">' + escHTML(r.name) + '</td>' +
+        '<td class="ai-score">' + escHTML(r.score) + '</td>' +
+        '<td>' + escHTML(r.source_count) + '</td>' +
+        '<td>' + escHTML(r.category_count) + '</td>' +
+        '<td>' + catHTML + '</td>' +
+        '<td><span class="ai-type-tag ai-type-tag--' + escHTML(r.entity_type || 'corporate') + '">' + typeLabel + '</span></td>' +
+        '</tr>';
+    }
+    tbody.innerHTML = html;
+    count.textContent = rows.length + ' entities' + (rows.length < allRows.length ? ' (filtered)' : '');
+  }
+
+  function catClass(label) {
+    if (label.indexOf('money') >= 0) return 'money';
+    if (label.indexOf('patient') >= 0 || label.indexOf('Patient') >= 0) return 'patients';
+    if (label.indexOf('Pollution') >= 0 || label.indexOf('environment') >= 0) return 'environment';
+    if (label.indexOf('Governing') >= 0) return 'governing';
+    return 'other';
+  }
+
+  function escHTML(s) {
+    if (!s) return '';
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function typeDisplay(t) {
+    var map = { corporate: 'Corporate', government: 'Government', education: 'Education', foreign_gov: 'Foreign Gov' };
+    return map[t] || t;
+  }
+
+  function filter() {
+    var cat = document.getElementById('ai-cat-filter').value;
+    var typeFilter = document.getElementById('ai-type-filter').value;
+    var search = document.getElementById('ai-search').value.toLowerCase();
+    var filtered = allRows;
+    if (cat) {
+      filtered = filtered.filter(function(r) {
+        return (r.categories || '').toLowerCase().indexOf(cat) >= 0;
+      });
+    }
+    if (typeFilter) {
+      filtered = filtered.filter(function(r) {
+        return (r.entity_type || '') === typeFilter;
+      });
+    }
+    if (search) {
+      filtered = filtered.filter(function(r) {
+        return (r.name || '').toLowerCase().indexOf(search) >= 0;
+      });
+    }
+    filtered = sortRows(filtered);
+    render(filtered);
+  }
+
+  function sortRows(rows) {
+    var key = sortKey;
+    var asc = sortAsc;
+    return rows.slice().sort(function(a, b) {
+      var va = a[key] || '';
+      var vb = b[key] || '';
+      if (key === 'rank' || key === 'score' || key === 'source_count' || key === 'category_count') {
+        va = parseFloat(va) || 0;
+        vb = parseFloat(vb) || 0;
+      }
+      if (va < vb) return asc ? -1 : 1;
+      if (va > vb) return asc ? 1 : -1;
+      return 0;
+    });
+  }
+
+  // Sort headers
+  var ths = document.querySelectorAll('.ai-th-sortable');
+  for (var t = 0; t < ths.length; t++) {
+    (function(th) {
+      th.style.cursor = 'pointer';
+      th.setAttribute('role', 'button');
+      th.setAttribute('tabindex', '0');
+      th.addEventListener('click', function() { doSort(th); });
+      th.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); doSort(th); }
+      });
+    })(ths[t]);
+  }
+
+  function doSort(th) {
+    var key = th.getAttribute('data-sort');
+    if (sortKey === key) { sortAsc = !sortAsc; } else { sortKey = key; sortAsc = true; }
+    // Update aria-sort
+    for (var i = 0; i < ths.length; i++) ths[i].removeAttribute('aria-sort');
+    th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+    filter();
+    th.focus();
+  }
+
+  // Filter events
+  document.getElementById('ai-cat-filter').addEventListener('change', filter);
+  document.getElementById('ai-type-filter').addEventListener('change', filter);
+  document.getElementById('ai-search').addEventListener('input', function() {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(filter, 300);
+  });
+
+  // Load data
+  fetchCSV(DATA_URL, function(rows) {
+    allRows = rows;
+    render(rows);
+  });
+})();
+</script>
+{{ end }}

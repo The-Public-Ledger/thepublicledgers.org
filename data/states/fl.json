@@ -1,0 +1,755 @@
+{
+  "meta": {
+    "state": "FL",
+    "state_name": "Florida",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First",
+      "Accountability Project S3",
+      "SunBiz",
+      "FL OTTED",
+      "FL lobbying"
+    ],
+    "coverage": {
+      "counties_total": 67,
+      "counties_with_data": 67,
+      "crossref_complete": true,
+      "deals_count": 3678,
+      "contributions_matched": 1329
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 7881244633.0,
+    "total_beneficiaries": 3678,
+    "total_donations_usd": 124068432.7,
+    "pct_beneficiaries_donating": 0.3613,
+    "matched_donors": 1329
+  },
+  "top_findings": [
+    "1,329 of 3,678 subsidized companies (36.1%) made campaign donations — $124.1M total.",
+    "$208.5M in donations flowed from beneficiaries to 3,711 political committees. Top recipient: Republican Party of Florida (PTY) ($45.5M).",
+    "2 companies showed statistically significant pre-award donation spikes (BH-corrected, q<0.05). Top: CHICO S FAS (0.0× baseline, z=0.0).",
+    "$7.88B in total subsidies tracked across 3,678 beneficiary companies in Florida."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 208466622.6,
+    "num_committees_receiving": 3711,
+    "top_committee_name": "Republican Party of Florida (PTY)",
+    "top_committee_amount": 45533980.3,
+    "top_committee_pct": 5.8
+  },
+  "timeline_stats": {
+    "total_spikes": 3,
+    "bh_sig_count": 2,
+    "top_spike_name": "CHICO S FAS",
+    "top_spike_z": 0.0,
+    "top_spike_ratio": 0.0,
+    "top_spike_subsidy": 7303160.0
+  },
+  "counties": [
+    {
+      "name": "Brevard",
+      "slug": "brevard",
+      "score": 4.4,
+      "total_exemptions_usd": 1202518167.0,
+      "cost_per_household_usd": 4142.13,
+      "total_beneficiaries": 101,
+      "num_awards": 121
+    },
+    {
+      "name": "Duval",
+      "slug": "duval",
+      "score": 4.4,
+      "total_exemptions_usd": 232544240.0,
+      "cost_per_household_usd": 531.74,
+      "total_beneficiaries": 124,
+      "num_awards": 161
+    },
+    {
+      "name": "Escambia",
+      "slug": "escambia",
+      "score": 4.4,
+      "total_exemptions_usd": 53432200.0,
+      "cost_per_household_usd": 365.67,
+      "total_beneficiaries": 27,
+      "num_awards": 41
+    },
+    {
+      "name": "Hillsborough",
+      "slug": "hillsborough",
+      "score": 4.4,
+      "total_exemptions_usd": 195100900.0,
+      "cost_per_household_usd": 321.77,
+      "total_beneficiaries": 168,
+      "num_awards": 205
+    },
+    {
+      "name": "Orange",
+      "slug": "orange",
+      "score": 4.4,
+      "total_exemptions_usd": 2066212836.0,
+      "cost_per_household_usd": 3656.31,
+      "total_beneficiaries": 163,
+      "num_awards": 191
+    },
+    {
+      "name": "Palm Beach",
+      "slug": "palm-beach",
+      "score": 4.4,
+      "total_exemptions_usd": 2072557086.0,
+      "cost_per_household_usd": 2926.09,
+      "total_beneficiaries": 84,
+      "num_awards": 101
+    },
+    {
+      "name": "Broward",
+      "slug": "broward",
+      "score": 4.2,
+      "total_exemptions_usd": 80886645.5,
+      "cost_per_household_usd": 94.1,
+      "total_beneficiaries": 122,
+      "num_awards": 135
+    },
+    {
+      "name": "Miami Dade",
+      "slug": "miami-dade",
+      "score": 4.2,
+      "total_exemptions_usd": 174147300.0,
+      "cost_per_household_usd": 161.96,
+      "total_beneficiaries": 113,
+      "num_awards": 121
+    },
+    {
+      "name": "Pinellas",
+      "slug": "pinellas",
+      "score": 4.2,
+      "total_exemptions_usd": 142620287.0,
+      "cost_per_household_usd": 276.25,
+      "total_beneficiaries": 120,
+      "num_awards": 143
+    },
+    {
+      "name": "Seminole",
+      "slug": "seminole",
+      "score": 4.2,
+      "total_exemptions_usd": 31319000.0,
+      "cost_per_household_usd": 160.82,
+      "total_beneficiaries": 47,
+      "num_awards": 55
+    },
+    {
+      "name": "Volusia",
+      "slug": "volusia",
+      "score": 4.2,
+      "total_exemptions_usd": 57288000.0,
+      "cost_per_household_usd": 209.21,
+      "total_beneficiaries": 59,
+      "num_awards": 68
+    },
+    {
+      "name": "Lee",
+      "slug": "lee",
+      "score": 4.1,
+      "total_exemptions_usd": 227126000.0,
+      "cost_per_household_usd": 540.88,
+      "total_beneficiaries": 27,
+      "num_awards": 43
+    },
+    {
+      "name": "St Lucie",
+      "slug": "st-lucie",
+      "score": 4.1,
+      "total_exemptions_usd": 763381000.0,
+      "cost_per_household_usd": 5087.38,
+      "total_beneficiaries": 21,
+      "num_awards": 26
+    },
+    {
+      "name": "Pasco",
+      "slug": "pasco",
+      "score": 3.9,
+      "total_exemptions_usd": 44027300.0,
+      "cost_per_household_usd": 169.94,
+      "total_beneficiaries": 25,
+      "num_awards": 31
+    },
+    {
+      "name": "Flagler",
+      "slug": "flagler",
+      "score": 3.75,
+      "total_exemptions_usd": 16708500.0,
+      "cost_per_household_usd": 296.64,
+      "total_beneficiaries": 16,
+      "num_awards": 17
+    },
+    {
+      "name": "Manatee",
+      "slug": "manatee",
+      "score": 3.65,
+      "total_exemptions_usd": 15544500.0,
+      "cost_per_household_usd": 74.6,
+      "total_beneficiaries": 33,
+      "num_awards": 36
+    },
+    {
+      "name": "Polk",
+      "slug": "polk",
+      "score": 3.65,
+      "total_exemptions_usd": 26501700.0,
+      "cost_per_household_usd": 82.81,
+      "total_beneficiaries": 51,
+      "num_awards": 68
+    },
+    {
+      "name": "Alachua",
+      "slug": "alachua",
+      "score": 3.55,
+      "total_exemptions_usd": 12229500.0,
+      "cost_per_household_usd": 98.82,
+      "total_beneficiaries": 21,
+      "num_awards": 25
+    },
+    {
+      "name": "Bay",
+      "slug": "bay",
+      "score": 3.55,
+      "total_exemptions_usd": 14210000.0,
+      "cost_per_household_usd": 136.07,
+      "total_beneficiaries": 21,
+      "num_awards": 28
+    },
+    {
+      "name": "Okaloosa",
+      "slug": "okaloosa",
+      "score": 3.55,
+      "total_exemptions_usd": 14094060.0,
+      "cost_per_household_usd": 138.98,
+      "total_beneficiaries": 16,
+      "num_awards": 23
+    },
+    {
+      "name": "Santa Rosa",
+      "slug": "santa-rosa",
+      "score": 3.55,
+      "total_exemptions_usd": 12882000.0,
+      "cost_per_household_usd": 168.21,
+      "total_beneficiaries": 16,
+      "num_awards": 19
+    },
+    {
+      "name": "Jackson",
+      "slug": "jackson",
+      "score": 3.4,
+      "total_exemptions_usd": 6805000.0,
+      "cost_per_household_usd": 339.88,
+      "total_beneficiaries": 8,
+      "num_awards": 16
+    },
+    {
+      "name": "Collier",
+      "slug": "collier",
+      "score": 3.35,
+      "total_exemptions_usd": 13051000.0,
+      "cost_per_household_usd": 56.79,
+      "total_beneficiaries": 11,
+      "num_awards": 13
+    },
+    {
+      "name": "Leon",
+      "slug": "leon",
+      "score": 3.35,
+      "total_exemptions_usd": 9759000.0,
+      "cost_per_household_usd": 72.77,
+      "total_beneficiaries": 13,
+      "num_awards": 15
+    },
+    {
+      "name": "Marion",
+      "slug": "marion",
+      "score": 3.35,
+      "total_exemptions_usd": 12535000.0,
+      "cost_per_household_usd": 70.0,
+      "total_beneficiaries": 24,
+      "num_awards": 35
+    },
+    {
+      "name": "Osceola",
+      "slug": "osceola",
+      "score": 3.35,
+      "total_exemptions_usd": 11863000.0,
+      "cost_per_household_usd": 75.57,
+      "total_beneficiaries": 23,
+      "num_awards": 25
+    },
+    {
+      "name": "St Johns",
+      "slug": "st-johns",
+      "score": 3.35,
+      "total_exemptions_usd": 9089000.0,
+      "cost_per_household_usd": 75.17,
+      "total_beneficiaries": 14,
+      "num_awards": 19
+    },
+    {
+      "name": "Dade",
+      "slug": "dade",
+      "score": 3.3,
+      "total_exemptions_usd": 225159969.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 8,
+      "num_awards": 15
+    },
+    {
+      "name": "Highlands",
+      "slug": "highlands",
+      "score": 3.25,
+      "total_exemptions_usd": 8899500.0,
+      "cost_per_household_usd": 154.49,
+      "total_beneficiaries": 8,
+      "num_awards": 13
+    },
+    {
+      "name": "Indian River",
+      "slug": "indian-river",
+      "score": 3.25,
+      "total_exemptions_usd": 16698920.0,
+      "cost_per_household_usd": 199.27,
+      "total_beneficiaries": 9,
+      "num_awards": 9
+    },
+    {
+      "name": "Columbia",
+      "slug": "columbia",
+      "score": 3.2,
+      "total_exemptions_usd": 7395900.0,
+      "cost_per_household_usd": 247.89,
+      "total_beneficiaries": 11,
+      "num_awards": 18
+    },
+    {
+      "name": "Okeechobee",
+      "slug": "okeechobee",
+      "score": 3.15,
+      "total_exemptions_usd": 15168000.0,
+      "cost_per_household_usd": 820.07,
+      "total_beneficiaries": 3,
+      "num_awards": 5
+    },
+    {
+      "name": "Taylor",
+      "slug": "taylor",
+      "score": 3.15,
+      "total_exemptions_usd": 18502000.0,
+      "cost_per_household_usd": 1665.35,
+      "total_beneficiaries": 11,
+      "num_awards": 11
+    },
+    {
+      "name": "Sarasota",
+      "slug": "sarasota",
+      "score": 3.1,
+      "total_exemptions_usd": 8033000.0,
+      "cost_per_household_usd": 31.55,
+      "total_beneficiaries": 29,
+      "num_awards": 31
+    },
+    {
+      "name": "Hamilton",
+      "slug": "hamilton",
+      "score": 2.8,
+      "total_exemptions_usd": 3687500.0,
+      "cost_per_household_usd": 654.97,
+      "total_beneficiaries": 5,
+      "num_awards": 6
+    },
+    {
+      "name": "Hernando",
+      "slug": "hernando",
+      "score": 2.8,
+      "total_exemptions_usd": 3244000.0,
+      "cost_per_household_usd": 36.19,
+      "total_beneficiaries": 12,
+      "num_awards": 16
+    },
+    {
+      "name": "Clay",
+      "slug": "clay",
+      "score": 2.7,
+      "total_exemptions_usd": 4795500.0,
+      "cost_per_household_usd": 56.03,
+      "total_beneficiaries": 11,
+      "num_awards": 18
+    },
+    {
+      "name": "Nassau",
+      "slug": "nassau",
+      "score": 2.7,
+      "total_exemptions_usd": 2588400.0,
+      "cost_per_household_usd": 61.45,
+      "total_beneficiaries": 7,
+      "num_awards": 9
+    },
+    {
+      "name": "Putnam",
+      "slug": "putnam",
+      "score": 2.7,
+      "total_exemptions_usd": 3177600.0,
+      "cost_per_household_usd": 87.82,
+      "total_beneficiaries": 3,
+      "num_awards": 6
+    },
+    {
+      "name": "Charlotte",
+      "slug": "charlotte",
+      "score": 2.5,
+      "total_exemptions_usd": 2251000.0,
+      "cost_per_household_usd": 20.22,
+      "total_beneficiaries": 9,
+      "num_awards": 11
+    },
+    {
+      "name": "Madison",
+      "slug": "madison",
+      "score": 2.5,
+      "total_exemptions_usd": 6130000.0,
+      "cost_per_household_usd": 733.08,
+      "total_beneficiaries": 4,
+      "num_awards": 4
+    },
+    {
+      "name": "Suwannee",
+      "slug": "suwannee",
+      "score": 2.5,
+      "total_exemptions_usd": 7848500.0,
+      "cost_per_household_usd": 414.21,
+      "total_beneficiaries": 7,
+      "num_awards": 8
+    },
+    {
+      "name": "Martin",
+      "slug": "martin",
+      "score": 2.4,
+      "total_exemptions_usd": 6465000.0,
+      "cost_per_household_usd": 79.23,
+      "total_beneficiaries": 4,
+      "num_awards": 4
+    },
+    {
+      "name": "Gadsden",
+      "slug": "gadsden",
+      "score": 2.35,
+      "total_exemptions_usd": 1570000.0,
+      "cost_per_household_usd": 82.87,
+      "total_beneficiaries": 5,
+      "num_awards": 7
+    },
+    {
+      "name": "Desoto",
+      "slug": "desoto",
+      "score": 2.3,
+      "total_exemptions_usd": 3470400.0,
+      "cost_per_household_usd": 222.93,
+      "total_beneficiaries": 2,
+      "num_awards": 3
+    },
+    {
+      "name": "Gulf",
+      "slug": "gulf",
+      "score": 2.25,
+      "total_exemptions_usd": 1096000.0,
+      "cost_per_household_usd": 121.99,
+      "total_beneficiaries": 3,
+      "num_awards": 5
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "score": 2.25,
+      "total_exemptions_usd": 1236000.0,
+      "cost_per_household_usd": 113.67,
+      "total_beneficiaries": 2,
+      "num_awards": 6
+    },
+    {
+      "name": "Hendry",
+      "slug": "hendry",
+      "score": 2.05,
+      "total_exemptions_usd": 1113600.0,
+      "cost_per_household_usd": 73.13,
+      "total_beneficiaries": 3,
+      "num_awards": 3
+    },
+    {
+      "name": "Orlando",
+      "slug": "orlando",
+      "score": 2.0,
+      "total_exemptions_usd": 4764177.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Citrus",
+      "slug": "citrus",
+      "score": 1.85,
+      "total_exemptions_usd": 712500.0,
+      "cost_per_household_usd": 8.67,
+      "total_beneficiaries": 1,
+      "num_awards": 2
+    },
+    {
+      "name": "Holmes",
+      "slug": "holmes",
+      "score": 1.85,
+      "total_exemptions_usd": 120000.0,
+      "cost_per_household_usd": 13.9,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin",
+      "score": 1.75,
+      "total_exemptions_usd": 420000.0,
+      "cost_per_household_usd": 49.91,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Glades",
+      "slug": "glades",
+      "score": 1.75,
+      "total_exemptions_usd": 392800.0,
+      "cost_per_household_usd": 59.93,
+      "total_beneficiaries": 2,
+      "num_awards": 2
+    },
+    {
+      "name": "Miami",
+      "slug": "miami",
+      "score": 1.7,
+      "total_exemptions_usd": 3380645.5,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Baker",
+      "slug": "baker",
+      "score": 1.55,
+      "total_exemptions_usd": 426000.0,
+      "cost_per_household_usd": 43.07,
+      "total_beneficiaries": 2,
+      "num_awards": 4
+    },
+    {
+      "name": "Dixie",
+      "slug": "dixie",
+      "score": 1.55,
+      "total_exemptions_usd": 312000.0,
+      "cost_per_household_usd": 33.53,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Gilchrist",
+      "slug": "gilchrist",
+      "score": 1.55,
+      "total_exemptions_usd": 240000.0,
+      "cost_per_household_usd": 31.67,
+      "total_beneficiaries": 1,
+      "num_awards": 3
+    },
+    {
+      "name": "Hardee",
+      "slug": "hardee",
+      "score": 1.55,
+      "total_exemptions_usd": 212500.0,
+      "cost_per_household_usd": 21.6,
+      "total_beneficiaries": 2,
+      "num_awards": 2
+    },
+    {
+      "name": "Lake",
+      "slug": "lake",
+      "score": 1.55,
+      "total_exemptions_usd": 125000.0,
+      "cost_per_household_usd": 0.7,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Levy",
+      "slug": "levy",
+      "score": 1.55,
+      "total_exemptions_usd": 512000.0,
+      "cost_per_household_usd": 24.41,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Sumter",
+      "slug": "sumter",
+      "score": 1.55,
+      "total_exemptions_usd": 1620000.0,
+      "cost_per_household_usd": 21.06,
+      "total_beneficiaries": 2,
+      "num_awards": 2
+    },
+    {
+      "name": "Walton",
+      "slug": "walton",
+      "score": 1.55,
+      "total_exemptions_usd": 971000.0,
+      "cost_per_household_usd": 17.11,
+      "total_beneficiaries": 6,
+      "num_awards": 8
+    },
+    {
+      "name": "Calhoun",
+      "slug": "calhoun",
+      "score": 1.5,
+      "total_exemptions_usd": 72000.0,
+      "cost_per_household_usd": 12.68,
+      "total_beneficiaries": 1,
+      "num_awards": 2
+    },
+    {
+      "name": "Statewide",
+      "slug": "statewide",
+      "score": 1.3,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Bradford",
+      "slug": "bradford",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "Brevard St Johns",
+      "slug": "brevard-st-johns",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Jefferson",
+      "slug": "jefferson",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Lafayette",
+      "slug": "lafayette",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Liberty",
+      "slug": "liberty",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Miami-Dade",
+      "slug": "miami-dade",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Monroe",
+      "slug": "monroe",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Nassau Or Columbia",
+      "slug": "nassau-or-columbia",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Osceola Or Orange",
+      "slug": "osceola-or-orange",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Saint Lucie",
+      "slug": "saint-lucie",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "St. Johns",
+      "slug": "st-johns",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "St. Lucie",
+      "slug": "st-lucie",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Union",
+      "slug": "union",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "Wakulla",
+      "slug": "wakulla",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    }
+  ]
+}

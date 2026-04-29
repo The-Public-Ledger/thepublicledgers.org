@@ -1,0 +1,41 @@
+{{ define "main" }}
+<article class="section">
+  <div class="container">
+    <header class="page-header">
+      <span class="section-label">Investigations</span>
+      <h1>{{ .Title }}</h1>
+      <p class="lead">{{ .Description }}</p>
+      <p class="hub-intro__note">Status indicates publication readiness. <strong>Published</strong> investigations are complete and peer-reviewed. <strong>In Progress</strong> investigations are actively being built from public records.</p>
+    </header>
+
+    <div class="deep-dive-grid">
+      {{ range .Pages.ByDate.Reverse }}
+      {{ if not .Draft }}
+      {{ $slug := .Params.deep_dive_slug }}
+      {{ $data := index site.Data.deep_dives $slug }}
+      <a href="{{ .Permalink }}" class="deep-dive-card deep-dive-card--{{ .Params.status }}">
+        <div class="deep-dive-card__header">
+          <span class="section-label">Deep Dive</span>
+          {{ with .Params.status }}{{ partial "status-badge.html" . }}{{ end }}
+        </div>
+        <h2 class="deep-dive-card__title">{{ .Title }}</h2>
+        <p class="deep-dive-card__description">{{ .Description }}</p>
+        {{ if and $data $data.top_findings }}
+        <div class="deep-dive-card__stats">
+          {{ range first 2 $data.top_findings }}
+          <div class="deep-dive-card__finding">{{ . }}</div>
+          {{ end }}
+        </div>
+        {{ end }}
+        <span class="deep-dive-card__cta">Read investigation →</span>
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="content mt-8">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+{{ end }}

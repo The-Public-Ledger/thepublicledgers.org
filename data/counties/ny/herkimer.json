@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Herkimer",
+    "county_slug": "herkimer",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 46.65,
+    "total_exemptions_usd": 47064060.54,
+    "net_exemptions_usd": 33988840.69,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 53,
+    "num_donor_beneficiaries": 11,
+    "donor_rate_pct": 20.75,
+    "total_donations_usd": 32960.42,
+    "jobs_promised": 12253,
+    "jobs_current": 11761,
+    "total_projects": 187,
+    "num_officials_receiving": 6,
+    "official_total_received_usd": 4097.58,
+    "num_pipelines": 8
+  },
+  "benchmarks": {
+    "state_rank": 48,
+    "state_total_counties": 104,
+    "state_percentile": 54,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "near the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Herkimer County ranks 48th out of 104 New York counties for total tax exemptions, with $47.1M in property tax breaks — near the state median. 21% of subsidy recipients donated to local officials.",
+    "subsidy_context": "near the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

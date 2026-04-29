@@ -1,0 +1,105 @@
+baseURL = 'https://thepublicledgers.org/'
+languageCode = 'en-us'
+title = 'The Public Ledgers'
+
+[params]
+  description = 'Independent data journalism tracking public money, corporate influence, and government accountability through public records.'
+  tagline = 'Following the money through public records'
+  version = 'v1.3.0'
+  # formspreeId = ''
+  googleAnalyticsId = 'G-JN2882LHD9'
+
+[menu]
+  [[menu.main]]
+    identifier = 'investigations'
+    name = 'Investigations'
+    url = '/investigations/'
+    weight = 1
+  [[menu.main]]
+    identifier = 'ida'
+    name = 'Subsidies'
+    url = '/ida/'
+    weight = 2
+  [[menu.main]]
+    identifier = 'data'
+    name = 'Data'
+    url = '/data/'
+    weight = 3
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    url = '/about/'
+    weight = 4
+  [[menu.main]]
+    identifier = 'accountability'
+    name = 'Accountability Index'
+    url = '/accountability/'
+    weight = 5
+  [[menu.main]]
+    identifier = 'search'
+    name = 'Search'
+    url = '/search/'
+    weight = 6
+
+  [[menu.footer]]
+    identifier = 'methodology'
+    name = 'Methodology'
+    url = '/methodology/'
+    weight = 1
+  [[menu.footer]]
+    identifier = 'corrections'
+    name = 'Corrections'
+    url = '/corrections/'
+    weight = 2
+  [[menu.footer]]
+    identifier = 'standards'
+    name = 'Editorial Standards'
+    url = '/standards/'
+    weight = 3
+  [[menu.footer]]
+    identifier = 'ethics'
+    name = 'Ethics'
+    url = '/ethics/'
+    weight = 4
+  [[menu.footer]]
+    identifier = 'legal'
+    name = 'Legal'
+    url = '/legal/'
+    weight = 5
+  [[menu.footer]]
+    identifier = 'contact'
+    name = 'Contact'
+    url = '/contact/'
+    weight = 6
+  [[menu.footer]]
+    identifier = 'privacy'
+    name = 'Privacy'
+    url = '/privacy/'
+    weight = 7
+  [[menu.footer]]
+    identifier = 'support'
+    name = 'Support This Work'
+    url = '/support/'
+    weight = 8
+
+[taxonomies]
+  tag = 'tags'
+
+[outputs]
+  home = ['HTML', 'RSS']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+  [[related.indices]]
+    name = 'tags'
+    weight = 80
+  [[related.indices]]
+    name = 'date'
+    weight = 10

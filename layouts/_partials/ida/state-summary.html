@@ -1,0 +1,37 @@
+{{/* state-summary.html — Plain-language narrative summary for state dashboard.
+     Reads from .summary_stats and .meta in state JSON. */}}
+
+{{ $meta := .meta }}
+{{ $stats := .summary_stats }}
+{{ $cov := $meta.coverage }}
+
+{{ if $stats }}
+<div class="county-summary" role="region" aria-label="State summary">
+  <p>
+    {{ $meta.state_name }}
+    {{ with $stats.total_exemptions_usd }}
+      {{ if gt . 0 }}
+        has {{ printf "$%.1fB" (div . 1000000000.0) }} in tracked subsidies
+      {{ end }}
+    {{ end }}
+    {{ with $stats.total_beneficiaries }}
+      {{ if gt . 0 }}
+        across {{ . }} beneficiary companies.
+      {{ end }}
+    {{ end }}
+    {{ with $stats.matched_donors }}
+      {{ if gt . 0 }}
+        {{ . }} of these companies also donated to political campaigns
+        {{ with $stats.pct_beneficiaries_donating }}
+          ({{ printf "%.0f" (mul . 100) }}% donor rate).
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ with $cov }}
+      {{ if gt .counties_with_data 0 }}
+        County-level data available for {{ .counties_with_data }} of {{ .counties_total }} counties.
+      {{ end }}
+    {{ end }}
+  </p>
+</div>
+{{ end }}

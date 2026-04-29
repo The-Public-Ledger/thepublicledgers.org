@@ -1,0 +1,10 @@
+school_id,school_name,state,operator_name,landlord_name,flag_type,flag_basis,confidence,tier
+360100306159,HEBREW LANGUAGE ACADEMY CHARTER SCHOOL,NY,Hebrew Language Academy Charter School,FRIENDS OF HEBREW LANGUAGE ACADEMY CHARTER SCHOOL INC,shared_name_fragment,"shared words: HEBREW, LANGUAGE",70,MEDIUM
+360120506696,LEEP DUAL LANGUAGE ACADEMY CHARTER SCHOOL,NY,Leep Dual Language Academy Charter School,FRIENDS OF LEEP DUAL LANGUAGE ACADEMY,shared_name_fragment,"shared words: DUAL, LANGUAGE, LEEP",70,MEDIUM
+360107006318,FAMILY LIFE ACADEMY CHARTER SCHOOL II,NY,,HIGHBRIDGE FACILITIES LLC,manual_review,landlord present but operator missing,45,LOW
+360112506479,FAMILY LIFE ACADEMY CHARTER SCHOOL III,NY,,HIGHBRIDGE FACILITIES LLC,manual_review,landlord present but operator missing,45,LOW
+368096906752,FAMILY LIFE ACADEMY CHARTER SCHOOLS HIGH SCHOOL,NY,,HIGHBRIDGE FACILITIES LLC,manual_review,landlord present but operator missing,45,LOW
+360098606161,GIRLS PREPARATORY CHARTER SCHOOL OF THE BRONX,NY,,192 EAST 151ST ASSOCIATES LP,manual_review,landlord present but operator missing,45,LOW
+360121706715,GIRLS PREPARATORY CHARTER SCHOOL OF THE BRONX II,NY,,192 EAST 151ST ASSOCIATES LP,manual_review,landlord present but operator missing,45,LOW
+360118306663,OUR WORLD NEIGHBORHOOD CHARTER SCHOOL 2,NY,,JSB REALTY NO2 LLC,manual_review,landlord present but operator missing,45,LOW
+368097006755,OUR WORLD NEIGHBORHOOD CHARTER SCHOOL 3,NY,,JSB REALTY NO2 LLC,manual_review,landlord present but operator missing,45,LOW

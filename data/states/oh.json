@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First",
+      "Ohio SOS",
+      "FEC",
+      "SEC EDGAR",
+      "OLAC"
+    ],
+    "coverage": {
+      "counties_total": 88,
+      "counties_with_data": 88,
+      "crossref_complete": true,
+      "deals_count": 5593,
+      "contributions_matched": 1217
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 13594880361.0,
+    "total_beneficiaries": 5593,
+    "total_donations_usd": 26927833.74,
+    "pct_beneficiaries_donating": 0.243,
+    "matched_donors": 1217
+  },
+  "top_findings": [
+    "1,217 of 5,593 subsidized companies (24.3%) made campaign donations — $26.9M total.",
+    "$41.4M in donations flowed from beneficiaries to 1,310 political committees. Top recipient: VOTE YES ON ISSUE 3 ($2.8M).",
+    "8 companies showed statistically significant pre-award donation spikes (BH-corrected, q<0.05). Top: JPMORGAN CHASE BANK NA (0.0× baseline, z=0.0).",
+    "$13.59B in total subsidies tracked across 5,593 beneficiary companies in Ohio."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 41412820.25,
+    "num_committees_receiving": 1310,
+    "top_committee_name": "VOTE YES ON ISSUE 3",
+    "top_committee_amount": 2840076.55,
+    "top_committee_pct": 0.0
+  },
+  "timeline_stats": {
+    "total_spikes": 15,
+    "bh_sig_count": 8,
+    "top_spike_name": "JPMORGAN CHASE BANK NA",
+    "top_spike_z": 0.0,
+    "top_spike_ratio": 0.0,
+    "top_spike_subsidy": 2825251.0
+  },
+  "counties": [
+    {
+      "name": "Cuyahoga",
+      "slug": "cuyahoga",
+      "score": 50.32,
+      "total_exemptions_usd": 1917478891.0,
+      "cost_per_household_usd": 5736.95,
+      "total_beneficiaries": 237,
+      "num_awards": 592
+    },
+    {
+      "name": "Hamilton",
+      "slug": "hamilton",
+      "score": 41.82,
+      "total_exemptions_usd": 769418387.0,
+      "cost_per_household_usd": 4650.57,
+      "total_beneficiaries": 83,
+      "num_awards": 181
+    },
+    {
+      "name": "Auglaize",
+      "slug": "auglaize",
+      "score": 41.04,
+      "total_exemptions_usd": 162288165.0,
+      "cost_per_household_usd": 10753.82,
+      "total_beneficiaries": 17,
+      "num_awards": 59
+    },
+    {
+      "name": "Lake",
+      "slug": "lake",
+      "score": 34.7,
+      "total_exemptions_usd": 181113265.0,
+      "cost_per_household_usd": 4341.92,
+      "total_beneficiaries": 50,
+      "num_awards": 99
+    },
+    {
+      "name": "Portage",
+      "slug": "portage",
+      "score": 29.89,
+      "total_exemptions_usd": 480229097.0,
+      "cost_per_household_usd": 9416.82,
+      "total_beneficiaries": 30,
+      "num_awards": 52
+    },
+    {
+      "name": "Logan",
+      "slug": "logan",
+      "score": 27.57,
+      "total_exemptions_usd": 143408061.0,
+      "cost_per_household_usd": 8671.73,
+      "total_beneficiaries": 5,
+      "num_awards": 9
+    },
+    {
+      "name": "Montgomery",
+      "slug": "montgomery",
+      "score": 24.46,
+      "total_exemptions_usd": 564036232.0,
+      "cost_per_household_usd": 4861.26,
+      "total_beneficiaries": 83,
+      "num_awards": 189
+    },
+    {
+      "name": "Williams",
+      "slug": "williams",
+      "score": 23.11,
+      "total_exemptions_usd": 77232026.0,
+      "cost_per_household_usd": 7285.64,
+      "total_beneficiaries": 8,
+      "num_awards": 15
+    },
+    {
+      "name": "Vinton",
+      "slug": "vinton",
+      "score": 20.95,
+      "total_exemptions_usd": 200000.0,
+      "cost_per_household_usd": 2657.16,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Harrison",
+      "slug": "harrison",
+      "score": 20.84,
+      "total_exemptions_usd": 9500.0,
+      "cost_per_household_usd": 2624.84,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Scioto",
+      "slug": "scioto",
+      "score": 20.56,
+      "total_exemptions_usd": 113913013.0,
+      "cost_per_household_usd": 6053.75,
+      "total_beneficiaries": 7,
+      "num_awards": 20
+    },
+    {
+      "name": "Clark",
+      "slug": "clark",
+      "score": 20.3,
+      "total_exemptions_usd": 157293825.0,
+      "cost_per_household_usd": 5200.46,
+      "total_beneficiaries": 19,
+      "num_awards": 45
+    },
+    {
+      "name": "Van Wert",
+      "slug": "van-wert",
+      "score": 18.09,
+      "total_exemptions_usd": 14257728.0,
+      "cost_per_household_usd": 3758.73,
+      "total_beneficiaries": 10,
+      "num_awards": 18
+    },
+    {
+      "name": "Lucas",
+      "slug": "lucas",
+      "score": 18.04,
+      "total_exemptions_usd": 458140949.0,
+      "cost_per_household_usd": 4908.61,
+      "total_beneficiaries": 66,
+      "num_awards": 160
+    },
+    {
+      "name": "Summit",
+      "slug": "summit",
+      "score": 15.73,
+      "total_exemptions_usd": 28781738.0,
+      "cost_per_household_usd": 2740.26,
+      "total_beneficiaries": 90,
+      "num_awards": 185
+    },
+    {
+      "name": "Licking",
+      "slug": "licking",
+      "score": 15.09,
+      "total_exemptions_usd": 194696650.0,
+      "cost_per_household_usd": 5300.83,
+      "total_beneficiaries": 29,
+      "num_awards": 63
+    },
+    {
+      "name": "Huron",
+      "slug": "huron",
+      "score": 14.22,
+      "total_exemptions_usd": 1656394.0,
+      "cost_per_household_usd": 2688.47,
+      "total_beneficiaries": 11,
+      "num_awards": 19
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin",
+      "score": 13.36,
+      "total_exemptions_usd": 232297321.0,
+      "cost_per_household_usd": 3022.22,
+      "total_beneficiaries": 252,
+      "num_awards": 656
+    },
+    {
+      "name": "Ross",
+      "slug": "ross",
+      "score": 13.04,
+      "total_exemptions_usd": 1115666.0,
+      "cost_per_household_usd": 2658.37,
+      "total_beneficiaries": 5,
+      "num_awards": 15
+    },
+    {
+      "name": "Fulton",
+      "slug": "fulton",
+      "score": 12.13,
+      "total_exemptions_usd": 45887454.0,
+      "cost_per_household_usd": 5215.93,
+      "total_beneficiaries": 13,
+      "num_awards": 33
+    },
+    {
+      "name": "Fayette",
+      "slug": "fayette",
+      "score": 11.89,
+      "total_exemptions_usd": 7573886.0,
+      "cost_per_household_usd": 3220.64,
+      "total_beneficiaries": 2,
+      "num_awards": 2
+    },
+    {
+      "name": "Butler",
+      "slug": "butler",
+      "score": 11.88,
+      "total_exemptions_usd": 134053406.0,
+      "cost_per_household_usd": 3493.72,
+      "total_beneficiaries": 59,
+      "num_awards": 132
+    },
+    {
+      "name": "Erie",
+      "slug": "erie",
+      "score": 11.3,
+      "total_exemptions_usd": 5317245.0,
+      "cost_per_household_usd": 2762.4,
+      "total_beneficiaries": 4,
+      "num_awards": 12
+    },
+    {
+      "name": "Delaware",
+      "slug": "delaware",
+      "score": 10.78,
+      "total_exemptions_usd": 25539735.0,
+      "cost_per_household_usd": 2934.52,
+      "total_beneficiaries": 19,
+      "num_awards": 75
+    },
+    {
+      "name": "Geauga",
+      "slug": "geauga",
+      "score": 10.7,
+      "total_exemptions_usd": 5822918.0,
+      "cost_per_household_usd": 2778.98,
+      "total_beneficiaries": 19,
+      "num_awards": 24
+    },
+    {
+      "name": "Defiance",
+      "slug": "defiance",
+      "score": 10.36,
+      "total_exemptions_usd": 1851320.0,
+      "cost_per_household_usd": 2735.34,
+      "total_beneficiaries": 8,
+      "num_awards": 13
+    },
+    {
+      "name": "Trumbull",
+      "slug": "trumbull",
+      "score": 10.34,
+      "total_exemptions_usd": 88629596.0,
+      "cost_per_household_usd": 3560.7,
+      "total_beneficiaries": 26,
+      "num_awards": 66
+    },
+    {
+      "name": "Marion",
+      "slug": "marion",
+      "score": 10.27,
+      "total_exemptions_usd": 11979652.0,
+      "cost_per_household_usd": 3060.7,
+      "total_beneficiaries": 12,
+      "num_awards": 43
+    },
+    {
+      "name": "Mercer",
+      "slug": "mercer",
+      "score": 10.2,
+      "total_exemptions_usd": 6916311.0,
+      "cost_per_household_usd": 3009.99,
+      "total_beneficiaries": 10,
+      "num_awards": 23
+    },
+    {
+      "name": "Preble",
+      "slug": "preble",
+      "score": 10.14,
+      "total_exemptions_usd": 741596.0,
+      "cost_per_household_usd": 2664.56,
+      "total_beneficiaries": 2,
+      "num_awards": 3
+    },
+    {
+      "name": "Carroll",
+      "slug": "carroll",
+      "score": 10.13,
+      "total_exemptions_usd": 546024.0,
+      "cost_per_household_usd": 2664.29,
+      "total_beneficiaries": 2,
+      "num_awards": 3
+    },
+    {
+      "name": "Stark",
+      "slug": "stark",
+      "score": 9.84,
+      "total_exemptions_usd": 9717103.0,
+      "cost_per_household_usd": 2681.72,
+      "total_beneficiaries": 46,
+      "num_awards": 85
+    },
+    {
+      "name": "Miami",
+      "slug": "miami",
+      "score": 9.63,
+      "total_exemptions_usd": 3719736.0,
+      "cost_per_household_usd": 2703.09,
+      "total_beneficiaries": 21,
+      "num_awards": 40
+    },
+    {
+      "name": "Wood",
+      "slug": "wood",
+      "score": 9.56,
+      "total_exemptions_usd": 53847356.0,
+      "cost_per_household_usd": 3569.6,
+      "total_beneficiaries": 25,
+      "num_awards": 68
+    },
+    {
+      "name": "Clermont",
+      "slug": "clermont",
+      "score": 9.06,
+      "total_exemptions_usd": 96554176.0,
+      "cost_per_household_usd": 3737.05,
+      "total_beneficiaries": 99,
+      "num_awards": 191
+    },
+    {
+      "name": "Allen",
+      "slug": "allen",
+      "score": 9.04,
+      "total_exemptions_usd": 2407648.0,
+      "cost_per_household_usd": 2677.43,
+      "total_beneficiaries": 14,
+      "num_awards": 19
+    },
+    {
+      "name": "Columbiana",
+      "slug": "columbiana",
+      "score": 8.88,
+      "total_exemptions_usd": 486717.0,
+      "cost_per_household_usd": 2634.1,
+      "total_beneficiaries": 10,
+      "num_awards": 17
+    },
+    {
+      "name": "Tuscarawas",
+      "slug": "tuscarawas",
+      "score": 8.85,
+      "total_exemptions_usd": 4547573.0,
+      "cost_per_household_usd": 2735.06,
+      "total_beneficiaries": 24,
+      "num_awards": 51
+    },
+    {
+      "name": "Knox",
+      "slug": "knox",
+      "score": 8.76,
+      "total_exemptions_usd": 2575704.0,
+      "cost_per_household_usd": 2723.14,
+      "total_beneficiaries": 3,
+      "num_awards": 10
+    },
+    {
+      "name": "Mahoning",
+      "slug": "mahoning",
+      "score": 8.71,
+      "total_exemptions_usd": 11306105.0,
+      "cost_per_household_usd": 2728.05,
+      "total_beneficiaries": 14,
+      "num_awards": 43
+    },
+    {
+      "name": "Ottawa",
+      "slug": "ottawa",
+      "score": 8.43,
+      "total_exemptions_usd": 3616437.0,
+      "cost_per_household_usd": 2749.9,
+      "total_beneficiaries": 6,
+      "num_awards": 14
+    },
+    {
+      "name": "Greene",
+      "slug": "greene",
+      "score": 8.22,
+      "total_exemptions_usd": 82217205.0,
+      "cost_per_household_usd": 3773.92,
+      "total_beneficiaries": 65,
+      "num_awards": 114
+    },
+    {
+      "name": "Hancock",
+      "slug": "hancock",
+      "score": 7.78,
+      "total_exemptions_usd": 10027400.0,
+      "cost_per_household_usd": 2920.82,
+      "total_beneficiaries": 17,
+      "num_awards": 39
+    },
+    {
+      "name": "Medina",
+      "slug": "medina",
+      "score": 7.72,
+      "total_exemptions_usd": 6906433.0,
+      "cost_per_household_usd": 2715.48,
+      "total_beneficiaries": 25,
+      "num_awards": 51
+    },
+    {
+      "name": "Coshocton",
+      "slug": "coshocton",
+      "score": 7.63,
+      "total_exemptions_usd": 615343.0,
+      "cost_per_household_usd": 2661.23,
+      "total_beneficiaries": 3,
+      "num_awards": 3
+    },
+    {
+      "name": "Darke",
+      "slug": "darke",
+      "score": 7.63,
+      "total_exemptions_usd": 5156688.0,
+      "cost_per_household_usd": 2851.54,
+      "total_beneficiaries": 10,
+      "num_awards": 24
+    },
+    {
+      "name": "Ashtabula",
+      "slug": "ashtabula",
+      "score": 7.23,
+      "total_exemptions_usd": 2263075.0,
+      "cost_per_household_usd": 2672.45,
+      "total_beneficiaries": 13,
+      "num_awards": 25
+    },
+    {
+      "name": "Putnam",
+      "slug": "putnam",
+      "score": 7.22,
+      "total_exemptions_usd": 2377086.0,
+      "cost_per_household_usd": 2795.24,
+      "total_beneficiaries": 9,
+      "num_awards": 20
+    },
+    {
+      "name": "Champaign",
+      "slug": "champaign",
+      "score": 6.86,
+      "total_exemptions_usd": 1056784.0,
+      "cost_per_household_usd": 2686.2,
+      "total_beneficiaries": 6,
+      "num_awards": 10
+    },
+    {
+      "name": "Fairfield",
+      "slug": "fairfield",
+      "score": 6.77,
+      "total_exemptions_usd": 1238996.0,
+      "cost_per_household_usd": 2643.31,
+      "total_beneficiaries": 9,
+      "num_awards": 12
+    },
+    {
+      "name": "Paulding",
+      "slug": "paulding",
+      "score": 6.72,
+      "total_exemptions_usd": 115023.0,
+      "cost_per_household_usd": 2637.06,
+      "total_beneficiaries": 3,
+      "num_awards": 6
+    },
+    {
+      "name": "Sandusky",
+      "slug": "sandusky",
+      "score": 6.59,
+      "total_exemptions_usd": 2226365.0,
+      "cost_per_household_usd": 2707.58,
+      "total_beneficiaries": 11,
+      "num_awards": 23
+    },
+    {
+      "name": "Seneca",
+      "slug": "seneca",
+      "score": 6.43,
+      "total_exemptions_usd": 1141066.0,
+      "cost_per_household_usd": 2671.19,
+      "total_beneficiaries": 12,
+      "num_awards": 20
+    },
+    {
+      "name": "Lorain",
+      "slug": "lorain",
+      "score": 6.34,
+      "total_exemptions_usd": 13311483.0,
+      "cost_per_household_usd": 2722.46,
+      "total_beneficiaries": 35,
+      "num_awards": 62
+    },
+    {
+      "name": "Ashland",
+      "slug": "ashland",
+      "score": 6.26,
+      "total_exemptions_usd": 1595221.0,
+      "cost_per_household_usd": 2694.49,
+      "total_beneficiaries": 10,
+      "num_awards": 17
+    },
+    {
+      "name": "Richland",
+      "slug": "richland",
+      "score": 6.26,
+      "total_exemptions_usd": 5467463.0,
+      "cost_per_household_usd": 2723.73,
+      "total_beneficiaries": 16,
+      "num_awards": 25
+    },
+    {
+      "name": "Hocking",
+      "slug": "hocking",
+      "score": 5.98,
+      "total_exemptions_usd": 562500.0,
+      "cost_per_household_usd": 2666.76,
+      "total_beneficiaries": 4,
+      "num_awards": 5
+    },
+    {
+      "name": "Jefferson",
+      "slug": "jefferson",
+      "score": 5.56,
+      "total_exemptions_usd": 6980839.0,
+      "cost_per_household_usd": 2846.98,
+      "total_beneficiaries": 10,
+      "num_awards": 16
+    },
+    {
+      "name": "Morrow",
+      "slug": "morrow",
+      "score": 5.4,
+      "total_exemptions_usd": 1861698.0,
+      "cost_per_household_usd": 2751.89,
+      "total_beneficiaries": 4,
+      "num_awards": 11
+    },
+    {
+      "name": "Pike",
+      "slug": "pike",
+      "score": 5.19,
+      "total_exemptions_usd": 78083.0,
+      "cost_per_household_usd": 2630.04,
+      "total_beneficiaries": 4,
+      "num_awards": 7
+    },
+    {
+      "name": "Highland",
+      "slug": "highland",
+      "score": 5.13,
+      "total_exemptions_usd": 655835.0,
+      "cost_per_household_usd": 2658.06,
+      "total_beneficiaries": 4,
+      "num_awards": 7
+    },
+    {
+      "name": "Clinton",
+      "slug": "clinton",
+      "score": 4.53,
+      "total_exemptions_usd": 4751566.0,
+      "cost_per_household_usd": 2888.45,
+      "total_beneficiaries": 7,
+      "num_awards": 10
+    },
+    {
+      "name": "Hardin",
+      "slug": "hardin",
+      "score": 4.29,
+      "total_exemptions_usd": 1211998.0,
+      "cost_per_household_usd": 2717.37,
+      "total_beneficiaries": 5,
+      "num_awards": 15
+    },
+    {
+      "name": "Guernsey",
+      "slug": "guernsey",
+      "score": 4.23,
+      "total_exemptions_usd": 299320.0,
+      "cost_per_household_usd": 2639.27,
+      "total_beneficiaries": 6,
+      "num_awards": 12
+    },
+    {
+      "name": "Holmes",
+      "slug": "holmes",
+      "score": 4.18,
+      "total_exemptions_usd": 2302341.0,
+      "cost_per_household_usd": 2782.05,
+      "total_beneficiaries": 11,
+      "num_awards": 22
+    },
+    {
+      "name": "Muskingum",
+      "slug": "muskingum",
+      "score": 3.99,
+      "total_exemptions_usd": 10848371.0,
+      "cost_per_household_usd": 2906.45,
+      "total_beneficiaries": 9,
+      "num_awards": 21
+    },
+    {
+      "name": "Henry",
+      "slug": "henry",
+      "score": 3.98,
+      "total_exemptions_usd": 4260507.0,
+      "cost_per_household_usd": 2977.28,
+      "total_beneficiaries": 7,
+      "num_awards": 15
+    },
+    {
+      "name": "Union",
+      "slug": "union",
+      "score": 3.83,
+      "total_exemptions_usd": 16572567.0,
+      "cost_per_household_usd": 3330.55,
+      "total_beneficiaries": 13,
+      "num_awards": 34
+    },
+    {
+      "name": "Athens",
+      "slug": "athens",
+      "score": 3.31,
+      "total_exemptions_usd": 27223186.0,
+      "cost_per_household_usd": 3653.96,
+      "total_beneficiaries": 5,
+      "num_awards": 16
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "score": 2.55,
+      "total_exemptions_usd": 4764853.0,
+      "cost_per_household_usd": 2793.75,
+      "total_beneficiaries": 10,
+      "num_awards": 22
+    },
+    {
+      "name": "Warren",
+      "slug": "warren",
+      "score": 2.37,
+      "total_exemptions_usd": 13601220.0,
+      "cost_per_household_usd": 2769.0,
+      "total_beneficiaries": 37,
+      "num_awards": 72
+    },
+    {
+      "name": "Shelby",
+      "slug": "shelby",
+      "score": 2.15,
+      "total_exemptions_usd": 970126.0,
+      "cost_per_household_usd": 2671.82,
+      "total_beneficiaries": 10,
+      "num_awards": 19
+    },
+    {
+      "name": "Wayne",
+      "slug": "wayne",
+      "score": 1.5,
+      "total_exemptions_usd": 6297064.0,
+      "cost_per_household_usd": 2758.55,
+      "total_beneficiaries": 21,
+      "num_awards": 52
+    },
+    {
+      "name": "Lawrence",
+      "slug": "lawrence",
+      "score": 1.2,
+      "total_exemptions_usd": 9921892.0,
+      "cost_per_household_usd": 2996.86,
+      "total_beneficiaries": 3,
+      "num_awards": 4
+    },
+    {
+      "name": "Madison",
+      "slug": "madison",
+      "score": 1.2,
+      "total_exemptions_usd": 6165329.0,
+      "cost_per_household_usd": 3002.85,
+      "total_beneficiaries": 5,
+      "num_awards": 14
+    },
+    {
+      "name": "Morgan",
+      "slug": "morgan",
+      "score": 0.61,
+      "total_exemptions_usd": 1427503.0,
+      "cost_per_household_usd": 2819.24,
+      "total_beneficiaries": 2,
+      "num_awards": 14
+    },
+    {
+      "name": "Brown",
+      "slug": "brown",
+      "score": 0.45,
+      "total_exemptions_usd": 2746500.0,
+      "cost_per_household_usd": 2765.32,
+      "total_beneficiaries": 1,
+      "num_awards": 2
+    },
+    {
+      "name": "Pickaway",
+      "slug": "pickaway",
+      "score": 0.41,
+      "total_exemptions_usd": 2864881.0,
+      "cost_per_household_usd": 2751.55,
+      "total_beneficiaries": 5,
+      "num_awards": 8
+    },
+    {
+      "name": "Monroe",
+      "slug": "monroe",
+      "score": 0.24,
+      "total_exemptions_usd": 562751.0,
+      "cost_per_household_usd": 2702.16,
+      "total_beneficiaries": 3,
+      "num_awards": 8
+    },
+    {
+      "name": "Belmont",
+      "slug": "belmont",
+      "score": 0.23,
+      "total_exemptions_usd": 2264778.0,
+      "cost_per_household_usd": 2695.15,
+      "total_beneficiaries": 2,
+      "num_awards": 4
+    },
+    {
+      "name": "Crawford",
+      "slug": "crawford",
+      "score": 0.06,
+      "total_exemptions_usd": 346828.0,
+      "cost_per_household_usd": 2641.02,
+      "total_beneficiaries": 2,
+      "num_awards": 5
+    },
+    {
+      "name": "Perry",
+      "slug": "perry",
+      "score": 0.03,
+      "total_exemptions_usd": 154600.0,
+      "cost_per_household_usd": 2633.87,
+      "total_beneficiaries": 1,
+      "num_awards": 2
+    },
+    {
+      "name": "Wyandot",
+      "slug": "wyandot",
+      "score": 0.03,
+      "total_exemptions_usd": 88000.0,
+      "cost_per_household_usd": 2632.49,
+      "total_beneficiaries": 2,
+      "num_awards": 4
+    },
+    {
+      "name": "Jackson",
+      "slug": "jackson",
+      "score": 0.02,
+      "total_exemptions_usd": 88187.0,
+      "cost_per_household_usd": 2629.66,
+      "total_beneficiaries": 4,
+      "num_awards": 4
+    },
+    {
+      "name": "Gallia",
+      "slug": "gallia",
+      "score": 0.01,
+      "total_exemptions_usd": 27000.0,
+      "cost_per_household_usd": 2625.57,
+      "total_beneficiaries": 1,
+      "num_awards": 1
+    },
+    {
+      "name": "Noble",
+      "slug": "noble",
+      "score": 0.01,
+      "total_exemptions_usd": 18750.0,
+      "cost_per_household_usd": 2626.8,
+      "total_beneficiaries": 1,
+      "num_awards": 2
+    },
+    {
+      "name": "Adams",
+      "slug": "adams",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 2623.56,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Meigs",
+      "slug": "meigs",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 2623.56,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    }
+  ]
+}

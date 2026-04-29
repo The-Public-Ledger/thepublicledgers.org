@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "state_abbr": "ID",
+    "state_name": "Idaho",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 6,
+    "physician_population": 4876,
+    "per_1000_physicians": 1.231,
+    "double_flagged": 0,
+    "industry_payments_usd": 55.589999999999996
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 3
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 2
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "WA",
+      "from_name": "Washington",
+      "count": 2
+    },
+    {
+      "from_state": "CO",
+      "from_name": "Colorado",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "AK",
+      "to_name": "Alaska",
+      "count": 1
+    },
+    {
+      "to_state": "OR",
+      "to_name": "Oregon",
+      "count": 1
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "BEIER, RAFAEL L",
+      "npi": "1346224821",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2018-05-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "MINAS, MICHAEL R",
+      "npi": "1528178977",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2017-02-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "SKOUMAL, STEVE M",
+      "npi": "1134279920",
+      "score": 56.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2013-08-20",
+      "specialty": "PATHOLOGY"
+    },
+    {
+      "name": "BUTLER, MARK nan",
+      "npi": "1831107341",
+      "score": 50.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-10-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "APPLEBAUM, MICHAEL J",
+      "npi": "1861431967",
+      "score": 47.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2012-06-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "DAHLIN, JAN OLOF",
+      "npi": "1306834643",
+      "score": 41.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2008-12-18",
+      "specialty": "ORTHOPEDICS"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "SKOUMAL, STEVE M",
+      "npi": "1134279920",
+      "total_usd": 21.3,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "DAHLIN, JAN OLOF",
+      "npi": "1306834643",
+      "total_usd": 19.17,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "BUTLER, MARK nan",
+      "npi": "1831107341",
+      "total_usd": 15.12,
+      "payment_count": 1,
+      "companies": 1
+    }
+  ]
+}

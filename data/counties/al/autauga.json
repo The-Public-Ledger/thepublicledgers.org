@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "AL",
+    "state_name": "Alabama",
+    "county": "Autauga",
+    "county_slug": "autauga",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 24.5,
+    "total_exemptions_usd": 14805224.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 663.67,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 0,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 3,
+    "warn_workers_affected": 0,
+    "fips_county": "001"
+  },
+  "benchmarks": {
+    "state_rank": 15,
+    "state_total_counties": 67,
+    "state_percentile": 78,
+    "state_median_subsidy_usd": 44400682.0,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 1241.68,
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Autauga County ranks 15th out of 67 Alabama counties for total tax exemptions, with $14.8M in property tax breaks — below the state median. The per-household cost of these subsidies is $664.",
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Sullivan",
+    "county_slug": "sullivan",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 40.83,
+    "total_exemptions_usd": 145154583.78,
+    "net_exemptions_usd": 98262360.51,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 106,
+    "num_donor_beneficiaries": 14,
+    "donor_rate_pct": 13.21,
+    "total_donations_usd": 660734.67,
+    "jobs_promised": 37108,
+    "jobs_current": 29929,
+    "total_projects": 579,
+    "num_officials_receiving": 6,
+    "official_total_received_usd": 27475.0,
+    "num_pipelines": 10
+  },
+  "benchmarks": {
+    "state_rank": 24,
+    "state_total_counties": 104,
+    "state_percentile": 77,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "3.4× the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Sullivan County ranks 24th out of 104 New York counties for total tax exemptions, with $145.2M in property tax breaks — 3.4× the state median. 13% of subsidy recipients donated to local officials.",
+    "subsidy_context": "3.4× the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

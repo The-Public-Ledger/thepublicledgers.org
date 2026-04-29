@@ -1,0 +1,116 @@
+{
+  "state": "OK",
+  "facilities": 3699,
+  "water_systems": 1843,
+  "total_violations": 77201,
+  "health_violations": 30293,
+  "total_penalties": 82194230.0,
+  "avg_penalty": 22220.66,
+  "violation_rate": 0.5266,
+  "enforcement_gap_score": 0.8988,
+  "serious_violators": 109,
+  "tri_facilities": 199,
+  "tri_releases_lbs": 502178284.0,
+  "top_counties": [
+    {
+      "fips": "40105",
+      "name": "NOWATA",
+      "facilities": 12,
+      "total_violations": 75,
+      "health_violations": 267,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 6.25
+    },
+    {
+      "fips": "40141",
+      "name": "TILLMAN",
+      "facilities": 9,
+      "total_violations": 32,
+      "health_violations": 628,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 3.5556
+    },
+    {
+      "fips": "40067",
+      "name": "JEFFERSON",
+      "facilities": 5,
+      "total_violations": 14,
+      "health_violations": 289,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 2.8
+    },
+    {
+      "fips": "40077",
+      "name": "LATIMER",
+      "facilities": 12,
+      "total_violations": 43,
+      "health_violations": 271,
+      "total_penalties": 4887.0,
+      "enforcement_gap_score": 2.5463
+    },
+    {
+      "fips": "40089",
+      "name": "MCCURTAIN",
+      "facilities": 15,
+      "total_violations": 44,
+      "health_violations": 216,
+      "total_penalties": 2589.0,
+      "enforcement_gap_score": 2.5016
+    },
+    {
+      "fips": "40145",
+      "name": "WAGONER",
+      "facilities": 21,
+      "total_violations": 85,
+      "health_violations": 309,
+      "total_penalties": 17500.0,
+      "enforcement_gap_score": 2.2078
+    },
+    {
+      "fips": "40033",
+      "name": "COTTON",
+      "facilities": 6,
+      "total_violations": 13,
+      "health_violations": 194,
+      "total_penalties": 750.0,
+      "enforcement_gap_score": 1.9259
+    },
+    {
+      "fips": "40107",
+      "name": "OKFUSKEE",
+      "facilities": 10,
+      "total_violations": 25,
+      "health_violations": 48,
+      "total_penalties": 3750.0,
+      "enforcement_gap_score": 1.8182
+    },
+    {
+      "fips": "40113",
+      "name": "OSAGE",
+      "facilities": 43,
+      "total_violations": 75,
+      "health_violations": 1231,
+      "total_penalties": 500.0,
+      "enforcement_gap_score": 1.7241
+    },
+    {
+      "fips": "40061",
+      "name": "HASKELL",
+      "facilities": 12,
+      "total_violations": 22,
+      "health_violations": 148,
+      "total_penalties": 1125.0,
+      "enforcement_gap_score": 1.6762
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "PAWNEE",
+      "city": "PAWNEE",
+      "county": "PAWNEE",
+      "severity": 60.0,
+      "penalties": 0.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

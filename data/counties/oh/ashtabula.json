@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Ashtabula",
+    "county_slug": "ashtabula",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 7.23,
+    "total_exemptions_usd": 2263075.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2672.45,
+    "total_beneficiaries": 13,
+    "num_donor_beneficiaries": 4,
+    "donor_rate_pct": 30.77,
+    "total_donations_usd": 11550.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 123710355.47,
+    "households": 46291,
+    "bundling_clusters": 7,
+    "round_trips": 0,
+    "multi_dippers": 1,
+    "num_awards": 25
+  },
+  "benchmarks": {
+    "state_rank": 56,
+    "state_total_counties": 88,
+    "state_percentile": 36,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Ashtabula County ranks 56th out of 88 Ohio counties for total tax exemptions, with $2.3M in property tax breaks — below the state median. 31% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,672.",
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,14 @@
+{{- $status := . -}}
+{{- $label := "In Progress" -}}
+{{- $class := "in-progress" -}}
+{{- if or (eq $status "active") (eq $status "complete") -}}
+  {{- $label = "Published" -}}
+  {{- $class = "published" -}}
+{{- else if or (eq $status "beta") (eq $status "pipeline-built") -}}
+  {{- $label = "In Progress" -}}
+  {{- $class = "in-progress" -}}
+{{- else if eq $status "scaffold" -}}
+  {{- $label = "Coming Soon" -}}
+  {{- $class = "coming-soon" -}}
+{{- end -}}
+<span class="status-badge status-badge--{{ $class }}">{{ $label }}</span>

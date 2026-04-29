@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Chemung",
+    "county_slug": "chemung",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 41.17,
+    "total_exemptions_usd": 66743993.97,
+    "net_exemptions_usd": 43271581.12,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 75,
+    "num_donor_beneficiaries": 13,
+    "donor_rate_pct": 17.33,
+    "total_donations_usd": 343340.83,
+    "jobs_promised": 23446,
+    "jobs_current": 25666,
+    "total_projects": 395,
+    "num_officials_receiving": 10,
+    "official_total_received_usd": 110430.0,
+    "num_pipelines": 24
+  },
+  "benchmarks": {
+    "state_rank": 39,
+    "state_total_counties": 104,
+    "state_percentile": 62,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Chemung County ranks 39th out of 104 New York counties for total tax exemptions, with $66.7M in property tax breaks — above the state median. 17% of subsidy recipients donated to local officials.",
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

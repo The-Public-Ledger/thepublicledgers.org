@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Licking",
+    "county_slug": "licking",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 15.09,
+    "total_exemptions_usd": 194696650.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 5300.83,
+    "total_beneficiaries": 29,
+    "num_donor_beneficiaries": 6,
+    "donor_rate_pct": 20.69,
+    "total_donations_usd": 101260.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 385487281.66,
+    "households": 72722,
+    "bundling_clusters": 3,
+    "round_trips": 0,
+    "multi_dippers": 2,
+    "num_awards": 63
+  },
+  "benchmarks": {
+    "state_rank": 7,
+    "state_total_counties": 88,
+    "state_percentile": 92,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "40.9× the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Licking County ranks 7th out of 88 Ohio counties for total tax exemptions, with $194.7M in property tax breaks — 40.9× the state median. 21% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $5,301.",
+    "subsidy_context": "40.9× the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Livingston",
+    "county_slug": "livingston",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 54.81,
+    "total_exemptions_usd": 49172574.23,
+    "net_exemptions_usd": 32153784.27,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 54,
+    "num_donor_beneficiaries": 15,
+    "donor_rate_pct": 27.78,
+    "total_donations_usd": 112814.4,
+    "jobs_promised": 12214,
+    "jobs_current": 18772,
+    "total_projects": 280,
+    "num_officials_receiving": 7,
+    "official_total_received_usd": 46780.0,
+    "num_pipelines": 19
+  },
+  "benchmarks": {
+    "state_rank": 46,
+    "state_total_counties": 104,
+    "state_percentile": 56,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "near the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Livingston County ranks 46th out of 104 New York counties for total tax exemptions, with $49.2M in property tax breaks — near the state median. 28% of subsidy recipients donated to local officials.",
+    "subsidy_context": "near the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

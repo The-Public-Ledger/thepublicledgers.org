@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "state": "VT",
+    "state_name": "Vermont",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 14,
+      "counties_with_data": 14,
+      "crossref_complete": true,
+      "deals_count": 1735,
+      "contributions_matched": 61
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 183728544.0,
+    "total_beneficiaries": 1735,
+    "total_donations_usd": 274989.29,
+    "matched_donors": 61,
+    "pct_beneficiaries_donating": 0.0352
+  },
+  "top_findings": [
+    "61 of 1,735 subsidized companies (3.5%) made campaign donations — $274,989 total.",
+    "$129,532 in donations flowed from beneficiaries to 55 political committees. Top recipient: Scott, Phil ($37,911).",
+    "$184M in total subsidies tracked across 1,735 beneficiary companies in Vermont."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 129531.99,
+    "num_committees_receiving": 55,
+    "top_committee_name": "Scott, Phil",
+    "top_committee_amount": 37911.0,
+    "top_committee_pct": 0.49
+  },
+  "counties": [
+    {
+      "name": "Chittenden",
+      "slug": "chittenden",
+      "score": 100.0,
+      "total_exemptions_usd": 87519491.0,
+      "cost_per_household_usd": 1019.05,
+      "total_beneficiaries": 0,
+      "num_awards": 78,
+      "fips_county": "007"
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "score": 46.92,
+      "total_exemptions_usd": 10575087.0,
+      "cost_per_household_usd": 141.66,
+      "total_beneficiaries": 0,
+      "num_awards": 26,
+      "fips_county": "023"
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin",
+      "score": 32.13,
+      "total_exemptions_usd": 16046953.0,
+      "cost_per_household_usd": 665.62,
+      "total_beneficiaries": 0,
+      "num_awards": 22,
+      "fips_county": "011"
+    },
+    {
+      "name": "Windsor",
+      "slug": "windsor",
+      "score": 24.76,
+      "total_exemptions_usd": 12393310.0,
+      "cost_per_household_usd": 278.58,
+      "total_beneficiaries": 0,
+      "num_awards": 40,
+      "fips_county": "027"
+    },
+    {
+      "name": "Bennington",
+      "slug": "bennington",
+      "score": 24.49,
+      "total_exemptions_usd": 17601996.0,
+      "cost_per_household_usd": 778.21,
+      "total_beneficiaries": 0,
+      "num_awards": 29,
+      "fips_county": "003"
+    },
+    {
+      "name": "Addison",
+      "slug": "addison",
+      "score": 23.48,
+      "total_exemptions_usd": 8408033.0,
+      "cost_per_household_usd": 315.2,
+      "total_beneficiaries": 0,
+      "num_awards": 18,
+      "fips_county": "001"
+    },
+    {
+      "name": "Lamoille",
+      "slug": "lamoille",
+      "score": 22.32,
+      "total_exemptions_usd": 3832623.0,
+      "cost_per_household_usd": 38.4,
+      "total_beneficiaries": 0,
+      "num_awards": 15,
+      "fips_county": "015"
+    },
+    {
+      "name": "Rutland",
+      "slug": "rutland",
+      "score": 18.66,
+      "total_exemptions_usd": 4158396.0,
+      "cost_per_household_usd": 119.7,
+      "total_beneficiaries": 0,
+      "num_awards": 15,
+      "fips_county": "021"
+    },
+    {
+      "name": "Essex",
+      "slug": "essex",
+      "score": 15.71,
+      "total_exemptions_usd": 5670401.0,
+      "cost_per_household_usd": 891.01,
+      "total_beneficiaries": 0,
+      "num_awards": 5,
+      "fips_county": "009"
+    },
+    {
+      "name": "Caledonia",
+      "slug": "caledonia",
+      "score": 6.44,
+      "total_exemptions_usd": 4680840.0,
+      "cost_per_household_usd": 291.88,
+      "total_beneficiaries": 0,
+      "num_awards": 11,
+      "fips_county": "005"
+    },
+    {
+      "name": "Windham",
+      "slug": "windham",
+      "score": 5.76,
+      "total_exemptions_usd": 6981123.0,
+      "cost_per_household_usd": 174.29,
+      "total_beneficiaries": 0,
+      "num_awards": 16,
+      "fips_county": "025"
+    },
+    {
+      "name": "Orleans",
+      "slug": "orleans",
+      "score": 2.94,
+      "total_exemptions_usd": 4229642.0,
+      "cost_per_household_usd": 68.71,
+      "total_beneficiaries": 0,
+      "num_awards": 7,
+      "fips_county": "019"
+    },
+    {
+      "name": "Orange",
+      "slug": "orange",
+      "score": 2.13,
+      "total_exemptions_usd": 1480649.0,
+      "cost_per_household_usd": 98.72,
+      "total_beneficiaries": 0,
+      "num_awards": 11,
+      "fips_county": "017"
+    },
+    {
+      "name": "Grand Isle",
+      "slug": "grand-isle",
+      "score": 0.07,
+      "total_exemptions_usd": 150000.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "013"
+    }
+  ]
+}

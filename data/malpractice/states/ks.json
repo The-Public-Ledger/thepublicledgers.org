@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "state_abbr": "KS",
+    "state_name": "Kansas",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 8,
+    "physician_population": 8806,
+    "per_1000_physicians": 0.908,
+    "double_flagged": 1,
+    "industry_payments_usd": 190088.71
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 3
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 2
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 1
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 1
+    },
+    {
+      "code": "1128b6",
+      "label": "1128b6",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "KY",
+      "from_name": "Kentucky",
+      "count": 1
+    },
+    {
+      "from_state": "NY",
+      "from_name": "New York",
+      "count": 1
+    },
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "MO",
+      "to_name": "Missouri",
+      "count": 5
+    },
+    {
+      "to_state": "OK",
+      "to_name": "Oklahoma",
+      "count": 1
+    },
+    {
+      "to_state": "AR",
+      "to_name": "Arkansas",
+      "count": 1
+    },
+    {
+      "to_state": "IA",
+      "to_name": "Iowa",
+      "count": 1
+    },
+    {
+      "to_state": "WA",
+      "to_name": "Washington",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "SIMONS, LAWRENCE M",
+      "npi": "1811961709",
+      "score": 81.2,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2010-09-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "HENSON, STEVEN nan",
+      "npi": "1518923580",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2020-06-18",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
+      "name": "SCHUSTER, MICHAEL PAUL",
+      "npi": "1649207853",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2016-07-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "BEJAR, JOSE MARIA",
+      "npi": "1790741882",
+      "score": 56.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2016-03-20",
+      "specialty": "NEUROLOGY"
+    },
+    {
+      "name": "SIMON, STEVEN M",
+      "npi": "1821058827",
+      "score": 53.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2021-10-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "DICKIE, JAMES D",
+      "npi": "1174510549",
+      "score": 49.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2017-03-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "COLEMAN, ROBERT JOHN",
+      "npi": "1356352777",
+      "score": 44.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2023-01-19",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "GALICHIA, JOSEPH P",
+      "npi": "1265410591",
+      "score": 39.5,
+      "exclusion_label": "Entity Ownership/Control",
+      "exclusion_date": "2019-05-07",
+      "specialty": "INTERNAL MEDICINE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "GALICHIA, JOSEPH P",
+      "npi": "1265410591",
+      "total_usd": 177923.05,
+      "payment_count": 24,
+      "companies": 15
+    },
+    {
+      "name": "SIMON, STEVEN M",
+      "npi": "1821058827",
+      "total_usd": 7855.65,
+      "payment_count": 10,
+      "companies": 1
+    },
+    {
+      "name": "JAYASWAL, GAUTAM nan",
+      "npi": "1477732659",
+      "total_usd": 4280.0,
+      "payment_count": 6,
+      "companies": 3
+    },
+    {
+      "name": "SCHUSTER, MICHAEL PAUL",
+      "npi": "1649207853",
+      "total_usd": 30.01,
+      "payment_count": 1,
+      "companies": 1
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "state": "MS",
+  "facilities": 2971,
+  "water_systems": 1376,
+  "total_violations": 13540,
+  "health_violations": 2465,
+  "total_penalties": 5925894.0,
+  "avg_penalty": 1994.58,
+  "violation_rate": 0.3373,
+  "enforcement_gap_score": 1.5219,
+  "serious_violators": 11,
+  "tri_facilities": 230,
+  "tri_releases_lbs": 1091814320.0,
+  "top_counties": [
+    {
+      "fips": "28119",
+      "name": "QUITMAN",
+      "facilities": 16,
+      "total_violations": 5,
+      "health_violations": 13,
+      "total_penalties": 1875.0,
+      "enforcement_gap_score": 0.2797
+    },
+    {
+      "fips": "28117",
+      "name": "PRENTISS",
+      "facilities": 14,
+      "total_violations": 3,
+      "health_violations": 3,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2143
+    },
+    {
+      "fips": "28099",
+      "name": "NESHOBA",
+      "facilities": 15,
+      "total_violations": 3,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2
+    },
+    {
+      "fips": "28155",
+      "name": "WEBSTER",
+      "facilities": 6,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 450.0,
+      "enforcement_gap_score": 0.155
+    },
+    {
+      "fips": "28063",
+      "name": "JEFFERSON",
+      "facilities": 7,
+      "total_violations": 1,
+      "health_violations": 17,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1429
+    },
+    {
+      "fips": "28133",
+      "name": "SUNFLOWER",
+      "facilities": 20,
+      "total_violations": 3,
+      "health_violations": 10,
+      "total_penalties": 1875.0,
+      "enforcement_gap_score": 0.1371
+    },
+    {
+      "fips": "28083",
+      "name": "LEFLORE",
+      "facilities": 22,
+      "total_violations": 4,
+      "health_violations": 5,
+      "total_penalties": 10000.0,
+      "enforcement_gap_score": 0.125
+    },
+    {
+      "fips": "28005",
+      "name": "WILKINSON",
+      "facilities": 14,
+      "total_violations": 5,
+      "health_violations": 10,
+      "total_penalties": 28000.0,
+      "enforcement_gap_score": 0.119
+    },
+    {
+      "fips": "28019",
+      "name": "CHOCTAW",
+      "facilities": 17,
+      "total_violations": 2,
+      "health_violations": 1,
+      "total_penalties": 1210.0,
+      "enforcement_gap_score": 0.1098
+    },
+    {
+      "fips": "28029",
+      "name": "COPIAH",
+      "facilities": 28,
+      "total_violations": 6,
+      "health_violations": 26,
+      "total_penalties": 31063.0,
+      "enforcement_gap_score": 0.1016
+    }
+  ],
+  "top_violators": []
+}

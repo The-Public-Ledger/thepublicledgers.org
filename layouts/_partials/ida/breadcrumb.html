@@ -1,0 +1,13 @@
+{{ $state := .state }}
+{{ $county := .county }}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol class="breadcrumb-list" role="list">
+    <li><a href="/ida/">IDA Accountability</a></li>
+    {{ with $state }}
+    <li><a href="/ida/states/{{ .abbr | lower }}/">{{ .name }}</a></li>
+    {{ end }}
+    {{ with $county }}
+    <li aria-current="page">{{ . }}</li>
+    {{ end }}
+  </ol>
+</nav>

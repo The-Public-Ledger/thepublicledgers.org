@@ -1,0 +1,190 @@
+{{ define "main" }}
+{{ $abbr := .Params.state_abbr }}
+{{ $stateData := index site.Data.states $abbr }}
+{{ $status := $stateData.meta.coverage_status }}
+
+<article class="section" data-pagefind-meta="investigation:IDA Subsidies, state:{{ $stateData.meta.state_name }}">
+  <div class="container">
+    {{ partial "ida/breadcrumb.html" (dict "state" (dict "abbr" $abbr "name" $stateData.meta.state_name)) }}
+
+    <header class="page-header">
+      <div class="page-header__meta">
+        <span class="section-label">Subsidy Accountability</span>
+        {{ partial "ida/coverage-badge.html" $stateData.meta }}
+      </div>
+      <h1>{{ $stateData.meta.state_name }}</h1>
+    </header>
+
+    {{ if or (eq $status "full") (eq $status "partial") }}
+
+      {{/* ── LAYER 1: Plain-language summary ──────────────────────────── */}}
+      {{ partial "ida/state-summary.html" $stateData }}
+
+      {{/* ── LAYER 2: Headline stat cards ─────────────────────────────── */}}
+      {{ with $stateData.summary_stats }}
+      <div class="stat-grid" role="region" aria-label="Key metrics">
+        {{ with .total_exemptions_usd }}
+        {{ if gt . 0 }}
+        {{ partial "ida/stat-card-contextual.html" (dict
+          "value" (printf "$%.1fB" (div . 1000000000.0))
+          "label" "Total Subsidies Tracked"
+        ) }}
+        {{ end }}
+        {{ end }}
+
+        {{ with .total_beneficiaries }}
+        {{ if gt . 0 }}
+        {{ partial "ida/stat-card-contextual.html" (dict
+          "value" (printf "%s" (lang.FormatNumber 0 .))
+          "label" "Beneficiary Companies"
+        ) }}
+        {{ end }}
+        {{ end }}
+
+        {{ with .matched_donors }}
+        {{ if gt . 0 }}
+        {{ partial "ida/stat-card-contextual.html" (dict
+          "value" (printf "%s" (lang.FormatNumber 0 .))
+          "label" "Donor-Beneficiaries Matched"
+          "context" (printf "%.0f%% donor rate" (mul (default 0.0 (index $stateData.summary_stats "pct_beneficiaries_donating")) 100))
+        ) }}
+        {{ end }}
+        {{ end }}
+
+        {{ with .total_donations_usd }}
+        {{ if gt . 0 }}
+        {{ partial "ida/stat-card-contextual.html" (dict
+          "value" (printf "$%.1fM" (div . 1000000.0))
+          "label" "Total Donated by Beneficiaries"
+        ) }}
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{/* ── LAYER 3: Small multiples county grid ─────────────────────── */}}
+      {{ partial "ida/small-multiples.html" $stateData }}
+
+      {{/* ── LAYER 4: Findings + Conflicts ────────────────────────────── */}}
+      {{ with $stateData.top_findings }}
+      <section class="findings-section">
+        <h2>Key Findings</h2>
+        <ul class="findings-list">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </section>
+      {{ end }}
+
+      {{ with $stateData.counsel_conflicts }}
+      <section class="conflicts-section">
+        <h2>Counsel &amp; Conflict</h2>
+        {{ range . }}
+        <div class="conflict-card">
+          <strong>{{ .firm }}</strong> &mdash; {{ .role }}<br>
+          Fees: ${{ .fees_low_usd }}&ndash;${{ .fees_high_usd }}<br>
+          Donations: ${{ .donations_usd }}
+        </div>
+        {{ end }}
+      </section>
+      {{ end }}
+
+      {{/* ── Committee stats ──────────────────────────────────────────── */}}
+      {{ with $stateData.committee_stats }}
+      {{ if gt .total_from_beneficiaries 0.0 }}
+      <section class="findings-section">
+        <h2>Political Committee Activity</h2>
+        <div class="stat-grid">
+          <div class="stat-card">
+            <span class="stat-card__value">${{ div .total_from_beneficiaries 1000000 | printf "%.1f" }}M</span>
+            <span class="stat-card__label">Total donated to committees</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__value">{{ .num_committees_receiving }}</span>
+            <span class="stat-card__label">Committees receiving funds</span>
+          </div>
+        </div>
+        {{ with .top_committee_name }}
+        <p class="finding-note">Top recipient: <strong>{{ . }}</strong>
+          (${{ div (index $stateData.committee_stats "top_committee_amount") 1000 | printf "%.0f" }}K &mdash;
+          {{ index $stateData.committee_stats "top_committee_pct" }}% beneficiary-funded)</p>
+        {{ end }}
+      </section>
+      {{ end }}
+      {{ end }}
+
+      {{/* ── Timeline stats ───────────────────────────────────────────── */}}
+      {{ with $stateData.timeline_stats }}
+      {{ if gt .bh_sig_count 0 }}
+      <section class="findings-section">
+        <h2>Pre-Award Donation Spikes</h2>
+        <p>{{ .bh_sig_count }} {{ if eq .bh_sig_count 1 }}company{{ else }}companies{{ end }}
+          showed statistically unusual donation increases in the years around their subsidy award
+          (Benjamini-Hochberg corrected, q&lt;0.05).</p>
+        {{ with .top_spike_name }}
+        <p class="finding-note">Largest spike: <strong>{{ . }}</strong>
+          ({{ index $stateData.timeline_stats "top_spike_ratio" }}&times; baseline,
+          z={{ index $stateData.timeline_stats "top_spike_z" }})</p>
+        {{ end }}
+      </section>
+      {{ end }}
+      {{ end }}
+
+      {{/* ── Full county table ────────────────────────────────────────── */}}
+      {{ with $stateData.counties }}
+      {{ if gt (len .) 0 }}
+      <section class="findings-section">
+        <h2>All Counties</h2>
+        <div class="data-table-wrap">
+          <table class="data-table">
+            <caption class="sr-only">County-level subsidy data for {{ $stateData.meta.state_name }}</caption>
+            <thead>
+              <tr>
+                <th scope="col">County</th>
+                <th scope="col">Score</th>
+                <th scope="col">Total Subsidies</th>
+                <th scope="col">Companies</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range . }}
+              <tr>
+                <td><a href="/ida/counties/{{ $abbr }}/{{ .slug }}/">{{ .name }}</a></td>
+                <td>{{ printf "%.1f" .score }}</td>
+                <td>{{ if gt .total_exemptions_usd 0 }}${{ div .total_exemptions_usd 1000000.0 | printf "%.1f" }}M{{ else }}&mdash;{{ end }}</td>
+                <td>{{ .total_beneficiaries }}</td>
+              </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </section>
+      {{ end }}
+      {{ end }}
+
+      {{/* ── Methodology disclosure ───────────────────────────────────── */}}
+      <details class="methodology-disclosure">
+        <summary>How we calculated this</summary>
+        <p>State summaries aggregate county-level data from Good Jobs First
+        subsidy records cross-referenced with state campaign finance databases.
+        Donor rates reflect the percentage of subsidy recipients matched to
+        campaign contributors. County scorecards use a composite weighted score
+        (subsidy concentration 35%, donor overlap 30%, tax burden 20%, WARN
+        notices 15%).</p>
+        <p><a href="/methodology/">Full methodology &rarr;</a></p>
+      </details>
+
+    {{ else }}
+    <div class="placeholder-notice">
+      <p>Data collection for {{ $stateData.meta.state_name }} is in progress. Check back soon.</p>
+      <p><a href="/ida/">&larr; Back to all states</a></p>
+    </div>
+    {{ end }}
+
+    {{ partial "ida/source-citation.html" (dict "sources" $stateData.meta.sources "date" $stateData.meta.last_updated) }}
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+{{ end }}

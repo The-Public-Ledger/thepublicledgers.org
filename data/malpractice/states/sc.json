@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "state_abbr": "SC",
+    "state_name": "South Carolina",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 12,
+    "physician_population": 17445,
+    "per_1000_physicians": 0.688,
+    "double_flagged": 2,
+    "industry_payments_usd": 5693.12
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 5
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 4
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 1
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 1
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "NC",
+      "from_name": "North Carolina",
+      "count": 3
+    },
+    {
+      "from_state": "WV",
+      "from_name": "West Virginia",
+      "count": 2
+    },
+    {
+      "from_state": "OH",
+      "from_name": "Ohio",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 6
+    },
+    {
+      "to_state": "KY",
+      "to_name": "Kentucky",
+      "count": 3
+    },
+    {
+      "to_state": "GA",
+      "to_name": "Georgia",
+      "count": 2
+    },
+    {
+      "to_state": "NV",
+      "to_name": "Nevada",
+      "count": 1
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 1
+    },
+    {
+      "to_state": "NC",
+      "to_name": "North Carolina",
+      "count": 1
+    },
+    {
+      "to_state": "TN",
+      "to_name": "Tennessee",
+      "count": 1
+    },
+    {
+      "to_state": "VA",
+      "to_name": "Virginia",
+      "count": 1
+    },
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "RANDOLPH, DAVID THOMAS",
+      "npi": "1629599931",
+      "score": 85.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2024-09-19",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "RODRIGUEZ, DAVID C",
+      "npi": "1952399222",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-11-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "HARGRAVE, RONALD P",
+      "npi": "1952381469",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-10-19",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "DIMKPA, OKECHUKWU nan",
+      "npi": "1205894243",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2020-07-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "MCCUTCHEN, WILLIAM nan",
+      "npi": "1477507739",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2018-05-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "SAMAAN, MARK nan",
+      "npi": "1154550622",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-08-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "HYNES, JOHN DEWEY",
+      "npi": "1356540264",
+      "score": 58.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2023-07-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "WILLIAMS, JAMES O",
+      "npi": "1891854873",
+      "score": 58.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-03-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "BURLING, JOHN N",
+      "npi": "1649292079",
+      "score": 57.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2022-05-19",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "WILSON, BEVERLEY DELORIS",
+      "npi": "1013079870",
+      "score": 54.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2011-02-20",
+      "specialty": "PEDIATRICS"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "RODRIGUEZ, DAVID C",
+      "npi": "1952399222",
+      "total_usd": 5238.21,
+      "payment_count": 331,
+      "companies": 46
+    },
+    {
+      "name": "WILLIAMS, JAMES O",
+      "npi": "1891854873",
+      "total_usd": 277.55,
+      "payment_count": 8,
+      "companies": 7
+    },
+    {
+      "name": "RANDOLPH, DAVID THOMAS",
+      "npi": "1629599931",
+      "total_usd": 121.83,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "HYNES, JOHN DEWEY",
+      "npi": "1356540264",
+      "total_usd": 29.9,
+      "payment_count": 2,
+      "companies": 2
+    },
+    {
+      "name": "MACAULEY, RICHARD WAYNE",
+      "npi": "1992777296",
+      "total_usd": 25.63,
+      "payment_count": 2,
+      "companies": 2
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "state_abbr": "WA",
+    "state_name": "Washington",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 51,
+    "physician_population": 29638,
+    "per_1000_physicians": 1.721,
+    "double_flagged": 15,
+    "industry_payments_usd": 135426.53999999998
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 33
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 5
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 4
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 4
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 1
+    },
+    {
+      "code": "1128b6",
+      "label": "1128b6",
+      "count": 1
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 1
+    },
+    {
+      "code": "1128b1",
+      "label": "Misdemeanor Fraud",
+      "count": 1
+    },
+    {
+      "code": "1128b5",
+      "label": "Federal/State Program Exclusion",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "OR",
+      "from_name": "Oregon",
+      "count": 3
+    },
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 3
+    },
+    {
+      "from_state": "IN",
+      "from_name": "Indiana",
+      "count": 2
+    },
+    {
+      "from_state": "AZ",
+      "from_name": "Arizona",
+      "count": 1
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 1
+    },
+    {
+      "from_state": "UT",
+      "from_name": "Utah",
+      "count": 1
+    },
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 1
+    },
+    {
+      "from_state": "XX",
+      "from_name": "XX",
+      "count": 1
+    },
+    {
+      "from_state": "KS",
+      "from_name": "Kansas",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 3
+    },
+    {
+      "to_state": "OR",
+      "to_name": "Oregon",
+      "count": 3
+    },
+    {
+      "to_state": "ID",
+      "to_name": "Idaho",
+      "count": 2
+    },
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
+      "count": 1
+    },
+    {
+      "to_state": "NM",
+      "to_name": "New Mexico",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "STOCKIN, MICHAEL DAVID",
+      "npi": "1861831620",
+      "score": 85.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2025-11-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "WEBSTER, THOMAS ANDREW",
+      "npi": "1154432094",
+      "score": 81.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-03-20",
+      "specialty": "INFECTIOUS DISEASE"
+    },
+    {
+      "name": "ARNOLD, JANET S",
+      "npi": "1427311968",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-04-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "BJARKE, CHRIS B",
+      "npi": "1730237348",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-08-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "MARLOW, LEA nan",
+      "npi": "1790740686",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2017-01-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "WALKER, BRIAN nan",
+      "npi": "1427006246",
+      "score": 66.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2011-08-18",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "LANEY, THOMAS JOACHIM",
+      "npi": "1295943595",
+      "score": 66.2,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-12-19",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "CANDIDO, CAMILLO nan",
+      "npi": "1306308283",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-09-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "POTHINI, GOURI BHAWAN",
+      "npi": "1710211487",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-12-19",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
+      "name": "PIROUZKAR, BEHROUZ nan",
+      "npi": "1821085119",
+      "score": 62.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2012-04-19",
+      "specialty": "OPHTHALMOLOGY"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "MOORE, GEORGE WALTER",
+      "npi": "1588604110",
+      "total_usd": 86868.88,
+      "payment_count": 656,
+      "companies": 49
+    },
+    {
+      "name": "DREYER, JASON ADAM",
+      "npi": "1194949594",
+      "total_usd": 28557.14,
+      "payment_count": 62,
+      "companies": 6
+    },
+    {
+      "name": "JUTLA, RAJNI K",
+      "npi": "1467564484",
+      "total_usd": 7294.6,
+      "payment_count": 140,
+      "companies": 29
+    },
+    {
+      "name": "THOMPSON, ROBERT G",
+      "npi": "1154418580",
+      "total_usd": 2767.45,
+      "payment_count": 121,
+      "companies": 19
+    },
+    {
+      "name": "BRYANT, MARY KATHERINE",
+      "npi": "1174901540",
+      "total_usd": 2600.39,
+      "payment_count": 11,
+      "companies": 7
+    },
+    {
+      "name": "KIMURA, IRENE KIMIVO",
+      "npi": "1366448359",
+      "total_usd": 1453.93,
+      "payment_count": 66,
+      "companies": 21
+    },
+    {
+      "name": "MEDANI, IGNATIUS C",
+      "npi": "1295831659",
+      "total_usd": 1299.95,
+      "payment_count": 67,
+      "companies": 20
+    },
+    {
+      "name": "STOCKIN, MICHAEL DAVID",
+      "npi": "1861831620",
+      "total_usd": 1207.4,
+      "payment_count": 15,
+      "companies": 5
+    },
+    {
+      "name": "BRECHT, KRISTINE SUSANNE",
+      "npi": "1922071802",
+      "total_usd": 994.36,
+      "payment_count": 14,
+      "companies": 4
+    },
+    {
+      "name": "LANEY, THOMAS JOACHIM",
+      "npi": "1295943595",
+      "total_usd": 898.71,
+      "payment_count": 17,
+      "companies": 4
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "state_abbr": "WI",
+    "state_name": "Wisconsin",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 26,
+    "physician_population": 22777,
+    "per_1000_physicians": 1.142,
+    "double_flagged": 2,
+    "industry_payments_usd": 8467.19
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 17
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 4
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 2
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 2
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "MD",
+      "from_name": "Maryland",
+      "count": 2
+    },
+    {
+      "from_state": "IL",
+      "from_name": "Illinois",
+      "count": 1
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "IL",
+      "to_name": "Illinois",
+      "count": 2
+    },
+    {
+      "to_state": "CT",
+      "to_name": "Connecticut",
+      "count": 1
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 1
+    },
+    {
+      "to_state": "IN",
+      "to_name": "Indiana",
+      "count": 1
+    },
+    {
+      "to_state": "MD",
+      "to_name": "Maryland",
+      "count": 1
+    },
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "POTERUCHA, JOSEPH THOMAS",
+      "npi": "1154559060",
+      "score": 70.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2025-06-19",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "MURALI, RAVI nan",
+      "npi": "1134310451",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2022-06-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "PERKINS, RICK L",
+      "npi": "1699801316",
+      "score": 63.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2017-03-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "MARIFKE, JERALD P",
+      "npi": "1821091679",
+      "score": 60.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2025-11-20",
+      "specialty": "ENDOCRINOLOGY"
+    },
+    {
+      "name": "FREA, ANNE MARIE",
+      "npi": "1952593725",
+      "score": 56.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-08-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "LIEGEOIS, NANETTE nan",
+      "npi": "1154362937",
+      "score": 56.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2015-12-20",
+      "specialty": "DERMATOLOGY"
+    },
+    {
+      "name": "LOPEZ, GLORIA nan",
+      "npi": "1558466359",
+      "score": 56.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2013-04-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "MORGAN, CHARLES D",
+      "npi": "1659369320",
+      "score": 56.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2010-01-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "SAUNDERS, EVAN KEITH",
+      "npi": "1669421152",
+      "score": 56.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2013-06-20",
+      "specialty": "SURGERY"
+    },
+    {
+      "name": "ORTIZ, JOSE A",
+      "npi": "1811964158",
+      "score": 55.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-01-20",
+      "specialty": "ORTHOPEDICS"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "ARASSI, SIAMAK nan",
+      "npi": "1083680417",
+      "total_usd": 2249.26,
+      "payment_count": 151,
+      "companies": 17
+    },
+    {
+      "name": "WHITE, CULLY R",
+      "npi": "1013093178",
+      "total_usd": 2116.7,
+      "payment_count": 20,
+      "companies": 1
+    },
+    {
+      "name": "MARIFKE, JERALD P",
+      "npi": "1821091679",
+      "total_usd": 1380.48,
+      "payment_count": 18,
+      "companies": 9
+    },
+    {
+      "name": "THOMAS, MANUEL DE JESUS",
+      "npi": "1790870558",
+      "total_usd": 1317.7,
+      "payment_count": 77,
+      "companies": 20
+    },
+    {
+      "name": "MORASKI, LUANN nan",
+      "npi": "1689625436",
+      "total_usd": 1208.06,
+      "payment_count": 78,
+      "companies": 15
+    },
+    {
+      "name": "LOPEZ, GLORIA nan",
+      "npi": "1558466359",
+      "total_usd": 115.67,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "IQBAL, ZAFAR nan",
+      "npi": "1740267459",
+      "total_usd": 66.92,
+      "payment_count": 3,
+      "companies": 1
+    },
+    {
+      "name": "MONTEMURRO, ANGELINA M",
+      "npi": "1417904491",
+      "total_usd": 12.4,
+      "payment_count": 1,
+      "companies": 1
+    }
+  ]
+}

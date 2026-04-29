@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "IA",
+    "state_name": "Iowa",
+    "county": "Scott",
+    "county_slug": "scott",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 44.8,
+    "total_exemptions_usd": 153932412.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2154.83,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 20,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 222,
+    "warn_workers_affected": 0,
+    "fips_county": "163"
+  },
+  "benchmarks": {
+    "state_rank": 10,
+    "state_total_counties": 100,
+    "state_percentile": 90,
+    "state_median_subsidy_usd": 22813128.0,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 3154.89,
+    "subsidy_context": "6.7× the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Scott County ranks 10th out of 100 Iowa counties for total tax exemptions, with $153.9M in property tax breaks — 6.7× the state median. The per-household cost of these subsidies is $2,155.",
+    "subsidy_context": "6.7× the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

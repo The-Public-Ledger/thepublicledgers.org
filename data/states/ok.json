@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "state": "OK",
+    "state_name": "Oklahoma",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 77,
+      "counties_with_data": 20,
+      "crossref_complete": true,
+      "deals_count": 1775,
+      "contributions_matched": 151
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 2073413613.0,
+    "total_beneficiaries": 1775,
+    "total_donations_usd": 7655638.67,
+    "matched_donors": 151,
+    "pct_beneficiaries_donating": 0.0851
+  },
+  "top_findings": [
+    "151 of 1,775 subsidized companies (8.5%) made campaign donations — $7.7M total.",
+    "$1.3M in donations flowed from beneficiaries to 56 political committees. Top recipient: Oklahoma Speaker's Ball, Inc. ($586,324).",
+    "$2.07B in total subsidies tracked across 1,775 beneficiary companies in Oklahoma."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 1291317.29,
+    "num_committees_receiving": 56,
+    "top_committee_name": "Oklahoma Speaker's Ball, Inc.",
+    "top_committee_amount": 586323.86,
+    "top_committee_pct": 2.84
+  },
+  "counties": [
+    {
+      "name": "Texas",
+      "slug": "texas",
+      "score": 60.0,
+      "total_exemptions_usd": 118347622.0,
+      "cost_per_household_usd": 17239.27,
+      "total_beneficiaries": 0,
+      "num_awards": 193
+    },
+    {
+      "name": "Oklahoma City",
+      "slug": "oklahoma-city",
+      "score": 55.0,
+      "total_exemptions_usd": 634344800.0,
+      "cost_per_household_usd": 634344800.0,
+      "total_beneficiaries": 0,
+      "num_awards": 289
+    },
+    {
+      "name": "Muskogee",
+      "slug": "muskogee",
+      "score": 50.0,
+      "total_exemptions_usd": 274073663.0,
+      "cost_per_household_usd": 10706.84,
+      "total_beneficiaries": 0,
+      "num_awards": 158
+    },
+    {
+      "name": "Woodward",
+      "slug": "woodward",
+      "score": 40.0,
+      "total_exemptions_usd": 26553966.0,
+      "cost_per_household_usd": 3316.34,
+      "total_beneficiaries": 0,
+      "num_awards": 83
+    },
+    {
+      "name": "Pittsburg",
+      "slug": "pittsburg",
+      "score": 37.0,
+      "total_exemptions_usd": 1248561.0,
+      "cost_per_household_usd": 71.74,
+      "total_beneficiaries": 0,
+      "num_awards": 27
+    },
+    {
+      "name": "Stephens",
+      "slug": "stephens",
+      "score": 25.0,
+      "total_exemptions_usd": 8485461.0,
+      "cost_per_household_usd": 498.21,
+      "total_beneficiaries": 0,
+      "num_awards": 135
+    },
+    {
+      "name": "Garfield",
+      "slug": "garfield",
+      "score": 15.0,
+      "total_exemptions_usd": 480250000.0,
+      "cost_per_household_usd": 20165.86,
+      "total_beneficiaries": 0,
+      "num_awards": 51
+    },
+    {
+      "name": "Seminole",
+      "slug": "seminole",
+      "score": 15.0,
+      "total_exemptions_usd": 303160574.0,
+      "cost_per_household_usd": 35515.53,
+      "total_beneficiaries": 0,
+      "num_awards": 87
+    },
+    {
+      "name": "Marshall",
+      "slug": "marshall",
+      "score": 10.0,
+      "total_exemptions_usd": 1218415.0,
+      "cost_per_household_usd": 214.89,
+      "total_beneficiaries": 0,
+      "num_awards": 43
+    },
+    {
+      "name": "Murray",
+      "slug": "murray",
+      "score": 10.0,
+      "total_exemptions_usd": 20038961.0,
+      "cost_per_household_usd": 3961.05,
+      "total_beneficiaries": 0,
+      "num_awards": 38
+    },
+    {
+      "name": "Rogers",
+      "slug": "rogers",
+      "score": 10.0,
+      "total_exemptions_usd": 154821947.0,
+      "cost_per_household_usd": 4410.76,
+      "total_beneficiaries": 0,
+      "num_awards": 280
+    },
+    {
+      "name": "Washita",
+      "slug": "washita",
+      "score": 10.0,
+      "total_exemptions_usd": 16697420.0,
+      "cost_per_household_usd": 4126.9,
+      "total_beneficiaries": 0,
+      "num_awards": 22
+    },
+    {
+      "name": "Noble",
+      "slug": "noble",
+      "score": 5.0,
+      "total_exemptions_usd": 2646802.0,
+      "cost_per_household_usd": 621.75,
+      "total_beneficiaries": 0,
+      "num_awards": 49
+    },
+    {
+      "name": "Nowata",
+      "slug": "nowata",
+      "score": 5.0,
+      "total_exemptions_usd": 1252997.0,
+      "cost_per_household_usd": 338.56,
+      "total_beneficiaries": 0,
+      "num_awards": 13
+    },
+    {
+      "name": "Okmulgee",
+      "slug": "okmulgee",
+      "score": 5.0,
+      "total_exemptions_usd": 3588889.0,
+      "cost_per_household_usd": 256.66,
+      "total_beneficiaries": 0,
+      "num_awards": 42
+    },
+    {
+      "name": "Payne",
+      "slug": "payne",
+      "score": 5.0,
+      "total_exemptions_usd": 7695515.0,
+      "cost_per_household_usd": 241.67,
+      "total_beneficiaries": 0,
+      "num_awards": 44
+    },
+    {
+      "name": "Okfuskee",
+      "slug": "okfuskee",
+      "score": 2.0,
+      "total_exemptions_usd": 333411.0,
+      "cost_per_household_usd": 86.13,
+      "total_beneficiaries": 0,
+      "num_awards": 3
+    },
+    {
+      "name": "Ottawa",
+      "slug": "ottawa",
+      "score": 2.0,
+      "total_exemptions_usd": 1470995.0,
+      "cost_per_household_usd": 125.53,
+      "total_beneficiaries": 0,
+      "num_awards": 42
+    },
+    {
+      "name": "Tulsa",
+      "slug": "tulsa",
+      "score": 2.0,
+      "total_exemptions_usd": 17000000.0,
+      "cost_per_household_usd": 64.32,
+      "total_beneficiaries": 0,
+      "num_awards": 17
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "score": 0.0,
+      "total_exemptions_usd": 183614.0,
+      "cost_per_household_usd": 9.0,
+      "total_beneficiaries": 0,
+      "num_awards": 9
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "state": "OR",
+  "facilities": 4824,
+  "water_systems": 3071,
+  "total_violations": 80408,
+  "health_violations": 4579,
+  "total_penalties": 34386517.0,
+  "avg_penalty": 7128.22,
+  "violation_rate": 0.586,
+  "enforcement_gap_score": 2.0507,
+  "serious_violators": 62,
+  "tri_facilities": 204,
+  "tri_releases_lbs": 426259996.0,
+  "top_counties": [
+    {
+      "fips": "41031",
+      "name": "JEFFERSON",
+      "facilities": 15,
+      "total_violations": 3,
+      "health_violations": 1,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2
+    },
+    {
+      "fips": "41061",
+      "name": "UNION",
+      "facilities": 18,
+      "total_violations": 5,
+      "health_violations": 2,
+      "total_penalties": 11546.0,
+      "enforcement_gap_score": 0.1692
+    },
+    {
+      "fips": "41049",
+      "name": "MORROW",
+      "facilities": 11,
+      "total_violations": 3,
+      "health_violations": 0,
+      "total_penalties": 8770.0,
+      "enforcement_gap_score": 0.1517
+    },
+    {
+      "fips": "41053",
+      "name": "POLK",
+      "facilities": 24,
+      "total_violations": 8,
+      "health_violations": 0,
+      "total_penalties": 30487.0,
+      "enforcement_gap_score": 0.1468
+    },
+    {
+      "fips": "41001",
+      "name": "BAKER",
+      "facilities": 24,
+      "total_violations": 10,
+      "health_violations": 18,
+      "total_penalties": 45639.0,
+      "enforcement_gap_score": 0.1436
+    },
+    {
+      "fips": "41059",
+      "name": "UMATILLA",
+      "facilities": 66,
+      "total_violations": 16,
+      "health_violations": 34,
+      "total_penalties": 49313.0,
+      "enforcement_gap_score": 0.1388
+    },
+    {
+      "fips": "41007",
+      "name": "CLATSOP",
+      "facilities": 37,
+      "total_violations": 13,
+      "health_violations": 6,
+      "total_penalties": 58133.0,
+      "enforcement_gap_score": 0.1367
+    },
+    {
+      "fips": "41045",
+      "name": "MALHEUR",
+      "facilities": 21,
+      "total_violations": 4,
+      "health_violations": 1,
+      "total_penalties": 11200.0,
+      "enforcement_gap_score": 0.1242
+    },
+    {
+      "fips": "41055",
+      "name": "SHERMAN",
+      "facilities": 9,
+      "total_violations": 2,
+      "health_violations": 2,
+      "total_penalties": 7500.0,
+      "enforcement_gap_score": 0.1212
+    },
+    {
+      "fips": "41003",
+      "name": "BENTON",
+      "facilities": 42,
+      "total_violations": 6,
+      "health_violations": 6,
+      "total_penalties": 13270.0,
+      "enforcement_gap_score": 0.1086
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "OWENS-BROCKWAY GLASS CONTAINER INC. PLANT 21",
+      "city": "PORTLAND",
+      "county": "MULTNOMAH",
+      "severity": 65.0,
+      "penalties": 1077655.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

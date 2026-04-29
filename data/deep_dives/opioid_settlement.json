@@ -1,0 +1,665 @@
+{
+  "meta": {
+    "project": "opioid-settlement",
+    "last_updated": "2026-04-14",
+    "status": "beta"
+  },
+  "key_stats": {
+    "registry_rows": 17179,
+    "recipients": 6196,
+    "states_tracked": 42,
+    "states_with_spending": 42,
+    "national_commitment_usd": 26213662649.18,
+    "allocation_tracked_usd": 2437656491.78,
+    "spend_tracked_usd": 1401019276.49,
+    "direct_service_usd": 351010365.84,
+    "review_worthy_usd": 82541885.37,
+    "vendor_matches": 155,
+    "mission_drift_flags": 1329,
+    "mission_drift_high_confidence": 225
+  },
+  "states": [
+    {
+      "state": "NC",
+      "recipients": 117,
+      "allocation_usd": 4049288148.05,
+      "spend_usd": 70675734.38,
+      "direct_service_usd": 42121522.69,
+      "review_worthy_usd": 25017769.22
+    },
+    {
+      "state": "CA",
+      "recipients": 285,
+      "allocation_usd": 3777721514.04,
+      "spend_usd": 887258810.07,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "OH",
+      "recipients": 656,
+      "allocation_usd": 1695690076.2,
+      "spend_usd": 338836047.33,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "FL",
+      "recipients": 5,
+      "allocation_usd": 1269512583.92,
+      "spend_usd": 0.0,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "NY",
+      "recipients": 67,
+      "allocation_usd": 1139314481.36,
+      "spend_usd": 153596100.23,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "MI",
+      "recipients": 391,
+      "allocation_usd": 1063769166.5,
+      "spend_usd": 244992924.07,
+      "direct_service_usd": 57700965.97,
+      "review_worthy_usd": 937210.0
+    },
+    {
+      "state": "NJ",
+      "recipients": 274,
+      "allocation_usd": 903138588.08,
+      "spend_usd": 148705912.85,
+      "direct_service_usd": 3765040.74,
+      "review_worthy_usd": 308115.02
+    },
+    {
+      "state": "IL",
+      "recipients": 214,
+      "allocation_usd": 815524286.07,
+      "spend_usd": 119026444.98,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "AZ",
+      "recipients": 17,
+      "allocation_usd": 761691597.45,
+      "spend_usd": 115972015.84,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "CO",
+      "recipients": 137,
+      "allocation_usd": 726270839.83,
+      "spend_usd": 149082246.84,
+      "direct_service_usd": 41327568.89,
+      "review_worthy_usd": 3087667.4
+    },
+    {
+      "state": "PA",
+      "recipients": 60,
+      "allocation_usd": 686017876.34,
+      "spend_usd": 65274894.07,
+      "direct_service_usd": 40903111.81,
+      "review_worthy_usd": 10540257.87
+    },
+    {
+      "state": "MA",
+      "recipients": 355,
+      "allocation_usd": 618444492.11,
+      "spend_usd": 112166466.83,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "GA",
+      "recipients": 229,
+      "allocation_usd": 617437738.94,
+      "spend_usd": 66984017.53,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "WA",
+      "recipients": 126,
+      "allocation_usd": 592741192.41,
+      "spend_usd": 85237677.56,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "KY",
+      "recipients": 277,
+      "allocation_usd": 586879208.6,
+      "spend_usd": 108421197.43,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "VA",
+      "recipients": 186,
+      "allocation_usd": 586067381.9,
+      "spend_usd": 103110096.76,
+      "direct_service_usd": 21013661.34,
+      "review_worthy_usd": 2293910.0
+    },
+    {
+      "state": "MO",
+      "recipients": 175,
+      "allocation_usd": 565400820.74,
+      "spend_usd": 88107652.36,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "TN",
+      "recipients": 152,
+      "allocation_usd": 533588436.43,
+      "spend_usd": 49249537.1,
+      "direct_service_usd": 443946.29,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "TX",
+      "recipients": 1,
+      "allocation_usd": 503482322.4,
+      "spend_usd": 0.0,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "OR",
+      "recipients": 117,
+      "allocation_usd": 488110282.27,
+      "spend_usd": 103916465.66,
+      "direct_service_usd": 9102783.98,
+      "review_worthy_usd": 969059.95
+    },
+    {
+      "state": "IN",
+      "recipients": 630,
+      "allocation_usd": 474006135.58,
+      "spend_usd": 25084206.0,
+      "direct_service_usd": 15561844.0,
+      "review_worthy_usd": 6017347.0
+    },
+    {
+      "state": "UT",
+      "recipients": 31,
+      "allocation_usd": 356774961.61,
+      "spend_usd": 53407788.96,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "WV",
+      "recipients": 233,
+      "allocation_usd": 70086754.37,
+      "spend_usd": 3198281.8,
+      "direct_service_usd": 874021.57,
+      "review_worthy_usd": 2323102.91
+    },
+    {
+      "state": "SC",
+      "recipients": 58,
+      "allocation_usd": 260362323.99,
+      "spend_usd": 10828516.08,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "MD",
+      "recipients": 64,
+      "allocation_usd": 246139855.42,
+      "spend_usd": 27524956.99,
+      "direct_service_usd": 5173484.31,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "IA",
+      "recipients": 100,
+      "allocation_usd": 213437588.91,
+      "spend_usd": 41059157.2,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "LA",
+      "recipients": 1,
+      "allocation_usd": 202290166.82,
+      "spend_usd": 0.0,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "NM",
+      "recipients": 51,
+      "allocation_usd": 178468655.6,
+      "spend_usd": 31084298.24,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "MS",
+      "recipients": 148,
+      "allocation_usd": 165266809.06,
+      "spend_usd": 14375213.09,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "ID",
+      "recipients": 69,
+      "allocation_usd": 157432052.12,
+      "spend_usd": 34615919.84,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "OK",
+      "recipients": 1,
+      "allocation_usd": 143487082.65,
+      "spend_usd": 0.0,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "AR",
+      "recipients": 1,
+      "allocation_usd": 142937746.78,
+      "spend_usd": 0.0,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "KS",
+      "recipients": 53,
+      "allocation_usd": 136190295.22,
+      "spend_usd": 10123071.0,
+      "direct_service_usd": 10123071.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "ME",
+      "recipients": 41,
+      "allocation_usd": 130240433.17,
+      "spend_usd": 19571515.45,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "MN",
+      "recipients": 148,
+      "allocation_usd": 117446684.0,
+      "spend_usd": 117446684.0,
+      "direct_service_usd": 86038244.0,
+      "review_worthy_usd": 31047446.0
+    },
+    {
+      "state": "NV",
+      "recipients": 1,
+      "allocation_usd": 98589946.7,
+      "spend_usd": 0.0,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "NE",
+      "recipients": 97,
+      "allocation_usd": 83937477.72,
+      "spend_usd": 7161929.94,
+      "direct_service_usd": 442157.25,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "RI",
+      "recipients": 43,
+      "allocation_usd": 76395150.06,
+      "spend_usd": 9908484.77,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "AL",
+      "recipients": 33,
+      "allocation_usd": 74619180.05,
+      "spend_usd": 8500000.0,
+      "direct_service_usd": 8500000.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "WI",
+      "recipients": 1,
+      "allocation_usd": 73367771.0,
+      "spend_usd": 39976500.0,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "SD",
+      "recipients": 70,
+      "allocation_usd": 72041055.72,
+      "spend_usd": 19023369.97,
+      "direct_service_usd": 7918942.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "DE",
+      "recipients": 1,
+      "allocation_usd": 69733306.7,
+      "spend_usd": 0.0,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "NH",
+      "recipients": 1,
+      "allocation_usd": 69356084.08,
+      "spend_usd": 0.0,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "MT",
+      "recipients": 62,
+      "allocation_usd": 66026935.67,
+      "spend_usd": 5290508.02,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "WY",
+      "recipients": 33,
+      "allocation_usd": 63648578.86,
+      "spend_usd": 15501521.9,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "HI",
+      "recipients": 1,
+      "allocation_usd": 49725203.03,
+      "spend_usd": 0.0,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "VT",
+      "recipients": 150,
+      "allocation_usd": 48092232.16,
+      "spend_usd": 3054693.33,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "AK",
+      "recipients": 10,
+      "allocation_usd": 46642707.86,
+      "spend_usd": 4566975.72,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "ND",
+      "recipients": 63,
+      "allocation_usd": 34972339.12,
+      "spend_usd": 3214654.44,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "DC",
+      "recipients": 1,
+      "allocation_usd": 30148022.93,
+      "spend_usd": 0.0,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    },
+    {
+      "state": "CT",
+      "recipients": 168,
+      "allocation_usd": 7156742.58,
+      "spend_usd": 4481622.82,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0
+    }
+  ],
+  "top_recipients": [
+    {
+      "name": "One Ohio Foundation",
+      "state": "OH",
+      "allocation_usd": 618335651.69,
+      "spend_usd": 215520556.58,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Los Angeles County",
+      "state": "CA",
+      "allocation_usd": 344776397.69,
+      "spend_usd": 132631626.02,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "New York City",
+      "state": "NY",
+      "allocation_usd": 303993104.08,
+      "spend_usd": 84304851.33,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Maricopa County",
+      "state": "AZ",
+      "allocation_usd": 208043424.21,
+      "spend_usd": 67182588.78,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "San Diego County",
+      "state": "CA",
+      "allocation_usd": 147059426.39,
+      "spend_usd": 56563513.38,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Orange County",
+      "state": "CA",
+      "allocation_usd": 112258755.83,
+      "spend_usd": 44226872.95,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Riverside County",
+      "state": "CA",
+      "allocation_usd": 111861342.69,
+      "spend_usd": 42607622.9,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Chicago City",
+      "state": "IL",
+      "allocation_usd": 93424702.05,
+      "spend_usd": 41413739.56,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Wisconsin DHS opioid settlement programs",
+      "state": "WI",
+      "allocation_usd": 73367771.0,
+      "spend_usd": 39976500.0,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Sacramento County",
+      "state": "CA",
+      "allocation_usd": 92959180.47,
+      "spend_usd": 35200611.74,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "San Bernardino County",
+      "state": "CA",
+      "allocation_usd": 83830022.87,
+      "spend_usd": 31728164.45,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Cook County",
+      "state": "IL",
+      "allocation_usd": 63726281.63,
+      "spend_usd": 26558995.28,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Minnesota County and Tribal Nation Child Protection Agencies",
+      "state": "MN",
+      "allocation_usd": 26504970.0,
+      "spend_usd": 26504970.0,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 26504970.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Los Angeles City",
+      "state": "CA",
+      "allocation_usd": 66085792.3,
+      "spend_usd": 25405135.24,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "San Francisco City",
+      "state": "CA",
+      "allocation_usd": 62162748.54,
+      "spend_usd": 25275837.74,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "First Ohio Attorney Fee and Cost Trust",
+      "state": "OH",
+      "allocation_usd": 139661892.81,
+      "spend_usd": 24163280.71,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Alameda County",
+      "state": "CA",
+      "allocation_usd": 58902178.44,
+      "spend_usd": 23636175.4,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Santa Clara County",
+      "state": "CA",
+      "allocation_usd": 60820327.76,
+      "spend_usd": 23472204.02,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Ventura County",
+      "state": "CA",
+      "allocation_usd": 58925342.96,
+      "spend_usd": 22663838.19,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Salt Lake County",
+      "state": "UT",
+      "allocation_usd": 59276323.34,
+      "spend_usd": 22580776.61,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Kern County",
+      "state": "CA",
+      "allocation_usd": 61849413.97,
+      "spend_usd": 21789446.93,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Pima County",
+      "state": "AZ",
+      "allocation_usd": 66966782.82,
+      "spend_usd": 21625301.79,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Contra Costa County",
+      "state": "CA",
+      "allocation_usd": 54374071.39,
+      "spend_usd": 20763998.27,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "Wayne County",
+      "state": "MI",
+      "allocation_usd": 51981900.49,
+      "spend_usd": 18719758.77,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    },
+    {
+      "name": "San Diego City",
+      "state": "CA",
+      "allocation_usd": 48082060.25,
+      "spend_usd": 18631030.74,
+      "direct_service_usd": 0.0,
+      "review_worthy_usd": 0.0,
+      "vendor_count": 1
+    }
+  ],
+  "methodology": "Settlement allocation and spending data extracted from state reports (PDFs, spreadsheets). Vendor crossref against FEC (191M records) and PPP (968K loans). Mission-drift flags based on category taxonomy.",
+  "caveats": [
+    "Only 41 of 51 tracked states publish spending data",
+    "98% of tracked allocations have zero spending transparency",
+    "Mission-drift flags are triage signals, not conclusions",
+    "CT and SC report municipality totals only (no vendor detail)"
+  ]
+}

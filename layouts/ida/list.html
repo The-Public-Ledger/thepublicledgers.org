@@ -1,0 +1,76 @@
+{{ define "main" }}
+{{ $national := site.Data.national.ida_summary }}
+
+<article class="section">
+  <div class="container">
+    <header class="page-header">
+      <span class="section-label">Subsidy Accountability</span>
+      {{ with .Params.status }}{{ partial "status-badge.html" . }}{{ end }}
+      <h1>{{ .Title }}</h1>
+      <p class="lead">{{ .Description }}</p>
+      {{ with $national.last_updated }}<p class="data-note">Data last updated {{ . }}</p>{{ end }}
+    </header>
+
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-card__value">$185B+</div>
+        <div class="stat-card__label">Total subsidies tracked across {{ $national.states_with_data }} states</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">{{ $national.total_projects }}</div>
+        <div class="stat-card__label">Subsidy projects analyzed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">{{ $national.states_with_data }}</div>
+        <div class="stat-card__label">States with donor-subsidy crossref</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">{{ $national.counties_with_scorecards }}</div>
+        <div class="stat-card__label">County-level scorecards</div>
+      </div>
+    </div>
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    {{ partial "map-toggle.html" (dict
+      "context" .
+      "choroplethParams" (dict
+        "context" .
+        "dataSource" "ida"
+        "metric" "total_exemptions_usd"
+        "formatFn" "money"
+        "thresholds" (slice
+          (dict "min" 1000000000 "class" "high"   "label" "Over $1B")
+          (dict "min" 100000000  "class" "medium" "label" "$100M–$1B")
+          (dict "min" 0          "class" "low"    "label" "Under $100M")
+        )
+        "noDataClass" "none"
+        "noDataLabel" "No data yet"
+        "linkPattern" "/ida/states/{abbr}/"
+        "ariaLabel" "US map showing IDA subsidy totals by state"
+        "colorPrefix" "ida"
+      )
+    ) }}
+
+    <div class="entry-paths">
+      <h2>Explore the Data</h2>
+      <div class="card-grid">
+        <a href="/ida/states/" class="entry-card">
+          <h3>By State</h3>
+          <p>State-level dashboards for all 50 states with available data.</p>
+        </a>
+        <a href="/data/" class="entry-card">
+          <h3>Interactive Explorer</h3>
+          <p>Filter and search all IDA records across datasets.</p>
+        </a>
+        <a href="/investigations/" class="entry-card">
+          <h3>Investigations</h3>
+          <p>Narrative investigations and deep-dive findings.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</article>
+{{ end }}

@@ -1,0 +1,107 @@
+{
+  "state": "SC",
+  "facilities": 2439,
+  "water_systems": 1012,
+  "total_violations": 4711,
+  "health_violations": 1120,
+  "total_penalties": 11370856.0,
+  "avg_penalty": 4662.1,
+  "violation_rate": 0.4838,
+  "enforcement_gap_score": 0.3411,
+  "serious_violators": 0,
+  "tri_facilities": 367,
+  "tri_releases_lbs": 1399896620.0,
+  "top_counties": [
+    {
+      "fips": "45065",
+      "name": "MCCORMICK",
+      "facilities": 4,
+      "total_violations": 4,
+      "health_violations": 21,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 1.0
+    },
+    {
+      "fips": "45089",
+      "name": "WILLIAMSBURG",
+      "facilities": 14,
+      "total_violations": 8,
+      "health_violations": 10,
+      "total_penalties": 17500.0,
+      "enforcement_gap_score": 0.254
+    },
+    {
+      "fips": "45087",
+      "name": "SPARTANBURG",
+      "facilities": 17,
+      "total_violations": 13,
+      "health_violations": 87,
+      "total_penalties": 39000.0,
+      "enforcement_gap_score": 0.2321
+    },
+    {
+      "fips": "45009",
+      "name": "BARNWELL",
+      "facilities": 5,
+      "total_violations": 4,
+      "health_violations": 3,
+      "total_penalties": 13000.0,
+      "enforcement_gap_score": 0.2222
+    },
+    {
+      "fips": "45001",
+      "name": "ABBEVILLE",
+      "facilities": 13,
+      "total_violations": 10,
+      "health_violations": 3,
+      "total_penalties": 36660.0,
+      "enforcement_gap_score": 0.2014
+    },
+    {
+      "fips": "45029",
+      "name": "COLLETON",
+      "facilities": 19,
+      "total_violations": 8,
+      "health_violations": 5,
+      "total_penalties": 22000.0,
+      "enforcement_gap_score": 0.1951
+    },
+    {
+      "fips": "45025",
+      "name": "CHESTERFIELD",
+      "facilities": 14,
+      "total_violations": 7,
+      "health_violations": 0,
+      "total_penalties": 22700.0,
+      "enforcement_gap_score": 0.1907
+    },
+    {
+      "fips": "45069",
+      "name": "MARLBORO",
+      "facilities": 11,
+      "total_violations": 6,
+      "health_violations": 0,
+      "total_penalties": 22875.0,
+      "enforcement_gap_score": 0.1771
+    },
+    {
+      "fips": "45061",
+      "name": "LEE",
+      "facilities": 9,
+      "total_violations": 4,
+      "health_violations": 0,
+      "total_penalties": 15636.0,
+      "enforcement_gap_score": 0.1624
+    },
+    {
+      "fips": "45049",
+      "name": "HAMPTON",
+      "facilities": 9,
+      "total_violations": 6,
+      "health_violations": 0,
+      "total_penalties": 29340.0,
+      "enforcement_gap_score": 0.1565
+    }
+  ],
+  "top_violators": []
+}

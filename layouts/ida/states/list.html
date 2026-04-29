@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article class="section">
+  <div class="container">
+    {{ partial "ida/breadcrumb.html" (dict) }}
+
+    <header class="page-header">
+      <h1>States</h1>
+      <p class="lead">IDA accountability data by state. Coverage varies &mdash; see badge for each state's data status.</p>
+    </header>
+
+    <div class="card-grid">
+      {{ range $abbr, $data := site.Data.states }}
+      <a href="/ida/states/{{ $abbr }}/" class="state-card state-card--{{ $data.meta.coverage_status }}">
+        <div class="state-card__header">
+          <span class="state-card__abbr">{{ $data.meta.state }}</span>
+          {{ partial "ida/coverage-badge.html" $data.meta }}
+        </div>
+        <div class="state-card__name">{{ $data.meta.state_name }}</div>
+        {{ with $data.summary_stats.total_exemptions_usd }}
+        <div class="state-card__stat">${{ div . 1000000000 }}B exempted</div>
+        {{ end }}
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</article>
+{{ end }}

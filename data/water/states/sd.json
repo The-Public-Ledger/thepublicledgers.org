@@ -1,0 +1,107 @@
+{
+  "state": "SD",
+  "facilities": 969,
+  "water_systems": 633,
+  "total_violations": 5917,
+  "health_violations": 1678,
+  "total_penalties": 362570.0,
+  "avg_penalty": 374.17,
+  "violation_rate": 0.5511,
+  "enforcement_gap_score": 4.4436,
+  "serious_violators": 1,
+  "tri_facilities": 31,
+  "tri_releases_lbs": 11184504.0,
+  "top_counties": [
+    {
+      "fips": "46029",
+      "name": "CODINGTON",
+      "facilities": 7,
+      "total_violations": 6,
+      "health_violations": 37,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.8571
+    },
+    {
+      "fips": "46111",
+      "name": "SANBORN",
+      "facilities": 3,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 200.0,
+      "enforcement_gap_score": 0.3125
+    },
+    {
+      "fips": "46125",
+      "name": "TURNER",
+      "facilities": 10,
+      "total_violations": 3,
+      "health_violations": 5,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3
+    },
+    {
+      "fips": "46089",
+      "name": "MCPHERSON",
+      "facilities": 4,
+      "total_violations": 1,
+      "health_violations": 7,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.25
+    },
+    {
+      "fips": "46041",
+      "name": "DEWEY",
+      "facilities": 4,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.25
+    },
+    {
+      "fips": "46079",
+      "name": "LAKE",
+      "facilities": 4,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 200.0,
+      "enforcement_gap_score": 0.2381
+    },
+    {
+      "fips": "46115",
+      "name": "SPINK",
+      "facilities": 6,
+      "total_violations": 1,
+      "health_violations": 5,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1667
+    },
+    {
+      "fips": "46103",
+      "name": "PENNINGTON",
+      "facilities": 39,
+      "total_violations": 7,
+      "health_violations": 61,
+      "total_penalties": 4983.0,
+      "enforcement_gap_score": 0.1592
+    },
+    {
+      "fips": "46109",
+      "name": "ROBERTS",
+      "facilities": 8,
+      "total_violations": 1,
+      "health_violations": 13,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.125
+    },
+    {
+      "fips": "46009",
+      "name": "BON HOMME",
+      "facilities": 9,
+      "total_violations": 1,
+      "health_violations": 12,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1111
+    }
+  ],
+  "top_violators": []
+}

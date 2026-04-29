@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Ontario",
+    "county_slug": "ontario",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 53.25,
+    "total_exemptions_usd": 95509483.17,
+    "net_exemptions_usd": 53702471.25,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 76,
+    "num_donor_beneficiaries": 19,
+    "donor_rate_pct": 25.0,
+    "total_donations_usd": 1452563.89,
+    "jobs_promised": 28537,
+    "jobs_current": 36344,
+    "total_projects": 436,
+    "num_officials_receiving": 26,
+    "official_total_received_usd": 822274.56,
+    "num_pipelines": 36
+  },
+  "benchmarks": {
+    "state_rank": 32,
+    "state_total_counties": 104,
+    "state_percentile": 69,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "2.3× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Ontario County ranks 32nd out of 104 New York counties for total tax exemptions, with $95.5M in property tax breaks — 2.3× the state median. 25% of subsidy recipients donated to local officials.",
+    "subsidy_context": "2.3× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

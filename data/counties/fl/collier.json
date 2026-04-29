@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "FL",
+    "state_name": "Florida",
+    "county": "Collier",
+    "county_slug": "collier",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 3.35,
+    "total_exemptions_usd": 13051000.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 56.79,
+    "total_beneficiaries": 11,
+    "num_donor_beneficiaries": 3,
+    "donor_rate_pct": 27.27,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 13,
+    "warn_workers_affected": 0,
+    "warn_notices": 0
+  },
+  "benchmarks": {
+    "state_rank": 24,
+    "state_total_counties": 78,
+    "state_percentile": 69,
+    "state_median_subsidy_usd": 8033000.0,
+    "state_median_donor_rate": 28.09,
+    "state_median_cost_per_hh": 96.46,
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Collier County ranks 24th out of 78 Florida counties for total tax exemptions, with $13.1M in property tax breaks — above the state median. 27% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $57.",
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Schenectady (City)",
+    "county_slug": "schenectady-city",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 60.44,
+    "total_exemptions_usd": 76395287.53,
+    "net_exemptions_usd": 37310711.59,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 40,
+    "num_donor_beneficiaries": 14,
+    "donor_rate_pct": 35.0,
+    "total_donations_usd": 104454.47,
+    "jobs_promised": 17799,
+    "jobs_current": 17850,
+    "total_projects": 229,
+    "num_officials_receiving": 11,
+    "official_total_received_usd": 93967.67,
+    "num_pipelines": 23
+  },
+  "benchmarks": {
+    "state_rank": 36,
+    "state_total_counties": 104,
+    "state_percentile": 65,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "above the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Schenectady (City) County ranks 36th out of 104 New York counties for total tax exemptions, with $76.4M in property tax breaks — above the state median. 35% of subsidy recipients donated to local officials.",
+    "subsidy_context": "above the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

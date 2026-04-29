@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "state_abbr": "MI",
+    "state_name": "Michigan",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 155,
+    "physician_population": 42353,
+    "per_1000_physicians": 3.66,
+    "double_flagged": 11,
+    "industry_payments_usd": 564304.53
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 89
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 36
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 12
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 11
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 3
+    },
+    {
+      "code": "1128b2",
+      "label": "Misdemeanor Controlled Substance",
+      "count": 1
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 1
+    },
+    {
+      "code": "1128b5",
+      "label": "Federal/State Program Exclusion",
+      "count": 1
+    },
+    {
+      "code": "1128b3",
+      "label": "1128b3",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "WV",
+      "from_name": "West Virginia",
+      "count": 27
+    },
+    {
+      "from_state": "KY",
+      "from_name": "Kentucky",
+      "count": 8
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 5
+    },
+    {
+      "from_state": "OH",
+      "from_name": "Ohio",
+      "count": 3
+    },
+    {
+      "from_state": "MA",
+      "from_name": "Massachusetts",
+      "count": 2
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 2
+    },
+    {
+      "from_state": "MN",
+      "from_name": "Minnesota",
+      "count": 2
+    },
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 2
+    },
+    {
+      "from_state": "WI",
+      "from_name": "Wisconsin",
+      "count": 1
+    },
+    {
+      "from_state": "TN",
+      "from_name": "Tennessee",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "NV",
+      "to_name": "Nevada",
+      "count": 1
+    },
+    {
+      "to_state": "MA",
+      "to_name": "Massachusetts",
+      "count": 1
+    },
+    {
+      "to_state": "OH",
+      "to_name": "Ohio",
+      "count": 1
+    },
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 1
+    },
+    {
+      "to_state": "IN",
+      "to_name": "Indiana",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "HARDY, ANDREW nan",
+      "npi": "1710101688",
+      "score": 81.2,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2017-10-19",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "COOPER, SCOTT HENRY",
+      "npi": "1215917760",
+      "score": 79.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-01-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "CASTRO, DAN J",
+      "npi": "1457301293",
+      "score": 75.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2025-09-18",
+      "specialty": "OTORHINOLARYNGOLOGY"
+    },
+    {
+      "name": "ZAKI, GAMAL nan",
+      "npi": "1780674218",
+      "score": 75.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2026-02-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "NAEEM, NAVEED nan",
+      "npi": "1255537056",
+      "score": 75.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2025-10-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "CARTER, BETH A",
+      "npi": "1962529990",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-08-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "RITTER, MICHELE R",
+      "npi": "1780616540",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-12-18",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "SHELTON, BERNARD W",
+      "npi": "1417032491",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-12-18",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "SWAN, JOHN nan",
+      "npi": "1003269911",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-05-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "VALENTINE, CHARISE LANETTE",
+      "npi": "1366485039",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2026-02-19",
+      "specialty": "FAMILY PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "ZAHOOR, MOHAMMED IDRIS",
+      "npi": "1922096452",
+      "total_usd": 317538.9,
+      "payment_count": 246,
+      "companies": 2
+    },
+    {
+      "name": "KORDISH, THERESA A",
+      "npi": "1437169034",
+      "total_usd": 87309.6,
+      "payment_count": 70,
+      "companies": 5
+    },
+    {
+      "name": "DANESHVAR, GERALD nan",
+      "npi": "1548427164",
+      "total_usd": 78434.64,
+      "payment_count": 66,
+      "companies": 1
+    },
+    {
+      "name": "CARTER, BETH A",
+      "npi": "1962529990",
+      "total_usd": 26840.81,
+      "payment_count": 43,
+      "companies": 3
+    },
+    {
+      "name": "ZAKI, GAMAL nan",
+      "npi": "1780674218",
+      "total_usd": 14459.22,
+      "payment_count": 608,
+      "companies": 60
+    },
+    {
+      "name": "PETERSON, SOARIES MAXINE",
+      "npi": "1528185303",
+      "total_usd": 6365.09,
+      "payment_count": 211,
+      "companies": 24
+    },
+    {
+      "name": "OESTERLING, JOSEPH E",
+      "npi": "1538136353",
+      "total_usd": 5790.0,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "TOYA, SOPHIE nan",
+      "npi": "1225367147",
+      "total_usd": 4450.59,
+      "payment_count": 34,
+      "companies": 11
+    },
+    {
+      "name": "BEYER, ROGER DENNIS",
+      "npi": "1295718138",
+      "total_usd": 4108.12,
+      "payment_count": 102,
+      "companies": 16
+    },
+    {
+      "name": "BAUL, TERRY SCOTT",
+      "npi": "1942375837",
+      "total_usd": 3609.67,
+      "payment_count": 258,
+      "companies": 31
+    }
+  ]
+}

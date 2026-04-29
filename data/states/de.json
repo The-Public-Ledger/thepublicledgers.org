@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "state": "DE",
+    "state_name": "Delaware",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 3,
+      "counties_with_data": 3,
+      "crossref_complete": true,
+      "deals_count": 1096,
+      "contributions_matched": 153
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 566986034.0,
+    "total_beneficiaries": 1096,
+    "total_donations_usd": 1812608.04,
+    "matched_donors": 153,
+    "pct_beneficiaries_donating": 0.1396
+  },
+  "top_findings": [
+    "153 of 1,096 subsidized companies (14.0%) made campaign donations — $1.8M total.",
+    "$953,668 in donations flowed from beneficiaries to 160 political committees. Top recipient: Republican State Leadership Committee ($626,433).",
+    "$567M in total subsidies tracked across 1,096 beneficiary companies in Delaware."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 953668.25,
+    "num_committees_receiving": 160,
+    "top_committee_name": "Republican State Leadership Committee",
+    "top_committee_amount": 626433.0,
+    "top_committee_pct": 3.03
+  },
+  "counties": [
+    {
+      "name": "New Castle",
+      "slug": "new-castle",
+      "score": 100.0,
+      "total_exemptions_usd": 463980741.0,
+      "cost_per_household_usd": 2128.33,
+      "total_beneficiaries": 0,
+      "num_awards": 824,
+      "fips_county": "003"
+    },
+    {
+      "name": "Sussex",
+      "slug": "sussex",
+      "score": 4.6,
+      "total_exemptions_usd": 3076859.0,
+      "cost_per_household_usd": 31.93,
+      "total_beneficiaries": 0,
+      "num_awards": 104,
+      "fips_county": "005"
+    },
+    {
+      "name": "Kent",
+      "slug": "kent",
+      "score": 3.1,
+      "total_exemptions_usd": 1846205.0,
+      "cost_per_household_usd": 27.67,
+      "total_beneficiaries": 0,
+      "num_awards": 66,
+      "fips_county": "001"
+    }
+  ]
+}

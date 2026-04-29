@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Islip",
+    "county_slug": "islip",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 54.17,
+    "total_exemptions_usd": 366258440.66,
+    "net_exemptions_usd": 195654698.87,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 206,
+    "num_donor_beneficiaries": 49,
+    "donor_rate_pct": 23.79,
+    "total_donations_usd": 617243.22,
+    "jobs_promised": 121468,
+    "jobs_current": 110330,
+    "total_projects": 1150,
+    "num_officials_receiving": 20,
+    "official_total_received_usd": 208330.0,
+    "num_pipelines": 71
+  },
+  "benchmarks": {
+    "state_rank": 7,
+    "state_total_counties": 104,
+    "state_percentile": 93,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "8.6× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Islip County ranks 7th out of 104 New York counties for total tax exemptions, with $366.3M in property tax breaks — 8.6× the state median. 24% of subsidy recipients donated to local officials.",
+    "subsidy_context": "8.6× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "state": "OH",
+  "facilities": 9580,
+  "water_systems": 4383,
+  "total_violations": 21120,
+  "health_violations": 3339,
+  "total_penalties": 20627643.0,
+  "avg_penalty": 2153.2,
+  "violation_rate": 0.3949,
+  "enforcement_gap_score": 0.6992,
+  "serious_violators": 90,
+  "tri_facilities": 1261,
+  "tri_releases_lbs": 1821268420.0,
+  "top_counties": [
+    {
+      "fips": "39069",
+      "name": "HENRY",
+      "facilities": 24,
+      "total_violations": 12,
+      "health_violations": 76,
+      "total_penalties": 1000.0,
+      "enforcement_gap_score": 0.48
+    },
+    {
+      "fips": "39105",
+      "name": "MEIGS",
+      "facilities": 19,
+      "total_violations": 7,
+      "health_violations": 4,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3684
+    },
+    {
+      "fips": "39143",
+      "name": "SANDUSKY",
+      "facilities": 57,
+      "total_violations": 20,
+      "health_violations": 4,
+      "total_penalties": 5000.0,
+      "enforcement_gap_score": 0.3226
+    },
+    {
+      "fips": "39019",
+      "name": "CARROLL",
+      "facilities": 44,
+      "total_violations": 17,
+      "health_violations": 8,
+      "total_penalties": 9000.0,
+      "enforcement_gap_score": 0.3208
+    },
+    {
+      "fips": "39091",
+      "name": "LOGAN",
+      "facilities": 68,
+      "total_violations": 20,
+      "health_violations": 30,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2941
+    },
+    {
+      "fips": "39175",
+      "name": "WYANDOT",
+      "facilities": 27,
+      "total_violations": 7,
+      "health_violations": 1,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2593
+    },
+    {
+      "fips": "39109",
+      "name": "MIAMI",
+      "facilities": 53,
+      "total_violations": 14,
+      "health_violations": 20,
+      "total_penalties": 4400.0,
+      "enforcement_gap_score": 0.2439
+    },
+    {
+      "fips": "39065",
+      "name": "HARDIN",
+      "facilities": 26,
+      "total_violations": 6,
+      "health_violations": 4,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2308
+    },
+    {
+      "fips": "39171",
+      "name": "WILLIAMS",
+      "facilities": 40,
+      "total_violations": 9,
+      "health_violations": 2,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.225
+    },
+    {
+      "fips": "39051",
+      "name": "FULTON",
+      "facilities": 25,
+      "total_violations": 8,
+      "health_violations": 39,
+      "total_penalties": 12500.0,
+      "enforcement_gap_score": 0.2133
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "OHIO REFINING CO,",
+      "city": "OREGON",
+      "county": "LUCAS",
+      "severity": 65.0,
+      "penalties": 1235170.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "PIXELLE SPECIALTY SOLUTIONS LLC",
+      "city": "CHILLICOTHE",
+      "county": "ROSS",
+      "severity": 60.0,
+      "penalties": 234440.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

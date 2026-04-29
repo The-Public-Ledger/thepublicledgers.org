@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Troy Industrial Development Authority",
+    "county_slug": "troy-industrial-development-authority",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 44.47,
+    "total_exemptions_usd": 56066733.08,
+    "net_exemptions_usd": 39732024.6,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 53,
+    "num_donor_beneficiaries": 11,
+    "donor_rate_pct": 20.75,
+    "total_donations_usd": 62458.03,
+    "jobs_promised": 16629,
+    "jobs_current": 13644,
+    "total_projects": 321,
+    "num_officials_receiving": 6,
+    "official_total_received_usd": 21964.0,
+    "num_pipelines": 11
+  },
+  "benchmarks": {
+    "state_rank": 43,
+    "state_total_counties": 104,
+    "state_percentile": 59,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "above the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Troy Industrial Development Authority County ranks 43rd out of 104 New York counties for total tax exemptions, with $56.1M in property tax breaks — above the state median. 21% of subsidy recipients donated to local officials.",
+    "subsidy_context": "above the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

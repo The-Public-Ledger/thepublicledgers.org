@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Hornell",
+    "county_slug": "hornell",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 39.71,
+    "total_exemptions_usd": 11809538.32,
+    "net_exemptions_usd": 6432898.56,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 20,
+    "num_donor_beneficiaries": 4,
+    "donor_rate_pct": 20.0,
+    "total_donations_usd": 83815.55,
+    "jobs_promised": 7743,
+    "jobs_current": 8956,
+    "total_projects": 122,
+    "num_officials_receiving": 6,
+    "official_total_received_usd": 26300.0,
+    "num_pipelines": 6
+  },
+  "benchmarks": {
+    "state_rank": 79,
+    "state_total_counties": 104,
+    "state_percentile": 24,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Hornell County ranks 79th out of 104 New York counties for total tax exemptions, with $11.8M in property tax breaks — below the state median. 20% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

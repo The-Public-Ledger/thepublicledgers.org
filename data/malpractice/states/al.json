@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "state_abbr": "AL",
+    "state_name": "Alabama",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 57,
+    "physician_population": 14710,
+    "per_1000_physicians": 3.875,
+    "double_flagged": 4,
+    "industry_payments_usd": 48482.81999999999
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 24
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 14
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 8
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 3
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 2
+    },
+    {
+      "code": "1128b3",
+      "label": "1128b3",
+      "count": 2
+    },
+    {
+      "code": "1156",
+      "label": "1156",
+      "count": 1
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 1
+    },
+    {
+      "code": "1128Aa",
+      "label": "1128Aa",
+      "count": 1
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "GA",
+      "from_name": "Georgia",
+      "count": 4
+    },
+    {
+      "from_state": "AR",
+      "from_name": "Arkansas",
+      "count": 3
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 3
+    },
+    {
+      "from_state": "LA",
+      "from_name": "Louisiana",
+      "count": 3
+    },
+    {
+      "from_state": "MS",
+      "from_name": "Mississippi",
+      "count": 1
+    },
+    {
+      "from_state": "OH",
+      "from_name": "Ohio",
+      "count": 1
+    },
+    {
+      "from_state": "TN",
+      "from_name": "Tennessee",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 5
+    },
+    {
+      "to_state": "LA",
+      "to_name": "Louisiana",
+      "count": 4
+    },
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
+      "count": 3
+    },
+    {
+      "to_state": "MS",
+      "to_name": "Mississippi",
+      "count": 3
+    },
+    {
+      "to_state": "TN",
+      "to_name": "Tennessee",
+      "count": 2
+    },
+    {
+      "to_state": "GA",
+      "to_name": "Georgia",
+      "count": 2
+    },
+    {
+      "to_state": "OH",
+      "to_name": "Ohio",
+      "count": 2
+    },
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 1
+    },
+    {
+      "to_state": "NC",
+      "to_name": "North Carolina",
+      "count": 1
+    },
+    {
+      "to_state": "MN",
+      "to_name": "Minnesota",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "ALI, MUHAMMAD WASIMSADIQ",
+      "npi": "1790709913",
+      "score": 84.2,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2016-11-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "ROBERTS, PAUL nan",
+      "npi": "1902996713",
+      "score": 72.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2021-10-20",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
+      "name": "BEAUCHAMP, DLIVRO LEMAT",
+      "npi": "1205803327",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-12-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "GAYLE, FRANCENE A",
+      "npi": "1922080415",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-08-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "EARLA, JANAKI RAM",
+      "npi": "1336349844",
+      "score": 70.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2025-12-18",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "NORMAN, STEVE E",
+      "npi": "1215901517",
+      "score": 70.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2025-11-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "IFEDIBA, PATRICK E",
+      "npi": "1104862531",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2021-11-18",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "JACKSON, MICHELLE S",
+      "npi": "1568479715",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2023-01-19",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "MURPHY, MARK A",
+      "npi": "1326019712",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-02-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "STEHL, RICHARD A",
+      "npi": "1760490411",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2022-03-20",
+      "specialty": "GENERAL PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "FOSTER, WARREN QUINTON",
+      "npi": "1760666531",
+      "total_usd": 16746.39,
+      "payment_count": 339,
+      "companies": 37
+    },
+    {
+      "name": "WAYNE, ALAN J",
+      "npi": "1477531283",
+      "total_usd": 9133.07,
+      "payment_count": 582,
+      "companies": 46
+    },
+    {
+      "name": "BECDACH, SAMMY F",
+      "npi": "1497726137",
+      "total_usd": 6062.02,
+      "payment_count": 428,
+      "companies": 55
+    },
+    {
+      "name": "WAKEFIELD, PHILIP MARK",
+      "npi": "1417042862",
+      "total_usd": 3255.62,
+      "payment_count": 110,
+      "companies": 27
+    },
+    {
+      "name": "JACKSON, MICHELLE S",
+      "npi": "1568479715",
+      "total_usd": 2449.99,
+      "payment_count": 188,
+      "companies": 37
+    },
+    {
+      "name": "SIDDIQUE, MOHAMMAD nan",
+      "npi": "1336107184",
+      "total_usd": 1212.69,
+      "payment_count": 11,
+      "companies": 3
+    },
+    {
+      "name": "CIMINO, JOHN P",
+      "npi": "1578548244",
+      "total_usd": 1149.22,
+      "payment_count": 25,
+      "companies": 7
+    },
+    {
+      "name": "STEHL, RICHARD A",
+      "npi": "1760490411",
+      "total_usd": 933.63,
+      "payment_count": 49,
+      "companies": 13
+    },
+    {
+      "name": "ALMEIDA, OSCAR DOMINGO",
+      "npi": "1003939471",
+      "total_usd": 864.14,
+      "payment_count": 28,
+      "companies": 6
+    },
+    {
+      "name": "EARLA, JANAKI RAM",
+      "npi": "1336349844",
+      "total_usd": 634.57,
+      "payment_count": 44,
+      "companies": 17
+    }
+  ]
+}

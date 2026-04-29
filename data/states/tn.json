@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "state": "TN",
+    "state_name": "Tennessee",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 95,
+      "counties_with_data": 39,
+      "crossref_complete": true,
+      "deals_count": 3214,
+      "contributions_matched": 291
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 1916464667.0,
+    "total_beneficiaries": 3214,
+    "total_donations_usd": 13788950.82,
+    "matched_donors": 291,
+    "pct_beneficiaries_donating": 0.09050000000000001
+  },
+  "top_findings": [
+    "291 of 3,214 subsidized companies (9.1%) made campaign donations — $13.8M total.",
+    "$7.2M in donations flowed from beneficiaries to 376 political committees. Top recipient: AMAZON.COM SERVICES LLC ($1.9M).",
+    "$1.92B in total subsidies tracked across 3,214 beneficiary companies in Tennessee."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 7211487.48,
+    "num_committees_receiving": 376,
+    "top_committee_name": "AMAZON.COM SERVICES LLC",
+    "top_committee_amount": 1889350.0,
+    "top_committee_pct": 100.0
+  },
+  "counties": [
+    {
+      "name": "Maury",
+      "slug": "maury",
+      "score": 67.0,
+      "total_exemptions_usd": 116300000.0,
+      "cost_per_household_usd": 2937.54,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "47119"
+    },
+    {
+      "name": "Shelby",
+      "slug": "shelby",
+      "score": 46.0,
+      "total_exemptions_usd": 30182045.0,
+      "cost_per_household_usd": 84.35,
+      "total_beneficiaries": 0,
+      "num_awards": 91,
+      "fips_county": "47157"
+    },
+    {
+      "name": "Knox",
+      "slug": "knox",
+      "score": 39.0,
+      "total_exemptions_usd": 513800.0,
+      "cost_per_household_usd": 2.64,
+      "total_beneficiaries": 0,
+      "num_awards": 15,
+      "fips_county": "47093"
+    },
+    {
+      "name": "Davidson",
+      "slug": "davidson",
+      "score": 13.0,
+      "total_exemptions_usd": 23945317.0,
+      "cost_per_household_usd": 79.12,
+      "total_beneficiaries": 0,
+      "num_awards": 8,
+      "fips_county": "47037"
+    },
+    {
+      "name": "Hamilton",
+      "slug": "hamilton",
+      "score": 9.0,
+      "total_exemptions_usd": 16781764.0,
+      "cost_per_household_usd": 112.71,
+      "total_beneficiaries": 0,
+      "num_awards": 11,
+      "fips_county": "47065"
+    },
+    {
+      "name": "Mcminn",
+      "slug": "mcminn",
+      "score": 4.0,
+      "total_exemptions_usd": 6455000.0,
+      "cost_per_household_usd": 304.05,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "47107"
+    },
+    {
+      "name": "Blount",
+      "slug": "blount",
+      "score": 3.0,
+      "total_exemptions_usd": 5350000.0,
+      "cost_per_household_usd": 100.08,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47009"
+    },
+    {
+      "name": "Coffee",
+      "slug": "coffee",
+      "score": 3.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47031"
+    },
+    {
+      "name": "Houston",
+      "slug": "houston",
+      "score": 3.0,
+      "total_exemptions_usd": 1472499.0,
+      "cost_per_household_usd": 486.62,
+      "total_beneficiaries": 0,
+      "num_awards": 5,
+      "fips_county": "47083"
+    },
+    {
+      "name": "Wilson",
+      "slug": "wilson",
+      "score": 3.0,
+      "total_exemptions_usd": 47600.0,
+      "cost_per_household_usd": 0.86,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47189"
+    },
+    {
+      "name": "Anderson",
+      "slug": "anderson",
+      "score": 2.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47001"
+    },
+    {
+      "name": "Hardin",
+      "slug": "hardin",
+      "score": 2.0,
+      "total_exemptions_usd": 10000.0,
+      "cost_per_household_usd": 0.92,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47071"
+    },
+    {
+      "name": "Madison",
+      "slug": "madison",
+      "score": 2.0,
+      "total_exemptions_usd": 1385000.0,
+      "cost_per_household_usd": 35.35,
+      "total_beneficiaries": 0,
+      "num_awards": 4,
+      "fips_county": "47113"
+    },
+    {
+      "name": "Marshall",
+      "slug": "marshall",
+      "score": 2.0,
+      "total_exemptions_usd": 10500.0,
+      "cost_per_household_usd": 0.81,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47117"
+    },
+    {
+      "name": "Montgomery",
+      "slug": "montgomery",
+      "score": 2.0,
+      "total_exemptions_usd": 72833.0,
+      "cost_per_household_usd": 0.91,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "47125"
+    },
+    {
+      "name": "Perry",
+      "slug": "perry",
+      "score": 2.0,
+      "total_exemptions_usd": 1037829.0,
+      "cost_per_household_usd": 351.33,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "47135"
+    },
+    {
+      "name": "Rhea",
+      "slug": "rhea",
+      "score": 2.0,
+      "total_exemptions_usd": 2800000.0,
+      "cost_per_household_usd": 219.71,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "47143"
+    },
+    {
+      "name": "Sequatchie",
+      "slug": "sequatchie",
+      "score": 2.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47153"
+    },
+    {
+      "name": "Williamson",
+      "slug": "williamson",
+      "score": 2.0,
+      "total_exemptions_usd": 1352805.0,
+      "cost_per_household_usd": 15.33,
+      "total_beneficiaries": 0,
+      "num_awards": 5,
+      "fips_county": "47187"
+    },
+    {
+      "name": "Bradley",
+      "slug": "bradley",
+      "score": 1.0,
+      "total_exemptions_usd": 2653465.0,
+      "cost_per_household_usd": 64.19,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "47011"
+    },
+    {
+      "name": "Sullivan",
+      "slug": "sullivan",
+      "score": 1.0,
+      "total_exemptions_usd": 2290855.0,
+      "cost_per_household_usd": 33.9,
+      "total_beneficiaries": 0,
+      "num_awards": 7,
+      "fips_county": "47163"
+    },
+    {
+      "name": "Bedford",
+      "slug": "bedford",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47003"
+    },
+    {
+      "name": "Cocke",
+      "slug": "cocke",
+      "score": 0.0,
+      "total_exemptions_usd": 68000.0,
+      "cost_per_household_usd": 4.67,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47029"
+    },
+    {
+      "name": "Cumberland",
+      "slug": "cumberland",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "47035"
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin",
+      "score": 0.0,
+      "total_exemptions_usd": 115210.0,
+      "cost_per_household_usd": 6.86,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "47051"
+    },
+    {
+      "name": "Gibson",
+      "slug": "gibson",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "47053"
+    },
+    {
+      "name": "Giles",
+      "slug": "giles",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47055"
+    },
+    {
+      "name": "Greene",
+      "slug": "greene",
+      "score": 0.0,
+      "total_exemptions_usd": 355500.0,
+      "cost_per_household_usd": 12.8,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47059"
+    },
+    {
+      "name": "Hamblen",
+      "slug": "hamblen",
+      "score": 0.0,
+      "total_exemptions_usd": 909250.0,
+      "cost_per_household_usd": 36.07,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "47063"
+    },
+    {
+      "name": "Lauderdale",
+      "slug": "lauderdale",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47097"
+    },
+    {
+      "name": "Loudon",
+      "slug": "loudon",
+      "score": 0.0,
+      "total_exemptions_usd": 79500.0,
+      "cost_per_household_usd": 3.54,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "47105"
+    },
+    {
+      "name": "Marion",
+      "slug": "marion",
+      "score": 0.0,
+      "total_exemptions_usd": 111800.0,
+      "cost_per_household_usd": 9.56,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47115"
+    },
+    {
+      "name": "Mcnairy",
+      "slug": "mcnairy",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47109"
+    },
+    {
+      "name": "Putnam",
+      "slug": "putnam",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47141"
+    },
+    {
+      "name": "Rutherford",
+      "slug": "rutherford",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "47149"
+    },
+    {
+      "name": "Sumner",
+      "slug": "sumner",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "47165"
+    },
+    {
+      "name": "Trousdale",
+      "slug": "trousdale",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "47169"
+    },
+    {
+      "name": "Weakley",
+      "slug": "weakley",
+      "score": 0.0,
+      "total_exemptions_usd": 200000.0,
+      "cost_per_household_usd": 15.23,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "47183"
+    },
+    {
+      "name": "White",
+      "slug": "white",
+      "score": 0.0,
+      "total_exemptions_usd": 508000.0,
+      "cost_per_household_usd": 47.41,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "47185"
+    }
+  ]
+}

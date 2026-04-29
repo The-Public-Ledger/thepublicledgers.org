@@ -1,0 +1,16 @@
+{
+  "state": "QC",
+  "facilities": 1,
+  "water_systems": 0,
+  "total_violations": 0,
+  "health_violations": 0,
+  "total_penalties": 0.0,
+  "avg_penalty": 0.0,
+  "violation_rate": 0.0,
+  "enforcement_gap_score": 0.0,
+  "serious_violators": 0,
+  "tri_facilities": 0,
+  "tri_releases_lbs": 0.0,
+  "top_counties": [],
+  "top_violators": []
+}

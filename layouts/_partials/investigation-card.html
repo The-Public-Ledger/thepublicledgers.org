@@ -1,0 +1,14 @@
+<article class="card">
+  <a href="{{ .Permalink }}" class="card-link">
+    <div class="card-body">
+      <h3 class="card-title">{{ .Title }}</h3>
+      {{ with .Params.status }}{{ partial "status-badge.html" . }}{{ end }}
+      {{ with .Description }}
+      <p class="card-description">{{ . }}</p>
+      {{ end }}
+      <time class="card-date" datetime="{{ .Date.Format "2006-01-02" }}">
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+    </div>
+  </a>
+</article>

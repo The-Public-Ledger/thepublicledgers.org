@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "state_abbr": "NE",
+    "state_name": "Nebraska",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 5,
+    "physician_population": 6504,
+    "per_1000_physicians": 0.769,
+    "double_flagged": 0,
+    "industry_payments_usd": 591.95
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 2
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 2
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "OR",
+      "from_name": "Oregon",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "NC",
+      "to_name": "North Carolina",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "YAZDI, NAVID D",
+      "npi": "1780685230",
+      "score": 71.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2011-10-20",
+      "specialty": "GYN/OBS"
+    },
+    {
+      "name": "HUGHES, KEITH PATRICK",
+      "npi": "1588604987",
+      "score": 64.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-06-20",
+      "specialty": "ORTHOPEDICS"
+    },
+    {
+      "name": "DE LOS ANGELES, REYNALDO A",
+      "npi": "1578572210",
+      "score": 62.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2023-11-20",
+      "specialty": "NEUROLOGY"
+    },
+    {
+      "name": "ALI, MAMAN LAWAN",
+      "npi": "1710181151",
+      "score": 50.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-06-20",
+      "specialty": "ORTHOPEDICS"
+    },
+    {
+      "name": "STRAKA, SCOTT D",
+      "npi": "1932123916",
+      "score": 41.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2015-05-20",
+      "specialty": "FAMILY PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "ALI, MAMAN LAWAN",
+      "npi": "1710181151",
+      "total_usd": 405.74,
+      "payment_count": 27,
+      "companies": 13
+    },
+    {
+      "name": "FRASER, JEFFREY L",
+      "npi": "1790792380",
+      "total_usd": 128.68,
+      "payment_count": 6,
+      "companies": 3
+    },
+    {
+      "name": "HUGHES, KEITH PATRICK",
+      "npi": "1588604987",
+      "total_usd": 57.53,
+      "payment_count": 4,
+      "companies": 3
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "state": "IN",
+  "facilities": 7560,
+  "water_systems": 4683,
+  "total_violations": 34655,
+  "health_violations": 5686,
+  "total_penalties": 47928790.0,
+  "avg_penalty": 6339.79,
+  "violation_rate": 0.4914,
+  "enforcement_gap_score": 0.6245,
+  "serious_violators": 43,
+  "tri_facilities": 712,
+  "tri_releases_lbs": 2383018948.0,
+  "top_counties": [
+    {
+      "fips": "18163",
+      "name": "VANDERBURGH",
+      "facilities": 34,
+      "total_violations": 11,
+      "health_violations": 3,
+      "total_penalties": 13174.0,
+      "enforcement_gap_score": 0.2332
+    },
+    {
+      "fips": "18167",
+      "name": "VIGO",
+      "facilities": 39,
+      "total_violations": 9,
+      "health_violations": 57,
+      "total_penalties": 4900.0,
+      "enforcement_gap_score": 0.205
+    },
+    {
+      "fips": "18045",
+      "name": "FOUNTAIN",
+      "facilities": 19,
+      "total_violations": 6,
+      "health_violations": 82,
+      "total_penalties": 10750.0,
+      "enforcement_gap_score": 0.2017
+    },
+    {
+      "fips": "18001",
+      "name": "ADAMS COUNTY",
+      "facilities": 40,
+      "total_violations": 8,
+      "health_violations": 38,
+      "total_penalties": 1000.0,
+      "enforcement_gap_score": 0.1951
+    },
+    {
+      "fips": "18047",
+      "name": "FRANKLIN",
+      "facilities": 17,
+      "total_violations": 4,
+      "health_violations": 24,
+      "total_penalties": 4240.0,
+      "enforcement_gap_score": 0.1883
+    },
+    {
+      "fips": "18091",
+      "name": "LAPORTE",
+      "facilities": 51,
+      "total_violations": 24,
+      "health_violations": 16,
+      "total_penalties": 78140.0,
+      "enforcement_gap_score": 0.1858
+    },
+    {
+      "fips": "18137",
+      "name": "RIPLEY",
+      "facilities": 20,
+      "total_violations": 5,
+      "health_violations": 22,
+      "total_penalties": 8480.0,
+      "enforcement_gap_score": 0.1756
+    },
+    {
+      "fips": "18171",
+      "name": "WARREN",
+      "facilities": 12,
+      "total_violations": 2,
+      "health_violations": 16,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1667
+    },
+    {
+      "fips": "18061",
+      "name": "HARRISON",
+      "facilities": 11,
+      "total_violations": 2,
+      "health_violations": 1,
+      "total_penalties": 1376.0,
+      "enforcement_gap_score": 0.1616
+    },
+    {
+      "fips": "18145",
+      "name": "SHELBY",
+      "facilities": 34,
+      "total_violations": 14,
+      "health_violations": 4,
+      "total_penalties": 54305.0,
+      "enforcement_gap_score": 0.1585
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "CLEVELAND-CLIFFS BURNS HARBOR LLC",
+      "city": "BURNS HARBOR",
+      "county": "PORTER",
+      "severity": 65.0,
+      "penalties": 3556596.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "STEEL DYNAMICS INCORPORATED",
+      "city": "BUTLER",
+      "county": "DEKALB",
+      "severity": 60.0,
+      "penalties": 543563.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "UMH IN BROADMORE, LLC AKA BROADMORE ESTA",
+      "city": "GOSHEN",
+      "county": "ELKHART",
+      "severity": 60.0,
+      "penalties": 44240.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "SOUTH BEND ETHANOL, LLC.",
+      "city": "SOUTH BEND",
+      "county": "ST. JOSEPH",
+      "severity": 60.0,
+      "penalties": 196700.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

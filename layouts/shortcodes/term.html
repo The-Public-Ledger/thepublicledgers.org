@@ -1,0 +1,13 @@
+{{/* term.html — Inline term definition with click-activated popover.
+     Usage: {{< term id="pilot" >}}PILOT{{< /term >}}
+     Or with custom definition: {{< term def="Payment in Lieu of Taxes" >}}PILOT{{< /term >}} */}}
+
+{{ $id := .Get "id" }}
+{{ $def := .Get "def" }}
+{{ $text := .Inner }}
+
+<span class="term-def" tabindex="0" role="button"
+      aria-expanded="false"
+      onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true')"
+      onkeydown="if(event.key==='Escape'){this.setAttribute('aria-expanded','false');}"
+      >{{ $text }}<span class="term-popover" role="tooltip">{{ $def }}{{ if $id }} <a href="/glossary/#{{ $id }}">More →</a>{{ end }}</span></span>

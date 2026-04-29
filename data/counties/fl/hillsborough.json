@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "FL",
+    "state_name": "Florida",
+    "county": "Hillsborough",
+    "county_slug": "hillsborough",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 4.4,
+    "total_exemptions_usd": 195100900.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 321.77,
+    "total_beneficiaries": 168,
+    "num_donor_beneficiaries": 54,
+    "donor_rate_pct": 32.14,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 205,
+    "warn_workers_affected": 0,
+    "warn_notices": 0
+  },
+  "benchmarks": {
+    "state_rank": 8,
+    "state_total_counties": 78,
+    "state_percentile": 90,
+    "state_median_subsidy_usd": 8033000.0,
+    "state_median_donor_rate": 28.09,
+    "state_median_cost_per_hh": 96.46,
+    "subsidy_context": "24.3× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Hillsborough County ranks 8th out of 78 Florida counties for total tax exemptions, with $195.1M in property tax breaks — 24.3× the state median. 32% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $322.",
+    "subsidy_context": "24.3× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

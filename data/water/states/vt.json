@@ -1,0 +1,107 @@
+{
+  "state": "VT",
+  "facilities": 2142,
+  "water_systems": 1464,
+  "total_violations": 23966,
+  "health_violations": 2758,
+  "total_penalties": 5329868.0,
+  "avg_penalty": 2488.27,
+  "violation_rate": 0.5644,
+  "enforcement_gap_score": 3.2075,
+  "serious_violators": 28,
+  "tri_facilities": 59,
+  "tri_releases_lbs": 21510392.0,
+  "top_counties": [
+    {
+      "fips": "50001",
+      "name": "ADDISON",
+      "facilities": 40,
+      "total_violations": 1,
+      "health_violations": 23,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.025
+    },
+    {
+      "fips": "50021",
+      "name": "RUTLAND",
+      "facilities": 117,
+      "total_violations": 1,
+      "health_violations": 205,
+      "total_penalties": 2750.0,
+      "enforcement_gap_score": 0.0084
+    },
+    {
+      "fips": "50007",
+      "name": "CHITTENDEN COUNTY",
+      "facilities": 121,
+      "total_violations": 4,
+      "health_violations": 45,
+      "total_penalties": 5327118.0,
+      "enforcement_gap_score": 0.0007
+    },
+    {
+      "fips": "50017",
+      "name": "ORANGE",
+      "facilities": 37,
+      "total_violations": 0,
+      "health_violations": 78,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0
+    },
+    {
+      "fips": "50005",
+      "name": "CALEDONIA",
+      "facilities": 45,
+      "total_violations": 0,
+      "health_violations": 29,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0
+    },
+    {
+      "fips": "50011",
+      "name": "FRANKLIN COUNTY",
+      "facilities": 57,
+      "total_violations": 0,
+      "health_violations": 46,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0
+    },
+    {
+      "fips": "50025",
+      "name": "WINDHAM",
+      "facilities": 86,
+      "total_violations": 0,
+      "health_violations": 53,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0
+    },
+    {
+      "fips": "50027",
+      "name": "WINDSOR",
+      "facilities": 90,
+      "total_violations": 0,
+      "health_violations": 36,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0
+    },
+    {
+      "fips": "50003",
+      "name": "BENNINGTON",
+      "facilities": 63,
+      "total_violations": 0,
+      "health_violations": 45,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0
+    },
+    {
+      "fips": "50019",
+      "name": "ORLEANS",
+      "facilities": 54,
+      "total_violations": 0,
+      "health_violations": 36,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0
+    }
+  ],
+  "top_violators": []
+}

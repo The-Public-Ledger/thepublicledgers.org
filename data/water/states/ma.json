@@ -1,0 +1,107 @@
+{
+  "state": "MA",
+  "facilities": 3328,
+  "water_systems": 1268,
+  "total_violations": 14284,
+  "health_violations": 1397,
+  "total_penalties": 6798389.0,
+  "avg_penalty": 2042.79,
+  "violation_rate": 0.4561,
+  "enforcement_gap_score": 1.4106,
+  "serious_violators": 5,
+  "tri_facilities": 704,
+  "tri_releases_lbs": 422772720.0,
+  "top_counties": [
+    {
+      "fips": "25007",
+      "name": "DUKES",
+      "facilities": 16,
+      "total_violations": 20,
+      "health_violations": 2,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 1.25
+    },
+    {
+      "fips": "25001",
+      "name": "BARNSTABLE",
+      "facilities": 56,
+      "total_violations": 41,
+      "health_violations": 5,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.7321
+    },
+    {
+      "fips": "25019",
+      "name": "NANTUCKET",
+      "facilities": 3,
+      "total_violations": 7,
+      "health_violations": 1,
+      "total_penalties": 11722.0,
+      "enforcement_gap_score": 0.4755
+    },
+    {
+      "fips": "25005",
+      "name": "BRISTOL",
+      "facilities": 136,
+      "total_violations": 111,
+      "health_violations": 30,
+      "total_penalties": 156020.0,
+      "enforcement_gap_score": 0.3801
+    },
+    {
+      "fips": "25011",
+      "name": "FRANKLIN",
+      "facilities": 67,
+      "total_violations": 28,
+      "health_violations": 27,
+      "total_penalties": 9985.0,
+      "enforcement_gap_score": 0.3637
+    },
+    {
+      "fips": "25027",
+      "name": "WORCESTER",
+      "facilities": 286,
+      "total_violations": 208,
+      "health_violations": 97,
+      "total_penalties": 506754.0,
+      "enforcement_gap_score": 0.2624
+    },
+    {
+      "fips": "25003",
+      "name": "BERKSHIRE",
+      "facilities": 75,
+      "total_violations": 21,
+      "health_violations": 44,
+      "total_penalties": 6695.0,
+      "enforcement_gap_score": 0.2571
+    },
+    {
+      "fips": "25015",
+      "name": "HAMPSHIRE",
+      "facilities": 56,
+      "total_violations": 15,
+      "health_violations": 8,
+      "total_penalties": 6791.0,
+      "enforcement_gap_score": 0.2389
+    },
+    {
+      "fips": "25013",
+      "name": "HAMPDEN",
+      "facilities": 160,
+      "total_violations": 47,
+      "health_violations": 24,
+      "total_penalties": 104229.0,
+      "enforcement_gap_score": 0.1779
+    },
+    {
+      "fips": "25023",
+      "name": "PLYMOUTH",
+      "facilities": 103,
+      "total_violations": 119,
+      "health_violations": 51,
+      "total_penalties": 600876.0,
+      "enforcement_gap_score": 0.1691
+    }
+  ],
+  "top_violators": []
+}

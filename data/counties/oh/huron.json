@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Huron",
+    "county_slug": "huron",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 14.22,
+    "total_exemptions_usd": 1656394.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2688.47,
+    "total_beneficiaries": 11,
+    "num_donor_beneficiaries": 6,
+    "donor_rate_pct": 54.55,
+    "total_donations_usd": 22968.96,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 68607057.2,
+    "households": 25519,
+    "bundling_clusters": 129,
+    "round_trips": 0,
+    "multi_dippers": 2,
+    "num_awards": 19
+  },
+  "benchmarks": {
+    "state_rank": 60,
+    "state_total_counties": 88,
+    "state_percentile": 32,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Huron County ranks 60th out of 88 Ohio counties for total tax exemptions, with $1.7M in property tax breaks — below the state median. 55% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,688.",
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

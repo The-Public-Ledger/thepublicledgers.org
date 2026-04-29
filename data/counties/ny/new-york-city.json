@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "New York (City)",
+    "county_slug": "new-york-city",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 54.42,
+    "total_exemptions_usd": 3669954495.14,
+    "net_exemptions_usd": 1521494296.58,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 484,
+    "num_donor_beneficiaries": 50,
+    "donor_rate_pct": 10.33,
+    "total_donations_usd": 551713.49,
+    "jobs_promised": 1082385,
+    "jobs_current": 758479,
+    "total_projects": 2646,
+    "num_officials_receiving": 13,
+    "official_total_received_usd": 307602.5,
+    "num_pipelines": 32
+  },
+  "benchmarks": {
+    "state_rank": 1,
+    "state_total_counties": 104,
+    "state_percentile": 99,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "86.5× the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "New York (City) County ranks 1st out of 104 New York counties for total tax exemptions, with $3.7B in property tax breaks — 86.5× the state median. 10% of subsidy recipients donated to local officials.",
+    "subsidy_context": "86.5× the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

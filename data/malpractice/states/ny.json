@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "state_abbr": "NY",
+    "state_name": "New York",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 275,
+    "physician_population": 101918,
+    "per_1000_physicians": 2.698,
+    "double_flagged": 486,
+    "industry_payments_usd": 9712158.50999999
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 104
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 72
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 57
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 18
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 12
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 4
+    },
+    {
+      "code": "1128b1",
+      "label": "Misdemeanor Fraud",
+      "count": 3
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 2
+    },
+    {
+      "code": "1128b5",
+      "label": "Federal/State Program Exclusion",
+      "count": 2
+    },
+    {
+      "code": "1128b16",
+      "label": "1128b16",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "NJ",
+      "from_name": "New Jersey",
+      "count": 21
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 18
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 8
+    },
+    {
+      "from_state": "WV",
+      "from_name": "West Virginia",
+      "count": 4
+    },
+    {
+      "from_state": "MA",
+      "from_name": "Massachusetts",
+      "count": 4
+    },
+    {
+      "from_state": "CT",
+      "from_name": "Connecticut",
+      "count": 4
+    },
+    {
+      "from_state": "MN",
+      "from_name": "Minnesota",
+      "count": 3
+    },
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 2
+    },
+    {
+      "from_state": "KY",
+      "from_name": "Kentucky",
+      "count": 2
+    },
+    {
+      "from_state": "NC",
+      "from_name": "North Carolina",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "NJ",
+      "to_name": "New Jersey",
+      "count": 9
+    },
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 2
+    },
+    {
+      "to_state": "CT",
+      "to_name": "Connecticut",
+      "count": 2
+    },
+    {
+      "to_state": "MA",
+      "to_name": "Massachusetts",
+      "count": 1
+    },
+    {
+      "to_state": "AK",
+      "to_name": "Alaska",
+      "count": 1
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 1
+    },
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
+      "count": 1
+    },
+    {
+      "to_state": "NV",
+      "to_name": "Nevada",
+      "count": 1
+    },
+    {
+      "to_state": "PA",
+      "to_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "to_state": "WV",
+      "to_name": "West Virginia",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "MIRZA, MUHAMMAD A",
+      "npi": "1881677409",
+      "score": 80.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2025-06-19",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "PADUCH, DARIUS ADAM",
+      "npi": "1265529333",
+      "score": 80.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2025-10-20",
+      "specialty": "UROLOGY"
+    },
+    {
+      "name": "LOPEZ, ERNESTO M",
+      "npi": "1346281813",
+      "score": 78.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2020-02-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "CHEEMA, MUHAMMAD AZAM",
+      "npi": "1821050485",
+      "score": 77.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2021-11-18",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "HADDEN, ROBERT nan",
+      "npi": "1295767671",
+      "score": 77.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2023-12-20",
+      "specialty": "GYN/OBS"
+    },
+    {
+      "name": "ADELGLASS, HOWARD nan",
+      "npi": "1962427427",
+      "score": 76.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-10-19",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "BEJJANI, FADI JOSEPH",
+      "npi": "1699834747",
+      "score": 76.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2013-08-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "LARUELLE, MARC nan",
+      "npi": "1891002424",
+      "score": 76.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-03-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "MCMAHON, SCOTT F",
+      "npi": "1144232117",
+      "score": 76.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2022-02-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "FREEDMAN, GORDON nan",
+      "npi": "1942220017",
+      "score": 75.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2024-08-20",
+      "specialty": "PAIN MANAGEMENT"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "RENTROP, KLAUS PETER",
+      "npi": "1194723601",
+      "total_usd": 9182612.58,
+      "payment_count": 21,
+      "companies": 10
+    },
+    {
+      "name": "CHEEMA, MUHAMMAD AZAM",
+      "npi": "1821050485",
+      "total_usd": 211377.58,
+      "payment_count": 401,
+      "companies": 19
+    },
+    {
+      "name": "SAYEGH, NADEM JAMIL",
+      "npi": "1255306973",
+      "total_usd": 109329.39,
+      "payment_count": 541,
+      "companies": 48
+    },
+    {
+      "name": "WAHBA, SAMEH nan",
+      "npi": "1154544567",
+      "total_usd": 26841.35,
+      "payment_count": 324,
+      "companies": 22
+    },
+    {
+      "name": "SMITH, JENNIFER nan",
+      "npi": "1700035722",
+      "total_usd": 20158.17,
+      "payment_count": 61,
+      "companies": 1
+    },
+    {
+      "name": "DIAMOND, RICHARD MARC",
+      "npi": "1316053952",
+      "total_usd": 16162.55,
+      "payment_count": 784,
+      "companies": 67
+    },
+    {
+      "name": "LUPIANO, JOHN D",
+      "npi": "1881634954",
+      "total_usd": 14417.29,
+      "payment_count": 124,
+      "companies": 30
+    },
+    {
+      "name": "MIRZA, MUHAMMAD A",
+      "npi": "1881677409",
+      "total_usd": 11624.47,
+      "payment_count": 16,
+      "companies": 9
+    },
+    {
+      "name": "HADI, MOHAMMED ABDULALEEM",
+      "npi": "1275760100",
+      "total_usd": 10567.28,
+      "payment_count": 440,
+      "companies": 56
+    },
+    {
+      "name": "PADUCH, DARIUS ADAM",
+      "npi": "1265529333",
+      "total_usd": 10359.09,
+      "payment_count": 6,
+      "companies": 4
+    }
+  ]
+}

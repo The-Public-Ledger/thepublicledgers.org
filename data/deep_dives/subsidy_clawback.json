@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "project": "subsidy-clawback",
+    "last_updated": "2026-03-24",
+    "status": "beta"
+  },
+  "key_stats": {
+    "companies_matched": 1657,
+    "workers_affected": 145241,
+    "subsidy_exposure_usd": 39200000000,
+    "high_priority_companies": 152,
+    "commitment_program_companies": 71,
+    "states_covered": 48,
+    "foia_targets": 50
+  },
+  "top_states": [
+    {"state": "TX", "companies": 126, "workers": 48988, "subsidy_usd": 8200000000},
+    {"state": "FL", "companies": 63, "workers": 24942, "subsidy_usd": 16200000000},
+    {"state": "NY", "companies": 105, "workers": 21245, "subsidy_usd": 13700000000},
+    {"state": "CA", "companies": 63, "workers": 15832, "subsidy_usd": 4100000000}
+  ],
+  "methodology": "WARN Act mass layoff notices cross-referenced against Good Jobs First subsidy beneficiary index using 3-tier entity matching. Worker counts deduplicated by (company, date, workers) to prevent cross-state inflation.",
+  "caveats": [
+    "WARN Act covers 100+ worker layoffs only",
+    "Clawback enforcement data requires FOIA — absence of evidence is not evidence of absence",
+    "FL WARN data embeds addresses in company names (~17.8% of rows)"
+  ]
+}

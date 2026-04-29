@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "state": "RI",
+    "state_name": "Rhode Island",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 5,
+      "counties_with_data": 5,
+      "crossref_complete": true,
+      "deals_count": 1483,
+      "contributions_matched": 49
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 1256152480.0,
+    "total_beneficiaries": 1483,
+    "total_donations_usd": 2416435.42,
+    "matched_donors": 49,
+    "pct_beneficiaries_donating": 0.033
+  },
+  "top_findings": [
+    "49 of 1,483 subsidized companies (3.3%) made campaign donations — $2.4M total.",
+    "$124,980 in donations flowed from beneficiaries to 183 political committees. Top recipient: FRANK T  CAPRIO ($58,800).",
+    "$1.26B in total subsidies tracked across 1,483 beneficiary companies in Rhode Island."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 124979.8,
+    "num_committees_receiving": 183,
+    "top_committee_name": "FRANK T  CAPRIO",
+    "top_committee_amount": 58800.44,
+    "top_committee_pct": 0.03
+  },
+  "counties": [
+    {
+      "name": "Providence",
+      "slug": "providence",
+      "score": 85.0,
+      "total_exemptions_usd": 909080425.4,
+      "cost_per_household_usd": 3584.21,
+      "total_beneficiaries": 0,
+      "num_awards": 34,
+      "fips_county": "007"
+    },
+    {
+      "name": "Newport",
+      "slug": "newport",
+      "score": 20.79,
+      "total_exemptions_usd": 105876023.4,
+      "cost_per_household_usd": 2958.59,
+      "total_beneficiaries": 0,
+      "num_awards": 23,
+      "fips_county": "005"
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "score": 13.83,
+      "total_exemptions_usd": 80409914.4,
+      "cost_per_household_usd": 1563.6,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "009"
+    },
+    {
+      "name": "Kent",
+      "slug": "kent",
+      "score": 12.3,
+      "total_exemptions_usd": 120589587.6,
+      "cost_per_household_usd": 1670.24,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "003"
+    },
+    {
+      "name": "Bristol",
+      "slug": "bristol",
+      "score": 10.54,
+      "total_exemptions_usd": 40196529.2,
+      "cost_per_household_usd": 2096.52,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "001"
+    }
+  ]
+}

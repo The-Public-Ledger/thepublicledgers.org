@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Montgomery",
+    "county_slug": "montgomery",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 24.46,
+    "total_exemptions_usd": 564036232.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 4861.26,
+    "total_beneficiaries": 83,
+    "num_donor_beneficiaries": 27,
+    "donor_rate_pct": 32.53,
+    "total_donations_usd": 371864.16,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 1225333740.43,
+    "households": 252061,
+    "bundling_clusters": 101,
+    "round_trips": 4,
+    "multi_dippers": 8,
+    "num_awards": 189
+  },
+  "benchmarks": {
+    "state_rank": 3,
+    "state_total_counties": 88,
+    "state_percentile": 97,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "118.5× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Montgomery County ranks 3rd out of 88 Ohio counties for total tax exemptions, with $564.0M in property tax breaks — 118.5× the state median. 33% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $4,861.",
+    "subsidy_context": "118.5× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

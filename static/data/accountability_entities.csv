@@ -1,0 +1,1503 @@
+rank,name,score,source_count,category_count,categories,sources,entity_type
+1,Amazon,13,6,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_ny; ida_oh; oge_trade; opioid_vendor; water_epa,corporate
+2,FedEx,11,5,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_ny; ida_oh; oge_trade; water_epa,corporate
+3,International Paper Co.,11,5,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_ny; ida_oh; oge_trade; water_epa,corporate
+4,Tractor Supply Company,11,5,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_ny; ida_oh; oge_trade; water_epa,corporate
+5,Cardinal Health,10,4,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; opioid; water_epa,corporate
+6,Booz Allen Hamilton Inc.,9,5,2,Governing Pays; Where did the money go?,capitol_trade; fara; ida_ny; ida_oh; oge_trade,corporate
+7,"Air Products and Chemicals, Inc.",9,4,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_ny; oge_trade; water_epa,corporate
+8,"Bristol-Myers Squibb Co., Inc.",9,4,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_ny; oge_trade; water_epa,corporate
+9,"General Mills, Inc.",9,4,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; oge_trade; water_epa,corporate
+10,McKesson Corporation,9,4,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny; ida_oh; opioid,corporate
+11,Nucor Corp.,9,4,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_ny; oge_trade; water_epa,corporate
+12,Schlumberger,9,4,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; fara_principal; ida_ny; water_epa,corporate
+13,Target Corporation,9,4,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; oge_trade; water_epa,corporate
+14,Thermo Fisher Scientific,9,4,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; oge_trade; water_epa,corporate
+15,Whirlpool,9,4,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; oge_trade; water_epa,corporate
+16,Ford Motor,8,4,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny; ida_oh; oge_trade,corporate
+17,General Electric,8,4,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny; ida_oh; oge_trade,corporate
+18,International Business Machines,8,4,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny; ida_oh; oge_trade,corporate
+19,Lockheed Martin Corp.,8,4,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny; ida_oh; oge_trade,corporate
+20,Advanced Drainage Systems,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; water_epa,corporate
+21,Avery Dennison,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; water_epa,corporate
+22,Carvana,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; water_epa,corporate
+23,Caterpillar,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; water_epa,corporate
+24,Church Dwight,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; water_epa,corporate
+25,City of Atlanta,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; opioid_vendor; water_epa,government
+26,City of Vienna,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,fara_principal; opioid; water_epa,government
+27,Corning,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_ny; water_epa,corporate
+28,Cummins Inc.,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_ny; water_epa,corporate
+29,DTE Energy Co,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_ny; water_epa,corporate
+30,Marathon Petroleum,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; water_epa,corporate
+31,Michigan State University,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; opioid; water_epa,education
+32,Mondelez Global,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_ny; water_epa,corporate
+33,Owens Corning,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; water_epa,corporate
+34,PPG Industries,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; water_epa,corporate
+35,Parker Hannifin,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; water_epa,corporate
+36,State of Colorado,8,3,3,Governing Pays; Where did the money go?; Who's protecting patients?,capitol_trade; nursing_home; opioid,government
+37,State of New Mexico,8,3,3,Governing Pays; Where did the money go?; Who's protecting patients?,capitol_trade; nursing_home; opioid,government
+38,"Sunoco, Inc.",8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_ny; water_epa,corporate
+39,United Parcel Service,8,3,3,Pollution & Enforcement; Governing Pays; Where did the money go?,capitol_trade; ida_oh; water_epa,corporate
+40,"""General Motors, LLC""",7,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny; ida_oh,corporate
+41,"""Praxair, Inc.  """,7,3,2,Pollution & Enforcement; Where did the money go?,ida_ny; ida_oh; water_epa,corporate
+42,American Regent Inc,7,3,2,Pollution & Enforcement; Where did the money go?,ida_ny; ida_oh; water_epa,corporate
+43,Ashland,7,3,2,Pollution & Enforcement; Where did the money go?,ida_oh; opioid; water_epa,corporate
+44,Cintas Corporation,7,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny; ida_oh,corporate
+45,Eaton,7,3,2,Pollution & Enforcement; Where did the money go?,ida_oh; opioid; water_epa,corporate
+46,Ferguson Enterprises,7,3,2,Pollution & Enforcement; Where did the money go?,ida_ny; ida_oh; water_epa,corporate
+47,"Huhtamaki, Inc.",7,3,2,Pollution & Enforcement; Where did the money go?,ida_ny; ida_oh; water_epa,corporate
+48,Hyponex Corporation,7,3,2,Pollution & Enforcement; Where did the money go?,ida_ny; ida_oh; water_epa,corporate
+49,Jefferson County,7,3,2,Pollution & Enforcement; Where did the money go?,opioid; opioid_vendor; water_epa,government
+50,Plug Power Inc,7,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny; ida_oh,corporate
+51,"Preferred Family Healthcare, Inc.",7,3,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid; opioid_vendor,corporate
+52,Good Samaritan Hospital,6,4,2,Pollution & Enforcement; Who's protecting patients?,faith_hospital; hrsa_340b; nursing_home; water_epa,corporate
+53,Mercy Medical Center,6,4,2,Pollution & Enforcement; Who's protecting patients?,faith_hospital; hrsa_340b; nursing_home; water_epa,corporate
+54,Abbott Laboratories,6,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh; oge_trade,corporate
+55,Amgen,6,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh; oge_trade,corporate
+56,Bank of America Corporation,6,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny; oge_trade,corporate
+57,"BlackRock, Inc.",6,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny; oge_trade,corporate
+58,Costco Wholesale Corporation,6,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny; oge_trade,corporate
+59,Domino's Pizza,6,3,2,Governing Pays; Where did the money go?,capitol_trade; oge_trade; opioid_vendor,corporate
+60,Grady Memorial Hospital,6,3,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_oh; nursing_home,corporate
+61,Intel,6,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh; oge_trade,corporate
+62,Intuit,6,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh; oge_trade,corporate
+63,Mercy Health - Lourdes Hospital,6,3,2,Where did the money go?; Who's protecting patients?,faith_hospital; hrsa_340b; opioid_vendor,corporate
+64,Netflix,6,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh; oge_trade,corporate
+65,Peloton Interactive,6,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh; oge_trade,corporate
+66,"Pepsico, Inc.",6,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny; oge_trade,corporate
+67,"Regeneron Pharmaceuticals, Inc.",6,3,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny; oge_trade,corporate
+68,Trinity Health Corporation,6,3,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_oh; nursing_home,corporate
+69,United Memorial Medical Center,6,3,2,Where did the money go?; Who's protecting patients?,faith_hospital; hrsa_340b; ida_ny,corporate
+70,"Walmart, Inc.",6,3,2,Governing Pays; Where did the money go?,capitol_trade; oge_trade; opioid_vendor,corporate
+71,AT&T,5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; oge_trade; water_epa,corporate
+72,Advocate Trinity Hospital,5,3,2,Pollution & Enforcement; Who's protecting patients?,faith_hospital; hrsa_340b; water_epa,corporate
+73,Apple Inc.,5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; oge_trade; water_epa,corporate
+74,Barnes Jewish Hospital,5,3,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; nursing_home; water_epa,corporate
+75,Canadian National Railway Co,5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; fara_principal; water_epa,corporate
+76,Colgate-Palmolive Co.,5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; oge_trade; water_epa,corporate
+77,Dollar General Corp.,5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; oge_trade; water_epa,corporate
+78,Dover Corporation,5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; oge_trade; water_epa,corporate
+79,Exxon Mobil Corp.,5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; oge_trade; water_epa,corporate
+80,"Honeywell International, Inc.",5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; oge_trade; water_epa,corporate
+81,Kimberly-Clark Corp.,5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; oge_trade; water_epa,corporate
+82,"L3Harris Technologies, Inc.",5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; oge_trade; water_epa,corporate
+83,Memorial Medical Center,5,3,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; nursing_home; water_epa,corporate
+84,New York City Health and Hospitals Corporation,5,3,2,Governing Pays; Who's protecting patients?,capitol_trade; hrsa_340b; nursing_home,corporate
+85,"Rockwell Automation, Inc.",5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; oge_trade; water_epa,corporate
+86,ST Francis Medical Center,5,3,2,Pollution & Enforcement; Who's protecting patients?,faith_hospital; hrsa_340b; water_epa,corporate
+87,ST Joseph Hospital,5,3,2,Pollution & Enforcement; Who's protecting patients?,faith_hospital; hrsa_340b; water_epa,corporate
+88,Saint Joseph Hospital,5,3,2,Pollution & Enforcement; Who's protecting patients?,faith_hospital; hrsa_340b; water_epa,corporate
+89,"Tesla, Inc.",5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; oge_trade; water_epa,corporate
+90,Texas Instruments Inc,5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; oge_trade; water_epa,corporate
+91,Xcel Energy Inc,5,3,2,Pollution & Enforcement; Governing Pays,capitol_trade; oge_trade; water_epa,corporate
+92,"""""""Lafarge North America, Inc.""""""",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+93,"""American Rock Salt, LLC""",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+94,"""Cox & Company, Inc.""",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+95,"""Midland Asphalt Materials, Inc.""",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+96,"""Moog, Inc.""",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+97,"""Newchem, Inc.""",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+98,"""Nicholas H. Noyes Memorial Hospital, Inc.""",5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+99,"""Steuben Foods, Inc.""",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+100,"""Sweeteners Plus, Inc""",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+101,"""Tri-Supreme Optical, LLC""",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+102,ABB,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+103,AIDS Action Coalition of Huntsville,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,corporate
+104,API Heat Transfer,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+105,Accelerated Learning Center,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+106,Ada Township,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+107,Advancepierre Foods,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+108,Agc Flat Glass North America,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+109,Akzo Nobel Coatings,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+110,Albany Medical Center Hospital,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+111,Albrecht,5,2,2,Governing Pays; Where did the money go?,fara; ida_oh,corporate
+112,Alcoa,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+113,"Aletheia House, Inc.",5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,corporate
+114,Allina Health System,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,corporate
+115,Alstom Transportation Inc.,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+116,"AltaPointe Health Systems, Inc.",5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,corporate
+117,American Electric Power,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+118,American Financial Group,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+119,American Packaging Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+120,American Trim,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+121,Amg Vanadium,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+122,Amneal Pharmaceuticals,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+123,Anchor Glass Container,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+124,Andersons,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+125,Anheuser Busch LLC,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+126,Annex Charter School,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+127,Anomatic Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+128,Antrim County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+129,"Aptargroup, Inc.",5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+130,Arcelormittal Tubular Products USA,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+131,Archbold Village,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+132,Arlington City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+133,Arvinmeritor,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+134,Asotin County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+135,Athens Village,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+136,Atlantic City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+137,Atricure,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+138,Auld Technologies,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+139,"AvalonBay Communities, Inc.",5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+140,Baldwin County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+141,Ball Corporation,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+142,Basf Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+143,Bay Mills Indian Community,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,corporate
+144,Bayer Materialscience,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+145,Becker County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+146,Bent County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid_vendor,government
+147,Benton County,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,government
+148,Bethany,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+149,Bluffton Village,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+150,Bothell City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+151,Boundary County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+152,Bowling Green State University,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,education
+153,Bridgeport,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+154,Bridgestone,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+155,Broadwater County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+156,Broome County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+157,Buena Vista,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+158,CVS,5,2,2,Pollution & Enforcement; Where did the money go?,opioid_vendor; water_epa,corporate
+159,Caci International Inc.,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+160,Cahaba Medical Care Foundation,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,corporate
+161,Calgon Carbon Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+162,Calumet City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+163,Camden City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+164,Campbell Soup Supply,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+165,Capital Health Services,5,2,2,Where did the money go?; Who's protecting patients?,ida_oh; nursing_home,corporate
+166,Carbondale,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+167,"Cargill, Inc.",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+168,Carlisle Construction Materials Incorporated,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+169,Carousel Center Co LP,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+170,Carter County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+171,Castle Rock,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+172,Cayuga Medical Center at Ithaca,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+173,Cbiz,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+174,Ccl Label,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+175,Cencora Inc,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,corporate
+176,Central High School,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+177,Champion Home Builders Co.,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+178,Charlton Heston Academy,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+179,Chemtron Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+180,Chewy,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+181,Chickasaw County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+182,City of Anderson,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+183,City of Bowie,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+184,City of Bridgeport,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+185,City of Cameron,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+186,City of Columbia,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+187,City of Detroit,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+188,City of Dunbar,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+189,City of Florence,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+190,City of Gary,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+191,City of Glen Dale,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+192,City of Havre de Grace,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+193,City of Henderson,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+194,City of Huntington,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+195,City of Jacksonville,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+196,City of Mitchell,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+197,City of North Charleston,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+198,City of Pennsboro,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+199,City of Petersburg,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+200,City of Portland,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+201,City of Rochester,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+202,City of Shelby,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+203,City of St. Albans,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+204,City of Wellsburg,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+205,City of Wheeling,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+206,Clark County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+207,Clarkston City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+208,Clear Creek County,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+209,Clinton County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+210,Coca Cola Refreshments USA,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+211,Coeymans Recycling Center LLC,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+212,Coltene Whaledent,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+213,Columbia County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+214,Columbia Gas Transmission,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+215,Columbia Memorial Hospital,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+216,Community Healthcare Network,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+217,Conagra Foods Packaged Foods,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+218,Consolidated Grain and Barge,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+219,Constellation Brands Inc,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+220,Contitech USA,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+221,"CoreWeave, Inc.",5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+222,Corvac Composites,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+223,Cowlitz County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+224,Crocs,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+225,Crown Holdings Inc.,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+226,Csx Transportation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+227,"Curran Renewable Energy, LLC",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+228,Dalton City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+229,Days Creek Charter School,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+230,Defiance City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+231,Dekalb County Government,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid_vendor,government
+232,Delta County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+233,Denver Health and Hospital Authority,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid_vendor,government
+234,Des Moines City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+235,Desert Star Community School,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+236,Discover Financial Services,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+237,Dover Chemical,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+238,Dover Town,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+239,Dresden Village,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+240,Dupage County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+241,EPR Properties,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+242,Eastman Kodak Company,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+243,Eaton Aeroquip,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+244,Echols County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+245,Empire Town,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+246,Englewood City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+247,Exel,5,2,2,Governing Pays; Where did the money go?,fara_principal; ida_oh,corporate
+248,Fancher Chair Co. Inc.,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+249,Federal Express Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+250,"Feldmeier Equipment, Inc.",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+251,Ferro Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+252,First Solar,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+253,Fort Recovery Industries,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+254,Frito Lay,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+255,Galion City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+256,Gallatin County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+257,Garden City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+258,Garlock Sealing Technologies,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+259,Gerry Homes,5,2,2,Where did the money go?; Who's protecting patients?,ida_ny; nursing_home,corporate
+260,Gershow Recycling Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+261,Gig Harbor City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+262,Givaudan Flavors,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+263,Gloucester City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+264,GoDaddy Inc,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid_vendor,corporate
+265,Google,5,2,2,Governing Pays; Where did the money go?,ida_oh; oge_trade,corporate
+266,Graphic Packaging International,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+267,"Greenidge Generation, LLC",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+268,Greenville Technology,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+269,Grosse Ile Township,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+270,Guardian Industries,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+271,H B Fuller Company,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+272,Hamilton Health Center INC,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid_vendor,corporate
+273,Hampton,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+274,Harrison Town,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+275,Hazlet Township,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+276,Health Management Associates LLC,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,corporate
+277,Health Partners of Western Ohio,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_oh,corporate
+278,Heart of Ohio Family Health Centers,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_oh,corporate
+279,Hebron INC,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+280,Henkel Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+281,Hennepin County,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,government
+282,"Henry Schein, Inc.",5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+283,Heritage Elementary School,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+284,Hill Country Youth Ranch,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+285,Hillside Village,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+286,Home Depot USA,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+287,Hoover Universal,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+288,Hudson River HealthCare,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+289,Hunter Health Clinic Inc.,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,corporate
+290,Huntington Bancshares Incorporated,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+291,ITT Corporation,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+292,Indium Corporation of America,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+293,Ineos USA,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+294,Installed Building Products,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+295,Integra Lifesciences Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+296,Isabella County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+297,JD& Sons,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+298,Janis Solar LLC,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+299,Jeff Davis,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+300,Jefferson Academy,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+301,Jeld Wen,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+302,John F. Kennedy High School,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+303,Johns Manville,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+304,Johnson Controls Battery Group,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+305,Jsw Steel USA Ohio,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+306,Kearny Town,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+307,Kennametal,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+308,Kenton City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+309,King County,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,government
+310,Koneta,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+311,"Konza Prairie Community Health Center, Inc.",5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,corporate
+312,LA Clinica Tepeyac INC,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid_vendor,corporate
+313,La Salle,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+314,Lafayette County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+315,Lake City Plating,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+316,Laurel Ridge,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+317,Lebanon,5,2,2,Governing Pays; Where did the money go?,fara_principal; opioid,corporate
+318,Lenawee County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+319,Lewis and Clark County,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+320,Lincoln County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+321,Livingston County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+322,Lorain County Community College,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,government
+323,Lord Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+324,Loreal USA Products,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+325,"Love's Travel Stops & Country Stores, Inc.",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+326,Lubrizol Advanced Materials,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+327,Lyons Village,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+328,M & T Bank,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+329,M S International,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+330,M Tek,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+331,Manchester,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+332,Manistee County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+333,Mansfield,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+334,Materion Brush,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+335,Mcafee Tool and Die,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+336,Medford,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+337,"Mediacom Realty, LLC",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+338,Medical University of South Carolina,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,education
+339,Mercer County,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+340,Mercy Health,5,2,2,Where did the money go?; Who's protecting patients?,ida_oh; nursing_home,corporate
+341,Merrick County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+342,MetLife,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+343,Metalx,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+344,Miba Bearings US,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+345,Millville City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+346,Minova USA,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+347,Missoula County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+348,Momentive Performance Materials,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+349,Momentive Specialty Chemicals,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+350,Mongodb,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+351,Monmouth,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+352,Monroe County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+353,Morgan Advanced Ceramics,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+354,Morris Ridge Solar Energy Center LLC,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+355,Morristown,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+356,"Morton Salt, Inc.",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+357,Motorola Solutions Inc,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid_vendor,corporate
+358,Mount Pleasant City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+359,Mpw Industrial Services,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+360,Multnomah County,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,government
+361,"NRG Energy, Inc.",5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+362,Nathan Littauer Hospital,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+363,Native American Community Clinic,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,corporate
+364,Neighborhood HealthSource,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,corporate
+365,Neshoba County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+366,Nestle Purina Petcare,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+367,Nestle Waters North America Inc.,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+368,New York Air Brake LLC,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+369,New York Community Bancorp,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+370,New York Community Bank,5,2,2,Governing Pays; Where did the money go?,ida_oh; oge_trade,corporate
+371,Niagara Bottling,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+372,Niles Township,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+373,Nordson Corporation,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+374,Norfolk Southern Railway,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+375,North Country Dairy,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+376,"North Jersey Trailer & Truck Service, Inc.",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+377,Novelis Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+378,Nvr,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+379,Oakwood Healthcare INC,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,corporate
+380,Oceana County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+381,Olean General Hospital,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+382,Omnicare,5,2,2,Where did the money go?; Who's protecting patients?,ida_oh; nursing_home,corporate
+383,Omnisource Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+384,Omnova Solutions,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+385,Onslow County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+386,Orange City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+387,Ormet Primary Aluminum,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+388,Overnite Transportation Co,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+389,Owens Brockway Glass Container,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+390,Paccar,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+391,Pactiv,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+392,Paul smiths College,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+393,Pcc Airfoils,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+394,Perth Amboy City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+395,Pharmavite,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+396,Phelps Memorial Hospital Center,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+397,Phillips Edison Company,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+398,Phillipsburg Town,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+399,Plainville,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+400,Plastic Platers,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+401,Plastipak Packaging,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+402,Pontotoc County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+403,Powder River County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+404,Pratt Industries,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+405,Precision Gear Inc.,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+406,Preston,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+407,Prologis,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+408,Public Storage,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+409,R L Carriers,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+410,Randolph County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+411,Real Alloy Recycling,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+412,Regents of the University of Minnesota,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,education
+413,Reladyne,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+414,Renton City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+415,Resonetics,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+416,Rich Products Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+417,Richard Weiner,5,2,2,Governing Pays; Where did the money go?,fara; ida_oh,corporate
+418,Ridgewood Village,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+419,Roosevelt Elementary,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+420,Roxbury Township,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+421,SI Group Inc.,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+422,ST Joseph Medical Center,5,2,2,Where did the money go?; Who's protecting patients?,faith_hospital; opioid,corporate
+423,ST Louis County,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+424,Saint Gobain Performance Plastics,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+425,Sammamish City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+426,Sanilac County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+427,Sarepta Therapeutics,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+428,Saunders County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+429,Savage,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+430,Schenectady County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+431,Schoolcraft County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+432,"Schuyler Hospital, Inc.",5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+433,"Sciegen Pharmaceuticals, Inc.",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+434,Science Applications International,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+435,Scotland,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+436,Secaucus Town,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+437,Sectional Stamping,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+438,Seneca Foods Corp.,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+439,Sherwin Williams,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+440,Shining Stars Daycare Inc.,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+441,"Siemens Energy, Inc.",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+442,Simpson Manufacturing,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+443,Skagit County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+444,Smurfit Stone Container,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+445,South Point Village,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+446,Special Metals Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+447,Spokane Valley City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+448,Spring Lake Township,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+449,Sps Technologies,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+450,St John's Riverside Hospital,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+451,St. Joseph's Medical Center,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+452,St. Luke's Cornwall Hospital,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_ny,corporate
+453,Standard Register,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+454,State of Arkansas,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+455,State of California,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+456,State of Florida,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+457,State of Georgia,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+458,State of Hawaii,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+459,State of Illinois,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+460,State of Iowa,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+461,State of Louisiana,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+462,State of Maine,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+463,State of Massachusetts,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+464,State of Michigan,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+465,State of Mississippi,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+466,State of Montana,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+467,State of Nevada,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+468,State of New Jersey,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+469,State of New York,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+470,State of Ohio,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+471,State of Oklahoma,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+472,State of Oregon,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+473,State of Rhode Island,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+474,State of South Carolina,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+475,State of Tennessee,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+476,State of Texas,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+477,State of Vermont,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+478,State of Washington,5,2,2,Governing Pays; Where did the money go?,capitol_trade; opioid,government
+479,State of Wyoming,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+480,Stone Creek School,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+481,Stratford,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+482,Suit-Kote Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+483,Sun Chemical Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+484,Sunny Wolf Charter School,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+485,Sutphen Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+486,Sylvania City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+487,Syracuse City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+488,"Sysco Syracuse, LLC",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+489,Syscom Advanced Materials,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+490,Tekni Plex,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+491,Tenneco,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+492,Tennessee Gas Pipeline,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+493,The Andersons,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+494,The Kroger,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+495,The Tjx Companies,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+496,Therm O Disc,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+497,Thomaston,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+498,Three Lakes Academy,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+499,Titanium Metals Corporation,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+500,Tonawanda Coke,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+501,Total System Services,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+502,Town of Andrews,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+503,Town of Ansted,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+504,Town of Athens,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+505,Town of Barrackville,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+506,Town of Ceredo,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+507,Town of Chapmanville,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+508,Town of Chesapeake,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+509,Town of Crawford,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+510,Town of East Bank,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+511,Town of Ellenboro,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+512,Town of Fayetteville,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+513,Town of Franklin,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+514,Town of Grantsville,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+515,Town of Lumberport,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+516,Town of Mabscott,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+517,Town of Marlinton,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+518,Town of Marmet,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+519,Town of Oakland,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+520,Town of Perryville,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+521,Town of Rowlesburg,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+522,Town of Terra Alta,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+523,Town of Triadelphia,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+524,Town of West Union,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+525,Town of Westport,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+526,Tremco,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+527,Trinity Health Ann Arbor Hospital,5,2,2,Where did the money go?; Who's protecting patients?,faith_hospital; opioid,corporate
+528,Trolley Barn,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+529,Tuscola County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+530,Tyler Technologies,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+531,"U.S. Venture, Inc.",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+532,US Bank National Association,5,2,2,Where did the money go?; Who's protecting patients?,ida_oh; nursing_home,corporate
+533,Ultium Cells,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+534,Union City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+535,Union County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+536,United Rentals,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+537,United States Steel Corporation,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+538,Unither Manufacturing LLC,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+539,Univar Solutions USA,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+540,University Place City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+541,University of Akron,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,education
+542,University of Cincinnati,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,education
+543,Unverferth Manufacturing Company,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+544,Upper Carmen Public Charter School,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+545,Upper Great Lakes Family Health Center,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; opioid,corporate
+546,Vail Rubber Works,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+547,Vam USA,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+548,Van Wert City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+549,Veeva Systems,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_oh,corporate
+550,"Vestal Asphalt, Inc.",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+551,Veyance Technologies,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+552,Voith Hydro,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+553,Vuzix Corporation,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+554,"Wal-Mart Stores, Inc.",5,2,2,Governing Pays; Where did the money go?,ida_ny; oge_trade,corporate
+555,Walla Walla County,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,government
+556,Watertown City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+557,Wauseon City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+558,Wayfair LLC,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+559,Wayne Dalton,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+560,Wayne Hospital Company,5,2,2,Where did the money go?; Who's protecting patients?,hrsa_340b; ida_oh,corporate
+561,Weidmann Electrical Technology,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+562,Wenatchee City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+563,Westcare Kentucky INC,5,2,2,Pollution & Enforcement; Where did the money go?,opioid_vendor; water_epa,corporate
+564,Western New York Energy,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+565,Weston,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+566,Whitehall,5,2,2,Pollution & Enforcement; Where did the money go?,ida_oh; water_epa,corporate
+567,Whiting Door Manufacturing,5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+568,"Widex USA, Inc.",5,2,2,Pollution & Enforcement; Where did the money go?,ida_ny; water_epa,corporate
+569,Willamette Leadership Academy,5,2,2,Pollution & Enforcement; Where did the money go?,charter_school; water_epa,corporate
+570,Woodbridge,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+571,Woodbury,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+572,Woodbury City,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+573,Woodstock,5,2,2,Pollution & Enforcement; Where did the money go?,opioid; water_epa,corporate
+574,Worth County,5,2,2,Where did the money go?; Who's protecting patients?,nursing_home; opioid,government
+575,Xylem Inc,5,2,2,Governing Pays; Where did the money go?,capitol_trade; ida_ny,corporate
+576,"""Piping Rock Health Products, LLC""",4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+577,"""RD America, LLC""",4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+578,5280 High School,4,2,1,Where did the money go?,charter_school; opioid_vendor,corporate
+579,AGCO Corp,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+580,Abbott Northwestern Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+581,Ace Hardware Corporation,4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+582,Advocate Christ Medical Center,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+583,Agilent Technologies Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+584,Air Canada,4,2,2,Pollution & Enforcement; Governing Pays,fara_principal; water_epa,corporate
+585,Alcohol & Drug Abuse Services,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+586,Alhambra Unified School District,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,education
+587,Allegheny County Health Department,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+588,Alton Memorial Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,nursing_home; water_epa,corporate
+589,American Treatment Network,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+590,Amrize LTD,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+591,Anne Arundel County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+592,Archer-Daniels-Midland Co,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+593,Arkema,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+594,Armstrong World Industries Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+595,Armstrong-Indiana- Clarion Drug and Alcohol Commission,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+596,Array Technologies INC,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+597,"Avon Products, Inc.",4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+598,Axalta Coating Systems Ltd,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+599,Baltimore County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+600,Beauregard Memorial Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+601,Benderson Development Company,4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+602,Berks County Jail,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+603,Bio-Rad Laboratories Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+604,"Blair County Drug & Alcohol Program, Inc",4,2,1,Where did the money go?,opioid; opioid_vendor,government
+605,Bon Secours ST Francis Medical Center,4,2,2,Pollution & Enforcement; Who's protecting patients?,faith_hospital; water_epa,corporate
+606,Bon Secours Southside Medical Center,4,2,2,Pollution & Enforcement; Who's protecting patients?,faith_hospital; water_epa,corporate
+607,Bradford/Sullivan SCA,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+608,Brigham and Women's Faulkner Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+609,British Airways,4,2,2,Pollution & Enforcement; Governing Pays,fara_principal; water_epa,corporate
+610,Brookfield Corporation,4,2,1,Where did the money go?,ida_ny; opioid,corporate
+611,"Bucks County Drug and Alcohol Commission, Inc",4,2,1,Where did the money go?,opioid; opioid_vendor,government
+612,Bunge Ltd,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+613,Butler County Prison,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+614,CMS Energy Corp,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+615,CMSU Behavioral Health & Developmental Services,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+616,California Steel Industries INC,4,2,2,Pollution & Enforcement; Governing Pays,fara_principal; water_epa,corporate
+617,Cambria County Drug & Alcohol Program,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+618,Carbon-Monroe- Pike Drug & Alcohol,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+619,Caroline County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+620,Carpenter Technology Corp,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+621,Carroll County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+622,Cecil County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+623,Cen Clear Child Services,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+624,Centre County Drug and Alcohol,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+625,Centura Health-st Anthony Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,faith_hospital; water_epa,corporate
+626,Chaffee County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+627,Charter School for Applied Technologies,4,2,1,Where did the money go?,charter_school; ida_ny,corporate
+628,Children Service Center/Robinson Counseling Services,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+629,Cintas Corporation No 2,4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+630,City Mission,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+631,City of Houston,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,government
+632,City of Oakland,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,government
+633,City of Philadelphia Office of Homeless Services,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+634,City of Rockville,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+635,Clean Harbors Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+636,Clearfield County Jail,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+637,Cmsu,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+638,Coherent Corp,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+639,Columbiana County,4,2,1,Where did the money go?,ida_oh; opioid,government
+640,Columbus McKinnon Corp,4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+641,Commonwealth of Virginia,4,2,2,Governing Pays; Who's protecting patients?,capitol_trade; nursing_home,government
+642,Community Memorial Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+643,Cornerstone Care,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+644,Countryside Estates INC,4,2,2,Pollution & Enforcement; Who's protecting patients?,nursing_home; water_epa,corporate
+645,County of Chester Dept. of Drug and Alcohol Services,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+646,County of San Diego,4,2,2,Governing Pays; Who's protecting patients?,capitol_trade; nursing_home,government
+647,Cumberland County Prison,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+648,Cumberland-Perry Drug & Alcohol Commission,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+649,Cytokinetics INC,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+650,Darling Ingredients Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+651,Dbhs,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+652,Delaware County Memorial Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+653,Domtar CORP,4,2,2,Pollution & Enforcement; Governing Pays,fara_principal; water_epa,corporate
+654,Donaldson Co Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+655,Douglas County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+656,EL AL Israel Airlines,4,2,2,Pollution & Enforcement; Governing Pays,fara_principal; water_epa,corporate
+657,East Orange General Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+658,Ecolab Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+659,Edwards Lifesciences Corp,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+660,Ellis Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+661,Entegris Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+662,Essex Group Incorporated,4,2,2,Pollution & Enforcement; Who's protecting patients?,nursing_home; water_epa,corporate
+663,Faith Lutheran Church,4,2,2,Pollution & Enforcement; Who's protecting patients?,nursing_home; water_epa,corporate
+664,Family Scholar House,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+665,First Presbyterian Church,4,2,2,Pollution & Enforcement; Who's protecting patients?,nursing_home; water_epa,corporate
+666,First Transit Inc.,4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+667,Flushing Hospital Medical Center,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+668,Forge Investments LP,4,2,2,Governing Pays; Who's protecting patients?,capitol_trade; nursing_home,corporate
+669,Franklin County,4,2,1,Where did the money go?,ida_oh; opioid,government
+670,Franklin Fulton County SCA,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+671,Frederick County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+672,Fremont County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+673,Fulton Co Family Partnership / Project SAAFE Coalition,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+674,Fulton County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+675,GE Aerospace,4,2,2,Pollution & Enforcement; Governing Pays,oge_trade; water_epa,corporate
+676,Garrett County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+677,Gateway Rehabilitation Center,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+678,Global Concepts Charter School,4,2,1,Where did the money go?,charter_school; ida_ny,corporate
+679,Goodrich Corporation,4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+680,"Great Lakes Cheese Co., Inc.",4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+681,Harford County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+682,Hasbro Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+683,Hexcel Corp,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+684,Hitachi America LTD,4,2,2,Pollution & Enforcement; Governing Pays,fara_principal; water_epa,corporate
+685,Homestead Village INC,4,2,2,Pollution & Enforcement; Who's protecting patients?,nursing_home; water_epa,corporate
+686,Hormel Foods Corp,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+687,Howard County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+688,Huron Memorial Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+689,"Icc, LLC",4,2,2,Pollution & Enforcement; Governing Pays,fara_principal; water_epa,corporate
+690,Infinera Corp,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+691,Ingredion Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+692,International Flavors & Fragrances Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+693,Iowa Methodist Medical Center,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+694,Iowa State University,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,education
+695,John Bean Technologies Corp,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+696,Johns Hopkins Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+697,Johnson Memorial Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,nursing_home; water_epa,corporate
+698,Juniata Valley Tri- County Drug & Alcohol Abuse Commission,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+699,Juniata Valley TriCounty Drug & Alcohol Abuse Commission/Juniata Valley Behavioral & Developmental Services,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+700,Kudu Creative LLC,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+701,Lakeview Corporation,4,2,2,Pollution & Enforcement; Who's protecting patients?,nursing_home; water_epa,corporate
+702,Lancaster County Prison,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+703,Larimer County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+704,Las Animas / Huerfano Counties District Health Department,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+705,Lawrence County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+706,Lebanon County Correctional Facility,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+707,Lehigh County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+708,Loyola University Medical Center,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+709,Luzerne County Correctional Facility/Wellpath,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+710,MGM Resorts International,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+711,Magnolia Gardens LLC,4,2,2,Pollution & Enforcement; Who's protecting patients?,nursing_home; water_epa,corporate
+712,Maimonides Medical Center,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+713,Mainehealth Stephens Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+714,Massachusetts General Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+715,Mazak CORP,4,2,2,Pollution & Enforcement; Governing Pays,fara_principal; water_epa,corporate
+716,McCormick & Co Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+717,"McNees Strategic Solutions Group, LLC.",4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+718,"Mcneill, John",4,2,2,Governing Pays; Who's protecting patients?,fara; nursing_home,corporate
+719,Meadowlark Counseling,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+720,"Medline Industries, Inc.",4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+721,Memorial Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+722,Mercer County District Attorney's Office,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+723,Meritus Medical Center,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+724,Microchip Technology Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+725,Micron Technology Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+726,Modoc Medical Center,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+727,Montgomery County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+728,Montgomery County Department of Health and Human Service,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+729,"Mre Holdings, INC",4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+730,North Shore Medical Center,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+731,Northampton County Fiscal Affairs,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+732,O'connor Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+733,ON Semiconductor Corp,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+734,Ochsner Medical Center - Kenner LLC,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+735,Old Dominion Freight Line Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+736,Olin Corp.,4,2,2,Pollution & Enforcement; Governing Pays,oge_trade; water_epa,corporate
+737,Opelousas General Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+738,Pacific Gas & Electric Co,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+739,Packaging Corp Of America,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+740,Patrick Industries Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+741,Peru,4,2,2,Pollution & Enforcement; Governing Pays,fara_principal; water_epa,corporate
+742,Philadelphia Water Department,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,government
+743,Pike County Correctional Facility,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+744,Pittsburgh Water and Sewer Authority,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,government
+745,Portland International Airport,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+746,Potter County Human Services,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+747,Prince George's County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+748,Providence Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+749,"Pyrotek, Inc.",4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+750,Quasar Energy Group,4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+751,Quest Diagnostics Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+752,Regional Medical Center,4,2,2,Pollution & Enforcement; Who's protecting patients?,faith_hospital; water_epa,corporate
+753,Regional Transportation District,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+754,"Richmond, City of",4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+755,Rideout Memorial Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+756,Riley County Community Corrections,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+757,Robert White,4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+758,"Rolling Frito-Lay Sales, LP",4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+759,Rolling Meadows,4,2,2,Pollution & Enforcement; Who's protecting patients?,nursing_home; water_epa,corporate
+760,SCA and Prison,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+761,Saint Francis Community & Residential Services,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+762,Saint Michael's Medical Center,4,2,2,Pollution & Enforcement; Who's protecting patients?,faith_hospital; water_epa,corporate
+763,San Joaquin General Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+764,Sanofi,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+765,Schneider National INC,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+766,Schuylkill County Prison/Prime Care,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+767,"Service Access Management, Inc.",4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+768,"Seward, City of",4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+769,Sgs North America Inc.,4,2,2,Pollution & Enforcement; Governing Pays,fara_principal; water_epa,corporate
+770,Singing River Gulfport,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+771,Skyworks Solutions Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+772,Snap-On Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+773,Snyder County Probation,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+774,Sonoco Products Co,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+775,Southern Illinois University,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+776,Southern Illinois University School of Medicine,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+777,"Specialty Retailers, Inc.",4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+778,St. Elizabeth Hospital,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+779,St. Mary's County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+780,St. Marys Cement INC,4,2,2,Pollution & Enforcement; Governing Pays,fara_principal; water_epa,corporate
+781,State of Connecticut,4,2,2,Governing Pays; Who's protecting patients?,capitol_trade; nursing_home,government
+782,State of Wisconsin,4,2,2,Governing Pays; Who's protecting patients?,capitol_trade; nursing_home,government
+783,Steel Dynamics Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+784,Stoneridge,4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+785,Substance Abuse Center of Kansas,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+786,Sullivan County Government,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+787,Susquehanna County Opioid Taskforce,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+788,Swedish Medical Center,4,2,2,Pollution & Enforcement; Who's protecting patients?,faith_hospital; water_epa,corporate
+789,TE Connectivity Ltd,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+790,Talbot County,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+791,Tap Air Portugal,4,2,2,Pollution & Enforcement; Governing Pays,fara_principal; water_epa,corporate
+792,Team LC DUI,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+793,The Cedar House Foundation,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+794,The Center for Counseling & Consultation,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+795,The Coca-Cola Co,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+796,The Dannon Company,4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+797,The University of Kansas Health System,4,2,1,Where did the money go?,opioid; opioid_vendor,education
+798,Third Judicial District of Kansas,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+799,Touro Infirmary,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+800,Town of Bel Air,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+801,Town of Northeast,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+802,Toyota Motor Sales,4,2,2,Pollution & Enforcement; Governing Pays,fara_principal; water_epa,corporate
+803,Tug River Health Association,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,corporate
+804,Tyson Foods Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+805,UPMC Western Behavioral Health at Safe Harbor,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+806,Unified Government Public Health Department,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+807,Universal Health Services INC,4,2,2,Governing Pays; Who's protecting patients?,capitol_trade; nursing_home,corporate
+808,University of Illinois,4,2,2,Pollution & Enforcement; Who's protecting patients?,hrsa_340b; water_epa,education
+809,Valeo Behavioral Health Care,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+810,Valvoline Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+811,Venango County Prison,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+812,Veterans Home of California,4,2,2,Pollution & Enforcement; Who's protecting patients?,nursing_home; water_epa,corporate
+813,Vicor CORP,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+814,Villa Feliciana Medical Complex,4,2,2,Pollution & Enforcement; Who's protecting patients?,nursing_home; water_epa,corporate
+815,"W & C, LLC",4,2,1,Where did the money go?,ida_ny; ida_oh,corporate
+816,Washington State University,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,education
+817,Waste Connections Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+818,Waste Management Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+819,West Branch Drug and Alcohol,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+820,West Pharmaceutical Services Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+821,Westmoreland county department of community relations and prevention,4,2,1,Where did the money go?,opioid; opioid_vendor,government
+822,Weyerhaeuser Co,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+823,Woodward Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+824,XPO Logistics Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+825,York Opioid Collaboriative,4,2,1,Where did the money go?,opioid; opioid_vendor,corporate
+826,Zoetis Inc,4,2,2,Pollution & Enforcement; Governing Pays,capitol_trade; water_epa,corporate
+827,"Covenant Medical Center, Inc.",3,3,1,Who's protecting patients?,faith_hospital; hrsa_340b; nursing_home,corporate
+828,"Fujitsu, Ltd.",3,3,1,Governing Pays,capitol_trade; fara; fara_principal,corporate
+829,"Hitachi, Ltd.",3,3,1,Governing Pays,capitol_trade; fara; fara_principal,corporate
+830,"Japan Tobacco, Inc.",3,3,1,Governing Pays,capitol_trade; fara; fara_principal,corporate
+831,MercyOne Centerville Medical Center,3,3,1,Who's protecting patients?,faith_hospital; hrsa_340b; nursing_home,corporate
+832,Pih Health Good Samaritan Hospital,3,3,1,Who's protecting patients?,faith_hospital; hrsa_340b; nursing_home,corporate
+833,"St. Mary's Medical Center, INC",3,3,1,Who's protecting patients?,faith_hospital; hrsa_340b; nursing_home,corporate
+834,3I Group PLC,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+835,A.M.K. Berlin,2,2,1,Governing Pays,fara; fara_principal,corporate
+836,ASML Holding NV,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+837,"AbbVie, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+838,Accenture Plc,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+839,"Activision Blizzard, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+840,"Advanced Micro Devices, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+841,Adventhealth Avista,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+842,Adventhealth Gordon,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+843,Adventhealth Hendersonville,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+844,Adventhealth Orlando,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+845,Adventhealth Rollins Brook,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+846,Adventhealth Tampa,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+847,Adventist Health Bakersfield,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+848,Adventist Health Lodi Memorial,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+849,Adventist Health Mendocino Coast,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+850,Adventist Health Sierra Vista,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+851,Adventist Health Ukiah Valley,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+852,Adventist Healthcare White Oak Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+853,Advocate Lutheran General Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+854,Aeroport de Paris,2,2,1,Governing Pays,fara; fara_principal,corporate
+855,"Afghanistan-U.S. Democratic Peace and Prosperity Council, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+856,"Ahmed, Tanweer",2,2,1,Governing Pays,fara; fara_principal,corporate
+857,"AirBNB, inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+858,"Airbus Industrie of North America, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+859,Alameda Health System,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+860,"Alaska Air Group, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+861,"Alaska Pulp & Resources, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+862,Algerian Front of National Liberation,2,2,1,Governing Pays,fara; fara_principal,corporate
+863,"All Pakistan Muslim League, LLC",2,2,1,Governing Pays,fara; fara_principal,corporate
+864,"Allied Public Relations, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+865,"Alphabet, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+866,Alpine Tourist Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+867,Amcor plc,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+868,"American Basque Foundation, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+869,American Express Co.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+870,American Friends of Polish Democracy,2,2,1,Governing Pays,fara; fara_principal,corporate
+871,"American Nord-Aviation, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+872,"Amkor Technology, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+873,Amtorg Trading Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+874,"Analog Devices, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+875,"Anchor Line, Ltd.",2,2,1,Governing Pays,fara; fara_principal,corporate
+876,Antigua Department of Tourism,2,2,1,Governing Pays,fara; fara_principal,government
+877,Aptiv PLC,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+878,Arab Information Center,2,2,1,Governing Pays,fara; fara_principal,corporate
+879,Arch Capital Group Ltd.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+880,Arnot Ogden Medical Center,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+881,Arthur J. Gallagher & Co.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+882,"Artkino Pictures, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+883,Aruba Tourism Authority,2,2,1,Governing Pays,fara; fara_principal,government
+884,Ascension Borgess Lee Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+885,"Ascension Via Christi Hospitals Wichita, Inc.",2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+886,Astrazeneca PLC,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+887,Australian Broadcasting Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+888,Australian Information Service,2,2,1,Governing Pays,fara; fara_principal,corporate
+889,Australian Meat & Livestock Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+890,"Austrian Tourist Office, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+891,"Autodesk, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+892,"Automatic Data Processing, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+893,Avera Marshall,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+894,Avera ST Anthony's Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+895,Bahamas Tourist Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+896,Bank of Montreal,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+897,Baptist Health Paducah,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+898,Baraga County Memorial Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+899,Basque Delegation in the U.S.A.,2,2,1,Governing Pays,fara; fara_principal,corporate
+900,Battle Mountain General Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+901,"Bavarian Ministry for Economic Affairs, Infrastructure, Transport and Technology",2,2,1,Governing Pays,fara; fara_principal,corporate
+902,Beaver Valley Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+903,Belgian Government Information Center,2,2,1,Governing Pays,fara; fara_principal,corporate
+904,Belgian National Tourist Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+905,Benitez Strategies,2,2,1,Governing Pays,fara; fara_principal,corporate
+906,Berkshire Hathaway Inc.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+907,Bermuda Tourism Authority,2,2,1,Governing Pays,fara; fara_principal,government
+908,Billings Clinic,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+909,Block Inc,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+910,Bon Secours Community Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+911,Brand South Africa,2,2,1,Governing Pays,fara; fara_principal,corporate
+912,"British Aerospace, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+913,"British Airways, PLC",2,2,1,Governing Pays,fara; fara_principal,corporate
+914,British Broadcasting Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+915,British Information Services,2,2,1,Governing Pays,fara; fara_principal,corporate
+916,British Virgin Islands Tourist Board,2,2,1,Governing Pays,fara; fara_principal,government
+917,British-American Chamber of Commerce,2,2,1,Governing Pays,fara; fara_principal,corporate
+918,"Broadcom, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+919,Brookville Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+920,Brunswick Corp,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+921,Bulgarian Tourist Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+922,"C. Itoh & Company (America), Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+923,CEDOK Czechoslovak Travel Bureau,2,2,1,Governing Pays,fara; fara_principal,government
+924,"Cable & Wireless North America, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+925,Cameco Corp,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+926,Canadian Coalition on Acid Rain,2,2,1,Governing Pays,fara; fara_principal,corporate
+927,Canadian National Railways,2,2,1,Governing Pays,fara; fara_principal,corporate
+928,Caribbean Tourism Development Company,2,2,1,Governing Pays,fara; fara_principal,corporate
+929,Carnival Corporation & PLC,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+930,Carson Tahoe Regional Healthcare,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+931,Catalan National Assembly in the United States of America Association,2,2,1,Governing Pays,fara; fara_principal,corporate
+932,Cayman Islands Department of Tourism,2,2,1,Governing Pays,fara; fara_principal,government
+933,Central American Sugar Council,2,2,1,Governing Pays,fara; fara_principal,corporate
+934,Ceylon (Sri Lanka) Tourist Board,2,2,1,Governing Pays,fara; fara_principal,government
+935,Chi Health Good Samaritan,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+936,Chi ST Vincent Morrilton,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+937,"China Media Services, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+938,China National Tourist Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+939,Chinese Information Service,2,2,1,Governing Pays,fara; fara_principal,corporate
+940,"Chinese Information Service, Pacific Coast Bureau",2,2,1,Governing Pays,fara; fara_principal,government
+941,Choctaw Regional Medical Center,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+942,Christian League of Southern Africa,2,2,1,Governing Pays,fara; fara_principal,corporate
+943,Christus ST Frances Cabrini Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+944,Christus Shreveport-bossier Health System,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+945,Christus Southern New Mexico,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+946,Chubb Ltd.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+947,Citizens Medical Center INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+948,Citizens for a Free Kuwait,2,2,1,Governing Pays,fara; fara_principal,corporate
+949,Club 26 de Julio de Miami,2,2,1,Governing Pays,fara; fara_principal,corporate
+950,Colombia Flower Council,2,2,1,Governing Pays,fara; fara_principal,corporate
+951,Columbus Regional Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+952,Comanche County Hospital Authority,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,government
+953,Comcast Corp.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+954,Committee For Unity Of The Nile Valley,2,2,1,Governing Pays,fara; fara_principal,corporate
+955,Committee for Free Elections & Democracy in Nicaragua,2,2,1,Governing Pays,fara; fara_principal,corporate
+956,Committee for the 1984 Act (CFA),2,2,1,Governing Pays,fara; fara_principal,corporate
+957,Commonwealth Bank of Australia,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+958,Community Health Services Corporation,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+959,Community Health Systems INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+960,Community Hospital Association,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+961,Community Hospital of Anaconda,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+962,Community Hospital of San Bernardino,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+963,"Community Medical Center, Inc.",2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+964,Compagnie Generale Transatlantique (French Line),2,2,1,Governing Pays,fara; fara_principal,corporate
+965,Compass Health INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+966,"Connaught Laboratories, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+967,ConocoPhillips,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+968,Consejo Nacional de Turismo,2,2,1,Governing Pays,fara; fara_principal,corporate
+969,"Conservative Action Pact, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+970,Cook County Hospital District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+971,Cook Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+972,Coordinadora de Organizaciones Empresariales de Comercio Exterior (COECE),2,2,1,Governing Pays,fara; fara_principal,corporate
+973,Corporacion de Fomento de la Produccion,2,2,1,Governing Pays,fara; fara_principal,corporate
+974,"Corporacion del Cobre (U.S.A.), Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+975,Coryell County Memorial Hospital Authority,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,government
+976,Council of Khalistan,2,2,1,Governing Pays,fara; fara_principal,corporate
+977,County of Cass,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,government
+978,County of Ingham,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,government
+979,County of Santa Clara,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,government
+980,County of Wayne,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,government
+981,Covington County Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+982,CrowdStrike Holdings,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+983,Czechoslovak News Agency,2,2,1,Governing Pays,fara; fara_principal,government
+984,DEACERO S.A.P.I. de C.V. (DEACERO),2,2,1,Governing Pays,fara; fara_principal,corporate
+985,Dallas County Hospital District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+986,Deaconess Henderson Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+987,Decatur County Memorial Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+988,Delegation Ayuda Frente Interno Dominicano,2,2,1,Governing Pays,fara; fara_principal,corporate
+989,"Delta Air Lines, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+990,Democratic & Socialist Party of China,2,2,1,Governing Pays,fara; fara_principal,corporate
+991,Deutsche Post AG,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+992,Dewitt Hospital & Nursing Home INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+993,Doctors Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+994,Dominican Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+995,"Dominion Energy, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+996,Doremus & Company,2,2,1,Governing Pays,fara; fara_principal,corporate
+997,Dubai Tourism & Commerce Marketing,2,2,1,Governing Pays,fara; fara_principal,corporate
+998,Dutch Central Transport Workers' Union,2,2,1,Governing Pays,fara; fara_principal,corporate
+999,"EPAM Systems, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1000,East Asia Travel Association,2,2,1,Governing Pays,fara; fara_principal,corporate
+1001,Eastern Maine Medical Center,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1002,Eaton Corp. Plc,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1003,Edison International,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1004,Egyptian Government Tourist Office,2,2,1,Governing Pays,fara; fara_principal,foreign_gov
+1005,Enit S.p.a.,2,2,1,Governing Pays,fara; fara_principal,corporate
+1006,Enterprise Ireland,2,2,1,Governing Pays,fara; fara_principal,corporate
+1007,Ethiopian Democratic Union,2,2,1,Governing Pays,fara; fara_principal,corporate
+1008,Ethiopian People's Revolutionary Party,2,2,1,Governing Pays,fara; fara_principal,corporate
+1009,"Etsy, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1010,"Eurafrica Communications, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1011,European Aerospace Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1012,European Community Information Service,2,2,1,Governing Pays,fara; fara_principal,corporate
+1013,European Free Trade Association,2,2,1,Governing Pays,fara; fara_principal,corporate
+1014,European Travel Commission,2,2,1,Governing Pays,fara; fara_principal,government
+1015,Exelon Corp.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1016,FTI Consulting LLP,2,2,1,Governing Pays,capitol_trade; fara,corporate
+1017,Fairfield Memorial Hospital Association,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1018,Fall River Health Services,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1019,Fannin County Hospital Authority,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,government
+1020,Fanuc Corp,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1021,Fayette County Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1022,Federation of Electric Power Companies of Japan,2,2,1,Governing Pays,fara; fara_principal,corporate
+1023,Felda Marketing Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1024,Fiserv,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1025,France Amerique Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1026,Franciscan Health Dyer,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1027,Franciscan Health Lafayette,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1028,Franciscan Health Michigan City,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1029,"Franciscan Health Rensselaer, INC",2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1030,Franklin General Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1031,Freeman Regional Health Services,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1032,"French Expositions in the U.S., Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1033,French Government Tourist Office,2,2,1,Governing Pays,fara; fara_principal,foreign_gov
+1034,French Industrial Development Agency,2,2,1,Governing Pays,fara; fara_principal,government
+1035,"French Information Center, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1036,"French Line, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1037,French Press & Information Service,2,2,1,Governing Pays,fara; fara_principal,corporate
+1038,Frente Civico Mexicano de Afirmacion Revolucionaria,2,2,1,Governing Pays,fara; fara_principal,corporate
+1039,Frente Nacional de Libertacao de Angola,2,2,1,Governing Pays,fara; fara_principal,corporate
+1040,Frente Revolucionario Democratico,2,2,1,Governing Pays,fara; fara_principal,corporate
+1041,"Friends of Sinn Fein, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1042,GE Vernova LLC,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1043,Galion Community Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1044,Garden County Health Services,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1045,Garrison Memorial Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1046,German Federal Railroad,2,2,1,Governing Pays,fara; fara_principal,corporate
+1047,German National Tourist Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+1048,Gifford Health Care INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1049,"Gilead Sciences, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1050,Good Shepherd Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1051,"Government of Alberta, Canada",2,2,1,Governing Pays,fara; fara_principal,corporate
+1052,"Government of Ontario, Canada",2,2,1,Governing Pays,fara; fara_principal,corporate
+1053,Government of Quebec,2,2,1,Governing Pays,fara; fara_principal,corporate
+1054,Government of the Province of Alberta,2,2,1,Governing Pays,fara; fara_principal,corporate
+1055,Grand River Hospital District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1056,Greater Regional Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1057,Greek Government Office of Information,2,2,1,Governing Pays,fara; fara_principal,government
+1058,Greene County General Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1059,Grenada Board of Tourism,2,2,1,Governing Pays,fara; fara_principal,government
+1060,Gunnison Valley Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1061,"HCA Healthcare, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1062,Haiti Government Tourist Bureau,2,2,1,Governing Pays,fara; fara_principal,government
+1063,Hakuhodo Incorporated,2,2,1,Governing Pays,fara; fara_principal,corporate
+1064,Hansford County Hospital District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1065,"Hapag-Lloyd, A.G.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1066,Hardin County General Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1067,Harding Loevner International Equity Portfolio,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1068,Harrison County Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1069,Helen Newberry Joy Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1070,Hellenic Development Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1071,Holy Cross Germantown Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1072,Holy Cross Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1073,Hong Kong Economic & Trade Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+1074,Hong Kong Government (Industry Department),2,2,1,Governing Pays,fara; fara_principal,government
+1075,Hong Kong Tourism Board,2,2,1,Governing Pays,fara; fara_principal,government
+1076,"Hong Kong Trade Development Council, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1077,Hoya Corp,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1078,Hshs Good Shepherd Hospital INC,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1079,Hshs Holy Family Hospital INC,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1080,Humboldt County Memorial Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1081,Humboldt General Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1082,IBUSZ Hungarian Travel Bureau,2,2,1,Governing Pays,fara; fara_principal,government
+1083,IYI Party Representation to the United States LLC,2,2,1,Governing Pays,fara; fara_principal,corporate
+1084,Iceland Tourist Board,2,2,1,Governing Pays,fara; fara_principal,government
+1085,"Illinois Tool Works, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1086,Indian Investment Centre,2,2,1,Governing Pays,fara; fara_principal,corporate
+1087,Indo-American Chamber of Commerce,2,2,1,Governing Pays,fara; fara_principal,corporate
+1088,Innovation Norway,2,2,1,Governing Pays,fara; fara_principal,corporate
+1089,Instituto Argentino de Promocion del Intercambio,2,2,1,Governing Pays,fara; fara_principal,corporate
+1090,Instituto Latinoamericano del Fierro y el Acero,2,2,1,Governing Pays,fara; fara_principal,corporate
+1091,Intermountain Health ST Vincent Regional Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1092,International Business Communications,2,2,1,Governing Pays,fara; fara_principal,corporate
+1093,International Gold Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1094,International Group of P&I Clubs,2,2,1,Governing Pays,fara; fara_principal,corporate
+1095,International Office of the National Resistance Front of AFGH Inc.,2,2,1,Governing Pays,fara; fara_principal,government
+1096,International Public Relations,2,2,1,Governing Pays,fara; fara_principal,corporate
+1097,"International Public Relations Company, Ltd.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1098,International Underwriting Association of London,2,2,1,Governing Pays,fara; fara_principal,corporate
+1099,Invesco Ltd.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1100,"Invesco QQQ Trust, Series 1",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1101,Invest India,2,2,1,Governing Pays,fara; fara_principal,corporate
+1102,Invest Northern Ireland,2,2,1,Governing Pays,fara; fara_principal,corporate
+1103,Iraqi Nationalist Opposition Front (INOF),2,2,1,Governing Pays,fara; fara_principal,corporate
+1104,"Iron Mountain, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1105,Israel Government Tourist Office,2,2,1,Governing Pays,fara; fara_principal,foreign_gov
+1106,"J. Crawford Cook, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1107,"J.M. Dent & Sons (Canada), Ltd.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1108,"JETRO, Chicago",2,2,1,Governing Pays,fara; fara_principal,corporate
+1109,"JETRO, Houston",2,2,1,Governing Pays,fara; fara_principal,corporate
+1110,"JETRO, Los Angeles",2,2,1,Governing Pays,fara; fara_principal,corporate
+1111,"JETRO, New York",2,2,1,Governing Pays,fara; fara_principal,corporate
+1112,"JETRO, San Francisco",2,2,1,Governing Pays,fara; fara_principal,corporate
+1113,JPMorgan Chase & Co,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1114,Jamaica Industrial Development Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1115,Jamaica National Export Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1116,"Jamaica National Investment Promotion, Ltd.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1117,Jampro,2,2,1,Governing Pays,fara; fara_principal,corporate
+1118,"Japan Automobile Manufacturers' Association, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1119,Japan Broadcasting Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1120,Japan Center for Information & Cultural Affairs (JCIC),2,2,1,Governing Pays,fara; fara_principal,corporate
+1121,Japan Federation of Economic Organizations (Keidanren),2,2,1,Governing Pays,fara; fara_principal,corporate
+1122,Japan National Tourism Organization,2,2,1,Governing Pays,fara; fara_principal,foreign_gov
+1123,"Japan National Tourist Organization, Dallas",2,2,1,Governing Pays,fara; fara_principal,corporate
+1124,Japan Steel Information Center,2,2,1,Governing Pays,fara; fara_principal,corporate
+1125,"Jewish Agency - American Section, Inc.",2,2,1,Governing Pays,fara; fara_principal,government
+1126,John C Fremont Healthcare District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1127,John D Archbold Memorial Hospital INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1128,Johnson & Johnson,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1129,Julius Klein Public Relations,2,2,1,Governing Pays,fara; fara_principal,corporate
+1130,Junta de Liberacion Cubana,2,2,1,Governing Pays,fara; fara_principal,corporate
+1131,"KKR & Co., Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1132,Kaleida Health,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1133,Kalkaska Memorial Health Center,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1134,Kauai Veterans Memorial Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1135,Kaweah Delta Health Care District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1136,Kellogg Co,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1137,Kiawah Island Company,2,2,1,Governing Pays,fara; fara_principal,corporate
+1138,Komatsu Ltd,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1139,Korea - United States Exchange Council,2,2,1,Governing Pays,fara; fara_principal,corporate
+1140,Korea International Trade Association,2,2,1,Governing Pays,fara; fara_principal,corporate
+1141,Korea Tourist Association,2,2,1,Governing Pays,fara; fara_principal,corporate
+1142,Korea Tourist Service,2,2,1,Governing Pays,fara; fara_principal,corporate
+1143,Korean Commission,2,2,1,Governing Pays,fara; fara_principal,government
+1144,Kuomintang of China,2,2,1,Governing Pays,fara; fara_principal,corporate
+1145,Lakeland Regional Health System,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1146,Lakewood Health Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1147,Lam Research Corp.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1148,Lebanese Information & Research Center,2,2,1,Governing Pays,fara; fara_principal,corporate
+1149,Lebanon Tourist & Information Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+1150,Lifecare Medical Center,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1151,Linde Plc,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1152,"Liscr, LLC",2,2,1,Governing Pays,fara; fara_principal,corporate
+1153,Livingston Development Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1154,London Chamber of Commerce & Industry (LCCI),2,2,1,Governing Pays,fara; fara_principal,corporate
+1155,Loretto Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1156,Lourdes Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1157,"Lowe's Cos., Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1158,Lutheran Social Services of Central Ohio,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1159,MISR Travel,2,2,1,Governing Pays,fara; fara_principal,corporate
+1160,MT Grant General Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1161,Madison Medical Center,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1162,Major Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1163,Malaysian Industrial Development Authority,2,2,1,Governing Pays,fara; fara_principal,government
+1164,Malaysian Investment Development Authority,2,2,1,Governing Pays,fara; fara_principal,government
+1165,Malaysian Rubber Council (USA),2,2,1,Governing Pays,fara; fara_principal,corporate
+1166,"Maldivian Philatelic Agency, Ltd.",2,2,1,Governing Pays,fara; fara_principal,government
+1167,Malev Hungarian Airlines,2,2,1,Governing Pays,fara; fara_principal,corporate
+1168,Manufactured Imports and Investment Promotion Organization (MIPRO),2,2,1,Governing Pays,fara; fara_principal,corporate
+1169,"Margalit, Erel",2,2,1,Governing Pays,fara; fara_principal,corporate
+1170,"Mastercard, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1171,"Matra Aerospace, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1172,"Matsushita Electric Industrial Company, Ltd.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1173,Maury Regional Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1174,Mazda Motor Corp,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1175,McDonald's Corp,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1176,Mckenzie County Healthcare Systems INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1177,Mclaren Oakland,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1178,Medina County Hospital District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1179,Medtronic Plc,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1180,Memorial Hospital West,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1181,Mer Security and Communication Systems Ltd.,2,2,1,Governing Pays,fara; fara_principal,corporate
+1182,Mercy Allen Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1183,Mercy General Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1184,Mercy Harvard Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1185,Mercy Health - Urbana Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1186,Mercy Health - Willard Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1187,Mercy Health Services INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1188,Mercy Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1189,Mercy Hospital - Cassville,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1190,Mercy Hospital Aurora,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1191,Mercy Hospital Berryville,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1192,Mercy Hospital Booneville,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1193,Mercy Hospital Carthage,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1194,Mercy Hospital Columbus,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1195,Mercy Hospital Fort Smith,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1196,"Mercy Hospital Healdton, Inc.",2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1197,Mercy Hospital Jefferson,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1198,Mercy Hospital Joplin,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1199,"Mercy Hospital Kingfisher, INC",2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1200,Mercy Hospital Lebanon,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1201,Mercy Hospital Lincoln,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1202,Mercy Hospital Logan County,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,government
+1203,Mercy Hospital Ozark,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1204,Mercy Hospital Paris,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1205,Mercy Hospital Perry,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1206,Mercy Hospital ST Louis,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1207,Mercy Hospital Springfield,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1208,Mercy Hospital Stoddard,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1209,Mercy Hospital Tishomingo INC,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1210,Mercy Hospital Waldron,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1211,"Mercy Hospital Watonga, INC",2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1212,Mercy Medical Center Redding,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1213,Mercy Medical Center-new Hampton,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1214,Mercy ST Francis Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1215,Mercy San Juan Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1216,Mercyone North Iowa Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1217,Mercyone Oelwein Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1218,Mercyone Siouxland Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1219,Mercyone Waterloo Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1220,Meta Platforms,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1221,"Mettler-Toledo International, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1222,Mexican National Tourist Council,2,2,1,Governing Pays,fara; fara_principal,corporate
+1223,Mexico Tourism Board,2,2,1,Governing Pays,fara; fara_principal,government
+1224,"MicroStrategy, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1225,Microsoft Corp.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1226,Miners Colfax Medical Center,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1227,Mitchell County Hospital District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1228,Mitsubishi Electric Corp,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1229,Montgomery General Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1230,Morgan Stanley,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1231,Moroccan National Tourist Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+1232,"Moroccan-American Center for Policy, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1233,Mount Sinai West,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1234,Movimento de Uniao Nacional (M.U.N) Angola,2,2,1,Governing Pays,fara; fara_principal,corporate
+1235,Movimiento Nacional de la Juventud,2,2,1,Governing Pays,fara; fara_principal,corporate
+1236,Munson Healthcare Cadillac Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1237,Munson Healthcare Grayling Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1238,"NIKE, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1239,NTS-Alliance of Russian Solidarists,2,2,1,Governing Pays,fara; fara_principal,corporate
+1240,NVIDIA Corp.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1241,"Nabo Traders, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1242,"Nasdaq, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1243,National Federation of Coffee Growers of Colombia,2,2,1,Governing Pays,fara; fara_principal,corporate
+1244,National Film Board of Canada,2,2,1,Governing Pays,fara; fara_principal,government
+1245,National Front for the Liberation of Angola,2,2,1,Governing Pays,fara; fara_principal,corporate
+1246,"National Petroleum Company, ""Sudan"", Ltd.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1247,National Representative council of Eritrea - GIE,2,2,1,Governing Pays,fara; fara_principal,corporate
+1248,National Union for the Total Independence of Angola (UNITA),2,2,1,Governing Pays,fara; fara_principal,corporate
+1249,"Neptune Orient Lines, Ltd.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1250,Netherlands Information Service,2,2,1,Governing Pays,fara; fara_principal,corporate
+1251,Netherlands West Indies Tourist Commission,2,2,1,Governing Pays,fara; fara_principal,government
+1252,Netherlands-West Indies Tourist Committee,2,2,1,Governing Pays,fara; fara_principal,corporate
+1253,Netherlands/Antilles Economic Mission,2,2,1,Governing Pays,fara; fara_principal,corporate
+1254,"New Europe, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1255,New Zealand Government Tourist Office,2,2,1,Governing Pays,fara; fara_principal,foreign_gov
+1256,News Corp,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1257,"NextEra Energy, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1258,Nissan Motor Co Ltd,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1259,"Nolisair International, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1260,Nomura Research Institute,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1261,"Noranda Sales Corporation, Ltd.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1262,North Big Horn Hospital District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1263,"North Mississippi Medical Center, Inc.",2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1264,"Northeast Georgia Medical Center, Inc.",2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1265,Northern Itasca Hospital District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1266,Northwest Colorado Visiting Nurse Association,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1267,Northwood Deaconess Health Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1268,Norwegian Embassy Information Service,2,2,1,Governing Pays,fara; fara_principal,foreign_gov
+1269,Novo Nordisk A/S,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1270,Nuclear Waste Management Organization,2,2,1,Governing Pays,fara; fara_principal,corporate
+1271,"OCP North America, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1272,Ochsner Clinic Foundation,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1273,Office of Tibet,2,2,1,Governing Pays,fara; fara_principal,government
+1274,Olney-hamilton Hospital District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1275,"Open Dialogue Foundation, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1276,Oracle Corp.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1277,Orange City Municipal Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1278,Orlando Health INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1279,Oroville Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1280,Osf Heart of Mary Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1281,Osf Holy Family Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1282,Osf Sacred Heart Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1283,Osf Saint Anthony's Health Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1284,Osf Saint Clare Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1285,Osf Saint Katharine Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1286,Osf Saint Luke Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1287,Our Lady of the Lake Hospital INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1288,Pakistan Muslim League (Nawaz) USA,2,2,1,Governing Pays,fara; fara_principal,corporate
+1289,Palo Alto County Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1290,Pan-American Coffee Bureau,2,2,1,Governing Pays,fara; fara_principal,government
+1291,Parti Lumumbiste Unifie (PALU),2,2,1,Governing Pays,fara; fara_principal,corporate
+1292,Parti National Progressiste,2,2,1,Governing Pays,fara; fara_principal,corporate
+1293,Partido Democrata Popular,2,2,1,Governing Pays,fara; fara_principal,corporate
+1294,Partido Politico Mira,2,2,1,Governing Pays,fara; fara_principal,corporate
+1295,Partido Quisqueyano Democrata,2,2,1,Governing Pays,fara; fara_principal,corporate
+1296,Partido Revolucionario Cubano (Autentico),2,2,1,Governing Pays,fara; fara_principal,corporate
+1297,"PayPal Holdings, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1298,"Paycom Software, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1299,Pershing General Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1300,Pfizer Inc,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1301,"Philip Morris International, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1302,Philippine Tourist & Travel Association,2,2,1,Governing Pays,fara; fara_principal,corporate
+1303,"Philippine-U.S. Council, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1304,Pih Health Whittier Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1305,Pioneer Memorial Hospital & Health Services,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1306,Polish Chamber of Foreign Trade,2,2,1,Governing Pays,fara; fara_principal,corporate
+1307,Polish Research & Information Service,2,2,1,Governing Pays,fara; fara_principal,corporate
+1308,Portland PR Inc.,2,2,1,Governing Pays,fara; fara_principal,corporate
+1309,Portuguese Government Trade Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+1310,Portuguese National Tourist Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+1311,Presence Mercy Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1312,Presence Saints Mary and Elizabeth Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1313,Prochile,2,2,1,Governing Pays,fara; fara_principal,corporate
+1314,"Progress for Angola, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1315,Providence Alaska Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1316,Providence Cedars Sinai Tarzana Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1317,Providence Hood River Memorial Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1318,Providence Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1319,Providence Mount Carmel Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1320,Providence Valdez Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1321,Public Affairs International,2,2,1,Governing Pays,fara; fara_principal,corporate
+1322,Pulaski Memorial Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1323,Putnam County Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1324,"QUALCOMM, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1325,Qantas Airways LTD,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1326,Quebec Government House,2,2,1,Governing Pays,fara; fara_principal,corporate
+1327,Queensland Government Representative Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+1328,"RS Office For Cooperation, Trade and Investment LLC",2,2,1,Governing Pays,fara; fara_principal,corporate
+1329,Redlands Community Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1330,Rentokil Initial PLC,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1331,"ResMed, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1332,"Robert W. Schofield & Associates, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1333,Roblox Corporation,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1334,"Roku, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1335,Romanian Tourist Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+1336,Royal Bank of Canada,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1337,"Royal Trustco, Ltd.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1338,Rush Memorial Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1339,"S&P Global, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1340,ST Alexius Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1341,ST Anthony Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1342,ST Anthonys Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1343,ST Bernard Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1344,ST Charles Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1345,ST Dominic-jackson Memorial Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1346,ST Elizabeth Community Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1347,ST Francis Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1348,ST Helena Parish Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1349,ST Johns Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1350,ST Joseph's Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1351,ST Joseph's University Medical Center INC,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1352,ST Josephs Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1353,ST Mary Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1354,ST Mary's Regional Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1355,ST Mary-corwin Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1356,ST Marys Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1357,ST Rose Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1358,ST Vincent Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1359,Sacred Heart Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1360,Saint Agnes Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1361,Saint Alphonsus Medical Center - Nampa,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1362,Saint Alphonsus Regional Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1363,Saint Anthony Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1364,Saint Francis Hospital-evanston,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1365,Saint Francis Medical Center,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1366,Saint Joseph East,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1367,Saint Mary's Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1368,Saint Peter's University Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1369,Salam International,2,2,1,Governing Pays,fara; fara_principal,corporate
+1370,Salem Memorial District Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1371,Samuel Mahelona Memorial Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1372,San Bernardino Mountains Community Hospital District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1373,Sanyo Audio Manufacturing (U.S.A.) Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1374,Sanyo Fisher (U.S.A.) Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1375,"Saudi Refining, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1376,Scandinavian National Tourist Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+1377,Scandinavian Railways,2,2,1,Governing Pays,fara; fara_principal,corporate
+1378,Scottish Development Agency,2,2,1,Governing Pays,fara; fara_principal,government
+1379,Scottish Enterprise,2,2,1,Governing Pays,fara; fara_principal,corporate
+1380,Scripps Mercy Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1381,Segundo Frente Nacional Del Escambray,2,2,1,Governing Pays,fara; fara_principal,corporate
+1382,"Shadwell Trading Company, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1383,Shands Jacksonville Medical Center INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1384,"Shannon Free Airport Development Company, Ltd.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1385,Sharkey Issaquena Community Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1386,Shopify Inc.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1387,Sidney Health Center,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1388,"Sierra Rutile America, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1389,Singapore Airlines LTD,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1390,Singapore Economic Development Board,2,2,1,Governing Pays,fara; fara_principal,government
+1391,Singapore Tourism Board,2,2,1,Governing Pays,fara; fara_principal,government
+1392,Singapore Trade Development Board,2,2,1,Governing Pays,fara; fara_principal,government
+1393,Singing River Health System,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1394,Sioux Center Health,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1395,Sisters of Charity Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1396,Smdc Medical Center,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1397,Software Technology Parks of India (STPI),2,2,1,Governing Pays,fara; fara_principal,corporate
+1398,"Sonatrach, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1399,Sonoma Valley Health Care District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1400,South Africa Foundation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1401,South African Sugar Association (SASA),2,2,1,Governing Pays,fara; fara_principal,corporate
+1402,South African Tourism,2,2,1,Governing Pays,fara; fara_principal,corporate
+1403,South Central Regional Medical Center,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1404,South Georgia Medical Center INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1405,South Peninsula Hospital INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1406,South West Africa People's Organization (SWAPO),2,2,1,Governing Pays,fara; fara_principal,corporate
+1407,Southeast Alaska Regional Health Consortium,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1408,Southern Transitional Council,2,2,1,Governing Pays,fara; fara_principal,corporate
+1409,Southwest Health Center INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1410,Spanish Library of Information,2,2,1,Governing Pays,fara; fara_principal,corporate
+1411,Ssm Health Saint Louis University Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1412,St. Alphonsus Medical Center - Baker City,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1413,St. Lucia National Development Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1414,St. Mary's Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1415,St. Patrick Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1416,Starbucks Corp.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1417,Steris PLC,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1418,Stryker Corp.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1419,Supreme Committee of Croatian Peasant Society,2,2,1,Governing Pays,fara; fara_principal,corporate
+1420,Surinam Tourist Bureau,2,2,1,Governing Pays,fara; fara_principal,government
+1421,Sutter Bay Hospitals,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1422,Svenska Handelsbanken,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1423,"Swedish Industries Fund, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1424,Swedish Information Service,2,2,1,Governing Pays,fara; fara_principal,corporate
+1425,Sweeny Hospital District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1426,Switzerland Tourism,2,2,1,Governing Pays,fara; fara_principal,corporate
+1427,Syndicat Des Marins De France,2,2,1,Governing Pays,fara; fara_principal,corporate
+1428,"Take-Two Interactive Software, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1429,"Tea Council of the U.S.A., Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1430,"Teladoc Health, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1431,Tencent Holdings LTD,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1432,Tenet Healthcare Corp,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1433,"The Home Depot, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1434,The Medical Center LLC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1435,"The PNC Financial Services Group, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1436,The Sherwin-Williams Co.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1437,"The Travelers Companies, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1438,The Walt Disney Co.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1439,"The Williams Cos., Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1440,"Thomson-CSF, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1441,Tift Regional Health System INC,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1442,Tioga Medical Center,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1443,Tippah County Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1444,Toray Industries Inc,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1445,Tourism Australia,2,2,1,Governing Pays,fara; fara_principal,corporate
+1446,Tourism Ireland,2,2,1,Governing Pays,fara; fara_principal,corporate
+1447,Tourism Queensland,2,2,1,Governing Pays,fara; fara_principal,corporate
+1448,Toyota Motor Corp,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1449,TransCanada PipeLines Ltd,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1450,Trinidad & Tobago Tourist Board,2,2,1,Governing Pays,fara; fara_principal,government
+1451,Trinidad-Tobago Industrial Development Corporation,2,2,1,Governing Pays,fara; fara_principal,corporate
+1452,Trinity Health Muskegon Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1453,Trinity Health Oakland Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1454,Trinity Hospital,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1455,Tunisian National Tourist Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+1456,U.S. Bancorp,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1457,U.S. Mission of the Syrian Democratic Council,2,2,1,Governing Pays,fara; fara_principal,corporate
+1458,U.S.-Cuban Sugar Council,2,2,1,Governing Pays,fara; fara_principal,corporate
+1459,"Uber Technologies, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1460,Uchicago Medicine Adventhealth Bolingbrook,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1461,Uchicago Medicine Adventhealth Glenoaks,2,2,1,Who's protecting patients?,faith_hospital; hrsa_340b,corporate
+1462,"Unicorp International, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1463,Unidad Revolucionaria,2,2,1,Governing Pays,fara; fara_principal,corporate
+1464,"Union Nacional Sinarquista, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1465,Union Pacific Corp,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1466,United Hospital Center INC,2,2,1,Who's protecting patients?,faith_hospital; nursing_home,corporate
+1467,United Somali Congress,2,2,1,Governing Pays,fara; fara_principal,corporate
+1468,"UnitedHealth Group, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1469,Universal Public Relations,2,2,1,Governing Pays,fara; fara_principal,corporate
+1470,"Urenco, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1471,"VMware, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1472,"Verizon Communications, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1473,"Vertex Pharmaceuticals, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1474,Viatris,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1475,"Visa, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1476,VisitBritain,2,2,1,Governing Pays,fara; fara_principal,corporate
+1477,VisitDenmark,2,2,1,Governing Pays,fara; fara_principal,corporate
+1478,W P Carey Inc.,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1479,"WEC Energy Group, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1480,War Memorial Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1481,"Watsco, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1482,Wells Fargo & Co,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1483,Welsh Development Agency,2,2,1,Governing Pays,fara; fara_principal,government
+1484,"Welsh Development International, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1485,West Park Hospital District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1486,Weston County Hospital District,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1487,Westpac Banking Corp,2,2,1,Governing Pays,capitol_trade; fara_principal,corporate
+1488,"Willis Knighton Medical Center, Inc.",2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1489,Witham Memorial Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1490,Woodlawn Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1491,"Workday, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1492,"World Zionist Organization - American Section, Inc.",2,2,1,Governing Pays,fara; fara_principal,corporate
+1493,Yale New Haven Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1494,Yayasan Berbakti Semangat Indonesia,2,2,1,Governing Pays,fara; fara_principal,corporate
+1495,York General Hospital,2,2,1,Who's protecting patients?,hrsa_340b; nursing_home,corporate
+1496,Yugoslav National Tourist Office,2,2,1,Governing Pays,fara; fara_principal,corporate
+1497,Yum China Holdings Inc,2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1498,"Yum! Brands, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1499,"Zscaler, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1500,"e.l.f. Beauty, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1501,"lululemon athletica, Inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate
+1502,"salesforce.com, inc.",2,2,1,Governing Pays,capitol_trade; oge_trade,corporate

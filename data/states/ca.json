@@ -1,0 +1,571 @@
+{
+  "meta": {
+    "state": "CA",
+    "state_name": "California",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 58,
+      "counties_with_data": 58,
+      "crossref_complete": true,
+      "deals_count": 6338,
+      "contributions_matched": 2713
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 68443487000.0,
+    "total_beneficiaries": 6338,
+    "total_donations_usd": 2082220485.21,
+    "matched_donors": 2713,
+    "pct_beneficiaries_donating": 0.4105
+  },
+  "top_findings": [
+    "2,713 of 6,338 subsidized companies (41.0%) made campaign donations — $2082.2M total.",
+    "$10.2M in donations flowed from beneficiaries to 40 political committees. Top recipient: INTEGRATED HEALTHCARE HOLDINGS, INC. ($4.3M).",
+    "185 companies showed statistically significant pre-award donation spikes (BH-corrected, q<0.05). Top: GRIMMWAY ENTERPRISES INC. DBA GRIMMWAY FARMS (297.2× baseline, z=790.3).",
+    "$68.44B in total subsidies tracked across 6,338 beneficiary companies in California."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 10170254.02,
+    "num_committees_receiving": 40,
+    "top_committee_name": "INTEGRATED HEALTHCARE HOLDINGS, INC.",
+    "top_committee_amount": 4290291.0,
+    "top_committee_pct": 100.0
+  },
+  "timeline_stats": {
+    "total_spikes": 378,
+    "bh_sig_count": 185,
+    "top_spike_name": "GRIMMWAY ENTERPRISES INC. DBA GRIMMWAY FARMS",
+    "top_spike_z": 790.3,
+    "top_spike_ratio": 297.2,
+    "top_spike_subsidy": 4018920.0
+  },
+  "counties": [
+    {
+      "name": "Los Angeles",
+      "slug": "los-angeles",
+      "score": 21.52,
+      "total_exemptions_usd": 32502569900.0,
+      "cost_per_household_usd": 9664.49,
+      "total_beneficiaries": 0,
+      "num_awards": 207
+    },
+    {
+      "name": "Inyo",
+      "slug": "inyo",
+      "score": 15.24,
+      "total_exemptions_usd": 3353600.0,
+      "cost_per_household_usd": 427.26,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "Mendocino",
+      "slug": "mendocino",
+      "score": 15.24,
+      "total_exemptions_usd": 8393500.0,
+      "cost_per_household_usd": 242.89,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "San Benito",
+      "slug": "san-benito",
+      "score": 15.18,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "Mariposa",
+      "slug": "mariposa",
+      "score": 15.12,
+      "total_exemptions_usd": 29003000.0,
+      "cost_per_household_usd": 3817.69,
+      "total_beneficiaries": 0,
+      "num_awards": 2
+    },
+    {
+      "name": "Placer",
+      "slug": "placer",
+      "score": 15.12,
+      "total_exemptions_usd": 1352800.0,
+      "cost_per_household_usd": 8.87,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "Tehama",
+      "slug": "tehama",
+      "score": 15.12,
+      "total_exemptions_usd": 14852600.0,
+      "cost_per_household_usd": 603.2,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "San Joaquin",
+      "slug": "san-joaquin",
+      "score": 13.34,
+      "total_exemptions_usd": 344556900.0,
+      "cost_per_household_usd": 1451.24,
+      "total_beneficiaries": 0,
+      "num_awards": 21
+    },
+    {
+      "name": "Orange",
+      "slug": "orange",
+      "score": 12.79,
+      "total_exemptions_usd": 21129192800.0,
+      "cost_per_household_usd": 19815.69,
+      "total_beneficiaries": 0,
+      "num_awards": 77
+    },
+    {
+      "name": "Santa Clara",
+      "slug": "santa-clara",
+      "score": 12.59,
+      "total_exemptions_usd": 8692246900.0,
+      "cost_per_household_usd": 13365.45,
+      "total_beneficiaries": 0,
+      "num_awards": 49
+    },
+    {
+      "name": "Contra Costa",
+      "slug": "contra-costa",
+      "score": 12.1,
+      "total_exemptions_usd": 196508000.0,
+      "cost_per_household_usd": 481.0,
+      "total_beneficiaries": 0,
+      "num_awards": 8
+    },
+    {
+      "name": "San Francisco",
+      "slug": "san-francisco",
+      "score": 11.98,
+      "total_exemptions_usd": 105235300.0,
+      "cost_per_household_usd": 291.64,
+      "total_beneficiaries": 0,
+      "num_awards": 8
+    },
+    {
+      "name": "Humboldt",
+      "slug": "humboldt",
+      "score": 11.86,
+      "total_exemptions_usd": 12463600.0,
+      "cost_per_household_usd": 228.71,
+      "total_beneficiaries": 0,
+      "num_awards": 4
+    },
+    {
+      "name": "Monterey",
+      "slug": "monterey",
+      "score": 11.45,
+      "total_exemptions_usd": 46448500.0,
+      "cost_per_household_usd": 354.64,
+      "total_beneficiaries": 0,
+      "num_awards": 7
+    },
+    {
+      "name": "San Diego",
+      "slug": "san-diego",
+      "score": 11.37,
+      "total_exemptions_usd": 1147601400.0,
+      "cost_per_household_usd": 998.65,
+      "total_beneficiaries": 0,
+      "num_awards": 69
+    },
+    {
+      "name": "Kern",
+      "slug": "kern",
+      "score": 11.34,
+      "total_exemptions_usd": 516343300.0,
+      "cost_per_household_usd": 1860.7,
+      "total_beneficiaries": 0,
+      "num_awards": 12
+    },
+    {
+      "name": "Sacramento",
+      "slug": "sacramento",
+      "score": 11.03,
+      "total_exemptions_usd": 487518800.0,
+      "cost_per_household_usd": 864.62,
+      "total_beneficiaries": 0,
+      "num_awards": 48
+    },
+    {
+      "name": "Fresno",
+      "slug": "fresno",
+      "score": 10.28,
+      "total_exemptions_usd": 175780100.0,
+      "cost_per_household_usd": 552.21,
+      "total_beneficiaries": 0,
+      "num_awards": 21
+    },
+    {
+      "name": "Madera",
+      "slug": "madera",
+      "score": 9.49,
+      "total_exemptions_usd": 28726000.0,
+      "cost_per_household_usd": 654.99,
+      "total_beneficiaries": 0,
+      "num_awards": 5
+    },
+    {
+      "name": "Sutter",
+      "slug": "sutter",
+      "score": 9.43,
+      "total_exemptions_usd": 24823000.0,
+      "cost_per_household_usd": 751.28,
+      "total_beneficiaries": 0,
+      "num_awards": 5
+    },
+    {
+      "name": "Yolo",
+      "slug": "yolo",
+      "score": 9.3,
+      "total_exemptions_usd": 118023100.0,
+      "cost_per_household_usd": 1550.75,
+      "total_beneficiaries": 0,
+      "num_awards": 7
+    },
+    {
+      "name": "Alameda",
+      "slug": "alameda",
+      "score": 9.27,
+      "total_exemptions_usd": 1196673500.0,
+      "cost_per_household_usd": 2042.74,
+      "total_beneficiaries": 0,
+      "num_awards": 37
+    },
+    {
+      "name": "Tulare",
+      "slug": "tulare",
+      "score": 8.78,
+      "total_exemptions_usd": 152581100.0,
+      "cost_per_household_usd": 1084.67,
+      "total_beneficiaries": 0,
+      "num_awards": 16
+    },
+    {
+      "name": "Stanislaus",
+      "slug": "stanislaus",
+      "score": 8.58,
+      "total_exemptions_usd": 302990700.0,
+      "cost_per_household_usd": 1724.02,
+      "total_beneficiaries": 0,
+      "num_awards": 17
+    },
+    {
+      "name": "Ventura",
+      "slug": "ventura",
+      "score": 8.26,
+      "total_exemptions_usd": 131690900.0,
+      "cost_per_household_usd": 477.74,
+      "total_beneficiaries": 0,
+      "num_awards": 13
+    },
+    {
+      "name": "Glenn",
+      "slug": "glenn",
+      "score": 7.8,
+      "total_exemptions_usd": 16399500.0,
+      "cost_per_household_usd": 1683.38,
+      "total_beneficiaries": 0,
+      "num_awards": 2
+    },
+    {
+      "name": "San Bernardino",
+      "slug": "san-bernardino",
+      "score": 7.29,
+      "total_exemptions_usd": 363574800.0,
+      "cost_per_household_usd": 550.93,
+      "total_beneficiaries": 0,
+      "num_awards": 25
+    },
+    {
+      "name": "Sonoma",
+      "slug": "sonoma",
+      "score": 6.92,
+      "total_exemptions_usd": 92218100.0,
+      "cost_per_household_usd": 486.25,
+      "total_beneficiaries": 0,
+      "num_awards": 12
+    },
+    {
+      "name": "Solano",
+      "slug": "solano",
+      "score": 6.67,
+      "total_exemptions_usd": 32395600.0,
+      "cost_per_household_usd": 209.02,
+      "total_beneficiaries": 0,
+      "num_awards": 5
+    },
+    {
+      "name": "Riverside",
+      "slug": "riverside",
+      "score": 6.44,
+      "total_exemptions_usd": 267298200.0,
+      "cost_per_household_usd": 356.41,
+      "total_beneficiaries": 0,
+      "num_awards": 25
+    },
+    {
+      "name": "Napa",
+      "slug": "napa",
+      "score": 6.43,
+      "total_exemptions_usd": 25131000.0,
+      "cost_per_household_usd": 510.61,
+      "total_beneficiaries": 0,
+      "num_awards": 5
+    },
+    {
+      "name": "San Luis Obispo",
+      "slug": "san-luis-obispo",
+      "score": 5.43,
+      "total_exemptions_usd": 13166900.0,
+      "cost_per_household_usd": 121.8,
+      "total_beneficiaries": 0,
+      "num_awards": 3
+    },
+    {
+      "name": "Butte",
+      "slug": "butte",
+      "score": 5.3,
+      "total_exemptions_usd": 77364400.0,
+      "cost_per_household_usd": 928.53,
+      "total_beneficiaries": 0,
+      "num_awards": 6
+    },
+    {
+      "name": "San Mateo",
+      "slug": "san-mateo",
+      "score": 5.24,
+      "total_exemptions_usd": 75865100.0,
+      "cost_per_household_usd": 287.02,
+      "total_beneficiaries": 0,
+      "num_awards": 9
+    },
+    {
+      "name": "Santa Cruz",
+      "slug": "santa-cruz",
+      "score": 4.3,
+      "total_exemptions_usd": 14099600.0,
+      "cost_per_household_usd": 146.13,
+      "total_beneficiaries": 0,
+      "num_awards": 4
+    },
+    {
+      "name": "Santa Barbara",
+      "slug": "santa-barbara",
+      "score": 2.99,
+      "total_exemptions_usd": 39832300.0,
+      "cost_per_household_usd": 269.08,
+      "total_beneficiaries": 0,
+      "num_awards": 6
+    },
+    {
+      "name": "Merced",
+      "slug": "merced",
+      "score": 2.68,
+      "total_exemptions_usd": 6068600.0,
+      "cost_per_household_usd": 73.33,
+      "total_beneficiaries": 0,
+      "num_awards": 6
+    },
+    {
+      "name": "Alpine",
+      "slug": "alpine",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Amador",
+      "slug": "amador",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Calaveras",
+      "slug": "calaveras",
+      "score": 0.0,
+      "total_exemptions_usd": 320000.0,
+      "cost_per_household_usd": 18.61,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "Colusa",
+      "slug": "colusa",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Del Norte",
+      "slug": "del-norte",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "El Dorado",
+      "slug": "el-dorado",
+      "score": 0.0,
+      "total_exemptions_usd": 1092000.0,
+      "cost_per_household_usd": 14.52,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "Imperial",
+      "slug": "imperial",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Kings",
+      "slug": "kings",
+      "score": 0.0,
+      "total_exemptions_usd": 546000.0,
+      "cost_per_household_usd": 12.52,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "Lake",
+      "slug": "lake",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "Lassen",
+      "slug": "lassen",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Marin",
+      "slug": "marin",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Modoc",
+      "slug": "modoc",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Mono",
+      "slug": "mono",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Nevada",
+      "slug": "nevada",
+      "score": 0.0,
+      "total_exemptions_usd": 396000.0,
+      "cost_per_household_usd": 9.56,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "Plumas",
+      "slug": "plumas",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Shasta",
+      "slug": "shasta",
+      "score": 0.0,
+      "total_exemptions_usd": 34517600.0,
+      "cost_per_household_usd": 485.43,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "Sierra",
+      "slug": "sierra",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Siskiyou",
+      "slug": "siskiyou",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Trinity",
+      "slug": "trinity",
+      "score": 0.0,
+      "total_exemptions_usd": 14272000.0,
+      "cost_per_household_usd": 2602.95,
+      "total_beneficiaries": 0,
+      "num_awards": 1
+    },
+    {
+      "name": "Tuolumne",
+      "slug": "tuolumne",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Yuba",
+      "slug": "yuba",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    }
+  ]
+}

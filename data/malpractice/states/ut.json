@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "state_abbr": "UT",
+    "state_name": "Utah",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 17,
+    "physician_population": 9872,
+    "per_1000_physicians": 1.722,
+    "double_flagged": 2,
+    "industry_payments_usd": 1220.45
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 8
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 4
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 2
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 2
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "CO",
+      "from_name": "Colorado",
+      "count": 1
+    },
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 1
+    },
+    {
+      "from_state": "AZ",
+      "from_name": "Arizona",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "WA",
+      "to_name": "Washington",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "MACKAY, DEWEY C",
+      "npi": "1780795153",
+      "score": 71.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2013-04-18",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "STACK, WARREN R",
+      "npi": "1013088814",
+      "score": 62.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2010-01-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "WYATT, P WADE",
+      "npi": "1700082104",
+      "score": 62.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2024-01-18",
+      "specialty": "OPHTHALMOLOGY"
+    },
+    {
+      "name": "BOLICK, DAVID R",
+      "npi": "1467431080",
+      "score": 56.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2009-12-20",
+      "specialty": "PATHOLOGY"
+    },
+    {
+      "name": "CANNON, MAX KENT",
+      "npi": "1124036231",
+      "score": 56.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2011-05-19",
+      "specialty": "SURGERY"
+    },
+    {
+      "name": "GREENWOOD, NICK CARL",
+      "npi": "1306065636",
+      "score": 56.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-06-17",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "ANTHONY, LAYFE ROBERT",
+      "npi": "1184898140",
+      "score": 53.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2004-04-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "HOLVERSON, JEFFREY S",
+      "npi": "1437314291",
+      "score": 53.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2017-07-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "YOUNG, STEVEN ROBERT",
+      "npi": "1962497685",
+      "score": 51.2,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2016-10-20",
+      "specialty": "PHYSICIAN ASSISTANT"
+    },
+    {
+      "name": "PURSER, DANNY CLINTON",
+      "npi": "1376763185",
+      "score": 45.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "1999-06-17",
+      "specialty": "GENERAL PRACTICE/FP"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "GREENWOOD, NICK CARL",
+      "npi": "1306065636",
+      "total_usd": 829.54,
+      "payment_count": 14,
+      "companies": 5
+    },
+    {
+      "name": "YOUNG, STEVEN ROBERT",
+      "npi": "1962497685",
+      "total_usd": 334.17,
+      "payment_count": 8,
+      "companies": 4
+    },
+    {
+      "name": "GRANT, MORGAN K",
+      "npi": "1700983038",
+      "total_usd": 26.75,
+      "payment_count": 2,
+      "companies": 1
+    },
+    {
+      "name": "ALLDREDGE, O LAYTON",
+      "npi": "1225144264",
+      "total_usd": 17.54,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "JENSEN, CRAIG R",
+      "npi": "1811092216",
+      "total_usd": 12.45,
+      "payment_count": 1,
+      "companies": 1
+    }
+  ]
+}

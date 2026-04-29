@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "OK",
+    "state_name": "Oklahoma",
+    "county": "Murray",
+    "county_slug": "murray",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 10.0,
+    "total_exemptions_usd": 20038961.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 3961.05,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 0,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 38,
+    "warn_workers_affected": 0,
+    "fips_county": ""
+  },
+  "benchmarks": {
+    "state_rank": 8,
+    "state_total_counties": 20,
+    "state_percentile": 60,
+    "state_median_subsidy_usd": 12591440.5,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 559.98,
+    "subsidy_context": "above the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Murray County ranks 8th out of 20 Oklahoma counties for total tax exemptions, with $20.0M in property tax breaks — above the state median. The per-household cost of these subsidies is $3,961.",
+    "subsidy_context": "above the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

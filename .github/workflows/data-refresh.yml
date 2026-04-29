@@ -1,0 +1,195 @@
+# =============================================================================
+# Data Refresh Workflow — The Public Ledgers
+# =============================================================================
+#
+# FULL DATA REFRESH PROCESS (3 stages):
+#
+#   1. Run analysis pipelines LOCALLY (state scripts, malpractice scripts, etc.)
+#      These produce CSV outputs in each project's outputs/ directory.
+#      This step requires large local datasets (34 GB FEC, 8 GB NPPES, etc.)
+#      and cannot run in CI.
+#
+#   2. Run export scripts to convert CSV outputs -> Hugo /data/ JSON files.
+#      This is what THIS WORKFLOW handles (or you can run locally).
+#        - IDA:         python3 ida/scripts/export_hugo_data.py
+#        - Malpractice: python3 deep-dive/malpractice/.../scripts/08_export_hugo_malpractice.py
+#
+#   3. Push to main triggers deploy.yml, which builds Hugo and deploys to
+#      GitHub Pages automatically.
+#
+# IMPORTANT LIMITATION:
+#   This workflow is currently a TEMPLATE/FRAMEWORK. The export scripts read
+#   analysis CSV outputs that live outside the site repo (in the ida/ and
+#   deep-dive/ project trees). Those CSVs are generated locally and are NOT
+#   checked into the site repo.
+#
+#   For this workflow to function end-to-end in CI, one of the following
+#   would be needed:
+#     a) Check analysis CSVs into this repo (or a submodule/artifact)
+#     b) Upload analysis outputs as a GitHub Actions artifact from a
+#        separate workflow, then download them here
+#     c) Use a shared storage mechanism (S3, GCS, etc.)
+#
+#   Until then, the recommended flow is:
+#     - Run export scripts locally
+#     - Commit and push the updated data/ JSON files
+#     - deploy.yml handles the rest
+#
+# =============================================================================
+
+name: Data Refresh
+
+on:
+  # Manual trigger with options
+  workflow_dispatch:
+    inputs:
+      refresh_ida:
+        description: 'Refresh IDA data'
+        required: false
+        default: true
+        type: boolean
+      refresh_malpractice:
+        description: 'Refresh Malpractice data'
+        required: false
+        default: true
+        type: boolean
+      refresh_deep_dives:
+        description: 'Refresh Deep-Dive data (charter school, nursing home, water)'
+        required: false
+        default: true
+        type: boolean
+  # Weekly schedule (Mondays at 6 AM ET / 10:00 UTC)
+  schedule:
+    - cron: '0 10 * * 1'
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # -----------------------------------------------------------------
+      # IDA Export
+      # -----------------------------------------------------------------
+      # Reads CSV outputs from ida/states/*/outputs/ directories.
+      # These files are NOT in this repo — they are generated locally
+      # by the IDA analysis pipeline (50 state scripts + crossrefs).
+      #
+      # For CI to work, the analysis CSVs would need to be available
+      # (via artifact, submodule, or shared storage). Without them,
+      # this step will produce empty/unchanged data files.
+      # -----------------------------------------------------------------
+      - name: Run IDA export
+        if: >-
+          github.event_name == 'schedule' ||
+          (github.event_name == 'workflow_dispatch' && inputs.refresh_ida)
+        run: |
+          echo "::group::IDA Data Export"
+          echo "Attempting IDA data export..."
+          echo "NOTE: This requires analysis CSVs from the IDA pipeline."
+          echo "If CSVs are not present, the export will produce no changes."
+
+          # The export script expects to find the ida/ project tree relative
+          # to its own location. In CI, we only have the site repo checked out,
+          # so this will only work if the analysis outputs are made available.
+          EXPORT_SCRIPT="${GITHUB_WORKSPACE}/../../ida/scripts/export_hugo_data.py"
+          if [ -f "$EXPORT_SCRIPT" ]; then
+            python3 "$EXPORT_SCRIPT"
+          else
+            echo "::warning::IDA export script not found at expected path."
+            echo "The IDA analysis tree is not available in this CI environment."
+            echo "Run the export locally instead:"
+            echo "  python3 /path/to/ida/scripts/export_hugo_data.py"
+          fi
+          echo "::endgroup::"
+
+      # -----------------------------------------------------------------
+      # Malpractice Export
+      # -----------------------------------------------------------------
+      # Reads CSV/TXT outputs from malpractice-accountability/outputs/.
+      # Same caveat as IDA — requires local analysis outputs.
+      # -----------------------------------------------------------------
+      - name: Run Malpractice export
+        if: >-
+          github.event_name == 'schedule' ||
+          (github.event_name == 'workflow_dispatch' && inputs.refresh_malpractice)
+        run: |
+          echo "::group::Malpractice Data Export"
+          echo "Attempting Malpractice data export..."
+          echo "NOTE: This requires analysis CSVs from the Malpractice pipeline."
+          echo "If CSVs are not present, the export will produce no changes."
+
+          EXPORT_SCRIPT="${GITHUB_WORKSPACE}/../../deep-dive/malpractice/malpractice-accountability/scripts/08_export_hugo_malpractice.py"
+          if [ -f "$EXPORT_SCRIPT" ]; then
+            python3 "$EXPORT_SCRIPT" --site-path "${GITHUB_WORKSPACE}"
+          else
+            echo "::warning::Malpractice export script not found at expected path."
+            echo "The Malpractice analysis tree is not available in this CI environment."
+            echo "Run the export locally instead:"
+            echo "  python3 /path/to/08_export_hugo_malpractice.py --site-path /path/to/site"
+          fi
+          echo "::endgroup::"
+
+      # -----------------------------------------------------------------
+      # Deep-Dive Export (Charter School, Nursing Home, Water)
+      # -----------------------------------------------------------------
+      # Reads summary JSON + CSV outputs from each deep-dive project.
+      # Same caveat — requires local analysis outputs.
+      # -----------------------------------------------------------------
+      - name: Run Deep-Dive export
+        if: >-
+          github.event_name == 'schedule' ||
+          (github.event_name == 'workflow_dispatch' && inputs.refresh_deep_dives)
+        run: |
+          echo "::group::Deep-Dive Data Export"
+          echo "Attempting Deep-Dive data export (charter school, nursing home, water)..."
+
+          EXPORT_SCRIPT="${GITHUB_WORKSPACE}/../../scripts/export_hugo_deep_dives.py"
+          if [ -f "$EXPORT_SCRIPT" ]; then
+            python3 "$EXPORT_SCRIPT" --site-path "${GITHUB_WORKSPACE}"
+          else
+            echo "::warning::Deep-dive export script not found at expected path."
+            echo "Run the export locally instead:"
+            echo "  python3 /path/to/scripts/export_hugo_deep_dives.py"
+          fi
+          echo "::endgroup::"
+
+      # -----------------------------------------------------------------
+      # Detect changes and auto-commit
+      # -----------------------------------------------------------------
+      - name: Check for data changes
+        id: changes
+        run: |
+          git add -A data/ static/data/ content/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes detected."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Data changes detected:"
+            git diff --cached --stat
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          REFRESH_DATE=$(date -u +"%Y-%m-%d")
+          git commit -m "data: automated refresh ${REFRESH_DATE}"
+          git push

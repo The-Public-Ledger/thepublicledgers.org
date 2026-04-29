@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Chenango",
+    "county_slug": "chenango",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 36.46,
+    "total_exemptions_usd": 12448193.1,
+    "net_exemptions_usd": 7202869.51,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 16,
+    "num_donor_beneficiaries": 2,
+    "donor_rate_pct": 12.5,
+    "total_donations_usd": 2380.0,
+    "jobs_promised": 4105,
+    "jobs_current": 9898,
+    "total_projects": 59,
+    "num_officials_receiving": 1,
+    "official_total_received_usd": 2280.0,
+    "num_pipelines": 2
+  },
+  "benchmarks": {
+    "state_rank": 78,
+    "state_total_counties": 104,
+    "state_percentile": 25,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Chenango County ranks 78th out of 104 New York counties for total tax exemptions, with $12.4M in property tax breaks — below the state median. 12% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Bethlehem",
+    "county_slug": "bethlehem",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 45.34,
+    "total_exemptions_usd": 29797960.41,
+    "net_exemptions_usd": -7203341.59,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 16,
+    "num_donor_beneficiaries": 2,
+    "donor_rate_pct": 12.5,
+    "total_donations_usd": 12587.0,
+    "jobs_promised": 5571,
+    "jobs_current": 2527,
+    "total_projects": 92,
+    "num_officials_receiving": 2,
+    "official_total_received_usd": 2690.0,
+    "num_pipelines": 3
+  },
+  "benchmarks": {
+    "state_rank": 60,
+    "state_total_counties": 104,
+    "state_percentile": 42,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Bethlehem County ranks 60th out of 104 New York counties for total tax exemptions, with $29.8M in property tax breaks — below the state median. 12% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Dutchess",
+    "county_slug": "dutchess",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 52.33,
+    "total_exemptions_usd": 419817582.4,
+    "net_exemptions_usd": 319617823.7,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 57,
+    "num_donor_beneficiaries": 13,
+    "donor_rate_pct": 22.81,
+    "total_donations_usd": 77555.0,
+    "jobs_promised": 34011,
+    "jobs_current": 76977,
+    "total_projects": 310,
+    "num_officials_receiving": 3,
+    "official_total_received_usd": 15945.0,
+    "num_pipelines": 9
+  },
+  "benchmarks": {
+    "state_rank": 5,
+    "state_total_counties": 104,
+    "state_percentile": 95,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "9.9× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Dutchess County ranks 5th out of 104 New York counties for total tax exemptions, with $419.8M in property tax breaks — 9.9× the state median. 23% of subsidy recipients donated to local officials.",
+    "subsidy_context": "9.9× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

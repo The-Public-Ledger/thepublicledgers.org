@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Rensselaer (City)",
+    "county_slug": "rensselaer-city",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 35.32,
+    "total_exemptions_usd": 8515034.51,
+    "net_exemptions_usd": 6582827.71,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 7,
+    "num_donor_beneficiaries": 0,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 448,
+    "jobs_current": 48,
+    "total_projects": 34,
+    "num_officials_receiving": 0,
+    "official_total_received_usd": 0.0,
+    "num_pipelines": 0
+  },
+  "benchmarks": {
+    "state_rank": 85,
+    "state_total_counties": 104,
+    "state_percentile": 18,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Rensselaer (City) County ranks 85th out of 104 New York counties for total tax exemptions, with $8.5M in property tax breaks — below the state median.",
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

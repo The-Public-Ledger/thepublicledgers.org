@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "state_abbr": "FL",
+    "state_name": "Florida",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 267,
+    "physician_population": 83444,
+    "per_1000_physicians": 3.2,
+    "double_flagged": 52,
+    "industry_payments_usd": 2114833.8500000006
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 91
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 79
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 59
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 25
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 8
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 2
+    },
+    {
+      "code": "1128b1",
+      "label": "Misdemeanor Fraud",
+      "count": 1
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 1
+    },
+    {
+      "code": "1128b5",
+      "label": "Federal/State Program Exclusion",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "SC",
+      "from_name": "South Carolina",
+      "count": 6
+    },
+    {
+      "from_state": "GA",
+      "from_name": "Georgia",
+      "count": 5
+    },
+    {
+      "from_state": "AL",
+      "from_name": "Alabama",
+      "count": 5
+    },
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 3
+    },
+    {
+      "from_state": "NJ",
+      "from_name": "New Jersey",
+      "count": 2
+    },
+    {
+      "from_state": "OK",
+      "from_name": "Oklahoma",
+      "count": 2
+    },
+    {
+      "from_state": "NY",
+      "from_name": "New York",
+      "count": 2
+    },
+    {
+      "from_state": "KY",
+      "from_name": "Kentucky",
+      "count": 2
+    },
+    {
+      "from_state": "IL",
+      "from_name": "Illinois",
+      "count": 2
+    },
+    {
+      "from_state": "NC",
+      "from_name": "North Carolina",
+      "count": 2
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 8
+    },
+    {
+      "to_state": "PR",
+      "to_name": "Puerto Rico",
+      "count": 8
+    },
+    {
+      "to_state": "LA",
+      "to_name": "Louisiana",
+      "count": 7
+    },
+    {
+      "to_state": "GA",
+      "to_name": "Georgia",
+      "count": 5
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 5
+    },
+    {
+      "to_state": "NJ",
+      "to_name": "New Jersey",
+      "count": 4
+    },
+    {
+      "to_state": "PA",
+      "to_name": "Pennsylvania",
+      "count": 4
+    },
+    {
+      "to_state": "OH",
+      "to_name": "Ohio",
+      "count": 3
+    },
+    {
+      "to_state": "AL",
+      "to_name": "Alabama",
+      "count": 3
+    },
+    {
+      "to_state": "TN",
+      "to_name": "Tennessee",
+      "count": 3
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "BURACK, STEVEN ADAM",
+      "npi": "1639220064",
+      "score": 81.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-09-19",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "GHOSH, MONA nan",
+      "npi": "1497915185",
+      "score": 81.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-11-20",
+      "specialty": "GYN/OBS"
+    },
+    {
+      "name": "SALEH, OMAR M",
+      "npi": "1902172828",
+      "score": 73.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-03-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "THOMAS, ZINIA SUE",
+      "npi": "1376687301",
+      "score": 72.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-01-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "THOMPSON, ISAAC K",
+      "npi": "1598781494",
+      "score": 72.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2016-11-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "ESPINOSA, VICTOR HUGO",
+      "npi": "1013036359",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-01-19",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "ASFORA MD FRCSC PC, WILSON T",
+      "npi": "1194706754",
+      "score": 70.0,
+      "exclusion_label": "Fraud/Kickbacks",
+      "exclusion_date": "2021-04-30",
+      "specialty": "NEUROLOGY"
+    },
+    {
+      "name": "RERKO, DAVID nan",
+      "npi": "1932157062",
+      "score": 70.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-04-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "HEILBRON, ROY GILBERT",
+      "npi": "1518929421",
+      "score": 69.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2019-10-20",
+      "specialty": "CARDIOLOGY"
+    },
+    {
+      "name": "KURRLE, ROBERT WILLIAM",
+      "npi": "1255431888",
+      "score": 69.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2020-05-20",
+      "specialty": "OPHTHALMOLOGY"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "PAPPACHEN, STEPHEN nan",
+      "npi": "1063418580",
+      "total_usd": 967137.3,
+      "payment_count": 1386,
+      "companies": 9
+    },
+    {
+      "name": "NORTON, ROBERT PATRICK",
+      "npi": "1972798379",
+      "total_usd": 844840.37,
+      "payment_count": 492,
+      "companies": 59
+    },
+    {
+      "name": "MORALES, OSMIN nan",
+      "npi": "1942217526",
+      "total_usd": 107088.35,
+      "payment_count": 19,
+      "companies": 8
+    },
+    {
+      "name": "SHAKNOVSKY, THOMAS J",
+      "npi": "1568690014",
+      "total_usd": 48661.04,
+      "payment_count": 163,
+      "companies": 31
+    },
+    {
+      "name": "LIEBERMAN, DREW EVAN",
+      "npi": "1194798942",
+      "total_usd": 39993.8,
+      "payment_count": 105,
+      "companies": 9
+    },
+    {
+      "name": "EDWARDS, JEFFREY BRYANT",
+      "npi": "1871988972",
+      "total_usd": 19044.19,
+      "payment_count": 276,
+      "companies": 29
+    },
+    {
+      "name": "CRUZ, JOSE A",
+      "npi": "1093705790",
+      "total_usd": 14313.72,
+      "payment_count": 609,
+      "companies": 28
+    },
+    {
+      "name": "FREY, MICHAEL E",
+      "npi": "1780672543",
+      "total_usd": 12359.69,
+      "payment_count": 101,
+      "companies": 25
+    },
+    {
+      "name": "GHOSH, MONA nan",
+      "npi": "1497915185",
+      "total_usd": 7710.27,
+      "payment_count": 100,
+      "companies": 29
+    },
+    {
+      "name": "CUGINI, CHRISTY D",
+      "npi": "1447313283",
+      "total_usd": 6302.94,
+      "payment_count": 393,
+      "companies": 30
+    }
+  ]
+}

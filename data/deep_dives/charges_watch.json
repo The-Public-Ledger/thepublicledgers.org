@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Charges Watch",
+    "slug": "charges-watch",
+    "status": "pipeline-built",
+    "last_updated": "2026-03-17",
+    "sources": ["CourtListener", "FEC bulk", "state court records", "news archives"]
+  },
+  "key_stats": {
+    "donor_index_records": 4800000,
+    "high_confidence_leads": 0,
+    "review_leads": 0,
+    "prosecutor_conflicts": 0
+  },
+  "top_findings": [
+    "4.8M-record donor index built for cross-referencing defendants against campaign finance",
+    "Pipeline tracks criminal cases where charges were dropped or dismissed",
+    "Flags cases where defendant or prosecutor appears in campaign finance records",
+    "ETL infrastructure complete — data ingestion from CourtListener and news in progress"
+  ],
+  "pipeline_status": {
+    "donor_index": "complete",
+    "news_ingest": "stub",
+    "courtlistener_ingest": "stub",
+    "signal_extraction": "stub",
+    "match_resolution": "stub"
+  }
+}

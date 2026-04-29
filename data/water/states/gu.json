@@ -1,0 +1,26 @@
+{
+  "state": "GU",
+  "facilities": 42,
+  "water_systems": 9,
+  "total_violations": 58,
+  "health_violations": 7,
+  "total_penalties": 98652.0,
+  "avg_penalty": 2348.86,
+  "violation_rate": 0.5238,
+  "enforcement_gap_score": 0.4124,
+  "serious_violators": 0,
+  "tri_facilities": 0,
+  "tri_releases_lbs": 0.0,
+  "top_counties": [
+    {
+      "fips": "66010",
+      "name": "",
+      "facilities": 33,
+      "total_violations": 13,
+      "health_violations": 0,
+      "total_penalties": 98652.0,
+      "enforcement_gap_score": 0.0987
+    }
+  ],
+  "top_violators": []
+}

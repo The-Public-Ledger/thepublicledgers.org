@@ -1,0 +1,107 @@
+{
+  "state": "WA",
+  "facilities": 11347,
+  "water_systems": 3602,
+  "total_violations": 62777,
+  "health_violations": 5041,
+  "total_penalties": 67180868.0,
+  "avg_penalty": 5920.58,
+  "violation_rate": 0.3107,
+  "enforcement_gap_score": 0.7994,
+  "serious_violators": 47,
+  "tri_facilities": 304,
+  "tri_releases_lbs": 1770988892.0,
+  "top_counties": [
+    {
+      "fips": "53023",
+      "name": "",
+      "facilities": 10,
+      "total_violations": 4,
+      "health_violations": 16,
+      "total_penalties": 901.0,
+      "enforcement_gap_score": 0.3669
+    },
+    {
+      "fips": "53019",
+      "name": "FERRY",
+      "facilities": 20,
+      "total_violations": 6,
+      "health_violations": 150,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3
+    },
+    {
+      "fips": "53001",
+      "name": "ADAMS",
+      "facilities": 38,
+      "total_violations": 10,
+      "health_violations": 66,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2632
+    },
+    {
+      "fips": "53065",
+      "name": "STEVENS",
+      "facilities": 69,
+      "total_violations": 17,
+      "health_violations": 7,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2464
+    },
+    {
+      "fips": "53029",
+      "name": "ISLAND",
+      "facilities": 244,
+      "total_violations": 44,
+      "health_violations": 43,
+      "total_penalties": 10750.0,
+      "enforcement_gap_score": 0.1727
+    },
+    {
+      "fips": "53043",
+      "name": "LINCOLN",
+      "facilities": 32,
+      "total_violations": 5,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1562
+    },
+    {
+      "fips": "53013",
+      "name": "",
+      "facilities": 20,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1
+    },
+    {
+      "fips": "53025",
+      "name": "GRANT COUNTY",
+      "facilities": 152,
+      "total_violations": 13,
+      "health_violations": 20,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0855
+    },
+    {
+      "fips": "53047",
+      "name": "OKANOGAN",
+      "facilities": 106,
+      "total_violations": 14,
+      "health_violations": 93,
+      "total_penalties": 79681.0,
+      "enforcement_gap_score": 0.0754
+    },
+    {
+      "fips": "53021",
+      "name": "FRANKLIN",
+      "facilities": 67,
+      "total_violations": 5,
+      "health_violations": 26,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0746
+    }
+  ],
+  "top_violators": []
+}

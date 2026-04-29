@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "state_abbr": "PA",
+    "state_name": "Pennsylvania",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 135,
+    "physician_population": 61392,
+    "per_1000_physicians": 2.199,
+    "double_flagged": 25,
+    "industry_payments_usd": 409301.9000000001
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 55
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 34
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 19
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 12
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 5
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 5
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 2
+    },
+    {
+      "code": "1128b6",
+      "label": "1128b6",
+      "count": 2
+    },
+    {
+      "code": "1128b3",
+      "label": "1128b3",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "NJ",
+      "from_name": "New Jersey",
+      "count": 11
+    },
+    {
+      "from_state": "WV",
+      "from_name": "West Virginia",
+      "count": 11
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 4
+    },
+    {
+      "from_state": "NC",
+      "from_name": "North Carolina",
+      "count": 2
+    },
+    {
+      "from_state": "KY",
+      "from_name": "Kentucky",
+      "count": 2
+    },
+    {
+      "from_state": "CT",
+      "from_name": "Connecticut",
+      "count": 2
+    },
+    {
+      "from_state": "MD",
+      "from_name": "Maryland",
+      "count": 1
+    },
+    {
+      "from_state": "GA",
+      "from_name": "Georgia",
+      "count": 1
+    },
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 1
+    },
+    {
+      "from_state": "NY",
+      "from_name": "New York",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 18
+    },
+    {
+      "to_state": "OH",
+      "to_name": "Ohio",
+      "count": 9
+    },
+    {
+      "to_state": "NJ",
+      "to_name": "New Jersey",
+      "count": 7
+    },
+    {
+      "to_state": "WV",
+      "to_name": "West Virginia",
+      "count": 4
+    },
+    {
+      "to_state": "CT",
+      "to_name": "Connecticut",
+      "count": 4
+    },
+    {
+      "to_state": "VA",
+      "to_name": "Virginia",
+      "count": 3
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 2
+    },
+    {
+      "to_state": "OR",
+      "to_name": "Oregon",
+      "count": 1
+    },
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 1
+    },
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "BORKSON, JOSEPH L",
+      "npi": "1235233586",
+      "score": 81.2,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2011-06-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "KURTZER, YITZCHOK BARRY",
+      "npi": "1154321891",
+      "score": 81.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-10-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "EVERS, MARTIN L",
+      "npi": "1366434110",
+      "score": 80.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2024-05-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "OSUJI, CHUMA G",
+      "npi": "1871584656",
+      "score": 78.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2016-12-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "GUPTA, ADARSH K",
+      "npi": "1003896523",
+      "score": 78.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-01-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "ADIBI, JUSTIN nan",
+      "npi": "1063073757",
+      "score": 75.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2025-09-18",
+      "specialty": "SURGERY"
+    },
+    {
+      "name": "BARTO, JOHNNIE WILSON",
+      "npi": "1063408102",
+      "score": 74.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2019-08-20",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "THOMPSON, VINCENT J",
+      "npi": "1174526180",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-08-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "PARSIA, KEYKHOSROW S",
+      "npi": "1043312168",
+      "score": 73.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2018-04-19",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "MABRY, MYRA CUMMINGS",
+      "npi": "1306070719",
+      "score": 72.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2021-07-20",
+      "specialty": "GYN/OBS"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "DAVIS, CHRISTOPHER JACKSON",
+      "npi": "1144473208",
+      "total_usd": 299129.63,
+      "payment_count": 483,
+      "companies": 10
+    },
+    {
+      "name": "KURTZER, YITZCHOK BARRY",
+      "npi": "1154321891",
+      "total_usd": 22774.3,
+      "payment_count": 1857,
+      "companies": 71
+    },
+    {
+      "name": "SIMONS, BERNIE M",
+      "npi": "1174548499",
+      "total_usd": 19631.91,
+      "payment_count": 1095,
+      "companies": 73
+    },
+    {
+      "name": "BIRD, LUIS nan",
+      "npi": "1538222658",
+      "total_usd": 13485.16,
+      "payment_count": 665,
+      "companies": 26
+    },
+    {
+      "name": "HO, YEE CHUNG",
+      "npi": "1801853379",
+      "total_usd": 7000.27,
+      "payment_count": 97,
+      "companies": 15
+    },
+    {
+      "name": "LEE, JOHN KEUNSANG",
+      "npi": "1811187099",
+      "total_usd": 5557.31,
+      "payment_count": 484,
+      "companies": 38
+    },
+    {
+      "name": "MORAN, KURT PAUL",
+      "npi": "1831214535",
+      "total_usd": 5172.49,
+      "payment_count": 13,
+      "companies": 7
+    },
+    {
+      "name": "KOOSHKABADI, ALI nan",
+      "npi": "1306078183",
+      "total_usd": 4751.05,
+      "payment_count": 72,
+      "companies": 10
+    },
+    {
+      "name": "HARRIS, JOHN ALEXANDER",
+      "npi": "1427376821",
+      "total_usd": 4586.4,
+      "payment_count": 6,
+      "companies": 2
+    },
+    {
+      "name": "WHALEN, THOMAS J",
+      "npi": "1164587697",
+      "total_usd": 4087.06,
+      "payment_count": 351,
+      "companies": 34
+    }
+  ]
+}

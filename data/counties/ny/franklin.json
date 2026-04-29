@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Franklin",
+    "county_slug": "franklin",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 65.78,
+    "total_exemptions_usd": 50775438.74,
+    "net_exemptions_usd": 42552204.99,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 20,
+    "num_donor_beneficiaries": 5,
+    "donor_rate_pct": 25.0,
+    "total_donations_usd": 6275.0,
+    "jobs_promised": 1596,
+    "jobs_current": 846,
+    "total_projects": 89,
+    "num_officials_receiving": 1,
+    "official_total_received_usd": 1650.0,
+    "num_pipelines": 2
+  },
+  "benchmarks": {
+    "state_rank": 44,
+    "state_total_counties": 104,
+    "state_percentile": 58,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "near the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Franklin County ranks 44th out of 104 New York counties for total tax exemptions, with $50.8M in property tax breaks — near the state median. 25% of subsidy recipients donated to local officials.",
+    "subsidy_context": "near the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

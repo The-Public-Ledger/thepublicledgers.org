@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "state": "SC",
+    "state_name": "South Carolina",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 46,
+      "counties_with_data": 0,
+      "crossref_complete": false,
+      "deals_count": 0,
+      "contributions_matched": 145
+    },
+    "coverage_status": "placeholder"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 183883738.0,
+    "total_beneficiaries": 1084,
+    "matched_donors": 145,
+    "pct_beneficiaries_donating": 0.1338,
+    "total_donations_usd": 1880899.22
+  },
+  "top_findings": [
+    "145 of 1,084 subsidized companies (13.4%) made campaign donations — $1.9M total.",
+    "$736,366 in donations flowed from beneficiaries to 271 political committees. Top recipient: Haley, Nikki R. ($77,600).",
+    "$184M in total subsidies tracked across 1,084 beneficiary companies in South Carolina."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 736366.04,
+    "num_committees_receiving": 271,
+    "top_committee_name": "Haley, Nikki R.",
+    "top_committee_amount": 77600.0,
+    "top_committee_pct": 0.14
+  }
+}

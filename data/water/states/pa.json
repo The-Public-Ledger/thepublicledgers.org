@@ -1,0 +1,148 @@
+{
+  "state": "PA",
+  "facilities": 21215,
+  "water_systems": 9369,
+  "total_violations": 280808,
+  "health_violations": 19487,
+  "total_penalties": 118546640.0,
+  "avg_penalty": 5587.87,
+  "violation_rate": 0.4014,
+  "enforcement_gap_score": 2.0092,
+  "serious_violators": 384,
+  "tri_facilities": 1180,
+  "tri_releases_lbs": 1689120032.0,
+  "top_counties": [
+    {
+      "fips": "42123",
+      "name": "WARREN",
+      "facilities": 110,
+      "total_violations": 32,
+      "health_violations": 66,
+      "total_penalties": 2300.0,
+      "enforcement_gap_score": 0.285
+    },
+    {
+      "fips": "42065",
+      "name": "JEFFERSON COUNTY",
+      "facilities": 102,
+      "total_violations": 21,
+      "health_violations": 182,
+      "total_penalties": 21063.0,
+      "enforcement_gap_score": 0.1706
+    },
+    {
+      "fips": "42039",
+      "name": "CRAWFORD",
+      "facilities": 193,
+      "total_violations": 32,
+      "health_violations": 62,
+      "total_penalties": 18000.0,
+      "enforcement_gap_score": 0.1517
+    },
+    {
+      "fips": "42105",
+      "name": "POTTER COUNTY",
+      "facilities": 67,
+      "total_violations": 8,
+      "health_violations": 36,
+      "total_penalties": 10050.0,
+      "enforcement_gap_score": 0.1038
+    },
+    {
+      "fips": "42111",
+      "name": "SOMERSET",
+      "facilities": 253,
+      "total_violations": 33,
+      "health_violations": 100,
+      "total_penalties": 75480.0,
+      "enforcement_gap_score": 0.1005
+    },
+    {
+      "fips": "42047",
+      "name": "ELK COUNTY",
+      "facilities": 56,
+      "total_violations": 9,
+      "health_violations": 24,
+      "total_penalties": 43295.0,
+      "enforcement_gap_score": 0.0906
+    },
+    {
+      "fips": "42107",
+      "name": "",
+      "facilities": 211,
+      "total_violations": 36,
+      "health_violations": 215,
+      "total_penalties": 222173.0,
+      "enforcement_gap_score": 0.0831
+    },
+    {
+      "fips": "42015",
+      "name": "BRADFORD",
+      "facilities": 159,
+      "total_violations": 16,
+      "health_violations": 127,
+      "total_penalties": 36055.0,
+      "enforcement_gap_score": 0.082
+    },
+    {
+      "fips": "42117",
+      "name": "TIOGA",
+      "facilities": 116,
+      "total_violations": 23,
+      "health_violations": 83,
+      "total_penalties": 176088.0,
+      "enforcement_gap_score": 0.0787
+    },
+    {
+      "fips": "42067",
+      "name": "JUNIATA",
+      "facilities": 55,
+      "total_violations": 5,
+      "health_violations": 34,
+      "total_penalties": 8913.0,
+      "enforcement_gap_score": 0.0782
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "SHELL CHEMICAL APPALACHIA LLC",
+      "city": "MONACA",
+      "county": "BEAVER",
+      "severity": 65.0,
+      "penalties": 4939336.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "MOUNTAIN VIEW PARK",
+      "city": "",
+      "county": "MONROE",
+      "severity": 60.0,
+      "penalties": 0.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "ICMSA ARCADIA",
+      "city": "CHERRY TREE",
+      "county": "INDIANA",
+      "severity": 60.0,
+      "penalties": 0.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "SHUPPS GROVE",
+      "city": "",
+      "county": "LANCASTER",
+      "severity": 60.0,
+      "penalties": 0.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "GIFFORD PINCHOT ST PARK",
+      "city": "",
+      "county": "YORK",
+      "severity": 60.0,
+      "penalties": 0.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

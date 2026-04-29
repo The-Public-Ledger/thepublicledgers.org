@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "state_abbr": "IN",
+    "state_name": "Indiana",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 36,
+    "physician_population": 21622,
+    "per_1000_physicians": 1.665,
+    "double_flagged": 6,
+    "industry_payments_usd": 21400.920000000002
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 16
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 9
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 8
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 3
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "IL",
+      "from_name": "Illinois",
+      "count": 4
+    },
+    {
+      "from_state": "KY",
+      "from_name": "Kentucky",
+      "count": 2
+    },
+    {
+      "from_state": "CO",
+      "from_name": "Colorado",
+      "count": 1
+    },
+    {
+      "from_state": "WI",
+      "from_name": "Wisconsin",
+      "count": 1
+    },
+    {
+      "from_state": "AR",
+      "from_name": "Arkansas",
+      "count": 1
+    },
+    {
+      "from_state": "MI",
+      "from_name": "Michigan",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "IL",
+      "to_name": "Illinois",
+      "count": 3
+    },
+    {
+      "to_state": "MO",
+      "to_name": "Missouri",
+      "count": 2
+    },
+    {
+      "to_state": "WA",
+      "to_name": "Washington",
+      "count": 2
+    },
+    {
+      "to_state": "GA",
+      "to_name": "Georgia",
+      "count": 1
+    },
+    {
+      "to_state": "IA",
+      "to_name": "Iowa",
+      "count": 1
+    },
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 1
+    },
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "JOSHI, JAY KAUSHIK",
+      "npi": "1497047435",
+      "score": 78.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2019-09-19",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "MATHEW, JOHN C",
+      "npi": "1093755134",
+      "score": 74.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2017-09-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "DASGUPTA, TAPAS nan",
+      "npi": "1386687556",
+      "score": 73.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2022-02-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "CAMPBELL, JEFFREY ALAN",
+      "npi": "1518063585",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-07-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "MAK, MICHAEL nan",
+      "npi": "1811085129",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2022-08-18",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "FARLEY, JOHANN DAVID",
+      "npi": "1043275761",
+      "score": 66.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-05-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "YANIZ, ADOLPH RALPH",
+      "npi": "1639229156",
+      "score": 65.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2012-11-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "CAVINS, JONATHON WADE",
+      "npi": "1407066384",
+      "score": 64.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2021-04-20",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "TIWARI, KAMAL KUMAR",
+      "npi": "1578558789",
+      "score": 62.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2013-04-18",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "HENDERSON, JACQUELINE nan",
+      "npi": "1366482358",
+      "score": 59.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2016-06-20",
+      "specialty": "EMERGENCY MEDICINE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "JOSHI, JAY KAUSHIK",
+      "npi": "1497047435",
+      "total_usd": 9611.69,
+      "payment_count": 25,
+      "companies": 12
+    },
+    {
+      "name": "LOPEZ, ALFREDO M",
+      "npi": "1518958040",
+      "total_usd": 4681.16,
+      "payment_count": 156,
+      "companies": 34
+    },
+    {
+      "name": "TIWARI, KAMAL KUMAR",
+      "npi": "1578558789",
+      "total_usd": 3066.76,
+      "payment_count": 6,
+      "companies": 4
+    },
+    {
+      "name": "JENISON, JAMES E",
+      "npi": "1174511356",
+      "total_usd": 1515.32,
+      "payment_count": 108,
+      "companies": 29
+    },
+    {
+      "name": "WAHIB, SAMIR ALI",
+      "npi": "1851353866",
+      "total_usd": 644.26,
+      "payment_count": 16,
+      "companies": 8
+    },
+    {
+      "name": "MYERS, CHARLES E",
+      "npi": "1891781852",
+      "total_usd": 486.12,
+      "payment_count": 3,
+      "companies": 1
+    },
+    {
+      "name": "FARLEY, JOHANN DAVID",
+      "npi": "1043275761",
+      "total_usd": 347.65,
+      "payment_count": 13,
+      "companies": 5
+    },
+    {
+      "name": "MATHEW, JOHN C",
+      "npi": "1093755134",
+      "total_usd": 272.64,
+      "payment_count": 26,
+      "companies": 2
+    },
+    {
+      "name": "SCHWARTZ, CORTNEY L",
+      "npi": "1942290598",
+      "total_usd": 213.69,
+      "payment_count": 3,
+      "companies": 1
+    },
+    {
+      "name": "CAVINS, JONATHON WADE",
+      "npi": "1407066384",
+      "total_usd": 205.54,
+      "payment_count": 15,
+      "companies": 6
+    }
+  ]
+}

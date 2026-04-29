@@ -1,0 +1,107 @@
+{
+  "state": "TN",
+  "facilities": 3010,
+  "water_systems": 814,
+  "total_violations": 11007,
+  "health_violations": 1553,
+  "total_penalties": 6424813.0,
+  "avg_penalty": 2134.49,
+  "violation_rate": 0.3571,
+  "enforcement_gap_score": 1.1666,
+  "serious_violators": 8,
+  "tri_facilities": 482,
+  "tri_releases_lbs": 1954151024.0,
+  "top_counties": [
+    {
+      "fips": "47171",
+      "name": "UNICOI",
+      "facilities": 5,
+      "total_violations": 3,
+      "health_violations": 1,
+      "total_penalties": 1500.0,
+      "enforcement_gap_score": 0.4615
+    },
+    {
+      "fips": "47101",
+      "name": "LEWIS",
+      "facilities": 3,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3333
+    },
+    {
+      "fips": "47127",
+      "name": "MOORE",
+      "facilities": 3,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 3000.0,
+      "enforcement_gap_score": 0.3333
+    },
+    {
+      "fips": "47041",
+      "name": "DEKALB",
+      "facilities": 14,
+      "total_violations": 6,
+      "health_violations": 8,
+      "total_penalties": 6571.0,
+      "enforcement_gap_score": 0.2917
+    },
+    {
+      "fips": "47161",
+      "name": "STEWART",
+      "facilities": 9,
+      "total_violations": 3,
+      "health_violations": 16,
+      "total_penalties": 1500.0,
+      "enforcement_gap_score": 0.2857
+    },
+    {
+      "fips": "47043",
+      "name": "DICKSON",
+      "facilities": 13,
+      "total_violations": 5,
+      "health_violations": 0,
+      "total_penalties": 4500.0,
+      "enforcement_gap_score": 0.2857
+    },
+    {
+      "fips": "47177",
+      "name": "WARREN",
+      "facilities": 12,
+      "total_violations": 6,
+      "health_violations": 8,
+      "total_penalties": 9027.0,
+      "enforcement_gap_score": 0.2853
+    },
+    {
+      "fips": "47083",
+      "name": "HOUSTON",
+      "facilities": 3,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 760.0,
+      "enforcement_gap_score": 0.266
+    },
+    {
+      "fips": "47067",
+      "name": "HANCOCK",
+      "facilities": 3,
+      "total_violations": 3,
+      "health_violations": 0,
+      "total_penalties": 9000.0,
+      "enforcement_gap_score": 0.25
+    },
+    {
+      "fips": "47179",
+      "name": "WASHINGTON",
+      "facilities": 17,
+      "total_violations": 10,
+      "health_violations": 0,
+      "total_penalties": 23250.0,
+      "enforcement_gap_score": 0.2484
+    }
+  ],
+  "top_violators": []
+}

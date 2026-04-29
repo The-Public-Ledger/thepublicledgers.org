@@ -1,0 +1,28 @@
+{{- $featured := slice -}}
+{{- range site.AllPages -}}
+  {{- if .Params.featured -}}
+    {{- $featured = $featured | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $featured = sort $featured ".Params.featured_weight" -}}
+{{- $featured = first 3 $featured -}}
+
+{{- if gt (len $featured) 0 -}}
+<section class="featured-section" aria-labelledby="featured-title">
+  <div class="container">
+    <h2 id="featured-title" class="section-title">Featured Investigations</h2>
+    <div class="featured-grid">
+      {{- range $featured -}}
+      <a href="{{ .Permalink }}" class="featured-card featured-card--{{ .Params.category | default "default" }}">
+        {{- $catLabels := dict "money" "Public Money" "patients" "Healthcare" "environment" "Environment" "governing" "Governing" -}}
+        <span class="featured-card__category">{{ index $catLabels (.Params.category | default "default") | default "Investigation" }}</span>
+        <h3 class="featured-card__title">{{ .Title }}</h3>
+        {{ with .Params.hub_stat }}<p class="featured-card__stat">{{ . }}</p>{{ end }}
+        <p class="featured-card__description">{{ .Description | truncate 150 }}</p>
+        {{ with .Params.status }}{{ partial "status-badge.html" . }}{{ end }}
+      </a>
+      {{- end -}}
+    </div>
+  </div>
+</section>
+{{- end -}}

@@ -1,0 +1,4 @@
+entity_name,entity_norm,entity_role,states,school_count,sample_school,school_id_count,fec_total,fec_contributions,fec_unique_donors,fec_years,ppp_total,ppp_forgiven,ppp_loans,ppp_borrower_examples,match_types,confidence,tier
+KIPP NYC Washington Heights Academy,KIPP NYC WASHINGTON HEIGHTS ACADEMY,school_name,NY,1,KIPP NYC Washington Heights Academy,1,24566.00,336,23,2019; 2020; 2021; 2022; 2023; 2024,2406188.00,2432257.71,1,"KIPP NYC, LLC",fec:word_overlap; ppp:word_overlap,70,HIGH
+Success Academy Harlem 1,SUCCESS ACADEMY HARLEM 1,school_name,NY,1,Success Academy Harlem 1,1,35585.00,129,14,2019; 2020; 2021; 2022; 2023; 2024,0.00,0.00,0,,fec:containment,50,MEDIUM
+Mastery Charter Thomas Campus,MASTERY CHARTER THOMAS CAMPUS,school_name,PA,1,Mastery Charter Thomas Campus,1,5810.00,128,13,2020; 2021; 2022; 2023; 2024,0.00,0.00,0,,fec:word_overlap,65,MEDIUM

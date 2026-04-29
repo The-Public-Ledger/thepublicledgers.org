@@ -1,0 +1,107 @@
+{
+  "state": "NC",
+  "facilities": 11528,
+  "water_systems": 8127,
+  "total_violations": 75510,
+  "health_violations": 4485,
+  "total_penalties": 12677243.0,
+  "avg_penalty": 1099.69,
+  "violation_rate": 0.8046,
+  "enforcement_gap_score": 3.1196,
+  "serious_violators": 2,
+  "tri_facilities": 764,
+  "tri_releases_lbs": 1555710422.0,
+  "top_counties": [
+    {
+      "fips": "37053",
+      "name": "CURRITUCK",
+      "facilities": 12,
+      "total_violations": 80,
+      "health_violations": 0,
+      "total_penalties": 6021.0,
+      "enforcement_gap_score": 4.4393
+    },
+    {
+      "fips": "37005",
+      "name": "ALLEGHANY",
+      "facilities": 13,
+      "total_violations": 75,
+      "health_violations": 7,
+      "total_penalties": 5750.0,
+      "enforcement_gap_score": 4.0
+    },
+    {
+      "fips": "37125",
+      "name": "MOORE",
+      "facilities": 48,
+      "total_violations": 293,
+      "health_violations": 214,
+      "total_penalties": 26139.0,
+      "enforcement_gap_score": 3.952
+    },
+    {
+      "fips": "37185",
+      "name": "WARREN",
+      "facilities": 6,
+      "total_violations": 34,
+      "health_violations": 2,
+      "total_penalties": 3560.0,
+      "enforcement_gap_score": 3.5565
+    },
+    {
+      "fips": "37171",
+      "name": "SURRY",
+      "facilities": 59,
+      "total_violations": 247,
+      "health_violations": 20,
+      "total_penalties": 13684.0,
+      "enforcement_gap_score": 3.3983
+    },
+    {
+      "fips": "37127",
+      "name": "NASH",
+      "facilities": 42,
+      "total_violations": 146,
+      "health_violations": 56,
+      "total_penalties": 7064.0,
+      "enforcement_gap_score": 2.9757
+    },
+    {
+      "fips": "37173",
+      "name": "SWAIN",
+      "facilities": 27,
+      "total_violations": 116,
+      "health_violations": 8,
+      "total_penalties": 17184.0,
+      "enforcement_gap_score": 2.6254
+    },
+    {
+      "fips": "37009",
+      "name": "ASHE",
+      "facilities": 28,
+      "total_violations": 84,
+      "health_violations": 25,
+      "total_penalties": 5921.0,
+      "enforcement_gap_score": 2.4763
+    },
+    {
+      "fips": "37021",
+      "name": "BUNCOMBE",
+      "facilities": 94,
+      "total_violations": 360,
+      "health_violations": 37,
+      "total_penalties": 53247.0,
+      "enforcement_gap_score": 2.4449
+    },
+    {
+      "fips": "37091",
+      "name": "HERTFORD",
+      "facilities": 6,
+      "total_violations": 18,
+      "health_violations": 0,
+      "total_penalties": 1505.0,
+      "enforcement_gap_score": 2.3984
+    }
+  ],
+  "top_violators": []
+}

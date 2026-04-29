@@ -1,0 +1,116 @@
+{
+  "state": "NY",
+  "facilities": 15160,
+  "water_systems": 8704,
+  "total_violations": 162344,
+  "health_violations": 9899,
+  "total_penalties": 140382601.0,
+  "avg_penalty": 9260.07,
+  "violation_rate": 0.5553,
+  "enforcement_gap_score": 1.0437,
+  "serious_violators": 84,
+  "tri_facilities": 938,
+  "tri_releases_lbs": 1244073208.0,
+  "top_counties": [
+    {
+      "fips": "36023",
+      "name": "CORTLAND",
+      "facilities": 50,
+      "total_violations": 272,
+      "health_violations": 3,
+      "total_penalties": 148630.0,
+      "enforcement_gap_score": 1.3694
+    },
+    {
+      "fips": "36017",
+      "name": "CHENANGO",
+      "facilities": 71,
+      "total_violations": 155,
+      "health_violations": 2,
+      "total_penalties": 49480.0,
+      "enforcement_gap_score": 1.2865
+    },
+    {
+      "fips": "36107",
+      "name": "TIOGA",
+      "facilities": 41,
+      "total_violations": 41,
+      "health_violations": 2,
+      "total_penalties": 4990.0,
+      "enforcement_gap_score": 0.8915
+    },
+    {
+      "fips": "36015",
+      "name": "CHEMUNG",
+      "facilities": 58,
+      "total_violations": 50,
+      "health_violations": 1,
+      "total_penalties": 2780.0,
+      "enforcement_gap_score": 0.8226
+    },
+    {
+      "fips": "36057",
+      "name": "MONTGOMERY",
+      "facilities": 66,
+      "total_violations": 50,
+      "health_violations": 92,
+      "total_penalties": 35423.0,
+      "enforcement_gap_score": 0.493
+    },
+    {
+      "fips": "36109",
+      "name": "SENECA",
+      "facilities": 82,
+      "total_violations": 56,
+      "health_violations": 19,
+      "total_penalties": 44525.0,
+      "enforcement_gap_score": 0.4426
+    },
+    {
+      "fips": "36083",
+      "name": "RENSSELAER",
+      "facilities": 140,
+      "total_violations": 81,
+      "health_violations": 43,
+      "total_penalties": 58500.0,
+      "enforcement_gap_score": 0.4081
+    },
+    {
+      "fips": "36041",
+      "name": "HAMILTON",
+      "facilities": 13,
+      "total_violations": 5,
+      "health_violations": 6,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3846
+    },
+    {
+      "fips": "36035",
+      "name": "FULTON",
+      "facilities": 85,
+      "total_violations": 38,
+      "health_violations": 16,
+      "total_penalties": 16000.0,
+      "enforcement_gap_score": 0.3762
+    },
+    {
+      "fips": "36009",
+      "name": "CHAUTAUQUA",
+      "facilities": 65,
+      "total_violations": 43,
+      "health_violations": 11,
+      "total_penalties": 59150.0,
+      "enforcement_gap_score": 0.3464
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "MPM SILICONES LLC",
+      "city": "WATERFORD",
+      "county": "SARATOGA",
+      "severity": 65.0,
+      "penalties": 3000000.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

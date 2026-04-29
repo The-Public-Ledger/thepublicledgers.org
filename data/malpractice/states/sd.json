@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state_abbr": "SD",
+    "state_name": "South Dakota",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 1,
+    "physician_population": 2855,
+    "per_1000_physicians": 0.35,
+    "double_flagged": 0,
+    "industry_payments_usd": 1346596.48
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 1
+    }
+  ],
+  "migrants_in": [],
+  "migrants_out": [
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 1
+    },
+    {
+      "to_state": "IL",
+      "to_name": "Illinois",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "WEBER, S PATRICK",
+      "npi": "1487621579",
+      "score": 59.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2019-05-20",
+      "specialty": "PEDIATRICS"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "ASFORA MD FRCSC PC, WILSON T",
+      "npi": "1194706754",
+      "total_usd": 1346596.48,
+      "payment_count": 60,
+      "companies": 17
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "state_abbr": "IL",
+    "state_name": "Illinois",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 111,
+    "physician_population": 48840,
+    "per_1000_physicians": 2.273,
+    "double_flagged": 14,
+    "industry_payments_usd": 263229.96
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 45
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 29
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 10
+    },
+    {
+      "code": "1128b5",
+      "label": "Federal/State Program Exclusion",
+      "count": 9
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 6
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 5
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 4
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 1
+    },
+    {
+      "code": "1128b1",
+      "label": "Misdemeanor Fraud",
+      "count": 1
+    },
+    {
+      "code": "1128b6",
+      "label": "1128b6",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "KY",
+      "from_name": "Kentucky",
+      "count": 6
+    },
+    {
+      "from_state": "MO",
+      "from_name": "Missouri",
+      "count": 3
+    },
+    {
+      "from_state": "IN",
+      "from_name": "Indiana",
+      "count": 3
+    },
+    {
+      "from_state": "WI",
+      "from_name": "Wisconsin",
+      "count": 2
+    },
+    {
+      "from_state": "MN",
+      "from_name": "Minnesota",
+      "count": 2
+    },
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 2
+    },
+    {
+      "from_state": "TN",
+      "from_name": "Tennessee",
+      "count": 1
+    },
+    {
+      "from_state": "XX",
+      "from_name": "XX",
+      "count": 1
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "MO",
+      "to_name": "Missouri",
+      "count": 6
+    },
+    {
+      "to_state": "IN",
+      "to_name": "Indiana",
+      "count": 4
+    },
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 2
+    },
+    {
+      "to_state": "WI",
+      "to_name": "Wisconsin",
+      "count": 1
+    },
+    {
+      "to_state": "NJ",
+      "to_name": "New Jersey",
+      "count": 1
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 1
+    },
+    {
+      "to_state": "TN",
+      "to_name": "Tennessee",
+      "count": 1
+    },
+    {
+      "to_state": "MN",
+      "to_name": "Minnesota",
+      "count": 1
+    },
+    {
+      "to_state": "VA",
+      "to_name": "Virginia",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "SHETH, SUSHIL A",
+      "npi": "1265521587",
+      "score": 72.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2011-10-20",
+      "specialty": "CARDIOLOGY"
+    },
+    {
+      "name": "DEMOREST, STANLEY DAVID",
+      "npi": "1982769071",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-10-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "TOH, BENJAMIN nan",
+      "npi": "1750313177",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-08-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "NAGAJ, EGUERT nan",
+      "npi": "1376550442",
+      "score": 69.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2018-01-18",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "JAIN, KISHOR NATHMAL",
+      "npi": "1568537355",
+      "score": 69.2,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2015-12-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "BARON, JOSHUA DANA",
+      "npi": "1336112523",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2016-12-20",
+      "specialty": "NEUROLOGY"
+    },
+    {
+      "name": "MULTANI, SUKHWINDER S",
+      "npi": "1518176601",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2018-10-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "PERALES, CONSTANTINO nan",
+      "npi": "1417942376",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2020-01-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "KRAGEL, DAVID M",
+      "npi": "1174596126",
+      "score": 66.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2013-09-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "AGUSTSSON, THORDUR SKULI",
+      "npi": "1790895977",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-12-19",
+      "specialty": "INTERNAL MEDICINE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "MAHESHWARI, HIRALAL nan",
+      "npi": "1740238757",
+      "total_usd": 170365.08,
+      "payment_count": 1309,
+      "companies": 59
+    },
+    {
+      "name": "BROTMAN, MONIQUE nan",
+      "npi": "1447395108",
+      "total_usd": 73848.66,
+      "payment_count": 175,
+      "companies": 28
+    },
+    {
+      "name": "SCHWAGER, VERNE ARCHIBALD",
+      "npi": "1194845131",
+      "total_usd": 4176.98,
+      "payment_count": 79,
+      "companies": 16
+    },
+    {
+      "name": "NATALE, JOHN JOSEPH",
+      "npi": "1083627897",
+      "total_usd": 3949.3,
+      "payment_count": 2,
+      "companies": 1
+    },
+    {
+      "name": "DIACONESCU, ELIZA nan",
+      "npi": "1881655140",
+      "total_usd": 2178.47,
+      "payment_count": 197,
+      "companies": 28
+    },
+    {
+      "name": "RUDIN, ANDREW SCOTT",
+      "npi": "1255373452",
+      "total_usd": 1414.16,
+      "payment_count": 68,
+      "companies": 18
+    },
+    {
+      "name": "MEMAR, OMEED nan",
+      "npi": "1538200308",
+      "total_usd": 1059.08,
+      "payment_count": 3,
+      "companies": 2
+    },
+    {
+      "name": "DEMOREST, STANLEY DAVID",
+      "npi": "1982769071",
+      "total_usd": 839.1,
+      "payment_count": 42,
+      "companies": 16
+    },
+    {
+      "name": "JOSEPH, FRANCIS F",
+      "npi": "1790706745",
+      "total_usd": 788.99,
+      "payment_count": 48,
+      "companies": 20
+    },
+    {
+      "name": "ANUKWU, LINUS UCHECHUKWU",
+      "npi": "1144242090",
+      "total_usd": 775.31,
+      "payment_count": 32,
+      "companies": 12
+    }
+  ]
+}

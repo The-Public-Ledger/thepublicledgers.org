@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "state_abbr": "NV",
+    "state_name": "Nevada",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 28,
+    "physician_population": 9138,
+    "per_1000_physicians": 3.064,
+    "double_flagged": 9,
+    "industry_payments_usd": 16433.78
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 9
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 8
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 5
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 3
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 2
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 9
+    },
+    {
+      "from_state": "SC",
+      "from_name": "South Carolina",
+      "count": 1
+    },
+    {
+      "from_state": "MI",
+      "from_name": "Michigan",
+      "count": 1
+    },
+    {
+      "from_state": "MN",
+      "from_name": "Minnesota",
+      "count": 1
+    },
+    {
+      "from_state": "NY",
+      "from_name": "New York",
+      "count": 1
+    },
+    {
+      "from_state": "OR",
+      "from_name": "Oregon",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 6
+    },
+    {
+      "to_state": "PR",
+      "to_name": "Puerto Rico",
+      "count": 1
+    },
+    {
+      "to_state": "MT",
+      "to_name": "Montana",
+      "count": 1
+    },
+    {
+      "to_state": "OH",
+      "to_name": "Ohio",
+      "count": 1
+    },
+    {
+      "to_state": "HI",
+      "to_name": "Hawaii",
+      "count": 1
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "KESTEN, JEFFREY nan",
+      "npi": "1124107909",
+      "score": 84.2,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2022-10-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "ARCOTTA, KAREN FRANCES",
+      "npi": "1649269986",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-06-19",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "MATH, ERIC M",
+      "npi": "1053384552",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-06-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "RAND, ROBERT GENE",
+      "npi": "1063436517",
+      "score": 74.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2018-04-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "MURRAY, CONRAD ROBERT",
+      "npi": "1730137340",
+      "score": 71.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2012-06-20",
+      "specialty": "CARDIOLOGY"
+    },
+    {
+      "name": "ACOSTA, EMMANUEL G",
+      "npi": "1851316830",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2016-10-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "GUERRA, HORACE PAUL",
+      "npi": "1376643296",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2019-07-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "HOLPER, STEVEN A",
+      "npi": "1477504157",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2020-03-19",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "PATEL, DEVENDRA I",
+      "npi": "1871658310",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2020-03-19",
+      "specialty": "CARDIOLOGY"
+    },
+    {
+      "name": "WILCOX, SIMMON L",
+      "npi": "1205890027",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2016-11-20",
+      "specialty": "SURGERY"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "OKEKE, MATTHEW OBI",
+      "npi": "1730272709",
+      "total_usd": 5954.13,
+      "payment_count": 141,
+      "companies": 22
+    },
+    {
+      "name": "CHEN, EUGENE Y",
+      "npi": "1811987845",
+      "total_usd": 4581.96,
+      "payment_count": 31,
+      "companies": 4
+    },
+    {
+      "name": "HARRIS, JAMES B",
+      "npi": "1104862366",
+      "total_usd": 2093.62,
+      "payment_count": 16,
+      "companies": 12
+    },
+    {
+      "name": "BRUCE, VICTOR nan",
+      "npi": "1134139884",
+      "total_usd": 1754.64,
+      "payment_count": 43,
+      "companies": 13
+    },
+    {
+      "name": "MURRAY, CONRAD ROBERT",
+      "npi": "1730137340",
+      "total_usd": 768.67,
+      "payment_count": 7,
+      "companies": 4
+    },
+    {
+      "name": "WELCH, ANDREW JACKSON",
+      "npi": "1518907435",
+      "total_usd": 543.8,
+      "payment_count": 6,
+      "companies": 4
+    },
+    {
+      "name": "ARCOTTA, KAREN FRANCES",
+      "npi": "1649269986",
+      "total_usd": 264.76,
+      "payment_count": 11,
+      "companies": 7
+    },
+    {
+      "name": "BARARIA, VINAY KUNAR",
+      "npi": "1679679096",
+      "total_usd": 261.13,
+      "payment_count": 6,
+      "companies": 4
+    },
+    {
+      "name": "HOLPER, STEVEN A",
+      "npi": "1477504157",
+      "total_usd": 51.85,
+      "payment_count": 4,
+      "companies": 2
+    },
+    {
+      "name": "VON FELDMANN, DIETRICH nan",
+      "npi": "1346354917",
+      "total_usd": 41.9,
+      "payment_count": 2,
+      "companies": 2
+    }
+  ]
+}

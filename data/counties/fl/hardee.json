@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "FL",
+    "state_name": "Florida",
+    "county": "Hardee",
+    "county_slug": "hardee",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 1.55,
+    "total_exemptions_usd": 212500.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 21.6,
+    "total_beneficiaries": 2,
+    "num_donor_beneficiaries": 0,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 2,
+    "warn_workers_affected": 0,
+    "warn_notices": 0
+  },
+  "benchmarks": {
+    "state_rank": 60,
+    "state_total_counties": 78,
+    "state_percentile": 23,
+    "state_median_subsidy_usd": 8033000.0,
+    "state_median_donor_rate": 28.09,
+    "state_median_cost_per_hh": 96.46,
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Hardee County ranks 60th out of 78 Florida counties for total tax exemptions, with $212K in property tax breaks — below the state median. The per-household cost of these subsidies is $22.",
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

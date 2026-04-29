@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Genesee",
+    "county_slug": "genesee",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 46.17,
+    "total_exemptions_usd": 70822165.31,
+    "net_exemptions_usd": 51819894.67,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 128,
+    "num_donor_beneficiaries": 24,
+    "donor_rate_pct": 18.75,
+    "total_donations_usd": 191308.0,
+    "jobs_promised": 16237,
+    "jobs_current": 20339,
+    "total_projects": 611,
+    "num_officials_receiving": 12,
+    "official_total_received_usd": 77970.0,
+    "num_pipelines": 19
+  },
+  "benchmarks": {
+    "state_rank": 38,
+    "state_total_counties": 104,
+    "state_percentile": 63,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Genesee County ranks 38th out of 104 New York counties for total tax exemptions, with $70.8M in property tax breaks — above the state median. 19% of subsidy recipients donated to local officials.",
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

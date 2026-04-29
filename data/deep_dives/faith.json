@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": "Faith & Public Services",
+    "slug": "faith",
+    "status": "active",
+    "last_updated": "2026-04-13",
+    "sources": [
+      "CMS Provider of Services File (hospital classification)",
+      "CMS Hospital Cost Reports (HCRIS, 2022\u20132024)",
+      "USASpending.gov (federal grants 2015\u20132026, CFDA 93.217/93.600/10.557/93.566)",
+      "NY SPARCS Hospital Inpatient Discharges (2024)",
+      "Senate LDA API (federal lobbying filings 2017\u20132025)",
+      "FEC Individual Contributions (2020/2022/2024 cycles)",
+      "NY JCOPE Lobbying (2011\u20132025)",
+      "NY SBOE Campaign Finance (12.5M records)",
+      "IRS EFILE XML (Form 990 Part VII, FY2023)",
+      "HHS Head Start Service Locations (public S3)"
+    ]
+  },
+  "key_stats": {
+    "lobbying_total_usd": 35234037.0,
+    "fec_records": 95259,
+    "desert_counties": 63,
+    "desert_residents": 3073802,
+    "public_funding_usd": 34541616765,
+    "federal_grants_usd": 4870730306,
+    "double_capture_counties": 50,
+    "tubal_ligation_gap_pct": 46.8,
+    "ny_lobbying_records": 162,
+    "ny_lobbying_con_filings": 54
+  },
+  "top_findings": [
+    "Religious hospitals receive $34.5B annually in Medicare and Medicaid as the sole emergency room provider in 63 counties across 25 states (68 total including 5 hospital-only counties), covering 3,073,802 residents",
+    "In 50 of those 68 desert counties (ER-only + hospital-only), the same religious organization (or its affiliate) also receives federal social service funding \u2014 creating a 'double capture' of public health infrastructure",
+    "Religious organizations received $4.9B in direct federal grants (2015\u20132026), led by Catholic Charities' $3.9B for refugee resettlement, housing, and Head Start",
+    "Federal lobbying by major religious health systems: $35.2M across 996 filings (2017\u20132025); top spenders include Ascension Health ($16.4M), CHA ($6.9M), and Trinity Health ($6.7M)",
+    "New York SPARCS billing data confirms restriction: Catholic hospitals document zero tubal ligations in 47 percentage points more cases than secular peers (75% religious zero vs 28.2% secular) \u2014 even at hospitals performing 800+ C-sections annually",
+    "In Erie County, NY: Catholic Health closed Kenmore Mercy Hospital (2021); Sisters of Charity Hospital (Catholic) is now the nearest ER for Kenmore and North Tonawanda \u2014 while Mercy Hospital of Buffalo remains open; both Catholic Health hospitals document zero tubal ligations (Sisters of Charity: 863 C-sections, 0 tubal ligations; Mercy Hospital: 622 C-sections, 0 tubal ligations); affiliate Catholic Charities administers WIC for the region ($66.2M cumulative)",
+    "IRS Form 990 XML confirms: Bishop Fisher is named Chairman of Catholic Charities of Buffalo; Monsignor Zapfel (diocesan representative) sits on the Catholic Health System board \u2014 a single episcopal authority governs both the WIC program and the hospital system"
+  ]
+}

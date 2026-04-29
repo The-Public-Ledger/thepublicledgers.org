@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Madison",
+    "county_slug": "madison",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 56.5,
+    "total_exemptions_usd": 10370054.28,
+    "net_exemptions_usd": 7321224.15,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 23,
+    "num_donor_beneficiaries": 10,
+    "donor_rate_pct": 43.48,
+    "total_donations_usd": 16480.16,
+    "jobs_promised": 3945,
+    "jobs_current": 3822,
+    "total_projects": 114,
+    "num_officials_receiving": 1,
+    "official_total_received_usd": 670.0,
+    "num_pipelines": 2
+  },
+  "benchmarks": {
+    "state_rank": 82,
+    "state_total_counties": 104,
+    "state_percentile": 21,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Madison County ranks 82nd out of 104 New York counties for total tax exemptions, with $10.4M in property tax breaks — below the state median. 43% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

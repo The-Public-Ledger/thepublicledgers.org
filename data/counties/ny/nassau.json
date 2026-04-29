@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Nassau",
+    "county_slug": "nassau",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 57.43,
+    "total_exemptions_usd": 1011492827.3,
+    "net_exemptions_usd": 574651995.75,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 225,
+    "num_donor_beneficiaries": 69,
+    "donor_rate_pct": 30.67,
+    "total_donations_usd": 902321.14,
+    "jobs_promised": 159733,
+    "jobs_current": 205224,
+    "total_projects": 1341,
+    "num_officials_receiving": 18,
+    "official_total_received_usd": 357113.31,
+    "num_pipelines": 72
+  },
+  "benchmarks": {
+    "state_rank": 2,
+    "state_total_counties": 104,
+    "state_percentile": 98,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "23.8× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Nassau County ranks 2nd out of 104 New York counties for total tax exemptions, with $1.0B in property tax breaks — 23.8× the state median. 31% of subsidy recipients donated to local officials.",
+    "subsidy_context": "23.8× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

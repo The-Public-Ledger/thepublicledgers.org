@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "state": "WY",
+    "state_name": "Wyoming",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 23,
+      "counties_with_data": 4,
+      "crossref_complete": false,
+      "deals_count": 0,
+      "contributions_matched": 3
+    },
+    "coverage_status": "placeholder"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 7458762.0,
+    "total_beneficiaries": 82,
+    "matched_donors": 3,
+    "pct_beneficiaries_donating": 0.0366,
+    "total_donations_usd": 11350.0
+  },
+  "top_findings": [
+    "3 of 82 subsidized companies (3.7%) made campaign donations — $11,350 total.",
+    "$50 in donations flowed from beneficiaries to 1 political committees. Top recipient: ALBANY DEMOCRATIC PARTY CENTRAL COMMITTEE ($50).",
+    "$7M in total subsidies tracked across 82 beneficiary companies in Wyoming."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 50.0,
+    "num_committees_receiving": 1,
+    "top_committee_name": "ALBANY DEMOCRATIC PARTY CENTRAL COMMITTEE",
+    "top_committee_amount": 50.0,
+    "top_committee_pct": 0.16
+  },
+  "counties": [
+    {
+      "name": "Albany",
+      "slug": "albany",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "56001"
+    },
+    {
+      "name": "Goshen",
+      "slug": "goshen",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "56015"
+    },
+    {
+      "name": "Hot Springs",
+      "slug": "hot-springs",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "56017"
+    },
+    {
+      "name": "Park",
+      "slug": "park",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "56029"
+    }
+  ]
+}

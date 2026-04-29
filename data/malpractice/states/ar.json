@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "state_abbr": "AR",
+    "state_name": "Arkansas",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 13,
+    "physician_population": 8935,
+    "per_1000_physicians": 1.455,
+    "double_flagged": 2,
+    "industry_payments_usd": 780525.5899999999
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 5
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 3
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 3
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 2
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 3
+    },
+    {
+      "from_state": "LA",
+      "from_name": "Louisiana",
+      "count": 1
+    },
+    {
+      "from_state": "KS",
+      "from_name": "Kansas",
+      "count": 1
+    },
+    {
+      "from_state": "NM",
+      "from_name": "New Mexico",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "AL",
+      "to_name": "Alabama",
+      "count": 3
+    },
+    {
+      "to_state": "TN",
+      "to_name": "Tennessee",
+      "count": 2
+    },
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
+      "count": 2
+    },
+    {
+      "to_state": "AK",
+      "to_name": "Alaska",
+      "count": 1
+    },
+    {
+      "to_state": "KY",
+      "to_name": "Kentucky",
+      "count": 1
+    },
+    {
+      "to_state": "VA",
+      "to_name": "Virginia",
+      "count": 1
+    },
+    {
+      "to_state": "IN",
+      "to_name": "Indiana",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "LEVY, ROBERT MORRIS",
+      "npi": "1235150749",
+      "score": 75.2,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2021-04-20",
+      "specialty": "PATHOLOGY"
+    },
+    {
+      "name": "PARKER, L JOSEPH",
+      "npi": "1174566574",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-04-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "COX, ROBIN A",
+      "npi": "1265413629",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2022-01-19",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "GABY, CECIL WALTER",
+      "npi": "1578514816",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-10-20",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "MAASS, ADAM J",
+      "npi": "1841258738",
+      "score": 70.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2025-10-20",
+      "specialty": "ENDOCRINOLOGY"
+    },
+    {
+      "name": "JOHNS, RICHARD D",
+      "npi": "1144214578",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2018-10-18",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "BARROW, ROBERT L",
+      "npi": "1770551665",
+      "score": 65.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2016-12-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "CHAN, PATRICK DOORSHANG",
+      "npi": "1588652275",
+      "score": 63.2,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2008-09-18",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "ROSENSCHEIN, GUY RAOUL",
+      "npi": "1114931029",
+      "score": 59.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2017-06-20",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "BECTON, PAUL nan",
+      "npi": "1760587398",
+      "score": 56.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2015-08-20",
+      "specialty": "GYN/OBS"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "MAASS, ADAM J",
+      "npi": "1841258738",
+      "total_usd": 772017.97,
+      "payment_count": 1629,
+      "companies": 40
+    },
+    {
+      "name": "CHAN, PATRICK DOORSHANG",
+      "npi": "1588652275",
+      "total_usd": 8208.84,
+      "payment_count": 4,
+      "companies": 1
+    },
+    {
+      "name": "AHMAD, MAHMOOD nan",
+      "npi": "1831145929",
+      "total_usd": 120.25,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "ANTOON, PATRICK DAVID",
+      "npi": "1891090262",
+      "total_usd": 118.08,
+      "payment_count": 8,
+      "companies": 4
+    },
+    {
+      "name": "PARKER, L JOSEPH",
+      "npi": "1174566574",
+      "total_usd": 60.45,
+      "payment_count": 4,
+      "companies": 3
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "state_abbr": "OH",
+    "state_name": "Ohio",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 120,
+    "physician_population": 48019,
+    "per_1000_physicians": 2.499,
+    "double_flagged": 15,
+    "industry_payments_usd": 728268.0800000002
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 42
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 36
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 24
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 7
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 4
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 4
+    },
+    {
+      "code": "1128b3",
+      "label": "1128b3",
+      "count": 2
+    },
+    {
+      "code": "1128b5",
+      "label": "Federal/State Program Exclusion",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 9
+    },
+    {
+      "from_state": "KY",
+      "from_name": "Kentucky",
+      "count": 8
+    },
+    {
+      "from_state": "WV",
+      "from_name": "West Virginia",
+      "count": 7
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 3
+    },
+    {
+      "from_state": "AL",
+      "from_name": "Alabama",
+      "count": 2
+    },
+    {
+      "from_state": "AZ",
+      "from_name": "Arizona",
+      "count": 2
+    },
+    {
+      "from_state": "OK",
+      "from_name": "Oklahoma",
+      "count": 1
+    },
+    {
+      "from_state": "MI",
+      "from_name": "Michigan",
+      "count": 1
+    },
+    {
+      "from_state": "MD",
+      "from_name": "Maryland",
+      "count": 1
+    },
+    {
+      "from_state": "NV",
+      "from_name": "Nevada",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "KY",
+      "to_name": "Kentucky",
+      "count": 4
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 3
+    },
+    {
+      "to_state": "WV",
+      "to_name": "West Virginia",
+      "count": 2
+    },
+    {
+      "to_state": "VA",
+      "to_name": "Virginia",
+      "count": 1
+    },
+    {
+      "to_state": "CT",
+      "to_name": "Connecticut",
+      "count": 1
+    },
+    {
+      "to_state": "AL",
+      "to_name": "Alabama",
+      "count": 1
+    },
+    {
+      "to_state": "PA",
+      "to_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 1
+    },
+    {
+      "to_state": "SC",
+      "to_name": "South Carolina",
+      "count": 1
+    },
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "NICKELS, JOHN HARVEY",
+      "npi": "1629181490",
+      "score": 89.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2020-02-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "GETACHEW, ESKENDER nan",
+      "npi": "1033177571",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-10-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "HEINEY, JAKE P",
+      "npi": "1215081773",
+      "score": 74.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2017-04-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "ROMANO, THOMAS JAMES",
+      "npi": "1902136443",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-11-20",
+      "specialty": "RHEUMATOLOGY"
+    },
+    {
+      "name": "ROSENFIELD, JONATHAN nan",
+      "npi": "1851655625",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-05-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "FRANTZ, GARY JAMES",
+      "npi": "1073510855",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2022-11-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "MAKHDOMI, ABIDA T",
+      "npi": "1497770622",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-01-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "MUKHDOMI, GULAM nan",
+      "npi": "1184653214",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-01-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "GRONBECK, DONALD ALEXANDER",
+      "npi": "1235366709",
+      "score": 70.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2025-12-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "KOOSHKABADI, ALI nan",
+      "npi": "1306078183",
+      "score": 70.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-11-20",
+      "specialty": "NEUROLOGY"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "MIN, DENNIS nan",
+      "npi": "1104808518",
+      "total_usd": 228689.4,
+      "payment_count": 718,
+      "companies": 30
+    },
+    {
+      "name": "FLEMING, JAMES E",
+      "npi": "1952326159",
+      "total_usd": 122298.97,
+      "payment_count": 320,
+      "companies": 20
+    },
+    {
+      "name": "RAHMAN, MAHMOOD nan",
+      "npi": "1548248297",
+      "total_usd": 82938.36,
+      "payment_count": 674,
+      "companies": 18
+    },
+    {
+      "name": "GRAWE, KATHARINE ROXANNE",
+      "npi": "1801014238",
+      "total_usd": 79501.53,
+      "payment_count": 38,
+      "companies": 4
+    },
+    {
+      "name": "DESHPANDE, KEDAR KRISHNA",
+      "npi": "1801891007",
+      "total_usd": 37869.99,
+      "payment_count": 343,
+      "companies": 33
+    },
+    {
+      "name": "HENRY, JIMMY M",
+      "npi": "1548483670",
+      "total_usd": 28601.81,
+      "payment_count": 590,
+      "companies": 50
+    },
+    {
+      "name": "PAOLONE, VINCENT nan",
+      "npi": "1619069739",
+      "total_usd": 24659.09,
+      "payment_count": 434,
+      "companies": 34
+    },
+    {
+      "name": "MANN, JAMES ARTHUR",
+      "npi": "1639581473",
+      "total_usd": 20282.09,
+      "payment_count": 142,
+      "companies": 15
+    },
+    {
+      "name": "FRANZESE, JOSEPH nan",
+      "npi": "1093002586",
+      "total_usd": 18572.4,
+      "payment_count": 54,
+      "companies": 23
+    },
+    {
+      "name": "BAUER, WILLIAM R",
+      "npi": "1316931942",
+      "total_usd": 12947.0,
+      "payment_count": 352,
+      "companies": 46
+    }
+  ]
+}

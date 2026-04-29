@@ -1,0 +1,107 @@
+{
+  "state": "ID",
+  "facilities": 3352,
+  "water_systems": 2021,
+  "total_violations": 33547,
+  "health_violations": 4462,
+  "total_penalties": 13205679.0,
+  "avg_penalty": 3939.64,
+  "violation_rate": 0.474,
+  "enforcement_gap_score": 2.0261,
+  "serious_violators": 58,
+  "tri_facilities": 40,
+  "tri_releases_lbs": 288955688.0,
+  "top_counties": [
+    {
+      "fips": "16057",
+      "name": "LATAH",
+      "facilities": 35,
+      "total_violations": 7,
+      "health_violations": 6,
+      "total_penalties": 6425.0,
+      "enforcement_gap_score": 0.169
+    },
+    {
+      "fips": "16043",
+      "name": "FREMONT",
+      "facilities": 56,
+      "total_violations": 9,
+      "health_violations": 124,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1607
+    },
+    {
+      "fips": "16065",
+      "name": "MADISON",
+      "facilities": 24,
+      "total_violations": 4,
+      "health_violations": 23,
+      "total_penalties": 6719.0,
+      "enforcement_gap_score": 0.1302
+    },
+    {
+      "fips": "16061",
+      "name": "LEWIS",
+      "facilities": 10,
+      "total_violations": 5,
+      "health_violations": 0,
+      "total_penalties": 31055.0,
+      "enforcement_gap_score": 0.1218
+    },
+    {
+      "fips": "16049",
+      "name": "IDAHO",
+      "facilities": 47,
+      "total_violations": 7,
+      "health_violations": 32,
+      "total_penalties": 15293.0,
+      "enforcement_gap_score": 0.1124
+    },
+    {
+      "fips": "16041",
+      "name": "FRANKLIN",
+      "facilities": 20,
+      "total_violations": 2,
+      "health_violations": 8,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1
+    },
+    {
+      "fips": "16063",
+      "name": "LINCOLN",
+      "facilities": 10,
+      "total_violations": 1,
+      "health_violations": 1,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1
+    },
+    {
+      "fips": "16035",
+      "name": "CLEARWATER",
+      "facilities": 27,
+      "total_violations": 3,
+      "health_violations": 1,
+      "total_penalties": 3903.0,
+      "enforcement_gap_score": 0.0971
+    },
+    {
+      "fips": "16067",
+      "name": "CASSIA",
+      "facilities": 21,
+      "total_violations": 2,
+      "health_violations": 5,
+      "total_penalties": 5178.0,
+      "enforcement_gap_score": 0.0764
+    },
+    {
+      "fips": "16029",
+      "name": "CARIBOU",
+      "facilities": 25,
+      "total_violations": 2,
+      "health_violations": 7,
+      "total_penalties": 2250.0,
+      "enforcement_gap_score": 0.0734
+    }
+  ],
+  "top_violators": []
+}

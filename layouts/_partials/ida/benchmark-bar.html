@@ -1,0 +1,40 @@
+{{/* benchmark-bar.html — Horizontal comparison bar: county vs state median vs national.
+     Params: .county_value, .county_label, .state_median, .label, .format ("usd"|"pct"|"num") */}}
+
+{{ $cv := .county_value | default 0.0 }}
+{{ $sm := .state_median | default 0.0 }}
+{{ $max := $cv }}
+{{ if gt $sm $max }}{{ $max = $sm }}{{ end }}
+{{ if eq $max 0.0 }}{{ $max = 1.0 }}{{ end }}
+
+{{ $cvPct := printf "%.0f" (mul (div $cv $max) 100) }}
+{{ $smPct := printf "%.0f" (mul (div $sm $max) 100) }}
+
+{{ $fmt := .format | default "usd" }}
+
+<div class="benchmark-bar" aria-label="{{ .label }} comparison">
+  <div class="benchmark-bar__row">
+    <span class="benchmark-bar__label">{{ .county_label | default "This county" }}</span>
+    <div class="benchmark-bar__track">
+      <div class="benchmark-bar__fill benchmark-bar__fill--county" style="width: {{ $cvPct }}%"></div>
+    </div>
+    <span class="benchmark-bar__value">
+      {{ if eq $fmt "usd" }}${{ printf "%.1f" (div $cv 1000000) }}M{{ end }}
+      {{ if eq $fmt "pct" }}{{ printf "%.0f" $cv }}%{{ end }}
+      {{ if eq $fmt "num" }}{{ printf "%.0f" $cv }}{{ end }}
+    </span>
+  </div>
+  {{ if gt $sm 0.0 }}
+  <div class="benchmark-bar__row benchmark-bar__row--median">
+    <span class="benchmark-bar__label">State median</span>
+    <div class="benchmark-bar__track">
+      <div class="benchmark-bar__fill benchmark-bar__fill--median" style="width: {{ $smPct }}%"></div>
+    </div>
+    <span class="benchmark-bar__value">
+      {{ if eq $fmt "usd" }}${{ printf "%.1f" (div $sm 1000000) }}M{{ end }}
+      {{ if eq $fmt "pct" }}{{ printf "%.0f" $sm }}%{{ end }}
+      {{ if eq $fmt "num" }}{{ printf "%.0f" $sm }}{{ end }}
+    </span>
+  </div>
+  {{ end }}
+</div>

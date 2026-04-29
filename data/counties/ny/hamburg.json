@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Hamburg",
+    "county_slug": "hamburg",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 49.22,
+    "total_exemptions_usd": 29350575.68,
+    "net_exemptions_usd": 16748892.18,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 66,
+    "num_donor_beneficiaries": 19,
+    "donor_rate_pct": 28.79,
+    "total_donations_usd": 236189.67,
+    "jobs_promised": 10545,
+    "jobs_current": 18398,
+    "total_projects": 338,
+    "num_officials_receiving": 13,
+    "official_total_received_usd": 96521.6,
+    "num_pipelines": 20
+  },
+  "benchmarks": {
+    "state_rank": 61,
+    "state_total_counties": 104,
+    "state_percentile": 41,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Hamburg County ranks 61st out of 104 New York counties for total tax exemptions, with $29.4M in property tax breaks — below the state median. 29% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

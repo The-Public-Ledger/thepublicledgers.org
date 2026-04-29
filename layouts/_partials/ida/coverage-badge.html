@@ -1,0 +1,4 @@
+{{ $status := .coverage_status }}
+<span class="coverage-badge coverage-badge--{{ $status }}" title="Data coverage status">
+  {{ if eq $status "full" }}Full Coverage{{ else if eq $status "partial" }}Partial Data{{ else }}Coming Soon{{ end }}
+</span>

@@ -1,0 +1,974 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "NYSBOE",
+      "NYABO",
+      "NY DOS",
+      "Census ACS",
+      "EPA ECHO",
+      "FEC",
+      "SEC EDGAR"
+    ],
+    "coverage": {
+      "counties_total": 62,
+      "counties_with_data": 62,
+      "crossref_complete": true,
+      "deals_count": 6446,
+      "contributions_matched": 1504
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 13881010236.419996,
+    "total_beneficiaries": 6446,
+    "total_donations_usd": 27632145.900000002,
+    "pct_beneficiaries_donating": 0.2333,
+    "matched_donors": 1504
+  },
+  "top_findings": [
+    "1,504 of 6,446 subsidized companies (23.3%) made campaign donations — $27.6M total.",
+    "$13.88B in total subsidies tracked across 6,446 beneficiary companies in New York."
+  ],
+  "counsel_conflicts": [],
+  "counties": [
+    {
+      "name": "Geneva",
+      "slug": "geneva",
+      "score": 78.01,
+      "total_exemptions_usd": 31805876.13,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 11,
+      "num_awards": 0
+    },
+    {
+      "name": "Newburgh",
+      "slug": "newburgh",
+      "score": 74.9,
+      "total_exemptions_usd": 11634646.3,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 11,
+      "num_awards": 0
+    },
+    {
+      "name": "Hempstead",
+      "slug": "hempstead",
+      "score": 74.22,
+      "total_exemptions_usd": 666504013.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 115,
+      "num_awards": 0
+    },
+    {
+      "name": "Niagara",
+      "slug": "niagara",
+      "score": 73.5,
+      "total_exemptions_usd": 173290027.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 190,
+      "num_awards": 0
+    },
+    {
+      "name": "Schoharie",
+      "slug": "schoharie",
+      "score": 72.18,
+      "total_exemptions_usd": 71827609.38,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 8,
+      "num_awards": 0
+    },
+    {
+      "name": "Port Jervis",
+      "slug": "port-jervis",
+      "score": 71.82,
+      "total_exemptions_usd": 1030367.77,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 2,
+      "num_awards": 0
+    },
+    {
+      "name": "Ulster",
+      "slug": "ulster",
+      "score": 69.22,
+      "total_exemptions_usd": 59528993.1,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 41,
+      "num_awards": 0
+    },
+    {
+      "name": "Mount Vernon",
+      "slug": "mount-vernon",
+      "score": 68.88,
+      "total_exemptions_usd": 49178659.1,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 24,
+      "num_awards": 0
+    },
+    {
+      "name": "Delaware",
+      "slug": "delaware",
+      "score": 68.16,
+      "total_exemptions_usd": 14267691.41,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 13,
+      "num_awards": 0
+    },
+    {
+      "name": "Wallkill",
+      "slug": "wallkill",
+      "score": 67.06,
+      "total_exemptions_usd": 3085964.29,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 5,
+      "num_awards": 0
+    },
+    {
+      "name": "Cattaraugus",
+      "slug": "cattaraugus",
+      "score": 66.55,
+      "total_exemptions_usd": 78911287.65,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 73,
+      "num_awards": 0
+    },
+    {
+      "name": "Cohoes",
+      "slug": "cohoes",
+      "score": 66.26,
+      "total_exemptions_usd": 27563473.25,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 19,
+      "num_awards": 0
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin",
+      "score": 65.78,
+      "total_exemptions_usd": 50775438.74,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 20,
+      "num_awards": 0
+    },
+    {
+      "name": "Schenectady",
+      "slug": "schenectady",
+      "score": 65.53,
+      "total_exemptions_usd": 82148067.58,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 33,
+      "num_awards": 0
+    },
+    {
+      "name": "Rensselaer",
+      "slug": "rensselaer",
+      "score": 65.34,
+      "total_exemptions_usd": 292907370.1,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 74,
+      "num_awards": 0
+    },
+    {
+      "name": "Seneca",
+      "slug": "seneca",
+      "score": 64.22,
+      "total_exemptions_usd": 40128490.97,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 49,
+      "num_awards": 0
+    },
+    {
+      "name": "Lockport (Town)",
+      "slug": "lockport-town",
+      "score": 63.59,
+      "total_exemptions_usd": 31354404.17,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 22,
+      "num_awards": 0
+    },
+    {
+      "name": "Greene",
+      "slug": "greene",
+      "score": 63.4,
+      "total_exemptions_usd": 221345118.6,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 21,
+      "num_awards": 0
+    },
+    {
+      "name": "Mechanicville-Stillwater",
+      "slug": "mechanicville-stillwater",
+      "score": 61.89,
+      "total_exemptions_usd": 6821074.86,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 5,
+      "num_awards": 0
+    },
+    {
+      "name": "Orange",
+      "slug": "orange",
+      "score": 61.84,
+      "total_exemptions_usd": 174747112.55,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 66,
+      "num_awards": 0
+    },
+    {
+      "name": "Peekskill",
+      "slug": "peekskill",
+      "score": 61.46,
+      "total_exemptions_usd": 32251539.96,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 13,
+      "num_awards": 0
+    },
+    {
+      "name": "Clarence",
+      "slug": "clarence",
+      "score": 61.12,
+      "total_exemptions_usd": 8023895.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 51,
+      "num_awards": 0
+    },
+    {
+      "name": "Schenectady (City)",
+      "slug": "schenectady-city",
+      "score": 60.44,
+      "total_exemptions_usd": 76395287.53,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 40,
+      "num_awards": 0
+    },
+    {
+      "name": "Green Island",
+      "slug": "green-island",
+      "score": 60.15,
+      "total_exemptions_usd": 6782666.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 4,
+      "num_awards": 0
+    },
+    {
+      "name": "Concord",
+      "slug": "concord",
+      "score": 59.13,
+      "total_exemptions_usd": 146915.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 4,
+      "num_awards": 0
+    },
+    {
+      "name": "Erie",
+      "slug": "erie",
+      "score": 58.79,
+      "total_exemptions_usd": 213786203.27,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 237,
+      "num_awards": 0
+    },
+    {
+      "name": "Chautauqua",
+      "slug": "chautauqua",
+      "score": 58.59,
+      "total_exemptions_usd": 169002774.99,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 80,
+      "num_awards": 0
+    },
+    {
+      "name": "Port Chester",
+      "slug": "port-chester",
+      "score": 58.11,
+      "total_exemptions_usd": 30359267.97,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 16,
+      "num_awards": 0
+    },
+    {
+      "name": "Rockland",
+      "slug": "rockland",
+      "score": 58.06,
+      "total_exemptions_usd": 191221362.58,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 72,
+      "num_awards": 0
+    },
+    {
+      "name": "Yonkers",
+      "slug": "yonkers",
+      "score": 57.86,
+      "total_exemptions_usd": 428966725.96,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 113,
+      "num_awards": 0
+    },
+    {
+      "name": "Nassau",
+      "slug": "nassau",
+      "score": 57.43,
+      "total_exemptions_usd": 1011492827.3,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 225,
+      "num_awards": 0
+    },
+    {
+      "name": "Clinton",
+      "slug": "clinton",
+      "score": 57.09,
+      "total_exemptions_usd": 47277285.63,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 32,
+      "num_awards": 0
+    },
+    {
+      "name": "Lancaster",
+      "slug": "lancaster",
+      "score": 57.09,
+      "total_exemptions_usd": 24887118.69,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 65,
+      "num_awards": 0
+    },
+    {
+      "name": "Poughkeepsie",
+      "slug": "poughkeepsie",
+      "score": 56.7,
+      "total_exemptions_usd": 23464173.14,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 12,
+      "num_awards": 0
+    },
+    {
+      "name": "Madison",
+      "slug": "madison",
+      "score": 56.5,
+      "total_exemptions_usd": 10370054.28,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 23,
+      "num_awards": 0
+    },
+    {
+      "name": "Niagara Town",
+      "slug": "niagara-town",
+      "score": 56.48,
+      "total_exemptions_usd": 7822767.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 14,
+      "num_awards": 0
+    },
+    {
+      "name": "Onondaga",
+      "slug": "onondaga",
+      "score": 56.41,
+      "total_exemptions_usd": 158199945.44,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 103,
+      "num_awards": 0
+    },
+    {
+      "name": "Fulton",
+      "slug": "fulton",
+      "score": 55.07,
+      "total_exemptions_usd": 9591614.4,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 9,
+      "num_awards": 0
+    },
+    {
+      "name": "Albany",
+      "slug": "albany",
+      "score": 55.0,
+      "total_exemptions_usd": 22055346.86,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 20,
+      "num_awards": 0
+    },
+    {
+      "name": "Livingston",
+      "slug": "livingston",
+      "score": 54.81,
+      "total_exemptions_usd": 49172574.23,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 54,
+      "num_awards": 0
+    },
+    {
+      "name": "New York (City)",
+      "slug": "new-york-city",
+      "score": 54.42,
+      "total_exemptions_usd": 3669954495.14,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 484,
+      "num_awards": 0
+    },
+    {
+      "name": "Islip",
+      "slug": "islip",
+      "score": 54.17,
+      "total_exemptions_usd": 366258440.66,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 206,
+      "num_awards": 0
+    },
+    {
+      "name": "Ontario",
+      "slug": "ontario",
+      "score": 53.25,
+      "total_exemptions_usd": 95509483.17,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 76,
+      "num_awards": 0
+    },
+    {
+      "name": "Oswego",
+      "slug": "oswego",
+      "score": 53.2,
+      "total_exemptions_usd": 303401479.7,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 102,
+      "num_awards": 0
+    },
+    {
+      "name": "Broome",
+      "slug": "broome",
+      "score": 53.11,
+      "total_exemptions_usd": 141894363.6,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 85,
+      "num_awards": 0
+    },
+    {
+      "name": "Wyoming",
+      "slug": "wyoming",
+      "score": 52.91,
+      "total_exemptions_usd": 125655843.62,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 52,
+      "num_awards": 0
+    },
+    {
+      "name": "Auburn",
+      "slug": "auburn",
+      "score": 52.62,
+      "total_exemptions_usd": 26123919.32,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 26,
+      "num_awards": 0
+    },
+    {
+      "name": "Dutchess",
+      "slug": "dutchess",
+      "score": 52.33,
+      "total_exemptions_usd": 419817582.4,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 57,
+      "num_awards": 0
+    },
+    {
+      "name": "Riverhead",
+      "slug": "riverhead",
+      "score": 52.28,
+      "total_exemptions_usd": 45800715.96,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 43,
+      "num_awards": 0
+    },
+    {
+      "name": "Schuyler",
+      "slug": "schuyler",
+      "score": 52.28,
+      "total_exemptions_usd": 11181893.17,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 37,
+      "num_awards": 0
+    },
+    {
+      "name": "Steuben",
+      "slug": "steuben",
+      "score": 52.18,
+      "total_exemptions_usd": 174263916.98,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 68,
+      "num_awards": 0
+    },
+    {
+      "name": "Mount Pleasant",
+      "slug": "mount-pleasant",
+      "score": 52.14,
+      "total_exemptions_usd": 65516644.77,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 16,
+      "num_awards": 0
+    },
+    {
+      "name": "Brookhaven",
+      "slug": "brookhaven",
+      "score": 51.7,
+      "total_exemptions_usd": 328122524.5,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 159,
+      "num_awards": 0
+    },
+    {
+      "name": "Suffolk",
+      "slug": "suffolk",
+      "score": 51.36,
+      "total_exemptions_usd": 273768543.57,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 176,
+      "num_awards": 0
+    },
+    {
+      "name": "Babylon",
+      "slug": "babylon",
+      "score": 51.21,
+      "total_exemptions_usd": 294098128.5,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 229,
+      "num_awards": 0
+    },
+    {
+      "name": "Middletown",
+      "slug": "middletown",
+      "score": 50.56,
+      "total_exemptions_usd": 7365166.66,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 7,
+      "num_awards": 0
+    },
+    {
+      "name": "Dunkirk",
+      "slug": "dunkirk",
+      "score": 50.02,
+      "total_exemptions_usd": 1892347.14,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 5,
+      "num_awards": 0
+    },
+    {
+      "name": "Essex",
+      "slug": "essex",
+      "score": 49.9,
+      "total_exemptions_usd": 15410660.96,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 16,
+      "num_awards": 0
+    },
+    {
+      "name": "Otsego",
+      "slug": "otsego",
+      "score": 49.51,
+      "total_exemptions_usd": 13281193.96,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 16,
+      "num_awards": 0
+    },
+    {
+      "name": "Oneida",
+      "slug": "oneida",
+      "score": 49.42,
+      "total_exemptions_usd": 139650685.57,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 137,
+      "num_awards": 0
+    },
+    {
+      "name": "Tioga",
+      "slug": "tioga",
+      "score": 49.37,
+      "total_exemptions_usd": 104351993.14,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 23,
+      "num_awards": 0
+    },
+    {
+      "name": "Hamburg",
+      "slug": "hamburg",
+      "score": 49.22,
+      "total_exemptions_usd": 29350575.68,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 66,
+      "num_awards": 0
+    },
+    {
+      "name": "Syracuse",
+      "slug": "syracuse",
+      "score": 48.69,
+      "total_exemptions_usd": 232367900.5,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 96,
+      "num_awards": 0
+    },
+    {
+      "name": "Saratoga",
+      "slug": "saratoga",
+      "score": 46.94,
+      "total_exemptions_usd": 119251999.81,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 59,
+      "num_awards": 0
+    },
+    {
+      "name": "Herkimer",
+      "slug": "herkimer",
+      "score": 46.65,
+      "total_exemptions_usd": 47064060.54,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 53,
+      "num_awards": 0
+    },
+    {
+      "name": "Colonie",
+      "slug": "colonie",
+      "score": 46.46,
+      "total_exemptions_usd": 16509160.99,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 17,
+      "num_awards": 0
+    },
+    {
+      "name": "Jefferson",
+      "slug": "jefferson",
+      "score": 46.46,
+      "total_exemptions_usd": 27692254.69,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 51,
+      "num_awards": 0
+    },
+    {
+      "name": "Genesee",
+      "slug": "genesee",
+      "score": 46.17,
+      "total_exemptions_usd": 70822165.31,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 128,
+      "num_awards": 0
+    },
+    {
+      "name": "Columbia",
+      "slug": "columbia",
+      "score": 45.92,
+      "total_exemptions_usd": 2435137.16,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 8,
+      "num_awards": 0
+    },
+    {
+      "name": "Westchester",
+      "slug": "westchester",
+      "score": 45.44,
+      "total_exemptions_usd": 358038781.04,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 98,
+      "num_awards": 0
+    },
+    {
+      "name": "Bethlehem",
+      "slug": "bethlehem",
+      "score": 45.34,
+      "total_exemptions_usd": 29797960.41,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 16,
+      "num_awards": 0
+    },
+    {
+      "name": "Putnam",
+      "slug": "putnam",
+      "score": 45.0,
+      "total_exemptions_usd": 8426147.66,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 13,
+      "num_awards": 0
+    },
+    {
+      "name": "Troy Industrial Development Authority",
+      "slug": "troy-industrial-development-authority",
+      "score": 44.47,
+      "total_exemptions_usd": 56066733.08,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 53,
+      "num_awards": 0
+    },
+    {
+      "name": "Yates",
+      "slug": "yates",
+      "score": 43.3,
+      "total_exemptions_usd": 28610930.32,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 56,
+      "num_awards": 0
+    },
+    {
+      "name": "Orleans",
+      "slug": "orleans",
+      "score": 41.5,
+      "total_exemptions_usd": 18510278.84,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 28,
+      "num_awards": 0
+    },
+    {
+      "name": "Chemung",
+      "slug": "chemung",
+      "score": 41.17,
+      "total_exemptions_usd": 66743993.97,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 75,
+      "num_awards": 0
+    },
+    {
+      "name": "Lewis",
+      "slug": "lewis",
+      "score": 41.02,
+      "total_exemptions_usd": 42448554.03,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 24,
+      "num_awards": 0
+    },
+    {
+      "name": "Sullivan",
+      "slug": "sullivan",
+      "score": 40.83,
+      "total_exemptions_usd": 145154583.78,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 106,
+      "num_awards": 0
+    },
+    {
+      "name": "Hornell",
+      "slug": "hornell",
+      "score": 39.71,
+      "total_exemptions_usd": 11809538.32,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 20,
+      "num_awards": 0
+    },
+    {
+      "name": "Montgomery",
+      "slug": "montgomery",
+      "score": 39.22,
+      "total_exemptions_usd": 45259459.22,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 13,
+      "num_awards": 0
+    },
+    {
+      "name": "Montgomery (Town)",
+      "slug": "montgomery-town",
+      "score": 38.74,
+      "total_exemptions_usd": 27981416.57,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 11,
+      "num_awards": 0
+    },
+    {
+      "name": "Clifton Park",
+      "slug": "clifton-park",
+      "score": 37.96,
+      "total_exemptions_usd": 5887283.52,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 21,
+      "num_awards": 0
+    },
+    {
+      "name": "Albany (City)",
+      "slug": "albany-city",
+      "score": 37.62,
+      "total_exemptions_usd": 139923158.53,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 121,
+      "num_awards": 0
+    },
+    {
+      "name": "Monroe",
+      "slug": "monroe",
+      "score": 37.23,
+      "total_exemptions_usd": 390577814.28,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 670,
+      "num_awards": 0
+    },
+    {
+      "name": "Warren And Washington Counties",
+      "slug": "warren-and-washington-counties",
+      "score": 37.18,
+      "total_exemptions_usd": 37182073.37,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 44,
+      "num_awards": 0
+    },
+    {
+      "name": "Hudson",
+      "slug": "hudson",
+      "score": 36.87,
+      "total_exemptions_usd": 2768478.35,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 5,
+      "num_awards": 0
+    },
+    {
+      "name": "Cortland",
+      "slug": "cortland",
+      "score": 36.6,
+      "total_exemptions_usd": 12626678.84,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 22,
+      "num_awards": 0
+    },
+    {
+      "name": "Chenango",
+      "slug": "chenango",
+      "score": 36.46,
+      "total_exemptions_usd": 12448193.1,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 16,
+      "num_awards": 0
+    },
+    {
+      "name": "Cayuga",
+      "slug": "cayuga",
+      "score": 35.41,
+      "total_exemptions_usd": 18217932.52,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 26,
+      "num_awards": 0
+    },
+    {
+      "name": "Rensselaer (City)",
+      "slug": "rensselaer-city",
+      "score": 35.32,
+      "total_exemptions_usd": 8515034.51,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 7,
+      "num_awards": 0
+    },
+    {
+      "name": "Amherst",
+      "slug": "amherst",
+      "score": 34.61,
+      "total_exemptions_usd": 64683619.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 98,
+      "num_awards": 0
+    },
+    {
+      "name": "Salamanca",
+      "slug": "salamanca",
+      "score": 33.23,
+      "total_exemptions_usd": 86819.59,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 2,
+      "num_awards": 0
+    },
+    {
+      "name": "Amsterdam",
+      "slug": "amsterdam",
+      "score": 32.4,
+      "total_exemptions_usd": 3462936.35,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 12,
+      "num_awards": 0
+    },
+    {
+      "name": "St. Lawrence",
+      "slug": "st-lawrence",
+      "score": 31.84,
+      "total_exemptions_usd": 13854417.15,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 64,
+      "num_awards": 0
+    },
+    {
+      "name": "New Rochelle",
+      "slug": "new-rochelle",
+      "score": 31.24,
+      "total_exemptions_usd": 231273587.15,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 56,
+      "num_awards": 0
+    },
+    {
+      "name": "Guilderland",
+      "slug": "guilderland",
+      "score": 30.85,
+      "total_exemptions_usd": 4233546.48,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 9,
+      "num_awards": 0
+    },
+    {
+      "name": "Fairport",
+      "slug": "fairport",
+      "score": 29.27,
+      "total_exemptions_usd": 8111477.41,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 9,
+      "num_awards": 0
+    },
+    {
+      "name": "Glen Cove",
+      "slug": "glen-cove",
+      "score": 28.08,
+      "total_exemptions_usd": 129898051.81,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 15,
+      "num_awards": 0
+    },
+    {
+      "name": "Allegany",
+      "slug": "allegany",
+      "score": 27.57,
+      "total_exemptions_usd": 9190364.29,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 30,
+      "num_awards": 0
+    },
+    {
+      "name": "Wayne",
+      "slug": "wayne",
+      "score": 27.43,
+      "total_exemptions_usd": 31963827.19,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 68,
+      "num_awards": 0
+    },
+    {
+      "name": "Tompkins",
+      "slug": "tompkins",
+      "score": 25.34,
+      "total_exemptions_usd": 85389884.73,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 77,
+      "num_awards": 0
+    },
+    {
+      "name": "Utica (City)",
+      "slug": "utica-city",
+      "score": 23.16,
+      "total_exemptions_usd": 46901246.88,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 61,
+      "num_awards": 0
+    },
+    {
+      "name": "Glens Falls",
+      "slug": "glens-falls",
+      "score": 18.37,
+      "total_exemptions_usd": 6026125.78,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 11,
+      "num_awards": 0
+    },
+    {
+      "name": "North Greenbush",
+      "slug": "north-greenbush",
+      "score": 7.11,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 2,
+      "num_awards": 0
+    }
+  ]
+}

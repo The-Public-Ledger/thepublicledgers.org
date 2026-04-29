@@ -1,0 +1,162 @@
+{
+  "generated": "2026-03-27",
+  "total_hub_entities": 107610,
+  "indexed_entities": 1502,
+  "min_sources": 2,
+  "max_score": 13,
+  "avg_score": 3.6,
+  "entities_by_category": {
+    "money": 663,
+    "patients": 417,
+    "environment": 510,
+    "governing": 660
+  },
+  "entities_by_type": {
+    "corporate": 1243,
+    "government": 242,
+    "education": 11,
+    "foreign_gov": 6
+  },
+  "top_10": [
+    {
+      "rank": 1,
+      "name": "Amazon",
+      "score": 13,
+      "source_count": 6,
+      "category_count": 3,
+      "categories": [
+        "Pollution & Enforcement",
+        "Governing Pays",
+        "Where did the money go?"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "FedEx",
+      "score": 11,
+      "source_count": 5,
+      "category_count": 3,
+      "categories": [
+        "Pollution & Enforcement",
+        "Governing Pays",
+        "Where did the money go?"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "International Paper Co.",
+      "score": 11,
+      "source_count": 5,
+      "category_count": 3,
+      "categories": [
+        "Pollution & Enforcement",
+        "Governing Pays",
+        "Where did the money go?"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Tractor Supply Company",
+      "score": 11,
+      "source_count": 5,
+      "category_count": 3,
+      "categories": [
+        "Pollution & Enforcement",
+        "Governing Pays",
+        "Where did the money go?"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Cardinal Health",
+      "score": 10,
+      "source_count": 4,
+      "category_count": 3,
+      "categories": [
+        "Pollution & Enforcement",
+        "Governing Pays",
+        "Where did the money go?"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Booz Allen Hamilton Inc.",
+      "score": 9,
+      "source_count": 5,
+      "category_count": 2,
+      "categories": [
+        "Governing Pays",
+        "Where did the money go?"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Air Products and Chemicals, Inc.",
+      "score": 9,
+      "source_count": 4,
+      "category_count": 3,
+      "categories": [
+        "Pollution & Enforcement",
+        "Governing Pays",
+        "Where did the money go?"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Bristol-Myers Squibb Co., Inc.",
+      "score": 9,
+      "source_count": 4,
+      "category_count": 3,
+      "categories": [
+        "Pollution & Enforcement",
+        "Governing Pays",
+        "Where did the money go?"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "General Mills, Inc.",
+      "score": 9,
+      "source_count": 4,
+      "category_count": 3,
+      "categories": [
+        "Pollution & Enforcement",
+        "Governing Pays",
+        "Where did the money go?"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "McKesson Corporation",
+      "score": 9,
+      "source_count": 4,
+      "category_count": 2,
+      "categories": [
+        "Governing Pays",
+        "Where did the money go?"
+      ]
+    }
+  ],
+  "methodology": {
+    "base_score": "1 point per investigation appearance",
+    "category_breadth": "+2 for each investigation category beyond the first",
+    "cross_domain": "+3 if entity spans all 4 categories (money, patients, environment, governing)",
+    "money_weight": "+1 for each money-category investigation appearance",
+    "data_sources": [
+      "ida_ny",
+      "ida_oh",
+      "nursing_home",
+      "charter_school",
+      "faith_hospital",
+      "oge_trade",
+      "fara",
+      "fara_principal",
+      "capitol_trade",
+      "water_epa",
+      "opioid",
+      "hrsa_340b",
+      "opioid_vendor"
+    ],
+    "update_frequency": "Rebuilt when entity hub is refreshed"
+  }
+}

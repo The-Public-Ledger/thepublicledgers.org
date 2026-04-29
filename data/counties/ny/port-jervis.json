@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Port Jervis",
+    "county_slug": "port-jervis",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 71.82,
+    "total_exemptions_usd": 1030367.77,
+    "net_exemptions_usd": 239459.67,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 2,
+    "num_donor_beneficiaries": 1,
+    "donor_rate_pct": 50.0,
+    "total_donations_usd": 500.0,
+    "jobs_promised": 840,
+    "jobs_current": 499,
+    "total_projects": 14,
+    "num_officials_receiving": 0,
+    "official_total_received_usd": 0.0,
+    "num_pipelines": 0
+  },
+  "benchmarks": {
+    "state_rank": 101,
+    "state_total_counties": 104,
+    "state_percentile": 3,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Port Jervis County ranks 101st out of 104 New York counties for total tax exemptions, with $1.0M in property tax breaks — below the state median. 50% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

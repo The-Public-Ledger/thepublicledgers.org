@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Hempstead",
+    "county_slug": "hempstead",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 74.22,
+    "total_exemptions_usd": 666504013.0,
+    "net_exemptions_usd": 373307095.8,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 115,
+    "num_donor_beneficiaries": 50,
+    "donor_rate_pct": 43.48,
+    "total_donations_usd": 1622882.61,
+    "jobs_promised": 89871,
+    "jobs_current": 80046,
+    "total_projects": 605,
+    "num_officials_receiving": 23,
+    "official_total_received_usd": 760885.48,
+    "num_pipelines": 100
+  },
+  "benchmarks": {
+    "state_rank": 3,
+    "state_total_counties": 104,
+    "state_percentile": 97,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "15.7× the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Hempstead County ranks 3rd out of 104 New York counties for total tax exemptions, with $666.5M in property tax breaks — 15.7× the state median. 43% of subsidy recipients donated to local officials.",
+    "subsidy_context": "15.7× the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

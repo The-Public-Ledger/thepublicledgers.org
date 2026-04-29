@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Orange",
+    "county_slug": "orange",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 61.84,
+    "total_exemptions_usd": 174747112.55,
+    "net_exemptions_usd": 101208352.67,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 66,
+    "num_donor_beneficiaries": 17,
+    "donor_rate_pct": 25.76,
+    "total_donations_usd": 133262.0,
+    "jobs_promised": 71512,
+    "jobs_current": 58020,
+    "total_projects": 342,
+    "num_officials_receiving": 7,
+    "official_total_received_usd": 61280.0,
+    "num_pipelines": 11
+  },
+  "benchmarks": {
+    "state_rank": 19,
+    "state_total_counties": 104,
+    "state_percentile": 82,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "4.1× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Orange County ranks 19th out of 104 New York counties for total tax exemptions, with $174.7M in property tax breaks — 4.1× the state median. 26% of subsidy recipients donated to local officials.",
+    "subsidy_context": "4.1× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

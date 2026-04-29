@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Amherst",
+    "county_slug": "amherst",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 34.61,
+    "total_exemptions_usd": 64683619.0,
+    "net_exemptions_usd": 36633281.0,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 98,
+    "num_donor_beneficiaries": 18,
+    "donor_rate_pct": 18.37,
+    "total_donations_usd": 241340.42,
+    "jobs_promised": 60300,
+    "jobs_current": 75012,
+    "total_projects": 451,
+    "num_officials_receiving": 18,
+    "official_total_received_usd": 56672.13,
+    "num_pipelines": 31
+  },
+  "benchmarks": {
+    "state_rank": 41,
+    "state_total_counties": 104,
+    "state_percentile": 61,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Amherst County ranks 41st out of 104 New York counties for total tax exemptions, with $64.7M in property tax breaks — above the state median. 18% of subsidy recipients donated to local officials.",
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

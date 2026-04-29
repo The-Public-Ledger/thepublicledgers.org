@@ -1,0 +1,107 @@
+{
+  "state": "FL",
+  "facilities": 8089,
+  "water_systems": 4941,
+  "total_violations": 45357,
+  "health_violations": 4804,
+  "total_penalties": 26036188.0,
+  "avg_penalty": 3218.72,
+  "violation_rate": 0.4722,
+  "enforcement_gap_score": 1.3291,
+  "serious_violators": 365,
+  "tri_facilities": 380,
+  "tri_releases_lbs": 1188522600.0,
+  "top_counties": [
+    {
+      "fips": "12119",
+      "name": "SUMTER",
+      "facilities": 48,
+      "total_violations": 10,
+      "health_violations": 72,
+      "total_penalties": 11500.0,
+      "enforcement_gap_score": 0.1681
+    },
+    {
+      "fips": "12067",
+      "name": "LAFAYETTE",
+      "facilities": 6,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1667
+    },
+    {
+      "fips": "12087",
+      "name": "MONROE",
+      "facilities": 11,
+      "total_violations": 5,
+      "health_violations": 0,
+      "total_penalties": 29533.0,
+      "enforcement_gap_score": 0.1234
+    },
+    {
+      "fips": "12097",
+      "name": "OSCEOLA",
+      "facilities": 55,
+      "total_violations": 13,
+      "health_violations": 63,
+      "total_penalties": 51326.0,
+      "enforcement_gap_score": 0.1223
+    },
+    {
+      "fips": "12059",
+      "name": "HOLMES",
+      "facilities": 17,
+      "total_violations": 2,
+      "health_violations": 4,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1176
+    },
+    {
+      "fips": "12007",
+      "name": "BRADFORD",
+      "facilities": 18,
+      "total_violations": 3,
+      "health_violations": 0,
+      "total_penalties": 8750.0,
+      "enforcement_gap_score": 0.1121
+    },
+    {
+      "fips": "12077",
+      "name": "LIBERTY",
+      "facilities": 9,
+      "total_violations": 4,
+      "health_violations": 0,
+      "total_penalties": 26925.0,
+      "enforcement_gap_score": 0.1113
+    },
+    {
+      "fips": "12027",
+      "name": "DESOTO",
+      "facilities": 18,
+      "total_violations": 2,
+      "health_violations": 19,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1111
+    },
+    {
+      "fips": "12003",
+      "name": "BAKER",
+      "facilities": 7,
+      "total_violations": 1,
+      "health_violations": 1,
+      "total_penalties": 2000.0,
+      "enforcement_gap_score": 0.1111
+    },
+    {
+      "fips": "12083",
+      "name": "MARION",
+      "facilities": 181,
+      "total_violations": 24,
+      "health_violations": 51,
+      "total_penalties": 45609.0,
+      "enforcement_gap_score": 0.1059
+    }
+  ],
+  "top_violators": []
+}

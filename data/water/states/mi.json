@@ -1,0 +1,116 @@
+{
+  "state": "MI",
+  "facilities": 14869,
+  "water_systems": 10492,
+  "total_violations": 101925,
+  "health_violations": 3501,
+  "total_penalties": 37717177.0,
+  "avg_penalty": 2536.63,
+  "violation_rate": 0.7004,
+  "enforcement_gap_score": 1.9382,
+  "serious_violators": 21,
+  "tri_facilities": 757,
+  "tri_releases_lbs": 1048074856.0,
+  "top_counties": [
+    {
+      "fips": "26109",
+      "name": "MENOMINEE COUNTY",
+      "facilities": 23,
+      "total_violations": 16,
+      "health_violations": 9,
+      "total_penalties": 260.0,
+      "enforcement_gap_score": 0.6879
+    },
+    {
+      "fips": "26069",
+      "name": "IOSCO",
+      "facilities": 22,
+      "total_violations": 12,
+      "health_violations": 5,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5455
+    },
+    {
+      "fips": "26031",
+      "name": "CHEBOYGAN",
+      "facilities": 12,
+      "total_violations": 5,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4167
+    },
+    {
+      "fips": "26061",
+      "name": "HOUGHTON",
+      "facilities": 27,
+      "total_violations": 11,
+      "health_violations": 1,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4074
+    },
+    {
+      "fips": "26013",
+      "name": "BARAGA",
+      "facilities": 7,
+      "total_violations": 2,
+      "health_violations": 9,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2857
+    },
+    {
+      "fips": "26119",
+      "name": "MONTMORENCY COUNTY",
+      "facilities": 7,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2857
+    },
+    {
+      "fips": "26083",
+      "name": "KEWEENAW",
+      "facilities": 4,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.25
+    },
+    {
+      "fips": "26143",
+      "name": "ROSCOMMON",
+      "facilities": 8,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.25
+    },
+    {
+      "fips": "26019",
+      "name": "BENZIE COUNTY",
+      "facilities": 9,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2222
+    },
+    {
+      "fips": "26103",
+      "name": "MARQUETTE",
+      "facilities": 36,
+      "total_violations": 8,
+      "health_violations": 12,
+      "total_penalties": 5625.0,
+      "enforcement_gap_score": 0.1922
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "SHERWIN-WILLIAMS CO",
+      "city": "HOLLAND",
+      "county": "ALLEGAN",
+      "severity": 60.0,
+      "penalties": 379000.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

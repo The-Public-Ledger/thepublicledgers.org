@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Defiance",
+    "county_slug": "defiance",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 10.36,
+    "total_exemptions_usd": 1851320.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2735.34,
+    "total_beneficiaries": 8,
+    "num_donor_beneficiaries": 4,
+    "donor_rate_pct": 50.0,
+    "total_donations_usd": 12300.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 45305367.36,
+    "households": 16563,
+    "bundling_clusters": 1,
+    "round_trips": 0,
+    "multi_dippers": 0,
+    "num_awards": 13
+  },
+  "benchmarks": {
+    "state_rank": 59,
+    "state_total_counties": 88,
+    "state_percentile": 33,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Defiance County ranks 59th out of 88 Ohio counties for total tax exemptions, with $1.9M in property tax breaks — below the state median. 50% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,735.",
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

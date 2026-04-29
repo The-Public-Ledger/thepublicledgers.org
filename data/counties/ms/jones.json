@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "MS",
+    "state_name": "Mississippi",
+    "county": "Jones",
+    "county_slug": "jones",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 22.7,
+    "total_exemptions_usd": 125506.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 5.21,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 1,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 1,
+    "warn_workers_affected": 0,
+    "fips_county": "067"
+  },
+  "benchmarks": {
+    "state_rank": 22,
+    "state_total_counties": 82,
+    "state_percentile": 73,
+    "state_median_subsidy_usd": 1250000.0,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 87.19,
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Jones County ranks 22nd out of 82 Mississippi counties for total tax exemptions, with $126K in property tax breaks — below the state median. The per-household cost of these subsidies is $5.",
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "state": "NH",
+  "facilities": 3012,
+  "water_systems": 2322,
+  "total_violations": 15141,
+  "health_violations": 3163,
+  "total_penalties": 1158499.0,
+  "avg_penalty": 384.63,
+  "violation_rate": 0.6614,
+  "enforcement_gap_score": 3.6305,
+  "serious_violators": 15,
+  "tri_facilities": 154,
+  "tri_releases_lbs": 306891340.0,
+  "top_counties": [
+    {
+      "fips": "33017",
+      "name": "STRAFFORD",
+      "facilities": 64,
+      "total_violations": 7,
+      "health_violations": 44,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1094
+    },
+    {
+      "fips": "33011",
+      "name": "HILLSBOROUGH",
+      "facilities": 98,
+      "total_violations": 23,
+      "health_violations": 1,
+      "total_penalties": 328054.0,
+      "enforcement_gap_score": 0.054
+    },
+    {
+      "fips": "33019",
+      "name": "SULLIVAN",
+      "facilities": 25,
+      "total_violations": 1,
+      "health_violations": 14,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.04
+    },
+    {
+      "fips": "33013",
+      "name": "MERRIMACK",
+      "facilities": 111,
+      "total_violations": 13,
+      "health_violations": 59,
+      "total_penalties": 218713.0,
+      "enforcement_gap_score": 0.0394
+    },
+    {
+      "fips": "33015",
+      "name": "ROCKINGHAM",
+      "facilities": 198,
+      "total_violations": 7,
+      "health_violations": 186,
+      "total_penalties": 18704.0,
+      "enforcement_gap_score": 0.0323
+    },
+    {
+      "fips": "33005",
+      "name": "CHESHIRE",
+      "facilities": 49,
+      "total_violations": 7,
+      "health_violations": 13,
+      "total_penalties": 187486.0,
+      "enforcement_gap_score": 0.0296
+    },
+    {
+      "fips": "33009",
+      "name": "GRAFTON",
+      "facilities": 130,
+      "total_violations": 14,
+      "health_violations": 126,
+      "total_penalties": 405542.0,
+      "enforcement_gap_score": 0.0261
+    },
+    {
+      "fips": "33003",
+      "name": "CARROLL",
+      "facilities": 93,
+      "total_violations": 2,
+      "health_violations": 187,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0215
+    },
+    {
+      "fips": "33007",
+      "name": "COOS",
+      "facilities": 55,
+      "total_violations": 1,
+      "health_violations": 29,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0182
+    },
+    {
+      "fips": "33001",
+      "name": "BELKNAP",
+      "facilities": 66,
+      "total_violations": 1,
+      "health_violations": 48,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0152
+    }
+  ],
+  "top_violators": []
+}

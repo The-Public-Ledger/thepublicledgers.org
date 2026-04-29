@@ -1,0 +1,107 @@
+{
+  "state": "AZ",
+  "facilities": 2910,
+  "water_systems": 1693,
+  "total_violations": 59311,
+  "health_violations": 5930,
+  "total_penalties": 927281.0,
+  "avg_penalty": 318.65,
+  "violation_rate": 0.4845,
+  "enforcement_gap_score": 15.4565,
+  "serious_violators": 61,
+  "tri_facilities": 158,
+  "tri_releases_lbs": 272556252.0,
+  "top_counties": [
+    {
+      "fips": "04023",
+      "name": "SANTA CRUZ COUNTY",
+      "facilities": 28,
+      "total_violations": 9,
+      "health_violations": 30,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3214
+    },
+    {
+      "fips": "04027",
+      "name": "YUMA",
+      "facilities": 58,
+      "total_violations": 16,
+      "health_violations": 211,
+      "total_penalties": 11250.0,
+      "enforcement_gap_score": 0.231
+    },
+    {
+      "fips": "04009",
+      "name": "GRAHAM COUNTY",
+      "facilities": 11,
+      "total_violations": 2,
+      "health_violations": 1,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1818
+    },
+    {
+      "fips": "04021",
+      "name": "PINAL",
+      "facilities": 84,
+      "total_violations": 10,
+      "health_violations": 116,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.119
+    },
+    {
+      "fips": "04015",
+      "name": "MOHAVE",
+      "facilities": 97,
+      "total_violations": 11,
+      "health_violations": 143,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1134
+    },
+    {
+      "fips": "04001",
+      "name": "APACHE",
+      "facilities": 59,
+      "total_violations": 6,
+      "health_violations": 33,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1017
+    },
+    {
+      "fips": "04011",
+      "name": "GREENLEE",
+      "facilities": 10,
+      "total_violations": 1,
+      "health_violations": 1,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1
+    },
+    {
+      "fips": "04003",
+      "name": "MARICOPA COUNTY",
+      "facilities": 76,
+      "total_violations": 6,
+      "health_violations": 73,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0789
+    },
+    {
+      "fips": "04012",
+      "name": "LA PAZ",
+      "facilities": 39,
+      "total_violations": 3,
+      "health_violations": 15,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0769
+    },
+    {
+      "fips": "04025",
+      "name": "YAVAPAI",
+      "facilities": 162,
+      "total_violations": 12,
+      "health_violations": 109,
+      "total_penalties": 10000.0,
+      "enforcement_gap_score": 0.0698
+    }
+  ],
+  "top_violators": []
+}

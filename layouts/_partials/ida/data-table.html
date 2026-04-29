@@ -1,0 +1,36 @@
+{{ $data := . }}
+{{ $status := $data.meta.coverage_status }}
+{{ if or (eq $status "full") (eq $status "partial") }}
+  {{ if $data.deals }}
+  <div class="data-table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Year</th>
+          <th>Exemption</th>
+          <th>Jobs Promised</th>
+          <th>Flags</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $data.deals }}
+        <tr>
+          <td>{{ .company }}</td>
+          <td>{{ .year }}</td>
+          <td>${{ .exemption_usd }}</td>
+          <td>{{ .jobs_promised }}</td>
+          <td>{{ range .flags }}{{ partial "ida/flag-badge.html" (dict "flag" .) }}{{ end }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+  {{ else }}
+  <p class="data-placeholder">Detailed deal records are being processed. <a href="/data/">Explore available data &rarr;</a></p>
+  {{ end }}
+{{ else }}
+<div class="placeholder-notice">
+  <p>Data collection is in progress for this area. <a href="/ida/">View states with full data &rarr;</a></p>
+</div>
+{{ end }}

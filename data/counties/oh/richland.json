@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Richland",
+    "county_slug": "richland",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 6.26,
+    "total_exemptions_usd": 5467463.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2723.73,
+    "total_beneficiaries": 16,
+    "num_donor_beneficiaries": 4,
+    "donor_rate_pct": 25.0,
+    "total_donations_usd": 3355.77,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 148664067.42,
+    "households": 54581,
+    "bundling_clusters": 8,
+    "round_trips": 0,
+    "multi_dippers": 1,
+    "num_awards": 25
+  },
+  "benchmarks": {
+    "state_rank": 40,
+    "state_total_counties": 88,
+    "state_percentile": 55,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "near the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Richland County ranks 40th out of 88 Ohio counties for total tax exemptions, with $5.5M in property tax breaks — near the state median. 25% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,724.",
+    "subsidy_context": "near the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

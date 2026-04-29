@@ -1,0 +1,107 @@
+{
+  "state": "AK",
+  "facilities": 3154,
+  "water_systems": 1790,
+  "total_violations": 49731,
+  "health_violations": 7525,
+  "total_penalties": 17924767.0,
+  "avg_penalty": 5683.19,
+  "violation_rate": 0.4439,
+  "enforcement_gap_score": 2.3593,
+  "serious_violators": 72,
+  "tri_facilities": 6,
+  "tri_releases_lbs": 158680552.0,
+  "top_counties": [
+    {
+      "fips": "02230",
+      "name": "SKAGWAY-HOONAH-ANGOON (CA)",
+      "facilities": 4,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 1613.0,
+      "enforcement_gap_score": 0.1782
+    },
+    {
+      "fips": "02105",
+      "name": "HOONAH-ANGOON",
+      "facilities": 19,
+      "total_violations": 4,
+      "health_violations": 74,
+      "total_penalties": 14536.0,
+      "enforcement_gap_score": 0.1193
+    },
+    {
+      "fips": "02198",
+      "name": "PRINCE OF WALES",
+      "facilities": 39,
+      "total_violations": 10,
+      "health_violations": 136,
+      "total_penalties": 155494.0,
+      "enforcement_gap_score": 0.0514
+    },
+    {
+      "fips": "02130",
+      "name": "PRINCE OF WALES-OUTER KETCHIKAN(CA)",
+      "facilities": 64,
+      "total_violations": 6,
+      "health_violations": 307,
+      "total_penalties": 78555.0,
+      "enforcement_gap_score": 0.0421
+    },
+    {
+      "fips": "02220",
+      "name": "SITKA CITY AND BOROUGH",
+      "facilities": 35,
+      "total_violations": 4,
+      "health_violations": 0,
+      "total_penalties": 71475.0,
+      "enforcement_gap_score": 0.0376
+    },
+    {
+      "fips": "02150",
+      "name": "KODIAK ISLAND BOROUGH",
+      "facilities": 41,
+      "total_violations": 11,
+      "health_violations": 50,
+      "total_penalties": 264540.0,
+      "enforcement_gap_score": 0.036
+    },
+    {
+      "fips": "02020",
+      "name": "ANCHORAGE",
+      "facilities": 208,
+      "total_violations": 21,
+      "health_violations": 56,
+      "total_penalties": 377086.0,
+      "enforcement_gap_score": 0.0359
+    },
+    {
+      "fips": "02195",
+      "name": "PETERSBURG",
+      "facilities": 29,
+      "total_violations": 1,
+      "health_violations": 143,
+      "total_penalties": 820.0,
+      "enforcement_gap_score": 0.0335
+    },
+    {
+      "fips": "02068",
+      "name": "DENALI",
+      "facilities": 41,
+      "total_violations": 5,
+      "health_violations": 22,
+      "total_penalties": 175919.0,
+      "enforcement_gap_score": 0.0231
+    },
+    {
+      "fips": "02180",
+      "name": "NOME (CA)",
+      "facilities": 122,
+      "total_violations": 3,
+      "health_violations": 401,
+      "total_penalties": 14450.0,
+      "enforcement_gap_score": 0.022
+    }
+  ],
+  "top_violators": []
+}

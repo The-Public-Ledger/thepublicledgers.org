@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "state": "HI",
+    "state_name": "Hawaii",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 5,
+      "counties_with_data": 5,
+      "crossref_complete": true,
+      "deals_count": 885,
+      "contributions_matched": 481
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 1318920.0,
+    "total_beneficiaries": 885,
+    "total_donations_usd": 10889659.3,
+    "matched_donors": 481,
+    "pct_beneficiaries_donating": 0.18420000000000003
+  },
+  "top_findings": [
+    "481 of 885 subsidized companies (18.4%) made campaign donations — $10.9M total.",
+    "$3.0M in donations flowed from beneficiaries to 32 political committees. Top recipient: HSTA PAC (Formerly HSTA Government Relations Committee) ($2.2M).",
+    "$1M in total subsidies tracked across 885 beneficiary companies in Hawaii."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 3012555.09,
+    "num_committees_receiving": 32,
+    "top_committee_name": "HSTA PAC (Formerly HSTA Government Relations Committee)",
+    "top_committee_amount": 2216353.63,
+    "top_committee_pct": 20.0
+  },
+  "counties": [
+    {
+      "name": "Hawaii",
+      "slug": "hawaii",
+      "score": 96.79,
+      "total_exemptions_usd": 585036.0,
+      "cost_per_household_usd": 8.07,
+      "total_beneficiaries": 0,
+      "num_awards": 2631,
+      "fips_county": "001"
+    },
+    {
+      "name": "Honolulu",
+      "slug": "honolulu",
+      "score": 75.86,
+      "total_exemptions_usd": 585036.0,
+      "cost_per_household_usd": 1.75,
+      "total_beneficiaries": 0,
+      "num_awards": 984,
+      "fips_county": "003"
+    },
+    {
+      "name": "Kauai",
+      "slug": "kauai",
+      "score": 25.06,
+      "total_exemptions_usd": 142236.0,
+      "cost_per_household_usd": 6.19,
+      "total_beneficiaries": 0,
+      "num_awards": 156,
+      "fips_county": "007"
+    },
+    {
+      "name": "Maui",
+      "slug": "maui",
+      "score": 3.08,
+      "total_exemptions_usd": 6612.0,
+      "cost_per_household_usd": 0.12,
+      "total_beneficiaries": 0,
+      "num_awards": 236,
+      "fips_county": "009"
+    },
+    {
+      "name": "Kalawao",
+      "slug": "kalawao",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "005"
+    }
+  ]
+}

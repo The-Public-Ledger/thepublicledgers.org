@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Vinton",
+    "county_slug": "vinton",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 20.95,
+    "total_exemptions_usd": 200000.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2657.16,
+    "total_beneficiaries": 1,
+    "num_donor_beneficiaries": 1,
+    "donor_rate_pct": 100.0,
+    "total_donations_usd": 6100.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 15815437.41,
+    "households": 5952,
+    "bundling_clusters": 1,
+    "round_trips": 0,
+    "multi_dippers": 1,
+    "num_awards": 1
+  },
+  "benchmarks": {
+    "state_rank": 78,
+    "state_total_counties": 88,
+    "state_percentile": 11,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "below the state median",
+    "donor_context": "3.2× the state average"
+  },
+  "narrative": {
+    "summary": "Vinton County ranks 78th out of 88 Ohio counties for total tax exemptions, with $200K in property tax breaks — below the state median. 100% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,657.",
+    "subsidy_context": "below the state median",
+    "donor_context": "3.2× the state average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Auburn",
+    "county_slug": "auburn",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 52.62,
+    "total_exemptions_usd": 26123919.32,
+    "net_exemptions_usd": 16781013.02,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 26,
+    "num_donor_beneficiaries": 9,
+    "donor_rate_pct": 34.62,
+    "total_donations_usd": 97978.5,
+    "jobs_promised": 9578,
+    "jobs_current": 9182,
+    "total_projects": 149,
+    "num_officials_receiving": 4,
+    "official_total_received_usd": 1325.0,
+    "num_pipelines": 4
+  },
+  "benchmarks": {
+    "state_rank": 66,
+    "state_total_counties": 104,
+    "state_percentile": 37,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Auburn County ranks 66th out of 104 New York counties for total tax exemptions, with $26.1M in property tax breaks — below the state median. 35% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

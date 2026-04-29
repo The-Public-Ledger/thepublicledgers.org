@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "state": "MA",
+    "state_name": "Massachusetts",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 14,
+      "counties_with_data": 14,
+      "crossref_complete": true,
+      "deals_count": 2741,
+      "contributions_matched": 460
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 487881301.0,
+    "total_beneficiaries": 2741,
+    "total_donations_usd": 5108387.96,
+    "matched_donors": 460,
+    "pct_beneficiaries_donating": 0.1678
+  },
+  "top_findings": [
+    "460 of 2,741 subsidized companies (16.8%) made campaign donations — $5.1M total.",
+    "$941,822 in donations flowed from beneficiaries to 328 political committees. Top recipient: MA Food Assoc for Consumer Convenience in Wine Sales ($318,178).",
+    "$488M in total subsidies tracked across 2,741 beneficiary companies in Massachusetts."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 941821.55,
+    "num_committees_receiving": 328,
+    "top_committee_name": "MA Food Assoc for Consumer Convenience in Wine Sales",
+    "top_committee_amount": 318177.98,
+    "top_committee_pct": 5.0
+  },
+  "counties": [
+    {
+      "name": "Norfolk",
+      "slug": "norfolk",
+      "score": 97.0,
+      "total_exemptions_usd": 12303600.0,
+      "cost_per_household_usd": 44.08,
+      "total_beneficiaries": 0,
+      "num_awards": 108,
+      "fips_county": "021"
+    },
+    {
+      "name": "Plymouth",
+      "slug": "plymouth",
+      "score": 92.0,
+      "total_exemptions_usd": 5400000.0,
+      "cost_per_household_usd": 27.14,
+      "total_beneficiaries": 0,
+      "num_awards": 408,
+      "fips_county": "023"
+    },
+    {
+      "name": "Middlesex",
+      "slug": "middlesex",
+      "score": 88.0,
+      "total_exemptions_usd": 15754200.0,
+      "cost_per_household_usd": 25.02,
+      "total_beneficiaries": 0,
+      "num_awards": 492,
+      "fips_county": "017"
+    },
+    {
+      "name": "Berkshire",
+      "slug": "berkshire",
+      "score": 80.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 228,
+      "fips_county": "003"
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin",
+      "score": 80.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 180,
+      "fips_county": "011"
+    },
+    {
+      "name": "Hampden",
+      "slug": "hampden",
+      "score": 80.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 312,
+      "fips_county": "013"
+    },
+    {
+      "name": "Hampshire",
+      "slug": "hampshire",
+      "score": 80.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 120,
+      "fips_county": "015"
+    },
+    {
+      "name": "Worcester",
+      "slug": "worcester",
+      "score": 78.0,
+      "total_exemptions_usd": 3802008.0,
+      "cost_per_household_usd": 11.51,
+      "total_beneficiaries": 0,
+      "num_awards": 540,
+      "fips_county": "027"
+    },
+    {
+      "name": "Barnstable",
+      "slug": "barnstable",
+      "score": 75.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 60,
+      "fips_county": "001"
+    },
+    {
+      "name": "Bristol",
+      "slug": "bristol",
+      "score": 75.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 744,
+      "fips_county": "005"
+    },
+    {
+      "name": "Dukes",
+      "slug": "dukes",
+      "score": 75.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "007"
+    },
+    {
+      "name": "Essex",
+      "slug": "essex",
+      "score": 75.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 528,
+      "fips_county": "009"
+    },
+    {
+      "name": "Nantucket",
+      "slug": "nantucket",
+      "score": 75.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "019"
+    },
+    {
+      "name": "Suffolk",
+      "slug": "suffolk",
+      "score": 75.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 132,
+      "fips_county": "025"
+    }
+  ]
+}

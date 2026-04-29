@@ -1,0 +1,86 @@
+{{ define "main" }}
+{{/* Gather all pages with a category param across the entire site */}}
+{{ $all := where site.RegularPages ".Params.category" "!=" nil }}
+
+{{/* Category definitions: key, display name, tagline, CSS modifier */}}
+{{ $categories := slice
+  (dict "key" "money"       "name" "Where did the money go?"     "tagline" "Tax exemptions, settlement funds, public contracts — tracing public dollars to private benefit."  "mod" "money")
+  (dict "key" "patients"    "name" "Who's protecting patients?"   "tagline" "Excluded physicians, neglected facilities, and the religious hospitals where patients have no alternative." "mod" "patients")
+  (dict "key" "environment" "name" "Pollution & Enforcement"      "tagline" "EPA-regulated facilities, documented violations, and the enforcement gaps that let them continue." "mod" "environment")
+  (dict "key" "governing"   "name" "Governing Pays"               "tagline" "The financial returns of public office — insider trades, dismissed charges, and donor networks." "mod" "governing")
+}}
+
+<article class="section" data-pagefind-meta="section:Investigations">
+  <div class="container">
+
+    <div class="hub-intro">
+      <h1 class="hub-intro__title">Investigations</h1>
+      <p class="hub-intro__description">
+        10 ongoing accountability projects tracking public money, patient safety, environmental enforcement,
+        and political finance. Every finding is sourced from public records and reproducible.
+      </p>
+      <p class="hub-intro__note">Status indicates publication readiness. <strong>Published</strong> investigations are complete and peer-reviewed. <strong>In Progress</strong> investigations are actively being built from public records.</p>
+    </div>
+
+    {{ range $categories }}
+    {{ $cat := . }}
+    {{ $pages := where $all ".Params.category" $cat.key }}
+    {{ if $pages }}
+    <section class="hub-section hub-section--{{ $cat.mod }}" aria-labelledby="cat-{{ $cat.key }}">
+      <div class="hub-section__header">
+        <span class="hub-section__category-label">Investigation category</span>
+        <h2 class="hub-section__title" id="cat-{{ $cat.key }}">{{ $cat.name }}</h2>
+        <p class="hub-section__tagline">{{ $cat.tagline }}</p>
+      </div>
+
+      <div class="hub-grid">
+        {{ range $pages.ByDate.Reverse }}
+        {{ $page := . }}
+        <a href="{{ .Permalink }}" class="hub-card hub-card--{{ $cat.mod }}">
+          <div class="hub-card__header">
+            {{ with .Params.status }}{{ partial "status-badge.html" . }}{{ end }}
+          </div>
+          <h3 class="hub-card__title">{{ .Title }}</h3>
+          <p class="hub-card__description">{{ .Description }}</p>
+          {{ with .Params.hub_stat }}
+          <div class="hub-card__stat">{{ . }}</div>
+          {{ end }}
+          <div class="hub-card__footer">
+            <span class="hub-card__cta">Explore →</span>
+          </div>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+    {{ end }}
+
+    {{/* ── Cross-Investigation Intelligence ──────────────────────── */}}
+    {{ $idx := site.Data.accountability.index }}
+    {{ if $idx }}
+    <section class="hub-section hub-section--cross" aria-labelledby="cat-cross">
+      <div class="hub-section__header">
+        <span class="hub-section__category-label">Cross-investigation intelligence</span>
+        <h2 class="hub-section__title" id="cat-cross">Accountability Index</h2>
+        <p class="hub-section__tagline">Which entities surface across multiple investigations? The index scores organizations by their cross-investigation footprint.</p>
+      </div>
+
+      <div class="hub-grid">
+        <a href="/accountability/" class="hub-card hub-card--cross">
+          <div class="hub-card__header">
+            {{ partial "status-badge.html" "active" }}
+          </div>
+          <h3 class="hub-card__title">Accountability Index</h3>
+          <p class="hub-card__description">{{ $idx.indexed_entities | lang.FormatNumber 0 }} entities scored across {{ len $idx.methodology.data_sources }} investigation sources spanning public money, patient safety, environmental enforcement, and political finance.</p>
+          <div class="hub-card__stat">Top: Cardinal Health (score {{ $idx.max_score }})</div>
+          <div class="hub-card__footer">
+            <span class="hub-card__cta">Explore →</span>
+          </div>
+        </a>
+      </div>
+    </section>
+    {{ end }}
+
+  </div>
+</article>
+{{ end }}

@@ -1,0 +1,1062 @@
+{
+  "meta": {
+    "state": "IL",
+    "state_name": "Illinois",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First",
+      "IL State Board of Elections",
+      "FEC"
+    ],
+    "coverage": {
+      "counties_total": 102,
+      "counties_with_data": 102,
+      "crossref_complete": true,
+      "deals_count": 5234,
+      "contributions_matched": 1438
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 7029588963.0,
+    "total_beneficiaries": 5234,
+    "total_donations_usd": 117837829.28,
+    "matched_donors": 1438,
+    "pct_beneficiaries_donating": 0.2747
+  },
+  "top_findings": [
+    "1,438 of 5,234 subsidized companies (27.5%) made campaign donations — $117.8M total.",
+    "$7.5M in donations flowed from beneficiaries to 195 political committees. Top recipient: Friends of Blagojevich ($3.4M).",
+    "$7.03B in total subsidies tracked across 5,234 beneficiary companies in Illinois."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 7508022.96,
+    "num_committees_receiving": 195,
+    "top_committee_name": "Friends of Blagojevich",
+    "top_committee_amount": 3408363.96,
+    "top_committee_pct": 0.5
+  },
+  "counties": [
+    {
+      "name": "Adams",
+      "slug": "adams",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Alexander",
+      "slug": "alexander",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Bond",
+      "slug": "bond",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Boone",
+      "slug": "boone",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Brown",
+      "slug": "brown",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Bureau",
+      "slug": "bureau",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Calhoun",
+      "slug": "calhoun",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Carroll",
+      "slug": "carroll",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Cass",
+      "slug": "cass",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Champaign",
+      "slug": "champaign",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Christian",
+      "slug": "christian",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Clark",
+      "slug": "clark",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Clay",
+      "slug": "clay",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Clinton",
+      "slug": "clinton",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Coles",
+      "slug": "coles",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Cook",
+      "slug": "cook",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Crawford",
+      "slug": "crawford",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Cumberland",
+      "slug": "cumberland",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "De Witt",
+      "slug": "de-witt",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Dekalb",
+      "slug": "dekalb",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Douglas",
+      "slug": "douglas",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Dupage",
+      "slug": "dupage",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Edgar",
+      "slug": "edgar",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Edwards",
+      "slug": "edwards",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Effingham",
+      "slug": "effingham",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Fayette",
+      "slug": "fayette",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Ford",
+      "slug": "ford",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Fulton",
+      "slug": "fulton",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Gallatin",
+      "slug": "gallatin",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Greene",
+      "slug": "greene",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Grundy",
+      "slug": "grundy",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Hamilton",
+      "slug": "hamilton",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Hancock",
+      "slug": "hancock",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Hardin",
+      "slug": "hardin",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Henderson",
+      "slug": "henderson",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Henry",
+      "slug": "henry",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Iroquois",
+      "slug": "iroquois",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Jackson",
+      "slug": "jackson",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Jasper",
+      "slug": "jasper",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Jefferson",
+      "slug": "jefferson",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Jersey",
+      "slug": "jersey",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Jo Daviess",
+      "slug": "jo-daviess",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Johnson",
+      "slug": "johnson",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Kane",
+      "slug": "kane",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Kankakee",
+      "slug": "kankakee",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Kendall",
+      "slug": "kendall",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Knox",
+      "slug": "knox",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Lake",
+      "slug": "lake",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Lasalle",
+      "slug": "lasalle",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Lawrence",
+      "slug": "lawrence",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Lee",
+      "slug": "lee",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Livingston",
+      "slug": "livingston",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Logan",
+      "slug": "logan",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Macon",
+      "slug": "macon",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Macoupin",
+      "slug": "macoupin",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Madison",
+      "slug": "madison",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Marion",
+      "slug": "marion",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Marshall",
+      "slug": "marshall",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Mason",
+      "slug": "mason",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Massac",
+      "slug": "massac",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Mcdonough",
+      "slug": "mcdonough",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Mchenry",
+      "slug": "mchenry",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Mclean",
+      "slug": "mclean",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Menard",
+      "slug": "menard",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Mercer",
+      "slug": "mercer",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Monroe",
+      "slug": "monroe",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Montgomery",
+      "slug": "montgomery",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Morgan",
+      "slug": "morgan",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Moultrie",
+      "slug": "moultrie",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Ogle",
+      "slug": "ogle",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Peoria",
+      "slug": "peoria",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Perry",
+      "slug": "perry",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Piatt",
+      "slug": "piatt",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Pike",
+      "slug": "pike",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Pope",
+      "slug": "pope",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Pulaski",
+      "slug": "pulaski",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Putnam",
+      "slug": "putnam",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Randolph",
+      "slug": "randolph",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Richland",
+      "slug": "richland",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Rock Island",
+      "slug": "rock-island",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Saline",
+      "slug": "saline",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Sangamon",
+      "slug": "sangamon",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Schuyler",
+      "slug": "schuyler",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Scott",
+      "slug": "scott",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Shelby",
+      "slug": "shelby",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "St Clair",
+      "slug": "st-clair",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Stark",
+      "slug": "stark",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Stephenson",
+      "slug": "stephenson",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Tazewell",
+      "slug": "tazewell",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Union",
+      "slug": "union",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Vermilion",
+      "slug": "vermilion",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Wabash",
+      "slug": "wabash",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Warren",
+      "slug": "warren",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Wayne",
+      "slug": "wayne",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "White",
+      "slug": "white",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Whiteside",
+      "slug": "whiteside",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Will",
+      "slug": "will",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Williamson",
+      "slug": "williamson",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Winnebago",
+      "slug": "winnebago",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    },
+    {
+      "name": "Woodford",
+      "slug": "woodford",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "echo_penalties_usd": 0.0
+    }
+  ]
+}

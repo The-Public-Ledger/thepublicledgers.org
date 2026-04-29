@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Jefferson",
+    "county_slug": "jefferson",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 46.46,
+    "total_exemptions_usd": 27692254.69,
+    "net_exemptions_usd": 19810534.69,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 51,
+    "num_donor_beneficiaries": 8,
+    "donor_rate_pct": 15.69,
+    "total_donations_usd": 97100.65,
+    "jobs_promised": 8489,
+    "jobs_current": 8047,
+    "total_projects": 261,
+    "num_officials_receiving": 10,
+    "official_total_received_usd": 34047.15,
+    "num_pipelines": 17
+  },
+  "benchmarks": {
+    "state_rank": 64,
+    "state_total_counties": 104,
+    "state_percentile": 38,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Jefferson County ranks 64th out of 104 New York counties for total tax exemptions, with $27.7M in property tax breaks — below the state median. 16% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

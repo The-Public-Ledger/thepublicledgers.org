@@ -1,0 +1,107 @@
+{
+  "state": "ME",
+  "facilities": 2819,
+  "water_systems": 2173,
+  "total_violations": 18638,
+  "health_violations": 2611,
+  "total_penalties": 962496.0,
+  "avg_penalty": 341.43,
+  "violation_rate": 0.5523,
+  "enforcement_gap_score": 4.9287,
+  "serious_violators": 39,
+  "tri_facilities": 105,
+  "tri_releases_lbs": 943561564.0,
+  "top_counties": [
+    {
+      "fips": "23001",
+      "name": "ANDROSCOGGIN",
+      "facilities": 55,
+      "total_violations": 8,
+      "health_violations": 39,
+      "total_penalties": 10200.0,
+      "enforcement_gap_score": 0.1227
+    },
+    {
+      "fips": "23009",
+      "name": "HANCOCK",
+      "facilities": 134,
+      "total_violations": 16,
+      "health_violations": 206,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1194
+    },
+    {
+      "fips": "23003",
+      "name": "AROOSTOOK",
+      "facilities": 111,
+      "total_violations": 10,
+      "health_violations": 78,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0901
+    },
+    {
+      "fips": "23017",
+      "name": "OXFORD",
+      "facilities": 79,
+      "total_violations": 9,
+      "health_violations": 105,
+      "total_penalties": 22740.0,
+      "enforcement_gap_score": 0.0885
+    },
+    {
+      "fips": "23021",
+      "name": "PISCATAQUIS",
+      "facilities": 32,
+      "total_violations": 3,
+      "health_violations": 30,
+      "total_penalties": 5000.0,
+      "enforcement_gap_score": 0.0811
+    },
+    {
+      "fips": "23013",
+      "name": "KNOX",
+      "facilities": 27,
+      "total_violations": 4,
+      "health_violations": 22,
+      "total_penalties": 25511.0,
+      "enforcement_gap_score": 0.0762
+    },
+    {
+      "fips": "23005",
+      "name": "CUMBERLAND",
+      "facilities": 169,
+      "total_violations": 15,
+      "health_violations": 195,
+      "total_penalties": 96920.0,
+      "enforcement_gap_score": 0.0564
+    },
+    {
+      "fips": "23019",
+      "name": "PENOBSCOT",
+      "facilities": 123,
+      "total_violations": 7,
+      "health_violations": 80,
+      "total_penalties": 36000.0,
+      "enforcement_gap_score": 0.044
+    },
+    {
+      "fips": "23025",
+      "name": "SOMERSET",
+      "facilities": 70,
+      "total_violations": 3,
+      "health_violations": 50,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0429
+    },
+    {
+      "fips": "23023",
+      "name": "SAGADAHOC",
+      "facilities": 26,
+      "total_violations": 1,
+      "health_violations": 33,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0385
+    }
+  ],
+  "top_violators": []
+}

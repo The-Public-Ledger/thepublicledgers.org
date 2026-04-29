@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "state_abbr": "TN",
+    "state_name": "Tennessee",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 78,
+    "physician_population": 23371,
+    "per_1000_physicians": 3.337,
+    "double_flagged": 7,
+    "industry_payments_usd": 45613.64999999999
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 28
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 25
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 15
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 8
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 1
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "KY",
+      "from_name": "Kentucky",
+      "count": 6
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 3
+    },
+    {
+      "from_state": "AL",
+      "from_name": "Alabama",
+      "count": 2
+    },
+    {
+      "from_state": "LA",
+      "from_name": "Louisiana",
+      "count": 2
+    },
+    {
+      "from_state": "AR",
+      "from_name": "Arkansas",
+      "count": 2
+    },
+    {
+      "from_state": "WV",
+      "from_name": "West Virginia",
+      "count": 2
+    },
+    {
+      "from_state": "GA",
+      "from_name": "Georgia",
+      "count": 2
+    },
+    {
+      "from_state": "HI",
+      "from_name": "Hawaii",
+      "count": 1
+    },
+    {
+      "from_state": "SC",
+      "from_name": "South Carolina",
+      "count": 1
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "KY",
+      "to_name": "Kentucky",
+      "count": 1
+    },
+    {
+      "to_state": "LA",
+      "to_name": "Louisiana",
+      "count": 1
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 1
+    },
+    {
+      "to_state": "IL",
+      "to_name": "Illinois",
+      "count": 1
+    },
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 1
+    },
+    {
+      "to_state": "PR",
+      "to_name": "Puerto Rico",
+      "count": 1
+    },
+    {
+      "to_state": "AL",
+      "to_name": "Alabama",
+      "count": 1
+    },
+    {
+      "to_state": "OR",
+      "to_name": "Oregon",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "KARLOSKY, LORAN E",
+      "npi": "1386816544",
+      "score": 76.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-11-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "BALLARD, THOMAS KELLY",
+      "npi": "1932300761",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2022-09-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "COFFEY, DAVID BRUCE",
+      "npi": "1912011792",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-05-18",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "FARMER, RICHARD G",
+      "npi": "1679623375",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-08-19",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "MACCARONE, JAMES J",
+      "npi": "1861590002",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-12-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "MANNING, JOHN RICHARD",
+      "npi": "1356311831",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-09-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "NOEL, TAMEKA LACHELLE",
+      "npi": "1194017947",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-06-17",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "ORUSA, SAMSON KANLA",
+      "npi": "1346388568",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-06-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "STANTON, JOHN L",
+      "npi": "1245233063",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-10-19",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "SWAIM, MARK W",
+      "npi": "1649267998",
+      "score": 69.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2017-03-20",
+      "specialty": "GENERAL PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "ALPEROVICH, ALEXANDER nan",
+      "npi": "1922096221",
+      "total_usd": 25699.86,
+      "payment_count": 731,
+      "companies": 44
+    },
+    {
+      "name": "STIMPSON, PETER GAGNON",
+      "npi": "1467463828",
+      "total_usd": 3905.24,
+      "payment_count": 191,
+      "companies": 33
+    },
+    {
+      "name": "MISRA, EVA nan",
+      "npi": "1578983094",
+      "total_usd": 2980.24,
+      "payment_count": 39,
+      "companies": 20
+    },
+    {
+      "name": "YANG, HARRISON YN",
+      "npi": "1770505612",
+      "total_usd": 2109.54,
+      "payment_count": 46,
+      "companies": 10
+    },
+    {
+      "name": "STANTON, JOHN L",
+      "npi": "1245233063",
+      "total_usd": 2012.96,
+      "payment_count": 107,
+      "companies": 32
+    },
+    {
+      "name": "CANTRELL, CAROL R",
+      "npi": "1417996117",
+      "total_usd": 1196.75,
+      "payment_count": 72,
+      "companies": 17
+    },
+    {
+      "name": "FARMER, RICHARD G",
+      "npi": "1679623375",
+      "total_usd": 1144.72,
+      "payment_count": 46,
+      "companies": 11
+    },
+    {
+      "name": "COFFEY, DAVID BRUCE",
+      "npi": "1912011792",
+      "total_usd": 872.77,
+      "payment_count": 52,
+      "companies": 11
+    },
+    {
+      "name": "MAUGHON, ROBERT MICKEY",
+      "npi": "1093800609",
+      "total_usd": 851.91,
+      "payment_count": 45,
+      "companies": 13
+    },
+    {
+      "name": "KARLOSKY, LORAN E",
+      "npi": "1386816544",
+      "total_usd": 755.1,
+      "payment_count": 50,
+      "companies": 18
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "state_abbr": "TX",
+    "state_name": "Texas",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 186,
+    "physician_population": 87886,
+    "per_1000_physicians": 2.116,
+    "double_flagged": 30,
+    "industry_payments_usd": 1044846.9200000003
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 83
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 37
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 28
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 18
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 5
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 5
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 3
+    },
+    {
+      "code": "1128b2",
+      "label": "Misdemeanor Controlled Substance",
+      "count": 2
+    },
+    {
+      "code": "BRCH SA",
+      "label": "BRCH SA",
+      "count": 2
+    },
+    {
+      "code": "1128b1",
+      "label": "Misdemeanor Fraud",
+      "count": 1
+    },
+    {
+      "code": "1128b6",
+      "label": "1128b6",
+      "count": 1
+    },
+    {
+      "code": "1128b5",
+      "label": "Federal/State Program Exclusion",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "LA",
+      "from_name": "Louisiana",
+      "count": 9
+    },
+    {
+      "from_state": "AL",
+      "from_name": "Alabama",
+      "count": 3
+    },
+    {
+      "from_state": "NC",
+      "from_name": "North Carolina",
+      "count": 3
+    },
+    {
+      "from_state": "AR",
+      "from_name": "Arkansas",
+      "count": 2
+    },
+    {
+      "from_state": "OK",
+      "from_name": "Oklahoma",
+      "count": 2
+    },
+    {
+      "from_state": "WA",
+      "from_name": "Washington",
+      "count": 1
+    },
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 1
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 1
+    },
+    {
+      "from_state": "NJ",
+      "from_name": "New Jersey",
+      "count": 1
+    },
+    {
+      "from_state": "MN",
+      "from_name": "Minnesota",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "LA",
+      "to_name": "Louisiana",
+      "count": 9
+    },
+    {
+      "to_state": "AR",
+      "to_name": "Arkansas",
+      "count": 3
+    },
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 3
+    },
+    {
+      "to_state": "CO",
+      "to_name": "Colorado",
+      "count": 3
+    },
+    {
+      "to_state": "VA",
+      "to_name": "Virginia",
+      "count": 2
+    },
+    {
+      "to_state": "IL",
+      "to_name": "Illinois",
+      "count": 2
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 2
+    },
+    {
+      "to_state": "CT",
+      "to_name": "Connecticut",
+      "count": 1
+    },
+    {
+      "to_state": "VT",
+      "to_name": "Vermont",
+      "count": 1
+    },
+    {
+      "to_state": "WY",
+      "to_name": "Wyoming",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "BARROGA, DESI ELPIDIO",
+      "npi": "1023210473",
+      "score": 85.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2025-05-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "DOLAN, ROBERT T",
+      "npi": "1821150871",
+      "score": 76.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2008-12-18",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "BARROGA, DENO B",
+      "npi": "1033188776",
+      "score": 75.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2025-05-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "FISCHER, CHARLES H",
+      "npi": "1346340098",
+      "score": 75.2,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2020-07-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "PENARODRIGUEZ, CESAR B",
+      "npi": "1073576435",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-03-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "BATTLE, CLINTON C",
+      "npi": "1942318753",
+      "score": 72.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2022-08-18",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "HENRY, SHAWN MARK",
+      "npi": "1518901222",
+      "score": 72.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2021-09-20",
+      "specialty": "SURGERY"
+    },
+    {
+      "name": "RIMLAWI, MICHAEL BASSEM",
+      "npi": "1851367692",
+      "score": 72.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2021-09-20",
+      "specialty": "SURGERY"
+    },
+    {
+      "name": "RODONAIA, GRIGORIY TSOTNEEVICH",
+      "npi": "1023210317",
+      "score": 72.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2022-04-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "MALAVE, ERNESTO nan",
+      "npi": "1609985852",
+      "score": 72.2,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-08-20",
+      "specialty": "FAMILY PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "RICH, BRIAN KEITH",
+      "npi": "1063436947",
+      "total_usd": 247000.38,
+      "payment_count": 232,
+      "companies": 27
+    },
+    {
+      "name": "DENNIS, MICHAEL DAVID",
+      "npi": "1447259809",
+      "total_usd": 236388.49,
+      "payment_count": 31,
+      "companies": 9
+    },
+    {
+      "name": "DE JESUS, ALEX nan",
+      "npi": "1013986629",
+      "total_usd": 180051.42,
+      "payment_count": 497,
+      "companies": 32
+    },
+    {
+      "name": "MOLINA, HECTOR OSCAR",
+      "npi": "1982679544",
+      "total_usd": 114040.0,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "WON, DOUGLAS S",
+      "npi": "1194765552",
+      "total_usd": 52451.26,
+      "payment_count": 44,
+      "companies": 7
+    },
+    {
+      "name": "MIRANDA, EDUARDO nan",
+      "npi": "1285673012",
+      "total_usd": 30125.91,
+      "payment_count": 1498,
+      "companies": 95
+    },
+    {
+      "name": "BISHAI, EMAD MIKHAIL",
+      "npi": "1922062181",
+      "total_usd": 21114.65,
+      "payment_count": 483,
+      "companies": 71
+    },
+    {
+      "name": "RIMLAWI, MICHAEL BASSEM",
+      "npi": "1851367692",
+      "total_usd": 16870.25,
+      "payment_count": 18,
+      "companies": 4
+    },
+    {
+      "name": "HENRY, SHAWN MARK",
+      "npi": "1518901222",
+      "total_usd": 9525.93,
+      "payment_count": 26,
+      "companies": 12
+    },
+    {
+      "name": "NGUYEN, THUY NGOC",
+      "npi": "1447362488",
+      "total_usd": 9366.63,
+      "payment_count": 562,
+      "companies": 42
+    }
+  ]
+}

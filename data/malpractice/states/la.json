@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "state_abbr": "LA",
+    "state_name": "Louisiana",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 52,
+    "physician_population": 15530,
+    "per_1000_physicians": 3.348,
+    "double_flagged": 8,
+    "industry_payments_usd": 70655.31999999998
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 24
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 14
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 7
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 6
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 9
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 7
+    },
+    {
+      "from_state": "AL",
+      "from_name": "Alabama",
+      "count": 4
+    },
+    {
+      "from_state": "TN",
+      "from_name": "Tennessee",
+      "count": 1
+    },
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 1
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
+      "count": 9
+    },
+    {
+      "to_state": "AL",
+      "to_name": "Alabama",
+      "count": 3
+    },
+    {
+      "to_state": "TN",
+      "to_name": "Tennessee",
+      "count": 2
+    },
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 1
+    },
+    {
+      "to_state": "AR",
+      "to_name": "Arkansas",
+      "count": 1
+    },
+    {
+      "to_state": "GA",
+      "to_name": "Georgia",
+      "count": 1
+    },
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 1
+    },
+    {
+      "to_state": "PA",
+      "to_name": "Pennsylvania",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "PASTOREK, JOSEPH GEORGE",
+      "npi": "1437257854",
+      "score": 81.2,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2013-08-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "AKULA, SHIVA KUMAR",
+      "npi": "1679643639",
+      "score": 76.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-11-20",
+      "specialty": "INFECTIOUS DISEASE"
+    },
+    {
+      "name": "GLOTSER, ALEX LEV",
+      "npi": "1629462502",
+      "score": 76.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-11-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "AUZINE, DONALD PETER",
+      "npi": "1780752444",
+      "score": 75.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2024-09-19",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "BERNAUER, ROBERT DALE",
+      "npi": "1235211095",
+      "score": 75.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2024-11-20",
+      "specialty": "ORTHOPEDICS"
+    },
+    {
+      "name": "BARRETT, MELISSA R",
+      "npi": "1245329325",
+      "score": 75.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-08-20",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
+      "name": "SMITH, ROBERT C",
+      "npi": "1962553560",
+      "score": 74.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2023-09-20",
+      "specialty": "SURGERY"
+    },
+    {
+      "name": "HAAS, SHANNON nan",
+      "npi": "1710205034",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-11-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "JUAKALI, EBONY nan",
+      "npi": "1376905901",
+      "score": 70.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-04-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "FLOYD, FREDERICK WILLIAM",
+      "npi": "1962448464",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2018-12-20",
+      "specialty": "INTERNAL MEDICINE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "HAAS, SHANNON nan",
+      "npi": "1710205034",
+      "total_usd": 32381.59,
+      "payment_count": 45,
+      "companies": 8
+    },
+    {
+      "name": "HICKEY, KEITH GREGORY",
+      "npi": "1538100078",
+      "total_usd": 8635.26,
+      "payment_count": 569,
+      "companies": 42
+    },
+    {
+      "name": "DEAN, ROBERT KYLE",
+      "npi": "1659418325",
+      "total_usd": 7640.88,
+      "payment_count": 352,
+      "companies": 36
+    },
+    {
+      "name": "CHUNG, CHI FEI nan",
+      "npi": "1720158066",
+      "total_usd": 5376.59,
+      "payment_count": 56,
+      "companies": 4
+    },
+    {
+      "name": "BARROW, GRAY W",
+      "npi": "1851433460",
+      "total_usd": 3487.7,
+      "payment_count": 131,
+      "companies": 32
+    },
+    {
+      "name": "AKULA, SHIVA KUMAR",
+      "npi": "1679643639",
+      "total_usd": 2941.7,
+      "payment_count": 171,
+      "companies": 10
+    },
+    {
+      "name": "HART, WILLIAM B",
+      "npi": "1851334270",
+      "total_usd": 2474.85,
+      "payment_count": 45,
+      "companies": 14
+    },
+    {
+      "name": "SMITH, ROBERT C",
+      "npi": "1962553560",
+      "total_usd": 1076.55,
+      "payment_count": 83,
+      "companies": 16
+    },
+    {
+      "name": "CLEMENT, RICHARD JAMES",
+      "npi": "1144321696",
+      "total_usd": 1076.2,
+      "payment_count": 67,
+      "companies": 24
+    },
+    {
+      "name": "JONES, MICHAEL BOZELLY",
+      "npi": "1801005053",
+      "total_usd": 1064.67,
+      "payment_count": 49,
+      "companies": 5
+    }
+  ]
+}

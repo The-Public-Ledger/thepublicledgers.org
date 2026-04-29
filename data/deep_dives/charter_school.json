@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Charter School Financial Accountability",
+    "slug": "charter-school",
+    "status": "active",
+    "last_updated": "2026-04-03",
+    "sources": [
+      "CMS NCES Common Core of Data (CCD)",
+      "FEC Individual Contributions (2019\u20132024)",
+      "SBA PPP Loan Data (150K+)",
+      "State charter authorizer records (NY, OH, PA)"
+    ]
+  },
+  "key_stats": {
+    "school_count": 8288,
+    "state_count": 47,
+    "total_enrollment": 3761396,
+    "fec_total_usd": 65961.0,
+    "ppp_total_usd": 2406188.0,
+    "matched_entities": 3,
+    "friends_of_annual_rent_usd": 14419443
+  },
+  "top_findings": [
+    "Registry covers 8,288 charter schools across 47 states enrolling 3,761,396 students",
+    "3 charter entities matched in federal campaign finance and PPP loan records",
+    "Charter-affiliated entities and individuals contributed $66K in documented FEC contributions",
+    "Charter-affiliated entities received $2.4M in PPP loans",
+    "Top entity: KIPP NYC Washington Heights Academy \u2014 $25K FEC contributions, $2.4M PPP loans"
+  ],
+  "top_entities": [
+    {
+      "name": "KIPP NYC Washington Heights Academy",
+      "role": "school_name",
+      "fec_total": 24566.0,
+      "ppp_total": 2406188.0,
+      "tier": "HIGH"
+    },
+    {
+      "name": "Success Academy Harlem 1",
+      "role": "school_name",
+      "fec_total": 35585.0,
+      "ppp_total": 0.0,
+      "tier": "MEDIUM"
+    },
+    {
+      "name": "Mastery Charter Thomas Campus",
+      "role": "school_name",
+      "fec_total": 5810.0,
+      "ppp_total": 0.0,
+      "tier": "MEDIUM"
+    }
+  ]
+}

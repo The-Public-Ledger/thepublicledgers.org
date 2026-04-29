@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "state_abbr": "AK",
+    "state_name": "Alaska",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 4,
+    "physician_population": 2644,
+    "per_1000_physicians": 1.513,
+    "double_flagged": 0,
+    "industry_payments_usd": 1599.44
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 2
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 1
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "AR",
+      "from_name": "Arkansas",
+      "count": 1
+    },
+    {
+      "from_state": "ID",
+      "from_name": "Idaho",
+      "count": 1
+    },
+    {
+      "from_state": "NY",
+      "from_name": "New York",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "CARLSON, RAY LYNN",
+      "npi": "1114077468",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-06-19",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
+      "name": "CHISHOLM MD, DAVID REGINALD",
+      "npi": "1427156868",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2022-07-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "AHMAD, MAHMOOD nan",
+      "npi": "1831145929",
+      "score": 59.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2017-07-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "DAVIDHIZAR, LAVERN R",
+      "npi": "1154334381",
+      "score": 47.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2021-09-20",
+      "specialty": "FAMILY PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "DAVIDHIZAR, LAVERN R",
+      "npi": "1154334381",
+      "total_usd": 1491.66,
+      "payment_count": 68,
+      "companies": 14
+    },
+    {
+      "name": "CHISHOLM MD, DAVID REGINALD",
+      "npi": "1427156868",
+      "total_usd": 63.07,
+      "payment_count": 4,
+      "companies": 2
+    },
+    {
+      "name": "CARLSON, RAY LYNN",
+      "npi": "1114077468",
+      "total_usd": 44.71,
+      "payment_count": 3,
+      "companies": 2
+    }
+  ]
+}

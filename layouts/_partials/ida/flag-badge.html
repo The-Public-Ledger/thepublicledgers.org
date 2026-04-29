@@ -1,0 +1,13 @@
+{{ $flag := .flag }}
+{{ $label := .label }}
+{{ $tooltips := dict
+  "triple-dipper" "This company received subsidies, made campaign donations, AND hired the same law firm that serves on the IDA board"
+  "bad-deal" "This subsidy cost more than $100,000 per job created"
+  "timing-conflict" "Campaign donation timing coincides suspiciously with subsidy approval"
+  "round-trip" "Money flowed from company to politician and back through subsidies"
+  "bundling" "Multiple executives from the same company made coordinated donations"
+}}
+{{ $tip := index $tooltips $flag }}
+<span class="flag-badge flag-badge--{{ $flag }}"{{ with $tip }} title="{{ . }}"{{ end }}>
+  {{ with $label }}{{ . }}{{ else }}{{ $flag | humanize }}{{ end }}
+</span>

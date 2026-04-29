@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "state": "MO",
+    "state_name": "Missouri",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 114,
+      "counties_with_data": 18,
+      "crossref_complete": true,
+      "deals_count": 2320,
+      "contributions_matched": 145
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 4070779857.0,
+    "total_beneficiaries": 2320,
+    "total_donations_usd": 1740883.27,
+    "matched_donors": 145,
+    "pct_beneficiaries_donating": 0.0625
+  },
+  "top_findings": [
+    "145 of 2,320 subsidized companies (6.2%) made campaign donations — $1.7M total.",
+    "$134,011 in donations flowed from beneficiaries to 9 political committees. Top recipient: MBA RIVER HERITAGE REGION PAC ($68,332).",
+    "$4.07B in total subsidies tracked across 2,320 beneficiary companies in Missouri."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 134011.15,
+    "num_committees_receiving": 9,
+    "top_committee_name": "MBA RIVER HERITAGE REGION PAC",
+    "top_committee_amount": 68332.0,
+    "top_committee_pct": 4.35
+  },
+  "counties": [
+    {
+      "name": "Unknown",
+      "slug": "unknown",
+      "score": 84.4,
+      "total_exemptions_usd": 1720441485.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 5010
+    },
+    {
+      "name": "Jackson",
+      "slug": "jackson",
+      "score": 55.6,
+      "total_exemptions_usd": 2333926130.0,
+      "cost_per_household_usd": 7808.18,
+      "total_beneficiaries": 0,
+      "num_awards": 73,
+      "fips_county": "095"
+    },
+    {
+      "name": "Boone",
+      "slug": "boone",
+      "score": 35.1,
+      "total_exemptions_usd": 4355577.0,
+      "cost_per_household_usd": 58.65,
+      "total_beneficiaries": 0,
+      "num_awards": 7,
+      "fips_county": "019"
+    },
+    {
+      "name": "Andrew",
+      "slug": "andrew",
+      "score": 33.0,
+      "total_exemptions_usd": 740939.0,
+      "cost_per_household_usd": 107.93,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "003"
+    },
+    {
+      "name": "Greene",
+      "slug": "greene",
+      "score": 33.0,
+      "total_exemptions_usd": 2910683.0,
+      "cost_per_household_usd": 22.2,
+      "total_beneficiaries": 0,
+      "num_awards": 4,
+      "fips_county": "077"
+    },
+    {
+      "name": "Clay",
+      "slug": "clay",
+      "score": 32.7,
+      "total_exemptions_usd": 2452514.0,
+      "cost_per_household_usd": 24.65,
+      "total_beneficiaries": 0,
+      "num_awards": 6,
+      "fips_county": "047"
+    },
+    {
+      "name": "Gasconade",
+      "slug": "gasconade",
+      "score": 32.1,
+      "total_exemptions_usd": 558019.0,
+      "cost_per_household_usd": 93.47,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "073"
+    },
+    {
+      "name": "Howard",
+      "slug": "howard",
+      "score": 31.8,
+      "total_exemptions_usd": 384750.0,
+      "cost_per_household_usd": 114.85,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "089"
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin",
+      "score": 31.3,
+      "total_exemptions_usd": 1074277.0,
+      "cost_per_household_usd": 25.88,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "071"
+    },
+    {
+      "name": "Christian",
+      "slug": "christian",
+      "score": 31.1,
+      "total_exemptions_usd": 918000.0,
+      "cost_per_household_usd": 27.48,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "043"
+    },
+    {
+      "name": "Cass",
+      "slug": "cass",
+      "score": 30.9,
+      "total_exemptions_usd": 966640.0,
+      "cost_per_household_usd": 23.28,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "037"
+    },
+    {
+      "name": "Jasper",
+      "slug": "jasper",
+      "score": 30.6,
+      "total_exemptions_usd": 950267.0,
+      "cost_per_household_usd": 20.01,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "097"
+    },
+    {
+      "name": "Johnson",
+      "slug": "johnson",
+      "score": 28.6,
+      "total_exemptions_usd": 356372.0,
+      "cost_per_household_usd": 17.29,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "101"
+    },
+    {
+      "name": "Cole",
+      "slug": "cole",
+      "score": 28.1,
+      "total_exemptions_usd": 366876.0,
+      "cost_per_household_usd": 12.17,
+      "total_beneficiaries": 0,
+      "num_awards": 4,
+      "fips_county": "051"
+    },
+    {
+      "name": "Cape Girardeau",
+      "slug": "cape-girardeau",
+      "score": 26.1,
+      "total_exemptions_usd": 210953.0,
+      "cost_per_household_usd": 6.68,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "031"
+    },
+    {
+      "name": "Chariton",
+      "slug": "chariton",
+      "score": 25.9,
+      "total_exemptions_usd": 63931.0,
+      "cost_per_household_usd": 24.67,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "041"
+    },
+    {
+      "name": "Crawford",
+      "slug": "crawford",
+      "score": 25.0,
+      "total_exemptions_usd": 88565.0,
+      "cost_per_household_usd": 9.54,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "055"
+    },
+    {
+      "name": "Buchanan",
+      "slug": "buchanan",
+      "score": 18.3,
+      "total_exemptions_usd": 13879.0,
+      "cost_per_household_usd": 0.42,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "021"
+    }
+  ]
+}

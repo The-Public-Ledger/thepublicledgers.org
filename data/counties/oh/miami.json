@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Miami",
+    "county_slug": "miami",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 9.63,
+    "total_exemptions_usd": 3719736.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2703.09,
+    "total_beneficiaries": 21,
+    "num_donor_beneficiaries": 8,
+    "donor_rate_pct": 38.1,
+    "total_donations_usd": 7242.88,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 126423702.38,
+    "households": 46770,
+    "bundling_clusters": 7,
+    "round_trips": 0,
+    "multi_dippers": 2,
+    "num_awards": 40
+  },
+  "benchmarks": {
+    "state_rank": 47,
+    "state_total_counties": 88,
+    "state_percentile": 47,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Miami County ranks 47th out of 88 Ohio counties for total tax exemptions, with $3.7M in property tax breaks — below the state median. 38% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,703.",
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "VT",
+    "state_name": "Vermont",
+    "county": "Chittenden",
+    "county_slug": "chittenden",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 100.0,
+    "total_exemptions_usd": 87519491.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 1019.05,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 3,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 78,
+    "warn_workers_affected": 0,
+    "fips_county": "007"
+  },
+  "benchmarks": {
+    "state_rank": 1,
+    "state_total_counties": 14,
+    "state_percentile": 93,
+    "state_median_subsidy_usd": 6325762.0,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 278.58,
+    "subsidy_context": "13.8× the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Chittenden County ranks 1st out of 14 Vermont counties for total tax exemptions, with $87.5M in property tax breaks — 13.8× the state median. The per-household cost of these subsidies is $1,019.",
+    "subsidy_context": "13.8× the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

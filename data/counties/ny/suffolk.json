@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Suffolk",
+    "county_slug": "suffolk",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 51.36,
+    "total_exemptions_usd": 273768543.57,
+    "net_exemptions_usd": 104812942.9,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 176,
+    "num_donor_beneficiaries": 50,
+    "donor_rate_pct": 28.41,
+    "total_donations_usd": 734752.59,
+    "jobs_promised": 145850,
+    "jobs_current": 174429,
+    "total_projects": 1120,
+    "num_officials_receiving": 18,
+    "official_total_received_usd": 363265.7,
+    "num_pipelines": 54
+  },
+  "benchmarks": {
+    "state_rank": 13,
+    "state_total_counties": 104,
+    "state_percentile": 88,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "6.4× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Suffolk County ranks 13th out of 104 New York counties for total tax exemptions, with $273.8M in property tax breaks — 6.4× the state median. 28% of subsidy recipients donated to local officials.",
+    "subsidy_context": "6.4× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

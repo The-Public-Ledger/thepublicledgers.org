@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "state": "NV",
+    "state_name": "Nevada",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 17,
+      "counties_with_data": 17,
+      "crossref_complete": true,
+      "deals_count": 741,
+      "contributions_matched": 401
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 145611349.0,
+    "total_beneficiaries": 741,
+    "total_donations_usd": 3739695.35,
+    "matched_donors": 401,
+    "pct_beneficiaries_donating": 0.1188
+  },
+  "top_findings": [
+    "401 of 741 subsidized companies (11.9%) made campaign donations — $3.7M total.",
+    "$380,342 in donations flowed from beneficiaries to 20 political committees. Top recipient: REPUBLICAN STATE LEADERSHIP COMMITTEE ($171,500).",
+    "$146M in total subsidies tracked across 741 beneficiary companies in Nevada."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 380341.85,
+    "num_committees_receiving": 20,
+    "top_committee_name": "REPUBLICAN STATE LEADERSHIP COMMITTEE",
+    "top_committee_amount": 171500.0,
+    "top_committee_pct": 0.17
+  },
+  "counties": [
+    {
+      "name": "Clark",
+      "slug": "clark",
+      "score": 90.3,
+      "total_exemptions_usd": 69774363.0,
+      "cost_per_household_usd": 75.57,
+      "total_beneficiaries": 0,
+      "num_awards": 223,
+      "fips_county": "003"
+    },
+    {
+      "name": "Washoe",
+      "slug": "washoe",
+      "score": 73.67,
+      "total_exemptions_usd": 10997651.0,
+      "cost_per_household_usd": 52.75,
+      "total_beneficiaries": 0,
+      "num_awards": 76,
+      "fips_county": "031"
+    },
+    {
+      "name": "Lyon",
+      "slug": "lyon",
+      "score": 69.46,
+      "total_exemptions_usd": 9200443.0,
+      "cost_per_household_usd": 374.28,
+      "total_beneficiaries": 0,
+      "num_awards": 47,
+      "fips_county": "019"
+    },
+    {
+      "name": "Douglas",
+      "slug": "douglas",
+      "score": 62.81,
+      "total_exemptions_usd": 3300827.0,
+      "cost_per_household_usd": 135.19,
+      "total_beneficiaries": 0,
+      "num_awards": 26,
+      "fips_county": "005"
+    },
+    {
+      "name": "Storey",
+      "slug": "storey",
+      "score": 59.33,
+      "total_exemptions_usd": 5070903.0,
+      "cost_per_household_usd": 2621.98,
+      "total_beneficiaries": 0,
+      "num_awards": 12,
+      "fips_county": "029"
+    },
+    {
+      "name": "Churchill",
+      "slug": "churchill",
+      "score": 54.4,
+      "total_exemptions_usd": 8817372.0,
+      "cost_per_household_usd": 814.24,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "001"
+    },
+    {
+      "name": "Humboldt",
+      "slug": "humboldt",
+      "score": 52.73,
+      "total_exemptions_usd": 3372067.0,
+      "cost_per_household_usd": 439.59,
+      "total_beneficiaries": 0,
+      "num_awards": 6,
+      "fips_county": "013"
+    },
+    {
+      "name": "Elko",
+      "slug": "elko",
+      "score": 48.71,
+      "total_exemptions_usd": 2051234.0,
+      "cost_per_household_usd": 93.93,
+      "total_beneficiaries": 0,
+      "num_awards": 6,
+      "fips_county": "007"
+    },
+    {
+      "name": "Statewide",
+      "slug": "statewide",
+      "score": 38.54,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 87.39,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Carson City",
+      "slug": "carson-city",
+      "score": 36.44,
+      "total_exemptions_usd": 1068471.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 10,
+      "fips_county": "510"
+    },
+    {
+      "name": "Esmeralda",
+      "slug": "esmeralda",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "009"
+    },
+    {
+      "name": "Eureka",
+      "slug": "eureka",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "011"
+    },
+    {
+      "name": "Lander",
+      "slug": "lander",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "015"
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "017"
+    },
+    {
+      "name": "Mineral",
+      "slug": "mineral",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "021"
+    },
+    {
+      "name": "Nye",
+      "slug": "nye",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "023"
+    },
+    {
+      "name": "Pershing",
+      "slug": "pershing",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "027"
+    },
+    {
+      "name": "White Pine",
+      "slug": "white-pine",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "033"
+    }
+  ]
+}

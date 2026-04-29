@@ -1,0 +1,124 @@
+{
+  "state": "IA",
+  "facilities": 3474,
+  "water_systems": 1687,
+  "total_violations": 13987,
+  "health_violations": 1699,
+  "total_penalties": 15375451.0,
+  "avg_penalty": 4425.86,
+  "violation_rate": 0.4252,
+  "enforcement_gap_score": 0.742,
+  "serious_violators": 7,
+  "tri_facilities": 287,
+  "tri_releases_lbs": 248095780.0,
+  "top_counties": [
+    {
+      "fips": "19147",
+      "name": "PALO ALTO",
+      "facilities": 14,
+      "total_violations": 56,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 4.0
+    },
+    {
+      "fips": "19105",
+      "name": "JONES",
+      "facilities": 27,
+      "total_violations": 120,
+      "health_violations": 12,
+      "total_penalties": 5000.0,
+      "enforcement_gap_score": 3.75
+    },
+    {
+      "fips": "19037",
+      "name": "CHICKASAW",
+      "facilities": 12,
+      "total_violations": 17,
+      "health_violations": 19,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 1.4167
+    },
+    {
+      "fips": "19129",
+      "name": "MILLS",
+      "facilities": 10,
+      "total_violations": 14,
+      "health_violations": 25,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 1.4
+    },
+    {
+      "fips": "19085",
+      "name": "HARRISON",
+      "facilities": 19,
+      "total_violations": 18,
+      "health_violations": 14,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.9474
+    },
+    {
+      "fips": "19095",
+      "name": "IOWA",
+      "facilities": 20,
+      "total_violations": 18,
+      "health_violations": 35,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.9
+    },
+    {
+      "fips": "19157",
+      "name": "POWESHIEK",
+      "facilities": 14,
+      "total_violations": 12,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.8571
+    },
+    {
+      "fips": "19025",
+      "name": "CALHOUN",
+      "facilities": 18,
+      "total_violations": 13,
+      "health_violations": 27,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.7222
+    },
+    {
+      "fips": "19187",
+      "name": "WEBSTER",
+      "facilities": 35,
+      "total_violations": 22,
+      "health_violations": 0,
+      "total_penalties": 23000.0,
+      "enforcement_gap_score": 0.3793
+    },
+    {
+      "fips": "19195",
+      "name": "WORTH",
+      "facilities": 14,
+      "total_violations": 5,
+      "health_violations": 3,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3571
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "DICO, INC.",
+      "city": "DES MOINES",
+      "county": "POLK",
+      "severity": 60.0,
+      "penalties": 11500000.0,
+      "qtrs_noncompliance": 11
+    },
+    {
+      "name": "HEIDELBERG MATERIALS US CEMENT LLC",
+      "city": "MASON CITY",
+      "county": "CERRO GORDO",
+      "severity": 60.0,
+      "penalties": 197500.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{{ $sources := .sources }}
+{{ $date := .date }}
+{{ if $sources }}
+<aside class="source-citation">
+  <strong>Sources:</strong>
+  <ul class="source-list">
+    {{ range $sources }}
+    <li>{{ . }}</li>
+    {{ end }}
+  </ul>
+  {{ with $date }}<p class="source-date">Data current as of {{ . }}</p>{{ end }}
+  <p class="source-link"><a href="/methodology/">Full methodology &rarr;</a></p>
+</aside>
+{{ end }}

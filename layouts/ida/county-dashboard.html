@@ -1,0 +1,202 @@
+{{ define "main" }}
+{{ $stateAbbr := .Params.state_abbr }}
+{{ $countySlug := .Params.county_slug }}
+{{ $stateData := index site.Data.states $stateAbbr }}
+{{ $countyData := index (index site.Data.counties $stateAbbr) $countySlug }}
+{{ $status := $countyData.meta.coverage_status }}
+
+<article class="section" data-pagefind-meta="investigation:IDA Subsidies, state:{{ $stateData.meta.state_name }}">
+  <div class="container">
+    {{ partial "ida/breadcrumb.html" (dict "state" (dict "abbr" $stateAbbr "name" $stateData.meta.state_name) "county" $countyData.meta.county) }}
+
+    <header class="page-header">
+      <div class="page-header__meta">
+        <span class="section-label">Subsidy Accountability &mdash; {{ $stateData.meta.state_name }}</span>
+        {{ partial "ida/coverage-badge.html" $countyData.meta }}
+      </div>
+      <h1>{{ $countyData.meta.county }} County</h1>
+    </header>
+
+    {{ if or (eq $status "full") (eq $status "partial") }}
+
+      {{/* ── LAYER 1: Plain-language summary ──────────────────────────── */}}
+      {{ partial "ida/county-summary.html" $countyData }}
+
+      {{/* ── LAYER 2: Headline stat cards with benchmarks ─────────────── */}}
+      {{ with $countyData.summary_stats }}
+      {{ $bm := $countyData.benchmarks }}
+      <div class="stat-grid" role="region" aria-label="Key metrics">
+
+        {{ if .total_exemptions_usd }}
+        {{ $ctx := "" }}
+        {{ with $bm }}
+          {{ if and .state_rank .state_total_counties }}
+            {{ $r := int .state_rank }}
+            {{ $n := int .state_total_counties }}
+            {{ $suf := "th" }}
+            {{ if and (ne (mod $r 100) 11) (eq (mod $r 10) 1) }}{{ $suf = "st" }}
+            {{ else if and (ne (mod $r 100) 12) (eq (mod $r 10) 2) }}{{ $suf = "nd" }}
+            {{ else if and (ne (mod $r 100) 13) (eq (mod $r 10) 3) }}{{ $suf = "rd" }}
+            {{ end }}
+            {{ $ctx = printf "%d%s of %d counties" $r $suf $n }}
+          {{ end }}
+        {{ end }}
+        {{ partial "ida/stat-card-contextual.html" (dict
+          "value" (printf "$%.1fM" (div .total_exemptions_usd 1000000.0))
+          "label" "Total Exemptions"
+          "context" $ctx
+          "percentile" (int ($bm.state_percentile | default 0))
+        ) }}
+        {{ end }}
+
+        {{ if .donor_rate_pct }}
+        {{ $dctx := "" }}
+        {{ with $countyData.narrative.donor_context }}{{ $dctx = . }}{{ end }}
+        {{ partial "ida/stat-card-contextual.html" (dict
+          "value" (printf "%.0f%%" .donor_rate_pct)
+          "label" "Beneficiaries That Donated"
+          "context" $dctx
+        ) }}
+        {{ end }}
+
+        {{ if .cost_per_household_usd }}
+        {{ partial "ida/stat-card-contextual.html" (dict
+          "value" (printf "$%s" (lang.FormatNumber 0 .cost_per_household_usd))
+          "label" "Cost per Household"
+        ) }}
+        {{ end }}
+
+        {{ if .pay_to_play_score }}
+        {{ partial "ida/stat-card-contextual.html" (dict
+          "value" (printf "%.1f" .pay_to_play_score)
+          "label" "Accountability Score"
+          "context" (cond (ge .pay_to_play_score 60.0) "High concern" (cond (ge .pay_to_play_score 40.0) "Moderate concern" "Lower concern"))
+        ) }}
+        {{ end }}
+
+      </div>
+      {{ end }}
+
+      {{/* ── LAYER 3: Benchmark comparison bars ──────────────────────── */}}
+      {{ with $countyData.benchmarks }}
+      {{ $stats := $countyData.summary_stats }}
+      {{ if and $stats.total_exemptions_usd .state_median_subsidy_usd }}
+      <section class="benchmarks-section">
+        <h2>How This County Compares</h2>
+        {{ partial "ida/benchmark-bar.html" (dict
+          "county_value" $stats.total_exemptions_usd
+          "county_label" (printf "%s County" $countyData.meta.county)
+          "state_median" .state_median_subsidy_usd
+          "label" "Total tax exemptions"
+          "format" "usd"
+        ) }}
+        {{ if and $stats.donor_rate_pct .state_median_donor_rate }}
+        {{ partial "ida/benchmark-bar.html" (dict
+          "county_value" $stats.donor_rate_pct
+          "county_label" (printf "%s County" $countyData.meta.county)
+          "state_median" .state_median_donor_rate
+          "label" "Beneficiary donation rate"
+          "format" "pct"
+        ) }}
+        {{ end }}
+      </section>
+      {{ end }}
+      {{ end }}
+
+      {{/* ── LAYER 4: Findings + Flags ────────────────────────────────── */}}
+      {{ with $countyData.top_findings }}
+      <section class="findings-section">
+        <h2>Key Findings</h2>
+        <ul class="findings-list">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </section>
+      {{ end }}
+
+      {{ with $countyData.flags }}
+        {{ $hasFlags := or .triple_dippers .bad_deals .round_trip_flows .bundling_clusters }}
+        {{ if $hasFlags }}
+        <section class="flags-section">
+          <h2>Flags</h2>
+          <div class="flag-list">
+            {{ if .triple_dippers }}<div>{{ partial "ida/flag-badge.html" (dict "flag" "triple-dipper" "label" (printf "%d Triple Dippers" (len .triple_dippers))) }}</div>{{ end }}
+            {{ if .bad_deals }}<div>{{ partial "ida/flag-badge.html" (dict "flag" "bad-deal" "label" (printf "%d Bad Deals" (len .bad_deals))) }}</div>{{ end }}
+            {{ if .round_trip_flows }}<div>{{ partial "ida/flag-badge.html" (dict "flag" "round-trip" "label" (printf "%d Round-Trip Flows" (len .round_trip_flows))) }}</div>{{ end }}
+            {{ if .bundling_clusters }}<div>{{ partial "ida/flag-badge.html" (dict "flag" "bundling" "label" (printf "%d Bundling Clusters" (len .bundling_clusters))) }}</div>{{ end }}
+          </div>
+        </section>
+        {{ end }}
+      {{ end }}
+
+      {{/* ── LAYER 5: Full data table ─────────────────────────────────── */}}
+      {{ partial "ida/data-table.html" $countyData }}
+
+      {{/* ── Download section ──────────────────────────────────────────── */}}
+      <div class="csv-download" role="region" aria-label="Download data">
+        <h2>Download This Data</h2>
+        <div class="csv-download__buttons">
+          <button class="btn btn--secondary btn--sm" id="download-county-csv"
+                  aria-label="Download {{ $countyData.meta.county }} County data as CSV">
+            Download {{ $countyData.meta.county }} County CSV
+          </button>
+          <a class="btn btn--secondary btn--sm" href="/data/ida_county_scorecards.csv"
+             download aria-label="Download all county scorecards">
+            Download All Counties CSV
+          </a>
+        </div>
+        <p class="csv-download__note">Data as of {{ $countyData.meta.last_updated }}. CC-BY licensed for republication with attribution.</p>
+      </div>
+
+      <script>
+      (function() {
+        var btn = document.getElementById('download-county-csv');
+        if (!btn) return;
+        btn.addEventListener('click', function() {
+          var stats = {{ $countyData.summary_stats | jsonify }};
+          var bm = {{ $countyData.benchmarks | jsonify }};
+          var meta = {{ $countyData.meta | jsonify }};
+          var headers = ['county','state','state_name'];
+          var values = [meta.county, meta.state, meta.state_name];
+          Object.keys(stats).forEach(function(k) { headers.push(k); values.push(stats[k]); });
+          Object.keys(bm).forEach(function(k) { headers.push('benchmark_' + k); values.push(bm[k]); });
+          var csv = headers.join(',') + '\n' + values.map(function(v) {
+            return typeof v === 'string' && v.indexOf(',') >= 0 ? '"' + v + '"' : v;
+          }).join(',') + '\n';
+          var blob = new Blob([csv], {type: 'text/csv'});
+          var url = URL.createObjectURL(blob);
+          var a = document.createElement('a');
+          a.href = url;
+          a.download = meta.state + '_' + meta.county_slug + '_scorecard.csv';
+          a.click();
+          URL.revokeObjectURL(url);
+        });
+      })();
+      </script>
+
+      {{/* ── Methodology disclosure ───────────────────────────────────── */}}
+      <details class="methodology-disclosure">
+        <summary>How we calculated this</summary>
+        <p>County scorecards are computed from Good Jobs First subsidy data
+        cross-referenced with state campaign finance records. Donor rates
+        reflect the percentage of subsidy recipients that also appear as
+        campaign contributors. Rankings compare all counties within the
+        state that have subsidy data. Per-household costs use Census ACS
+        household estimates.</p>
+        <p><a href="/methodology/">Full methodology &rarr;</a></p>
+      </details>
+
+    {{ else }}
+    <div class="placeholder-notice">
+      <p>Data collection for {{ $countyData.meta.county }} County is in progress.</p>
+      <p><a href="/ida/states/{{ $stateAbbr }}/">&larr; Back to {{ $stateData.meta.state_name }}</a></p>
+    </div>
+    {{ end }}
+
+    {{ partial "ida/source-citation.html" (dict "sources" $stateData.meta.sources "date" $countyData.meta.last_updated) }}
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+{{ end }}

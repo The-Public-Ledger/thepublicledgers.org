@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Mount Vernon",
+    "county_slug": "mount-vernon",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 68.88,
+    "total_exemptions_usd": 49178659.1,
+    "net_exemptions_usd": 35830281.93,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 24,
+    "num_donor_beneficiaries": 8,
+    "donor_rate_pct": 33.33,
+    "total_donations_usd": 150099.0,
+    "jobs_promised": 9935,
+    "jobs_current": 4262,
+    "total_projects": 160,
+    "num_officials_receiving": 5,
+    "official_total_received_usd": 92750.0,
+    "num_pipelines": 7
+  },
+  "benchmarks": {
+    "state_rank": 45,
+    "state_total_counties": 104,
+    "state_percentile": 57,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "near the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Mount Vernon County ranks 45th out of 104 New York counties for total tax exemptions, with $49.2M in property tax breaks — near the state median. 33% of subsidy recipients donated to local officials.",
+    "subsidy_context": "near the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

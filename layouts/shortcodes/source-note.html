@@ -1,0 +1,5 @@
+{{ $db := .Get "db" }}
+{{ $date := .Get "date" }}
+<aside class="source-note">
+  Source: {{ $db }}{{ with $date }}, data as of {{ . }}{{ end }}. <a href="/methodology/">Methodology &rarr;</a>
+</aside>

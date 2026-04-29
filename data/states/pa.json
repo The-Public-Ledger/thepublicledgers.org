@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "state": "PA",
+    "state_name": "Pennsylvania",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First",
+      "PA DCED",
+      "FEC"
+    ],
+    "coverage": {
+      "counties_total": 67,
+      "counties_with_data": 0,
+      "crossref_complete": true,
+      "deals_count": 4931,
+      "contributions_matched": 429
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 707641969.0,
+    "total_beneficiaries": 4931,
+    "matched_donors": 429,
+    "pct_beneficiaries_donating": 0.087,
+    "total_donations_usd": 5636673.34
+  },
+  "top_findings": [
+    "429 of 4,931 subsidized companies (8.7%) made campaign donations — $5.6M total.",
+    "$2.6M in donations flowed from beneficiaries to 335 political committees. Top recipient: Pennsylvania House Democratic Campaign Committee ($678,675).",
+    "7 companies showed statistically significant pre-award donation spikes (BH-corrected, q<0.05). Top: KNOLL (0.0× baseline, z=0.0).",
+    "$708M in total subsidies tracked across 4,931 beneficiary companies in Pennsylvania."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 2585752.09,
+    "num_committees_receiving": 335,
+    "top_committee_name": "Pennsylvania House Democratic Campaign Committee",
+    "top_committee_amount": 678675.0,
+    "top_committee_pct": 0.24
+  },
+  "timeline_stats": {
+    "total_spikes": 10,
+    "bh_sig_count": 7,
+    "top_spike_name": "KNOLL",
+    "top_spike_z": 0.0,
+    "top_spike_ratio": 0.0,
+    "top_spike_subsidy": 1075691.0
+  }
+}

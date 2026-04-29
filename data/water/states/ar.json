@@ -1,0 +1,116 @@
+{
+  "state": "AR",
+  "facilities": 2802,
+  "water_systems": 1012,
+  "total_violations": 14631,
+  "health_violations": 6855,
+  "total_penalties": 92854606.0,
+  "avg_penalty": 33138.69,
+  "violation_rate": 0.4565,
+  "enforcement_gap_score": 0.153,
+  "serious_violators": 1,
+  "tri_facilities": 284,
+  "tri_releases_lbs": 1451939260.0,
+  "top_counties": [
+    {
+      "fips": "05095",
+      "name": "MONROE",
+      "facilities": 10,
+      "total_violations": 10,
+      "health_violations": 75,
+      "total_penalties": 2000.0,
+      "enforcement_gap_score": 0.8333
+    },
+    {
+      "fips": "05077",
+      "name": "LEE",
+      "facilities": 11,
+      "total_violations": 8,
+      "health_violations": 374,
+      "total_penalties": 750.0,
+      "enforcement_gap_score": 0.6809
+    },
+    {
+      "fips": "05097",
+      "name": "MONTGOMERY",
+      "facilities": 17,
+      "total_violations": 12,
+      "health_violations": 234,
+      "total_penalties": 2275.0,
+      "enforcement_gap_score": 0.6226
+    },
+    {
+      "fips": "05003",
+      "name": "ASHLEY",
+      "facilities": 16,
+      "total_violations": 11,
+      "health_violations": 81,
+      "total_penalties": 2250.0,
+      "enforcement_gap_score": 0.6027
+    },
+    {
+      "fips": "05149",
+      "name": "YELL",
+      "facilities": 15,
+      "total_violations": 11,
+      "health_violations": 55,
+      "total_penalties": 3600.0,
+      "enforcement_gap_score": 0.5914
+    },
+    {
+      "fips": "05049",
+      "name": "FULTON",
+      "facilities": 14,
+      "total_violations": 8,
+      "health_violations": 9,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5714
+    },
+    {
+      "fips": "05079",
+      "name": "LINCOLN",
+      "facilities": 7,
+      "total_violations": 4,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5714
+    },
+    {
+      "fips": "05065",
+      "name": "IZARD",
+      "facilities": 9,
+      "total_violations": 7,
+      "health_violations": 1,
+      "total_penalties": 4000.0,
+      "enforcement_gap_score": 0.5385
+    },
+    {
+      "fips": "05107",
+      "name": "PHILLIPS COUNTY",
+      "facilities": 16,
+      "total_violations": 17,
+      "health_violations": 29,
+      "total_penalties": 16075.0,
+      "enforcement_gap_score": 0.53
+    },
+    {
+      "fips": "05073",
+      "name": "LAFAYETTE",
+      "facilities": 14,
+      "total_violations": 8,
+      "health_violations": 52,
+      "total_penalties": 2000.0,
+      "enforcement_gap_score": 0.5
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "BASF CORPORATION",
+      "city": "WEST MEMPHIS",
+      "county": "CRITTENDEN",
+      "severity": 65.0,
+      "penalties": 10600.0,
+      "qtrs_noncompliance": 6
+    }
+  ]
+}

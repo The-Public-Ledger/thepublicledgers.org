@@ -1,0 +1,107 @@
+{
+  "state": "WY",
+  "facilities": 1655,
+  "water_systems": 768,
+  "total_violations": 10844,
+  "health_violations": 1714,
+  "total_penalties": 1432959.0,
+  "avg_penalty": 865.84,
+  "violation_rate": 0.4066,
+  "enforcement_gap_score": 3.5117,
+  "serious_violators": 7,
+  "tri_facilities": 22,
+  "tri_releases_lbs": 234807624.0,
+  "top_counties": [
+    {
+      "fips": "56023",
+      "name": "LINCOLN",
+      "facilities": 55,
+      "total_violations": 40,
+      "health_violations": 104,
+      "total_penalties": 2500.0,
+      "enforcement_gap_score": 0.6957
+    },
+    {
+      "fips": "56039",
+      "name": "TETON",
+      "facilities": 56,
+      "total_violations": 25,
+      "health_violations": 52,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4464
+    },
+    {
+      "fips": "56015",
+      "name": "GOSHEN",
+      "facilities": 19,
+      "total_violations": 9,
+      "health_violations": 32,
+      "total_penalties": 2000.0,
+      "enforcement_gap_score": 0.4286
+    },
+    {
+      "fips": "56013",
+      "name": "",
+      "facilities": 81,
+      "total_violations": 31,
+      "health_violations": 65,
+      "total_penalties": 13900.0,
+      "enforcement_gap_score": 0.3267
+    },
+    {
+      "fips": "56045",
+      "name": "",
+      "facilities": 29,
+      "total_violations": 9,
+      "health_violations": 9,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3103
+    },
+    {
+      "fips": "56007",
+      "name": "",
+      "facilities": 46,
+      "total_violations": 15,
+      "health_violations": 69,
+      "total_penalties": 7000.0,
+      "enforcement_gap_score": 0.283
+    },
+    {
+      "fips": "56035",
+      "name": "SUBLETTE COUNTY",
+      "facilities": 33,
+      "total_violations": 9,
+      "health_violations": 15,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2727
+    },
+    {
+      "fips": "56011",
+      "name": "CROOK",
+      "facilities": 40,
+      "total_violations": 9,
+      "health_violations": 19,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.225
+    },
+    {
+      "fips": "56025",
+      "name": "NATRONA",
+      "facilities": 97,
+      "total_violations": 18,
+      "health_violations": 23,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1856
+    },
+    {
+      "fips": "56001",
+      "name": "ALBANY",
+      "facilities": 33,
+      "total_violations": 6,
+      "health_violations": 9,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1818
+    }
+  ],
+  "top_violators": []
+}

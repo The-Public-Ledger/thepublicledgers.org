@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Ottawa",
+    "county_slug": "ottawa",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 8.43,
+    "total_exemptions_usd": 3616437.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2749.9,
+    "total_beneficiaries": 6,
+    "num_donor_beneficiaries": 2,
+    "donor_rate_pct": 33.33,
+    "total_donations_usd": 32343.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 78718505.45,
+    "households": 28626,
+    "bundling_clusters": 47,
+    "round_trips": 0,
+    "multi_dippers": 1,
+    "num_awards": 14
+  },
+  "benchmarks": {
+    "state_rank": 48,
+    "state_total_counties": 88,
+    "state_percentile": 45,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Ottawa County ranks 48th out of 88 Ohio counties for total tax exemptions, with $3.6M in property tax breaks — below the state median. 33% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,750.",
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

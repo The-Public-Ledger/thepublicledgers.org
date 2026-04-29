@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "CO",
+    "state_name": "Colorado",
+    "county": "San Juan",
+    "county_slug": "san-juan",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 3.7,
+    "total_exemptions_usd": 202912.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 278.34,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 2,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 18,
+    "warn_workers_affected": 0,
+    "fips_county": "111"
+  },
+  "benchmarks": {
+    "state_rank": 33,
+    "state_total_counties": 65,
+    "state_percentile": 49,
+    "state_median_subsidy_usd": 5169064.0,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 277.95,
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "San Juan County ranks 33rd out of 65 Colorado counties for total tax exemptions, with $203K in property tax breaks — below the state median. The per-household cost of these subsidies is $278.",
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "state": "MP",
+    "state_name": "Northern Mariana Islands",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 4,
+      "counties_with_data": 0,
+      "crossref_complete": false,
+      "deals_count": 0,
+      "contributions_matched": 0
+    },
+    "coverage_status": "placeholder"
+  },
+  "summary_stats": {},
+  "top_findings": [],
+  "counsel_conflicts": []
+}

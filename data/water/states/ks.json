@@ -1,0 +1,107 @@
+{
+  "state": "KS",
+  "facilities": 2245,
+  "water_systems": 1078,
+  "total_violations": 8641,
+  "health_violations": 3812,
+  "total_penalties": 2807424.0,
+  "avg_penalty": 1250.52,
+  "violation_rate": 0.3283,
+  "enforcement_gap_score": 1.7103,
+  "serious_violators": 42,
+  "tri_facilities": 207,
+  "tri_releases_lbs": 588672040.0,
+  "top_counties": [
+    {
+      "fips": "20069",
+      "name": "GRAY",
+      "facilities": 6,
+      "total_violations": 5,
+      "health_violations": 50,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.8333
+    },
+    {
+      "fips": "20043",
+      "name": "DONIPHAN",
+      "facilities": 12,
+      "total_violations": 6,
+      "health_violations": 5,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5
+    },
+    {
+      "fips": "20159",
+      "name": "RICE",
+      "facilities": 12,
+      "total_violations": 6,
+      "health_violations": 3,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5
+    },
+    {
+      "fips": "20071",
+      "name": "GREELEY",
+      "facilities": 3,
+      "total_violations": 1,
+      "health_violations": 20,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3333
+    },
+    {
+      "fips": "20083",
+      "name": "HODGEMAN",
+      "facilities": 6,
+      "total_violations": 2,
+      "health_violations": 11,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3333
+    },
+    {
+      "fips": "20123",
+      "name": "MITCHELL",
+      "facilities": 10,
+      "total_violations": 3,
+      "health_violations": 116,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3
+    },
+    {
+      "fips": "20013",
+      "name": "BROWN",
+      "facilities": 20,
+      "total_violations": 6,
+      "health_violations": 36,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3
+    },
+    {
+      "fips": "20165",
+      "name": "RUSH",
+      "facilities": 11,
+      "total_violations": 3,
+      "health_violations": 21,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2727
+    },
+    {
+      "fips": "20167",
+      "name": "RUSSELL",
+      "facilities": 11,
+      "total_violations": 3,
+      "health_violations": 22,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2727
+    },
+    {
+      "fips": "20207",
+      "name": "WOODSON",
+      "facilities": 4,
+      "total_violations": 1,
+      "health_violations": 13,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.25
+    }
+  ],
+  "top_violators": []
+}

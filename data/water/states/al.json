@@ -1,0 +1,107 @@
+{
+  "state": "AL",
+  "facilities": 2683,
+  "water_systems": 535,
+  "total_violations": 9133,
+  "health_violations": 548,
+  "total_penalties": 15390229.0,
+  "avg_penalty": 5736.2,
+  "violation_rate": 0.2139,
+  "enforcement_gap_score": 0.5053,
+  "serious_violators": 8,
+  "tri_facilities": 334,
+  "tri_releases_lbs": 3308838788.0,
+  "top_counties": [
+    {
+      "fips": "01105",
+      "name": "PERRY",
+      "facilities": 9,
+      "total_violations": 3,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3333
+    },
+    {
+      "fips": "01087",
+      "name": "MACON",
+      "facilities": 12,
+      "total_violations": 2,
+      "health_violations": 7,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1667
+    },
+    {
+      "fips": "01059",
+      "name": "FRANKLIN",
+      "facilities": 13,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1538
+    },
+    {
+      "fips": "01037",
+      "name": "COOSA",
+      "facilities": 8,
+      "total_violations": 1,
+      "health_violations": 1,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.125
+    },
+    {
+      "fips": "01075",
+      "name": "LAMAR",
+      "facilities": 11,
+      "total_violations": 3,
+      "health_violations": 0,
+      "total_penalties": 22440.0,
+      "enforcement_gap_score": 0.0897
+    },
+    {
+      "fips": "01063",
+      "name": "GREENE",
+      "facilities": 7,
+      "total_violations": 1,
+      "health_violations": 2,
+      "total_penalties": 4900.0,
+      "enforcement_gap_score": 0.084
+    },
+    {
+      "fips": "01131",
+      "name": "WILCOX",
+      "facilities": 14,
+      "total_violations": 1,
+      "health_violations": 58,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0714
+    },
+    {
+      "fips": "01011",
+      "name": "BULLOCK",
+      "facilities": 4,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 12500.0,
+      "enforcement_gap_score": 0.0606
+    },
+    {
+      "fips": "01071",
+      "name": "JACKSON",
+      "facilities": 31,
+      "total_violations": 3,
+      "health_violations": 51,
+      "total_penalties": 19600.0,
+      "enforcement_gap_score": 0.0593
+    },
+    {
+      "fips": "01123",
+      "name": "TALLAPOOSA",
+      "facilities": 22,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 12000.0,
+      "enforcement_gap_score": 0.0588
+    }
+  ],
+  "top_violators": []
+}

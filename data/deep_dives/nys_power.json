@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "NYS Power: Regulatory Capture",
+    "slug": "nys-power",
+    "status": "complete",
+    "last_updated": "2026-03-23",
+    "sources": ["NYSBOE", "FEC", "COELIG/JCOPE", "EIA", "FERC", "SEC", "PSC", "Census", "ProPublica 990"]
+  },
+  "key_stats": {
+    "ny_rate_cents_per_kwh": 26.49,
+    "us_rate_cents_per_kwh": 16.83,
+    "premium_pct": 49.7,
+    "clean_energy_share_of_increases_pct": 4.7,
+    "clean_energy_dollars": 187000000,
+    "total_rate_increase_dollars": 4000000000,
+    "campaign_contributions_usd": 8320000,
+    "campaign_contributions_entities": 46,
+    "campaign_contributions_donations": 8465,
+    "governor_donations_usd": 659000,
+    "lobbying_total_usd": 75700000,
+    "lobbying_rate_related_usd": 62900000,
+    "lobbying_rate_related_pct": 87.7,
+    "shareholder_dividends_usd": 36800000000,
+    "clean_energy_surcharge_multiple": 5.3,
+    "ceo_comp_growth_pct": 64,
+    "rate_growth_pct": 42,
+    "consumer_complaints_surge_pct": 84,
+    "billing_complaints_surge_pct": 120,
+    "ferc_revenue_usd": 36500000000,
+    "ferc_net_income_usd": 3900000000,
+    "ferc_dividends_usd": 2600000000,
+    "nonprofit_revenue_usd": 628000000,
+    "nonprofit_officer_comp_usd": 47800000,
+    "nonprofit_orgs": 19,
+    "psc_commissioners_from_clean_energy": 4,
+    "psc_total_commissioners": 7,
+    "fec_total_usd": 32200000,
+    "fec_donations": 194964
+  },
+  "top_findings": [
+    "New York electricity rates are 49.7% above the national average (EIA 2024: 25.19¢ vs 16.83¢/kWh)",
+    "Clean energy mandates account for only 4.7% of rate increases ($187M of $4.0B) — infrastructure, profits, and storm costs drive 63%",
+    "Utilities spent $75.7M lobbying the PSC, 87.7% on rate-related proceedings",
+    "$36.8B in shareholder dividends paid 2015–2024 — 5.3× the clean energy surcharge",
+    "4 of 7 PSC commissioners came from clean energy organizations",
+    "Energy sector donated $8.32M to state campaigns across 46 entities",
+    "CEO compensation grew 64% while rates grew 42% (2015–2024)",
+    "Consumer complaints surged 84% (2019–2024); billing complaints +120%"
+  ],
+  "regulatory_capture": {
+    "psc_chair_utility": "KeySpan Energy (now National Grid)",
+    "commissioners_from_clean_energy_orgs": ["EDF ($247M)", "NRDC ($193M)", "IREC ($7.4M)", "DEC"],
+    "revolving_door_examples": []
+  }
+}

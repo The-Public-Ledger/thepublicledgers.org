@@ -1,0 +1,349 @@
+{{ define "main" }}
+{{ $slug := .Params.deep_dive_slug }}
+{{ $data := index site.Data.deep_dives $slug }}
+
+<article class="section" data-pagefind-meta="investigation:{{ .Title }}">
+  <div class="container container--narrow">
+    <a href="/deep-dives/" class="back-link">← Deep Dives</a>
+
+    <header class="page-header">
+      <div class="page-header__meta">
+        <span class="section-label">Deep Dive</span>
+        {{ with .Params.status }}{{ partial "status-badge.html" . }}{{ end }}
+      </div>
+      <h1>{{ .Title }}</h1>
+      <p class="lead">{{ .Description }}</p>
+      {{ with .Date }}<p class="article-date">{{ if or (eq $.Params.status "active") (eq $.Params.status "complete") }}Published{{ else }}Updated{{ end }} {{ .Format "January 2, 2006" }}</p>{{ end }}
+    </header>
+
+    {{ if $data }}
+    {{ with $data.key_stats }}
+    {{ $stats := . }}
+    <div class="totals-bar">
+      {{ with $stats.ny_rate_cents_per_kwh }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ . }}¢</span>
+        <span class="totals-bar__label">NY rate / kWh</span>
+      </div>
+      {{ end }}
+      {{ with $stats.premium_pct }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ . }}%</span>
+        <span class="totals-bar__label">above national average</span>
+      </div>
+      {{ end }}
+      {{ with $stats.lobbying_total_usd }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">${{ printf "%.1f" (div . 1000000.0) }}M</span>
+        <span class="totals-bar__label">lobbying spend</span>
+      </div>
+      {{ end }}
+      {{ with $stats.fec_records }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ . }}</span>
+        <span class="totals-bar__label">FEC records matched</span>
+      </div>
+      {{ end }}
+      {{ with $stats.donor_index_records }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ printf "%.1f" (div . 1000000.0) }}M</span>
+        <span class="totals-bar__label">donor index records</span>
+      </div>
+      {{ end }}
+      {{/* Faith investigation stats */}}
+      {{ with $stats.desert_counties }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ . }}</span>
+        <span class="totals-bar__label">counties — religious-only ER</span>
+      </div>
+      {{ end }}
+      {{ with $stats.public_funding_usd }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">${{ printf "%.0f" (div . 1000000000.0) }}B</span>
+        <span class="totals-bar__label">public funding to sole religious ERs</span>
+      </div>
+      {{ end }}
+      {{ with $stats.double_capture_counties }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ . }}</span>
+        <span class="totals-bar__label">double-capture counties</span>
+      </div>
+      {{ end }}
+      {{ with $stats.tubal_ligation_gap_pct }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">+{{ . }}pp</span>
+        <span class="totals-bar__label">tubal ligation gap (religious vs. secular)</span>
+      </div>
+      {{ end }}
+      {{/* Malpractice stats */}}
+      {{ with $stats.excluded_active }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ . }}</span>
+        <span class="totals-bar__label">excluded physicians — active NPI</span>
+      </div>
+      {{ end }}
+      {{ with $stats.patient_abuse }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value totals-bar__value--danger">{{ . }}</span>
+        <span class="totals-bar__label">patient abuse convictions</span>
+      </div>
+      {{ end }}
+      {{ with $stats.state_migrants }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ . }}</span>
+        <span class="totals-bar__label">migrated post-exclusion</span>
+      </div>
+      {{ end }}
+      {{ with $stats.industry_payments_usd }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">${{ printf "%.1f" (div . 1000000.0) }}M</span>
+        <span class="totals-bar__label">industry payments to excluded MDs</span>
+      </div>
+      {{ end }}
+      {{/* Charter School stats */}}
+      {{ with $stats.school_count }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ . }}</span>
+        <span class="totals-bar__label">charter schools tracked</span>
+      </div>
+      {{ end }}
+      {{ with $stats.total_enrollment }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ . }}</span>
+        <span class="totals-bar__label">students enrolled</span>
+      </div>
+      {{ end }}
+      {{/* Nursing Home stats */}}
+      {{ with $stats.facility_count }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ . }}</span>
+        <span class="totals-bar__label">nursing homes tracked</span>
+      </div>
+      {{ end }}
+      {{ with $stats.low_rated_count }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value totals-bar__value--danger">{{ . }}</span>
+        <span class="totals-bar__label">below-average rated</span>
+      </div>
+      {{ end }}
+      {{ with $stats.total_penalties_usd }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">
+          {{- if ge . 1000000000.0 -}}
+            ${{ printf "%.1f" (div . 1000000000.0) }}B
+          {{- else if ge . 1000000.0 -}}
+            ${{ printf "%.1f" (div . 1000000.0) }}M
+          {{- else -}}
+            ${{ printf "%.0f" (div . 1000.0) }}K
+          {{- end -}}
+        </span>
+        <span class="totals-bar__label">total penalties</span>
+      </div>
+      {{ end }}
+      {{/* Shared: FEC + PPP (charter & nursing home) */}}
+      {{ with $stats.fec_total_usd }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">
+          {{- if ge . 1000000.0 -}}
+            ${{ printf "%.1f" (div . 1000000.0) }}M
+          {{- else -}}
+            ${{ printf "%.0f" (div . 1000.0) }}K
+          {{- end -}}
+        </span>
+        <span class="totals-bar__label">FEC contributions</span>
+      </div>
+      {{ end }}
+      {{ with $stats.ppp_total_usd }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">
+          {{- if ge . 1000000.0 -}}
+            ${{ printf "%.1f" (div . 1000000.0) }}M
+          {{- else -}}
+            ${{ printf "%.0f" (div . 1000.0) }}K
+          {{- end -}}
+        </span>
+        <span class="totals-bar__label">PPP loans</span>
+      </div>
+      {{ end }}
+      {{/* Water/Environmental stats */}}
+      {{ with $stats.total_facilities }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ printf "%.0f" (div . 1000.0) }}K</span>
+        <span class="totals-bar__label">EPA-regulated facilities</span>
+      </div>
+      {{ end }}
+      {{ with $stats.total_violations }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ printf "%.1f" (div . 1000000.0) }}M</span>
+        <span class="totals-bar__label">violations documented</span>
+      </div>
+      {{ end }}
+      {{ with $stats.serious_violators }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value totals-bar__value--danger">{{ . }}</span>
+        <span class="totals-bar__label">serious violators</span>
+      </div>
+      {{ end }}
+      {{ with $stats.poc_penalty_disparity_ratio }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ printf "%.1f" . }}x</span>
+        <span class="totals-bar__label">penalty disparity — communities of color</span>
+      </div>
+      {{ end }}
+      {{ with $stats.lowinc_health_disparity_ratio }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">{{ printf "%.1f" . }}x</span>
+        <span class="totals-bar__label">health violation rate — low-income areas</span>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ with $data.top_findings }}
+    <section class="findings-section">
+      <h2>Key Findings</h2>
+      <ul class="findings-list">
+        {{ range . }}<li>{{ . }}</li>{{ end }}
+      </ul>
+    </section>
+    {{ end }}
+    {{ end }}
+
+    <div class="content prose">
+      {{ .Content }}
+    </div>
+
+    {{ with .Params.sources }}
+    {{ partial "ida/source-citation.html" (dict "sources" . "date" ($.Date.Format "2006-01-02")) }}
+    {{ end }}
+
+    <div class="deep-dive-nav">
+      <a href="/deep-dives/" class="btn btn--secondary">← All Deep Dives</a>
+    </div>
+  </div>
+
+  {{/* Per-investigation data explorer — wider container */}}
+  <div class="container">
+    {{ if eq $slug "water" }}
+      {{ partial "data-explorer.html" (dict
+        "id" "water-explorer"
+        "title" "Explore EPA Facility Data"
+        "description" "Top violating facilities by state — violation counts, penalties, and enforcement gaps."
+        "jsonUrl" "/data/water_top_50_violators.csv"
+        "csvUrl" "/data/water_top_50_violators.csv"
+        "columns" (slice
+          (dict "key" "facility_name" "label" "Facility" "type" "text")
+          (dict "key" "state" "label" "State" "type" "text")
+          (dict "key" "total_violations" "label" "Violations" "type" "num")
+          (dict "key" "total_penalties" "label" "Penalties" "type" "money")
+          (dict "key" "serious_violations" "label" "Serious" "type" "num")
+        )
+        "stateField" "state"
+        "countyField" ""
+        "context" ""
+      ) }}
+    {{ end }}
+
+    {{ if eq $slug "nursing_home" }}
+      {{ partial "data-explorer.html" (dict
+        "id" "nh-explorer"
+        "title" "Explore Nursing Home Political Spending"
+        "description" "FEC contributions by nursing home owners and executives."
+        "jsonUrl" "/data/nursing_home_owner_fec.csv"
+        "csvUrl" "/data/nursing_home_owner_fec.csv"
+        "columns" (slice
+          (dict "key" "owner_name" "label" "Owner/Executive" "type" "text")
+          (dict "key" "state" "label" "State" "type" "text")
+          (dict "key" "role" "label" "Role" "type" "text")
+          (dict "key" "total_fec_usd" "label" "FEC Amount" "type" "money")
+          (dict "key" "facilities" "label" "Facilities" "type" "num")
+        )
+        "stateField" "state"
+        "countyField" ""
+        "context" ""
+      ) }}
+    {{ end }}
+
+    {{ if eq $slug "charter_school" }}
+      {{ partial "data-explorer.html" (dict
+        "id" "charter-explorer"
+        "title" "Explore Charter School Data"
+        "description" "Charter school lease flags and financial risk indicators."
+        "jsonUrl" "/data/charter_lease_flags.csv"
+        "csvUrl" "/data/charter_lease_flags.csv"
+        "columns" (slice
+          (dict "key" "school_name" "label" "School" "type" "text")
+          (dict "key" "state" "label" "State" "type" "text")
+          (dict "key" "flag_type" "label" "Flag" "type" "text")
+          (dict "key" "lease_amount" "label" "Lease Amount" "type" "money")
+          (dict "key" "enrollment" "label" "Enrollment" "type" "num")
+        )
+        "stateField" "state"
+        "countyField" ""
+        "context" ""
+      ) }}
+    {{ end }}
+
+    {{ if eq $slug "opioid_settlement" }}
+      {{ partial "data-explorer.html" (dict
+        "id" "opioid-explorer"
+        "title" "Explore Opioid Settlement Spending"
+        "description" "Top recipients of opioid settlement funds by state."
+        "jsonUrl" "/data/opioid_top_recipients.csv"
+        "csvUrl" "/data/opioid_top_recipients.csv"
+        "columns" (slice
+          (dict "key" "recipient" "label" "Recipient" "type" "text")
+          (dict "key" "state" "label" "State" "type" "text")
+          (dict "key" "amount_usd" "label" "Amount" "type" "money")
+          (dict "key" "category" "label" "Category" "type" "text")
+        )
+        "stateField" "state"
+        "countyField" ""
+        "context" ""
+      ) }}
+    {{ end }}
+
+    {{ if eq $slug "nys_power" }}
+      {{ partial "data-explorer.html" (dict
+        "id" "power-explorer"
+        "title" "Explore NY Utility Rate Data"
+        "description" "Rate increase history and cost decomposition for NY utility companies."
+        "jsonUrl" "/data/power_rate_increase_history.csv"
+        "csvUrl" "/data/power_rate_increase_history.csv"
+        "columns" (slice
+          (dict "key" "company" "label" "Company" "type" "text")
+          (dict "key" "year" "label" "Year" "type" "text")
+          (dict "key" "rate_cents" "label" "Rate (¢/kWh)" "type" "num")
+          (dict "key" "increase_pct" "label" "Increase %" "type" "num")
+        )
+        "stateField" ""
+        "countyField" ""
+        "context" ""
+      ) }}
+    {{ end }}
+
+    {{ if eq $slug "faith" }}
+      {{ partial "data-explorer.html" (dict
+        "id" "faith-explorer"
+        "title" "Explore Religious Healthcare Deserts"
+        "description" "Counties where the only emergency room is operated by a religious health system. Filter by state or search by hospital name."
+        "jsonUrl" "/data/faith_deserts.csv"
+        "csvUrl" "/data/faith_deserts.csv"
+        "columns" (slice
+          (dict "key" "county_name" "label" "County" "type" "text")
+          (dict "key" "state" "label" "State" "type" "text")
+          (dict "key" "religious_hospital_names" "label" "Hospital" "type" "text")
+          (dict "key" "parent_system" "label" "System" "type" "text")
+          (dict "key" "denomination" "label" "Denomination" "type" "text")
+          (dict "key" "population" "label" "Population" "type" "num")
+          (dict "key" "public_funding_total" "label" "Public Funding" "type" "money")
+          (dict "key" "beds" "label" "Beds" "type" "num")
+        )
+        "stateField" "state"
+        "countyField" ""
+        "context" ""
+      ) }}
+    {{ end }}
+  </div>
+</article>
+{{ end }}

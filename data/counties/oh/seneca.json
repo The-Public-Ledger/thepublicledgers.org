@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Seneca",
+    "county_slug": "seneca",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 6.43,
+    "total_exemptions_usd": 1141066.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2671.19,
+    "total_beneficiaries": 12,
+    "num_donor_beneficiaries": 3,
+    "donor_rate_pct": 25.0,
+    "total_donations_usd": 17576.49,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 64001596.99,
+    "households": 23960,
+    "bundling_clusters": 115,
+    "round_trips": 0,
+    "multi_dippers": 0,
+    "num_awards": 20
+  },
+  "benchmarks": {
+    "state_rank": 65,
+    "state_total_counties": 88,
+    "state_percentile": 26,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Seneca County ranks 65th out of 88 Ohio counties for total tax exemptions, with $1.1M in property tax breaks — below the state median. 25% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,671.",
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

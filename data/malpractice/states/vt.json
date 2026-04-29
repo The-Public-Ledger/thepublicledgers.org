@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "state_abbr": "VT",
+    "state_name": "Vermont",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 3,
+    "physician_population": 2825,
+    "per_1000_physicians": 1.062,
+    "double_flagged": 2,
+    "industry_payments_usd": 0
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 3
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "MA",
+      "to_name": "Massachusetts",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "BLOHM, EIKE nan",
+      "npi": "1215227467",
+      "score": 62.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2022-11-20",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
+      "name": "COATES, JOHN BOYD",
+      "npi": "1669425336",
+      "score": 47.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2022-11-20",
+      "specialty": "GYN/OBS"
+    },
+    {
+      "name": "FRANK, LOUIS JAY nan",
+      "npi": "1245270776",
+      "score": 41.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2012-05-20",
+      "specialty": "PSYCHIATRY"
+    }
+  ],
+  "industry_payments": []
+}

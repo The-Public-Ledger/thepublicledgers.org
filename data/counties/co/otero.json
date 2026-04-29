@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "CO",
+    "state_name": "Colorado",
+    "county": "Otero",
+    "county_slug": "otero",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 2.65,
+    "total_exemptions_usd": 1680000.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 246.79,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 0,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 21,
+    "warn_workers_affected": 0,
+    "fips_county": "089"
+  },
+  "benchmarks": {
+    "state_rank": 24,
+    "state_total_counties": 65,
+    "state_percentile": 63,
+    "state_median_subsidy_usd": 5169064.0,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 277.95,
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Otero County ranks 24th out of 65 Colorado counties for total tax exemptions, with $1.7M in property tax breaks — below the state median. The per-household cost of these subsidies is $247.",
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

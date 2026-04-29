@@ -1,0 +1,26 @@
+{
+  "state": "DC",
+  "facilities": 448,
+  "water_systems": 8,
+  "total_violations": 168,
+  "health_violations": 34,
+  "total_penalties": 487226.0,
+  "avg_penalty": 1087.56,
+  "violation_rate": 0.1674,
+  "enforcement_gap_score": 0.1796,
+  "serious_violators": 1,
+  "tri_facilities": 1,
+  "tri_releases_lbs": 3000.0,
+  "top_counties": [
+    {
+      "fips": "11001",
+      "name": "DISTRICT OF COLUMBIA",
+      "facilities": 440,
+      "total_violations": 81,
+      "health_violations": 12,
+      "total_penalties": 487226.0,
+      "enforcement_gap_score": 0.0874
+    }
+  ],
+  "top_violators": []
+}

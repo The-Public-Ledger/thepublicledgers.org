@@ -1,0 +1,107 @@
+{
+  "state": "WI",
+  "facilities": 9191,
+  "water_systems": 6580,
+  "total_violations": 28580,
+  "health_violations": 4675,
+  "total_penalties": 18448630.0,
+  "avg_penalty": 2007.25,
+  "violation_rate": 0.5937,
+  "enforcement_gap_score": 1.034,
+  "serious_violators": 25,
+  "tri_facilities": 659,
+  "tri_releases_lbs": 394089112.0,
+  "top_counties": [
+    {
+      "fips": "55133",
+      "name": "WAUKESHA",
+      "facilities": 133,
+      "total_violations": 621,
+      "health_violations": 897,
+      "total_penalties": 17500.0,
+      "enforcement_gap_score": 4.1262
+    },
+    {
+      "fips": "55003",
+      "name": "ASHLAND",
+      "facilities": 21,
+      "total_violations": 17,
+      "health_violations": 38,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.8095
+    },
+    {
+      "fips": "55069",
+      "name": "LINCOLN",
+      "facilities": 26,
+      "total_violations": 17,
+      "health_violations": 20,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.6538
+    },
+    {
+      "fips": "55115",
+      "name": "SHAWANO",
+      "facilities": 57,
+      "total_violations": 33,
+      "health_violations": 11,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5789
+    },
+    {
+      "fips": "55027",
+      "name": "DODGE",
+      "facilities": 63,
+      "total_violations": 36,
+      "health_violations": 78,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5714
+    },
+    {
+      "fips": "55081",
+      "name": "MONROE",
+      "facilities": 28,
+      "total_violations": 16,
+      "health_violations": 44,
+      "total_penalties": 10340.0,
+      "enforcement_gap_score": 0.4173
+    },
+    {
+      "fips": "55055",
+      "name": "JEFFERSON",
+      "facilities": 51,
+      "total_violations": 18,
+      "health_violations": 52,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3529
+    },
+    {
+      "fips": "55078",
+      "name": "MENOMINEE",
+      "facilities": 3,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3333
+    },
+    {
+      "fips": "55107",
+      "name": "RUSK",
+      "facilities": 22,
+      "total_violations": 7,
+      "health_violations": 9,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3182
+    },
+    {
+      "fips": "55017",
+      "name": "CHIPPEWA",
+      "facilities": 43,
+      "total_violations": 11,
+      "health_violations": 18,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2558
+    }
+  ],
+  "top_violators": []
+}

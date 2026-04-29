@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Concord",
+    "county_slug": "concord",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 59.13,
+    "total_exemptions_usd": 146915.0,
+    "net_exemptions_usd": 17210.18,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 4,
+    "num_donor_beneficiaries": 3,
+    "donor_rate_pct": 75.0,
+    "total_donations_usd": 3728.0,
+    "jobs_promised": 284,
+    "jobs_current": 389,
+    "total_projects": 7,
+    "num_officials_receiving": 1,
+    "official_total_received_usd": 250.0,
+    "num_pipelines": 1
+  },
+  "benchmarks": {
+    "state_rank": 102,
+    "state_total_counties": 104,
+    "state_percentile": 2,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "2.9× the state average"
+  },
+  "narrative": {
+    "summary": "Concord County ranks 102nd out of 104 New York counties for total tax exemptions, with $147K in property tax breaks — below the state median. 75% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "2.9× the state average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

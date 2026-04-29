@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "state_abbr": "OK",
+    "state_name": "Oklahoma",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 25,
+    "physician_population": 11584,
+    "per_1000_physicians": 2.158,
+    "double_flagged": 2,
+    "industry_payments_usd": 3098734.0399999996
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 8
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 7
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 4
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 3
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 1
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 1
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "IA",
+      "from_name": "Iowa",
+      "count": 1
+    },
+    {
+      "from_state": "KS",
+      "from_name": "Kansas",
+      "count": 1
+    },
+    {
+      "from_state": "CO",
+      "from_name": "Colorado",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 2
+    },
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
+      "count": 2
+    },
+    {
+      "to_state": "OH",
+      "to_name": "Ohio",
+      "count": 1
+    },
+    {
+      "to_state": "KY",
+      "to_name": "Kentucky",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "FRANK, ALEXANDER FREDRICK",
+      "npi": "1164450573",
+      "score": 75.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2025-08-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "GREER, STEPHEN LESTER",
+      "npi": "1609933100",
+      "score": 74.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2020-06-18",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "ROBISON, MELVIN L",
+      "npi": "1790887529",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2023-02-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "BHARUCHA, KERSI J",
+      "npi": "1811965783",
+      "score": 59.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2020-06-18",
+      "specialty": "NEUROLOGY"
+    },
+    {
+      "name": "CAMERON, JENNIFER RENE",
+      "npi": "1912951716",
+      "score": 59.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2016-11-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "ONARO, NELSON C",
+      "npi": "1699783712",
+      "score": 59.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-05-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "PATEL, NARESHKUMAR G",
+      "npi": "1740473933",
+      "score": 54.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2016-12-20",
+      "specialty": "GYN/OBS"
+    },
+    {
+      "name": "JENKINS, HARVEY CLARKE",
+      "npi": "1124060199",
+      "score": 53.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-01-18",
+      "specialty": "ORTHOPEDICS"
+    },
+    {
+      "name": "MOSES, CHRISTOPHER VINCENT",
+      "npi": "1801838826",
+      "score": 53.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-02-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "THOMAS, JEREMY D",
+      "npi": "1386670081",
+      "score": 53.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2020-02-20",
+      "specialty": "SURGERY"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "FRANK, ALEXANDER FREDRICK",
+      "npi": "1164450573",
+      "total_usd": 3096904.69,
+      "payment_count": 311,
+      "companies": 27
+    },
+    {
+      "name": "ONARO, NELSON C",
+      "npi": "1699783712",
+      "total_usd": 688.55,
+      "payment_count": 33,
+      "companies": 14
+    },
+    {
+      "name": "HENRY, MILLARD LAFAYETTE",
+      "npi": "1275983777",
+      "total_usd": 658.8,
+      "payment_count": 30,
+      "companies": 15
+    },
+    {
+      "name": "PATEL, NARESHKUMAR G",
+      "npi": "1740473933",
+      "total_usd": 216.65,
+      "payment_count": 5,
+      "companies": 1
+    },
+    {
+      "name": "CRUSE, ANTHONY nan",
+      "npi": "1235139692",
+      "total_usd": 213.13,
+      "payment_count": 3,
+      "companies": 3
+    },
+    {
+      "name": "WALKER, JAMES D",
+      "npi": "1225023450",
+      "total_usd": 36.29,
+      "payment_count": 2,
+      "companies": 2
+    },
+    {
+      "name": "JAMES, ANDREA nan",
+      "npi": "1932312691",
+      "total_usd": 15.93,
+      "payment_count": 1,
+      "companies": 1
+    }
+  ]
+}

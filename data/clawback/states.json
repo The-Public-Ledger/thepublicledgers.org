@@ -1,0 +1,338 @@
+[
+  {
+    "state": "TX",
+    "companies": 126,
+    "workers": 48988,
+    "subsidy": 8246179926.0,
+    "matches": 324
+  },
+  {
+    "state": "CA",
+    "companies": 110,
+    "workers": 34850,
+    "subsidy": 491250698.0,
+    "matches": 270
+  },
+  {
+    "state": "NJ",
+    "companies": 62,
+    "workers": 28313,
+    "subsidy": 412635000.0,
+    "matches": 317
+  },
+  {
+    "state": "LA",
+    "companies": 53,
+    "workers": 26820,
+    "subsidy": 196148148.0,
+    "matches": 146
+  },
+  {
+    "state": "NY",
+    "companies": 126,
+    "workers": 25991,
+    "subsidy": 12187951526.0,
+    "matches": 460
+  },
+  {
+    "state": "IL",
+    "companies": 56,
+    "workers": 25883,
+    "subsidy": 9510373.0,
+    "matches": 130
+  },
+  {
+    "state": "FL",
+    "companies": 69,
+    "workers": 24942,
+    "subsidy": 1140000000.0,
+    "matches": 154
+  },
+  {
+    "state": "NC",
+    "companies": 62,
+    "workers": 17200,
+    "subsidy": 387890250.0,
+    "matches": 146
+  },
+  {
+    "state": "OK",
+    "companies": 48,
+    "workers": 15031,
+    "subsidy": 254801810.0,
+    "matches": 132
+  },
+  {
+    "state": "CO",
+    "companies": 58,
+    "workers": 14837,
+    "subsidy": 49082442.0,
+    "matches": 149
+  },
+  {
+    "state": "TN",
+    "companies": 53,
+    "workers": 14510,
+    "subsidy": 67510214.0,
+    "matches": 112
+  },
+  {
+    "state": "VA",
+    "companies": 42,
+    "workers": 12444,
+    "subsidy": 24796849.0,
+    "matches": 102
+  },
+  {
+    "state": "IN",
+    "companies": 47,
+    "workers": 11770,
+    "subsidy": 298000000.0,
+    "matches": 82
+  },
+  {
+    "state": "AZ",
+    "companies": 52,
+    "workers": 11385,
+    "subsidy": 171918000.0,
+    "matches": 130
+  },
+  {
+    "state": "KY",
+    "companies": 44,
+    "workers": 11183,
+    "subsidy": 103000000.0,
+    "matches": 84
+  },
+  {
+    "state": "MD",
+    "companies": 40,
+    "workers": 10707,
+    "subsidy": 20033790.0,
+    "matches": 309
+  },
+  {
+    "state": "PA",
+    "companies": 47,
+    "workers": 10545,
+    "subsidy": 11334248.0,
+    "matches": 282
+  },
+  {
+    "state": "MO",
+    "companies": 37,
+    "workers": 9592,
+    "subsidy": 160000000.0,
+    "matches": 82
+  },
+  {
+    "state": "AR",
+    "companies": 24,
+    "workers": 9323,
+    "subsidy": 95573203.0,
+    "matches": 57
+  },
+  {
+    "state": "MS",
+    "companies": 22,
+    "workers": 8987,
+    "subsidy": 2700000.0,
+    "matches": 69
+  },
+  {
+    "state": "WI",
+    "companies": 25,
+    "workers": 8425,
+    "subsidy": 87500000.0,
+    "matches": 65
+  },
+  {
+    "state": "OR",
+    "companies": 39,
+    "workers": 8317,
+    "subsidy": 64545134.0,
+    "matches": 102
+  },
+  {
+    "state": "KS",
+    "companies": 33,
+    "workers": 7923,
+    "subsidy": 188361700.0,
+    "matches": 76
+  },
+  {
+    "state": "ME",
+    "companies": 33,
+    "workers": 7841,
+    "subsidy": 6911353.0,
+    "matches": 238
+  },
+  {
+    "state": "MI",
+    "companies": 32,
+    "workers": 6570,
+    "subsidy": 62929000.0,
+    "matches": 61
+  },
+  {
+    "state": "WA",
+    "companies": 27,
+    "workers": 6488,
+    "subsidy": 1483046523.0,
+    "matches": 70
+  },
+  {
+    "state": "GA",
+    "companies": 26,
+    "workers": 5112,
+    "subsidy": 100000000.0,
+    "matches": 53
+  },
+  {
+    "state": "UT",
+    "companies": 27,
+    "workers": 5008,
+    "subsidy": 166835627.0,
+    "matches": 59
+  },
+  {
+    "state": "SC",
+    "companies": 33,
+    "workers": 4941,
+    "subsidy": 24300000.0,
+    "matches": 64
+  },
+  {
+    "state": "CT",
+    "companies": 17,
+    "workers": 3813,
+    "subsidy": 345000000.0,
+    "matches": 39
+  },
+  {
+    "state": "WV",
+    "companies": 17,
+    "workers": 3728,
+    "subsidy": 51869.0,
+    "matches": 36
+  },
+  {
+    "state": "IA",
+    "companies": 29,
+    "workers": 3338,
+    "subsidy": 56000000.0,
+    "matches": 59
+  },
+  {
+    "state": "MN",
+    "companies": 19,
+    "workers": 2479,
+    "subsidy": 585371922.0,
+    "matches": 48
+  },
+  {
+    "state": "NE",
+    "companies": 16,
+    "workers": 2275,
+    "subsidy": 11721210.0,
+    "matches": 33
+  },
+  {
+    "state": "NM",
+    "companies": 17,
+    "workers": 2195,
+    "subsidy": 50373337.0,
+    "matches": 42
+  },
+  {
+    "state": "AL",
+    "companies": 14,
+    "workers": 2006,
+    "subsidy": 3050000.0,
+    "matches": 32
+  },
+  {
+    "state": "MT",
+    "companies": 4,
+    "workers": 1903,
+    "subsidy": 1000000.0,
+    "matches": 8
+  },
+  {
+    "state": "MA",
+    "companies": 13,
+    "workers": 1812,
+    "subsidy": 2475000.0,
+    "matches": 22
+  },
+  {
+    "state": "HI",
+    "companies": 5,
+    "workers": 1612,
+    "subsidy": 5500.0,
+    "matches": 10
+  },
+  {
+    "state": "DE",
+    "companies": 11,
+    "workers": 1435,
+    "subsidy": 15300000.0,
+    "matches": 19
+  },
+  {
+    "state": "RI",
+    "companies": 8,
+    "workers": 1345,
+    "subsidy": 480000.0,
+    "matches": 15
+  },
+  {
+    "state": "NH",
+    "companies": 5,
+    "workers": 985,
+    "subsidy": 68500.0,
+    "matches": 9
+  },
+  {
+    "state": "NV",
+    "companies": 8,
+    "workers": 913,
+    "subsidy": 2750636.0,
+    "matches": 8
+  },
+  {
+    "state": "SD",
+    "companies": 7,
+    "workers": 778,
+    "subsidy": 1085630.0,
+    "matches": 11
+  },
+  {
+    "state": "ND",
+    "companies": 1,
+    "workers": 473,
+    "subsidy": 19265.0,
+    "matches": 9
+  },
+  {
+    "state": "VT",
+    "companies": 7,
+    "workers": 472,
+    "subsidy": 1945642.0,
+    "matches": 9
+  },
+  {
+    "state": "ID",
+    "companies": 4,
+    "workers": 418,
+    "subsidy": 450000.0,
+    "matches": 11
+  },
+  {
+    "state": "AK",
+    "companies": 2,
+    "workers": 274,
+    "subsidy": 28000000.0,
+    "matches": 2
+  }
+]

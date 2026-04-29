@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "state_abbr": "NM",
+    "state_name": "New Mexico",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 17,
+    "physician_population": 7148,
+    "per_1000_physicians": 2.378,
+    "double_flagged": 2,
+    "industry_payments_usd": 98879.84999999999
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 12
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 2
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 2
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "CO",
+      "from_name": "Colorado",
+      "count": 1
+    },
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 1
+    },
+    {
+      "from_state": "WA",
+      "from_name": "Washington",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
+      "count": 1
+    },
+    {
+      "to_state": "WV",
+      "to_name": "West Virginia",
+      "count": 1
+    },
+    {
+      "to_state": "AR",
+      "to_name": "Arkansas",
+      "count": 1
+    },
+    {
+      "to_state": "CO",
+      "to_name": "Colorado",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "LEVITT, KEITH nan",
+      "npi": "1922346428",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-04-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "JAIN, PAWANKUMAR nan",
+      "npi": "1255404471",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2020-07-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "BEALE, MARK D",
+      "npi": "1164547709",
+      "score": 62.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2022-10-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "HEYWOOD, GLENROY nan",
+      "npi": "1386665529",
+      "score": 59.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2020-02-20",
+      "specialty": "SURGERY"
+    },
+    {
+      "name": "ARAGON, GILBERT CHRISTOPHER",
+      "npi": "1417917816",
+      "score": 50.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2013-08-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "ERASMUS, MARK D",
+      "npi": "1407879513",
+      "score": 50.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2025-12-18",
+      "specialty": "NEUROLOGY"
+    },
+    {
+      "name": "ASWAD, MOHAMED BASEL",
+      "npi": "1871571406",
+      "score": 47.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2016-01-20",
+      "specialty": "ONCOLOGY"
+    },
+    {
+      "name": "HADZIC, EJUB CARLOS",
+      "npi": "1164474797",
+      "score": 44.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2017-06-20",
+      "specialty": "RADIOLOGY"
+    },
+    {
+      "name": "RUTSCHMAN, ROBERT F",
+      "npi": "1750374112",
+      "score": 44.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2020-02-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "THYAGARAJ, SUJAN nan",
+      "npi": "1063611499",
+      "score": 44.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2018-01-18",
+      "specialty": "PSYCHIATRY"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "GELINAS, CLAUDE D",
+      "npi": "1528034378",
+      "total_usd": 90447.26,
+      "payment_count": 5,
+      "companies": 1
+    },
+    {
+      "name": "ERASMUS, MARK D",
+      "npi": "1407879513",
+      "total_usd": 5910.84,
+      "payment_count": 150,
+      "companies": 33
+    },
+    {
+      "name": "ASWAD, MOHAMED BASEL",
+      "npi": "1871571406",
+      "total_usd": 1042.85,
+      "payment_count": 17,
+      "companies": 9
+    },
+    {
+      "name": "BEALE, MARK D",
+      "npi": "1164547709",
+      "total_usd": 864.45,
+      "payment_count": 45,
+      "companies": 9
+    },
+    {
+      "name": "LEVITT, KEITH nan",
+      "npi": "1922346428",
+      "total_usd": 328.89,
+      "payment_count": 13,
+      "companies": 6
+    },
+    {
+      "name": "YASIN, FARES FEHMI",
+      "npi": "1255427472",
+      "total_usd": 200.17,
+      "payment_count": 17,
+      "companies": 3
+    },
+    {
+      "name": "BRANDT, DANIEL J",
+      "npi": "1811070006",
+      "total_usd": 85.39,
+      "payment_count": 1,
+      "companies": 1
+    }
+  ]
+}

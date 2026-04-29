@@ -1,0 +1,107 @@
+{
+  "state": "VA",
+  "facilities": 5719,
+  "water_systems": 2721,
+  "total_violations": 24246,
+  "health_violations": 3511,
+  "total_penalties": 42615220.0,
+  "avg_penalty": 7451.52,
+  "violation_rate": 0.4296,
+  "enforcement_gap_score": 0.5016,
+  "serious_violators": 6,
+  "tri_facilities": 370,
+  "tri_releases_lbs": 1577057964.0,
+  "top_counties": [
+    {
+      "fips": "51093",
+      "name": "ISLE OF WIGHT",
+      "facilities": 22,
+      "total_violations": 28,
+      "health_violations": 1,
+      "total_penalties": 4834.0,
+      "enforcement_gap_score": 1.0435
+    },
+    {
+      "fips": "51081",
+      "name": "EMPORIA (CITY)",
+      "facilities": 11,
+      "total_violations": 11,
+      "health_violations": 89,
+      "total_penalties": 20788.0,
+      "enforcement_gap_score": 0.346
+    },
+    {
+      "fips": "51155",
+      "name": "PULASKI",
+      "facilities": 29,
+      "total_violations": 7,
+      "health_violations": 92,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2414
+    },
+    {
+      "fips": "51043",
+      "name": "CLARKE",
+      "facilities": 14,
+      "total_violations": 3,
+      "health_violations": 2,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2143
+    },
+    {
+      "fips": "51079",
+      "name": "GREENE",
+      "facilities": 9,
+      "total_violations": 3,
+      "health_violations": 1,
+      "total_penalties": 6908.0,
+      "enforcement_gap_score": 0.1886
+    },
+    {
+      "fips": "51025",
+      "name": "BRUNSWICK",
+      "facilities": 11,
+      "total_violations": 4,
+      "health_violations": 59,
+      "total_penalties": 16030.0,
+      "enforcement_gap_score": 0.148
+    },
+    {
+      "fips": "51077",
+      "name": "GRAYSON COUNTY",
+      "facilities": 16,
+      "total_violations": 3,
+      "health_violations": 9,
+      "total_penalties": 5074.0,
+      "enforcement_gap_score": 0.1424
+    },
+    {
+      "fips": "51113",
+      "name": "MADISON",
+      "facilities": 15,
+      "total_violations": 2,
+      "health_violations": 10,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1333
+    },
+    {
+      "fips": "51097",
+      "name": "",
+      "facilities": 8,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.125
+    },
+    {
+      "fips": "51610",
+      "name": "FALLS CHURCH CITY",
+      "facilities": 9,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 7185.0,
+      "enforcement_gap_score": 0.1236
+    }
+  ],
+  "top_violators": []
+}

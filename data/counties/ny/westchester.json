@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Westchester",
+    "county_slug": "westchester",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 45.44,
+    "total_exemptions_usd": 358038781.04,
+    "net_exemptions_usd": 149706375.04,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 98,
+    "num_donor_beneficiaries": 22,
+    "donor_rate_pct": 22.45,
+    "total_donations_usd": 256419.03,
+    "jobs_promised": 77223,
+    "jobs_current": 91481,
+    "total_projects": 513,
+    "num_officials_receiving": 12,
+    "official_total_received_usd": 148951.33,
+    "num_pipelines": 32
+  },
+  "benchmarks": {
+    "state_rank": 8,
+    "state_total_counties": 104,
+    "state_percentile": 92,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "8.4× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Westchester County ranks 8th out of 104 New York counties for total tax exemptions, with $358.0M in property tax breaks — 8.4× the state median. 22% of subsidy recipients donated to local officials.",
+    "subsidy_context": "8.4× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

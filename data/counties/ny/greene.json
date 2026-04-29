@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Greene",
+    "county_slug": "greene",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 63.4,
+    "total_exemptions_usd": 221345118.6,
+    "net_exemptions_usd": 169501369.6,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 21,
+    "num_donor_beneficiaries": 6,
+    "donor_rate_pct": 28.57,
+    "total_donations_usd": 332018.0,
+    "jobs_promised": 7953,
+    "jobs_current": 9058,
+    "total_projects": 93,
+    "num_officials_receiving": 8,
+    "official_total_received_usd": 193650.0,
+    "num_pipelines": 12
+  },
+  "benchmarks": {
+    "state_rank": 16,
+    "state_total_counties": 104,
+    "state_percentile": 85,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "5.2× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Greene County ranks 16th out of 104 New York counties for total tax exemptions, with $221.3M in property tax breaks — 5.2× the state median. 29% of subsidy recipients donated to local officials.",
+    "subsidy_context": "5.2× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

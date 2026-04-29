@@ -1,0 +1,148 @@
+{
+  "state": "TX",
+  "facilities": 14238,
+  "water_systems": 7937,
+  "total_violations": 230874,
+  "health_violations": 47501,
+  "total_penalties": 638935478.0,
+  "avg_penalty": 44875.37,
+  "violation_rate": 0.5023,
+  "enforcement_gap_score": 0.3535,
+  "serious_violators": 302,
+  "tri_facilities": 950,
+  "tri_releases_lbs": 9355305472.0,
+  "top_counties": [
+    {
+      "fips": "48115",
+      "name": "DAWSON",
+      "facilities": 4,
+      "total_violations": 6,
+      "health_violations": 423,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 1.5
+    },
+    {
+      "fips": "48155",
+      "name": "FOARD",
+      "facilities": 4,
+      "total_violations": 3,
+      "health_violations": 181,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.75
+    },
+    {
+      "fips": "48445",
+      "name": "TERRY",
+      "facilities": 3,
+      "total_violations": 2,
+      "health_violations": 227,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.6667
+    },
+    {
+      "fips": "48357",
+      "name": "OCHILTREE",
+      "facilities": 3,
+      "total_violations": 2,
+      "health_violations": 4,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.6667
+    },
+    {
+      "fips": "48219",
+      "name": "HOCKLEY",
+      "facilities": 9,
+      "total_violations": 5,
+      "health_violations": 764,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5556
+    },
+    {
+      "fips": "48151",
+      "name": "FISHER",
+      "facilities": 4,
+      "total_violations": 2,
+      "health_violations": 60,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5
+    },
+    {
+      "fips": "48305",
+      "name": "LYNN",
+      "facilities": 4,
+      "total_violations": 2,
+      "health_violations": 309,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5
+    },
+    {
+      "fips": "48207",
+      "name": "HASKELL",
+      "facilities": 8,
+      "total_violations": 4,
+      "health_violations": 164,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5
+    },
+    {
+      "fips": "48059",
+      "name": "CALLAHAN COUNTY",
+      "facilities": 9,
+      "total_violations": 4,
+      "health_violations": 253,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4444
+    },
+    {
+      "fips": "48169",
+      "name": "GARZA COUNTY",
+      "facilities": 7,
+      "total_violations": 3,
+      "health_violations": 245,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4286
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "CITY OF MARLIN",
+      "city": "MARLIN",
+      "county": "FALLS",
+      "severity": 80.0,
+      "penalties": 138316.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "BASF CORP - FREEPORT SITE",
+      "city": "FREEPORT",
+      "county": "BRAZORIA",
+      "severity": 75.0,
+      "penalties": 134688.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "GRACE PASADENA CATALYST SITE",
+      "city": "PASADENA",
+      "county": "HARRIS",
+      "severity": 70.0,
+      "penalties": 90300.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "FORMOSA PLASTICS CORPORATION, TEXAS",
+      "city": "POINT COMFORT",
+      "county": "CALHOUN COUNTY",
+      "severity": 65.0,
+      "penalties": 3655889.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "BEECHWOOD WSC",
+      "city": "HEMPHILL",
+      "county": "SABINE",
+      "severity": 65.0,
+      "penalties": 26861.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

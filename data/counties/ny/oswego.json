@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Oswego",
+    "county_slug": "oswego",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 53.2,
+    "total_exemptions_usd": 303401479.7,
+    "net_exemptions_usd": 88315091.7,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 102,
+    "num_donor_beneficiaries": 23,
+    "donor_rate_pct": 22.55,
+    "total_donations_usd": 143705.0,
+    "jobs_promised": 33241,
+    "jobs_current": 33340,
+    "total_projects": 610,
+    "num_officials_receiving": 9,
+    "official_total_received_usd": 28125.0,
+    "num_pipelines": 16
+  },
+  "benchmarks": {
+    "state_rank": 10,
+    "state_total_counties": 104,
+    "state_percentile": 90,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "7.1× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Oswego County ranks 10th out of 104 New York counties for total tax exemptions, with $303.4M in property tax breaks — 7.1× the state median. 23% of subsidy recipients donated to local officials.",
+    "subsidy_context": "7.1× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

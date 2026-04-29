@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "FL",
+    "state_name": "Florida",
+    "county": "Alachua",
+    "county_slug": "alachua",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 3.55,
+    "total_exemptions_usd": 12229500.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 98.82,
+    "total_beneficiaries": 21,
+    "num_donor_beneficiaries": 5,
+    "donor_rate_pct": 23.81,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 25,
+    "warn_workers_affected": 0,
+    "warn_notices": 0
+  },
+  "benchmarks": {
+    "state_rank": 27,
+    "state_total_counties": 78,
+    "state_percentile": 65,
+    "state_median_subsidy_usd": 8033000.0,
+    "state_median_donor_rate": 28.09,
+    "state_median_cost_per_hh": 96.46,
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Alachua County ranks 27th out of 78 Florida counties for total tax exemptions, with $12.2M in property tax breaks — above the state median. 24% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $99.",
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

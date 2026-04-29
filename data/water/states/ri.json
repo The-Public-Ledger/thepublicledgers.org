@@ -1,0 +1,62 @@
+{
+  "state": "RI",
+  "facilities": 1053,
+  "water_systems": 442,
+  "total_violations": 5377,
+  "health_violations": 585,
+  "total_penalties": 1360517.0,
+  "avg_penalty": 1292.04,
+  "violation_rate": 0.3751,
+  "enforcement_gap_score": 2.2279,
+  "serious_violators": 2,
+  "tri_facilities": 196,
+  "tri_releases_lbs": 129494584.0,
+  "top_counties": [
+    {
+      "fips": "44009",
+      "name": "WASHINGTON",
+      "facilities": 129,
+      "total_violations": 29,
+      "health_violations": 60,
+      "total_penalties": 110000.0,
+      "enforcement_gap_score": 0.1213
+    },
+    {
+      "fips": "44003",
+      "name": "KENT COUNTY",
+      "facilities": 81,
+      "total_violations": 16,
+      "health_violations": 19,
+      "total_penalties": 90500.0,
+      "enforcement_gap_score": 0.0933
+    },
+    {
+      "fips": "44007",
+      "name": "PROVIDENCE",
+      "facilities": 291,
+      "total_violations": 49,
+      "health_violations": 52,
+      "total_penalties": 1160017.0,
+      "enforcement_gap_score": 0.0338
+    },
+    {
+      "fips": "44005",
+      "name": "NEWPORT",
+      "facilities": 27,
+      "total_violations": 0,
+      "health_violations": 14,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0
+    },
+    {
+      "fips": "44001",
+      "name": "BRISTOL",
+      "facilities": 15,
+      "total_violations": 0,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0
+    }
+  ],
+  "top_violators": []
+}

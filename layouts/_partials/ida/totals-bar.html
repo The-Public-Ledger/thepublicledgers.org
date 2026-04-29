@@ -1,0 +1,21 @@
+{{ $stats := . }}
+<div class="totals-bar">
+  {{ with $stats.total_exemptions_usd }}
+  <div class="totals-bar__item">
+    <span class="totals-bar__value">${{ div . 1000000 }}M</span>
+    <span class="totals-bar__label">Total exempted</span>
+  </div>
+  {{ end }}
+  {{ with $stats.pct_beneficiaries_donating }}
+  <div class="totals-bar__item">
+    <span class="totals-bar__value">{{ mul . 100 }}%</span>
+    <span class="totals-bar__label">Beneficiaries donating</span>
+  </div>
+  {{ end }}
+  {{ with $stats.cost_per_household_usd }}
+  <div class="totals-bar__item">
+    <span class="totals-bar__value">${{ . }}</span>
+    <span class="totals-bar__label">Per household / year</span>
+  </div>
+  {{ end }}
+</div>

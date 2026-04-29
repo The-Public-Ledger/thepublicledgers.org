@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Erie",
+    "county_slug": "erie",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 58.79,
+    "total_exemptions_usd": 213786203.27,
+    "net_exemptions_usd": 125727095.15,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 237,
+    "num_donor_beneficiaries": 96,
+    "donor_rate_pct": 40.51,
+    "total_donations_usd": 1633412.86,
+    "jobs_promised": 160533,
+    "jobs_current": 311306,
+    "total_projects": 1390,
+    "num_officials_receiving": 21,
+    "official_total_received_usd": 579752.34,
+    "num_pipelines": 141
+  },
+  "benchmarks": {
+    "state_rank": 17,
+    "state_total_counties": 104,
+    "state_percentile": 84,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "5.0× the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Erie County ranks 17th out of 104 New York counties for total tax exemptions, with $213.8M in property tax breaks — 5.0× the state median. 41% of subsidy recipients donated to local officials.",
+    "subsidy_context": "5.0× the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

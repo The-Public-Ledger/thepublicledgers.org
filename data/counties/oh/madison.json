@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Madison",
+    "county_slug": "madison",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 1.2,
+    "total_exemptions_usd": 6165329.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 3002.85,
+    "total_beneficiaries": 5,
+    "num_donor_beneficiaries": 0,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 48811319.45,
+    "households": 16255,
+    "bundling_clusters": 0,
+    "round_trips": 0,
+    "multi_dippers": 0,
+    "num_awards": 14
+  },
+  "benchmarks": {
+    "state_rank": 38,
+    "state_total_counties": 88,
+    "state_percentile": 57,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "above the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Madison County ranks 38th out of 88 Ohio counties for total tax exemptions, with $6.2M in property tax breaks — above the state median. The per-household cost of these subsidies is $3,003.",
+    "subsidy_context": "above the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

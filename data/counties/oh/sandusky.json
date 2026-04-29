@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Sandusky",
+    "county_slug": "sandusky",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 6.59,
+    "total_exemptions_usd": 2226365.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2707.58,
+    "total_beneficiaries": 11,
+    "num_donor_beneficiaries": 3,
+    "donor_rate_pct": 27.27,
+    "total_donations_usd": 14100.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 71750741.93,
+    "households": 26500,
+    "bundling_clusters": 3,
+    "round_trips": 0,
+    "multi_dippers": 1,
+    "num_awards": 23
+  },
+  "benchmarks": {
+    "state_rank": 57,
+    "state_total_counties": 88,
+    "state_percentile": 35,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Sandusky County ranks 57th out of 88 Ohio counties for total tax exemptions, with $2.2M in property tax breaks — below the state median. 27% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,708.",
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

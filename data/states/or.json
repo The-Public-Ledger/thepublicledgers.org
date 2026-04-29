@@ -1,0 +1,400 @@
+{
+  "meta": {
+    "state": "OR",
+    "state_name": "Oregon",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 36,
+      "counties_with_data": 36,
+      "crossref_complete": true,
+      "deals_count": 5901,
+      "contributions_matched": 1228
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 1494346702.0,
+    "total_beneficiaries": 5901,
+    "total_donations_usd": 101967134.45,
+    "matched_donors": 1228,
+    "pct_beneficiaries_donating": 0.20809999999999998
+  },
+  "top_findings": [
+    "1,228 of 5,901 subsidized companies (20.8%) made campaign donations — $102.0M total.",
+    "$56.7M in donations flowed from beneficiaries to 1,203 political committees. Top recipient: Defend Oregon ($4.9M).",
+    "$1.49B in total subsidies tracked across 5,901 beneficiary companies in Oregon."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 56683438.93,
+    "num_committees_receiving": 1203,
+    "top_committee_name": "Defend Oregon",
+    "top_committee_amount": 4858995.4,
+    "top_committee_pct": 2.98
+  },
+  "counties": [
+    {
+      "name": "Baker",
+      "slug": "baker",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "001"
+    },
+    {
+      "name": "Benton",
+      "slug": "benton",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "003"
+    },
+    {
+      "name": "Clackamas",
+      "slug": "clackamas",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "005"
+    },
+    {
+      "name": "Clatsop",
+      "slug": "clatsop",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "007"
+    },
+    {
+      "name": "Columbia",
+      "slug": "columbia",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "009"
+    },
+    {
+      "name": "Coos",
+      "slug": "coos",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "011"
+    },
+    {
+      "name": "Crook",
+      "slug": "crook",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "013"
+    },
+    {
+      "name": "Curry",
+      "slug": "curry",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "015"
+    },
+    {
+      "name": "Deschutes",
+      "slug": "deschutes",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "017"
+    },
+    {
+      "name": "Douglas",
+      "slug": "douglas",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "019"
+    },
+    {
+      "name": "Gilliam",
+      "slug": "gilliam",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "021"
+    },
+    {
+      "name": "Grant",
+      "slug": "grant",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "023"
+    },
+    {
+      "name": "Harney",
+      "slug": "harney",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "025"
+    },
+    {
+      "name": "Hood River",
+      "slug": "hood-river",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "027"
+    },
+    {
+      "name": "Jackson",
+      "slug": "jackson",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "029"
+    },
+    {
+      "name": "Jefferson",
+      "slug": "jefferson",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "031"
+    },
+    {
+      "name": "Josephine",
+      "slug": "josephine",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "033"
+    },
+    {
+      "name": "Klamath",
+      "slug": "klamath",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "035"
+    },
+    {
+      "name": "Lake",
+      "slug": "lake",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "037"
+    },
+    {
+      "name": "Lane",
+      "slug": "lane",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "039"
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "041"
+    },
+    {
+      "name": "Linn",
+      "slug": "linn",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "043"
+    },
+    {
+      "name": "Malheur",
+      "slug": "malheur",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "045"
+    },
+    {
+      "name": "Marion",
+      "slug": "marion",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "047"
+    },
+    {
+      "name": "Morrow",
+      "slug": "morrow",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "049"
+    },
+    {
+      "name": "Multnomah",
+      "slug": "multnomah",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "051"
+    },
+    {
+      "name": "Polk",
+      "slug": "polk",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "053"
+    },
+    {
+      "name": "Sherman",
+      "slug": "sherman",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "055"
+    },
+    {
+      "name": "Tillamook",
+      "slug": "tillamook",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "057"
+    },
+    {
+      "name": "Umatilla",
+      "slug": "umatilla",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "059"
+    },
+    {
+      "name": "Union",
+      "slug": "union",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "061"
+    },
+    {
+      "name": "Wallowa",
+      "slug": "wallowa",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "063"
+    },
+    {
+      "name": "Wasco",
+      "slug": "wasco",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "065"
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "067"
+    },
+    {
+      "name": "Wheeler",
+      "slug": "wheeler",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "069"
+    },
+    {
+      "name": "Yamhill",
+      "slug": "yamhill",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "071"
+    }
+  ]
+}

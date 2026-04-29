@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Seneca",
+    "county_slug": "seneca",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 64.22,
+    "total_exemptions_usd": 40128490.97,
+    "net_exemptions_usd": 23914525.34,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 49,
+    "num_donor_beneficiaries": 16,
+    "donor_rate_pct": 32.65,
+    "total_donations_usd": 309817.43,
+    "jobs_promised": 17339,
+    "jobs_current": 19816,
+    "total_projects": 219,
+    "num_officials_receiving": 14,
+    "official_total_received_usd": 118000.0,
+    "num_pipelines": 27
+  },
+  "benchmarks": {
+    "state_rank": 53,
+    "state_total_counties": 104,
+    "state_percentile": 49,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "near the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Seneca County ranks 53rd out of 104 New York counties for total tax exemptions, with $40.1M in property tax breaks — near the state median. 33% of subsidy recipients donated to local officials.",
+    "subsidy_context": "near the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

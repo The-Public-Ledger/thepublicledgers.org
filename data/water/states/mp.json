@@ -1,0 +1,44 @@
+{
+  "state": "MP",
+  "facilities": 176,
+  "water_systems": 152,
+  "total_violations": 5899,
+  "health_violations": 281,
+  "total_penalties": 0.0,
+  "avg_penalty": 0.0,
+  "violation_rate": 0.7386,
+  "enforcement_gap_score": 33.517,
+  "serious_violators": 0,
+  "tri_facilities": 0,
+  "tri_releases_lbs": 0.0,
+  "top_counties": [
+    {
+      "fips": "00000",
+      "name": "",
+      "facilities": 125010,
+      "total_violations": 2026003,
+      "health_violations": 187701,
+      "total_penalties": 1684977.0,
+      "enforcement_gap_score": 15.9912
+    },
+    {
+      "fips": "69010",
+      "name": "NORTHERN MARIANA ISLANDS",
+      "facilities": 34,
+      "total_violations": 0,
+      "health_violations": 12,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0
+    },
+    {
+      "fips": "69110",
+      "name": "SAIPAN",
+      "facilities": 11,
+      "total_violations": 0,
+      "health_violations": 3,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0
+    }
+  ],
+  "top_violators": []
+}

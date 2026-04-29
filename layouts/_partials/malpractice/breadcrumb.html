@@ -1,0 +1,10 @@
+{{ $state := .state }}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol class="breadcrumb-list" role="list">
+    <li><a href="/malpractice/">Malpractice Accountability</a></li>
+    {{ with $state }}
+    <li><a href="/malpractice/states/">States</a></li>
+    <li aria-current="page">{{ .name }}</li>
+    {{ end }}
+  </ol>
+</nav>

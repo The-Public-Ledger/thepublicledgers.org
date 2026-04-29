@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "state": "AZ",
+    "state_name": "Arizona",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 15,
+      "counties_with_data": 15,
+      "crossref_complete": true,
+      "deals_count": 2389,
+      "contributions_matched": 318
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 1203337218.0,
+    "total_beneficiaries": 2389,
+    "total_donations_usd": 91512085.02,
+    "matched_donors": 318,
+    "pct_beneficiaries_donating": 0.1331
+  },
+  "top_findings": [
+    "318 of 2,389 subsidized companies (13.3%) made campaign donations — $91.5M total.",
+    "$58.3M in donations flowed from beneficiaries to 620 political committees. Top recipient: Arizonans For Affordable Electricity ($40.0M).",
+    "$1.20B in total subsidies tracked across 2,389 beneficiary companies in Arizona."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 58323499.18,
+    "num_committees_receiving": 620,
+    "top_committee_name": "Arizonans For Affordable Electricity",
+    "top_committee_amount": 39991834.18,
+    "top_committee_pct": 25.0
+  },
+  "counties": [
+    {
+      "name": "Maricopa",
+      "slug": "maricopa",
+      "score": 95.3,
+      "total_exemptions_usd": 387413758.0,
+      "cost_per_household_usd": 232.6,
+      "total_beneficiaries": 0,
+      "num_awards": 397,
+      "fips_county": "013"
+    },
+    {
+      "name": "Pima",
+      "slug": "pima",
+      "score": 88.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 74,
+      "fips_county": "019"
+    },
+    {
+      "name": "Mohave",
+      "slug": "mohave",
+      "score": 87.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 33,
+      "fips_county": "015"
+    },
+    {
+      "name": "Yavapai",
+      "slug": "yavapai",
+      "score": 86.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 73,
+      "fips_county": "025"
+    },
+    {
+      "name": "Pinal",
+      "slug": "pinal",
+      "score": 83.0,
+      "total_exemptions_usd": 126460000.0,
+      "cost_per_household_usd": 834.77,
+      "total_beneficiaries": 0,
+      "num_awards": 30,
+      "fips_county": "021"
+    },
+    {
+      "name": "Apache",
+      "slug": "apache",
+      "score": 81.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 17,
+      "fips_county": "001"
+    },
+    {
+      "name": "Yuma",
+      "slug": "yuma",
+      "score": 77.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 35,
+      "fips_county": "027"
+    },
+    {
+      "name": "Navajo",
+      "slug": "navajo",
+      "score": 73.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 8,
+      "fips_county": "017"
+    },
+    {
+      "name": "Coconino",
+      "slug": "coconino",
+      "score": 71.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 15,
+      "fips_county": "005"
+    },
+    {
+      "name": "Gila",
+      "slug": "gila",
+      "score": 69.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 5,
+      "fips_county": "007"
+    },
+    {
+      "name": "Graham",
+      "slug": "graham",
+      "score": 69.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 6,
+      "fips_county": "009"
+    },
+    {
+      "name": "Cochise",
+      "slug": "cochise",
+      "score": 63.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "003"
+    },
+    {
+      "name": "Greenlee",
+      "slug": "greenlee",
+      "score": 63.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "011"
+    },
+    {
+      "name": "La Paz",
+      "slug": "la-paz",
+      "score": 63.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "012"
+    },
+    {
+      "name": "Santa Cruz",
+      "slug": "santa-cruz",
+      "score": 63.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "023"
+    }
+  ]
+}

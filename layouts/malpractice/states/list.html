@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="section">
+  <div class="container">
+    {{ partial "malpractice/breadcrumb.html" (dict) }}
+
+    <header class="page-header">
+      <h1>States</h1>
+      <p class="lead">Excluded physicians by state. Sorted by per-capita rate (excluded per 1,000 active physicians).</p>
+    </header>
+
+    <div class="card-grid">
+      {{ range $abbr, $data := site.Data.malpractice.states }}
+      <a href="/malpractice/states/{{ $abbr }}/" class="state-card state-card--full">
+        <div class="state-card__header">
+          <span class="state-card__abbr">{{ upper $abbr }}</span>
+        </div>
+        <div class="state-card__name">{{ $data.meta.state_name }}</div>
+        {{ with $data.summary_stats }}
+        <div class="state-card__stat">{{ .excluded_count }} excluded &middot; {{ printf "%.2f" .per_1000_physicians }}/1K</div>
+        {{ end }}
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</article>
+{{ end }}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Albany",
+    "county_slug": "albany",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 55.0,
+    "total_exemptions_usd": 22055346.86,
+    "net_exemptions_usd": 16227642.16,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 20,
+    "num_donor_beneficiaries": 5,
+    "donor_rate_pct": 25.0,
+    "total_donations_usd": 19566.67,
+    "jobs_promised": 10511,
+    "jobs_current": 11903,
+    "total_projects": 90,
+    "num_officials_receiving": 7,
+    "official_total_received_usd": 15000.0,
+    "num_pipelines": 7
+  },
+  "benchmarks": {
+    "state_rank": 69,
+    "state_total_counties": 104,
+    "state_percentile": 34,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Albany County ranks 69th out of 104 New York counties for total tax exemptions, with $22.1M in property tax breaks — below the state median. 25% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

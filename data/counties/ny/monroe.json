@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Monroe",
+    "county_slug": "monroe",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 37.23,
+    "total_exemptions_usd": 390577814.28,
+    "net_exemptions_usd": 241360168.99,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 670,
+    "num_donor_beneficiaries": 91,
+    "donor_rate_pct": 13.58,
+    "total_donations_usd": 1776234.1,
+    "jobs_promised": 204611,
+    "jobs_current": 262382,
+    "total_projects": 3016,
+    "num_officials_receiving": 25,
+    "official_total_received_usd": 1071140.02,
+    "num_pipelines": 151
+  },
+  "benchmarks": {
+    "state_rank": 6,
+    "state_total_counties": 104,
+    "state_percentile": 94,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "9.2× the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Monroe County ranks 6th out of 104 New York counties for total tax exemptions, with $390.6M in property tax breaks — 9.2× the state median. 14% of subsidy recipients donated to local officials.",
+    "subsidy_context": "9.2× the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

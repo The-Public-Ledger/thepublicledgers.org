@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "title": "Epstein Network: Financial Mapping",
+    "slug": "epstein-network",
+    "status": "active",
+    "last_updated": "2026-03-17",
+    "sources": ["FEC bulk individual contributions", "SEC EDGAR", "court filings", "bankruptcy records", "ICIJ"]
+  },
+  "key_stats": {
+    "fec_records": 430,
+    "entities_mapped": 0,
+    "persons_mapped": 0,
+    "total_fec_donations_usd": 0,
+    "congressional_recipients": 0
+  },
+  "top_findings": [
+    "430 FEC contribution records linked to Epstein-connected persons and entities",
+    "Persons and entities extracted from court documents cross-referenced against federal campaign finance",
+    "Knowledge graph maps entity relationships from court filings and bankruptcy records",
+    "Investigation ongoing — additional data integration in progress"
+  ],
+  "notable_donors": [
+    { "name": "Michael Bloomberg", "total_usd": 1337000000, "contributions": 1041 },
+    { "name": "Elon Musk", "total_usd": 257000000, "contributions": 55 }
+  ],
+  "data_sources_detail": {
+    "fec_file": "epstein_fec_clean.csv",
+    "persons_registry": "persons_registry.json",
+    "knowledge_graph": "knowledge_graph_entities.json",
+    "court_documents": "extracted_names_multi_doc.csv"
+  }
+}

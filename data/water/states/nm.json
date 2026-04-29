@@ -1,0 +1,116 @@
+{
+  "state": "NM",
+  "facilities": 2406,
+  "water_systems": 1354,
+  "total_violations": 29315,
+  "health_violations": 10021,
+  "total_penalties": 537345494.0,
+  "avg_penalty": 223335.62,
+  "violation_rate": 0.4958,
+  "enforcement_gap_score": 0.0543,
+  "serious_violators": 113,
+  "tri_facilities": 34,
+  "tri_releases_lbs": 85509296.0,
+  "top_counties": [
+    {
+      "fips": "35051",
+      "name": "SIERRA",
+      "facilities": 21,
+      "total_violations": 8,
+      "health_violations": 80,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.381
+    },
+    {
+      "fips": "35003",
+      "name": "CATRON",
+      "facilities": 13,
+      "total_violations": 3,
+      "health_violations": 30,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2308
+    },
+    {
+      "fips": "35039",
+      "name": "RIO ARRIBA",
+      "facilities": 74,
+      "total_violations": 13,
+      "health_violations": 517,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1757
+    },
+    {
+      "fips": "35019",
+      "name": "GUADALUPE COUNTY",
+      "facilities": 14,
+      "total_violations": 2,
+      "health_violations": 39,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1429
+    },
+    {
+      "fips": "35041",
+      "name": "ROOSEVELT",
+      "facilities": 9,
+      "total_violations": 1,
+      "health_violations": 44,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1111
+    },
+    {
+      "fips": "35031",
+      "name": "MCKINLEY",
+      "facilities": 28,
+      "total_violations": 5,
+      "health_violations": 0,
+      "total_penalties": 35800.0,
+      "enforcement_gap_score": 0.0784
+    },
+    {
+      "fips": "35033",
+      "name": "SAN MIGUEL",
+      "facilities": 21,
+      "total_violations": 7,
+      "health_violations": 100,
+      "total_penalties": 80080.0,
+      "enforcement_gap_score": 0.0693
+    },
+    {
+      "fips": "35057",
+      "name": "TORRANCE",
+      "facilities": 21,
+      "total_violations": 1,
+      "health_violations": 249,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0476
+    },
+    {
+      "fips": "35061",
+      "name": "",
+      "facilities": 33,
+      "total_violations": 7,
+      "health_violations": 122,
+      "total_penalties": 160000.0,
+      "enforcement_gap_score": 0.0363
+    },
+    {
+      "fips": "35027",
+      "name": "LINCOLN",
+      "facilities": 32,
+      "total_violations": 1,
+      "health_violations": 17,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0312
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "LAS VEGAS (CITY OF)",
+      "city": "LAS VEGAS",
+      "county": "SAN MIGUEL",
+      "severity": 65.0,
+      "penalties": 33600.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

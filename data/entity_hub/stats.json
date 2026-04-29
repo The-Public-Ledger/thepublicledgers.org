@@ -1,0 +1,236 @@
+{
+  "total_entities": 31895,
+  "multi_source_entities": 31895,
+  "three_plus": 3514,
+  "four_plus": 625,
+  "source_count": 20,
+  "sources": [
+    {
+      "key": "usaspending",
+      "label": "Federal Contracts (USASpending)",
+      "count": 16805
+    },
+    {
+      "key": "dol_whd",
+      "label": "Wage Violations (DOL)",
+      "count": 15256
+    },
+    {
+      "key": "sam_gov",
+      "label": "Federal Contractors (SAM)",
+      "count": 14737
+    },
+    {
+      "key": "osha",
+      "label": "OSHA Inspections",
+      "count": 8794
+    },
+    {
+      "key": "water_epa",
+      "label": "EPA Facilities",
+      "count": 3305
+    },
+    {
+      "key": "opioid",
+      "label": "Opioid Settlement",
+      "count": 1264
+    },
+    {
+      "key": "nih_exporter",
+      "label": "NIH Grants",
+      "count": 1169
+    },
+    {
+      "key": "hrsa_340b",
+      "label": "HRSA 340B Entities",
+      "count": 1024
+    },
+    {
+      "key": "ida_oh",
+      "label": "IDA Subsidies (OH)",
+      "count": 1005
+    },
+    {
+      "key": "capitol_trade",
+      "label": "Congressional Trades",
+      "count": 942
+    },
+    {
+      "key": "nursing_home",
+      "label": "Nursing Home Chains",
+      "count": 634
+    },
+    {
+      "key": "msha",
+      "label": "Mine Safety (MSHA)",
+      "count": 566
+    },
+    {
+      "key": "ida_ny",
+      "label": "IDA Subsidies (NY)",
+      "count": 537
+    },
+    {
+      "key": "fara_principal",
+      "label": "Foreign Principals",
+      "count": 450
+    },
+    {
+      "key": "cfpb",
+      "label": "Consumer Complaints (CFPB)",
+      "count": 425
+    },
+    {
+      "key": "fara",
+      "label": "Foreign Agent Registrations",
+      "count": 404
+    },
+    {
+      "key": "charter_school",
+      "label": "Charter Schools",
+      "count": 284
+    },
+    {
+      "key": "faith_hospital",
+      "label": "Religious Hospitals",
+      "count": 212
+    },
+    {
+      "key": "oge_trade",
+      "label": "Official Trades (OGE)",
+      "count": 191
+    },
+    {
+      "key": "opioid_vendor",
+      "label": "Opioid Vendors",
+      "count": 145
+    }
+  ],
+  "top_entities": [
+    {
+      "name": "EATON",
+      "count": 9,
+      "sources": "Congressional Trades, Wage Violations (DOL), IDA Subsidies (OH), Official Trades (OGE), Opioid Settlement, OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "Lockheed Martin Corp.",
+      "count": 8,
+      "sources": "Congressional Trades, Wage Violations (DOL), IDA Subsidies (NY), IDA Subsidies (OH), Official Trades (OGE), OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending)"
+    },
+    {
+      "name": "\"General Motors, LLC\"",
+      "count": 7,
+      "sources": "Congressional Trades, Wage Violations (DOL), IDA Subsidies (NY), IDA Subsidies (OH), OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending)"
+    },
+    {
+      "name": "Air Products and Chemicals, Inc.",
+      "count": 7,
+      "sources": "Congressional Trades, Wage Violations (DOL), IDA Subsidies (NY), Official Trades (OGE), OSHA Inspections, Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "Booz Allen Hamilton Inc.",
+      "count": 7,
+      "sources": "Foreign Agent Registrations, IDA Subsidies (NY), IDA Subsidies (OH), NIH Grants, OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending)"
+    },
+    {
+      "name": "CATERPILLAR",
+      "count": 7,
+      "sources": "Congressional Trades, Wage Violations (DOL), IDA Subsidies (OH), OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "Corning",
+      "count": 7,
+      "sources": "Congressional Trades, Wage Violations (DOL), IDA Subsidies (NY), OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "Exxon Mobil Corp.",
+      "count": 7,
+      "sources": "Congressional Trades, Wage Violations (DOL), Mine Safety (MSHA), Official Trades (OGE), OSHA Inspections, Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "General Electric Company",
+      "count": 7,
+      "sources": "Wage Violations (DOL), IDA Subsidies (NY), IDA Subsidies (OH), Mine Safety (MSHA), OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending)"
+    },
+    {
+      "name": "Honeywell International, Inc.",
+      "count": 7,
+      "sources": "Congressional Trades, Wage Violations (DOL), Official Trades (OGE), OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "JEFFERSON COUNTY",
+      "count": 7,
+      "sources": "Wage Violations (DOL), Mine Safety (MSHA), Opioid Settlement, Opioid Vendors, OSHA Inspections, Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "PARKER HANNIFIN",
+      "count": 7,
+      "sources": "Congressional Trades, Wage Violations (DOL), IDA Subsidies (OH), OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "PPG INDUSTRIES",
+      "count": 7,
+      "sources": "Congressional Trades, Wage Violations (DOL), IDA Subsidies (OH), Mine Safety (MSHA), OSHA Inspections, Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "UNITED PARCEL SERVICE",
+      "count": 7,
+      "sources": "Congressional Trades, Wage Violations (DOL), IDA Subsidies (OH), OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "AT&T",
+      "count": 6,
+      "sources": "Congressional Trades, Wage Violations (DOL), Official Trades (OGE), OSHA Inspections, Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "BARNES JEWISH HOSPITAL",
+      "count": 6,
+      "sources": "Wage Violations (DOL), HRSA 340B Entities, Nursing Home Chains, Federal Contractors (SAM), Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "CARDINAL HEALTH",
+      "count": 6,
+      "sources": "Congressional Trades, Wage Violations (DOL), IDA Subsidies (OH), Opioid Settlement, Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "CITY OF HOUSTON",
+      "count": 6,
+      "sources": "Congressional Trades, Wage Violations (DOL), Opioid Settlement, Federal Contractors (SAM), Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "CITY OF PORTLAND",
+      "count": 6,
+      "sources": "Wage Violations (DOL), Nursing Home Chains, Opioid Settlement, OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending)"
+    },
+    {
+      "name": "COUNTY OF SANTA CLARA",
+      "count": 6,
+      "sources": "Wage Violations (DOL), HRSA 340B Entities, Nursing Home Chains, OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending)"
+    },
+    {
+      "name": "CSX TRANSPORTATION",
+      "count": 6,
+      "sources": "Wage Violations (DOL), IDA Subsidies (OH), OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "Cargill, Inc.",
+      "count": 6,
+      "sources": "Wage Violations (DOL), IDA Subsidies (NY), Mine Safety (MSHA), OSHA Inspections, Federal Contracts (USASpending), EPA Facilities"
+    },
+    {
+      "name": "Cintas Corporation",
+      "count": 6,
+      "sources": "Congressional Trades, Wage Violations (DOL), IDA Subsidies (NY), IDA Subsidies (OH), OSHA Inspections, Federal Contracts (USASpending)"
+    },
+    {
+      "name": "Cornell University",
+      "count": 6,
+      "sources": "Wage Violations (DOL), IDA Subsidies (NY), NIH Grants, OSHA Inspections, Federal Contractors (SAM), Federal Contracts (USASpending)"
+    },
+    {
+      "name": "Cummins Inc.",
+      "count": 6,
+      "sources": "Congressional Trades, Wage Violations (DOL), IDA Subsidies (NY), Federal Contractors (SAM), Federal Contracts (USASpending), EPA Facilities"
+    }
+  ]
+}

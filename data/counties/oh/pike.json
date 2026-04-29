@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Pike",
+    "county_slug": "pike",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 5.19,
+    "total_exemptions_usd": 78083.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2630.04,
+    "total_beneficiaries": 4,
+    "num_donor_beneficiaries": 1,
+    "donor_rate_pct": 25.0,
+    "total_donations_usd": 18216.39,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 31684127.11,
+    "households": 12047,
+    "bundling_clusters": 15,
+    "round_trips": 0,
+    "multi_dippers": 0,
+    "num_awards": 7
+  },
+  "benchmarks": {
+    "state_rank": 83,
+    "state_total_counties": 88,
+    "state_percentile": 6,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Pike County ranks 83rd out of 88 Ohio counties for total tax exemptions, with $78K in property tax breaks — below the state median. 25% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,630.",
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}
