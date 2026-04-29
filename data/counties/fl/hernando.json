@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "FL",
+    "state_name": "Florida",
+    "county": "Hernando",
+    "county_slug": "hernando",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 2.8,
+    "total_exemptions_usd": 3244000.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 36.19,
+    "total_beneficiaries": 12,
+    "num_donor_beneficiaries": 8,
+    "donor_rate_pct": 66.67,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 16,
+    "warn_workers_affected": 0,
+    "warn_notices": 0
+  },
+  "benchmarks": {
+    "state_rank": 43,
+    "state_total_counties": 78,
+    "state_percentile": 45,
+    "state_median_subsidy_usd": 8033000.0,
+    "state_median_donor_rate": 28.09,
+    "state_median_cost_per_hh": 96.46,
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Hernando County ranks 43rd out of 78 Florida counties for total tax exemptions, with $3.2M in property tax breaks — below the state median. 67% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $36.",
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

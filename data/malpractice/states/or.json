@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "state_abbr": "OR",
+    "state_name": "Oregon",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 36,
+    "physician_population": 17487,
+    "per_1000_physicians": 2.059,
+    "double_flagged": 8,
+    "industry_payments_usd": 90006.14000000001
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 31
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 2
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 2
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "WA",
+      "from_name": "Washington",
+      "count": 3
+    },
+    {
+      "from_state": "AZ",
+      "from_name": "Arizona",
+      "count": 2
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "from_state": "HI",
+      "from_name": "Hawaii",
+      "count": 1
+    },
+    {
+      "from_state": "ID",
+      "from_name": "Idaho",
+      "count": 1
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 1
+    },
+    {
+      "from_state": "TN",
+      "from_name": "Tennessee",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 4
+    },
+    {
+      "to_state": "WA",
+      "to_name": "Washington",
+      "count": 3
+    },
+    {
+      "to_state": "MD",
+      "to_name": "Maryland",
+      "count": 1
+    },
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 1
+    },
+    {
+      "to_state": "GA",
+      "to_name": "Georgia",
+      "count": 1
+    },
+    {
+      "to_state": "NV",
+      "to_name": "Nevada",
+      "count": 1
+    },
+    {
+      "to_state": "NE",
+      "to_name": "Nebraska",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "ABBASSIAN, SORAYA ANN",
+      "npi": "1225029184",
+      "score": 71.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2014-04-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "MOMAH, DENNIS S",
+      "npi": "1598913592",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2017-01-19",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "APAU, RICHARD K",
+      "npi": "1326114943",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-10-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "GOLDBERG, CHARLES BARRY",
+      "npi": "1336107200",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-10-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "HARDER, ROBERT JACK",
+      "npi": "1114913431",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-12-19",
+      "specialty": "GYN/OBS"
+    },
+    {
+      "name": "PAO, DOROTHY MAY",
+      "npi": "1669485157",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2025-06-19",
+      "specialty": "RADIOLOGY"
+    },
+    {
+      "name": "PHAM, NHAN nan",
+      "npi": "1457775611",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-12-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "SANDEFUR, ERIC TODD",
+      "npi": "1346333721",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2025-02-20",
+      "specialty": "ORTHOPEDICS"
+    },
+    {
+      "name": "FARLEY, DAVID B",
+      "npi": "1518982636",
+      "score": 62.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2023-03-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "LATULIPPE, STEVEN A",
+      "npi": "1992814990",
+      "score": 62.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2023-06-20",
+      "specialty": "FAMILY PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "HARDER, ROBERT JACK",
+      "npi": "1114913431",
+      "total_usd": 56131.41,
+      "payment_count": 110,
+      "companies": 5
+    },
+    {
+      "name": "SANDEFUR, ERIC TODD",
+      "npi": "1346333721",
+      "total_usd": 9303.84,
+      "payment_count": 6,
+      "companies": 3
+    },
+    {
+      "name": "LARGE, LANCE BRANDON",
+      "npi": "1750362554",
+      "total_usd": 8194.24,
+      "payment_count": 504,
+      "companies": 45
+    },
+    {
+      "name": "PHAM, NHAN nan",
+      "npi": "1457775611",
+      "total_usd": 6871.69,
+      "payment_count": 46,
+      "companies": 7
+    },
+    {
+      "name": "WEEKS, JAMES A",
+      "npi": "1114992104",
+      "total_usd": 3333.1,
+      "payment_count": 192,
+      "companies": 40
+    },
+    {
+      "name": "LAWRENCE, SHARON M",
+      "npi": "1144218454",
+      "total_usd": 2220.16,
+      "payment_count": 139,
+      "companies": 19
+    },
+    {
+      "name": "FARLEY, DAVID B",
+      "npi": "1518982636",
+      "total_usd": 1187.35,
+      "payment_count": 60,
+      "companies": 11
+    },
+    {
+      "name": "THOMAS, PAUL NORMAN",
+      "npi": "1285692137",
+      "total_usd": 1063.83,
+      "payment_count": 56,
+      "companies": 20
+    },
+    {
+      "name": "GOLDBERG, CHARLES BARRY",
+      "npi": "1336107200",
+      "total_usd": 651.33,
+      "payment_count": 28,
+      "companies": 12
+    },
+    {
+      "name": "KLEIN, JOEL BRUCE",
+      "npi": "1013090877",
+      "total_usd": 314.93,
+      "payment_count": 16,
+      "companies": 10
+    }
+  ]
+}

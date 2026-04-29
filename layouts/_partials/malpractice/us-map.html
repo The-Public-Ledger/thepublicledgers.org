@@ -1,0 +1,16 @@
+<div class="us-map-wrap">
+  <div class="coverage-legend">
+    <span class="coverage-legend__item coverage-legend__item--mal-high">High rate (&gt;4/1K)</span>
+    <span class="coverage-legend__item coverage-legend__item--mal-medium">Medium (2&ndash;4/1K)</span>
+    <span class="coverage-legend__item coverage-legend__item--mal-low">Low (&lt;2/1K)</span>
+  </div>
+  <div class="state-grid">
+    {{ range $abbr, $data := site.Data.malpractice.states }}
+    {{ $rate := $data.summary_stats.per_1000_physicians }}
+    {{ $tier := cond (gt $rate 4.0) "mal-high" (cond (gt $rate 2.0) "mal-medium" "mal-low") }}
+    <a href="/malpractice/states/{{ $abbr }}/" class="state-grid__item state-grid__item--{{ $tier }}" title="{{ $data.meta.state_name }}: {{ $data.summary_stats.excluded_count }} excluded ({{ printf "%.2f" $rate }}/1K)">
+      {{ upper $abbr }}
+    </a>
+    {{ end }}
+  </div>
+</div>

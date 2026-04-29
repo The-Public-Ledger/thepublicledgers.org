@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Syracuse",
+    "county_slug": "syracuse",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 48.69,
+    "total_exemptions_usd": 232367900.5,
+    "net_exemptions_usd": 198388912.94,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 96,
+    "num_donor_beneficiaries": 18,
+    "donor_rate_pct": 18.75,
+    "total_donations_usd": 172984.25,
+    "jobs_promised": 80948,
+    "jobs_current": 85095,
+    "total_projects": 554,
+    "num_officials_receiving": 13,
+    "official_total_received_usd": 39407.6,
+    "num_pipelines": 19
+  },
+  "benchmarks": {
+    "state_rank": 14,
+    "state_total_counties": 104,
+    "state_percentile": 87,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "5.5× the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Syracuse County ranks 14th out of 104 New York counties for total tax exemptions, with $232.4M in property tax breaks — 5.5× the state median. 19% of subsidy recipients donated to local officials.",
+    "subsidy_context": "5.5× the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

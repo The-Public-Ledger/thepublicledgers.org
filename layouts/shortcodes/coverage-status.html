@@ -1,0 +1,5 @@
+{{ $state := .Get "state" }}
+{{ $stateData := index site.Data.states $state }}
+{{ if $stateData }}
+{{ partial "ida/coverage-badge.html" $stateData.meta }}
+{{ end }}

@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "state_abbr": "DE",
+    "state_name": "Delaware",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 7,
+    "physician_population": 4016,
+    "per_1000_physicians": 1.743,
+    "double_flagged": 2,
+    "industry_payments_usd": 248.27
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 3
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 1
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 1
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 1
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "MD",
+      "from_name": "Maryland",
+      "count": 1
+    },
+    {
+      "from_state": "CT",
+      "from_name": "Connecticut",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "MD",
+      "to_name": "Maryland",
+      "count": 2
+    },
+    {
+      "to_state": "NJ",
+      "to_name": "New Jersey",
+      "count": 2
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "GOODING, FREDERICK WAYNE",
+      "npi": "1255377180",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-10-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "TITUS, PATRICK ALLEN",
+      "npi": "1437198033",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-04-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "BRADLEY, EARL B",
+      "npi": "1669414553",
+      "score": 56.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2012-10-18",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "CEMERLIC, SENAD nan",
+      "npi": "1962421198",
+      "score": 50.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2017-02-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "BRATHWAITE, LINDSAY MARTIN",
+      "npi": "1386695591",
+      "score": 44.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2016-05-19",
+      "specialty": "DERMATOLOGY"
+    },
+    {
+      "name": "GROB, RENEE J",
+      "npi": "1376528182",
+      "score": 39.5,
+      "exclusion_label": "Managing Employee Sanction",
+      "exclusion_date": "2017-12-20",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "LATONN, EDWARD DALE",
+      "npi": "1093847238",
+      "score": 35.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2005-04-20",
+      "specialty": "GENERAL PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "GOODING, FREDERICK WAYNE",
+      "npi": "1255377180",
+      "total_usd": 248.27,
+      "payment_count": 11,
+      "companies": 9
+    }
+  ]
+}

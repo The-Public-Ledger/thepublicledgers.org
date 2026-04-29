@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Rockland",
+    "county_slug": "rockland",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 58.06,
+    "total_exemptions_usd": 191221362.58,
+    "net_exemptions_usd": 109702700.78,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 72,
+    "num_donor_beneficiaries": 22,
+    "donor_rate_pct": 30.56,
+    "total_donations_usd": 1535895.91,
+    "jobs_promised": 23780,
+    "jobs_current": 24094,
+    "total_projects": 313,
+    "num_officials_receiving": 16,
+    "official_total_received_usd": 397515.65,
+    "num_pipelines": 34
+  },
+  "benchmarks": {
+    "state_rank": 18,
+    "state_total_counties": 104,
+    "state_percentile": 83,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "4.5× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Rockland County ranks 18th out of 104 New York counties for total tax exemptions, with $191.2M in property tax breaks — 4.5× the state median. 31% of subsidy recipients donated to local officials.",
+    "subsidy_context": "4.5× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "state": "AK",
+    "state_name": "Alaska",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 30,
+      "counties_with_data": 29,
+      "crossref_complete": true,
+      "deals_count": 172,
+      "contributions_matched": 11
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 1417904052.0,
+    "total_beneficiaries": 172,
+    "total_donations_usd": 27021637.28,
+    "matched_donors": 11,
+    "pct_beneficiaries_donating": 0.064
+  },
+  "top_findings": [
+    "11 of 172 subsidized companies (6.4%) made campaign donations — $27.0M total.",
+    "$3.6M in donations flowed from beneficiaries to 10 political committees. Top recipient: OneAlaska--Vote No on One ($2.8M).",
+    "$1.42B in total subsidies tracked across 172 beneficiary companies in Alaska."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 3602235.41,
+    "num_committees_receiving": 10,
+    "top_committee_name": "OneAlaska--Vote No on One",
+    "top_committee_amount": 2766469.0,
+    "top_committee_pct": 8.33
+  },
+  "counties": [
+    {
+      "name": "Anchorage",
+      "slug": "anchorage",
+      "score": 81.0,
+      "total_exemptions_usd": 1095904052.0,
+      "cost_per_household_usd": 10229.28,
+      "total_beneficiaries": 0,
+      "num_awards": 308,
+      "fips_county": "020"
+    },
+    {
+      "name": "Northwest Arctic",
+      "slug": "northwest-arctic",
+      "score": 44.0,
+      "total_exemptions_usd": 267000000.0,
+      "cost_per_household_usd": 150337.84,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "188"
+    },
+    {
+      "name": "Skagway",
+      "slug": "skagway",
+      "score": 37.0,
+      "total_exemptions_usd": 25000000.0,
+      "cost_per_household_usd": 60975.61,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "232"
+    },
+    {
+      "name": "Ketchikan Gateway",
+      "slug": "ketchikan-gateway",
+      "score": 32.0,
+      "total_exemptions_usd": 30000000.0,
+      "cost_per_household_usd": 5387.93,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "130"
+    },
+    {
+      "name": "Aleutians East",
+      "slug": "aleutians-east",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "013"
+    },
+    {
+      "name": "Aleutians West",
+      "slug": "aleutians-west",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "016"
+    },
+    {
+      "name": "Bethel",
+      "slug": "bethel",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "050"
+    },
+    {
+      "name": "Bristol Bay",
+      "slug": "bristol-bay",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "060"
+    },
+    {
+      "name": "Chugach",
+      "slug": "chugach",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "063"
+    },
+    {
+      "name": "Copper River",
+      "slug": "copper-river",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "066"
+    },
+    {
+      "name": "Denali",
+      "slug": "denali",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "068"
+    },
+    {
+      "name": "Dillingham",
+      "slug": "dillingham",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "070"
+    },
+    {
+      "name": "Fairbanks North Star",
+      "slug": "fairbanks-north-star",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "090"
+    },
+    {
+      "name": "Haines",
+      "slug": "haines",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "100"
+    },
+    {
+      "name": "Juneau",
+      "slug": "juneau",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "110"
+    },
+    {
+      "name": "Kenai Peninsula",
+      "slug": "kenai-peninsula",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "122"
+    },
+    {
+      "name": "Kodiak Island",
+      "slug": "kodiak-island",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "150"
+    },
+    {
+      "name": "Kusilvak",
+      "slug": "kusilvak",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "158"
+    },
+    {
+      "name": "Lake And Peninsula",
+      "slug": "lake-and-peninsula",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "164"
+    },
+    {
+      "name": "Matanuska-Susitna",
+      "slug": "matanuska-susitna",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "170"
+    },
+    {
+      "name": "Nome",
+      "slug": "nome",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "180"
+    },
+    {
+      "name": "North Slope",
+      "slug": "north-slope",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "185"
+    },
+    {
+      "name": "Petersburg",
+      "slug": "petersburg",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "195"
+    },
+    {
+      "name": "Prince Of Wales-Hyder",
+      "slug": "prince-of-wales-hyder",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "198"
+    },
+    {
+      "name": "Sitka",
+      "slug": "sitka",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "220"
+    },
+    {
+      "name": "Southeast Fairbanks",
+      "slug": "southeast-fairbanks",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "240"
+    },
+    {
+      "name": "Wrangell",
+      "slug": "wrangell",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "275"
+    },
+    {
+      "name": "Yakutat",
+      "slug": "yakutat",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "282"
+    },
+    {
+      "name": "Yukon-Koyukuk",
+      "slug": "yukon-koyukuk",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "290"
+    }
+  ]
+}

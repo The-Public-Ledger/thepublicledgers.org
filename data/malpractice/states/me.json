@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "state_abbr": "ME",
+    "state_name": "Maine",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 11,
+    "physician_population": 6446,
+    "per_1000_physicians": 1.706,
+    "double_flagged": 2,
+    "industry_payments_usd": 743.7599999999999
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 8
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 2
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 1
+    }
+  ],
+  "migrants_in": [],
+  "migrants_out": [
+    {
+      "to_state": "NC",
+      "to_name": "North Carolina",
+      "count": 1
+    },
+    {
+      "to_state": "MA",
+      "to_name": "Massachusetts",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "LEE, NORRIS K",
+      "npi": "1023188703",
+      "score": 65.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2024-09-19",
+      "specialty": "OTORHINOLARYNGOLOGY"
+    },
+    {
+      "name": "NORRIS, MERIDETH C",
+      "npi": "1386684868",
+      "score": 59.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-08-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "SABEAN, JOEL A",
+      "npi": "1750472825",
+      "score": 53.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2017-07-20",
+      "specialty": "DERMATOLOGY"
+    },
+    {
+      "name": "GILMORE, MICHAEL nan",
+      "npi": "1053336206",
+      "score": 50.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2025-03-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "AHUMADA, CARLOS A",
+      "npi": "1326134297",
+      "score": 48.2,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2008-10-20",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "AUSTIN, DAVID R",
+      "npi": "1356315436",
+      "score": 47.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2022-10-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "DE LOS HEROS, REINALDO nan",
+      "npi": "1477663888",
+      "score": 44.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2019-04-18",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "KARY, DANIEL J",
+      "npi": "1376724229",
+      "score": 41.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2015-01-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "MICHALOWSKI, ELLEN ELIZABETH",
+      "npi": "1548286156",
+      "score": 41.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2011-02-20",
+      "specialty": "GYN/OBS"
+    },
+    {
+      "name": "TRIPP, LESLIE N",
+      "npi": "1205892858",
+      "score": 41.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2009-12-20",
+      "specialty": "FAMILY PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "NORRIS, MERIDETH C",
+      "npi": "1386684868",
+      "total_usd": 467.46,
+      "payment_count": 7,
+      "companies": 6
+    },
+    {
+      "name": "LEE, NORRIS K",
+      "npi": "1023188703",
+      "total_usd": 169.88,
+      "payment_count": 5,
+      "companies": 4
+    },
+    {
+      "name": "GILMORE, MICHAEL nan",
+      "npi": "1053336206",
+      "total_usd": 106.42,
+      "payment_count": 6,
+      "companies": 1
+    }
+  ]
+}

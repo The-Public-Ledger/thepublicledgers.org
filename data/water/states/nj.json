@@ -1,0 +1,116 @@
+{
+  "state": "NJ",
+  "facilities": 8617,
+  "water_systems": 3469,
+  "total_violations": 35896,
+  "health_violations": 4248,
+  "total_penalties": 76038383.0,
+  "avg_penalty": 8824.23,
+  "violation_rate": 0.3922,
+  "enforcement_gap_score": 0.424,
+  "serious_violators": 133,
+  "tri_facilities": 885,
+  "tri_releases_lbs": 930373344.0,
+  "top_counties": [
+    {
+      "fips": "34027",
+      "name": "MORRIS",
+      "facilities": 428,
+      "total_violations": 158,
+      "health_violations": 136,
+      "total_penalties": 685264.0,
+      "enforcement_gap_score": 0.1419
+    },
+    {
+      "fips": "34031",
+      "name": "PASSAIC",
+      "facilities": 235,
+      "total_violations": 83,
+      "health_violations": 116,
+      "total_penalties": 670182.0,
+      "enforcement_gap_score": 0.0917
+    },
+    {
+      "fips": "34037",
+      "name": "SUSSEX",
+      "facilities": 270,
+      "total_violations": 23,
+      "health_violations": 234,
+      "total_penalties": 44675.0,
+      "enforcement_gap_score": 0.0731
+    },
+    {
+      "fips": "34015",
+      "name": "GLOUCESTER",
+      "facilities": 244,
+      "total_violations": 100,
+      "health_violations": 63,
+      "total_penalties": 1149101.0,
+      "enforcement_gap_score": 0.0718
+    },
+    {
+      "fips": "34009",
+      "name": "CAPE MAY",
+      "facilities": 146,
+      "total_violations": 9,
+      "health_violations": 39,
+      "total_penalties": 6000.0,
+      "enforcement_gap_score": 0.0592
+    },
+    {
+      "fips": "34005",
+      "name": "BURLINGTON",
+      "facilities": 385,
+      "total_violations": 92,
+      "health_violations": 185,
+      "total_penalties": 1171165.0,
+      "enforcement_gap_score": 0.0591
+    },
+    {
+      "fips": "34019",
+      "name": "HUNTERDON",
+      "facilities": 230,
+      "total_violations": 38,
+      "health_violations": 140,
+      "total_penalties": 547631.0,
+      "enforcement_gap_score": 0.0489
+    },
+    {
+      "fips": "34003",
+      "name": "MORRIS",
+      "facilities": 366,
+      "total_violations": 104,
+      "health_violations": 30,
+      "total_penalties": 1840693.0,
+      "enforcement_gap_score": 0.0471
+    },
+    {
+      "fips": "34039",
+      "name": "UNION",
+      "facilities": 197,
+      "total_violations": 72,
+      "health_violations": 4,
+      "total_penalties": 1360458.0,
+      "enforcement_gap_score": 0.0462
+    },
+    {
+      "fips": "34033",
+      "name": "SALEM",
+      "facilities": 120,
+      "total_violations": 30,
+      "health_violations": 82,
+      "total_penalties": 676661.0,
+      "enforcement_gap_score": 0.0377
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "SIEGFRIED USA, LLC",
+      "city": "PENNSVILLE",
+      "county": "SALEM",
+      "severity": 60.0,
+      "penalties": 107980.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

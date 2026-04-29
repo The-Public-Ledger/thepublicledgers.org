@@ -1,0 +1,16 @@
+{
+  "total_exemptions_usd": 12190000000,
+  "total_projects": 34348,
+  "states_with_data": 24,
+  "counties_with_scorecards": 439,
+  "triple_dippers": 111,
+  "triple_dipper_value_usd": 460700000,
+  "bad_deals": 169,
+  "multi_state_companies": 416,
+  "school_districts_analyzed": 13237,
+  "national_school_pt_annual_usd": 257700000000,
+  "round_trip_flows": 202,
+  "bundling_clusters": 90,
+  "schedule_o_loops": 6,
+  "last_updated": "2026-03-16"
+}

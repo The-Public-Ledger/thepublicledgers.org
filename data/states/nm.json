@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "state": "NM",
+    "state_name": "New Mexico",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 33,
+      "counties_with_data": 33,
+      "crossref_complete": true,
+      "deals_count": 1072,
+      "contributions_matched": 133
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 423615356.0,
+    "total_beneficiaries": 1072,
+    "total_donations_usd": 3014209.55,
+    "matched_donors": 133,
+    "pct_beneficiaries_donating": 0.1241
+  },
+  "top_findings": [
+    "133 of 1,072 subsidized companies (12.4%) made campaign donations — $3.0M total.",
+    "$428,598 in donations flowed from beneficiaries to 131 political committees. Top recipient: New Mexicans for Michelle ($83,114).",
+    "$424M in total subsidies tracked across 1,072 beneficiary companies in New Mexico."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 428598.28,
+    "num_committees_receiving": 131,
+    "top_committee_name": "New Mexicans for Michelle",
+    "top_committee_amount": 83114.28,
+    "top_committee_pct": 0.05
+  },
+  "counties": [
+    {
+      "name": "Santa Fe",
+      "slug": "santa-fe",
+      "score": 45.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35049"
+    },
+    {
+      "name": "San Miguel",
+      "slug": "san-miguel",
+      "score": 20.2,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35047"
+    },
+    {
+      "name": "Los Alamos",
+      "slug": "los-alamos",
+      "score": 9.6,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35028"
+    },
+    {
+      "name": "Dona Ana",
+      "slug": "dona-ana",
+      "score": 7.8,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35013"
+    },
+    {
+      "name": "Torrance",
+      "slug": "torrance",
+      "score": 4.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35057"
+    },
+    {
+      "name": "Bernalillo",
+      "slug": "bernalillo",
+      "score": 3.1,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35001"
+    },
+    {
+      "name": "Taos",
+      "slug": "taos",
+      "score": 3.1,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35055"
+    },
+    {
+      "name": "Catron",
+      "slug": "catron",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35003"
+    },
+    {
+      "name": "Chaves",
+      "slug": "chaves",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35005"
+    },
+    {
+      "name": "Cibola",
+      "slug": "cibola",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35006"
+    },
+    {
+      "name": "Colfax",
+      "slug": "colfax",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35007"
+    },
+    {
+      "name": "Curry",
+      "slug": "curry",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35009"
+    },
+    {
+      "name": "De Baca",
+      "slug": "de-baca",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35011"
+    },
+    {
+      "name": "Eddy",
+      "slug": "eddy",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35015"
+    },
+    {
+      "name": "Grant",
+      "slug": "grant",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35017"
+    },
+    {
+      "name": "Guadalupe",
+      "slug": "guadalupe",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35019"
+    },
+    {
+      "name": "Harding",
+      "slug": "harding",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35021"
+    },
+    {
+      "name": "Hidalgo",
+      "slug": "hidalgo",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35023"
+    },
+    {
+      "name": "Lea",
+      "slug": "lea",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35025"
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35027"
+    },
+    {
+      "name": "Luna",
+      "slug": "luna",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35029"
+    },
+    {
+      "name": "Mckinley",
+      "slug": "mckinley",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35031"
+    },
+    {
+      "name": "Mora",
+      "slug": "mora",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35033"
+    },
+    {
+      "name": "Otero",
+      "slug": "otero",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35035"
+    },
+    {
+      "name": "Quay",
+      "slug": "quay",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35037"
+    },
+    {
+      "name": "Rio Arriba",
+      "slug": "rio-arriba",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35039"
+    },
+    {
+      "name": "Roosevelt",
+      "slug": "roosevelt",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35041"
+    },
+    {
+      "name": "San Juan",
+      "slug": "san-juan",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35045"
+    },
+    {
+      "name": "Sandoval",
+      "slug": "sandoval",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35043"
+    },
+    {
+      "name": "Sierra",
+      "slug": "sierra",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35051"
+    },
+    {
+      "name": "Socorro",
+      "slug": "socorro",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35053"
+    },
+    {
+      "name": "Union",
+      "slug": "union",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35059"
+    },
+    {
+      "name": "Valencia",
+      "slug": "valencia",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "35061"
+    }
+  ]
+}

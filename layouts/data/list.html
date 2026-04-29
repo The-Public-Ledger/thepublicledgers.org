@@ -1,0 +1,528 @@
+{{ define "main" }}
+<article class="section">
+  <div class="container">
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}
+      <p class="lead">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    <!-- Dataset tabs -->
+    <div class="data-tabs" role="tablist" aria-label="Datasets">
+      <button class="data-tab active" role="tab" aria-selected="true"  id="tab-county_multi" aria-controls="tabpanel" data-tab="county_multi" tabindex="0">County Scorecards</button>
+      <button class="data-tab"         role="tab" aria-selected="false" id="tab-districts" aria-controls="tabpanel" data-tab="districts" tabindex="-1">School Districts</button>
+      <button class="data-tab"         role="tab" aria-selected="false" id="tab-bad_deals" aria-controls="tabpanel" data-tab="bad_deals" tabindex="-1">Bad Deals</button>
+      <button class="data-tab"         role="tab" aria-selected="false" id="tab-cross_state" aria-controls="tabpanel" data-tab="cross_state" tabindex="-1">Cross-State</button>
+      <button class="data-tab"         role="tab" aria-selected="false" id="tab-tax_shift" aria-controls="tabpanel" data-tab="tax_shift" tabindex="-1">Tax Shift — NY</button>
+      <button class="data-tab"         role="tab" aria-selected="false" id="tab-scorecards" aria-controls="tabpanel" data-tab="scorecards" tabindex="-1">IDA Scorecards — NY</button>
+      <button class="data-tab"         role="tab" aria-selected="false" id="tab-malpractice" aria-controls="tabpanel" data-tab="malpractice" tabindex="-1">Excluded Physicians</button>
+      <button class="data-tab"         role="tab" aria-selected="false" id="tab-entity_hub" aria-controls="tabpanel" data-tab="entity_hub" tabindex="-1">Entity Hub</button>
+      <button class="data-tab"         role="tab" aria-selected="false" id="tab-lending" aria-controls="tabpanel" data-tab="lending" tabindex="-1">Lending Disparities</button>
+      <button class="data-tab"         role="tab" aria-selected="false" id="tab-nih_grants" aria-controls="tabpanel" data-tab="nih_grants" tabindex="-1">NIH Grants</button>
+    </div>
+
+    <!-- Tab description -->
+    <p id="tab-description" class="data-tab-description"></p>
+
+    <!-- Filters (per-tab, independent) -->
+    <div class="data-controls">
+      <div class="data-control-group" id="state-filter-group">
+        <label for="state-select">State</label>
+        <select id="state-select">
+          <option value="">All states</option>
+        </select>
+      </div>
+
+      <div class="data-control-group" id="county-filter-group">
+        <label for="county-select">County</label>
+        <select id="county-select">
+          <option value="">All counties</option>
+        </select>
+      </div>
+
+      <div class="data-control-group">
+        <label for="search-input">Search</label>
+        <input type="text" id="search-input" placeholder="Search by name...">
+      </div>
+
+      <div class="data-control-group data-control-meta">
+        <span id="row-count" role="status" aria-live="polite"></span>
+        <a href="" id="download-link" class="btn btn--secondary btn--sm">Download CSV</a>
+      </div>
+    </div>
+
+    <!-- Data table -->
+    <div id="tabpanel" role="tabpanel" aria-labelledby="tab-county_multi" class="data-table-wrapper">
+      <table id="data-table" class="data-table">
+        <caption id="table-caption" class="sr-only"></caption>
+        <thead id="table-head"></thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+
+    <div class="content mt-8">
+      <h2>Methodology</h2>
+      <p>For details on how these datasets were produced — including entity matching logic, confidence scoring, and statistical caveats — see our <a href="/methodology/">Methodology</a> page.</p>
+
+      <h2>Terms of use</h2>
+      <p>These datasets are derived from public records and are provided for research, journalism, and civic engagement purposes. Attribution to The Public Ledgers is appreciated but not required for public record data.</p>
+    </div>
+  </div>
+</article>
+
+<!-- Data explorer styles moved to assets/css/bundle.css -->
+
+<script>
+(function() {
+  var DATA = {};
+  var currentTab = 'county_multi';
+  var currentSort = { col: null, asc: true };
+
+  // Per-tab filter state — independent across tabs
+  var tabState = {
+    county_multi: { state: '', county: '', search: '' },
+    districts:    { county: '', search: '' },
+    bad_deals:    { state: '', search: '' },
+    cross_state:  { search: '' },
+    tax_shift:    { county: '', search: '' },
+    scorecards:   { county: '', search: '' },
+    malpractice:  { state: '', search: '' },
+    'entity_hub':   { search: '' },
+    'lending':      { state: '', search: '' },
+    'nih_grants':   { state: '', search: '' }
+  };
+
+  var STATE_NAMES = {
+    'NY': 'New York', 'OH': 'Ohio', 'FL': 'Florida',
+    'PA': 'Pennsylvania', 'IL': 'Illinois', 'TX': 'Texas',
+    'GA': 'Georgia'
+  };
+
+  var CONFIGS = {
+    county_multi: {
+      label: 'County Scorecards — 5 States',
+      description: '439 counties across NY, OH, FL, IL, and PA — ranked by subsidy total, donor rate, and subsidy exposure index.',
+      csv: '/data/ida_county_scorecards.csv',
+      json: '/data/county_scorecards_multi.json',
+      stateField: 'state',
+      countyField: 'county',
+      columns: [
+        { key: 'rank',       label: '#',           type: 'num' },
+        { key: 'state',      label: 'State',        type: 'text' },
+        { key: 'county',     label: 'County',       type: 'text' },
+        { key: 'score',      label: 'Score',        type: 'num' },
+        { key: 'subsidy',    label: 'Total Subsidy', type: 'money' },
+        { key: 'projects',   label: 'Projects',     type: 'num' },
+        { key: 'donor_rate', label: 'Donor Rate %', type: 'num' },
+        { key: 'donations',  label: 'Donations',    type: 'money' },
+      ]
+    },
+    districts: {
+      label: 'School District Impact — NY',
+      description: '477 NY school districts showing IDA revenue loss, per-pupil impact, and donor rate among IDA beneficiaries.',
+      csv: '/data/ny_district_impact.csv',
+      json: '/data/districts.json',
+      stateField: null,
+      countyField: 'county',
+      columns: [
+        { key: 'rank',         label: '#',               type: 'num' },
+        { key: 'district',     label: 'School District', type: 'text' },
+        { key: 'county',       label: 'County',          type: 'text' },
+        { key: 'projects',     label: 'IDA Projects',    type: 'num' },
+        { key: 'revenue_lost', label: 'Revenue Lost',    type: 'money' },
+        { key: 'enrollment',   label: 'Enrollment',      type: 'num' },
+        { key: 'per_pupil',    label: 'Per Pupil Impact',type: 'money' },
+        { key: 'donor_rate',   label: 'Donor Rate %',    type: 'num' },
+      ]
+    },
+    bad_deals: {
+      label: 'Bad Deals — Cost Per Job',
+      description: '169 IDA projects where the cost per job created exceeded $100,000 — subsidies that failed to deliver promised employment.',
+      csv: '/data/bad_deals.json',
+      json: '/data/bad_deals.json',
+      stateField: 'state',
+      countyField: null,
+      columns: [
+        { key: 'state',         label: 'State',         type: 'text' },
+        { key: 'company',       label: 'Company',       type: 'text' },
+        { key: 'year',          label: 'Year',          type: 'text' },
+        { key: 'subsidy',       label: 'Subsidy',       type: 'money' },
+        { key: 'jobs_planned',  label: 'Jobs Planned',  type: 'num' },
+        { key: 'jobs_reported', label: 'Jobs Reported', type: 'num' },
+        { key: 'cost_per_job',  label: 'Cost Per Job',  type: 'money' },
+      ]
+    },
+    cross_state: {
+      label: 'Cross-State Companies',
+      description: '416 companies receiving subsidies in 2 or more states — showing total public money received and political donations at state and federal level.',
+      csv: '/data/cross_state.json',
+      json: '/data/cross_state.json',
+      stateField: null,
+      countyField: null,
+      columns: [
+        { key: 'company',       label: 'Company',           type: 'text' },
+        { key: 'num_states',    label: 'States',            type: 'num' },
+        { key: 'states',        label: 'State List',        type: 'text' },
+        { key: 'total_subsidy', label: 'Total Subsidy',     type: 'money' },
+        { key: 'total_donated', label: 'State Donations',   type: 'money' },
+        { key: 'total_fec',     label: 'Federal Donations', type: 'money' },
+      ]
+    },
+    tax_shift: {
+      label: 'Tax Shift — NY',
+      description: '56 NY counties showing how much of the IDA tax burden has shifted from corporations to homeowners, measured per household.',
+      csv: '/data/tax_shift_by_county.csv',
+      json: '/data/tax_shift.json',
+      stateField: null,
+      countyField: 'county',
+      columns: [
+        { key: 'rank',             label: '#',               type: 'num' },
+        { key: 'county',           label: 'County',          type: 'text' },
+        { key: 'population',       label: 'Population',      type: 'num' },
+        { key: 'households',       label: 'Households',      type: 'num' },
+        { key: 'num_idas',         label: 'IDAs',            type: 'num' },
+        { key: 'projects',         label: 'Projects',        type: 'num' },
+        { key: 'total_exemptions', label: 'Total Exemptions',type: 'money' },
+        { key: 'per_household',    label: 'Per Household',   type: 'money' },
+      ]
+    },
+    scorecards: {
+      label: 'IDA Scorecards — NY',
+      description: '104 NY Industrial Development Agencies ranked by subsidy exposure index, project count, exemption total, and job delivery deficit.',
+      csv: '/data/ida_county_scorecards.csv',
+      json: '/data/scorecards.json',
+      stateField: null,
+      countyField: 'county',
+      columns: [
+        { key: 'rank',        label: '#',           type: 'num' },
+        { key: 'ida',         label: 'IDA',         type: 'text' },
+        { key: 'county',      label: 'County',      type: 'text' },
+        { key: 'score',       label: 'P2P Score',   type: 'num' },
+        { key: 'projects',    label: 'Projects',    type: 'num' },
+        { key: 'exemptions',  label: 'Exemptions',  type: 'money' },
+        { key: 'donor_rate',  label: 'Donor Rate %',type: 'num' },
+        { key: 'donations',   label: 'Donations',   type: 'money' },
+        { key: 'jobs_deficit',label: 'Jobs Deficit %', type: 'num' },
+      ]
+    },
+    malpractice: {
+      label: 'Excluded Physicians — All States',
+      description: 'Physicians barred from federal healthcare programs who still appear in the national provider registry. Showing high-confidence matches only.',
+      csv: '/data/malpractice_top_50.csv',
+      json: '/data/malpractice_explorer.json',
+      stateField: 'state',
+      countyField: null,
+      defaultFilter: function(row) { return row.confidence >= 80; },
+      context: '<strong>What is this data?</strong> These physicians were placed on a federal exclusion list for offenses including patient abuse, healthcare fraud, or drug felonies. They still appear in the national provider registry with an active record. <a href="/malpractice/">Learn more</a> &mdash; <strong>Showing high-confidence matches only (match confidence &ge; 80%).</strong> The full dataset including lower-confidence matches is available in the CSV download.',
+      columns: [
+        { key: 'name',       label: 'Physician Name',      type: 'text' },
+        { key: 'specialty',  label: 'Specialty',            type: 'text' },
+        { key: 'state',      label: 'Practicing In',        type: 'text' },
+        { key: 'exclusion',  label: 'Reason for Exclusion', type: 'text' },
+        { key: 'excl_date',  label: 'Exclusion Date',       type: 'text' },
+        { key: 'excl_state', label: 'Excluded In',          type: 'text' },
+        { key: 'migrated',   label: 'Moved States?',        type: 'text' },
+        { key: 'npi_updated',label: 'Last Registry Update', type: 'text' },
+        { key: 'score',      label: 'Priority Score',       type: 'num' },
+        { key: 'confidence', label: 'Match Confidence',     type: 'num' },
+      ]
+    },
+    'entity_hub': {
+      label: 'Entity Hub — Multi-Source',
+      description: '31,895 entities that appear in 2 or more public datasets. Search for any company, government, or organization to see which federal and state records mention it.',
+      csv: '/data/entity_hub_multi.csv',
+      json: '/data/entity_hub_multi.json',
+      stateField: null,
+      countyField: null,
+      context: '<strong>What is this?</strong> The Entity Hub cross-references 20 federal and state data sources &mdash; subsidies, enforcement actions, campaign finance, federal contracts, and more. An entity appearing in multiple datasets is not evidence of wrongdoing; it simply shows where public records intersect. <a href="/methodology/">Learn more about our matching methodology</a>.',
+      columns: [
+        { key: 'name',    label: 'Entity Name',     type: 'text' },
+        { key: 'count',   label: 'Data Sources',    type: 'num' },
+        { key: 'sources', label: 'Appears In',      type: 'text' },
+      ]
+    },
+    'lending': {
+      label: 'Lending Disparities by County',
+      description: '2,851 counties with mortgage denial rates by race and ethnicity (HMDA 2023). Shows Black/White and Hispanic/White denial disparity ratios.',
+      csv: '/data/hmda_county_denial_rates.csv',
+      json: '/data/hmda_county_denial_rates.json',
+      stateField: 'state_code',
+      countyField: null,
+      context: '<strong>Source:</strong> Home Mortgage Disclosure Act (HMDA) 2023 data from CFPB/FFIEC. Includes purchase and refinance applications (action_taken 1 or 3). Counties with fewer than 50 applications excluded. A disparity ratio above 1.0 means higher denial rates for that group relative to White applicants.',
+      columns: [
+        { key: 'state_code',              label: 'State',               type: 'text' },
+        { key: 'county_fips',             label: 'County FIPS',         type: 'text' },
+        { key: 'total_apps',              label: 'Applications',        type: 'num' },
+        { key: 'denial_rate',             label: 'Denial Rate',         type: 'num' },
+        { key: 'denial_rate_white',       label: 'White Denial',        type: 'num' },
+        { key: 'denial_rate_black',       label: 'Black Denial',        type: 'num' },
+        { key: 'denial_rate_hispanic',    label: 'Hispanic Denial',     type: 'num' },
+        { key: 'disparity_ratio_black',   label: 'Black/White Ratio',   type: 'num' },
+        { key: 'disparity_ratio_hispanic',label: 'Hispanic/White Ratio',type: 'num' },
+      ]
+    },
+    'nih_grants': {
+      label: 'NIH Grant Recipients',
+      description: '4,616 organizations receiving NIH research grants (FY2023-2025). Shows total award amounts, institutes funding them, and organizational details.',
+      csv: '/data/nih_grants_by_org.csv',
+      json: '/data/nih_grants_by_org.json',
+      stateField: 'org_state',
+      countyField: null,
+      context: '<strong>Source:</strong> NIH ExPORTER (RePORTER project data) for fiscal years 2023-2025. Award amounts represent total project funding, not annual disbursements. Organizations are matched to the Entity Hub to identify crossref connections.',
+      columns: [
+        { key: 'raw_org',        label: 'Organization',   type: 'text' },
+        { key: 'org_state',      label: 'State',          type: 'text' },
+        { key: 'org_city',       label: 'City',           type: 'text' },
+        { key: 'total_amount',   label: 'Total Awards',   type: 'money' },
+        { key: 'total_awards',   label: 'Grant Count',    type: 'num' },
+        { key: 'fiscal_years',   label: 'Fiscal Years',   type: 'text' },
+      ]
+    }
+  };
+
+  function fmt(val, type) {
+    if (val === null || val === undefined || val === '') return '\u2014';
+    if (type === 'money') return '$' + Number(val).toLocaleString('en-US', { maximumFractionDigits: 0 });
+    if (type === 'num')   return Number(val).toLocaleString('en-US');
+    return val;
+  }
+
+  function loadDataset(name, cb) {
+    if (DATA[name]) return cb(DATA[name]);
+    fetch(CONFIGS[name].json)
+      .then(function(r) { return r.json(); })
+      .then(function(rows) { DATA[name] = rows; cb(rows); });
+  }
+
+  function getUnique(rows, field) {
+    var seen = {};
+    rows.forEach(function(r) { if (r[field]) seen[r[field]] = true; });
+    return Object.keys(seen).sort();
+  }
+
+  function populateSelect(selectEl, values, labelFn) {
+    var prev = selectEl.value;
+    var first = selectEl.options[0].textContent;
+    selectEl.innerHTML = '<option value="">' + first + '</option>';
+    values.forEach(function(v) {
+      var opt = document.createElement('option');
+      opt.value = v;
+      opt.textContent = labelFn ? labelFn(v) : v;
+      selectEl.appendChild(opt);
+    });
+    if (values.indexOf(prev) !== -1) selectEl.value = prev;
+  }
+
+  function saveTabState() {
+    var s = tabState[currentTab];
+    if ('state'  in s) s.state  = document.getElementById('state-select').value;
+    if ('county' in s) s.county = document.getElementById('county-select').value;
+    s.search = document.getElementById('search-input').value;
+  }
+
+  function restoreTabState() {
+    var s = tabState[currentTab];
+    if ('state'  in s) document.getElementById('state-select').value  = s.state;
+    if ('county' in s) document.getElementById('county-select').value = s.county;
+    document.getElementById('search-input').value = s.search;
+  }
+
+  function renderTable() {
+    var config = CONFIGS[currentTab];
+    var stateVal  = document.getElementById('state-select').value;
+    var countyVal = document.getElementById('county-select').value;
+    var search    = document.getElementById('search-input').value.toLowerCase();
+
+    loadDataset(currentTab, function(allRows) {
+      var rows = allRows.filter(function(r) {
+        if (config.defaultFilter && !config.defaultFilter(r)) return false;
+        if (stateVal  && config.stateField  && r[config.stateField]  !== stateVal)  return false;
+        if (countyVal && config.countyField && r[config.countyField] !== countyVal) return false;
+        if (search) {
+          var haystack = config.columns.map(function(c) {
+            return String(r[c.key] || '').toLowerCase();
+          }).join(' ');
+          if (haystack.indexOf(search) === -1) return false;
+        }
+        return true;
+      });
+
+      if (currentSort.col !== null) {
+        var col = config.columns[currentSort.col];
+        var asc = currentSort.asc;
+        rows.sort(function(a, b) {
+          var va = a[col.key], vb = b[col.key];
+          if (col.type === 'num' || col.type === 'money') {
+            va = Number(va) || 0; vb = Number(vb) || 0;
+          } else {
+            va = String(va || '').toLowerCase(); vb = String(vb || '').toLowerCase();
+          }
+          return va < vb ? (asc ? -1 : 1) : va > vb ? (asc ? 1 : -1) : 0;
+        });
+      }
+
+      var thead = document.getElementById('table-head');
+      thead.innerHTML = '<tr>' + config.columns.map(function(c, i) {
+        var arrow = currentSort.col === i ? (currentSort.asc ? ' &#9650;' : ' &#9660;') : '';
+        var cls   = currentSort.col === i ? ' class="sorted"' : '';
+        var ariaSort = currentSort.col === i ? (currentSort.asc ? ' aria-sort="ascending"' : ' aria-sort="descending"') : ' aria-sort="none"';
+        return '<th scope="col"' + cls + ariaSort + ' data-col="' + i + '" tabindex="0" role="columnheader">' + c.label + '<span class="sort-arrow">' + arrow + '</span></th>';
+      }).join('') + '</tr>';
+      document.getElementById('table-caption').textContent = config.label;
+
+      document.getElementById('table-body').innerHTML = rows.map(function(r) {
+        return '<tr>' + config.columns.map(function(c) {
+          var cls = (c.type === 'num' || c.type === 'money') ? ' class="' + c.type + '"' : '';
+          return '<td' + cls + '>' + fmt(r[c.key], c.type) + '</td>';
+        }).join('') + '</tr>';
+      }).join('');
+
+      document.getElementById('row-count').textContent = rows.length + ' of ' + allRows.length + ' rows';
+
+      thead.querySelectorAll('th').forEach(function(th) {
+        function doSort() {
+          var col = parseInt(th.getAttribute('data-col'));
+          currentSort.col === col ? (currentSort.asc = !currentSort.asc) : (currentSort = { col: col, asc: true });
+          renderTable();
+          // Restore focus to same column after re-render
+          var newTh = document.querySelector('th[data-col="' + col + '"]');
+          if (newTh) newTh.focus();
+        }
+        th.addEventListener('click', doSort);
+        th.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); doSort(); }
+        });
+      });
+
+      // Refresh county dropdown scoped to selected state
+      if (config.countyField) {
+        var base = config.stateField && stateVal
+          ? allRows.filter(function(r) { return r[config.stateField] === stateVal; })
+          : allRows;
+        populateSelect(document.getElementById('county-select'), getUnique(base, config.countyField));
+        document.getElementById('county-select').value = countyVal;
+      }
+    });
+  }
+
+  function switchTab(tabName) {
+    saveTabState();
+    currentTab = tabName;
+    currentSort = { col: null, asc: true };
+
+    var config = CONFIGS[currentTab];
+
+    // Update tab buttons
+    document.querySelectorAll('.data-tab').forEach(function(btn) {
+      var active = btn.getAttribute('data-tab') === tabName;
+      btn.classList.toggle('active', active);
+      btn.setAttribute('aria-selected', active);
+      btn.setAttribute('tabindex', active ? '0' : '-1');
+    });
+
+    // Update description and context
+    document.getElementById('tab-description').textContent = config.description;
+    document.getElementById('tabpanel').setAttribute('aria-labelledby', 'tab-' + currentTab);
+
+    // Context callout (per-tab, optional)
+    var contextEl = document.getElementById('tab-context');
+    if (!contextEl) {
+      contextEl = document.createElement('div');
+      contextEl.id = 'tab-context';
+      contextEl.className = 'context-callout';
+      document.getElementById('tab-description').after(contextEl);
+    }
+    contextEl.innerHTML = config.context || '';
+    contextEl.style.display = config.context ? '' : 'none';
+
+    // Show/hide state filter
+    var stateGroup = document.getElementById('state-filter-group');
+    if (config.stateField) {
+      stateGroup.style.display = '';
+      loadDataset(currentTab, function(rows) {
+        populateSelect(document.getElementById('state-select'), getUnique(rows, config.stateField), function(v) {
+          return STATE_NAMES[v] || v;
+        });
+        restoreTabState();
+        renderTable();
+      });
+    } else {
+      stateGroup.style.display = 'none';
+    }
+
+    // Show/hide county filter
+    var countyGroup = document.getElementById('county-filter-group');
+    if (config.countyField) {
+      countyGroup.style.display = '';
+      if (!config.stateField) {
+        loadDataset(currentTab, function(rows) {
+          populateSelect(document.getElementById('county-select'), getUnique(rows, config.countyField));
+          restoreTabState();
+          renderTable();
+        });
+      }
+    } else {
+      countyGroup.style.display = 'none';
+    }
+
+    var dlLink = document.getElementById('download-link');
+    dlLink.href = config.csv;
+    dlLink.setAttribute('aria-label', 'Download ' + config.label + ' CSV');
+
+    if (!config.stateField && !config.countyField) {
+      restoreTabState();
+      renderTable();
+    }
+  }
+
+  // Tab click + keyboard handlers
+  var tabButtons = Array.from(document.querySelectorAll('.data-tab'));
+  tabButtons.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      switchTab(this.getAttribute('data-tab'));
+      this.focus();
+    });
+    btn.addEventListener('keydown', function(e) {
+      var idx = tabButtons.indexOf(this);
+      var next;
+      if (e.key === 'ArrowRight') { next = tabButtons[(idx + 1) % tabButtons.length]; }
+      else if (e.key === 'ArrowLeft') { next = tabButtons[(idx - 1 + tabButtons.length) % tabButtons.length]; }
+      else if (e.key === 'Home') { next = tabButtons[0]; }
+      else if (e.key === 'End') { next = tabButtons[tabButtons.length - 1]; }
+      if (next) { e.preventDefault(); switchTab(next.getAttribute('data-tab')); next.focus(); }
+    });
+  });
+
+  document.getElementById('state-select').addEventListener('change', function() {
+    if (tabState[currentTab] && 'state' in tabState[currentTab]) {
+      tabState[currentTab].state = this.value;
+      tabState[currentTab].county = '';
+    }
+    document.getElementById('county-select').value = '';
+    renderTable();
+  });
+
+  document.getElementById('county-select').addEventListener('change', function() {
+    if (tabState[currentTab] && 'county' in tabState[currentTab]) {
+      tabState[currentTab].county = this.value;
+    }
+    renderTable();
+  });
+
+  var searchTimer;
+  document.getElementById('search-input').addEventListener('input', function() {
+    tabState[currentTab].search = this.value;
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(renderTable, 300);
+  });
+
+  // Init
+  switchTab('county_multi');
+})();
+</script>
+{{ end }}

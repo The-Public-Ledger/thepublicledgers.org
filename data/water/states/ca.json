@@ -1,0 +1,140 @@
+{
+  "state": "CA",
+  "facilities": 13201,
+  "water_systems": 6155,
+  "total_violations": 57173,
+  "health_violations": 30418,
+  "total_penalties": 82186951.0,
+  "avg_penalty": 6225.81,
+  "violation_rate": 0.5194,
+  "enforcement_gap_score": 0.5994,
+  "serious_violators": 36,
+  "tri_facilities": 1575,
+  "tri_releases_lbs": 22180367820.0,
+  "top_counties": [
+    {
+      "fips": "06005",
+      "name": "AMADOR",
+      "facilities": 30,
+      "total_violations": 44,
+      "health_violations": 16,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 1.4667
+    },
+    {
+      "fips": "06027",
+      "name": "INYO",
+      "facilities": 42,
+      "total_violations": 57,
+      "health_violations": 32,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 1.3571
+    },
+    {
+      "fips": "06017",
+      "name": "EL DORADO",
+      "facilities": 45,
+      "total_violations": 59,
+      "health_violations": 15,
+      "total_penalties": 6000.0,
+      "enforcement_gap_score": 1.1569
+    },
+    {
+      "fips": "06043",
+      "name": "MADERA COUNTY",
+      "facilities": 17,
+      "total_violations": 15,
+      "health_violations": 45,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.8824
+    },
+    {
+      "fips": "06105",
+      "name": "TRINITY",
+      "facilities": 21,
+      "total_violations": 17,
+      "health_violations": 38,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.8095
+    },
+    {
+      "fips": "06115",
+      "name": "YUBA",
+      "facilities": 32,
+      "total_violations": 30,
+      "health_violations": 4,
+      "total_penalties": 12000.0,
+      "enforcement_gap_score": 0.6818
+    },
+    {
+      "fips": "06051",
+      "name": "MONO",
+      "facilities": 15,
+      "total_violations": 9,
+      "health_violations": 30,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.6
+    },
+    {
+      "fips": "06083",
+      "name": "SANTA BARBARA",
+      "facilities": 80,
+      "total_violations": 62,
+      "health_violations": 6,
+      "total_penalties": 37000.0,
+      "enforcement_gap_score": 0.5299
+    },
+    {
+      "fips": "06015",
+      "name": "DEL NORTE",
+      "facilities": 27,
+      "total_violations": 13,
+      "health_violations": 11,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4815
+    },
+    {
+      "fips": "06089",
+      "name": "SHASTA",
+      "facilities": 75,
+      "total_violations": 43,
+      "health_violations": 32,
+      "total_penalties": 18000.0,
+      "enforcement_gap_score": 0.4624
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "ARDAGH GLASS INC",
+      "city": "MADERA",
+      "county": "MADERA",
+      "severity": 85.0,
+      "penalties": 389525.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "E&J GALLO WINERY",
+      "city": "LIVINGSTON",
+      "county": "MERCED",
+      "severity": 80.0,
+      "penalties": 63000.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "BAKER COMMODITIES, INC",
+      "city": "KERMAN",
+      "county": "FRESNO",
+      "severity": 65.0,
+      "penalties": 21080.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "CHEMTRADE WEST US LLC",
+      "city": "RICHMOND",
+      "county": "CONTRA COSTA",
+      "severity": 65.0,
+      "penalties": 1158000.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

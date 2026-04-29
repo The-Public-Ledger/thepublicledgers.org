@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "FL",
+    "state_name": "Florida",
+    "county": "Okaloosa",
+    "county_slug": "okaloosa",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 3.55,
+    "total_exemptions_usd": 14094060.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 138.98,
+    "total_beneficiaries": 16,
+    "num_donor_beneficiaries": 8,
+    "donor_rate_pct": 50.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 23,
+    "warn_workers_affected": 0,
+    "warn_notices": 0
+  },
+  "benchmarks": {
+    "state_rank": 23,
+    "state_total_counties": 78,
+    "state_percentile": 71,
+    "state_median_subsidy_usd": 8033000.0,
+    "state_median_donor_rate": 28.09,
+    "state_median_cost_per_hh": 96.46,
+    "subsidy_context": "above the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Okaloosa County ranks 23rd out of 78 Florida counties for total tax exemptions, with $14.1M in property tax breaks — above the state median. 50% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $139.",
+    "subsidy_context": "above the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

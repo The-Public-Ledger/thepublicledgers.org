@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "KY",
+    "state_name": "Kentucky",
+    "county": "Christian",
+    "county_slug": "christian",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 1.7,
+    "total_exemptions_usd": 2669885.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 0,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 75,
+    "warn_workers_affected": 0,
+    "fips_county": "047"
+  },
+  "benchmarks": {
+    "state_rank": 69,
+    "state_total_counties": 122,
+    "state_percentile": 43,
+    "state_median_subsidy_usd": 8608841.0,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 2548.24,
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Christian County ranks 69th out of 122 Kentucky counties for total tax exemptions, with $2.7M in property tax breaks — below the state median.",
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,15 @@
+<div class="us-map-wrap">
+  <div class="coverage-legend">
+    <span class="coverage-legend__item coverage-legend__item--full">Full coverage</span>
+    <span class="coverage-legend__item coverage-legend__item--partial">Partial data</span>
+    <span class="coverage-legend__item coverage-legend__item--placeholder">Coming soon</span>
+  </div>
+  <div class="state-grid">
+    {{ range site.Data.states }}
+    {{ $abbr := .meta.state | lower }}
+    <a href="/ida/states/{{ $abbr }}/" class="state-grid__item state-grid__item--{{ .meta.coverage_status }}" title="{{ .meta.state_name }}: {{ .meta.coverage_status }}">
+      {{ .meta.state }}
+    </a>
+    {{ end }}
+  </div>
+</div>

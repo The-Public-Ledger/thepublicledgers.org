@@ -1,0 +1,107 @@
+{
+  "state": "NE",
+  "facilities": 2042,
+  "water_systems": 1274,
+  "total_violations": 5983,
+  "health_violations": 3008,
+  "total_penalties": 2745009.0,
+  "avg_penalty": 1344.27,
+  "violation_rate": 0.5304,
+  "enforcement_gap_score": 1.2498,
+  "serious_violators": 5,
+  "tri_facilities": 129,
+  "tri_releases_lbs": 76094152.0,
+  "top_counties": [
+    {
+      "fips": "31145",
+      "name": "RED WILLOW",
+      "facilities": 6,
+      "total_violations": 2,
+      "health_violations": 31,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3333
+    },
+    {
+      "fips": "31137",
+      "name": "PHELPS",
+      "facilities": 3,
+      "total_violations": 1,
+      "health_violations": 6,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3333
+    },
+    {
+      "fips": "31017",
+      "name": "BROWN",
+      "facilities": 3,
+      "total_violations": 1,
+      "health_violations": 2,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3333
+    },
+    {
+      "fips": "31077",
+      "name": "GREELEY",
+      "facilities": 4,
+      "total_violations": 1,
+      "health_violations": 9,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.25
+    },
+    {
+      "fips": "31063",
+      "name": "FRONTIER",
+      "facilities": 4,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.25
+    },
+    {
+      "fips": "31039",
+      "name": "CUMING",
+      "facilities": 13,
+      "total_violations": 3,
+      "health_violations": 68,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2308
+    },
+    {
+      "fips": "31139",
+      "name": "PIERCE",
+      "facilities": 10,
+      "total_violations": 2,
+      "health_violations": 47,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2
+    },
+    {
+      "fips": "31125",
+      "name": "NANCE",
+      "facilities": 7,
+      "total_violations": 1,
+      "health_violations": 10,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1429
+    },
+    {
+      "fips": "31003",
+      "name": "ANTELOPE",
+      "facilities": 8,
+      "total_violations": 1,
+      "health_violations": 6,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.125
+    },
+    {
+      "fips": "31147",
+      "name": "RICHARDSON",
+      "facilities": 16,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.125
+    }
+  ],
+  "top_violators": []
+}

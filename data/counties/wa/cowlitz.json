@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "WA",
+    "state_name": "Washington",
+    "county": "Cowlitz",
+    "county_slug": "cowlitz",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 2.3,
+    "total_exemptions_usd": 47247.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2.07,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 0,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 1,
+    "warn_workers_affected": 0,
+    "fips_county": "015"
+  },
+  "benchmarks": {
+    "state_rank": 17,
+    "state_total_counties": 40,
+    "state_percentile": 57,
+    "state_median_subsidy_usd": 421357.0,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 4.64,
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Cowlitz County ranks 17th out of 40 Washington counties for total tax exemptions, with $47K in property tax breaks — below the state median. The per-household cost of these subsidies is $2.",
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

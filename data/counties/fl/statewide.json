@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "FL",
+    "state_name": "Florida",
+    "county": "Statewide",
+    "county_slug": "statewide",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 1.3,
+    "total_exemptions_usd": 0.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 1,
+    "num_donor_beneficiaries": 1,
+    "donor_rate_pct": 100.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 1,
+    "warn_workers_affected": 0,
+    "warn_notices": 0
+  },
+  "benchmarks": {
+    "state_rank": 64,
+    "state_total_counties": 78,
+    "state_percentile": 18,
+    "state_median_subsidy_usd": 8033000.0,
+    "state_median_donor_rate": 28.09,
+    "state_median_cost_per_hh": 96.46,
+    "subsidy_context": "no subsidy data",
+    "donor_context": "2.7× the state average"
+  },
+  "narrative": {
+    "summary": "100% of subsidy recipients donated to local officials.",
+    "subsidy_context": "no subsidy data",
+    "donor_context": "2.7× the state average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

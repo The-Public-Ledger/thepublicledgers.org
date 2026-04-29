@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "NC",
+    "state_name": "North Carolina",
+    "county": "Cabarrus Gaston And Others",
+    "county_slug": "cabarrus-gaston-and-others",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 2.4,
+    "total_exemptions_usd": 68443992.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 0,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 18,
+    "warn_workers_affected": 0,
+    "fips_county": ""
+  },
+  "benchmarks": {
+    "state_rank": 3,
+    "state_total_counties": 103,
+    "state_percentile": 97,
+    "state_median_subsidy_usd": 8425260.0,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 103.72,
+    "subsidy_context": "8.1× the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Cabarrus Gaston And Others County ranks 3rd out of 103 North Carolina counties for total tax exemptions, with $68.4M in property tax breaks — 8.1× the state median.",
+    "subsidy_context": "8.1× the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

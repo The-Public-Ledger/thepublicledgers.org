@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Warren And Washington Counties",
+    "county_slug": "warren-and-washington-counties",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 37.18,
+    "total_exemptions_usd": 37182073.37,
+    "net_exemptions_usd": 28725199.05,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 44,
+    "num_donor_beneficiaries": 8,
+    "donor_rate_pct": 18.18,
+    "total_donations_usd": 43185.13,
+    "jobs_promised": 7617,
+    "jobs_current": 10264,
+    "total_projects": 221,
+    "num_officials_receiving": 7,
+    "official_total_received_usd": 4103.16,
+    "num_pipelines": 10
+  },
+  "benchmarks": {
+    "state_rank": 54,
+    "state_total_counties": 104,
+    "state_percentile": 48,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "near the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Warren And Washington Counties County ranks 54th out of 104 New York counties for total tax exemptions, with $37.2M in property tax breaks — near the state median. 18% of subsidy recipients donated to local officials.",
+    "subsidy_context": "near the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

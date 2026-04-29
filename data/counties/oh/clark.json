@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Clark",
+    "county_slug": "clark",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 20.3,
+    "total_exemptions_usd": 157293825.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 5200.46,
+    "total_beneficiaries": 19,
+    "num_donor_beneficiaries": 8,
+    "donor_rate_pct": 42.11,
+    "total_donations_usd": 299261.51,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 317436012.46,
+    "households": 61040,
+    "bundling_clusters": 93,
+    "round_trips": 5,
+    "multi_dippers": 2,
+    "num_awards": 45
+  },
+  "benchmarks": {
+    "state_rank": 10,
+    "state_total_counties": 88,
+    "state_percentile": 89,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "33.1× the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Clark County ranks 10th out of 88 Ohio counties for total tax exemptions, with $157.3M in property tax breaks — 33.1× the state median. 42% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $5,200.",
+    "subsidy_context": "33.1× the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Poughkeepsie",
+    "county_slug": "poughkeepsie",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 56.7,
+    "total_exemptions_usd": 23464173.14,
+    "net_exemptions_usd": 17294064.87,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 12,
+    "num_donor_beneficiaries": 4,
+    "donor_rate_pct": 33.33,
+    "total_donations_usd": 31811.11,
+    "jobs_promised": 910,
+    "jobs_current": 1459,
+    "total_projects": 80,
+    "num_officials_receiving": 3,
+    "official_total_received_usd": 6250.0,
+    "num_pipelines": 3
+  },
+  "benchmarks": {
+    "state_rank": 68,
+    "state_total_counties": 104,
+    "state_percentile": 35,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Poughkeepsie County ranks 68th out of 104 New York counties for total tax exemptions, with $23.5M in property tax breaks — below the state median. 33% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

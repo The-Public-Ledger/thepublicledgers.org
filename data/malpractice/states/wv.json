@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "state_abbr": "WV",
+    "state_name": "West Virginia",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 33,
+    "physician_population": 6559,
+    "per_1000_physicians": 5.031,
+    "double_flagged": 6,
+    "industry_payments_usd": 112390.81999999998
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 17
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 7
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 4
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 2
+    },
+    {
+      "code": "1128b1",
+      "label": "Misdemeanor Fraud",
+      "count": 1
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 1
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 4
+    },
+    {
+      "from_state": "NC",
+      "from_name": "North Carolina",
+      "count": 2
+    },
+    {
+      "from_state": "OH",
+      "from_name": "Ohio",
+      "count": 2
+    },
+    {
+      "from_state": "VA",
+      "from_name": "Virginia",
+      "count": 1
+    },
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 1
+    },
+    {
+      "from_state": "NM",
+      "from_name": "New Mexico",
+      "count": 1
+    },
+    {
+      "from_state": "KY",
+      "from_name": "Kentucky",
+      "count": 1
+    },
+    {
+      "from_state": "MT",
+      "from_name": "Montana",
+      "count": 1
+    },
+    {
+      "from_state": "NY",
+      "from_name": "New York",
+      "count": 1
+    },
+    {
+      "from_state": "CO",
+      "from_name": "Colorado",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 27
+    },
+    {
+      "to_state": "PA",
+      "to_name": "Pennsylvania",
+      "count": 11
+    },
+    {
+      "to_state": "OH",
+      "to_name": "Ohio",
+      "count": 7
+    },
+    {
+      "to_state": "VA",
+      "to_name": "Virginia",
+      "count": 5
+    },
+    {
+      "to_state": "KY",
+      "to_name": "Kentucky",
+      "count": 4
+    },
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 4
+    },
+    {
+      "to_state": "NC",
+      "to_name": "North Carolina",
+      "count": 4
+    },
+    {
+      "to_state": "SC",
+      "to_name": "South Carolina",
+      "count": 2
+    },
+    {
+      "to_state": "NJ",
+      "to_name": "New Jersey",
+      "count": 2
+    },
+    {
+      "to_state": "TN",
+      "to_name": "Tennessee",
+      "count": 2
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "SISSON, MATHEW S",
+      "npi": "1619331964",
+      "score": 76.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-11-18",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "OTELLIN, ALEXANDER VLADIMIROVICH",
+      "npi": "1740302066",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-06-19",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "KESARI, SRIRAMLOO nan",
+      "npi": "1558318832",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2022-05-19",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "SPELAR, MARC J",
+      "npi": "1154550648",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2022-02-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "ADDISON, JEFFERY F",
+      "npi": "1972548618",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2020-10-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "KOSTENKO, MICHAEL MERRITT",
+      "npi": "1548328800",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2018-01-18",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "NASHERALNEAM, MUHAMMED S",
+      "npi": "1467431320",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-01-20",
+      "specialty": "SURGERY"
+    },
+    {
+      "name": "AGGARWAL, MADHU nan",
+      "npi": "1336136431",
+      "score": 65.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2019-12-19",
+      "specialty": "GYN/OBS"
+    },
+    {
+      "name": "GONZALEZRAMOS, FERNANDO LUIS",
+      "npi": "1053348771",
+      "score": 65.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2014-08-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "GORDINHO, JOSE JORGE",
+      "npi": "1124089016",
+      "score": 65.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2017-07-20",
+      "specialty": "NEPHROLOGY"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "NASHERALNEAM, MUHAMMED S",
+      "npi": "1467431320",
+      "total_usd": 72720.0,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "HESS, DAVID ELWOOD",
+      "npi": "1740275676",
+      "total_usd": 24064.8,
+      "payment_count": 1024,
+      "companies": 59
+    },
+    {
+      "name": "HOUDERSHELDT, RICKY L",
+      "npi": "1457306300",
+      "total_usd": 5412.83,
+      "payment_count": 445,
+      "companies": 35
+    },
+    {
+      "name": "OTELLIN, ALEXANDER VLADIMIROVICH",
+      "npi": "1740302066",
+      "total_usd": 4936.66,
+      "payment_count": 302,
+      "companies": 22
+    },
+    {
+      "name": "BARIT, MANUEL CORTEZ",
+      "npi": "1376505164",
+      "total_usd": 1547.45,
+      "payment_count": 64,
+      "companies": 10
+    },
+    {
+      "name": "JOHNSON, JOHN H",
+      "npi": "1922003318",
+      "total_usd": 1294.23,
+      "payment_count": 60,
+      "companies": 15
+    },
+    {
+      "name": "ROMANO, THOMAS JAMES",
+      "npi": "1902136443",
+      "total_usd": 884.28,
+      "payment_count": 51,
+      "companies": 8
+    },
+    {
+      "name": "GONZALEZRAMOS, FERNANDO LUIS",
+      "npi": "1053348771",
+      "total_usd": 819.73,
+      "payment_count": 12,
+      "companies": 6
+    },
+    {
+      "name": "AGGARWAL, MADHU nan",
+      "npi": "1336136431",
+      "total_usd": 349.54,
+      "payment_count": 9,
+      "companies": 4
+    },
+    {
+      "name": "THOMAS, WILLIAM SCOTT",
+      "npi": "1013945278",
+      "total_usd": 199.87,
+      "payment_count": 14,
+      "companies": 4
+    }
+  ]
+}

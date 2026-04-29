@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "state": "UT",
+    "state_name": "Utah",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 29,
+      "counties_with_data": 11,
+      "crossref_complete": true,
+      "deals_count": 1111,
+      "contributions_matched": 17
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 372948679.0,
+    "total_beneficiaries": 1111,
+    "total_donations_usd": 2097283.71,
+    "matched_donors": 17,
+    "pct_beneficiaries_donating": 0.015300000000000001
+  },
+  "top_findings": [
+    "17 of 1,111 subsidized companies (1.5%) made campaign donations — $2.1M total.",
+    "$35,844 in donations flowed from beneficiaries to 5 political committees. Top recipient: Clyde Companies, Inc ($21,000).",
+    "$373M in total subsidies tracked across 1,111 beneficiary companies in Utah."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 35844.4,
+    "num_committees_receiving": 5,
+    "top_committee_name": "Clyde Companies, Inc",
+    "top_committee_amount": 21000.0,
+    "top_committee_pct": 100.0
+  },
+  "counties": [
+    {
+      "name": "Salt Lake",
+      "slug": "salt-lake",
+      "score": 100.0,
+      "total_exemptions_usd": 236086792.0,
+      "cost_per_household_usd": 579.11,
+      "total_beneficiaries": 0,
+      "num_awards": 26,
+      "fips_county": "035"
+    },
+    {
+      "name": "Davis",
+      "slug": "davis",
+      "score": 20.8,
+      "total_exemptions_usd": 51946836.0,
+      "cost_per_household_usd": 463.17,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "011"
+    },
+    {
+      "name": "Utah",
+      "slug": "utah",
+      "score": 16.9,
+      "total_exemptions_usd": 54947593.0,
+      "cost_per_household_usd": 293.57,
+      "total_beneficiaries": 0,
+      "num_awards": 6,
+      "fips_county": "049"
+    },
+    {
+      "name": "Weber",
+      "slug": "weber",
+      "score": 10.3,
+      "total_exemptions_usd": 22594958.0,
+      "cost_per_household_usd": 251.08,
+      "total_beneficiaries": 0,
+      "num_awards": 12,
+      "fips_county": "057"
+    },
+    {
+      "name": "Sanpete",
+      "slug": "sanpete",
+      "score": 5.6,
+      "total_exemptions_usd": 1754800.0,
+      "cost_per_household_usd": 203.64,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "039"
+    },
+    {
+      "name": "Cache",
+      "slug": "cache",
+      "score": 3.6,
+      "total_exemptions_usd": 4494500.0,
+      "cost_per_household_usd": 107.74,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "005"
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "score": 0.4,
+      "total_exemptions_usd": 689700.0,
+      "cost_per_household_usd": 10.75,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "053"
+    },
+    {
+      "name": "Tooele",
+      "slug": "tooele",
+      "score": 0.3,
+      "total_exemptions_usd": 208500.0,
+      "cost_per_household_usd": 9.42,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "045"
+    },
+    {
+      "name": "Iron",
+      "slug": "iron",
+      "score": 0.2,
+      "total_exemptions_usd": 125000.0,
+      "cost_per_household_usd": 6.72,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "021"
+    },
+    {
+      "name": "Summit",
+      "slug": "summit",
+      "score": 0.2,
+      "total_exemptions_usd": 100000.0,
+      "cost_per_household_usd": 7.32,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "043"
+    },
+    {
+      "name": "Carbon",
+      "slug": "carbon",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 6,
+      "fips_county": "007"
+    }
+  ]
+}

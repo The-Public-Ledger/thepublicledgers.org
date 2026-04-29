@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "state_abbr": "RI",
+    "state_name": "Rhode Island",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 4,
+    "physician_population": 5587,
+    "per_1000_physicians": 0.716,
+    "double_flagged": 1,
+    "industry_payments_usd": 991.56
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 3
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "NC",
+      "to_name": "North Carolina",
+      "count": 1
+    },
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "ROSENBERG, JERROLD N",
+      "npi": "1639175763",
+      "score": 65.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2019-01-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "BOYLE, SARAH F",
+      "npi": "1255591574",
+      "score": 44.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2017-01-19",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "PARMENTIER, ARTHUR HILTON",
+      "npi": "1639202351",
+      "score": 44.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2017-05-18",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "MARVELL, PHILEMON T",
+      "npi": "1811074909",
+      "score": 32.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2013-11-20",
+      "specialty": "FAMILY PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "OCONNOR, WILLIAM EDWARD",
+      "npi": "1780759381",
+      "total_usd": 991.56,
+      "payment_count": 2,
+      "companies": 2
+    }
+  ]
+}

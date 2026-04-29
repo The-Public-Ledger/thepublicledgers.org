@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "FL",
+    "state_name": "Florida",
+    "county": "Osceola",
+    "county_slug": "osceola",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 3.35,
+    "total_exemptions_usd": 11863000.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 75.57,
+    "total_beneficiaries": 23,
+    "num_donor_beneficiaries": 8,
+    "donor_rate_pct": 34.78,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 25,
+    "warn_workers_affected": 0,
+    "warn_notices": 0
+  },
+  "benchmarks": {
+    "state_rank": 28,
+    "state_total_counties": 78,
+    "state_percentile": 64,
+    "state_median_subsidy_usd": 8033000.0,
+    "state_median_donor_rate": 28.09,
+    "state_median_cost_per_hh": 96.46,
+    "subsidy_context": "above the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Osceola County ranks 28th out of 78 Florida counties for total tax exemptions, with $11.9M in property tax breaks — above the state median. 35% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $76.",
+    "subsidy_context": "above the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

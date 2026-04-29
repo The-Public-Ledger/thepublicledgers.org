@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "state_abbr": "GA",
+    "state_name": "Georgia",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 57,
+    "physician_population": 33234,
+    "per_1000_physicians": 1.715,
+    "double_flagged": 10,
+    "industry_payments_usd": 24673.1
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 20
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 15
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 10
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 5
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 2
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 2
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 2
+    },
+    {
+      "code": "BRCH SA",
+      "label": "BRCH SA",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 5
+    },
+    {
+      "from_state": "KY",
+      "from_name": "Kentucky",
+      "count": 2
+    },
+    {
+      "from_state": "AL",
+      "from_name": "Alabama",
+      "count": 2
+    },
+    {
+      "from_state": "SC",
+      "from_name": "South Carolina",
+      "count": 2
+    },
+    {
+      "from_state": "NC",
+      "from_name": "North Carolina",
+      "count": 2
+    },
+    {
+      "from_state": "LA",
+      "from_name": "Louisiana",
+      "count": 1
+    },
+    {
+      "from_state": "IN",
+      "from_name": "Indiana",
+      "count": 1
+    },
+    {
+      "from_state": "OR",
+      "from_name": "Oregon",
+      "count": 1
+    },
+    {
+      "from_state": "WV",
+      "from_name": "West Virginia",
+      "count": 1
+    },
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 5
+    },
+    {
+      "to_state": "AL",
+      "to_name": "Alabama",
+      "count": 4
+    },
+    {
+      "to_state": "TN",
+      "to_name": "Tennessee",
+      "count": 2
+    },
+    {
+      "to_state": "KY",
+      "to_name": "Kentucky",
+      "count": 2
+    },
+    {
+      "to_state": "PA",
+      "to_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 1
+    },
+    {
+      "to_state": "VA",
+      "to_name": "Virginia",
+      "count": 1
+    },
+    {
+      "to_state": "PR",
+      "to_name": "Puerto Rico",
+      "count": 1
+    },
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "PATEL, RAJESH MOTIBHAI",
+      "npi": "1588619712",
+      "score": 77.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2025-08-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "SACHY, THOMAS H",
+      "npi": "1962572511",
+      "score": 75.2,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-01-20",
+      "specialty": "NEPHROLOGY"
+    },
+    {
+      "name": "BENDER, JAY B",
+      "npi": "1235237546",
+      "score": 72.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2024-03-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "GALLUPS, JEFFREY M",
+      "npi": "1851471866",
+      "score": 72.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2023-07-20",
+      "specialty": "OTORHINOLARYNGOLOGY"
+    },
+    {
+      "name": "ORR, SEAN CHRISTOPHER",
+      "npi": "1013059740",
+      "score": 72.0,
+      "exclusion_label": "Fraud/Kickbacks",
+      "exclusion_date": "2017-03-16",
+      "specialty": "NEUROLOGY"
+    },
+    {
+      "name": "BYNES, FRANK HOWARD",
+      "npi": "1518296839",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-10-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "ASKARI, NEVORN nan",
+      "npi": "1073739579",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2019-05-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "BIRD, GEORGE MACK",
+      "npi": "1508004433",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2019-06-20",
+      "specialty": "GYN/OBS"
+    },
+    {
+      "name": "BRUCE, BARBARA A",
+      "npi": "1881600906",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2020-01-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "GILLIARD, FRED EMERSON",
+      "npi": "1629407838",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2020-06-18",
+      "specialty": "FAMILY PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "GALLUPS, JEFFREY M",
+      "npi": "1851471866",
+      "total_usd": 10634.58,
+      "payment_count": 13,
+      "companies": 3
+    },
+    {
+      "name": "JENKINS, OLIVER H",
+      "npi": "1033111000",
+      "total_usd": 3247.1,
+      "payment_count": 53,
+      "companies": 11
+    },
+    {
+      "name": "BERINHOUT, RANDALL CHARLES",
+      "npi": "1720031503",
+      "total_usd": 2520.98,
+      "payment_count": 93,
+      "companies": 22
+    },
+    {
+      "name": "YASIN, NURA F",
+      "npi": "1265518567",
+      "total_usd": 2226.95,
+      "payment_count": 153,
+      "companies": 19
+    },
+    {
+      "name": "GEIGER, DOUGLAS LECEDIOUS",
+      "npi": "1851682868",
+      "total_usd": 1420.92,
+      "payment_count": 22,
+      "companies": 13
+    },
+    {
+      "name": "MOSS, DOUGLAS nan",
+      "npi": "1679542781",
+      "total_usd": 1201.84,
+      "payment_count": 14,
+      "companies": 7
+    },
+    {
+      "name": "GRAY, DURIEL DONNELL",
+      "npi": "1619170701",
+      "total_usd": 519.35,
+      "payment_count": 32,
+      "companies": 12
+    },
+    {
+      "name": "MANSFIELD, KATHY E",
+      "npi": "1538242169",
+      "total_usd": 398.68,
+      "payment_count": 31,
+      "companies": 6
+    },
+    {
+      "name": "LESLIE, HARVEY BOWEN",
+      "npi": "1992883201",
+      "total_usd": 349.95,
+      "payment_count": 10,
+      "companies": 6
+    },
+    {
+      "name": "BUTLER, KAREN LIND",
+      "npi": "1902858848",
+      "total_usd": 253.37,
+      "payment_count": 9,
+      "companies": 7
+    }
+  ]
+}

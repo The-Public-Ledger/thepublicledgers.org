@@ -1,0 +1,689 @@
+{
+  "meta": {
+    "state": "CO",
+    "state_name": "Colorado",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 64,
+      "counties_with_data": 64,
+      "crossref_complete": true,
+      "deals_count": 4680,
+      "contributions_matched": 1236
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 1063722350.0,
+    "total_beneficiaries": 4680,
+    "total_donations_usd": 93161934.9,
+    "matched_donors": 1236,
+    "pct_beneficiaries_donating": 0.2641
+  },
+  "top_findings": [
+    "1,236 of 4,680 subsidized companies (26.4%) made campaign donations — $93.2M total.",
+    "$49.4M in donations flowed from beneficiaries to 981 political committees. Top recipient: PROTECTING COLORADO'S ENVIRONMENT, ECONOMY, AND ENERGY INDEPENDENCE ($21.7M).",
+    "$1.06B in total subsidies tracked across 4,680 beneficiary companies in Colorado."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 49410354.31,
+    "num_committees_receiving": 981,
+    "top_committee_name": "PROTECTING COLORADO'S ENVIRONMENT, ECONOMY, AND ENERGY INDEPENDENCE",
+    "top_committee_amount": 21696067.84,
+    "top_committee_pct": 2.19
+  },
+  "counties": [
+    {
+      "name": "Denver",
+      "slug": "denver",
+      "score": 4.4,
+      "total_exemptions_usd": 275250201.0,
+      "cost_per_household_usd": 1597.23,
+      "total_beneficiaries": 0,
+      "num_awards": 997,
+      "fips_county": "031"
+    },
+    {
+      "name": "Douglas",
+      "slug": "douglas",
+      "score": 4.2,
+      "total_exemptions_usd": 95683809.0,
+      "cost_per_household_usd": 193.11,
+      "total_beneficiaries": 0,
+      "num_awards": 152,
+      "fips_county": "035"
+    },
+    {
+      "name": "El Paso",
+      "slug": "el-paso",
+      "score": 4.2,
+      "total_exemptions_usd": 39115505.0,
+      "cost_per_household_usd": 135.23,
+      "total_beneficiaries": 0,
+      "num_awards": 1000,
+      "fips_county": "041"
+    },
+    {
+      "name": "Fremont",
+      "slug": "fremont",
+      "score": 3.85,
+      "total_exemptions_usd": 1656151.0,
+      "cost_per_household_usd": 81.98,
+      "total_beneficiaries": 0,
+      "num_awards": 188,
+      "fips_county": "043"
+    },
+    {
+      "name": "Mesa",
+      "slug": "mesa",
+      "score": 3.85,
+      "total_exemptions_usd": 8731115.0,
+      "cost_per_household_usd": 129.61,
+      "total_beneficiaries": 0,
+      "num_awards": 981,
+      "fips_county": "077"
+    },
+    {
+      "name": "Routt",
+      "slug": "routt",
+      "score": 3.85,
+      "total_exemptions_usd": 2655138.0,
+      "cost_per_household_usd": 159.54,
+      "total_beneficiaries": 0,
+      "num_awards": 252,
+      "fips_county": "107"
+    },
+    {
+      "name": "Elbert",
+      "slug": "elbert",
+      "score": 3.8,
+      "total_exemptions_usd": 26692985.0,
+      "cost_per_household_usd": 2696.81,
+      "total_beneficiaries": 0,
+      "num_awards": 136,
+      "fips_county": "039"
+    },
+    {
+      "name": "Alamosa",
+      "slug": "alamosa",
+      "score": 3.75,
+      "total_exemptions_usd": 3121552.0,
+      "cost_per_household_usd": 441.26,
+      "total_beneficiaries": 0,
+      "num_awards": 548,
+      "fips_county": "003"
+    },
+    {
+      "name": "Garfield",
+      "slug": "garfield",
+      "score": 3.75,
+      "total_exemptions_usd": 8696181.0,
+      "cost_per_household_usd": 361.18,
+      "total_beneficiaries": 0,
+      "num_awards": 274,
+      "fips_county": "045"
+    },
+    {
+      "name": "Logan",
+      "slug": "logan",
+      "score": 3.75,
+      "total_exemptions_usd": 5088128.0,
+      "cost_per_household_usd": 585.31,
+      "total_beneficiaries": 0,
+      "num_awards": 890,
+      "fips_county": "075"
+    },
+    {
+      "name": "Saguache",
+      "slug": "saguache",
+      "score": 3.75,
+      "total_exemptions_usd": 1890103.0,
+      "cost_per_household_usd": 502.79,
+      "total_beneficiaries": 0,
+      "num_awards": 262,
+      "fips_county": "109"
+    },
+    {
+      "name": "San Juan",
+      "slug": "san-juan",
+      "score": 3.7,
+      "total_exemptions_usd": 202912.0,
+      "cost_per_household_usd": 278.34,
+      "total_beneficiaries": 0,
+      "num_awards": 18,
+      "fips_county": "111"
+    },
+    {
+      "name": "Sedgwick",
+      "slug": "sedgwick",
+      "score": 3.7,
+      "total_exemptions_usd": 985462.0,
+      "cost_per_household_usd": 800.54,
+      "total_beneficiaries": 0,
+      "num_awards": 194,
+      "fips_county": "115"
+    },
+    {
+      "name": "Adams",
+      "slug": "adams",
+      "score": 3.6,
+      "total_exemptions_usd": 39951600.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1019,
+      "fips_county": "001"
+    },
+    {
+      "name": "Jefferson",
+      "slug": "jefferson",
+      "score": 3.6,
+      "total_exemptions_usd": 25893000.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 126,
+      "fips_county": "059"
+    },
+    {
+      "name": "Prowers",
+      "slug": "prowers",
+      "score": 3.6,
+      "total_exemptions_usd": 10500000.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 21,
+      "fips_county": "099"
+    },
+    {
+      "name": "Weld",
+      "slug": "weld",
+      "score": 3.6,
+      "total_exemptions_usd": 22722000.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 84,
+      "fips_county": "123"
+    },
+    {
+      "name": "Custer",
+      "slug": "custer",
+      "score": 3.5,
+      "total_exemptions_usd": 185277.0,
+      "cost_per_household_usd": 44.23,
+      "total_beneficiaries": 0,
+      "num_awards": 34,
+      "fips_county": "027"
+    },
+    {
+      "name": "Broomfield",
+      "slug": "broomfield",
+      "score": 3.45,
+      "total_exemptions_usd": 8033456.0,
+      "cost_per_household_usd": 256.35,
+      "total_beneficiaries": 0,
+      "num_awards": 51,
+      "fips_county": "014"
+    },
+    {
+      "name": "Dolores",
+      "slug": "dolores",
+      "score": 3.4,
+      "total_exemptions_usd": 1002302.0,
+      "cost_per_household_usd": 588.21,
+      "total_beneficiaries": 0,
+      "num_awards": 58,
+      "fips_county": "033"
+    },
+    {
+      "name": "Arapahoe",
+      "slug": "arapahoe",
+      "score": 3.3,
+      "total_exemptions_usd": 96399967.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 501,
+      "fips_county": "005"
+    },
+    {
+      "name": "Boulder",
+      "slug": "boulder",
+      "score": 3.3,
+      "total_exemptions_usd": 12668280.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 248,
+      "fips_county": "013"
+    },
+    {
+      "name": "Kit Carson",
+      "slug": "kit-carson",
+      "score": 3.3,
+      "total_exemptions_usd": 12957616.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 984,
+      "fips_county": "063"
+    },
+    {
+      "name": "Morgan",
+      "slug": "morgan",
+      "score": 3.3,
+      "total_exemptions_usd": 16534509.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 731,
+      "fips_county": "087"
+    },
+    {
+      "name": "Delta",
+      "slug": "delta",
+      "score": 3.25,
+      "total_exemptions_usd": 6282858.0,
+      "cost_per_household_usd": 174.04,
+      "total_beneficiaries": 0,
+      "num_awards": 330,
+      "fips_county": "029"
+    },
+    {
+      "name": "San Miguel",
+      "slug": "san-miguel",
+      "score": 3.2,
+      "total_exemptions_usd": 127080.0,
+      "cost_per_household_usd": 19.36,
+      "total_beneficiaries": 0,
+      "num_awards": 23,
+      "fips_county": "113"
+    },
+    {
+      "name": "Montrose",
+      "slug": "montrose",
+      "score": 2.95,
+      "total_exemptions_usd": 4131777.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 542,
+      "fips_county": "085"
+    },
+    {
+      "name": "Archuleta",
+      "slug": "archuleta",
+      "score": 2.9,
+      "total_exemptions_usd": 1592092.0,
+      "cost_per_household_usd": 166.0,
+      "total_beneficiaries": 0,
+      "num_awards": 222,
+      "fips_county": "007"
+    },
+    {
+      "name": "Otero",
+      "slug": "otero",
+      "score": 2.65,
+      "total_exemptions_usd": 1680000.0,
+      "cost_per_household_usd": 246.79,
+      "total_beneficiaries": 0,
+      "num_awards": 21,
+      "fips_county": "089"
+    },
+    {
+      "name": "Huerfano",
+      "slug": "huerfano",
+      "score": 2.6,
+      "total_exemptions_usd": 644248.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 53,
+      "fips_county": "055"
+    },
+    {
+      "name": "Mineral",
+      "slug": "mineral",
+      "score": 2.6,
+      "total_exemptions_usd": 378224.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 45,
+      "fips_county": "079"
+    },
+    {
+      "name": "Pueblo",
+      "slug": "pueblo",
+      "score": 2.4,
+      "total_exemptions_usd": 12033000.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 42,
+      "fips_county": "101"
+    },
+    {
+      "name": "Chaffee",
+      "slug": "chaffee",
+      "score": 2.3,
+      "total_exemptions_usd": 1052685.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 189,
+      "fips_county": "015"
+    },
+    {
+      "name": "Clear Creek",
+      "slug": "clear-creek",
+      "score": 2.05,
+      "total_exemptions_usd": 1680000.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 21,
+      "fips_county": "019"
+    },
+    {
+      "name": "Larimer",
+      "slug": "larimer",
+      "score": 2.05,
+      "total_exemptions_usd": 5250000.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 21,
+      "fips_county": "069"
+    },
+    {
+      "name": "Costilla",
+      "slug": "costilla",
+      "score": 1.8,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 1087.77,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "023"
+    },
+    {
+      "name": "Crowley",
+      "slug": "crowley",
+      "score": 1.8,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 326.27,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "025"
+    },
+    {
+      "name": "Statewide",
+      "slug": "statewide",
+      "score": 1.8,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 277.95,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Summit",
+      "slug": "summit",
+      "score": 1.7,
+      "total_exemptions_usd": 12078.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "117"
+    },
+    {
+      "name": "Baca",
+      "slug": "baca",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "009"
+    },
+    {
+      "name": "Bent",
+      "slug": "bent",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "011"
+    },
+    {
+      "name": "Cheyenne",
+      "slug": "cheyenne",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "017"
+    },
+    {
+      "name": "Conejos",
+      "slug": "conejos",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "021"
+    },
+    {
+      "name": "Eagle",
+      "slug": "eagle",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "037"
+    },
+    {
+      "name": "Gilpin",
+      "slug": "gilpin",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "047"
+    },
+    {
+      "name": "Grand",
+      "slug": "grand",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "049"
+    },
+    {
+      "name": "Gunnison",
+      "slug": "gunnison",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "051"
+    },
+    {
+      "name": "Hinsdale",
+      "slug": "hinsdale",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "053"
+    },
+    {
+      "name": "Jackson",
+      "slug": "jackson",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "057"
+    },
+    {
+      "name": "Kiowa",
+      "slug": "kiowa",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "061"
+    },
+    {
+      "name": "La Plata",
+      "slug": "la-plata",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "067"
+    },
+    {
+      "name": "Lake",
+      "slug": "lake",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "065"
+    },
+    {
+      "name": "Las Animas",
+      "slug": "las-animas",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "071"
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "073"
+    },
+    {
+      "name": "Moffat",
+      "slug": "moffat",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "081"
+    },
+    {
+      "name": "Montezuma",
+      "slug": "montezuma",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "083"
+    },
+    {
+      "name": "Ouray",
+      "slug": "ouray",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "091"
+    },
+    {
+      "name": "Park",
+      "slug": "park",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "093"
+    },
+    {
+      "name": "Phillips",
+      "slug": "phillips",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "095"
+    },
+    {
+      "name": "Pitkin",
+      "slug": "pitkin",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "097"
+    },
+    {
+      "name": "Rio Blanco",
+      "slug": "rio-blanco",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "103"
+    },
+    {
+      "name": "Rio Grande",
+      "slug": "rio-grande",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "105"
+    },
+    {
+      "name": "Teller",
+      "slug": "teller",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "119"
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "121"
+    },
+    {
+      "name": "Yuma",
+      "slug": "yuma",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "125"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "FL",
+    "state_name": "Florida",
+    "county": "Putnam",
+    "county_slug": "putnam",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 2.7,
+    "total_exemptions_usd": 3177600.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 87.82,
+    "total_beneficiaries": 3,
+    "num_donor_beneficiaries": 2,
+    "donor_rate_pct": 66.67,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 6,
+    "warn_workers_affected": 0,
+    "warn_notices": 0
+  },
+  "benchmarks": {
+    "state_rank": 44,
+    "state_total_counties": 78,
+    "state_percentile": 44,
+    "state_median_subsidy_usd": 8033000.0,
+    "state_median_donor_rate": 28.09,
+    "state_median_cost_per_hh": 96.46,
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Putnam County ranks 44th out of 78 Florida counties for total tax exemptions, with $3.2M in property tax breaks — below the state median. 67% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $88.",
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,93 @@
+<div class="tile-map-section">
+  <div class="tile-map-legend">
+    <span class="tile-legend-item tile-legend-item--full">Full county data</span>
+    <span class="tile-legend-item tile-legend-item--partial">State-level data</span>
+    <span class="tile-legend-item tile-legend-item--placeholder">Coming soon</span>
+  </div>
+  <div class="tile-map" role="list" aria-label="US state IDA coverage map">
+    {{ range site.Data.states }}
+    {{ $abbr := .meta.state | lower }}
+    {{ $name := .meta.state_name }}
+    {{ $status := .meta.coverage_status }}
+    {{ $subsidies := "" }}
+    {{ $donors := "" }}
+    {{ with .summary_stats }}
+      {{ with .total_exemptions_usd }}{{ $subsidies = . }}{{ end }}
+      {{ with .matched_donors }}{{ $donors = . }}{{ end }}
+    {{ end }}
+    <a href="/ida/states/{{ $abbr }}/"
+       class="state-tile state-tile--{{ $status }}"
+       data-state="{{ $abbr }}"
+       data-name="{{ $name }}"
+       data-status="{{ $status }}"
+       data-subsidies="{{ $subsidies }}"
+       data-donors="{{ $donors }}"
+       role="listitem"
+       aria-label="{{ $name }}: {{ $status }} coverage">
+      {{ $abbr | upper }}
+    </a>
+    {{ end }}
+  </div>
+  <div id="tile-tooltip" class="tile-tooltip" aria-hidden="true"></div>
+</div>
+
+<script>
+(function() {
+  var tiles = document.querySelectorAll('.state-tile');
+  var tooltip = document.getElementById('tile-tooltip');
+
+  function fmtMoney(n) {
+    n = parseFloat(n);
+    if (!n) return null;
+    if (n >= 1e9) return '$' + (n / 1e9).toFixed(1) + 'B';
+    if (n >= 1e6) return '$' + (n / 1e6).toFixed(1) + 'M';
+    return '$' + n.toFixed(0);
+  }
+
+  function statusLabel(s) {
+    if (s === 'full') return 'Full county data';
+    if (s === 'partial') return 'State-level data';
+    return 'Coming soon';
+  }
+
+  function showTooltip(tile) {
+    var name = tile.dataset.name;
+    var status = tile.dataset.status;
+    var subsidies = fmtMoney(tile.dataset.subsidies);
+    var donors = parseInt(tile.dataset.donors) || 0;
+    var html = '<strong>' + name + '</strong><br><span class="tip-status tip-status--' + status + '">' + statusLabel(status) + '</span>';
+    if (subsidies) html += '<br>' + subsidies + ' in subsidies';
+    if (donors) html += '<br>' + donors.toLocaleString() + ' donors matched';
+    tooltip.innerHTML = html;
+    tooltip.classList.add('tile-tooltip--visible');
+  }
+
+  function positionTooltip(e) {
+    var x = e.clientX + window.scrollX + 12;
+    var y = e.clientY + window.scrollY - 10;
+    if (x + 180 > window.innerWidth + window.scrollX) x = e.clientX + window.scrollX - 192;
+    tooltip.style.left = x + 'px';
+    tooltip.style.top = y + 'px';
+  }
+
+  function hideTooltip() {
+    tooltip.classList.remove('tile-tooltip--visible');
+  }
+
+  tiles.forEach(function(tile) {
+    // Mouse events
+    tile.addEventListener('mouseenter', function(e) { showTooltip(tile); });
+    tile.addEventListener('mousemove', positionTooltip);
+    tile.addEventListener('mouseleave', hideTooltip);
+
+    // Keyboard focus events — show tooltip below the tile
+    tile.addEventListener('focus', function() {
+      showTooltip(tile);
+      var rect = tile.getBoundingClientRect();
+      tooltip.style.left = (rect.left + window.scrollX) + 'px';
+      tooltip.style.top = (rect.bottom + window.scrollY + 4) + 'px';
+    });
+    tile.addEventListener('blur', hideTooltip);
+  });
+})();
+</script>

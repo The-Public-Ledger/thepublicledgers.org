@@ -1,0 +1,44 @@
+{
+  "state": "VI",
+  "facilities": 271,
+  "water_systems": 101,
+  "total_violations": 1194,
+  "health_violations": 334,
+  "total_penalties": 5479263.0,
+  "avg_penalty": 20218.68,
+  "violation_rate": 0.4428,
+  "enforcement_gap_score": 0.2076,
+  "serious_violators": 11,
+  "tri_facilities": 2,
+  "tri_releases_lbs": 44753616.0,
+  "top_counties": [
+    {
+      "fips": "78020",
+      "name": "ST. JOHN ISLAND",
+      "facilities": 11,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1818
+    },
+    {
+      "fips": "78030",
+      "name": "ST. THOMAS ISLAND",
+      "facilities": 80,
+      "total_violations": 17,
+      "health_violations": 3,
+      "total_penalties": 39987.0,
+      "enforcement_gap_score": 0.1417
+    },
+    {
+      "fips": "78010",
+      "name": "ST. CROIX ISLAND",
+      "facilities": 83,
+      "total_violations": 21,
+      "health_violations": 13,
+      "total_penalties": 5439276.0,
+      "enforcement_gap_score": 0.0038
+    }
+  ],
+  "top_violators": []
+}

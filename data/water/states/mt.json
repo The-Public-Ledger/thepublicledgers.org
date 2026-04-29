@@ -1,0 +1,107 @@
+{
+  "state": "MT",
+  "facilities": 3428,
+  "water_systems": 2243,
+  "total_violations": 22339,
+  "health_violations": 2549,
+  "total_penalties": 16144820.0,
+  "avg_penalty": 4709.69,
+  "violation_rate": 0.4889,
+  "enforcement_gap_score": 1.1413,
+  "serious_violators": 30,
+  "tri_facilities": 27,
+  "tri_releases_lbs": 160009452.0,
+  "top_counties": [
+    {
+      "fips": "30087",
+      "name": "ROSEBUD",
+      "facilities": 23,
+      "total_violations": 17,
+      "health_violations": 67,
+      "total_penalties": 1500.0,
+      "enforcement_gap_score": 0.6939
+    },
+    {
+      "fips": "30005",
+      "name": "BLAINE COUNTY",
+      "facilities": 12,
+      "total_violations": 7,
+      "health_violations": 88,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5833
+    },
+    {
+      "fips": "30109",
+      "name": "WIBAUX",
+      "facilities": 3,
+      "total_violations": 1,
+      "health_violations": 3,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3333
+    },
+    {
+      "fips": "30071",
+      "name": "PHILLIPS",
+      "facilities": 14,
+      "total_violations": 3,
+      "health_violations": 3,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2143
+    },
+    {
+      "fips": "30011",
+      "name": "CARTER",
+      "facilities": 8,
+      "total_violations": 2,
+      "health_violations": 2,
+      "total_penalties": 1800.0,
+      "enforcement_gap_score": 0.2041
+    },
+    {
+      "fips": "30103",
+      "name": "TREASURE",
+      "facilities": 5,
+      "total_violations": 1,
+      "health_violations": 19,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2
+    },
+    {
+      "fips": "30003",
+      "name": "BIG HORN",
+      "facilities": 34,
+      "total_violations": 7,
+      "health_violations": 5,
+      "total_penalties": 1320.0,
+      "enforcement_gap_score": 0.1982
+    },
+    {
+      "fips": "30009",
+      "name": "CARBON",
+      "facilities": 26,
+      "total_violations": 6,
+      "health_violations": 15,
+      "total_penalties": 7000.0,
+      "enforcement_gap_score": 0.1818
+    },
+    {
+      "fips": "30027",
+      "name": "FERGUS",
+      "facilities": 28,
+      "total_violations": 5,
+      "health_violations": 159,
+      "total_penalties": 6300.0,
+      "enforcement_gap_score": 0.1458
+    },
+    {
+      "fips": "30065",
+      "name": "MUSSELSHELL",
+      "facilities": 7,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1429
+    }
+  ],
+  "top_violators": []
+}

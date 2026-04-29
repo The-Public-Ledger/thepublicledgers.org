@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Wayne",
+    "county_slug": "wayne",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 1.5,
+    "total_exemptions_usd": 6297064.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2758.55,
+    "total_beneficiaries": 21,
+    "num_donor_beneficiaries": 1,
+    "donor_rate_pct": 4.76,
+    "total_donations_usd": 15500.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 128683579.45,
+    "households": 46649,
+    "bundling_clusters": 9,
+    "round_trips": 0,
+    "multi_dippers": 0,
+    "num_awards": 52
+  },
+  "benchmarks": {
+    "state_rank": 37,
+    "state_total_counties": 88,
+    "state_percentile": 58,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Wayne County ranks 37th out of 88 Ohio counties for total tax exemptions, with $6.3M in property tax breaks — above the state median. 5% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,759.",
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

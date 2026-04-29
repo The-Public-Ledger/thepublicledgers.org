@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Clinton",
+    "county_slug": "clinton",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 57.09,
+    "total_exemptions_usd": 47277285.63,
+    "net_exemptions_usd": 20700261.48,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 32,
+    "num_donor_beneficiaries": 10,
+    "donor_rate_pct": 31.25,
+    "total_donations_usd": 23680.42,
+    "jobs_promised": 4080,
+    "jobs_current": 5740,
+    "total_projects": 197,
+    "num_officials_receiving": 7,
+    "official_total_received_usd": 7752.58,
+    "num_pipelines": 8
+  },
+  "benchmarks": {
+    "state_rank": 47,
+    "state_total_counties": 104,
+    "state_percentile": 55,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "near the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Clinton County ranks 47th out of 104 New York counties for total tax exemptions, with $47.3M in property tax breaks — near the state median. 31% of subsidy recipients donated to local officials.",
+    "subsidy_context": "near the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

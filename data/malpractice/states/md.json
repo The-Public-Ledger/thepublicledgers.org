@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "state_abbr": "MD",
+    "state_name": "Maryland",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 56,
+    "physician_population": 27534,
+    "per_1000_physicians": 2.034,
+    "double_flagged": 11,
+    "industry_payments_usd": 222081.35
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 37
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 6
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 5
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 3
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 2
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 1
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 1
+    },
+    {
+      "code": "1128b5",
+      "label": "Federal/State Program Exclusion",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 2
+    },
+    {
+      "from_state": "DE",
+      "from_name": "Delaware",
+      "count": 2
+    },
+    {
+      "from_state": "OR",
+      "from_name": "Oregon",
+      "count": 1
+    },
+    {
+      "from_state": "NJ",
+      "from_name": "New Jersey",
+      "count": 1
+    },
+    {
+      "from_state": "WV",
+      "from_name": "West Virginia",
+      "count": 1
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "from_state": "VA",
+      "from_name": "Virginia",
+      "count": 1
+    },
+    {
+      "from_state": "WI",
+      "from_name": "Wisconsin",
+      "count": 1
+    },
+    {
+      "from_state": "DC",
+      "from_name": "District of Columbia",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "VA",
+      "to_name": "Virginia",
+      "count": 3
+    },
+    {
+      "to_state": "WI",
+      "to_name": "Wisconsin",
+      "count": 2
+    },
+    {
+      "to_state": "DC",
+      "to_name": "District of Columbia",
+      "count": 2
+    },
+    {
+      "to_state": "PA",
+      "to_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "to_state": "DE",
+      "to_name": "Delaware",
+      "count": 1
+    },
+    {
+      "to_state": "OH",
+      "to_name": "Ohio",
+      "count": 1
+    },
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 1
+    },
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 1
+    },
+    {
+      "to_state": "IL",
+      "to_name": "Illinois",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "ALEXANDER, DANIEL R",
+      "npi": "1366474512",
+      "score": 73.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2017-07-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "YEROKUN, OLUWATOBI nan",
+      "npi": "1922398114",
+      "score": 73.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-02-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "BRAY, THOMAS H",
+      "npi": "1659339679",
+      "score": 72.2,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2014-01-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "GAMEZ, WILFREDO nan",
+      "npi": "1568740843",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-04-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "GOLD, ALEXANDRA PAULINE",
+      "npi": "1851567168",
+      "score": 65.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2015-09-20",
+      "specialty": "GYN/OBS"
+    },
+    {
+      "name": "MALIK, ATIF BABAR",
+      "npi": "1386631869",
+      "score": 65.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2019-02-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "RAMIREZ, JULIO ALBERTO",
+      "npi": "1386682169",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-03-19",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "MCLAREN, MARTIN ROOSEVELT",
+      "npi": "1134243173",
+      "score": 62.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2009-12-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "TORRES, ERNESTO C",
+      "npi": "1699758185",
+      "score": 62.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2023-06-20",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "MAROOF, ANISSA MIRZA",
+      "npi": "1447418918",
+      "score": 59.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-11-20",
+      "specialty": "PSYCHIATRY"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "LANSING, MICHAEL WAYNE",
+      "npi": "1962483230",
+      "total_usd": 114914.41,
+      "payment_count": 372,
+      "companies": 31
+    },
+    {
+      "name": "WHITE, CHARLES S",
+      "npi": "1164414421",
+      "total_usd": 90558.52,
+      "payment_count": 49,
+      "companies": 6
+    },
+    {
+      "name": "SMITH, STEPHEN R",
+      "npi": "1588732077",
+      "total_usd": 3859.92,
+      "payment_count": 96,
+      "companies": 20
+    },
+    {
+      "name": "VITARELLO, JOHN A",
+      "npi": "1609879329",
+      "total_usd": 2271.74,
+      "payment_count": 188,
+      "companies": 20
+    },
+    {
+      "name": "PATEL, PRANAV S",
+      "npi": "1811067275",
+      "total_usd": 2013.04,
+      "payment_count": 98,
+      "companies": 16
+    },
+    {
+      "name": "YEROKUN, OLUWATOBI nan",
+      "npi": "1922398114",
+      "total_usd": 1785.3,
+      "payment_count": 27,
+      "companies": 10
+    },
+    {
+      "name": "HAMILTON, JOHN nan",
+      "npi": "1992961312",
+      "total_usd": 1742.35,
+      "payment_count": 28,
+      "companies": 9
+    },
+    {
+      "name": "HOFFBERG, HOWARD J",
+      "npi": "1104870229",
+      "total_usd": 1599.17,
+      "payment_count": 39,
+      "companies": 16
+    },
+    {
+      "name": "HANLEY, ROBERT S",
+      "npi": "1306965793",
+      "total_usd": 815.77,
+      "payment_count": 27,
+      "companies": 11
+    },
+    {
+      "name": "HOLCOMB, HENRY HILLIARD",
+      "npi": "1225110075",
+      "total_usd": 728.43,
+      "payment_count": 36,
+      "companies": 3
+    }
+  ]
+}

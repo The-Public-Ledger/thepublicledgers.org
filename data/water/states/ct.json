@@ -1,0 +1,89 @@
+{
+  "state": "CT",
+  "facilities": 4259,
+  "water_systems": 2821,
+  "total_violations": 38226,
+  "health_violations": 3036,
+  "total_penalties": 5526633.0,
+  "avg_penalty": 1297.64,
+  "violation_rate": 0.4752,
+  "enforcement_gap_score": 3.9063,
+  "serious_violators": 40,
+  "tri_facilities": 469,
+  "tri_releases_lbs": 380921516.0,
+  "top_counties": [
+    {
+      "fips": "09013",
+      "name": "TOLLAND",
+      "facilities": 156,
+      "total_violations": 8,
+      "health_violations": 151,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0513
+    },
+    {
+      "fips": "09011",
+      "name": "NEW LONDON",
+      "facilities": 240,
+      "total_violations": 8,
+      "health_violations": 270,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0333
+    },
+    {
+      "fips": "09015",
+      "name": "WINDHAM",
+      "facilities": 165,
+      "total_violations": 10,
+      "health_violations": 188,
+      "total_penalties": 144500.0,
+      "enforcement_gap_score": 0.0323
+    },
+    {
+      "fips": "09005",
+      "name": "LITCHFIELD",
+      "facilities": 216,
+      "total_violations": 6,
+      "health_violations": 180,
+      "total_penalties": 128418.0,
+      "enforcement_gap_score": 0.0174
+    },
+    {
+      "fips": "09003",
+      "name": "HARTFORD",
+      "facilities": 297,
+      "total_violations": 13,
+      "health_violations": 107,
+      "total_penalties": 466946.0,
+      "enforcement_gap_score": 0.017
+    },
+    {
+      "fips": "09001",
+      "name": "",
+      "facilities": 356,
+      "total_violations": 20,
+      "health_violations": 500,
+      "total_penalties": 1002981.0,
+      "enforcement_gap_score": 0.0147
+    },
+    {
+      "fips": "09007",
+      "name": "MIDDLESEX",
+      "facilities": 179,
+      "total_violations": 5,
+      "health_violations": 117,
+      "total_penalties": 201585.0,
+      "enforcement_gap_score": 0.0131
+    },
+    {
+      "fips": "09009",
+      "name": "",
+      "facilities": 290,
+      "total_violations": 25,
+      "health_violations": 90,
+      "total_penalties": 3582203.0,
+      "enforcement_gap_score": 0.0065
+    }
+  ],
+  "top_violators": []
+}

@@ -1,0 +1,107 @@
+{
+  "state": "PR",
+  "facilities": 1322,
+  "water_systems": 624,
+  "total_violations": 22056,
+  "health_violations": 4440,
+  "total_penalties": 6375266.0,
+  "avg_penalty": 4822.44,
+  "violation_rate": 0.4357,
+  "enforcement_gap_score": 2.8654,
+  "serious_violators": 130,
+  "tri_facilities": 181,
+  "tri_releases_lbs": 130450860.0,
+  "top_counties": [
+    {
+      "fips": "72103",
+      "name": "NAGUABO",
+      "facilities": 7,
+      "total_violations": 5,
+      "health_violations": 63,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.7143
+    },
+    {
+      "fips": "72101",
+      "name": "MOROVIS",
+      "facilities": 6,
+      "total_violations": 4,
+      "health_violations": 13,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.6667
+    },
+    {
+      "fips": "72049",
+      "name": "CULEBRA MUNICIPIO",
+      "facilities": 3,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.6667
+    },
+    {
+      "fips": "72131",
+      "name": "",
+      "facilities": 6,
+      "total_violations": 3,
+      "health_violations": 36,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5
+    },
+    {
+      "fips": "72071",
+      "name": "ISABELA",
+      "facilities": 4,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5
+    },
+    {
+      "fips": "72039",
+      "name": "CIALES",
+      "facilities": 4,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5
+    },
+    {
+      "fips": "72081",
+      "name": "LARES",
+      "facilities": 7,
+      "total_violations": 3,
+      "health_violations": 6,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4286
+    },
+    {
+      "fips": "72121",
+      "name": "SABANA GRANDE",
+      "facilities": 5,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4
+    },
+    {
+      "fips": "72079",
+      "name": "LAJAS",
+      "facilities": 3,
+      "total_violations": 1,
+      "health_violations": 26,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3333
+    },
+    {
+      "fips": "72143",
+      "name": "VEGA ALTA",
+      "facilities": 3,
+      "total_violations": 1,
+      "health_violations": 1,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3333
+    }
+  ],
+  "top_violators": []
+}

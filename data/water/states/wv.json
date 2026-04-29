@@ -1,0 +1,132 @@
+{
+  "state": "WV",
+  "facilities": 5541,
+  "water_systems": 1305,
+  "total_violations": 67492,
+  "health_violations": 3819,
+  "total_penalties": 27714144.0,
+  "avg_penalty": 5001.65,
+  "violation_rate": 0.2442,
+  "enforcement_gap_score": 2.0295,
+  "serious_violators": 330,
+  "tri_facilities": 101,
+  "tri_releases_lbs": 664084632.0,
+  "top_counties": [
+    {
+      "fips": "54105",
+      "name": "WIRT",
+      "facilities": 7,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1429
+    },
+    {
+      "fips": "54069",
+      "name": "OHIO",
+      "facilities": 53,
+      "total_violations": 10,
+      "health_violations": 91,
+      "total_penalties": 19000.0,
+      "enforcement_gap_score": 0.1389
+    },
+    {
+      "fips": "54023",
+      "name": "GRANT",
+      "facilities": 53,
+      "total_violations": 16,
+      "health_violations": 9,
+      "total_penalties": 62945.0,
+      "enforcement_gap_score": 0.138
+    },
+    {
+      "fips": "54035",
+      "name": "JACKSON",
+      "facilities": 72,
+      "total_violations": 8,
+      "health_violations": 9,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1111
+    },
+    {
+      "fips": "54093",
+      "name": "TUCKER",
+      "facilities": 59,
+      "total_violations": 6,
+      "health_violations": 58,
+      "total_penalties": 7500.0,
+      "enforcement_gap_score": 0.0902
+    },
+    {
+      "fips": "54077",
+      "name": "PRESTON",
+      "facilities": 124,
+      "total_violations": 16,
+      "health_violations": 55,
+      "total_penalties": 78000.0,
+      "enforcement_gap_score": 0.0792
+    },
+    {
+      "fips": "54009",
+      "name": "BROOKE COUNTY",
+      "facilities": 54,
+      "total_violations": 8,
+      "health_violations": 5,
+      "total_penalties": 50685.0,
+      "enforcement_gap_score": 0.0764
+    },
+    {
+      "fips": "54061",
+      "name": "MONONGALIA",
+      "facilities": 212,
+      "total_violations": 25,
+      "health_violations": 6,
+      "total_penalties": 119776.0,
+      "enforcement_gap_score": 0.0754
+    },
+    {
+      "fips": "54013",
+      "name": "CALHOUN",
+      "facilities": 22,
+      "total_violations": 2,
+      "health_violations": 2,
+      "total_penalties": 5000.0,
+      "enforcement_gap_score": 0.0741
+    },
+    {
+      "fips": "54015",
+      "name": "CLAY",
+      "facilities": 50,
+      "total_violations": 4,
+      "health_violations": 4,
+      "total_penalties": 5000.0,
+      "enforcement_gap_score": 0.0727
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "NEW CUMBERLAND CITY OF",
+      "city": "NEW CUMBERLAND",
+      "county": "HANCOCK",
+      "severity": 70.0,
+      "penalties": 59155.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "LEADSVILLE PSD",
+      "city": "ELKINS",
+      "county": "RANDOLPH",
+      "severity": 60.0,
+      "penalties": 0.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "GLASGOW TOWN OF",
+      "city": "GLASGOW",
+      "county": "KANAWHA COUNTY",
+      "severity": 60.0,
+      "penalties": 25000.0,
+      "qtrs_noncompliance": 9
+    }
+  ]
+}

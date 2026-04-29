@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Allen",
+    "county_slug": "allen",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 9.04,
+    "total_exemptions_usd": 2407648.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2677.43,
+    "total_beneficiaries": 14,
+    "num_donor_beneficiaries": 5,
+    "donor_rate_pct": 35.71,
+    "total_donations_usd": 205182.02,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 119659853.8,
+    "households": 44692,
+    "bundling_clusters": 5,
+    "round_trips": 0,
+    "multi_dippers": 2,
+    "num_awards": 19
+  },
+  "benchmarks": {
+    "state_rank": 52,
+    "state_total_counties": 88,
+    "state_percentile": 41,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Allen County ranks 52nd out of 88 Ohio counties for total tax exemptions, with $2.4M in property tax breaks — below the state median. 36% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,677.",
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

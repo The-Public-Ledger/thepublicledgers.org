@@ -1,0 +1,107 @@
+{
+  "state": "IL",
+  "facilities": 9065,
+  "water_systems": 4545,
+  "total_violations": 48324,
+  "health_violations": 5144,
+  "total_penalties": 21998416.0,
+  "avg_penalty": 2426.74,
+  "violation_rate": 0.4213,
+  "enforcement_gap_score": 1.5557,
+  "serious_violators": 79,
+  "tri_facilities": 1121,
+  "tri_releases_lbs": 969321144.0,
+  "top_counties": [
+    {
+      "fips": "17045",
+      "name": "EDGAR",
+      "facilities": 19,
+      "total_violations": 10,
+      "health_violations": 2,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5263
+    },
+    {
+      "fips": "17129",
+      "name": "MENARD",
+      "facilities": 18,
+      "total_violations": 9,
+      "health_violations": 9,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5
+    },
+    {
+      "fips": "17047",
+      "name": "EDWARDS",
+      "facilities": 8,
+      "total_violations": 4,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5
+    },
+    {
+      "fips": "17159",
+      "name": "RICHLAND",
+      "facilities": 12,
+      "total_violations": 7,
+      "health_violations": 8,
+      "total_penalties": 2400.0,
+      "enforcement_gap_score": 0.4861
+    },
+    {
+      "fips": "17151",
+      "name": "POPE",
+      "facilities": 11,
+      "total_violations": 5,
+      "health_violations": 15,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4545
+    },
+    {
+      "fips": "17109",
+      "name": "HANCOCK",
+      "facilities": 31,
+      "total_violations": 14,
+      "health_violations": 8,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4516
+    },
+    {
+      "fips": "17153",
+      "name": "PULASKI",
+      "facilities": 18,
+      "total_violations": 8,
+      "health_violations": 8,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4444
+    },
+    {
+      "fips": "17175",
+      "name": "STARK",
+      "facilities": 9,
+      "total_violations": 4,
+      "health_violations": 3,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4444
+    },
+    {
+      "fips": "17171",
+      "name": "SCOTT",
+      "facilities": 5,
+      "total_violations": 2,
+      "health_violations": 18,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4
+    },
+    {
+      "fips": "17077",
+      "name": "JACKSON",
+      "facilities": 64,
+      "total_violations": 30,
+      "health_violations": 31,
+      "total_penalties": 12840.0,
+      "enforcement_gap_score": 0.3904
+    }
+  ],
+  "top_violators": []
+}

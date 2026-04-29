@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "state_abbr": "DC",
+    "state_name": "District of Columbia",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 6,
+    "physician_population": 7350,
+    "per_1000_physicians": 0.816,
+    "double_flagged": 2,
+    "industry_payments_usd": 387.55999999999995
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 2
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 2
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 1
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "MD",
+      "from_name": "Maryland",
+      "count": 2
+    },
+    {
+      "from_state": "WV",
+      "from_name": "West Virginia",
+      "count": 1
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "from_state": "KY",
+      "from_name": "Kentucky",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "VA",
+      "to_name": "Virginia",
+      "count": 2
+    },
+    {
+      "to_state": "MD",
+      "to_name": "Maryland",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "AKHIGBE, EHIGIATOR OVBIOSE",
+      "npi": "1720117518",
+      "score": 78.2,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2010-10-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "OKAFOR, NDUBUISI JOSEPH",
+      "npi": "1164534947",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-10-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "POOYA, MANOOCHEHR nan",
+      "npi": "1770663882",
+      "score": 71.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2009-09-20",
+      "specialty": "CARDIOLOGY"
+    },
+    {
+      "name": "LEVINE, LEWIS nan",
+      "npi": "1891978771",
+      "score": 65.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2016-08-18",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "SALERIAN, ALEN J",
+      "npi": "1801953054",
+      "score": 56.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2014-05-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "STILLIONS, DUANE M",
+      "npi": "1992732739",
+      "score": 47.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2022-09-20",
+      "specialty": "ANESTHESIOLOGY"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "CAO, ROBERT MINH",
+      "npi": "1003103698",
+      "total_usd": 120.87,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "OKAFOR, NDUBUISI JOSEPH",
+      "npi": "1164534947",
+      "total_usd": 108.71,
+      "payment_count": 6,
+      "companies": 3
+    },
+    {
+      "name": "STILLIONS, DUANE M",
+      "npi": "1992732739",
+      "total_usd": 95.72,
+      "payment_count": 2,
+      "companies": 2
+    },
+    {
+      "name": "NGUYEN, HIEU S",
+      "npi": "1275513590",
+      "total_usd": 62.26,
+      "payment_count": 3,
+      "companies": 3
+    }
+  ]
+}

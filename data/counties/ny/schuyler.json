@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Schuyler",
+    "county_slug": "schuyler",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 52.28,
+    "total_exemptions_usd": 11181893.17,
+    "net_exemptions_usd": 3665519.75,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 37,
+    "num_donor_beneficiaries": 8,
+    "donor_rate_pct": 21.62,
+    "total_donations_usd": 8180.0,
+    "jobs_promised": 3232,
+    "jobs_current": 2950,
+    "total_projects": 162,
+    "num_officials_receiving": 3,
+    "official_total_received_usd": 2300.0,
+    "num_pipelines": 3
+  },
+  "benchmarks": {
+    "state_rank": 81,
+    "state_total_counties": 104,
+    "state_percentile": 22,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Schuyler County ranks 81st out of 104 New York counties for total tax exemptions, with $11.2M in property tax breaks — below the state median. 22% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

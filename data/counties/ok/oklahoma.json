@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "OK",
+    "state_name": "Oklahoma",
+    "county": "Oklahoma",
+    "county_slug": "oklahoma",
+    "last_updated": "2026-04-10",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 4.4,
+    "total_exemptions_usd": 250972052.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 710.11,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 1,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 405,
+    "warn_workers_affected": 0,
+    "fips_county": "109"
+  },
+  "benchmarks": {
+    "state_rank": 4,
+    "state_total_counties": 78,
+    "state_percentile": 95,
+    "state_median_subsidy_usd": 8485461.0,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 424.52,
+    "subsidy_context": "29.6× the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Oklahoma County ranks 4th out of 78 Oklahoma counties for total tax exemptions, with $251.0M in property tax breaks — 29.6× the state median. The per-household cost of these subsidies is $710.",
+    "subsidy_context": "29.6× the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

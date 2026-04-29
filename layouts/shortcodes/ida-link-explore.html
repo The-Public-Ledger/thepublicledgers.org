@@ -1,0 +1,6 @@
+{{ $state := .Get "state" }}
+{{ $year := .Get "year" }}
+{{ $flag := .Get "flag" }}
+<a href="/data/?state={{ $state }}{{ with $year }}&amp;year={{ . }}{{ end }}{{ with $flag }}&amp;flag={{ . }}{{ end }}" class="btn btn--secondary">
+  Explore in Data Explorer &rarr;
+</a>

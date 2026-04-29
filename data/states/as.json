@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "state": "AS",
+    "state_name": "American Samoa",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 5,
+      "counties_with_data": 0,
+      "crossref_complete": false,
+      "deals_count": 0,
+      "contributions_matched": 0
+    },
+    "coverage_status": "placeholder"
+  },
+  "summary_stats": {},
+  "top_findings": [],
+  "counsel_conflicts": []
+}

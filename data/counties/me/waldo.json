@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "ME",
+    "state_name": "Maine",
+    "county": "Waldo",
+    "county_slug": "waldo",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 50.0,
+    "total_exemptions_usd": 5920936.54,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 342.98,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 14,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 50,
+    "warn_workers_affected": 0,
+    "fips_county": "027"
+  },
+  "benchmarks": {
+    "state_rank": 12,
+    "state_total_counties": 16,
+    "state_percentile": 25,
+    "state_median_subsidy_usd": 9618352.35,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 352.56,
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Waldo County ranks 12th out of 16 Maine counties for total tax exemptions, with $5.9M in property tax breaks — below the state median. The per-household cost of these subsidies is $343.",
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

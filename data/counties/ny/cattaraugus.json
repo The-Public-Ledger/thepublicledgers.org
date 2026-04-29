@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Cattaraugus",
+    "county_slug": "cattaraugus",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 66.55,
+    "total_exemptions_usd": 78911287.65,
+    "net_exemptions_usd": 72025174.85,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 73,
+    "num_donor_beneficiaries": 21,
+    "donor_rate_pct": 28.77,
+    "total_donations_usd": 192865.46,
+    "jobs_promised": 23290,
+    "jobs_current": 27356,
+    "total_projects": 397,
+    "num_officials_receiving": 17,
+    "official_total_received_usd": 214764.92,
+    "num_pipelines": 30
+  },
+  "benchmarks": {
+    "state_rank": 35,
+    "state_total_counties": 104,
+    "state_percentile": 66,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "above the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Cattaraugus County ranks 35th out of 104 New York counties for total tax exemptions, with $78.9M in property tax breaks — above the state median. 29% of subsidy recipients donated to local officials.",
+    "subsidy_context": "above the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "poc": [
+    {
+      "quintile": 1,
+      "n_facilities": 48462,
+      "violation_rate": 0.1306,
+      "health_violation_rate": 0.0974,
+      "avg_penalties": 10900.85,
+      "avg_severity": 17.5783
+    },
+    {
+      "quintile": 2,
+      "n_facilities": 41322,
+      "violation_rate": 0.132,
+      "health_violation_rate": 0.1059,
+      "avg_penalties": 12800.1,
+      "avg_severity": 17.6303
+    },
+    {
+      "quintile": 3,
+      "n_facilities": 32762,
+      "violation_rate": 0.1319,
+      "health_violation_rate": 0.0754,
+      "avg_penalties": 21462.5,
+      "avg_severity": 17.0711
+    },
+    {
+      "quintile": 4,
+      "n_facilities": 27685,
+      "violation_rate": 0.1446,
+      "health_violation_rate": 0.064,
+      "avg_penalties": 17714.29,
+      "avg_severity": 16.8143
+    },
+    {
+      "quintile": 5,
+      "n_facilities": 20836,
+      "violation_rate": 0.1363,
+      "health_violation_rate": 0.0616,
+      "avg_penalties": 23764.23,
+      "avg_severity": 16.8751
+    }
+  ],
+  "lowinc": [
+    {
+      "quintile": 1,
+      "n_facilities": 30180,
+      "violation_rate": 0.1356,
+      "health_violation_rate": 0.0861,
+      "avg_penalties": 15592.75,
+      "avg_severity": 17.1287
+    },
+    {
+      "quintile": 2,
+      "n_facilities": 34973,
+      "violation_rate": 0.1271,
+      "health_violation_rate": 0.09,
+      "avg_penalties": 14458.82,
+      "avg_severity": 17.228
+    },
+    {
+      "quintile": 3,
+      "n_facilities": 38759,
+      "violation_rate": 0.1297,
+      "health_violation_rate": 0.0883,
+      "avg_penalties": 17014.16,
+      "avg_severity": 17.365
+    },
+    {
+      "quintile": 4,
+      "n_facilities": 37911,
+      "violation_rate": 0.1375,
+      "health_violation_rate": 0.0868,
+      "avg_penalties": 11914.79,
+      "avg_severity": 17.3971
+    },
+    {
+      "quintile": 5,
+      "n_facilities": 29244,
+      "violation_rate": 0.1426,
+      "health_violation_rate": 0.0741,
+      "avg_penalties": 22518.06,
+      "avg_severity": 17.26
+    }
+  ],
+  "wastewater": [
+    {
+      "quintile": 1,
+      "n_facilities": 36485,
+      "violation_rate": 0.1255,
+      "health_violation_rate": 0.115,
+      "avg_penalties": 12984.14,
+      "avg_severity": 17.7362
+    },
+    {
+      "quintile": 2,
+      "n_facilities": 34083,
+      "violation_rate": 0.1334,
+      "health_violation_rate": 0.0888,
+      "avg_penalties": 10158.75,
+      "avg_severity": 17.3645
+    },
+    {
+      "quintile": 3,
+      "n_facilities": 32027,
+      "violation_rate": 0.1333,
+      "health_violation_rate": 0.0799,
+      "avg_penalties": 16596.94,
+      "avg_severity": 17.1109
+    },
+    {
+      "quintile": 4,
+      "n_facilities": 29603,
+      "violation_rate": 0.1324,
+      "health_violation_rate": 0.0617,
+      "avg_penalties": 14158.38,
+      "avg_severity": 16.7069
+    },
+    {
+      "quintile": 5,
+      "n_facilities": 30679,
+      "violation_rate": 0.1519,
+      "health_violation_rate": 0.064,
+      "avg_penalties": 18515.62,
+      "avg_severity": 16.951
+    }
+  ]
+}

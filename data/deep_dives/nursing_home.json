@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "Nursing Home Accountability",
+    "slug": "nursing-home",
+    "status": "active",
+    "last_updated": "2026-04-03",
+    "sources": [
+      "CMS Care Compare (Nursing Home Provider Info)",
+      "CMS Nursing Home Ownership Data",
+      "CMS Payroll-Based Journal (PBJ) Staffing",
+      "FEC Individual Contributions (2019\u20132024)",
+      "SBA PPP Loan Data (150K+)"
+    ]
+  },
+  "key_stats": {
+    "facility_count": 14710,
+    "state_count": 53,
+    "low_rated_count": 6006,
+    "total_penalties_usd": 480096127.0,
+    "fec_total_usd": 44812.0,
+    "ppp_total_usd": 649982.0,
+    "owner_linked_count": 14087,
+    "penalized_count": 6798,
+    "owner_fec_matched": 770,
+    "owner_fec_total_usd": 12467989.0
+  },
+  "top_findings": [
+    "Registry covers 14,710 nursing home facilities across 53 states",
+    "6006 facilities rated 1\u20132 stars (CMS overall rating) \u2014 indicating below-average quality",
+    "$480.1M in total CMS penalties assessed against registered facilities",
+    "770 nursing home owners matched by name to FEC individual contributions \u2014 $12.5M in high-confidence federal donations (2017\u20132024)",
+    "Nursing home entities received $650K in PPP loans \u2014 with $658K forgiven"
+  ],
+  "top_penalties": [
+    {
+      "facility_name": "Nexus Pavilion at Belleville",
+      "state": "IL",
+      "overall_rating": 1,
+      "staffing_rating": 1,
+      "total_penalties": 913631.0,
+      "owner_name": "WEINFELD, AVRUM"
+    },
+    {
+      "facility_name": "BRIA OF CAHOKIA",
+      "state": "IL",
+      "overall_rating": 1,
+      "staffing_rating": 1,
+      "total_penalties": 841627.0,
+      "owner_name": "WEINTRAUB, GARY"
+    },
+    {
+      "facility_name": "Waterview Heights Rehabilitation and Nursing Cente",
+      "state": "NY",
+      "overall_rating": 0,
+      "staffing_rating": 0,
+      "total_penalties": 839732.0,
+      "owner_name": "HURLBUT, ROBERT"
+    },
+    {
+      "facility_name": "CHICAGO RIDGE SNF",
+      "state": "IL",
+      "overall_rating": 1,
+      "staffing_rating": 1,
+      "total_penalties": 832037.0,
+      "owner_name": "CHICAGO RIDGE SNF OPERATIONS HOLDINGS LLC"
+    },
+    {
+      "facility_name": "MAJESTIC GARDENS AT MEMPHIS REHAB & SNC",
+      "state": "TN",
+      "overall_rating": 1,
+      "staffing_rating": 1,
+      "total_penalties": 830960.0,
+      "owner_name": "CNH MEMPHIS HOLDINGS LLC"
+    },
+    {
+      "facility_name": "AVIR AT LINDALE",
+      "state": "TX",
+      "overall_rating": 1,
+      "staffing_rating": 1,
+      "total_penalties": 774461.0,
+      "owner_name": "WEST WHARTON COUNTY HOSPITAL DISTRICT"
+    },
+    {
+      "facility_name": "BISHOP REHABILITATION AND NURSING CENTER",
+      "state": "NY",
+      "overall_rating": 1,
+      "staffing_rating": 3,
+      "total_penalties": 757956.0,
+      "owner_name": "FARBENBLUM, EDWARD"
+    },
+    {
+      "facility_name": "MOHAWK MEADOWS",
+      "state": "NJ",
+      "overall_rating": 1,
+      "staffing_rating": 3,
+      "total_penalties": 738307.0,
+      "owner_name": "KUSHNER, JUDY"
+    },
+    {
+      "facility_name": "ARCHER HEIGHTS HEALTHCARE",
+      "state": "IL",
+      "overall_rating": 1,
+      "staffing_rating": 1,
+      "total_penalties": 703585.0,
+      "owner_name": "ACM OP HOLDCO LLC"
+    },
+    {
+      "facility_name": "SOUTHPOINT NURSING & REHAB CENTER",
+      "state": "IL",
+      "overall_rating": 1,
+      "staffing_rating": 1,
+      "total_penalties": 691597.0,
+      "owner_name": "A&F REALTY LLC"
+    }
+  ],
+  "top_fec": [
+    {
+      "name": "Palm Gardens Holdings LLC",
+      "role": "owner_name",
+      "fec_total": 27812.0,
+      "contributions": 461,
+      "tier": "HIGH"
+    },
+    {
+      "name": "Consulate Health Care",
+      "role": "parent_org_name",
+      "fec_total": 13044.0,
+      "contributions": 284,
+      "tier": "HIGH"
+    },
+    {
+      "name": "Keystone Health Partners LP",
+      "role": "owner_name",
+      "fec_total": 2584.0,
+      "contributions": 20,
+      "tier": "HIGH"
+    },
+    {
+      "name": "Palm Gardens Nursing Home",
+      "role": "facility_name",
+      "fec_total": 901.0,
+      "contributions": 33,
+      "tier": "HIGH"
+    },
+    {
+      "name": "Golden Horizons Nursing & Rehab",
+      "role": "facility_name",
+      "fec_total": 150.0,
+      "contributions": 7,
+      "tier": "HIGH"
+    },
+    {
+      "name": "Sunrise Senior Living of Smithtown",
+      "role": "facility_name",
+      "fec_total": 111.0,
+      "contributions": 3,
+      "tier": "HIGH"
+    },
+    {
+      "name": "Heritage Health Systems Corp",
+      "role": "parent_org_name",
+      "fec_total": 110.0,
+      "contributions": 11,
+      "tier": "HIGH"
+    },
+    {
+      "name": "Keystone Care Center",
+      "role": "facility_name",
+      "fec_total": 100.0,
+      "contributions": 1,
+      "tier": "HIGH"
+    }
+  ],
+  "top_owner_fec_donors": [
+    {
+      "display_name": "Mohammad Qazi",
+      "facility_count": 16,
+      "states": "MI; NC",
+      "total_penalty_usd": 675230.0,
+      "fec_total_usd": 1722477.0,
+      "fec_contributions": 161
+    },
+    {
+      "display_name": "Benjamin Landa",
+      "facility_count": 21,
+      "states": "KY; NY; OH",
+      "total_penalty_usd": 680578.0,
+      "fec_total_usd": 261100.0,
+      "fec_contributions": 28
+    },
+    {
+      "display_name": "Clarence Ball",
+      "facility_count": 10,
+      "states": "AL",
+      "total_penalty_usd": 0.0,
+      "fec_total_usd": 75850.0,
+      "fec_contributions": 16
+    },
+    {
+      "display_name": "Jeffrey Hyatt",
+      "facility_count": 4,
+      "states": "WA",
+      "total_penalty_usd": 206324.0,
+      "fec_total_usd": 74693.0,
+      "fec_contributions": 72
+    },
+    {
+      "display_name": "Michael Melnicke",
+      "facility_count": 6,
+      "states": "NY",
+      "total_penalty_usd": 219145.0,
+      "fec_total_usd": 63900.0,
+      "fec_contributions": 25
+    },
+    {
+      "display_name": "Christopher Sprenger",
+      "facility_count": 8,
+      "states": "NC",
+      "total_penalty_usd": 151482.0,
+      "fec_total_usd": 59980.0,
+      "fec_contributions": 45
+    },
+    {
+      "display_name": "Tom Coble",
+      "facility_count": 5,
+      "states": "OK",
+      "total_penalty_usd": 103197.0,
+      "fec_total_usd": 59955.0,
+      "fec_contributions": 35
+    },
+    {
+      "display_name": "Christopher Schmidt",
+      "facility_count": 5,
+      "states": "AL",
+      "total_penalty_usd": 0.0,
+      "fec_total_usd": 52042.0,
+      "fec_contributions": 104
+    },
+    {
+      "display_name": "Warren Cole",
+      "facility_count": 9,
+      "states": "NY",
+      "total_penalty_usd": 168100.0,
+      "fec_total_usd": 50888.0,
+      "fec_contributions": 64
+    },
+    {
+      "display_name": "Barry Carr",
+      "facility_count": 7,
+      "states": "OK; TX",
+      "total_penalty_usd": 314860.0,
+      "fec_total_usd": 49751.0,
+      "fec_contributions": 95
+    }
+  ]
+}

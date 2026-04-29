@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "NC",
+    "state_name": "North Carolina",
+    "county": "Mecklenburg",
+    "county_slug": "mecklenburg",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 3.6,
+    "total_exemptions_usd": 2722986.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 1,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 36,
+    "warn_workers_affected": 0,
+    "fips_county": "119"
+  },
+  "benchmarks": {
+    "state_rank": 11,
+    "state_total_counties": 103,
+    "state_percentile": 89,
+    "state_median_subsidy_usd": 8425260.0,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 103.72,
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Mecklenburg County ranks 11th out of 103 North Carolina counties for total tax exemptions, with $2.7M in property tax breaks — below the state median.",
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

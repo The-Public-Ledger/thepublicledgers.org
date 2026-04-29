@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Franklin",
+    "county_slug": "franklin",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 13.36,
+    "total_exemptions_usd": 232297321.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 3022.22,
+    "total_beneficiaries": 252,
+    "num_donor_beneficiaries": 34,
+    "donor_rate_pct": 13.49,
+    "total_donations_usd": 415866.09,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 1761049168.6,
+    "households": 582701,
+    "bundling_clusters": 19,
+    "round_trips": 6,
+    "multi_dippers": 9,
+    "num_awards": 656
+  },
+  "benchmarks": {
+    "state_rank": 6,
+    "state_total_counties": 88,
+    "state_percentile": 93,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "48.8× the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Franklin County ranks 6th out of 88 Ohio counties for total tax exemptions, with $232.3M in property tax breaks — 48.8× the state median. 13% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $3,022.",
+    "subsidy_context": "48.8× the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

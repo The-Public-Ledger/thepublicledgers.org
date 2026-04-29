@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "state_abbr": "NC",
+    "state_name": "North Carolina",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 29,
+    "physician_population": 36652,
+    "per_1000_physicians": 0.791,
+    "double_flagged": 7,
+    "industry_payments_usd": 23009.410000000003
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 10
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 9
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 6
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 2
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 1
+    },
+    {
+      "code": "1128b3",
+      "label": "1128b3",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "WV",
+      "from_name": "West Virginia",
+      "count": 4
+    },
+    {
+      "from_state": "ME",
+      "from_name": "Maine",
+      "count": 1
+    },
+    {
+      "from_state": "RI",
+      "from_name": "Rhode Island",
+      "count": 1
+    },
+    {
+      "from_state": "NJ",
+      "from_name": "New Jersey",
+      "count": 1
+    },
+    {
+      "from_state": "NE",
+      "from_name": "Nebraska",
+      "count": 1
+    },
+    {
+      "from_state": "SC",
+      "from_name": "South Carolina",
+      "count": 1
+    },
+    {
+      "from_state": "AL",
+      "from_name": "Alabama",
+      "count": 1
+    },
+    {
+      "from_state": "VA",
+      "from_name": "Virginia",
+      "count": 1
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "from_state": "MN",
+      "from_name": "Minnesota",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
+      "count": 3
+    },
+    {
+      "to_state": "SC",
+      "to_name": "South Carolina",
+      "count": 3
+    },
+    {
+      "to_state": "PA",
+      "to_name": "Pennsylvania",
+      "count": 2
+    },
+    {
+      "to_state": "VA",
+      "to_name": "Virginia",
+      "count": 2
+    },
+    {
+      "to_state": "GA",
+      "to_name": "Georgia",
+      "count": 2
+    },
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 2
+    },
+    {
+      "to_state": "WV",
+      "to_name": "West Virginia",
+      "count": 2
+    },
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 1
+    },
+    {
+      "to_state": "AZ",
+      "to_name": "Arizona",
+      "count": 1
+    },
+    {
+      "to_state": "AE",
+      "to_name": "AE",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "RANDALL, WENDELL LEWIS",
+      "npi": "1902856065",
+      "score": 84.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-10-20",
+      "specialty": "PHYSICIAN PRACTICE ("
+    },
+    {
+      "name": "FRASER, JEFFREY L",
+      "npi": "1790792380",
+      "score": 76.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-08-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "FUENTES, EDWIN L",
+      "npi": "1053360966",
+      "score": 75.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2018-05-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "JACKSON, ANITA LOUISE",
+      "npi": "1346286010",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-05-20",
+      "specialty": "OTORHINOLARYNGOLOGY"
+    },
+    {
+      "name": "DIXON, DONOVAN D",
+      "npi": "1851582092",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2019-08-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "HEROMAN, JAMES WESLEY",
+      "npi": "1053454009",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2023-07-20",
+      "specialty": "OPHTHALMOLOGY"
+    },
+    {
+      "name": "HOFFMAN, JEFFREY D",
+      "npi": "1841287679",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2022-10-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "SWACKHAMMER, RANDY L",
+      "npi": "1770607228",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2022-12-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "KIM, JONG W",
+      "npi": "1740379981",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-05-18",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "LE, MARK TUAN",
+      "npi": "1417931213",
+      "score": 65.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2016-05-19",
+      "specialty": "INTERNAL MEDICINE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "JREISAT, KHALED F",
+      "npi": "1396843132",
+      "total_usd": 15792.89,
+      "payment_count": 1125,
+      "companies": 75
+    },
+    {
+      "name": "FUENTES, EDWIN L",
+      "npi": "1053360966",
+      "total_usd": 1058.73,
+      "payment_count": 58,
+      "companies": 31
+    },
+    {
+      "name": "DANIEL, JARROD RYAN",
+      "npi": "1053452615",
+      "total_usd": 985.68,
+      "payment_count": 32,
+      "companies": 4
+    },
+    {
+      "name": "JACKSON, ANITA LOUISE",
+      "npi": "1346286010",
+      "total_usd": 849.08,
+      "payment_count": 15,
+      "companies": 5
+    },
+    {
+      "name": "SWACKHAMMER, RANDY L",
+      "npi": "1770607228",
+      "total_usd": 647.81,
+      "payment_count": 19,
+      "companies": 9
+    },
+    {
+      "name": "ZACHER, ALLAN NORMAN",
+      "npi": "1790761096",
+      "total_usd": 579.56,
+      "payment_count": 11,
+      "companies": 2
+    },
+    {
+      "name": "KUMAR, SANJAY nan",
+      "npi": "1508915216",
+      "total_usd": 499.59,
+      "payment_count": 27,
+      "companies": 5
+    },
+    {
+      "name": "HEROMAN, JAMES WESLEY",
+      "npi": "1053454009",
+      "total_usd": 444.99,
+      "payment_count": 24,
+      "companies": 12
+    },
+    {
+      "name": "ASADI, KATHERINE ANN",
+      "npi": "1124109830",
+      "total_usd": 380.29,
+      "payment_count": 19,
+      "companies": 11
+    },
+    {
+      "name": "HOFFMAN, JEFFREY D",
+      "npi": "1841287679",
+      "total_usd": 334.15,
+      "payment_count": 7,
+      "companies": 6
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "state": "NV",
+  "facilities": 1071,
+  "water_systems": 731,
+  "total_violations": 12061,
+  "health_violations": 2223,
+  "total_penalties": 67761075.0,
+  "avg_penalty": 63268.98,
+  "violation_rate": 0.5976,
+  "enforcement_gap_score": 0.1752,
+  "serious_violators": 22,
+  "tri_facilities": 28,
+  "tri_releases_lbs": 25853368.0,
+  "top_counties": [
+    {
+      "fips": "32015",
+      "name": "LANDER",
+      "facilities": 4,
+      "total_violations": 2,
+      "health_violations": 4,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5
+    },
+    {
+      "fips": "32011",
+      "name": "EUREKA COUNTY",
+      "facilities": 5,
+      "total_violations": 1,
+      "health_violations": 1,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2
+    },
+    {
+      "fips": "32009",
+      "name": "INYO",
+      "facilities": 5,
+      "total_violations": 1,
+      "health_violations": 14,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2
+    },
+    {
+      "fips": "32001",
+      "name": "CHURCHILL",
+      "facilities": 17,
+      "total_violations": 4,
+      "health_violations": 59,
+      "total_penalties": 6790.0,
+      "enforcement_gap_score": 0.1681
+    },
+    {
+      "fips": "32013",
+      "name": "HUMBOLDT COUNTY",
+      "facilities": 19,
+      "total_violations": 3,
+      "health_violations": 13,
+      "total_penalties": 13600.0,
+      "enforcement_gap_score": 0.092
+    },
+    {
+      "fips": "32510",
+      "name": "CARSON CITY",
+      "facilities": 14,
+      "total_violations": 1,
+      "health_violations": 1,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0714
+    },
+    {
+      "fips": "32029",
+      "name": "STOREY",
+      "facilities": 10,
+      "total_violations": 11,
+      "health_violations": 1,
+      "total_penalties": 159250.0,
+      "enforcement_gap_score": 0.065
+    },
+    {
+      "fips": "32019",
+      "name": "LYON",
+      "facilities": 20,
+      "total_violations": 6,
+      "health_violations": 24,
+      "total_penalties": 79254.0,
+      "enforcement_gap_score": 0.0605
+    },
+    {
+      "fips": "32023",
+      "name": "NYE",
+      "facilities": 36,
+      "total_violations": 10,
+      "health_violations": 39,
+      "total_penalties": 308267.0,
+      "enforcement_gap_score": 0.029
+    },
+    {
+      "fips": "32031",
+      "name": "WASHOE",
+      "facilities": 61,
+      "total_violations": 1,
+      "health_violations": 279,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0164
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "ROSEMOUNT WATER CO",
+      "city": "RENO",
+      "county": "WASHOE",
+      "severity": 60.0,
+      "penalties": 0.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

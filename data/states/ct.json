@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "state": "CT",
+    "state_name": "Connecticut",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 8,
+      "counties_with_data": 8,
+      "crossref_complete": true,
+      "deals_count": 3118,
+      "contributions_matched": 336
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 6089820884.0,
+    "total_beneficiaries": 3118,
+    "total_donations_usd": 316122.11,
+    "matched_donors": 336,
+    "pct_beneficiaries_donating": 0.10779999999999999
+  },
+  "top_findings": [
+    "336 of 3,118 subsidized companies (10.8%) made campaign donations — $316,122 total.",
+    "$62,355 in donations flowed from beneficiaries to 137 political committees. Top recipient: Witkos 2012 ($7,496).",
+    "$6.09B in total subsidies tracked across 3,118 beneficiary companies in Connecticut."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 62355.27,
+    "num_committees_receiving": 137,
+    "top_committee_name": "Witkos 2012",
+    "top_committee_amount": 7496.46,
+    "top_committee_pct": 0.27
+  },
+  "counties": [
+    {
+      "name": "Fairfield County",
+      "slug": "fairfield-county",
+      "score": 93.0,
+      "total_exemptions_usd": 3642916196.0,
+      "cost_per_household_usd": 3642916196.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "09001"
+    },
+    {
+      "name": "Hartford County",
+      "slug": "hartford-county",
+      "score": 51.0,
+      "total_exemptions_usd": 1970270056.0,
+      "cost_per_household_usd": 1970270056.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "09003"
+    },
+    {
+      "name": "Middlesex County",
+      "slug": "middlesex-county",
+      "score": 11.0,
+      "total_exemptions_usd": 16691120.0,
+      "cost_per_household_usd": 16691120.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "09007"
+    },
+    {
+      "name": "New London County",
+      "slug": "new-london-county",
+      "score": 4.0,
+      "total_exemptions_usd": 152260280.0,
+      "cost_per_household_usd": 152260280.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "09011"
+    },
+    {
+      "name": "Windham County",
+      "slug": "windham-county",
+      "score": 3.0,
+      "total_exemptions_usd": 85087076.0,
+      "cost_per_household_usd": 85087076.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "09015"
+    },
+    {
+      "name": "New Haven County",
+      "slug": "new-haven-county",
+      "score": 2.0,
+      "total_exemptions_usd": 199591860.0,
+      "cost_per_household_usd": 199591860.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "09009"
+    },
+    {
+      "name": "Litchfield County",
+      "slug": "litchfield-county",
+      "score": 0.0,
+      "total_exemptions_usd": 19338176.0,
+      "cost_per_household_usd": 19338176.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "09005"
+    },
+    {
+      "name": "Tolland County",
+      "slug": "tolland-county",
+      "score": 0.0,
+      "total_exemptions_usd": 3666120.0,
+      "cost_per_household_usd": 3666120.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "09013"
+    }
+  ]
+}

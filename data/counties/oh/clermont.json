@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Clermont",
+    "county_slug": "clermont",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 9.06,
+    "total_exemptions_usd": 96554176.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 3737.05,
+    "total_beneficiaries": 99,
+    "num_donor_beneficiaries": 12,
+    "donor_rate_pct": 12.12,
+    "total_donations_usd": 124393.8,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 324051055.12,
+    "households": 86713,
+    "bundling_clusters": 11,
+    "round_trips": 1,
+    "multi_dippers": 3,
+    "num_awards": 191
+  },
+  "benchmarks": {
+    "state_rank": 14,
+    "state_total_counties": 88,
+    "state_percentile": 84,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "20.3× the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Clermont County ranks 14th out of 88 Ohio counties for total tax exemptions, with $96.6M in property tax breaks — 20.3× the state median. 12% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $3,737.",
+    "subsidy_context": "20.3× the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

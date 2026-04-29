@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Mahoning",
+    "county_slug": "mahoning",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 8.71,
+    "total_exemptions_usd": 11306105.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2728.05,
+    "total_beneficiaries": 14,
+    "num_donor_beneficiaries": 4,
+    "donor_rate_pct": 28.57,
+    "total_donations_usd": 5605.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 295183318.47,
+    "households": 108203,
+    "bundling_clusters": 3,
+    "round_trips": 1,
+    "multi_dippers": 3,
+    "num_awards": 43
+  },
+  "benchmarks": {
+    "state_rank": 28,
+    "state_total_counties": 88,
+    "state_percentile": 68,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "2.4× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Mahoning County ranks 28th out of 88 Ohio counties for total tax exemptions, with $11.3M in property tax breaks — 2.4× the state median. 29% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,728.",
+    "subsidy_context": "2.4× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "state": "GA",
+  "facilities": 7040,
+  "water_systems": 2625,
+  "total_violations": 22511,
+  "health_violations": 3406,
+  "total_penalties": 125254000.0,
+  "avg_penalty": 17791.76,
+  "violation_rate": 0.3521,
+  "enforcement_gap_score": 0.1702,
+  "serious_violators": 25,
+  "tri_facilities": 549,
+  "tri_releases_lbs": 2495035348.0,
+  "top_counties": [
+    {
+      "fips": "13197",
+      "name": "MARION",
+      "facilities": 5,
+      "total_violations": 5,
+      "health_violations": 0,
+      "total_penalties": 2000.0,
+      "enforcement_gap_score": 0.7143
+    },
+    {
+      "fips": "13223",
+      "name": "PAULDING COUNTY",
+      "facilities": 20,
+      "total_violations": 28,
+      "health_violations": 0,
+      "total_penalties": 46005.0,
+      "enforcement_gap_score": 0.4242
+    },
+    {
+      "fips": "13231",
+      "name": "PIKE COUNTY",
+      "facilities": 14,
+      "total_violations": 8,
+      "health_violations": 0,
+      "total_penalties": 9467.0,
+      "enforcement_gap_score": 0.3409
+    },
+    {
+      "fips": "13003",
+      "name": "ATKINSON COUNTY",
+      "facilities": 11,
+      "total_violations": 4,
+      "health_violations": 0,
+      "total_penalties": 750.0,
+      "enforcement_gap_score": 0.3404
+    },
+    {
+      "fips": "13315",
+      "name": "WILCOX",
+      "facilities": 6,
+      "total_violations": 2,
+      "health_violations": 1,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3333
+    },
+    {
+      "fips": "13259",
+      "name": "PORTABLE SOURCE",
+      "facilities": 9,
+      "total_violations": 3,
+      "health_violations": 1,
+      "total_penalties": 100.0,
+      "enforcement_gap_score": 0.3297
+    },
+    {
+      "fips": "13269",
+      "name": "TAYLOR COUNTY",
+      "facilities": 8,
+      "total_violations": 3,
+      "health_violations": 31,
+      "total_penalties": 2000.0,
+      "enforcement_gap_score": 0.3
+    },
+    {
+      "fips": "13249",
+      "name": "SCHLEY",
+      "facilities": 6,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 914.0,
+      "enforcement_gap_score": 0.2893
+    },
+    {
+      "fips": "13027",
+      "name": "BROOKS",
+      "facilities": 7,
+      "total_violations": 2,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2857
+    },
+    {
+      "fips": "13155",
+      "name": "IRWIN",
+      "facilities": 4,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.25
+    }
+  ],
+  "top_violators": []
+}

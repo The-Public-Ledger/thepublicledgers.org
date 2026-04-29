@@ -1,0 +1,35 @@
+{
+  "state": "AS",
+  "facilities": 70,
+  "water_systems": 53,
+  "total_violations": 15598,
+  "health_violations": 394,
+  "total_penalties": 0.0,
+  "avg_penalty": 0.0,
+  "violation_rate": 0.6286,
+  "enforcement_gap_score": 222.8286,
+  "serious_violators": 4,
+  "tri_facilities": 2,
+  "tri_releases_lbs": 174000.0,
+  "top_counties": [
+    {
+      "fips": "60050",
+      "name": "",
+      "facilities": 5,
+      "total_violations": 2,
+      "health_violations": 30,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4
+    },
+    {
+      "fips": "60010",
+      "name": "AMERICAN SAMOA",
+      "facilities": 19,
+      "total_violations": 2,
+      "health_violations": 12,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1053
+    }
+  ],
+  "top_violators": []
+}

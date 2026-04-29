@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Chautauqua",
+    "county_slug": "chautauqua",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 58.59,
+    "total_exemptions_usd": 169002774.99,
+    "net_exemptions_usd": 154277148.95,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 80,
+    "num_donor_beneficiaries": 17,
+    "donor_rate_pct": 21.25,
+    "total_donations_usd": 168089.52,
+    "jobs_promised": 25143,
+    "jobs_current": 22162,
+    "total_projects": 385,
+    "num_officials_receiving": 12,
+    "official_total_received_usd": 40774.0,
+    "num_pipelines": 21
+  },
+  "benchmarks": {
+    "state_rank": 22,
+    "state_total_counties": 104,
+    "state_percentile": 79,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "4.0× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Chautauqua County ranks 22nd out of 104 New York counties for total tax exemptions, with $169.0M in property tax breaks — 4.0× the state median. 21% of subsidy recipients donated to local officials.",
+    "subsidy_context": "4.0× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

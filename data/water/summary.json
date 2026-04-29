@@ -1,0 +1,21 @@
+{
+  "generated": "2026-04-14",
+  "total_facilities": 277679,
+  "total_industrial": 138891,
+  "total_water_systems": 138788,
+  "total_violations": 2071981,
+  "total_health_violations": 309716,
+  "total_penalties": 2751545597.0,
+  "total_serious_violators": 3094,
+  "regions_covered": 60,
+  "us_states_covered": 55,
+  "territories_covered": 5,
+  "counties_covered": 3120,
+  "top_state_by_gap": "AZ",
+  "top_violator": "ARDAGH GLASS INC",
+  "poc_penalty_disparity_ratio": 2.18,
+  "poc_health_disparity_ratio": 0.63,
+  "lowinc_health_disparity_ratio": 0.86,
+  "lowinc_q1_facility_count": 30180,
+  "lowinc_health_disparity_ratio_q2q5": 0.82
+}

@@ -1,0 +1,482 @@
+{
+  "meta": {
+    "state": "ID",
+    "state_name": "Idaho",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 44,
+      "counties_with_data": 44,
+      "crossref_complete": true,
+      "deals_count": 342,
+      "contributions_matched": 62
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 443102561.0,
+    "total_beneficiaries": 342,
+    "total_donations_usd": 1968750.39,
+    "matched_donors": 62,
+    "pct_beneficiaries_donating": 0.1813
+  },
+  "top_findings": [
+    "62 of 342 subsidized companies (18.1%) made campaign donations — $2.0M total.",
+    "$443M in total subsidies tracked across 342 beneficiary companies in Idaho."
+  ],
+  "counsel_conflicts": [],
+  "counties": [
+    {
+      "name": "Bonneville",
+      "slug": "bonneville",
+      "score": 60.0,
+      "total_exemptions_usd": 279450000.0,
+      "cost_per_household_usd": 6590.49,
+      "total_beneficiaries": 0,
+      "num_awards": 4,
+      "fips_county": "16019"
+    },
+    {
+      "name": "Ada",
+      "slug": "ada",
+      "score": 22.2,
+      "total_exemptions_usd": 46406037.0,
+      "cost_per_household_usd": 243.42,
+      "total_beneficiaries": 0,
+      "num_awards": 25,
+      "fips_county": "16001"
+    },
+    {
+      "name": "Jerome",
+      "slug": "jerome",
+      "score": 19.2,
+      "total_exemptions_usd": 21519056.0,
+      "cost_per_household_usd": 2659.3,
+      "total_beneficiaries": 0,
+      "num_awards": 5,
+      "fips_county": "16053"
+    },
+    {
+      "name": "Nampa",
+      "slug": "nampa",
+      "score": 10.6,
+      "total_exemptions_usd": 4400444.0,
+      "cost_per_household_usd": 4400.44,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "16000"
+    },
+    {
+      "name": "Power",
+      "slug": "power",
+      "score": 10.4,
+      "total_exemptions_usd": 10432480.0,
+      "cost_per_household_usd": 3905.83,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "16077"
+    },
+    {
+      "name": "Canyon",
+      "slug": "canyon",
+      "score": 8.8,
+      "total_exemptions_usd": 22087521.0,
+      "cost_per_household_usd": 277.04,
+      "total_beneficiaries": 0,
+      "num_awards": 11,
+      "fips_county": "16027"
+    },
+    {
+      "name": "Twin Falls",
+      "slug": "twin-falls",
+      "score": 6.8,
+      "total_exemptions_usd": 8300000.0,
+      "cost_per_household_usd": 248.8,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "16083"
+    },
+    {
+      "name": "Bannock",
+      "slug": "bannock",
+      "score": 6.5,
+      "total_exemptions_usd": 6700000.0,
+      "cost_per_household_usd": 204.87,
+      "total_beneficiaries": 0,
+      "num_awards": 20,
+      "fips_county": "16005"
+    },
+    {
+      "name": "Payette",
+      "slug": "payette",
+      "score": 5.2,
+      "total_exemptions_usd": 583000.0,
+      "cost_per_household_usd": 62.34,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "16075"
+    },
+    {
+      "name": "Cassia",
+      "slug": "cassia",
+      "score": 3.9,
+      "total_exemptions_usd": 9238823.0,
+      "cost_per_household_usd": 1129.44,
+      "total_beneficiaries": 0,
+      "num_awards": 6,
+      "fips_county": "16031"
+    },
+    {
+      "name": "Latah",
+      "slug": "latah",
+      "score": 3.6,
+      "total_exemptions_usd": 12500000.0,
+      "cost_per_household_usd": 784.73,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "16057"
+    },
+    {
+      "name": "Blaine",
+      "slug": "blaine",
+      "score": 1.6,
+      "total_exemptions_usd": 3898200.0,
+      "cost_per_household_usd": 419.25,
+      "total_beneficiaries": 0,
+      "num_awards": 5,
+      "fips_county": "16013"
+    },
+    {
+      "name": "Bonner",
+      "slug": "bonner",
+      "score": 1.5,
+      "total_exemptions_usd": 5748000.0,
+      "cost_per_household_usd": 298.94,
+      "total_beneficiaries": 0,
+      "num_awards": 5,
+      "fips_county": "16017"
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "score": 1.0,
+      "total_exemptions_usd": 1435000.0,
+      "cost_per_household_usd": 346.37,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "16087"
+    },
+    {
+      "name": "Kootenai",
+      "slug": "kootenai",
+      "score": 0.9,
+      "total_exemptions_usd": 4710000.0,
+      "cost_per_household_usd": 70.3,
+      "total_beneficiaries": 0,
+      "num_awards": 6,
+      "fips_county": "16055"
+    },
+    {
+      "name": "Nez Perce",
+      "slug": "nez-perce",
+      "score": 0.8,
+      "total_exemptions_usd": 2890000.0,
+      "cost_per_household_usd": 168.77,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "16069"
+    },
+    {
+      "name": "Gooding",
+      "slug": "gooding",
+      "score": 0.5,
+      "total_exemptions_usd": 877000.0,
+      "cost_per_household_usd": 162.02,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "16047"
+    },
+    {
+      "name": "Minidoka",
+      "slug": "minidoka",
+      "score": 0.5,
+      "total_exemptions_usd": 1100000.0,
+      "cost_per_household_usd": 147.18,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "16067"
+    },
+    {
+      "name": "Gem",
+      "slug": "gem",
+      "score": 0.3,
+      "total_exemptions_usd": 517000.0,
+      "cost_per_household_usd": 71.85,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "16045"
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin",
+      "score": 0.2,
+      "total_exemptions_usd": 310000.0,
+      "cost_per_household_usd": 66.35,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "16041"
+    },
+    {
+      "name": "Adams",
+      "slug": "adams",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16003"
+    },
+    {
+      "name": "Bear Lake",
+      "slug": "bear-lake",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16007"
+    },
+    {
+      "name": "Benewah",
+      "slug": "benewah",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16009"
+    },
+    {
+      "name": "Bingham",
+      "slug": "bingham",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16011"
+    },
+    {
+      "name": "Boise",
+      "slug": "boise",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16015"
+    },
+    {
+      "name": "Boundary",
+      "slug": "boundary",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16021"
+    },
+    {
+      "name": "Butte",
+      "slug": "butte",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16023"
+    },
+    {
+      "name": "Camas",
+      "slug": "camas",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16025"
+    },
+    {
+      "name": "Caribou",
+      "slug": "caribou",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16029"
+    },
+    {
+      "name": "Clark",
+      "slug": "clark",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16033"
+    },
+    {
+      "name": "Clearwater",
+      "slug": "clearwater",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16035"
+    },
+    {
+      "name": "Custer",
+      "slug": "custer",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16037"
+    },
+    {
+      "name": "Elmore",
+      "slug": "elmore",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16039"
+    },
+    {
+      "name": "Fremont",
+      "slug": "fremont",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16043"
+    },
+    {
+      "name": "Idaho",
+      "slug": "idaho",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16049"
+    },
+    {
+      "name": "Jefferson",
+      "slug": "jefferson",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16051"
+    },
+    {
+      "name": "Lemhi",
+      "slug": "lemhi",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16059"
+    },
+    {
+      "name": "Lewis",
+      "slug": "lewis",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16061"
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16063"
+    },
+    {
+      "name": "Madison",
+      "slug": "madison",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16065"
+    },
+    {
+      "name": "Oneida",
+      "slug": "oneida",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16071"
+    },
+    {
+      "name": "Owyhee",
+      "slug": "owyhee",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16073"
+    },
+    {
+      "name": "Shoshone",
+      "slug": "shoshone",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16079"
+    },
+    {
+      "name": "Teton",
+      "slug": "teton",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16081"
+    },
+    {
+      "name": "Valley",
+      "slug": "valley",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "16085"
+    }
+  ]
+}

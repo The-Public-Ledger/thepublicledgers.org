@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Malpractice Accountability",
+    "slug": "malpractice",
+    "status": "active",
+    "last_updated": "2026-04-26",
+    "sources": [
+      "OIG List of Excluded Individuals/Entities (LEIE)",
+      "CMS National Plan and Provider Enumeration System (NPPES)",
+      "CMS Open Payments",
+      "NY OPMC Board Actions (Health Data NY)",
+      "CA DHCS Suspended & Ineligible List"
+    ]
+  },
+  "key_stats": {
+    "excluded_active": 2873,
+    "patient_abuse": 147,
+    "state_migrants": 723,
+    "industry_payments_usd": 23919389.1
+  },
+  "top_findings": [
+    "2,873 federally excluded physicians still maintain active National Provider Identifier (NPI) records",
+    "147 physicians convicted of patient abuse or neglect have active NPI records",
+    "203 convicted of felony healthcare fraud maintain active provider identifiers",
+    "723 excluded physicians (25%) migrated to a different state after exclusion"
+  ]
+}

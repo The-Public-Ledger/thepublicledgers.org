@@ -1,0 +1,47 @@
+{{/* map-toggle.html — Tile grid (default) with choropleth toggle.
+     Params: same as choropleth-us.html, plus .tilePartial (path to tile map partial) */}}
+
+<div class="map-toggle-container">
+  <div class="map-toggle-controls" role="radiogroup" aria-label="Map view">
+    <button class="map-toggle-btn map-toggle-btn--active" data-view="tile"
+            role="radio" aria-checked="true">
+      Equal-weight grid
+    </button>
+    <button class="map-toggle-btn" data-view="geo"
+            role="radio" aria-checked="false">
+      Geographic view
+    </button>
+  </div>
+
+  <div class="map-view map-view--tile map-view--active" id="map-tile">
+    {{ partial "ida/us-tile-map.html" . }}
+  </div>
+
+  <div class="map-view map-view--geo" id="map-geo" aria-hidden="true">
+    {{ partial "choropleth-us.html" .choroplethParams }}
+  </div>
+</div>
+
+<script>
+(function() {
+  var btns = document.querySelectorAll('.map-toggle-btn');
+  var views = document.querySelectorAll('.map-view');
+  btns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var target = btn.dataset.view;
+      btns.forEach(function(b) {
+        b.classList.remove('map-toggle-btn--active');
+        b.setAttribute('aria-checked', 'false');
+      });
+      btn.classList.add('map-toggle-btn--active');
+      btn.setAttribute('aria-checked', 'true');
+      views.forEach(function(v) {
+        var isTile = v.id === 'map-tile';
+        var isTarget = (target === 'tile' && isTile) || (target === 'geo' && !isTile);
+        v.classList.toggle('map-view--active', isTarget);
+        v.setAttribute('aria-hidden', isTarget ? 'false' : 'true');
+      });
+    });
+  });
+})();
+</script>

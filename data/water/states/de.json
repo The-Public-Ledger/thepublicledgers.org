@@ -1,0 +1,44 @@
+{
+  "state": "DE",
+  "facilities": 607,
+  "water_systems": 395,
+  "total_violations": 1324,
+  "health_violations": 749,
+  "total_penalties": 1072420.0,
+  "avg_penalty": 1766.75,
+  "violation_rate": 0.5914,
+  "enforcement_gap_score": 0.7884,
+  "serious_violators": 0,
+  "tri_facilities": 63,
+  "tri_releases_lbs": 223963892.0,
+  "top_counties": [
+    {
+      "fips": "10003",
+      "name": "NEW CASTLE",
+      "facilities": 97,
+      "total_violations": 37,
+      "health_violations": 5,
+      "total_penalties": 490250.0,
+      "enforcement_gap_score": 0.063
+    },
+    {
+      "fips": "10001",
+      "name": "SUSSEX",
+      "facilities": 52,
+      "total_violations": 11,
+      "health_violations": 30,
+      "total_penalties": 306400.0,
+      "enforcement_gap_score": 0.0307
+    },
+    {
+      "fips": "10005",
+      "name": "SUSSEX",
+      "facilities": 77,
+      "total_violations": 10,
+      "health_violations": 135,
+      "total_penalties": 275770.0,
+      "enforcement_gap_score": 0.0283
+    }
+  ],
+  "top_violators": []
+}

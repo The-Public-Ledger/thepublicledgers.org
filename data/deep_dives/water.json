@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Water & Environmental Justice",
+    "slug": "water-environmental-justice",
+    "status": "active",
+    "last_updated": "2026-04-14",
+    "sources": [
+      "EPA ECHO Enforcement and Compliance History",
+      "EPA SDWIS Safe Drinking Water Information System",
+      "EPA TRI Toxics Release Inventory",
+      "Census ACS (demographics by county/tract)",
+      "FEC Individual Contributions (2019\u20132024)",
+      "Senate LDA Lobbying Disclosure (2017\u20132025)",
+      "USASpending.gov (EPA grants)"
+    ]
+  },
+  "key_stats": {
+    "total_facilities": 289767,
+    "total_violations": 2071981,
+    "total_health_violations": 309716,
+    "total_penalties_usd": 2751545597.0,
+    "serious_violators": 3094,
+    "counties_covered": 3120,
+    "poc_penalty_disparity_ratio": 2.18,
+    "lowinc_health_disparity_ratio": 0.86
+  },
+  "top_findings": [
+    "289,767 EPA-regulated facilities tracked across 3,120 counties",
+    "2,071,981 total violations documented, including 309,716 health-based violations",
+    "$2.8B in total EPA penalties assessed",
+    "3,094 facilities classified as serious violators by the EPA",
+    "Communities of color face 2.2x the penalty disparity ratio compared to predominantly white communities"
+  ]
+}

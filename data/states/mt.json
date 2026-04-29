@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "state": "MT",
+    "state_name": "Montana",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 56,
+      "counties_with_data": 20,
+      "crossref_complete": true,
+      "deals_count": 0,
+      "contributions_matched": 23
+    },
+    "coverage_status": "partial"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 7323159.0,
+    "total_beneficiaries": 1092,
+    "matched_donors": 23,
+    "pct_beneficiaries_donating": 0.021099999999999997,
+    "total_donations_usd": 162435.7
+  },
+  "top_findings": [
+    "23 of 1,092 subsidized companies (2.1%) made campaign donations — $162,436 total.",
+    "$7,297 in donations flowed from beneficiaries to 25 political committees. Top recipient: Ponton, Justin ($1,755).",
+    "$7M in total subsidies tracked across 1,092 beneficiary companies in Montana."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 7297.41,
+    "num_committees_receiving": 25,
+    "top_committee_name": "Ponton, Justin",
+    "top_committee_amount": 1754.89,
+    "top_committee_pct": 2.63
+  },
+  "counties": [
+    {
+      "name": "Big Horn",
+      "slug": "big-horn",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 2,
+      "num_awards": 2,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30003"
+    },
+    {
+      "name": "Carbon",
+      "slug": "carbon",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30009"
+    },
+    {
+      "name": "Cascade",
+      "slug": "cascade",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 3,
+      "num_awards": 3,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30013"
+    },
+    {
+      "name": "Dawson",
+      "slug": "dawson",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30021"
+    },
+    {
+      "name": "Fergus",
+      "slug": "fergus",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30027"
+    },
+    {
+      "name": "Flathead",
+      "slug": "flathead",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 6,
+      "num_awards": 6,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30029"
+    },
+    {
+      "name": "Gallatin",
+      "slug": "gallatin",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 10,
+      "num_awards": 10,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30031"
+    },
+    {
+      "name": "Jefferson",
+      "slug": "jefferson",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30043"
+    },
+    {
+      "name": "Lake",
+      "slug": "lake",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30047"
+    },
+    {
+      "name": "Lewis And Clark",
+      "slug": "lewis-and-clark",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30049"
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30053"
+    },
+    {
+      "name": "Mineral",
+      "slug": "mineral",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30061"
+    },
+    {
+      "name": "Missoula",
+      "slug": "missoula",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 10,
+      "num_awards": 10,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30063"
+    },
+    {
+      "name": "Phillips",
+      "slug": "phillips",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30071"
+    },
+    {
+      "name": "Powell",
+      "slug": "powell",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30077"
+    },
+    {
+      "name": "Ravalli",
+      "slug": "ravalli",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 2,
+      "num_awards": 2,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30081"
+    },
+    {
+      "name": "Roosevelt",
+      "slug": "roosevelt",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 2,
+      "num_awards": 2,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30085"
+    },
+    {
+      "name": "Silver Bow",
+      "slug": "silver-bow",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 4,
+      "num_awards": 4,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30093"
+    },
+    {
+      "name": "Stillwater",
+      "slug": "stillwater",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30095"
+    },
+    {
+      "name": "Yellowstone",
+      "slug": "yellowstone",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 9,
+      "num_awards": 9,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "30111"
+    }
+  ]
+}

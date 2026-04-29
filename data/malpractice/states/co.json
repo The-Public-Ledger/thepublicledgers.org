@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "state_abbr": "CO",
+    "state_name": "Colorado",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 41,
+    "physician_population": 22935,
+    "per_1000_physicians": 1.788,
+    "double_flagged": 10,
+    "industry_payments_usd": 7641.58
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 25
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 7
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 4
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 3
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 2
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 3
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 1
+    },
+    {
+      "from_state": "NM",
+      "from_name": "New Mexico",
+      "count": 1
+    },
+    {
+      "from_state": "MA",
+      "from_name": "Massachusetts",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 5
+    },
+    {
+      "to_state": "UT",
+      "to_name": "Utah",
+      "count": 1
+    },
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 1
+    },
+    {
+      "to_state": "IN",
+      "to_name": "Indiana",
+      "count": 1
+    },
+    {
+      "to_state": "NM",
+      "to_name": "New Mexico",
+      "count": 1
+    },
+    {
+      "to_state": "ID",
+      "to_name": "Idaho",
+      "count": 1
+    },
+    {
+      "to_state": "WV",
+      "to_name": "West Virginia",
+      "count": 1
+    },
+    {
+      "to_state": "OK",
+      "to_name": "Oklahoma",
+      "count": 1
+    },
+    {
+      "to_state": "TN",
+      "to_name": "Tennessee",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "JOSEPH, FRANCIS F",
+      "npi": "1790706745",
+      "score": 81.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-05-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "NEISLER, JUSTIN BOWEN",
+      "npi": "1902257256",
+      "score": 77.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2021-06-17",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "LITTLEFORD, JOHN ALAN",
+      "npi": "1053411421",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2019-09-19",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "MONTANTE, JOSEPH ROBERT",
+      "npi": "1275740706",
+      "score": 67.8,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2015-02-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "PEPER, ERIC ANTHONY",
+      "npi": "1659318137",
+      "score": 65.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2017-07-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "TUCKER, KELLY WADE",
+      "npi": "1871568782",
+      "score": 65.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2010-03-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "HO, ANDREW MARK",
+      "npi": "1609801877",
+      "score": 63.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-04-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "DATKHAEVA, TATYANA I",
+      "npi": "1609909423",
+      "score": 57.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2013-12-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "GESSNER, WIESLAW PAWEL",
+      "npi": "1225118011",
+      "score": 57.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2023-11-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "HANSEN, RICHARD NORMAN",
+      "npi": "1770579401",
+      "score": 56.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2013-01-20",
+      "specialty": "GASTROENTEROLOGY"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "MATTHEWS, STEPHEN nan",
+      "npi": "1982099297",
+      "total_usd": 3382.64,
+      "payment_count": 104,
+      "companies": 29
+    },
+    {
+      "name": "GALLAGHER, MICHAEL D",
+      "npi": "1548218654",
+      "total_usd": 1871.24,
+      "payment_count": 32,
+      "companies": 7
+    },
+    {
+      "name": "TYLER, JOHN MASON",
+      "npi": "1487666376",
+      "total_usd": 485.39,
+      "payment_count": 33,
+      "companies": 12
+    },
+    {
+      "name": "WEISS, HOWARD S",
+      "npi": "1780712604",
+      "total_usd": 459.57,
+      "payment_count": 6,
+      "companies": 5
+    },
+    {
+      "name": "GESSNER, WIESLAW PAWEL",
+      "npi": "1225118011",
+      "total_usd": 419.28,
+      "payment_count": 5,
+      "companies": 5
+    },
+    {
+      "name": "MOFFAT, ROBERT J",
+      "npi": "1235277104",
+      "total_usd": 194.83,
+      "payment_count": 2,
+      "companies": 1
+    },
+    {
+      "name": "KESTEN, JEFFREY nan",
+      "npi": "1124107909",
+      "total_usd": 185.27,
+      "payment_count": 15,
+      "companies": 7
+    },
+    {
+      "name": "WU, JOHN VAN",
+      "npi": "1518930395",
+      "total_usd": 158.09,
+      "payment_count": 5,
+      "companies": 2
+    },
+    {
+      "name": "HO, ANDREW MARK",
+      "npi": "1609801877",
+      "total_usd": 153.8,
+      "payment_count": 3,
+      "companies": 3
+    },
+    {
+      "name": "COOPER, WILLIAM H",
+      "npi": "1629186010",
+      "total_usd": 137.7,
+      "payment_count": 2,
+      "companies": 2
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "state": "WA",
+    "state_name": "Washington",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 39,
+      "counties_with_data": 39,
+      "crossref_complete": true,
+      "deals_count": 2047,
+      "contributions_matched": 531
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 3857526012.0,
+    "total_beneficiaries": 2047,
+    "total_donations_usd": 35992707.4,
+    "matched_donors": 531,
+    "pct_beneficiaries_donating": 0.2594
+  },
+  "top_findings": [
+    "531 of 2,047 subsidized companies (25.9%) made campaign donations — $36.0M total.",
+    "$15.0M in donations flowed from beneficiaries to 1,293 political committees. Top recipient: UNITE TO FIGHT CANCER ($1.3M).",
+    "$3.86B in total subsidies tracked across 2,047 beneficiary companies in Washington."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 15037114.47,
+    "num_committees_receiving": 1293,
+    "top_committee_name": "UNITE TO FIGHT CANCER",
+    "top_committee_amount": 1289027.91,
+    "top_committee_pct": 75.0
+  },
+  "counties": [
+    {
+      "name": "Grant",
+      "slug": "grant",
+      "score": 4.4,
+      "total_exemptions_usd": 907180.0,
+      "cost_per_household_usd": 23.35,
+      "total_beneficiaries": 0,
+      "num_awards": 5,
+      "fips_county": "025"
+    },
+    {
+      "name": "Yakima",
+      "slug": "yakima",
+      "score": 4.4,
+      "total_exemptions_usd": 436203.0,
+      "cost_per_household_usd": 9.62,
+      "total_beneficiaries": 0,
+      "num_awards": 5,
+      "fips_county": "077"
+    },
+    {
+      "name": "King",
+      "slug": "king",
+      "score": 4.1,
+      "total_exemptions_usd": 6628240.0,
+      "cost_per_household_usd": 13.63,
+      "total_beneficiaries": 0,
+      "num_awards": 55,
+      "fips_county": "033"
+    },
+    {
+      "name": "Pierce",
+      "slug": "pierce",
+      "score": 4.1,
+      "total_exemptions_usd": 3616637.0,
+      "cost_per_household_usd": 10.02,
+      "total_beneficiaries": 0,
+      "num_awards": 21,
+      "fips_county": "053"
+    },
+    {
+      "name": "Skagit",
+      "slug": "skagit",
+      "score": 4.1,
+      "total_exemptions_usd": 1410844.0,
+      "cost_per_household_usd": 25.25,
+      "total_beneficiaries": 0,
+      "num_awards": 11,
+      "fips_county": "057"
+    },
+    {
+      "name": "Snohomish",
+      "slug": "snohomish",
+      "score": 4.1,
+      "total_exemptions_usd": 2840057.0,
+      "cost_per_household_usd": 17.56,
+      "total_beneficiaries": 0,
+      "num_awards": 19,
+      "fips_county": "061"
+    },
+    {
+      "name": "Whatcom",
+      "slug": "whatcom",
+      "score": 4.1,
+      "total_exemptions_usd": 515142.0,
+      "cost_per_household_usd": 10.26,
+      "total_beneficiaries": 0,
+      "num_awards": 11,
+      "fips_county": "073"
+    },
+    {
+      "name": "Thurston",
+      "slug": "thurston",
+      "score": 3.9,
+      "total_exemptions_usd": 580908.0,
+      "cost_per_household_usd": 4.77,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "067"
+    },
+    {
+      "name": "Chelan",
+      "slug": "chelan",
+      "score": 3.85,
+      "total_exemptions_usd": 198843.0,
+      "cost_per_household_usd": 5.29,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "007"
+    },
+    {
+      "name": "Mason",
+      "slug": "mason",
+      "score": 3.85,
+      "total_exemptions_usd": 67382.0,
+      "cost_per_household_usd": 4.03,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "045"
+    },
+    {
+      "name": "Kitsap",
+      "slug": "kitsap",
+      "score": 3.65,
+      "total_exemptions_usd": 72117.0,
+      "cost_per_household_usd": 1.27,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "035"
+    },
+    {
+      "name": "Spokane",
+      "slug": "spokane",
+      "score": 3.35,
+      "total_exemptions_usd": 421357.0,
+      "cost_per_household_usd": 1.87,
+      "total_beneficiaries": 0,
+      "num_awards": 6,
+      "fips_county": "063"
+    },
+    {
+      "name": "Clark",
+      "slug": "clark",
+      "score": 2.65,
+      "total_exemptions_usd": 424489.0,
+      "cost_per_household_usd": 2.16,
+      "total_beneficiaries": 0,
+      "num_awards": 13,
+      "fips_county": "011"
+    },
+    {
+      "name": "Stevens",
+      "slug": "stevens",
+      "score": 2.65,
+      "total_exemptions_usd": 72762.0,
+      "cost_per_household_usd": 3.26,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "065"
+    },
+    {
+      "name": "Walla Walla",
+      "slug": "walla-walla",
+      "score": 2.65,
+      "total_exemptions_usd": 56315.0,
+      "cost_per_household_usd": 2.25,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "071"
+    },
+    {
+      "name": "Whitman",
+      "slug": "whitman",
+      "score": 2.65,
+      "total_exemptions_usd": 94527.0,
+      "cost_per_household_usd": 4.51,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "075"
+    },
+    {
+      "name": "Cowlitz",
+      "slug": "cowlitz",
+      "score": 2.3,
+      "total_exemptions_usd": 47247.0,
+      "cost_per_household_usd": 2.07,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "015"
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin",
+      "score": 2.1,
+      "total_exemptions_usd": 28137.0,
+      "cost_per_household_usd": 1.89,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "021"
+    },
+    {
+      "name": "Klickitat",
+      "slug": "klickitat",
+      "score": 2.1,
+      "total_exemptions_usd": 17153.0,
+      "cost_per_household_usd": 1.62,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "039"
+    },
+    {
+      "name": "Statewide",
+      "slug": "statewide",
+      "score": 1.8,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 9.04,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Adams",
+      "slug": "adams",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "001"
+    },
+    {
+      "name": "Asotin",
+      "slug": "asotin",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "003"
+    },
+    {
+      "name": "Benton",
+      "slug": "benton",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "005"
+    },
+    {
+      "name": "Clallam",
+      "slug": "clallam",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "009"
+    },
+    {
+      "name": "Columbia",
+      "slug": "columbia",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "013"
+    },
+    {
+      "name": "Douglas",
+      "slug": "douglas",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "017"
+    },
+    {
+      "name": "Ferry",
+      "slug": "ferry",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "019"
+    },
+    {
+      "name": "Garfield",
+      "slug": "garfield",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "023"
+    },
+    {
+      "name": "Grays Harbor",
+      "slug": "grays-harbor",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "027"
+    },
+    {
+      "name": "Island",
+      "slug": "island",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "029"
+    },
+    {
+      "name": "Jefferson",
+      "slug": "jefferson",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "031"
+    },
+    {
+      "name": "Kittitas",
+      "slug": "kittitas",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "037"
+    },
+    {
+      "name": "Lewis",
+      "slug": "lewis",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "041"
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "043"
+    },
+    {
+      "name": "Okanogan",
+      "slug": "okanogan",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "047"
+    },
+    {
+      "name": "Pacific",
+      "slug": "pacific",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "049"
+    },
+    {
+      "name": "Pend Oreille",
+      "slug": "pend-oreille",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "051"
+    },
+    {
+      "name": "San Juan",
+      "slug": "san-juan",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "055"
+    },
+    {
+      "name": "Skamania",
+      "slug": "skamania",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "059"
+    },
+    {
+      "name": "Wahkiakum",
+      "slug": "wahkiakum",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "069"
+    }
+  ]
+}

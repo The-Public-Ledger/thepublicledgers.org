@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "state_abbr": "MA",
+    "state_name": "Massachusetts",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 48,
+    "physician_population": 42339,
+    "per_1000_physicians": 1.134,
+    "double_flagged": 7,
+    "industry_payments_usd": 80986.40999999997
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 26
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 10
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 4
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 4
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 2
+    },
+    {
+      "code": "1128b5",
+      "label": "Federal/State Program Exclusion",
+      "count": 1
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 2
+    },
+    {
+      "from_state": "NY",
+      "from_name": "New York",
+      "count": 1
+    },
+    {
+      "from_state": "MI",
+      "from_name": "Michigan",
+      "count": 1
+    },
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 1
+    },
+    {
+      "from_state": "NJ",
+      "from_name": "New Jersey",
+      "count": 1
+    },
+    {
+      "from_state": "VA",
+      "from_name": "Virginia",
+      "count": 1
+    },
+    {
+      "from_state": "VT",
+      "from_name": "Vermont",
+      "count": 1
+    },
+    {
+      "from_state": "ME",
+      "from_name": "Maine",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 4
+    },
+    {
+      "to_state": "CT",
+      "to_name": "Connecticut",
+      "count": 3
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 2
+    },
+    {
+      "to_state": "NJ",
+      "to_name": "New Jersey",
+      "count": 2
+    },
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
+      "count": 1
+    },
+    {
+      "to_state": "PA",
+      "to_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 1
+    },
+    {
+      "to_state": "IL",
+      "to_name": "Illinois",
+      "count": 1
+    },
+    {
+      "to_state": "CO",
+      "to_name": "Colorado",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "REUBEN, SCOTT nan",
+      "npi": "1992796015",
+      "score": 82.8,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2011-07-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "ARONSONFOX, RISA nan",
+      "npi": "1255426136",
+      "score": 76.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-05-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "AWAISI, MUHAMMAD S",
+      "npi": "1326012071",
+      "score": 75.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2025-10-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "CARACENI, LESLIE C",
+      "npi": "1295829521",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2022-08-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "LANE, KERRY SCOTT",
+      "npi": "1548257181",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2022-08-18",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "WILKING, SPENCER VANB",
+      "npi": "1205818358",
+      "score": 66.2,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2016-06-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "CLINTON, DAVID L",
+      "npi": "1306951645",
+      "score": 65.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2024-07-18",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "JAWORSKI, MAVIS WEBSTER",
+      "npi": "1154483931",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-09-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "OCH, MOHAMAD R",
+      "npi": "1629098496",
+      "score": 64.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2026-01-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "PFANNL, ROLF nan",
+      "npi": "1558474601",
+      "score": 62.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2023-02-20",
+      "specialty": "PATHOLOGY"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "OCH, MOHAMAD R",
+      "npi": "1629098496",
+      "total_usd": 59529.89,
+      "payment_count": 1088,
+      "companies": 35
+    },
+    {
+      "name": "NAIR, ANIL K",
+      "npi": "1003834433",
+      "total_usd": 15669.56,
+      "payment_count": 98,
+      "companies": 17
+    },
+    {
+      "name": "GODEFROI, ROBERT nan",
+      "npi": "1669460994",
+      "total_usd": 3367.86,
+      "payment_count": 243,
+      "companies": 17
+    },
+    {
+      "name": "PATEL, ASHOK JIVANLAL",
+      "npi": "1902825441",
+      "total_usd": 1801.98,
+      "payment_count": 101,
+      "companies": 14
+    },
+    {
+      "name": "GREEN, MARK nan",
+      "npi": "1407075294",
+      "total_usd": 250.56,
+      "payment_count": 7,
+      "companies": 5
+    },
+    {
+      "name": "COOPER, MARCUS P",
+      "npi": "1588622989",
+      "total_usd": 102.78,
+      "payment_count": 2,
+      "companies": 2
+    },
+    {
+      "name": "MIRON, RICHARD V",
+      "npi": "1760589816",
+      "total_usd": 92.76,
+      "payment_count": 6,
+      "companies": 3
+    },
+    {
+      "name": "KATZ, GERALD B",
+      "npi": "1730170101",
+      "total_usd": 45.01,
+      "payment_count": 3,
+      "companies": 1
+    },
+    {
+      "name": "KINRYS, GUSTAVO D",
+      "npi": "1023076676",
+      "total_usd": 40.06,
+      "payment_count": 2,
+      "companies": 1
+    },
+    {
+      "name": "CARACENI, LESLIE C",
+      "npi": "1295829521",
+      "total_usd": 34.05,
+      "payment_count": 2,
+      "companies": 1
+    }
+  ]
+}

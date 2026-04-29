@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "state_abbr": "MS",
+    "state_name": "Mississippi",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 16,
+    "physician_population": 7758,
+    "per_1000_physicians": 2.062,
+    "double_flagged": 2,
+    "industry_payments_usd": 7568.38
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 6
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 5
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 3
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 2
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "AL",
+      "from_name": "Alabama",
+      "count": 3
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 1
+    },
+    {
+      "from_state": "NC",
+      "from_name": "North Carolina",
+      "count": 1
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 2
+    },
+    {
+      "to_state": "AL",
+      "to_name": "Alabama",
+      "count": 1
+    },
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 1
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "WISEMAN, BENJAMIN ERNEST",
+      "npi": "1649289794",
+      "score": 75.2,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2017-01-19",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "SULTAN, SHAHJAHAN nan",
+      "npi": "1699938498",
+      "score": 72.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2022-03-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "DIAZ, ALBERT nan",
+      "npi": "1124032644",
+      "score": 69.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2019-09-19",
+      "specialty": "GYN/OBS"
+    },
+    {
+      "name": "LOEBENBERG, MICHAEL JAY",
+      "npi": "1790785277",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2018-03-20",
+      "specialty": "GASTROENTEROLOGY"
+    },
+    {
+      "name": "NELSON, SCOTT nan",
+      "npi": "1336220276",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2023-11-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "OKECHUKU, THEODORE E",
+      "npi": "1619910445",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2020-06-18",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "BROWN, NATE nan",
+      "npi": "1184727745",
+      "score": 65.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2018-06-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "SANFORD, BENJAMIN F",
+      "npi": "1629042304",
+      "score": 53.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2022-08-18",
+      "specialty": "RHEUMATOLOGY"
+    },
+    {
+      "name": "STEWART, LAWRENCE EDSEL",
+      "npi": "1447337936",
+      "score": 53.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2017-07-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "RYAN, CHARLES G",
+      "npi": "1548263627",
+      "score": 50.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2025-11-20",
+      "specialty": "GYN/OBS"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "SANFORD, BENJAMIN F",
+      "npi": "1629042304",
+      "total_usd": 4042.24,
+      "payment_count": 238,
+      "companies": 34
+    },
+    {
+      "name": "NELSON, SCOTT nan",
+      "npi": "1336220276",
+      "total_usd": 1200.01,
+      "payment_count": 17,
+      "companies": 8
+    },
+    {
+      "name": "RYAN, CHARLES G",
+      "npi": "1548263627",
+      "total_usd": 885.96,
+      "payment_count": 38,
+      "companies": 17
+    },
+    {
+      "name": "JACKSON, JOSEPH nan",
+      "npi": "1922074806",
+      "total_usd": 750.28,
+      "payment_count": 52,
+      "companies": 16
+    },
+    {
+      "name": "RIGSBY, REGINALD D",
+      "npi": "1407817240",
+      "total_usd": 414.32,
+      "payment_count": 12,
+      "companies": 7
+    },
+    {
+      "name": "SULTAN, SHAHJAHAN nan",
+      "npi": "1699938498",
+      "total_usd": 233.97,
+      "payment_count": 27,
+      "companies": 2
+    },
+    {
+      "name": "JUAKALI, EBONY nan",
+      "npi": "1376905901",
+      "total_usd": 26.92,
+      "payment_count": 2,
+      "companies": 2
+    },
+    {
+      "name": "RUSSELL, KEITH PERRY",
+      "npi": "1326335886",
+      "total_usd": 14.68,
+      "payment_count": 1,
+      "companies": 1
+    }
+  ]
+}

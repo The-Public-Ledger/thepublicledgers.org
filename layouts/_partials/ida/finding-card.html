@@ -1,0 +1,8 @@
+{{ $number := .number }}
+{{ $label := .label }}
+{{ $note := .note }}
+<div class="finding-card">
+  <div class="finding-card__number">{{ $number }}</div>
+  <div class="finding-card__label">{{ $label }}</div>
+  {{ with $note }}<p class="finding-card__note">{{ . }}</p>{{ end }}
+</div>

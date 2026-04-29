@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "state_abbr": "HI",
+    "state_name": "Hawaii",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 6,
+    "physician_population": 5907,
+    "per_1000_physicians": 1.016,
+    "double_flagged": 0,
+    "industry_payments_usd": 1172.17
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 3
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 2
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 1
+    },
+    {
+      "from_state": "NV",
+      "from_name": "Nevada",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "OR",
+      "to_name": "Oregon",
+      "count": 1
+    },
+    {
+      "to_state": "TN",
+      "to_name": "Tennessee",
+      "count": 1
+    },
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "OLEARY, CORNELIUS JOSEPH",
+      "npi": "1871707513",
+      "score": 81.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-06-19",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "KAIWI, PAUL ADAM",
+      "npi": "1730123365",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-06-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "ARRINGTON, CLIFTON W",
+      "npi": "1508955055",
+      "score": 53.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2019-08-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "YANG, SUNG S",
+      "npi": "1043470370",
+      "score": 53.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2021-08-19",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "LIPETZ, MARK DAVID",
+      "npi": "1306919956",
+      "score": 50.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2020-07-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "SPEAR, HAROLD C",
+      "npi": "1801000518",
+      "score": 41.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2011-04-20",
+      "specialty": "GENERAL PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "YANG, SUNG S",
+      "npi": "1043470370",
+      "total_usd": 987.22,
+      "payment_count": 15,
+      "companies": 4
+    },
+    {
+      "name": "ARRINGTON, CLIFTON W",
+      "npi": "1508955055",
+      "total_usd": 108.1,
+      "payment_count": 7,
+      "companies": 2
+    },
+    {
+      "name": "LIPETZ, MARK DAVID",
+      "npi": "1306919956",
+      "total_usd": 42.93,
+      "payment_count": 3,
+      "companies": 2
+    },
+    {
+      "name": "KAIWI, PAUL ADAM",
+      "npi": "1730123365",
+      "total_usd": 33.92,
+      "payment_count": 2,
+      "companies": 1
+    }
+  ]
+}

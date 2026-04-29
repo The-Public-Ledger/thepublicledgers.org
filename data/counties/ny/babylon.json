@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Babylon",
+    "county_slug": "babylon",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 51.21,
+    "total_exemptions_usd": 294098128.5,
+    "net_exemptions_usd": 132054592.2,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 229,
+    "num_donor_beneficiaries": 58,
+    "donor_rate_pct": 25.33,
+    "total_donations_usd": 793918.88,
+    "jobs_promised": 111831,
+    "jobs_current": 115351,
+    "total_projects": 1420,
+    "num_officials_receiving": 19,
+    "official_total_received_usd": 472204.2,
+    "num_pipelines": 101
+  },
+  "benchmarks": {
+    "state_rank": 11,
+    "state_total_counties": 104,
+    "state_percentile": 89,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "6.9× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Babylon County ranks 11th out of 104 New York counties for total tax exemptions, with $294.1M in property tax breaks — 6.9× the state median. 25% of subsidy recipients donated to local officials.",
+    "subsidy_context": "6.9× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

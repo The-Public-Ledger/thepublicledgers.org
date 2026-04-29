@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "state_abbr": "MT",
+    "state_name": "Montana",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 9,
+    "physician_population": 3756,
+    "per_1000_physicians": 2.396,
+    "double_flagged": 2,
+    "industry_payments_usd": 62211.26999999999
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 4
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 2
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 1
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 1
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "MO",
+      "from_name": "Missouri",
+      "count": 1
+    },
+    {
+      "from_state": "NV",
+      "from_name": "Nevada",
+      "count": 1
+    },
+    {
+      "from_state": "NY",
+      "from_name": "New York",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "WV",
+      "to_name": "West Virginia",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "DEAN, RONALD D",
+      "npi": "1437198074",
+      "score": 76.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-07-20",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
+      "name": "DEVOUS, ARNOLD S",
+      "npi": "1073566733",
+      "score": 72.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2021-11-18",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "WEINER, THOMAS CARL",
+      "npi": "1538260179",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-04-20",
+      "specialty": "ONCOLOGY"
+    },
+    {
+      "name": "ARMSTRONG, JAMES HALDEMAN",
+      "npi": "1881649952",
+      "score": 62.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2023-03-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "MCGREE, PATRICK J",
+      "npi": "1427039064",
+      "score": 62.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2022-01-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "PICKENS, CORY nan",
+      "npi": "1033186697",
+      "score": 50.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2011-09-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "AVERY, ALFRED ESTIN",
+      "npi": "1063587426",
+      "score": 38.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2004-06-17",
+      "specialty": "NEUROLOGY"
+    },
+    {
+      "name": "MILLER, JOHN BERNARD",
+      "npi": "1588663827",
+      "score": 34.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "1995-05-04",
+      "specialty": "GENERAL PRACTICE/FP"
+    },
+    {
+      "name": "GRAHAM, DAVID M",
+      "npi": "1962425868",
+      "score": 29.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2005-01-19",
+      "specialty": "FAMILY PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "DEVOUS, ARNOLD S",
+      "npi": "1073566733",
+      "total_usd": 45744.55,
+      "payment_count": 79,
+      "companies": 3
+    },
+    {
+      "name": "WEINER, THOMAS CARL",
+      "npi": "1538260179",
+      "total_usd": 15785.73,
+      "payment_count": 335,
+      "companies": 47
+    },
+    {
+      "name": "DEAN, RONALD D",
+      "npi": "1437198074",
+      "total_usd": 295.31,
+      "payment_count": 17,
+      "companies": 7
+    },
+    {
+      "name": "MILLER, JOHN BERNARD",
+      "npi": "1588663827",
+      "total_usd": 122.99,
+      "payment_count": 7,
+      "companies": 4
+    },
+    {
+      "name": "ARMSTRONG, JAMES HALDEMAN",
+      "npi": "1881649952",
+      "total_usd": 101.56,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "AVERY, ALFRED ESTIN",
+      "npi": "1063587426",
+      "total_usd": 99.36,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "GRAHAM, DAVID M",
+      "npi": "1962425868",
+      "total_usd": 61.77,
+      "payment_count": 4,
+      "companies": 3
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "ND",
+    "state_name": "North Dakota",
+    "county": "Grand Forks",
+    "county_slug": "grand-forks",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 31.0,
+    "total_exemptions_usd": 1346025.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 40.1,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 1,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 87,
+    "warn_workers_affected": 0,
+    "fips_county": "035"
+  },
+  "benchmarks": {
+    "state_rank": 3,
+    "state_total_counties": 50,
+    "state_percentile": 94,
+    "state_median_subsidy_usd": 100110.0,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 29.61,
+    "subsidy_context": "13.4× the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Grand Forks County ranks 3rd out of 50 North Dakota counties for total tax exemptions, with $1.3M in property tax breaks — 13.4× the state median. The per-household cost of these subsidies is $40.",
+    "subsidy_context": "13.4× the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

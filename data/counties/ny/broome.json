@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Broome",
+    "county_slug": "broome",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 53.11,
+    "total_exemptions_usd": 141894363.6,
+    "net_exemptions_usd": 89914420.47,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 85,
+    "num_donor_beneficiaries": 26,
+    "donor_rate_pct": 30.59,
+    "total_donations_usd": 292864.58,
+    "jobs_promised": 19780,
+    "jobs_current": 19953,
+    "total_projects": 385,
+    "num_officials_receiving": 9,
+    "official_total_received_usd": 57584.37,
+    "num_pipelines": 20
+  },
+  "benchmarks": {
+    "state_rank": 25,
+    "state_total_counties": 104,
+    "state_percentile": 76,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "3.3× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Broome County ranks 25th out of 104 New York counties for total tax exemptions, with $141.9M in property tax breaks — 3.3× the state median. 31% of subsidy recipients donated to local officials.",
+    "subsidy_context": "3.3× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

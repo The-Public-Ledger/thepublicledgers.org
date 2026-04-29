@@ -1,0 +1,325 @@
+{{ define "main" }}
+{{ $national := site.Data.malpractice.national_summary }}
+{{ $hs := $national.headline_stats }}
+
+<article class="section">
+  <div class="container">
+    <header class="page-header">
+      <span class="section-label">Investigation</span>
+      <h1>{{ .Title }}</h1>
+      <p class="lead">We cross-referenced federal exclusion lists with the national provider registry to find physicians barred from federal healthcare programs who may still be practicing.</p>
+      {{ with $national.meta.last_updated }}<p class="data-note">Data last updated {{ . }}</p>{{ end }}
+    </header>
+
+    <!-- Doctor search — the #1 user action -->
+    <div class="doctor-search" id="doctor-search">
+      <form class="doctor-search__form" onsubmit="return false;" role="search" aria-label="Search excluded physicians">
+        <input type="text" id="doctor-search-input" class="doctor-search__input"
+               placeholder="Search by physician name..."
+               aria-label="Physician name">
+        <button type="button" id="doctor-search-btn" class="doctor-search__btn">Search</button>
+      </form>
+    </div>
+
+    <!-- Search results (hidden until search) -->
+    <div id="search-results" class="search-results" aria-live="polite" style="display:none;"></div>
+
+    <!-- Context block — explains what this data is -->
+    <div class="context-callout">
+      <strong>What is this data?</strong> This database lists physicians who have been placed on the
+      federal <abbr title="List of Excluded Individuals/Entities">LEIE</abbr> exclusion list — meaning they were convicted of
+      offenses like patient abuse, healthcare fraud, or drug felonies — but who still appear in the
+      national provider registry with an active <abbr title="National Provider Identifier — a unique 10-digit number required to bill Medicare and Medicaid">NPI</abbr> record.
+      An active NPI does not prove they are currently seeing patients, but it means their record has not been deactivated.
+    </div>
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+
+    <!-- Reduced to 6 headline stats with plain-English labels -->
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-card__value">{{ lang.FormatNumber 0 $hs.total_excluded_active }}</div>
+        <div class="stat-card__label">Excluded physicians who may still be practicing</div>
+      </div>
+      <div class="stat-card stat-card--danger">
+        <div class="stat-card__value">{{ $hs.patient_abuse }}</div>
+        <div class="stat-card__label">Convicted of patient abuse or neglect</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">{{ $hs.healthcare_fraud }}</div>
+        <div class="stat-card__label">Convicted of healthcare fraud</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">{{ lang.FormatNumber 0 $hs.state_migrants }}</div>
+        <div class="stat-card__label">Moved to a different state after exclusion</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">{{ lang.FormatNumber 0 $hs.double_flagged }}</div>
+        <div class="stat-card__label">Flagged by both federal and state authorities <small style="display:block;font-weight:400;opacity:.7">(CA, FL, NY board data; other states pending)</small></div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">${{ printf "%.1f" (div $hs.industry_payments_usd 1000000.0) }}M</div>
+        <div class="stat-card__label">Pharmaceutical payments to excluded physicians (2018&ndash;2024)</div>
+      </div>
+    </div>
+
+    {{ partial "map-toggle.html" (dict
+      "context" .
+      "choroplethParams" (dict
+        "context" .
+        "dataSource" "malpractice"
+        "metric" "per_1000_physicians"
+        "formatFn" "rate"
+        "thresholds" (slice
+          (dict "min" 4.0 "class" "high"   "label" "High rate (>4/1K)")
+          (dict "min" 2.0 "class" "medium" "label" "Medium (2–4/1K)")
+          (dict "min" 0   "class" "low"    "label" "Low (<2/1K)")
+        )
+        "noDataClass" "none"
+        "noDataLabel" "No data"
+        "linkPattern" "/malpractice/states/{abbr}/"
+        "ariaLabel" "US map showing excluded physician rates by state"
+        "colorPrefix" "mal"
+      )
+    ) }}
+
+    {{ with $national.top_findings }}
+    <section class="findings-section">
+      <h2>Key Findings</h2>
+      <ul class="findings-list">
+        {{ range . }}<li>{{ . }}</li>{{ end }}
+      </ul>
+    </section>
+    {{ end }}
+
+    {{ with $national.specialty_hotspots }}
+    <section class="findings-section">
+      <h2>Overrepresented Specialties</h2>
+      <p>How many times more likely a physician in each specialty is to be excluded, compared to the average physician.</p>
+      <div class="bar-chart" role="img" aria-label="Horizontal bar chart of overrepresented specialties among excluded physicians">
+        {{ range first 10 . }}
+        {{ $pct := mul (div .enrichment_ratio 10.0) 100 }}
+        {{ if gt $pct 100.0 }}{{ $pct = 100.0 }}{{ end }}
+        <div class="bar-chart__row">
+          <div class="bar-chart__label">{{ .specialty }}</div>
+          <div class="bar-chart__track">
+            <div class="bar-chart__fill bar-chart__fill--accent" style="width: {{ printf "%.0f" $pct }}%"></div>
+            <span class="bar-chart__value">{{ printf "%.1f" .enrichment_ratio }}&times;</span>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <p class="data-note">1.0&times; = average rate among all physicians. Higher = more overrepresented.</p>
+    </section>
+    {{ end }}
+
+    {{ with $national.migration_corridors }}
+    <section class="findings-section">
+      <h2>Where Excluded Physicians Move</h2>
+      <p>After being excluded, some physicians move to a different state. The new state's medical board may not be aware of the federal exclusion.</p>
+      {{ $maxCount := 0 }}{{ range first 10 . }}{{ if gt .count $maxCount }}{{ $maxCount = .count }}{{ end }}{{ end }}
+      <div class="bar-chart" role="img" aria-label="Bar chart of top migration corridors for excluded physicians">
+        {{ range first 10 . }}
+        {{ $pct := mul (div (float .count) (float $maxCount)) 100 }}
+        <div class="bar-chart__row">
+          <div class="bar-chart__label">{{ .from }} → {{ .to }}</div>
+          <div class="bar-chart__track">
+            <div class="bar-chart__fill bar-chart__fill--warm" style="width: {{ printf "%.0f" $pct }}%"></div>
+            <span class="bar-chart__value">{{ .count }}</span>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- Exclusion type breakdown donut -->
+    <section class="findings-section">
+      <h2>Why Physicians Were Excluded</h2>
+      <p>Breakdown of the federal offenses that led to exclusion.</p>
+      <div class="donut-section">
+        <div class="donut-chart" role="img" aria-label="Donut chart showing exclusion type breakdown">
+          <svg viewBox="0 0 200 200" class="donut-svg">
+            {{ $total := $hs.total_excluded_active }}
+            {{ $offset := 0.0 }}
+            {{ $colors := slice "#dc2626" "#f59e0b" "#eab308" "#6366f1" "#8b5cf6" "#64748b" }}
+            {{ $items := slice
+              (dict "label" "License Action" "count" (default 0 $hs.license_action) "color" (index $colors 5))
+              (dict "label" "Medicare/Medicaid Fraud" "count" (default 0 $hs.program_crime) "color" (index $colors 3))
+              (dict "label" "Drug Felony" "count" (default 0 $hs.drug_felonies) "color" (index $colors 2))
+              (dict "label" "Healthcare Fraud" "count" (default 0 $hs.healthcare_fraud) "color" (index $colors 1))
+              (dict "label" "Patient Abuse" "count" (default 0 $hs.patient_abuse) "color" (index $colors 0))
+              (dict "label" "Other" "count" (default 0 $hs.other_exclusions) "color" (index $colors 4))
+            }}
+            {{ range $items }}
+              {{ $pct := div (mul (float .count) 100) (float $total) }}
+              {{ $dashLen := mul $pct 3.14159 }}
+              {{ $gapLen := sub 314.159 $dashLen }}
+              {{ $rotation := mul $offset 3.6 }}
+              <circle cx="100" cy="100" r="50" fill="none" stroke="{{ .color }}" stroke-width="30"
+                stroke-dasharray="{{ printf "%.2f" $dashLen }} {{ printf "%.2f" $gapLen }}"
+                transform="rotate({{ printf "%.1f" (sub $rotation 90) }} 100 100)" />
+              {{ $offset = add $offset $pct }}
+            {{ end }}
+            <circle cx="100" cy="100" r="35" fill="var(--color-surface)" />
+            <text x="100" y="96" text-anchor="middle" font-size="18" font-weight="700" fill="var(--color-primary)">{{ lang.FormatNumber 0 $total }}</text>
+            <text x="100" y="112" text-anchor="middle" font-size="9" fill="var(--color-text-muted)">physicians</text>
+          </svg>
+        </div>
+        <div class="donut-legend">
+          {{ range $items }}
+          <div class="donut-legend__item">
+            <span class="donut-legend__color" style="background: {{ .color }}"></span>
+            <span class="donut-legend__label">{{ .label }}</span>
+            <span class="donut-legend__count">{{ .count }}</span>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+
+    <!-- Action box -->
+    <div class="action-box">
+      <div class="action-box__title">If you found your doctor on this list</div>
+      <ol>
+        <li>Do not panic. An active registry record does not confirm they are currently practicing.</li>
+        <li>Check your <strong>state medical board's website</strong> for their current license status.</li>
+        <li>Contact your insurance provider to ask whether this physician is currently in-network.</li>
+        <li>You can report concerns to the <strong>OIG Hotline</strong> at <a href="tel:18004478477">1-800-HHS-TIPS (1-800-447-8477)</a>.</li>
+        <li>Consider speaking with another physician about your care.</li>
+      </ol>
+    </div>
+
+    <div class="entry-paths">
+      <h2>Explore the Data</h2>
+      <div class="card-grid">
+        <a href="/malpractice/states/" class="entry-card">
+          <h3>By State</h3>
+          <p>Per-capita rates, migration patterns, and highest-priority cases for all 50 states.</p>
+        </a>
+        <a href="/deep-dives/malpractice/" class="entry-card">
+          <h3>Full Investigation</h3>
+          <p>Methodology, data downloads, and detailed findings for researchers and journalists.</p>
+        </a>
+        <a href="/data/" class="entry-card">
+          <h3>Data Explorer</h3>
+          <p>Search, filter, and sort the HIGH-confidence subset (2,622 of 2,873 total excluded physicians).</p>
+        </a>
+      </div>
+    </div>
+
+    {{ partial "ida/source-citation.html" (dict "sources" $national.meta.sources "date" $national.meta.last_updated) }}
+  </div>
+</article>
+
+<script>
+(function() {
+  var DATA = null;
+  var searchInput = document.getElementById('doctor-search-input');
+  var searchBtn = document.getElementById('doctor-search-btn');
+  var resultsDiv = document.getElementById('search-results');
+
+  var EXCLUSION_LABELS = {
+    'Patient Abuse/Neglect': { short: 'Patient Abuse', css: 'high' },
+    'Felony Healthcare Fraud': { short: 'Healthcare Fraud', css: 'high' },
+    'Felony Controlled Substance': { short: 'Drug Felony', css: 'medium' },
+    'Program-Related Crime': { short: 'Program Crime', css: 'medium' },
+    'License Revoked/Suspended': { short: 'License Action', css: 'medium' },
+    'Fraud/Kickbacks': { short: 'Fraud/Kickbacks', css: 'medium' }
+  };
+
+  function loadData(cb) {
+    if (DATA) return cb(DATA);
+    fetch('/data/malpractice_explorer.json')
+      .then(function(r) { return r.json(); })
+      .then(function(rows) { DATA = rows; cb(rows); });
+  }
+
+  function search() {
+    var query = searchInput.value.trim().toUpperCase();
+    if (query.length < 2) {
+      resultsDiv.style.display = 'none';
+      return;
+    }
+    if (!DATA) {
+      resultsDiv.style.display = 'block';
+      resultsDiv.innerHTML = '<div class="no-results" aria-busy="true">Loading data&hellip;</div>';
+    }
+    loadData(function(rows) {
+      var matches = rows.filter(function(r) {
+        return r.name.toUpperCase().indexOf(query) !== -1 && r.confidence >= 80;
+      });
+      renderResults(matches, query);
+    });
+  }
+
+  function renderResults(matches, query) {
+    resultsDiv.style.display = 'block';
+
+    if (matches.length === 0) {
+      resultsDiv.innerHTML =
+        '<div class="no-results">' +
+          '<div class="no-results__title">No results found for &ldquo;' + escHtml(query) + '&rdquo;</div>' +
+          '<p>This physician does not appear in our database of federally excluded providers. ' +
+          'This means they have <strong>not</strong> been placed on the OIG exclusion list.</p>' +
+          '<p style="margin-top:0.5rem;font-size:0.875rem;color:var(--color-text-muted);">' +
+          'Note: This database covers federal exclusions only. It does not include state medical board ' +
+          'actions, malpractice lawsuits, or other disciplinary records.</p>' +
+        '</div>';
+      return;
+    }
+
+    var html = '<div class="search-results__count" role="status">' +
+      matches.length + ' result' + (matches.length !== 1 ? 's' : '') + ' found</div>';
+
+    matches.sort(function(a, b) { return b.score - a.score; });
+
+    matches.forEach(function(r) {
+      var info = EXCLUSION_LABELS[r.exclusion] || { short: r.exclusion, css: 'medium' };
+      var card = '<div class="result-card result-card--' + info.css + '">';
+      card += '<div class="result-card__name">' + escHtml(r.name) + '</div>';
+      card += '<div class="result-card__specialty">' + escHtml(r.specialty || 'Specialty not listed') + '</div>';
+      card += '<dl class="result-card__details">';
+      card += detail('Excluded for', info.short);
+      card += detail('Exclusion date', r.excl_date);
+      card += detail('Currently registered in', r.state);
+      card += detail('Originally excluded in', r.excl_state);
+      card += '</dl>';
+      if (r.migrated === 'Yes') {
+        card += '<div class="result-card__migrated">\u26A0 This physician moved states after exclusion</div>';
+      }
+      card += '</div>';
+      html += card;
+    });
+
+    resultsDiv.innerHTML = html;
+  }
+
+  function detail(label, value) {
+    return '<dt class="result-card__detail-label">' + label + '</dt>' +
+           '<dd class="result-card__detail-value">' + escHtml(value || '\u2014') + '</dd>';
+  }
+
+  function escHtml(s) {
+    var d = document.createElement('div');
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  searchBtn.addEventListener('click', search);
+  searchInput.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') search();
+  });
+  // Debounced live search
+  var timer;
+  searchInput.addEventListener('input', function() {
+    clearTimeout(timer);
+    timer = setTimeout(function() {
+      if (searchInput.value.trim().length >= 3) search();
+    }, 400);
+  });
+})();
+</script>
+{{ end }}

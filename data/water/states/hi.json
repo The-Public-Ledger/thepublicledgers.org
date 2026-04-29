@@ -1,0 +1,53 @@
+{
+  "state": "HI",
+  "facilities": 354,
+  "water_systems": 61,
+  "total_violations": 286,
+  "health_violations": 81,
+  "total_penalties": 10997920.0,
+  "avg_penalty": 31067.57,
+  "violation_rate": 0.3531,
+  "enforcement_gap_score": 0.0252,
+  "serious_violators": 0,
+  "tri_facilities": 26,
+  "tri_releases_lbs": 27558048.0,
+  "top_counties": [
+    {
+      "fips": "15009",
+      "name": "MAUI COUNTY",
+      "facilities": 30,
+      "total_violations": 13,
+      "health_violations": 0,
+      "total_penalties": 15300.0,
+      "enforcement_gap_score": 0.287
+    },
+    {
+      "fips": "15001",
+      "name": "HAWAII",
+      "facilities": 46,
+      "total_violations": 34,
+      "health_violations": 9,
+      "total_penalties": 295400.0,
+      "enforcement_gap_score": 0.0996
+    },
+    {
+      "fips": "15007",
+      "name": "KAUAI",
+      "facilities": 31,
+      "total_violations": 10,
+      "health_violations": 0,
+      "total_penalties": 137920.0,
+      "enforcement_gap_score": 0.0592
+    },
+    {
+      "fips": "15003",
+      "name": "HONOLULU COUNTY",
+      "facilities": 161,
+      "total_violations": 41,
+      "health_violations": 0,
+      "total_penalties": 10543300.0,
+      "enforcement_gap_score": 0.0038
+    }
+  ],
+  "top_violators": []
+}

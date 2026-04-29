@@ -1,0 +1,8 @@
+{{ $label := .Get "label" }}
+{{ $value := .Get "value" }}
+{{ $flag := .Get "flag" }}
+<div class="ida-metric">
+  <span class="ida-metric__value">{{ $value }}</span>
+  <span class="ida-metric__label">{{ $label }}</span>
+  {{ with $flag }}<span class="flag-badge flag-badge--{{ . }}">{{ . | humanize }}</span>{{ end }}
+</div>

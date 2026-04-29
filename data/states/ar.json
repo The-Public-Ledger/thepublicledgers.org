@@ -1,0 +1,790 @@
+{
+  "meta": {
+    "state": "AR",
+    "state_name": "Arkansas",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 75,
+      "counties_with_data": 75,
+      "crossref_complete": true,
+      "deals_count": 1355,
+      "contributions_matched": 109
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 339000000.0,
+    "total_beneficiaries": 1355,
+    "total_donations_usd": 254546.88,
+    "matched_donors": 109,
+    "pct_beneficiaries_donating": 0.045
+  },
+  "top_findings": [
+    "109 of 1,355 subsidized companies (4.5%) made campaign donations — $254,547 total.",
+    "$6,676 in donations flowed from beneficiaries to 13 political committees. Top recipient: Gary Don Stubblefield ($2,500).",
+    "$339M in total subsidies tracked across 1,355 beneficiary companies in Arkansas."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 6676.09,
+    "num_committees_receiving": 13,
+    "top_committee_name": "Gary Don Stubblefield",
+    "top_committee_amount": 2500.0,
+    "top_committee_pct": 2.13
+  },
+  "counties": [
+    {
+      "name": "Sebastian",
+      "slug": "sebastian",
+      "score": 55.0,
+      "total_exemptions_usd": 339000000.0,
+      "cost_per_household_usd": 6536.58,
+      "total_beneficiaries": 0,
+      "num_awards": 4,
+      "fips_county": "05131"
+    },
+    {
+      "name": "Pulaski",
+      "slug": "pulaski",
+      "score": 45.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05119"
+    },
+    {
+      "name": "Arkansas",
+      "slug": "arkansas",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05001"
+    },
+    {
+      "name": "Ashley",
+      "slug": "ashley",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05003"
+    },
+    {
+      "name": "Baxter",
+      "slug": "baxter",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05005"
+    },
+    {
+      "name": "Benton",
+      "slug": "benton",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05007"
+    },
+    {
+      "name": "Boone",
+      "slug": "boone",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05009"
+    },
+    {
+      "name": "Bradley",
+      "slug": "bradley",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05011"
+    },
+    {
+      "name": "Calhoun",
+      "slug": "calhoun",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05013"
+    },
+    {
+      "name": "Carroll",
+      "slug": "carroll",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05015"
+    },
+    {
+      "name": "Chicot",
+      "slug": "chicot",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05017"
+    },
+    {
+      "name": "Clark",
+      "slug": "clark",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05019"
+    },
+    {
+      "name": "Clay",
+      "slug": "clay",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05021"
+    },
+    {
+      "name": "Cleburne",
+      "slug": "cleburne",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05023"
+    },
+    {
+      "name": "Cleveland",
+      "slug": "cleveland",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05025"
+    },
+    {
+      "name": "Columbia",
+      "slug": "columbia",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05027"
+    },
+    {
+      "name": "Conway",
+      "slug": "conway",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05029"
+    },
+    {
+      "name": "Craighead",
+      "slug": "craighead",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05031"
+    },
+    {
+      "name": "Crawford",
+      "slug": "crawford",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05033"
+    },
+    {
+      "name": "Crittenden",
+      "slug": "crittenden",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05035"
+    },
+    {
+      "name": "Cross",
+      "slug": "cross",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05037"
+    },
+    {
+      "name": "Dallas",
+      "slug": "dallas",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05039"
+    },
+    {
+      "name": "Desha",
+      "slug": "desha",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05041"
+    },
+    {
+      "name": "Drew",
+      "slug": "drew",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05043"
+    },
+    {
+      "name": "Faulkner",
+      "slug": "faulkner",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05045"
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05047"
+    },
+    {
+      "name": "Fulton",
+      "slug": "fulton",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05049"
+    },
+    {
+      "name": "Garland",
+      "slug": "garland",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05051"
+    },
+    {
+      "name": "Grant",
+      "slug": "grant",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05053"
+    },
+    {
+      "name": "Greene",
+      "slug": "greene",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05055"
+    },
+    {
+      "name": "Hempstead",
+      "slug": "hempstead",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05057"
+    },
+    {
+      "name": "Hot Spring",
+      "slug": "hot-spring",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05059"
+    },
+    {
+      "name": "Howard",
+      "slug": "howard",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05061"
+    },
+    {
+      "name": "Independence",
+      "slug": "independence",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05063"
+    },
+    {
+      "name": "Izard",
+      "slug": "izard",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05065"
+    },
+    {
+      "name": "Jackson",
+      "slug": "jackson",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05067"
+    },
+    {
+      "name": "Jefferson",
+      "slug": "jefferson",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05069"
+    },
+    {
+      "name": "Johnson",
+      "slug": "johnson",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05071"
+    },
+    {
+      "name": "Lafayette",
+      "slug": "lafayette",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05073"
+    },
+    {
+      "name": "Lawrence",
+      "slug": "lawrence",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05075"
+    },
+    {
+      "name": "Lee",
+      "slug": "lee",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05077"
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05079"
+    },
+    {
+      "name": "Little River",
+      "slug": "little-river",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05081"
+    },
+    {
+      "name": "Logan",
+      "slug": "logan",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05083"
+    },
+    {
+      "name": "Lonoke",
+      "slug": "lonoke",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05085"
+    },
+    {
+      "name": "Madison",
+      "slug": "madison",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05087"
+    },
+    {
+      "name": "Marion",
+      "slug": "marion",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05089"
+    },
+    {
+      "name": "Miller",
+      "slug": "miller",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05091"
+    },
+    {
+      "name": "Mississippi",
+      "slug": "mississippi",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05093"
+    },
+    {
+      "name": "Monroe",
+      "slug": "monroe",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05095"
+    },
+    {
+      "name": "Montgomery",
+      "slug": "montgomery",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05097"
+    },
+    {
+      "name": "Nevada",
+      "slug": "nevada",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05099"
+    },
+    {
+      "name": "Newton",
+      "slug": "newton",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05101"
+    },
+    {
+      "name": "Ouachita",
+      "slug": "ouachita",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05103"
+    },
+    {
+      "name": "Perry",
+      "slug": "perry",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05105"
+    },
+    {
+      "name": "Phillips",
+      "slug": "phillips",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05107"
+    },
+    {
+      "name": "Pike",
+      "slug": "pike",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05109"
+    },
+    {
+      "name": "Poinsett",
+      "slug": "poinsett",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05111"
+    },
+    {
+      "name": "Polk",
+      "slug": "polk",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05113"
+    },
+    {
+      "name": "Pope",
+      "slug": "pope",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05115"
+    },
+    {
+      "name": "Prairie",
+      "slug": "prairie",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05117"
+    },
+    {
+      "name": "Randolph",
+      "slug": "randolph",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05121"
+    },
+    {
+      "name": "Saline",
+      "slug": "saline",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05125"
+    },
+    {
+      "name": "Scott",
+      "slug": "scott",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05127"
+    },
+    {
+      "name": "Searcy",
+      "slug": "searcy",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05129"
+    },
+    {
+      "name": "Sevier",
+      "slug": "sevier",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05133"
+    },
+    {
+      "name": "Sharp",
+      "slug": "sharp",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05135"
+    },
+    {
+      "name": "St Francis",
+      "slug": "st-francis",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05123"
+    },
+    {
+      "name": "Stone",
+      "slug": "stone",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05137"
+    },
+    {
+      "name": "Union",
+      "slug": "union",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05139"
+    },
+    {
+      "name": "Van Buren",
+      "slug": "van-buren",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05141"
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05143"
+    },
+    {
+      "name": "White",
+      "slug": "white",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05145"
+    },
+    {
+      "name": "Woodruff",
+      "slug": "woodruff",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05147"
+    },
+    {
+      "name": "Yell",
+      "slug": "yell",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "05149"
+    }
+  ]
+}

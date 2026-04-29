@@ -1,0 +1,212 @@
+{{ define "main" }}
+{{ $national := site.Data.national.ida_summary }}
+{{ $malpractice := site.Data.malpractice.national_summary }}
+{{ $water := site.Data.deep_dives.water }}
+{{ $opioid := site.Data.deep_dives.opioid_settlement }}
+{{ $charter := site.Data.deep_dives.charter_school }}
+{{ $nursing := site.Data.deep_dives.nursing_home }}
+
+{{/* Compute live aggregates from state data */}}
+{{ $totalSubsidies := 0.0 }}
+{{ $totalDonors := 0 }}
+{{ $totalDonations := 0.0 }}
+{{ $statesWithData := 0 }}
+{{ range site.Data.states }}
+  {{ with .summary_stats }}
+    {{ if .total_exemptions_usd }}
+      {{ $totalSubsidies = add $totalSubsidies .total_exemptions_usd }}
+      {{ $statesWithData = add $statesWithData 1 }}
+    {{ end }}
+    {{ if .matched_donors }}
+      {{ $totalDonors = add $totalDonors .matched_donors }}
+    {{ end }}
+    {{ if .total_donations_usd }}
+      {{ $totalDonations = add $totalDonations .total_donations_usd }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $subsidyB := div $totalSubsidies 1000000000.0 }}
+{{ $subsidyFmt := printf "$%.0fB" $subsidyB }}
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container container--narrow">
+    <h1 id="hero-title" class="hero-title">The Public Ledgers</h1>
+    <p class="hero-lede">
+      We cross-reference government financial records — tax exemptions, campaign contributions,
+      regulatory filings, court records — to show <em>who gets what</em>, what it costs everyone else,
+      and who keeps showing up across investigations.
+    </p>
+    <p class="hero-aggregate">
+      <span class="hero-aggregate__value">10</span> active investigations ·
+      <span class="hero-aggregate__value">{{ $statesWithData }}</span> states
+    </p>
+    <div class="hero-cta-group">
+      <a href="/investigations/" class="btn--hero-primary">Explore Investigations</a>
+      <a href="/data/" class="btn--hero-secondary">Search the Data</a>
+    </div>
+  </div>
+</section>
+
+{{ partial "featured-investigations.html" . }}
+
+<section class="section" aria-labelledby="categories-title">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="categories-title" class="section-title">Four lines of inquiry</h2>
+      <p class="section-subtitle">Every investigation connects to one of these questions</p>
+    </div>
+    <div class="category-entries">
+      <a href="/ida/" class="category-entry category-entry--money">
+        <span class="category-entry__label">Public money</span>
+        <span class="category-entry__title">Where did the money go?</span>
+        <span class="category-entry__meta">
+          {{ $subsidyFmt }} in tracked subsidies · opioid settlements · charter school leases · utility rates
+          <span class="category-entry__arrow">→</span>
+        </span>
+      </a>
+      <a href="/investigations/#cat-patients" class="category-entry category-entry--patients">
+        <span class="category-entry__label">Healthcare accountability</span>
+        <span class="category-entry__title">Who's protecting patients?</span>
+        <span class="category-entry__meta">
+          {{ $malpractice.headline_stats.total_excluded_active | lang.FormatNumber 0 }} excluded physicians · {{ if $nursing }}{{ $nursing.key_stats.facility_count | lang.FormatNumber 0 }}{{ else }}14,710{{ end }} nursing homes tracked
+          <span class="category-entry__arrow">→</span>
+        </span>
+      </a>
+      <a href="/investigations/#cat-environment" class="category-entry category-entry--environment">
+        <span class="category-entry__label">Environmental justice</span>
+        <span class="category-entry__title">Pollution & Enforcement</span>
+        <span class="category-entry__meta">
+          {{ printf "%.0f" (div $water.key_stats.total_facilities 1000.0) }}K EPA-regulated facilities · {{ printf "%.1f" (div $water.key_stats.total_violations 1000000.0) }}M violations documented
+          <span class="category-entry__arrow">→</span>
+        </span>
+      </a>
+      <a href="/investigations/#cat-governing" class="category-entry category-entry--governing">
+        <span class="category-entry__label">Political finance</span>
+        <span class="category-entry__title">Governing Pays</span>
+        <span class="category-entry__meta">
+          Insider trades · dismissed charges · donor networks cross-referenced with public records
+          <span class="category-entry__arrow">→</span>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section key-numbers" aria-labelledby="numbers-title">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="numbers-title" class="section-title">What the public record shows</h2>
+    </div>
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-card__value">{{ $subsidyFmt }}</div>
+        <div class="stat-card__label">in tracked subsidies across {{ $statesWithData }} states</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">{{ $totalDonors | lang.FormatNumber 0 }}</div>
+        <div class="stat-card__label">subsidy beneficiaries matched to campaign donors</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value stat-card__value--danger">{{ $malpractice.headline_stats.total_excluded_active | lang.FormatNumber 0 }}</div>
+        <div class="stat-card__label">excluded physicians still holding active provider records</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">{{ printf "%.0f" (div $water.key_stats.total_facilities 1000.0) }}K</div>
+        <div class="stat-card__label">EPA-regulated facilities tracked for enforcement gaps</div>
+      </div>
+    </div>
+    <div class="stat-grid stat-grid--secondary">
+      <div class="stat-card">
+        <div class="stat-card__value">{{ $national.counties_with_scorecards }}</div>
+        <div class="stat-card__label">counties with full donor-subsidy scorecards</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">${{ printf "%.0f" (div $opioid.key_stats.allocation_tracked_usd 1000000000.0) }}B</div>
+        <div class="stat-card__label">in opioid settlement funds tracked across {{ $opioid.key_stats.states_tracked }} states</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">{{ if $nursing }}{{ $nursing.key_stats.facility_count | lang.FormatNumber 0 }}{{ else }}14,710{{ end }}</div>
+        <div class="stat-card__label">nursing homes tracked for quality, penalties, and political spending</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__value">{{ $charter.key_stats.school_count | lang.FormatNumber 0 }}</div>
+        <div class="stat-card__label">charter schools tracked across 47 states</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="coverage-map-title">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="coverage-map-title" class="section-title">Coverage by state</h2>
+      <p class="section-subtitle">IDA subsidy accountability analysis across all 50 states</p>
+    </div>
+    {{ partial "map-toggle.html" (dict
+      "context" .
+      "choroplethParams" (dict
+        "context" .
+        "dataSource" "ida"
+        "metric" "total_exemptions_usd"
+        "formatFn" "money"
+        "thresholds" (slice
+          (dict "min" 1000000000 "class" "high"   "label" "Over $1B")
+          (dict "min" 100000000  "class" "medium" "label" "$100M–$1B")
+          (dict "min" 0          "class" "low"    "label" "Under $100M")
+        )
+        "noDataClass" "none"
+        "noDataLabel" "No data yet"
+        "linkPattern" "/ida/states/{abbr}/"
+        "ariaLabel" "US map showing IDA subsidy totals by state"
+        "colorPrefix" "ida"
+      )
+    ) }}
+    <p class="text-center mt-8">
+      <a href="/ida/states/" class="view-all-link">Explore all states →</a>
+    </p>
+  </div>
+</section>
+
+{{ partial "community-lookup.html" . }}
+
+<section class="section how-it-works" aria-labelledby="how-title">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="how-title" class="section-title">How we work</h2>
+    </div>
+    <div class="how-it-works-grid">
+      <div class="how-it-works-item">
+        <span class="how-it-works-number" aria-hidden="true">1</span>
+        <p class="how-it-works-text">
+          We collect public financial data: tax exemptions, campaign contributions, lobbying disclosures, corporate filings, court records, and government budgets.
+        </p>
+      </div>
+      <div class="how-it-works-item">
+        <span class="how-it-works-number" aria-hidden="true">2</span>
+        <p class="how-it-works-text">
+          We cross-reference these datasets to identify patterns: who gives, who gets, and what happens to the jobs and tax revenue that were promised.
+        </p>
+      </div>
+      <div class="how-it-works-item">
+        <span class="how-it-works-number" aria-hidden="true">3</span>
+        <p class="how-it-works-text">
+          We publish findings with full methodology and source data so anyone can verify our work independently.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section support-section" aria-labelledby="support-title">
+  <div class="container">
+    <div class="support-content">
+      <h2 id="support-title" class="section-title">Support independent accountability journalism</h2>
+      <p>
+        The Public Ledgers is an independent project sustained by public interest. If this work is useful to you, consider supporting it.
+      </p>
+      <a href="/support/" class="btn btn--primary">Support the Project</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

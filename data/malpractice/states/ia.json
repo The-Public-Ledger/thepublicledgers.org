@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "state_abbr": "IA",
+    "state_name": "Iowa",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 16,
+    "physician_population": 9820,
+    "per_1000_physicians": 1.629,
+    "double_flagged": 2,
+    "industry_payments_usd": 3954.93
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 7
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 4
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 3
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 2
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 1
+    },
+    {
+      "from_state": "IN",
+      "from_name": "Indiana",
+      "count": 1
+    },
+    {
+      "from_state": "KS",
+      "from_name": "Kansas",
+      "count": 1
+    },
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "OK",
+      "to_name": "Oklahoma",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "SEO, MANGIL nan",
+      "npi": "1568474567",
+      "score": 72.2,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2013-04-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "JONES, DENNIS nan",
+      "npi": "1578670105",
+      "score": 71.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2014-11-20",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "PIPER, SCOTT J",
+      "npi": "1194712976",
+      "score": 65.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2025-09-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "MARTIN, ANGEL S",
+      "npi": "1821085531",
+      "score": 62.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2011-04-20",
+      "specialty": "SURGERY"
+    },
+    {
+      "name": "NEYMAN, GREGORY P",
+      "npi": "1245237924",
+      "score": 59.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2020-04-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "HANSEN, BRIAN J",
+      "npi": "1255345492",
+      "score": 56.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2014-06-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "KUMAR, NARINDER nan",
+      "npi": "1245205269",
+      "score": 51.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2010-04-20",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "HAUSER, RICHARD LEE",
+      "npi": "1689784399",
+      "score": 50.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2017-05-18",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "LATELLA, JOSEPH X",
+      "npi": "1073593919",
+      "score": 50.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2020-10-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "LINDAMAN, LYNN MELVIN",
+      "npi": "1477525038",
+      "score": 50.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2025-12-18",
+      "specialty": "ORTHOPEDICS"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "PIPER, SCOTT J",
+      "npi": "1194712976",
+      "total_usd": 2752.56,
+      "payment_count": 188,
+      "companies": 22
+    },
+    {
+      "name": "KUMAR, NARINDER nan",
+      "npi": "1245205269",
+      "total_usd": 1012.67,
+      "payment_count": 52,
+      "companies": 25
+    },
+    {
+      "name": "ROSENBLATT, MICHAEL M",
+      "npi": "1477543668",
+      "total_usd": 89.43,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "LINDAMAN, LYNN MELVIN",
+      "npi": "1477525038",
+      "total_usd": 59.95,
+      "payment_count": 4,
+      "companies": 3
+    },
+    {
+      "name": "MARTIN, ANGEL S",
+      "npi": "1821085531",
+      "total_usd": 25.21,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "HANSEN, BRIAN J",
+      "npi": "1255345492",
+      "total_usd": 15.11,
+      "payment_count": 1,
+      "companies": 1
+    }
+  ]
+}

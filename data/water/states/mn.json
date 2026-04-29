@@ -1,0 +1,116 @@
+{
+  "state": "MN",
+  "facilities": 2704,
+  "water_systems": 1394,
+  "total_violations": 4895,
+  "health_violations": 1852,
+  "total_penalties": 5061343.0,
+  "avg_penalty": 1871.8,
+  "violation_rate": 0.5174,
+  "enforcement_gap_score": 0.6304,
+  "serious_violators": 15,
+  "tri_facilities": 301,
+  "tri_releases_lbs": 346532196.0,
+  "top_counties": [
+    {
+      "fips": "27069",
+      "name": "KITTSON",
+      "facilities": 5,
+      "total_violations": 13,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 2.6
+    },
+    {
+      "fips": "27143",
+      "name": "SIBLEY",
+      "facilities": 7,
+      "total_violations": 28,
+      "health_violations": 57,
+      "total_penalties": 11200.0,
+      "enforcement_gap_score": 1.5385
+    },
+    {
+      "fips": "27055",
+      "name": "ALLAMAKEE",
+      "facilities": 7,
+      "total_violations": 5,
+      "health_violations": 1,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.7143
+    },
+    {
+      "fips": "27015",
+      "name": "BROWN",
+      "facilities": 8,
+      "total_violations": 6,
+      "health_violations": 11,
+      "total_penalties": 600.0,
+      "enforcement_gap_score": 0.6977
+    },
+    {
+      "fips": "27005",
+      "name": "BECKER",
+      "facilities": 21,
+      "total_violations": 13,
+      "health_violations": 41,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.619
+    },
+    {
+      "fips": "27101",
+      "name": "MURRAY",
+      "facilities": 9,
+      "total_violations": 5,
+      "health_violations": 3,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5556
+    },
+    {
+      "fips": "27031",
+      "name": "COOK",
+      "facilities": 33,
+      "total_violations": 18,
+      "health_violations": 204,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5455
+    },
+    {
+      "fips": "27065",
+      "name": "KANABEC",
+      "facilities": 8,
+      "total_violations": 5,
+      "health_violations": 0,
+      "total_penalties": 1685.0,
+      "enforcement_gap_score": 0.5163
+    },
+    {
+      "fips": "27111",
+      "name": "OTTER TAIL",
+      "facilities": 27,
+      "total_violations": 35,
+      "health_violations": 83,
+      "total_penalties": 42049.0,
+      "enforcement_gap_score": 0.5069
+    },
+    {
+      "fips": "27043",
+      "name": "FARIBAULT",
+      "facilities": 14,
+      "total_violations": 8,
+      "health_violations": 0,
+      "total_penalties": 2765.0,
+      "enforcement_gap_score": 0.4772
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "3M CHEMICAL OPERATIONS' COTTAGE GROVE FACILITY",
+      "city": "COTTAGE GROVE",
+      "county": "WASHINGTON",
+      "severity": 65.0,
+      "penalties": 3123859.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

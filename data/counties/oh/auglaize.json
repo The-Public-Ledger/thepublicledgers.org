@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Auglaize",
+    "county_slug": "auglaize",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 41.04,
+    "total_exemptions_usd": 162288165.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 10753.82,
+    "total_beneficiaries": 17,
+    "num_donor_beneficiaries": 10,
+    "donor_rate_pct": 58.82,
+    "total_donations_usd": 515295.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 214657073.98,
+    "households": 19961,
+    "bundling_clusters": 9,
+    "round_trips": 0,
+    "multi_dippers": 4,
+    "num_awards": 59
+  },
+  "benchmarks": {
+    "state_rank": 9,
+    "state_total_counties": 88,
+    "state_percentile": 90,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "34.1× the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Auglaize County ranks 9th out of 88 Ohio counties for total tax exemptions, with $162.3M in property tax breaks — 34.1× the state median. 59% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $10,754.",
+    "subsidy_context": "34.1× the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "IN",
+    "state_name": "Indiana",
+    "county": "Union",
+    "county_slug": "union",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 1.75,
+    "total_exemptions_usd": 95000.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 29.35,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 0,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 1,
+    "warn_workers_affected": 0,
+    "fips_county": "161"
+  },
+  "benchmarks": {
+    "state_rank": 74,
+    "state_total_counties": 93,
+    "state_percentile": 20,
+    "state_median_subsidy_usd": 14823050.0,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 992.64,
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Union County ranks 74th out of 93 Indiana counties for total tax exemptions, with $95K in property tax breaks — below the state median. The per-household cost of these subsidies is $29.",
+    "subsidy_context": "below the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

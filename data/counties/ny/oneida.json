@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Oneida",
+    "county_slug": "oneida",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 49.42,
+    "total_exemptions_usd": 139650685.57,
+    "net_exemptions_usd": 93094590.71,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 137,
+    "num_donor_beneficiaries": 30,
+    "donor_rate_pct": 21.9,
+    "total_donations_usd": 380772.93,
+    "jobs_promised": 58086,
+    "jobs_current": 66953,
+    "total_projects": 757,
+    "num_officials_receiving": 14,
+    "official_total_received_usd": 179400.99,
+    "num_pipelines": 30
+  },
+  "benchmarks": {
+    "state_rank": 27,
+    "state_total_counties": 104,
+    "state_percentile": 74,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "3.3× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Oneida County ranks 27th out of 104 New York counties for total tax exemptions, with $139.7M in property tax breaks — 3.3× the state median. 22% of subsidy recipients donated to local officials.",
+    "subsidy_context": "3.3× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

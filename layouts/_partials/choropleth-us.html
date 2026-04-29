@@ -1,0 +1,185 @@
+{{/*
+  Choropleth US Map — Reusable Hugo Partial
+
+  Usage:
+    {{ partial "choropleth-us.html" (dict
+      "context"      .                    (page context)
+      "dataSource"   "ida"                (one of: "ida", "malpractice", "water")
+      "metric"       "total_exemptions_usd"
+      "formatFn"     "money"              (one of: "money", "rate", "number", "pct")
+      "thresholds"   (slice
+        (dict "min" 1000000000 "class" "high"   "label" "Over $1B")
+        (dict "min" 100000000  "class" "medium" "label" "$100M–$1B")
+        (dict "min" 0          "class" "low"    "label" "Under $100M")
+      )
+      "noDataClass"  "none"
+      "noDataLabel"  "No data"
+      "linkPattern"  "/ida/states/{abbr}/"
+      "ariaLabel"    "US map showing IDA subsidy totals by state"
+      "colorPrefix"  "ida"                (CSS class prefix: choropleth__state--{prefix}-{class})
+    ) }}
+*/}}
+
+{{ $dataSource := .dataSource }}
+{{ $metric := .metric }}
+{{ $formatFn := .formatFn | default "number" }}
+{{ $thresholds := .thresholds }}
+{{ $noDataClass := .noDataClass | default "none" }}
+{{ $noDataLabel := .noDataLabel | default "No data" }}
+{{ $linkPattern := .linkPattern }}
+{{ $ariaLabel := .ariaLabel | default "US choropleth map" }}
+{{ $colorPrefix := .colorPrefix | default $dataSource }}
+
+{{/* Resolve the data source */}}
+{{ $stateData := dict }}
+{{ if eq $dataSource "ida" }}
+  {{ $stateData = site.Data.states }}
+{{ else if eq $dataSource "malpractice" }}
+  {{ $stateData = site.Data.malpractice.states }}
+{{ else if eq $dataSource "water" }}
+  {{ $stateData = site.Data.water.states }}
+{{ end }}
+
+<div class="choropleth">
+  {{/* Legend */}}
+  <div class="choropleth__legend">
+    {{ range $thresholds }}
+    <span class="choropleth__legend-item choropleth__legend-item--{{ $colorPrefix }}-{{ .class }}">{{ .label }}</span>
+    {{ end }}
+    <span class="choropleth__legend-item choropleth__legend-item--{{ $colorPrefix }}-{{ $noDataClass }}">{{ $noDataLabel }}</span>
+  </div>
+
+  {{/* SVG Map */}}
+  <svg viewBox="0 0 960 600" class="choropleth__svg" role="img" aria-label="{{ $ariaLabel }}">
+    {{ range $abbr, $data := $stateData }}
+      {{/* Extract metric value based on data source */}}
+      {{ $value := 0.0 }}
+      {{ $name := "" }}
+      {{ $hasData := false }}
+
+      {{ if eq $dataSource "ida" }}
+        {{ $name = $data.meta.state_name }}
+        {{ with index $data.summary_stats $metric }}
+          {{ $value = . }}
+          {{ $hasData = true }}
+        {{ end }}
+      {{ else if eq $dataSource "malpractice" }}
+        {{ $name = $data.meta.state_name }}
+        {{ with index $data.summary_stats $metric }}
+          {{ $value = . }}
+          {{ $hasData = true }}
+        {{ end }}
+      {{ else if eq $dataSource "water" }}
+        {{ $name = $data.meta.state_name }}
+        {{ with index $data.summary_stats $metric }}
+          {{ $value = . }}
+          {{ $hasData = true }}
+        {{ end }}
+      {{ end }}
+
+      {{/* Determine threshold tier */}}
+      {{ $tier := $noDataClass }}
+      {{ if $hasData }}
+        {{ range $thresholds }}
+          {{ if ge $value .min }}
+            {{ $tier = .class }}
+          {{ end }}
+        {{ end }}
+        {{/* Use highest matching threshold (first match wins, thresholds sorted desc) */}}
+        {{ $tier = $noDataClass }}
+        {{ range $thresholds }}
+          {{ if and (ge $value .min) (eq $tier $noDataClass) }}
+            {{ $tier = .class }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{/* Format value for tooltip */}}
+      {{ $fmtValue := "" }}
+      {{ if $hasData }}
+        {{ if eq $formatFn "money" }}
+          {{ if ge $value 1000000000.0 }}
+            {{ $fmtValue = printf "$%.1fB" (div $value 1000000000.0) }}
+          {{ else if ge $value 1000000.0 }}
+            {{ $fmtValue = printf "$%.0fM" (div $value 1000000.0) }}
+          {{ else }}
+            {{ $fmtValue = printf "$%s" (lang.FormatNumber 0 $value) }}
+          {{ end }}
+        {{ else if eq $formatFn "rate" }}
+          {{ $fmtValue = printf "%.2f per 1K" $value }}
+        {{ else if eq $formatFn "pct" }}
+          {{ $fmtValue = printf "%.1f%%" $value }}
+        {{ else }}
+          {{ $fmtValue = printf "%.0f" $value }}
+        {{ end }}
+      {{ else }}
+        {{ $fmtValue = "No data available" }}
+      {{ end }}
+
+      {{/* Build link URL */}}
+      {{ $url := replace $linkPattern "{abbr}" $abbr }}
+
+      {{/* Render the state — uses the path from choropleth-paths.html via CSS */}}
+      <a href="{{ $url }}" class="choropleth__state-link" aria-label="{{ $name }}: {{ $fmtValue }}">
+        <use href="#state-{{ $abbr }}"
+             class="choropleth__state choropleth__state--{{ $colorPrefix }}-{{ $tier }}"
+             data-state="{{ $abbr }}"
+             data-name="{{ $name }}"
+             data-value="{{ $fmtValue }}">
+          <title>{{ $name }}: {{ $fmtValue }}</title>
+        </use>
+      </a>
+    {{ end }}
+
+    {{/* Include the state path definitions */}}
+    <defs>
+      {{ partial "choropleth-paths.html" }}
+    </defs>
+  </svg>
+
+  {{/* Tooltip (populated by JS) */}}
+  <div id="choropleth-tooltip" class="choropleth__tooltip" aria-hidden="true" role="tooltip"></div>
+</div>
+
+<script>
+(function() {
+  var states = document.querySelectorAll('.choropleth__state');
+  var tooltip = document.getElementById('choropleth-tooltip');
+  if (!states.length || !tooltip) return;
+
+  function show(el) {
+    var name = el.dataset.name;
+    var value = el.dataset.value;
+    tooltip.innerHTML = '<strong>' + name + '</strong><br>' + value;
+    tooltip.classList.add('choropleth__tooltip--visible');
+  }
+
+  function position(e) {
+    var x = e.clientX + window.scrollX + 14;
+    var y = e.clientY + window.scrollY - 10;
+    if (x + 200 > window.innerWidth + window.scrollX) x = e.clientX + window.scrollX - 214;
+    tooltip.style.left = x + 'px';
+    tooltip.style.top = y + 'px';
+  }
+
+  function hide() {
+    tooltip.classList.remove('choropleth__tooltip--visible');
+  }
+
+  states.forEach(function(s) {
+    var link = s.closest('a');
+    if (link) {
+      link.addEventListener('mouseenter', function() { show(s); });
+      link.addEventListener('mousemove', position);
+      link.addEventListener('mouseleave', hide);
+      link.addEventListener('focus', function() {
+        show(s);
+        var rect = link.getBoundingClientRect();
+        tooltip.style.left = (rect.left + window.scrollX) + 'px';
+        tooltip.style.top = (rect.bottom + window.scrollY + 6) + 'px';
+      });
+      link.addEventListener('blur', hide);
+    }
+  });
+})();
+</script>

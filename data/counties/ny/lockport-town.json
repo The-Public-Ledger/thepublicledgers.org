@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Lockport (Town)",
+    "county_slug": "lockport-town",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 63.59,
+    "total_exemptions_usd": 31354404.17,
+    "net_exemptions_usd": 28425242.0,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 22,
+    "num_donor_beneficiaries": 7,
+    "donor_rate_pct": 31.82,
+    "total_donations_usd": 70664.58,
+    "jobs_promised": 4764,
+    "jobs_current": 4994,
+    "total_projects": 126,
+    "num_officials_receiving": 7,
+    "official_total_received_usd": 20767.5,
+    "num_pipelines": 8
+  },
+  "benchmarks": {
+    "state_rank": 58,
+    "state_total_counties": 104,
+    "state_percentile": 44,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Lockport (Town) County ranks 58th out of 104 New York counties for total tax exemptions, with $31.4M in property tax breaks — below the state median. 32% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

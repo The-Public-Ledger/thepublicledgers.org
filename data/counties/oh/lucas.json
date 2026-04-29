@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Lucas",
+    "county_slug": "lucas",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 18.04,
+    "total_exemptions_usd": 458140949.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 4908.61,
+    "total_beneficiaries": 66,
+    "num_donor_beneficiaries": 12,
+    "donor_rate_pct": 18.18,
+    "total_donations_usd": 152514.25,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 984151890.61,
+    "households": 200495,
+    "bundling_clusters": 58,
+    "round_trips": 2,
+    "multi_dippers": 5,
+    "num_awards": 160
+  },
+  "benchmarks": {
+    "state_rank": 5,
+    "state_total_counties": 88,
+    "state_percentile": 94,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "96.3× the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Lucas County ranks 5th out of 88 Ohio counties for total tax exemptions, with $458.1M in property tax breaks — 96.3× the state median. 18% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $4,909.",
+    "subsidy_context": "96.3× the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

@@ -1,0 +1,9 @@
+entity_name,entity_norm,entity_role,states,facility_count,sample_facility,ccn_count,fec_total,fec_contributions,fec_unique_donors,fec_years,ppp_total,ppp_forgiven,ppp_loans,ppp_borrower_examples,match_types,confidence,tier
+Palm Gardens Holdings LLC,PALM GARDENS HOLDINGS,owner_name,FL,1,Palm Gardens Nursing Home,1,27812.00,461,14,2019; 2020; 2021; 2022; 2023; 2024,490982.00,497311.61,2,PALM BEACH GARDENS TOWING CORP; SURGCENTER OF PALM BEACH GARDENS LLC,fec:containment; fec:word_overlap; ppp:word_overlap,100,HIGH
+Palm Gardens Nursing Home,PALM GARDENS NURSING HOME,facility_name,FL,1,Palm Gardens Nursing Home,1,901.00,33,3,2020; 2021; 2022,159000.00,160315.56,1,"GARDENS HOME MANAGEMENT SERVICES, LLC",fec:word_overlap; ppp:word_overlap,95,HIGH
+Consulate Health Care,CONSULATE HEALTH CARE,parent_org_name,FL,1,Palm Gardens Nursing Home,1,13044.00,284,25,2019; 2020; 2021; 2022; 2023; 2024,0.00,0.00,0,,fec:containment; fec:exact,100,HIGH
+Keystone Health Partners LP,KEYSTONE HEALTH PARTNERS,owner_name,PA,1,Keystone Care Center,1,2584.00,20,6,2019; 2020; 2023; 2024,0.00,0.00,0,,fec:containment,95,HIGH
+Golden Horizons Nursing & Rehab,GOLDEN HORIZONS NURSING REHAB,facility_name,NY,1,Golden Horizons Nursing & Rehab,1,150.00,7,2,2023; 2024,0.00,0.00,0,,fec:word_overlap,95,HIGH
+Sunrise Senior Living of Smithtown,SUNRISE SENIOR LIVING OF SMITHTOWN,facility_name,NY,1,Sunrise Senior Living of Smithtown,1,111.00,3,1,2024,0.00,0.00,0,,fec:word_overlap,95,HIGH
+Heritage Health Systems Corp,HERITAGE HEALTH SYSTEMS,parent_org_name,PA,1,Heritage Health of Lancaster,1,110.00,11,2,2019; 2024,0.00,0.00,0,,fec:containment,95,HIGH
+Keystone Care Center,KEYSTONE CARE CENTER,facility_name,PA,1,Keystone Care Center,1,100.00,1,1,2024,0.00,0.00,0,,fec:containment,95,HIGH

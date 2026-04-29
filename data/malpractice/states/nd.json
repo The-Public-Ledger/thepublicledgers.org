@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "state_abbr": "ND",
+    "state_name": "North Dakota",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 2,
+    "physician_population": 2714,
+    "per_1000_physicians": 0.737,
+    "double_flagged": 0,
+    "industry_payments_usd": 13.53
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 2
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "MN",
+      "from_name": "Minnesota",
+      "count": 1
+    }
+  ],
+  "migrants_out": [],
+  "priority_cases": [
+    {
+      "name": "NELSON, BLAIR ALLEN",
+      "npi": "1841288164",
+      "score": 62.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2023-04-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "LORENZ, KEVIN M",
+      "npi": "1861480006",
+      "score": 41.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2013-08-20",
+      "specialty": "OPHTHALMOLOGY"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "NELSON, BLAIR ALLEN",
+      "npi": "1841288164",
+      "total_usd": 13.53,
+      "payment_count": 1,
+      "companies": 1
+    }
+  ]
+}

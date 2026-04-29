@@ -1,0 +1,107 @@
+{
+  "state": "MD",
+  "facilities": 4262,
+  "water_systems": 2009,
+  "total_violations": 9511,
+  "health_violations": 1778,
+  "total_penalties": 20550394.0,
+  "avg_penalty": 4821.77,
+  "violation_rate": 0.3911,
+  "enforcement_gap_score": 0.3833,
+  "serious_violators": 23,
+  "tri_facilities": 204,
+  "tri_releases_lbs": 211521316.0,
+  "top_counties": [
+    {
+      "fips": "24001",
+      "name": "ALLEGANY",
+      "facilities": 46,
+      "total_violations": 5,
+      "health_violations": 11,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1087
+    },
+    {
+      "fips": "24013",
+      "name": "CARROLL",
+      "facilities": 74,
+      "total_violations": 24,
+      "health_violations": 19,
+      "total_penalties": 179529.0,
+      "enforcement_gap_score": 0.0947
+    },
+    {
+      "fips": "24011",
+      "name": "CAROLINE",
+      "facilities": 46,
+      "total_violations": 4,
+      "health_violations": 16,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.087
+    },
+    {
+      "fips": "24023",
+      "name": "GARRETT",
+      "facilities": 48,
+      "total_violations": 5,
+      "health_violations": 6,
+      "total_penalties": 21085.0,
+      "enforcement_gap_score": 0.0724
+    },
+    {
+      "fips": "24017",
+      "name": "CHARLES",
+      "facilities": 147,
+      "total_violations": 10,
+      "health_violations": 17,
+      "total_penalties": 7000.0,
+      "enforcement_gap_score": 0.0649
+    },
+    {
+      "fips": "24029",
+      "name": "KENT",
+      "facilities": 62,
+      "total_violations": 4,
+      "health_violations": 6,
+      "total_penalties": 547.0,
+      "enforcement_gap_score": 0.064
+    },
+    {
+      "fips": "24043",
+      "name": "WASHINGTON",
+      "facilities": 95,
+      "total_violations": 17,
+      "health_violations": 27,
+      "total_penalties": 196529.0,
+      "enforcement_gap_score": 0.0583
+    },
+    {
+      "fips": "24035",
+      "name": "QUEEN ANNE'S",
+      "facilities": 64,
+      "total_violations": 4,
+      "health_violations": 14,
+      "total_penalties": 6882.0,
+      "enforcement_gap_score": 0.0564
+    },
+    {
+      "fips": "24033",
+      "name": "PRINCE GEORGES",
+      "facilities": 161,
+      "total_violations": 16,
+      "health_violations": 12,
+      "total_penalties": 126860.0,
+      "enforcement_gap_score": 0.0556
+    },
+    {
+      "fips": "24037",
+      "name": "ST. MARY'S",
+      "facilities": 98,
+      "total_violations": 6,
+      "health_violations": 21,
+      "total_penalties": 10000.0,
+      "enforcement_gap_score": 0.0556
+    }
+  ],
+  "top_violators": []
+}

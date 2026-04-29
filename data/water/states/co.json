@@ -1,0 +1,124 @@
+{
+  "state": "CO",
+  "facilities": 5810,
+  "water_systems": 2197,
+  "total_violations": 39489,
+  "health_violations": 7848,
+  "total_penalties": 53096171.0,
+  "avg_penalty": 9138.76,
+  "violation_rate": 0.3744,
+  "enforcement_gap_score": 0.6704,
+  "serious_violators": 28,
+  "tri_facilities": 149,
+  "tri_releases_lbs": 119347012.0,
+  "top_counties": [
+    {
+      "fips": "08089",
+      "name": "OTERO",
+      "facilities": 35,
+      "total_violations": 23,
+      "health_violations": 667,
+      "total_penalties": 15702.0,
+      "enforcement_gap_score": 0.4536
+    },
+    {
+      "fips": "08021",
+      "name": "CONEJOS",
+      "facilities": 26,
+      "total_violations": 14,
+      "health_violations": 29,
+      "total_penalties": 8100.0,
+      "enforcement_gap_score": 0.4106
+    },
+    {
+      "fips": "08033",
+      "name": "DOLORES",
+      "facilities": 3,
+      "total_violations": 1,
+      "health_violations": 4,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3333
+    },
+    {
+      "fips": "08011",
+      "name": "BENT",
+      "facilities": 13,
+      "total_violations": 6,
+      "health_violations": 3,
+      "total_penalties": 6500.0,
+      "enforcement_gap_score": 0.3077
+    },
+    {
+      "fips": "08079",
+      "name": "MINERAL",
+      "facilities": 12,
+      "total_violations": 3,
+      "health_violations": 12,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.25
+    },
+    {
+      "fips": "08003",
+      "name": "ALAMOSA",
+      "facilities": 13,
+      "total_violations": 3,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2308
+    },
+    {
+      "fips": "08009",
+      "name": "BACA",
+      "facilities": 10,
+      "total_violations": 2,
+      "health_violations": 81,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2
+    },
+    {
+      "fips": "08099",
+      "name": "PROWERS",
+      "facilities": 32,
+      "total_violations": 9,
+      "health_violations": 487,
+      "total_penalties": 13000.0,
+      "enforcement_gap_score": 0.2
+    },
+    {
+      "fips": "08017",
+      "name": "CHEYENNE",
+      "facilities": 16,
+      "total_violations": 10,
+      "health_violations": 9,
+      "total_penalties": 35000.0,
+      "enforcement_gap_score": 0.1961
+    },
+    {
+      "fips": "08023",
+      "name": "COSTILLA",
+      "facilities": 17,
+      "total_violations": 3,
+      "health_violations": 4,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1765
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "RIDGWAY, TOWN OF",
+      "city": "RIDGWAY",
+      "county": "OURAY",
+      "severity": 65.0,
+      "penalties": 51041.0,
+      "qtrs_noncompliance": 12
+    },
+    {
+      "name": "MOLSON COORS USA LLC -- GOLDEN BREWERY",
+      "city": "GOLDEN",
+      "county": "JEFFERSON",
+      "severity": 60.0,
+      "penalties": 346206.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "state": "LA",
+  "facilities": 8690,
+  "water_systems": 1487,
+  "total_violations": 25571,
+  "health_violations": 17132,
+  "total_penalties": 105283764.0,
+  "avg_penalty": 12115.51,
+  "violation_rate": 0.2852,
+  "enforcement_gap_score": 0.2244,
+  "serious_violators": 137,
+  "tri_facilities": 235,
+  "tri_releases_lbs": 6605928456.0,
+  "top_counties": [
+    {
+      "fips": "22065",
+      "name": "MADISON",
+      "facilities": 16,
+      "total_violations": 14,
+      "health_violations": 28,
+      "total_penalties": 1750.0,
+      "enforcement_gap_score": 0.7887
+    },
+    {
+      "fips": "22003",
+      "name": "ALLEN",
+      "facilities": 19,
+      "total_violations": 13,
+      "health_violations": 28,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.6842
+    },
+    {
+      "fips": "22035",
+      "name": "ACADIA",
+      "facilities": 11,
+      "total_violations": 8,
+      "health_violations": 56,
+      "total_penalties": 750.0,
+      "enforcement_gap_score": 0.6809
+    },
+    {
+      "fips": "22027",
+      "name": "CLAIBORNE",
+      "facilities": 17,
+      "total_violations": 10,
+      "health_violations": 5,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.5882
+    },
+    {
+      "fips": "22107",
+      "name": "TENSAS",
+      "facilities": 14,
+      "total_violations": 8,
+      "health_violations": 0,
+      "total_penalties": 1000.0,
+      "enforcement_gap_score": 0.5333
+    },
+    {
+      "fips": "22029",
+      "name": "CONCORDIA",
+      "facilities": 20,
+      "total_violations": 12,
+      "health_violations": 414,
+      "total_penalties": 2900.0,
+      "enforcement_gap_score": 0.524
+    },
+    {
+      "fips": "22039",
+      "name": "EVANGELINE PARISH",
+      "facilities": 52,
+      "total_violations": 27,
+      "health_violations": 100,
+      "total_penalties": 2407.0,
+      "enforcement_gap_score": 0.4963
+    },
+    {
+      "fips": "22025",
+      "name": "LA SALLE",
+      "facilities": 17,
+      "total_violations": 7,
+      "health_violations": 82,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4118
+    },
+    {
+      "fips": "22083",
+      "name": "RICHLAND",
+      "facilities": 32,
+      "total_violations": 13,
+      "health_violations": 160,
+      "total_penalties": 4500.0,
+      "enforcement_gap_score": 0.3562
+    },
+    {
+      "fips": "22111",
+      "name": "UNION",
+      "facilities": 30,
+      "total_violations": 17,
+      "health_violations": 608,
+      "total_penalties": 29500.0,
+      "enforcement_gap_score": 0.2857
+    }
+  ],
+  "top_violators": []
+}

@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "state": "NJ",
+    "state_name": "New Jersey",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 21,
+      "counties_with_data": 21,
+      "crossref_complete": true,
+      "deals_count": 8684,
+      "contributions_matched": 95
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 2574917029.0,
+    "total_beneficiaries": 8684,
+    "total_donations_usd": 12524241.65,
+    "matched_donors": 95,
+    "pct_beneficiaries_donating": 0.0109
+  },
+  "top_findings": [
+    "95 of 8,684 subsidized companies (1.1%) made campaign donations — $12.5M total.",
+    "$6.0M in donations flowed from beneficiaries to 1,812 political committees. Top recipient: Prosperity First Committee, Inc. ($150,000).",
+    "$2.57B in total subsidies tracked across 8,684 beneficiary companies in New Jersey."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 5959154.0,
+    "num_committees_receiving": 1812,
+    "top_committee_name": "Prosperity First Committee, Inc.",
+    "top_committee_amount": 150000.0,
+    "top_committee_pct": 100.0
+  },
+  "counties": [
+    {
+      "name": "Hudson",
+      "slug": "hudson",
+      "score": 100.0,
+      "total_exemptions_usd": 987911323.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 29
+    },
+    {
+      "name": "Morris",
+      "slug": "morris",
+      "score": 90.1,
+      "total_exemptions_usd": 432129741.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 19
+    },
+    {
+      "name": "Bergen",
+      "slug": "bergen",
+      "score": 70.7,
+      "total_exemptions_usd": 53058568.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 9
+    },
+    {
+      "name": "Essex",
+      "slug": "essex",
+      "score": 59.5,
+      "total_exemptions_usd": 644934304.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 6
+    },
+    {
+      "name": "Camden",
+      "slug": "camden",
+      "score": 56.0,
+      "total_exemptions_usd": 242914427.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 7
+    },
+    {
+      "name": "Middlesex",
+      "slug": "middlesex",
+      "score": 52.3,
+      "total_exemptions_usd": 213804710.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 12
+    },
+    {
+      "name": "Somerset",
+      "slug": "somerset",
+      "score": 13.5,
+      "total_exemptions_usd": 163956.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 8
+    },
+    {
+      "name": "Atlantic",
+      "slug": "atlantic",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Burlington",
+      "slug": "burlington",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Cape May",
+      "slug": "cape-may",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Cumberland",
+      "slug": "cumberland",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Gloucester",
+      "slug": "gloucester",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Hunterdon",
+      "slug": "hunterdon",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Mercer",
+      "slug": "mercer",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Monmouth",
+      "slug": "monmouth",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Ocean",
+      "slug": "ocean",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Passaic",
+      "slug": "passaic",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Salem",
+      "slug": "salem",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Sussex",
+      "slug": "sussex",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Union",
+      "slug": "union",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    },
+    {
+      "name": "Warren",
+      "slug": "warren",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0
+    }
+  ]
+}

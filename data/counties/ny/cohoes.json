@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Cohoes",
+    "county_slug": "cohoes",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 66.26,
+    "total_exemptions_usd": 27563473.25,
+    "net_exemptions_usd": 13551770.84,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 19,
+    "num_donor_beneficiaries": 7,
+    "donor_rate_pct": 36.84,
+    "total_donations_usd": 12310.07,
+    "jobs_promised": 1479,
+    "jobs_current": 562,
+    "total_projects": 101,
+    "num_officials_receiving": 4,
+    "official_total_received_usd": 1125.0,
+    "num_pipelines": 5
+  },
+  "benchmarks": {
+    "state_rank": 65,
+    "state_total_counties": 104,
+    "state_percentile": 38,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Cohoes County ranks 65th out of 104 New York counties for total tax exemptions, with $27.6M in property tax breaks — below the state median. 37% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

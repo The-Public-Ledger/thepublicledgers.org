@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "state": "ME",
+    "state_name": "Maine",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 16,
+      "counties_with_data": 16,
+      "crossref_complete": true,
+      "deals_count": 2223,
+      "contributions_matched": 466
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 654702956.0,
+    "total_beneficiaries": 2223,
+    "total_donations_usd": 16450699.51,
+    "matched_donors": 466,
+    "pct_beneficiaries_donating": 0.2096
+  },
+  "top_findings": [
+    "466 of 2,223 subsidized companies (21.0%) made campaign donations — $16.5M total.",
+    "$3.1M in donations flowed from beneficiaries to 426 political committees. Top recipient: Maine Republican Party ($238,104).",
+    "$655M in total subsidies tracked across 2,223 beneficiary companies in Maine."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 3145098.09,
+    "num_committees_receiving": 426,
+    "top_committee_name": "Maine Republican Party",
+    "top_committee_amount": 238104.1,
+    "top_committee_pct": 1.97
+  },
+  "counties": [
+    {
+      "name": "Sagadahoc",
+      "slug": "sagadahoc",
+      "score": 65.0,
+      "total_exemptions_usd": 21453060.65,
+      "cost_per_household_usd": 1335.81,
+      "total_beneficiaries": 0,
+      "num_awards": 60,
+      "fips_county": "023"
+    },
+    {
+      "name": "Penobscot",
+      "slug": "penobscot",
+      "score": 57.0,
+      "total_exemptions_usd": 42440412.98,
+      "cost_per_household_usd": 666.39,
+      "total_beneficiaries": 0,
+      "num_awards": 405,
+      "fips_county": "019"
+    },
+    {
+      "name": "Cumberland",
+      "slug": "cumberland",
+      "score": 56.0,
+      "total_exemptions_usd": 82096969.76,
+      "cost_per_household_usd": 640.46,
+      "total_beneficiaries": 0,
+      "num_awards": 1020,
+      "fips_county": "005"
+    },
+    {
+      "name": "Somerset",
+      "slug": "somerset",
+      "score": 56.0,
+      "total_exemptions_usd": 13292556.96,
+      "cost_per_household_usd": 602.18,
+      "total_beneficiaries": 0,
+      "num_awards": 55,
+      "fips_county": "025"
+    },
+    {
+      "name": "Androscoggin",
+      "slug": "androscoggin",
+      "score": 55.0,
+      "total_exemptions_usd": 27284463.77,
+      "cost_per_household_usd": 595.41,
+      "total_beneficiaries": 0,
+      "num_awards": 475,
+      "fips_county": "001"
+    },
+    {
+      "name": "Piscataquis",
+      "slug": "piscataquis",
+      "score": 55.0,
+      "total_exemptions_usd": 4475786.1,
+      "cost_per_household_usd": 584.76,
+      "total_beneficiaries": 0,
+      "num_awards": 30,
+      "fips_county": "021"
+    },
+    {
+      "name": "Franklin",
+      "slug": "franklin",
+      "score": 51.0,
+      "total_exemptions_usd": 4351008.81,
+      "cost_per_household_usd": 354.43,
+      "total_beneficiaries": 0,
+      "num_awards": 50,
+      "fips_county": "007"
+    },
+    {
+      "name": "Hancock",
+      "slug": "hancock",
+      "score": 51.0,
+      "total_exemptions_usd": 9583008.46,
+      "cost_per_household_usd": 388.61,
+      "total_beneficiaries": 0,
+      "num_awards": 40,
+      "fips_county": "009"
+    },
+    {
+      "name": "Knox",
+      "slug": "knox",
+      "score": 51.0,
+      "total_exemptions_usd": 6235354.21,
+      "cost_per_household_usd": 350.69,
+      "total_beneficiaries": 0,
+      "num_awards": 90,
+      "fips_county": "013"
+    },
+    {
+      "name": "Aroostook",
+      "slug": "aroostook",
+      "score": 50.0,
+      "total_exemptions_usd": 9653696.24,
+      "cost_per_household_usd": 330.19,
+      "total_beneficiaries": 0,
+      "num_awards": 190,
+      "fips_county": "003"
+    },
+    {
+      "name": "Kennebec",
+      "slug": "kennebec",
+      "score": 50.0,
+      "total_exemptions_usd": 17490605.92,
+      "cost_per_household_usd": 327.22,
+      "total_beneficiaries": 0,
+      "num_awards": 175,
+      "fips_county": "011"
+    },
+    {
+      "name": "Oxford",
+      "slug": "oxford",
+      "score": 50.0,
+      "total_exemptions_usd": 7869590.54,
+      "cost_per_household_usd": 339.46,
+      "total_beneficiaries": 0,
+      "num_awards": 50,
+      "fips_county": "017"
+    },
+    {
+      "name": "Waldo",
+      "slug": "waldo",
+      "score": 50.0,
+      "total_exemptions_usd": 5920936.54,
+      "cost_per_household_usd": 342.98,
+      "total_beneficiaries": 0,
+      "num_awards": 50,
+      "fips_county": "027"
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
+      "score": 50.0,
+      "total_exemptions_usd": 4219304.32,
+      "cost_per_household_usd": 310.59,
+      "total_beneficiaries": 0,
+      "num_awards": 25,
+      "fips_county": "029"
+    },
+    {
+      "name": "York",
+      "slug": "york",
+      "score": 50.0,
+      "total_exemptions_usd": 28138033.32,
+      "cost_per_household_usd": 314.73,
+      "total_beneficiaries": 0,
+      "num_awards": 170,
+      "fips_county": "031"
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "score": 48.0,
+      "total_exemptions_usd": 4779036.41,
+      "cost_per_household_usd": 301.55,
+      "total_beneficiaries": 0,
+      "num_awards": 20,
+      "fips_county": "015"
+    }
+  ]
+}

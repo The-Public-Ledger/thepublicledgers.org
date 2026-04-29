@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Medina",
+    "county_slug": "medina",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 7.72,
+    "total_exemptions_usd": 6906433.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2715.48,
+    "total_beneficiaries": 25,
+    "num_donor_beneficiaries": 6,
+    "donor_rate_pct": 24.0,
+    "total_donations_usd": 47955.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 204035588.99,
+    "households": 75138,
+    "bundling_clusters": 9,
+    "round_trips": 0,
+    "multi_dippers": 3,
+    "num_awards": 51
+  },
+  "benchmarks": {
+    "state_rank": 36,
+    "state_total_counties": 88,
+    "state_percentile": 59,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Medina County ranks 36th out of 88 Ohio counties for total tax exemptions, with $6.9M in property tax breaks — above the state median. 24% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,715.",
+    "subsidy_context": "above the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

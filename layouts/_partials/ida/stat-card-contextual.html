@@ -1,0 +1,15 @@
+{{/* stat-card-contextual.html — Stat card with benchmark context + percentile gauge.
+     Params: .value, .label, .context (string), .percentile (0-100, optional), .danger (bool) */}}
+
+<div class="stat-card{{ if .danger }} stat-card--danger{{ end }}">
+  <span class="stat-card__value">{{ .value }}</span>
+  <span class="stat-card__label">{{ .label }}</span>
+  {{ with .context }}
+  <span class="stat-card__context">{{ . }}</span>
+  {{ end }}
+  {{ if and .percentile (gt .percentile 0) }}
+  <div class="stat-card__gauge" role="img" aria-label="{{ .percentile }}th percentile">
+    <div class="stat-card__gauge-fill" style="width: {{ .percentile }}%"></div>
+  </div>
+  {{ end }}
+</div>

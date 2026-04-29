@@ -1,0 +1,107 @@
+{
+  "state": "ND",
+  "facilities": 1090,
+  "water_systems": 510,
+  "total_violations": 2377,
+  "health_violations": 484,
+  "total_penalties": 20441140.0,
+  "avg_penalty": 18753.34,
+  "violation_rate": 0.3,
+  "enforcement_gap_score": 0.1104,
+  "serious_violators": 2,
+  "tri_facilities": 26,
+  "tri_releases_lbs": 13949592.0,
+  "top_counties": [
+    {
+      "fips": "38021",
+      "name": "DICKEY",
+      "facilities": 8,
+      "total_violations": 2,
+      "health_violations": 6,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.25
+    },
+    {
+      "fips": "38005",
+      "name": "BENSON",
+      "facilities": 12,
+      "total_violations": 2,
+      "health_violations": 11,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1667
+    },
+    {
+      "fips": "38049",
+      "name": "MCHENRY",
+      "facilities": 11,
+      "total_violations": 1,
+      "health_violations": 3,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0909
+    },
+    {
+      "fips": "38073",
+      "name": "RANSOM",
+      "facilities": 8,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 5000.0,
+      "enforcement_gap_score": 0.0769
+    },
+    {
+      "fips": "38061",
+      "name": "MOUNTRAIL",
+      "facilities": 15,
+      "total_violations": 1,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.0667
+    },
+    {
+      "fips": "38077",
+      "name": "RICHLAND",
+      "facilities": 30,
+      "total_violations": 2,
+      "health_violations": 1,
+      "total_penalties": 1531.0,
+      "enforcement_gap_score": 0.0634
+    },
+    {
+      "fips": "38101",
+      "name": "WARD",
+      "facilities": 47,
+      "total_violations": 3,
+      "health_violations": 1,
+      "total_penalties": 4600.0,
+      "enforcement_gap_score": 0.0581
+    },
+    {
+      "fips": "38015",
+      "name": "BURLEIGH",
+      "facilities": 29,
+      "total_violations": 2,
+      "health_violations": 2,
+      "total_penalties": 25000.0,
+      "enforcement_gap_score": 0.037
+    },
+    {
+      "fips": "38035",
+      "name": "GRAND FORKS",
+      "facilities": 27,
+      "total_violations": 1,
+      "health_violations": 5,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.037
+    },
+    {
+      "fips": "38093",
+      "name": "",
+      "facilities": 26,
+      "total_violations": 1,
+      "health_violations": 4,
+      "total_penalties": 4758.0,
+      "enforcement_gap_score": 0.0325
+    }
+  ],
+  "top_violators": []
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Utica (City)",
+    "county_slug": "utica-city",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 23.16,
+    "total_exemptions_usd": 46901246.88,
+    "net_exemptions_usd": 37599582.88,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 61,
+    "num_donor_beneficiaries": 10,
+    "donor_rate_pct": 16.39,
+    "total_donations_usd": 102924.41,
+    "jobs_promised": 10508,
+    "jobs_current": 13024,
+    "total_projects": 283,
+    "num_officials_receiving": 5,
+    "official_total_received_usd": 1165.21,
+    "num_pipelines": 6
+  },
+  "benchmarks": {
+    "state_rank": 49,
+    "state_total_counties": 104,
+    "state_percentile": 53,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "near the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Utica (City) County ranks 49th out of 104 New York counties for total tax exemptions, with $46.9M in property tax breaks — near the state median. 16% of subsidy recipients donated to local officials.",
+    "subsidy_context": "near the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

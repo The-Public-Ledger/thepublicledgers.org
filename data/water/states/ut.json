@@ -1,0 +1,116 @@
+{
+  "state": "UT",
+  "facilities": 2046,
+  "water_systems": 1219,
+  "total_violations": 29811,
+  "health_violations": 2894,
+  "total_penalties": 1015721.0,
+  "avg_penalty": 496.44,
+  "violation_rate": 0.5381,
+  "enforcement_gap_score": 9.7367,
+  "serious_violators": 7,
+  "tri_facilities": 98,
+  "tri_releases_lbs": 1016837132.0,
+  "top_counties": [
+    {
+      "fips": "49013",
+      "name": "DUCHESNE",
+      "facilities": 13,
+      "total_violations": 5,
+      "health_violations": 23,
+      "total_penalties": 340.0,
+      "enforcement_gap_score": 0.3748
+    },
+    {
+      "fips": "49027",
+      "name": "MILLARD",
+      "facilities": 14,
+      "total_violations": 4,
+      "health_violations": 36,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2857
+    },
+    {
+      "fips": "49029",
+      "name": "MORGAN",
+      "facilities": 14,
+      "total_violations": 5,
+      "health_violations": 16,
+      "total_penalties": 10875.0,
+      "enforcement_gap_score": 0.201
+    },
+    {
+      "fips": "49019",
+      "name": "SAN JUAN",
+      "facilities": 16,
+      "total_violations": 4,
+      "health_violations": 12,
+      "total_penalties": 4745.0,
+      "enforcement_gap_score": 0.1928
+    },
+    {
+      "fips": "49051",
+      "name": "WASATCH",
+      "facilities": 36,
+      "total_violations": 7,
+      "health_violations": 35,
+      "total_penalties": 4065.0,
+      "enforcement_gap_score": 0.1747
+    },
+    {
+      "fips": "49005",
+      "name": "",
+      "facilities": 44,
+      "total_violations": 9,
+      "health_violations": 31,
+      "total_penalties": 8199.0,
+      "enforcement_gap_score": 0.1724
+    },
+    {
+      "fips": "49015",
+      "name": "EMERY",
+      "facilities": 11,
+      "total_violations": 6,
+      "health_violations": 2,
+      "total_penalties": 24812.0,
+      "enforcement_gap_score": 0.1675
+    },
+    {
+      "fips": "49025",
+      "name": "KANE",
+      "facilities": 13,
+      "total_violations": 2,
+      "health_violations": 28,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1538
+    },
+    {
+      "fips": "49053",
+      "name": "",
+      "facilities": 44,
+      "total_violations": 15,
+      "health_violations": 52,
+      "total_penalties": 54392.0,
+      "enforcement_gap_score": 0.1525
+    },
+    {
+      "fips": "49033",
+      "name": "RICH",
+      "facilities": 7,
+      "total_violations": 1,
+      "health_violations": 8,
+      "total_penalties": 875.0,
+      "enforcement_gap_score": 0.127
+    }
+  ],
+  "top_violators": [
+    {
+      "name": "CLEAN HARBORS ARAGONITE LLC",
+      "city": "GRANTSVILLE",
+      "county": "TOOELE",
+      "severity": 70.0,
+      "penalties": 400564.0,
+      "qtrs_noncompliance": 12
+    }
+  ]
+}

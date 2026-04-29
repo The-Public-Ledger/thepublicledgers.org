@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Adams",
+    "county_slug": "adams",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 0.0,
+    "total_exemptions_usd": 0.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 2623.56,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 0,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 33361206.68,
+    "households": 12716,
+    "bundling_clusters": 0,
+    "round_trips": 0,
+    "multi_dippers": 0,
+    "num_awards": 0
+  },
+  "benchmarks": {
+    "state_rank": 87,
+    "state_total_counties": 88,
+    "state_percentile": 1,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "no subsidy data",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "The per-household cost of these subsidies is $2,624.",
+    "subsidy_context": "no subsidy data",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

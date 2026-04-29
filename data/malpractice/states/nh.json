@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "state_abbr": "NH",
+    "state_name": "New Hampshire",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 8,
+    "physician_population": 6171,
+    "per_1000_physicians": 1.296,
+    "double_flagged": 1,
+    "industry_payments_usd": 697.39
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 5
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 2
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 1
+    }
+  ],
+  "migrants_in": [],
+  "migrants_out": [
+    {
+      "to_state": "PA",
+      "to_name": "Pennsylvania",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "MACDONALD, HUGH V",
+      "npi": "1235247313",
+      "score": 59.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2020-06-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "SOUCY, ROBERT G",
+      "npi": "1609857747",
+      "score": 59.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2026-04-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "DUYMAZLAR, HASAN nan",
+      "npi": "1902876659",
+      "score": 50.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2014-11-20",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
+      "name": "VIDAVER, ROBERT CLYDE",
+      "npi": "1932253358",
+      "score": 47.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2022-05-19",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "KRESSIN, NANCY nan",
+      "npi": "1700956513",
+      "score": 44.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2019-11-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "TAYTAWAT, PONGPEERA nan",
+      "npi": "1215224449",
+      "score": 41.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2016-04-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "WEINREB, MARK DAVID",
+      "npi": "1740296961",
+      "score": 41.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2013-08-20",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "MAZUR, LAWRENCE ALBERT",
+      "npi": "1023196136",
+      "score": 32.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2011-04-20",
+      "specialty": "PSYCHIATRY"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "SOUCY, ROBERT G",
+      "npi": "1609857747",
+      "total_usd": 547.39,
+      "payment_count": 15,
+      "companies": 7
+    },
+    {
+      "name": "MACDONALD, HUGH V",
+      "npi": "1235247313",
+      "total_usd": 150.0,
+      "payment_count": 1,
+      "companies": 1
+    }
+  ]
+}

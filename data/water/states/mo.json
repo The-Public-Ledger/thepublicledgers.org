@@ -1,0 +1,107 @@
+{
+  "state": "MO",
+  "facilities": 8640,
+  "water_systems": 2977,
+  "total_violations": 28543,
+  "health_violations": 5008,
+  "total_penalties": 11132029.0,
+  "avg_penalty": 1288.43,
+  "violation_rate": 0.2971,
+  "enforcement_gap_score": 1.4436,
+  "serious_violators": 12,
+  "tri_facilities": 486,
+  "tri_releases_lbs": 741502548.0,
+  "top_counties": [
+    {
+      "fips": "29133",
+      "name": "MISSISSIPPI",
+      "facilities": 10,
+      "total_violations": 4,
+      "health_violations": 4,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.4
+    },
+    {
+      "fips": "29003",
+      "name": "ANDREW",
+      "facilities": 27,
+      "total_violations": 10,
+      "health_violations": 0,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.3704
+    },
+    {
+      "fips": "29053",
+      "name": "COOPER",
+      "facilities": 23,
+      "total_violations": 6,
+      "health_violations": 26,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2609
+    },
+    {
+      "fips": "29147",
+      "name": "NODAWAY",
+      "facilities": 46,
+      "total_violations": 12,
+      "health_violations": 11,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.2609
+    },
+    {
+      "fips": "29159",
+      "name": "",
+      "facilities": 65,
+      "total_violations": 12,
+      "health_violations": 9,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1846
+    },
+    {
+      "fips": "29207",
+      "name": "STODDARD",
+      "facilities": 44,
+      "total_violations": 8,
+      "health_violations": 17,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1818
+    },
+    {
+      "fips": "29027",
+      "name": "CALLAWAY",
+      "facilities": 99,
+      "total_violations": 19,
+      "health_violations": 4,
+      "total_penalties": 9052.0,
+      "enforcement_gap_score": 0.1758
+    },
+    {
+      "fips": "29227",
+      "name": "WORTH",
+      "facilities": 6,
+      "total_violations": 1,
+      "health_violations": 6,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1667
+    },
+    {
+      "fips": "29197",
+      "name": "SCHUYLER",
+      "facilities": 6,
+      "total_violations": 1,
+      "health_violations": 3,
+      "total_penalties": 0.0,
+      "enforcement_gap_score": 0.1667
+    },
+    {
+      "fips": "29069",
+      "name": "DUNKLIN",
+      "facilities": 26,
+      "total_violations": 5,
+      "health_violations": 11,
+      "total_penalties": 4750.0,
+      "enforcement_gap_score": 0.1626
+    }
+  ],
+  "top_violators": []
+}

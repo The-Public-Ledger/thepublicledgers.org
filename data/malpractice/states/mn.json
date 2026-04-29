@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "state_abbr": "MN",
+    "state_name": "Minnesota",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 8,
+    "physician_population": 23773,
+    "per_1000_physicians": 0.337,
+    "double_flagged": 0,
+    "industry_payments_usd": 270.74
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 5
+    },
+    {
+      "code": "1128b5",
+      "label": "Federal/State Program Exclusion",
+      "count": 1
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 1
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 1
+    },
+    {
+      "from_state": "AL",
+      "from_name": "Alabama",
+      "count": 1
+    },
+    {
+      "from_state": "IL",
+      "from_name": "Illinois",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 3
+    },
+    {
+      "to_state": "IL",
+      "to_name": "Illinois",
+      "count": 2
+    },
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 2
+    },
+    {
+      "to_state": "MI",
+      "to_name": "Michigan",
+      "count": 2
+    },
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
+      "count": 1
+    },
+    {
+      "to_state": "NV",
+      "to_name": "Nevada",
+      "count": 1
+    },
+    {
+      "to_state": "ND",
+      "to_name": "North Dakota",
+      "count": 1
+    },
+    {
+      "to_state": "NC",
+      "to_name": "North Carolina",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "EAKES, MARK WENDELL",
+      "npi": "1043508922",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-11-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "POLUKHIN, ELENA L",
+      "npi": "1336187814",
+      "score": 65.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2017-07-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "MEANY, GAVIN PATRICK",
+      "npi": "1962723825",
+      "score": 62.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2021-11-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "WASEMILLER, JAMES P",
+      "npi": "1619995420",
+      "score": 56.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2013-01-20",
+      "specialty": "SURGERY"
+    },
+    {
+      "name": "BEALL, JOHN A",
+      "npi": "1053373753",
+      "score": 41.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2008-12-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "COOK, RENEE nan",
+      "npi": "1598985517",
+      "score": 41.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2015-02-19",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "EVERETT, SPAULDING F",
+      "npi": "1023169257",
+      "score": 41.0,
+      "exclusion_label": "Federal/State Program Exclusion",
+      "exclusion_date": "2017-07-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "STRAUGHAN, CAROL J",
+      "npi": "1649285495",
+      "score": 41.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2010-04-20",
+      "specialty": "GENERAL PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "MEANY, GAVIN PATRICK",
+      "npi": "1962723825",
+      "total_usd": 160.02,
+      "payment_count": 12,
+      "companies": 4
+    },
+    {
+      "name": "POLUKHIN, ELENA L",
+      "npi": "1336187814",
+      "total_usd": 99.34,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "EAKES, MARK WENDELL",
+      "npi": "1043508922",
+      "total_usd": 11.38,
+      "payment_count": 1,
+      "companies": 1
+    }
+  ]
+}

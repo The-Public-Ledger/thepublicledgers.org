@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Riverhead",
+    "county_slug": "riverhead",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 52.28,
+    "total_exemptions_usd": 45800715.96,
+    "net_exemptions_usd": 31369194.38,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 43,
+    "num_donor_beneficiaries": 14,
+    "donor_rate_pct": 32.56,
+    "total_donations_usd": 119641.84,
+    "jobs_promised": 14172,
+    "jobs_current": 17923,
+    "total_projects": 252,
+    "num_officials_receiving": 13,
+    "official_total_received_usd": 33457.66,
+    "num_pipelines": 20
+  },
+  "benchmarks": {
+    "state_rank": 50,
+    "state_total_counties": 104,
+    "state_percentile": 52,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "near the state median",
+    "donor_context": "above average"
+  },
+  "narrative": {
+    "summary": "Riverhead County ranks 50th out of 104 New York counties for total tax exemptions, with $45.8M in property tax breaks — near the state median. 33% of subsidy recipients donated to local officials.",
+    "subsidy_context": "near the state median",
+    "donor_context": "above average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

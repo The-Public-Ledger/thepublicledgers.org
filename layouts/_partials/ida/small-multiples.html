@@ -1,0 +1,51 @@
+{{/* small-multiples.html — Grid of mini county cards for state dashboard.
+     Receives: . = state data object (must have .counties array and .meta) */}}
+
+{{ $counties := .counties | default slice }}
+{{ $abbr := .meta.state | lower }}
+{{ $total := len $counties }}
+
+{{ if gt $total 0 }}
+<section class="small-multiples-section">
+  <h2>County Overview</h2>
+  <p class="small-multiples__subtitle">{{ $total }} counties ranked by subsidy total.
+    Click any county for full details.</p>
+
+  <div class="small-multiples" role="list" aria-label="County comparison grid">
+    {{ range first 24 $counties }}
+    <a href="/ida/counties/{{ $abbr }}/{{ .slug }}/"
+       class="sm-card" role="listitem"
+       aria-label="{{ .name }}: ${{ div .total_exemptions_usd 1000000.0 | printf `%.1f` }}M">
+      <span class="sm-card__name">{{ .name }}</span>
+      <span class="sm-card__value">${{ div .total_exemptions_usd 1000000.0 | printf "%.1f" }}M</span>
+      {{ if gt .score 0 }}
+      <div class="sm-card__gauge">
+        <div class="sm-card__gauge-fill" style="width: {{ if gt .score 5.0 }}100{{ else }}{{ mul (div .score 5.0) 100 | printf "%.0f" }}{{ end }}%"></div>
+      </div>
+      {{ end }}
+    </a>
+    {{ end }}
+  </div>
+
+  {{ if gt $total 24 }}
+  <details class="small-multiples__expand">
+    <summary>Show all {{ $total }} counties</summary>
+    <div class="small-multiples" role="list">
+      {{ range after 24 $counties }}
+      <a href="/ida/counties/{{ $abbr }}/{{ .slug }}/"
+         class="sm-card" role="listitem"
+         aria-label="{{ .name }}: ${{ div .total_exemptions_usd 1000000.0 | printf `%.1f` }}M">
+        <span class="sm-card__name">{{ .name }}</span>
+        <span class="sm-card__value">${{ div .total_exemptions_usd 1000000.0 | printf "%.1f" }}M</span>
+        {{ if gt .score 0 }}
+        <div class="sm-card__gauge">
+          <div class="sm-card__gauge-fill" style="width: {{ if gt .score 5.0 }}100{{ else }}{{ mul (div .score 5.0) 100 | printf "%.0f" }}{{ end }}%"></div>
+        </div>
+        {{ end }}
+      </a>
+      {{ end }}
+    </div>
+  </details>
+  {{ end }}
+</section>
+{{ end }}

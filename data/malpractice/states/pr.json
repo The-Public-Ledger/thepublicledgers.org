@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "state_abbr": "PR",
+    "state_name": "Puerto Rico",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 50,
+    "physician_population": 12488,
+    "per_1000_physicians": 4.004,
+    "double_flagged": 1,
+    "industry_payments_usd": 12293.43
+  },
+  "exclusion_types": [
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 22
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 18
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 5
+    },
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 2
+    },
+    {
+      "code": "1128b1",
+      "label": "Misdemeanor Fraud",
+      "count": 1
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 1
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 8
+    },
+    {
+      "from_state": "CT",
+      "from_name": "Connecticut",
+      "count": 1
+    },
+    {
+      "from_state": "NV",
+      "from_name": "Nevada",
+      "count": 1
+    },
+    {
+      "from_state": "TN",
+      "from_name": "Tennessee",
+      "count": 1
+    },
+    {
+      "from_state": "VA",
+      "from_name": "Virginia",
+      "count": 1
+    },
+    {
+      "from_state": "GA",
+      "from_name": "Georgia",
+      "count": 1
+    }
+  ],
+  "migrants_out": [],
+  "priority_cases": [
+    {
+      "name": "REYES, HARRY O",
+      "npi": "1245266105",
+      "score": 82.8,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2015-08-20",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
+      "name": "DE JESUS, JORGE R",
+      "npi": "1194721431",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-03-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "MADRID GUZMAN, ALFONSO ALBERTO",
+      "npi": "1225188766",
+      "score": 69.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2016-07-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "MELENDEZ ORTIZ, FELIX nan",
+      "npi": "1356404909",
+      "score": 69.2,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2023-08-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "TIRADO, GUILLERMO J",
+      "npi": "1629087473",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2019-09-19",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "CASTILLO, MARCIAL nan",
+      "npi": "1124170048",
+      "score": 66.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2012-11-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "FAURA CLAVELL, LUIS ENRIQUE",
+      "npi": "1649317298",
+      "score": 66.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2015-08-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "CASTRO CRUZ, JULIO nan",
+      "npi": "1720285810",
+      "score": 66.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2014-03-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "PACHECO, RAYSA R",
+      "npi": "1518912682",
+      "score": 66.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2013-06-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "VALLEJO, GLADYS nan",
+      "npi": "1598844581",
+      "score": 66.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2012-09-20",
+      "specialty": "GENERAL PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "MUNIZ MOLINERO, CARLOS A",
+      "npi": "1194871277",
+      "total_usd": 4430.21,
+      "payment_count": 128,
+      "companies": 14
+    },
+    {
+      "name": "COTTO, HECTOR L",
+      "npi": "1750363834",
+      "total_usd": 2597.35,
+      "payment_count": 37,
+      "companies": 9
+    },
+    {
+      "name": "MELENDEZ ORTIZ, FELIX nan",
+      "npi": "1356404909",
+      "total_usd": 1845.49,
+      "payment_count": 52,
+      "companies": 9
+    },
+    {
+      "name": "CUBANO, CESAR M",
+      "npi": "1972685758",
+      "total_usd": 1050.75,
+      "payment_count": 31,
+      "companies": 6
+    },
+    {
+      "name": "MADRID GUZMAN, ALFONSO ALBERTO",
+      "npi": "1225188766",
+      "total_usd": 492.79,
+      "payment_count": 6,
+      "companies": 3
+    },
+    {
+      "name": "HERNANDEZ RAMIREZ, AARON A",
+      "npi": "1366433187",
+      "total_usd": 444.12,
+      "payment_count": 11,
+      "companies": 8
+    },
+    {
+      "name": "ALVAREZ, MARIO nan",
+      "npi": "1083630016",
+      "total_usd": 331.91,
+      "payment_count": 4,
+      "companies": 3
+    },
+    {
+      "name": "DE JESUS, JORGE R",
+      "npi": "1194721431",
+      "total_usd": 300.48,
+      "payment_count": 5,
+      "companies": 3
+    },
+    {
+      "name": "RIVERA, MIGUEL ANGEL",
+      "npi": "1144324690",
+      "total_usd": 187.99,
+      "payment_count": 9,
+      "companies": 1
+    },
+    {
+      "name": "SANTIAGO, LUIS ANTONIO",
+      "npi": "1699746933",
+      "total_usd": 143.2,
+      "payment_count": 4,
+      "companies": 2
+    }
+  ]
+}

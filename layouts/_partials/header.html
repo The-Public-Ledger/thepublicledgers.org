@@ -1,0 +1,49 @@
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <div class="site-branding">
+      <a href="/" class="site-title" aria-label="{{ .Site.Title }} - Home">
+        The Public Ledgers
+      </a>
+    </div>
+
+    <nav class="nav-desktop" aria-label="Main navigation">
+      <ul role="list">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        {{ if eq .Identifier "investigations" }}
+        <li class="nav-item nav-item--has-submenu">
+          <a href="{{ .URL }}"{{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page"{{ end }} aria-haspopup="true">
+            {{ .Name }}<span class="nav-chevron" aria-hidden="true">&#9662;</span>
+          </a>
+          <ul class="nav-submenu" role="list" aria-label="Investigations categories">
+            <li><a href="/investigations/#cat-money"><span class="nav-submenu__dot nav-submenu__dot--money"></span>Where did the money go?</a></li>
+            <li><a href="/investigations/#cat-patients"><span class="nav-submenu__dot nav-submenu__dot--patients"></span>Who's protecting patients?</a></li>
+            <li><a href="/investigations/#cat-environment"><span class="nav-submenu__dot nav-submenu__dot--environment"></span>Pollution &amp; Enforcement</a></li>
+            <li><a href="/investigations/#cat-governing"><span class="nav-submenu__dot nav-submenu__dot--governing"></span>Governing Pays</a></li>
+          </ul>
+        </li>
+        {{ else }}
+        <li class="nav-item">
+          <a href="{{ .URL }}"{{ if $currentPage.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+        {{ end }}
+      </ul>
+    </nav>
+
+    <button
+      type="button"
+      class="nav-toggle"
+      id="nav-toggle"
+      aria-expanded="false"
+      aria-controls="nav-mobile"
+      aria-label="Open menu"
+    >
+      <svg class="nav-toggle-icon" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  </div>
+</header>

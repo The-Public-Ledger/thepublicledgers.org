@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "state": "DC",
+    "state_name": "Washington DC",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "DC OCF",
+      "Good Jobs First",
+      "FEC",
+      "PPP",
+      "EPA ECHO",
+      "SEC EDGAR",
+      "ICIJ"
+    ],
+    "coverage": {
+      "counties_total": 1,
+      "counties_with_data": 0,
+      "crossref_complete": true,
+      "deals_count": 400,
+      "contributions_matched": 20
+    },
+    "coverage_status": "partial"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 29425054.0,
+    "total_beneficiaries": 400,
+    "matched_donors": 20,
+    "pct_beneficiaries_donating": 0.05,
+    "total_donations_usd": 124691.54
+  },
+  "top_findings": [
+    "20 of 400 subsidized companies (5.0%) made campaign donations — $124,692 total.",
+    "$75,082 in donations flowed from beneficiaries to 6 political committees. Top recipient: Opportunity DC IEC ($40,000).",
+    "$29M in total subsidies tracked across 400 beneficiary companies in Washington DC."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 75081.63,
+    "num_committees_receiving": 6,
+    "top_committee_name": "Opportunity DC IEC",
+    "top_committee_amount": 40000.0,
+    "top_committee_pct": 2.56
+  }
+}

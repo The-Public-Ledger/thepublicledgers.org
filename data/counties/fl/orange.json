@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "FL",
+    "state_name": "Florida",
+    "county": "Orange",
+    "county_slug": "orange",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 4.4,
+    "total_exemptions_usd": 2066212836.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 3656.31,
+    "total_beneficiaries": 163,
+    "num_donor_beneficiaries": 45,
+    "donor_rate_pct": 27.61,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 191,
+    "warn_workers_affected": 0,
+    "warn_notices": 0
+  },
+  "benchmarks": {
+    "state_rank": 2,
+    "state_total_counties": 78,
+    "state_percentile": 97,
+    "state_median_subsidy_usd": 8033000.0,
+    "state_median_donor_rate": 28.09,
+    "state_median_cost_per_hh": 96.46,
+    "subsidy_context": "257.2× the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Orange County ranks 2nd out of 78 Florida counties for total tax exemptions, with $2.1B in property tax breaks — 257.2× the state median. 28% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $3,656.",
+    "subsidy_context": "257.2× the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

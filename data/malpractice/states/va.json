@@ -1,0 +1,294 @@
+{
+  "meta": {
+    "state_abbr": "VA",
+    "state_name": "Virginia",
+    "last_updated": "2026-04-26"
+  },
+  "summary_stats": {
+    "excluded_count": 69,
+    "physician_population": 30607,
+    "per_1000_physicians": 2.254,
+    "double_flagged": 16,
+    "industry_payments_usd": 60477.02
+  },
+  "exclusion_types": [
+    {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 31
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 21
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 11
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 3
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 2
+    },
+    {
+      "code": "1128b5",
+      "label": "Federal/State Program Exclusion",
+      "count": 1
+    }
+  ],
+  "migrants_in": [
+    {
+      "from_state": "WV",
+      "from_name": "West Virginia",
+      "count": 5
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 3
+    },
+    {
+      "from_state": "MD",
+      "from_name": "Maryland",
+      "count": 3
+    },
+    {
+      "from_state": "DC",
+      "from_name": "District of Columbia",
+      "count": 2
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 2
+    },
+    {
+      "from_state": "NC",
+      "from_name": "North Carolina",
+      "count": 2
+    },
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 2
+    },
+    {
+      "from_state": "OH",
+      "from_name": "Ohio",
+      "count": 1
+    },
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 1
+    },
+    {
+      "from_state": "GA",
+      "from_name": "Georgia",
+      "count": 1
+    }
+  ],
+  "migrants_out": [
+    {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 2
+    },
+    {
+      "to_state": "WV",
+      "to_name": "West Virginia",
+      "count": 1
+    },
+    {
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 1
+    },
+    {
+      "to_state": "MA",
+      "to_name": "Massachusetts",
+      "count": 1
+    },
+    {
+      "to_state": "MD",
+      "to_name": "Maryland",
+      "count": 1
+    },
+    {
+      "to_state": "OH",
+      "to_name": "Ohio",
+      "count": 1
+    },
+    {
+      "to_state": "NC",
+      "to_name": "North Carolina",
+      "count": 1
+    },
+    {
+      "to_state": "PR",
+      "to_name": "Puerto Rico",
+      "count": 1
+    }
+  ],
+  "priority_cases": [
+    {
+      "name": "YATES, JONATHAN DAVID",
+      "npi": "1073557047",
+      "score": 77.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2021-08-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "CLANTON, SAMUEL THOMAS",
+      "npi": "1992148100",
+      "score": 75.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2025-01-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "BALL, KIRSTEN VAN STEENBERG",
+      "npi": "1427240605",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-08-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "DIXON, DUANE E",
+      "npi": "1114918752",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-10-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "MONTILLA, LINO CUETO",
+      "npi": "1831248731",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-01-20",
+      "specialty": "GYN/OBS"
+    },
+    {
+      "name": "SMITHERS, JOEL ADAMS",
+      "npi": "1659639631",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2026-04-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "RALEY, THOMAS J",
+      "npi": "1518967207",
+      "score": 73.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2023-12-20",
+      "specialty": "ORTHOPEDICS"
+    },
+    {
+      "name": "BAJWA, GURPREET S",
+      "npi": "1861486672",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-11-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "LEWIS, VERNA M",
+      "npi": "1144334970",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2022-12-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "ALLINGHAM, DAVID GEOFFREY",
+      "npi": "1538229497",
+      "score": 70.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2026-01-20",
+      "specialty": "FAMILY PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "GAGLIONE, JIMDAVID nan",
+      "npi": "1487629796",
+      "total_usd": 24152.92,
+      "payment_count": 2,
+      "companies": 2
+    },
+    {
+      "name": "SAMUELS, GARFIELD HUE",
+      "npi": "1083654669",
+      "total_usd": 12415.73,
+      "payment_count": 703,
+      "companies": 45
+    },
+    {
+      "name": "RALEY, THOMAS J",
+      "npi": "1518967207",
+      "total_usd": 5274.2,
+      "payment_count": 75,
+      "companies": 12
+    },
+    {
+      "name": "LAPIDES, DAVID A",
+      "npi": "1255774311",
+      "total_usd": 2342.51,
+      "payment_count": 7,
+      "companies": 3
+    },
+    {
+      "name": "DIXON, DUANE E",
+      "npi": "1114918752",
+      "total_usd": 2290.12,
+      "payment_count": 76,
+      "companies": 21
+    },
+    {
+      "name": "AHMAD, ISHTIAQ nan",
+      "npi": "1326008384",
+      "total_usd": 2134.03,
+      "payment_count": 54,
+      "companies": 15
+    },
+    {
+      "name": "HARRIS, WILLIAM OVERTON",
+      "npi": "1952397630",
+      "total_usd": 1368.3,
+      "payment_count": 58,
+      "companies": 21
+    },
+    {
+      "name": "MONTILLA, LINO CUETO",
+      "npi": "1831248731",
+      "total_usd": 1243.8,
+      "payment_count": 65,
+      "companies": 27
+    },
+    {
+      "name": "ROSEN, LEONARD ASHER",
+      "npi": "1417006842",
+      "total_usd": 1181.19,
+      "payment_count": 32,
+      "companies": 11
+    },
+    {
+      "name": "MARSHALL, CHRISTOPHER GEORGE",
+      "npi": "1982670360",
+      "total_usd": 1163.49,
+      "payment_count": 87,
+      "companies": 19
+    }
+  ]
+}

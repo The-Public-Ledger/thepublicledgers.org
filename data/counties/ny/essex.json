@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "state": "NY",
+    "state_name": "New York",
+    "county": "Essex",
+    "county_slug": "essex",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 49.9,
+    "total_exemptions_usd": 15410660.96,
+    "net_exemptions_usd": 14773482.08,
+    "cost_per_household_usd": 0.0,
+    "total_beneficiaries": 16,
+    "num_donor_beneficiaries": 3,
+    "donor_rate_pct": 18.75,
+    "total_donations_usd": 9000.0,
+    "jobs_promised": 2388,
+    "jobs_current": 6189,
+    "total_projects": 94,
+    "num_officials_receiving": 3,
+    "official_total_received_usd": 10565.0,
+    "num_pipelines": 3
+  },
+  "benchmarks": {
+    "state_rank": 73,
+    "state_total_counties": 104,
+    "state_percentile": 30,
+    "state_median_subsidy_usd": 42448554.03,
+    "state_median_donor_rate": 23.3,
+    "state_median_cost_per_hh": 0.0,
+    "subsidy_context": "below the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Essex County ranks 73rd out of 104 New York counties for total tax exemptions, with $15.4M in property tax breaks — below the state median. 19% of subsidy recipients donated to local officials.",
+    "subsidy_context": "below the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

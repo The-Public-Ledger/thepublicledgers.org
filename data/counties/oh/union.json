@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Union",
+    "county_slug": "union",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 3.83,
+    "total_exemptions_usd": 16572567.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 3330.55,
+    "total_beneficiaries": 13,
+    "num_donor_beneficiaries": 1,
+    "donor_rate_pct": 7.69,
+    "total_donations_usd": 190000.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 78071469.63,
+    "households": 23441,
+    "bundling_clusters": 3,
+    "round_trips": 0,
+    "multi_dippers": 0,
+    "num_awards": 34
+  },
+  "benchmarks": {
+    "state_rank": 23,
+    "state_total_counties": 88,
+    "state_percentile": 74,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "3.5× the state median",
+    "donor_context": "below average"
+  },
+  "narrative": {
+    "summary": "Union County ranks 23rd out of 88 Ohio counties for total tax exemptions, with $16.6M in property tax breaks — 3.5× the state median. 8% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $3,331.",
+    "subsidy_context": "3.5× the state median",
+    "donor_context": "below average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

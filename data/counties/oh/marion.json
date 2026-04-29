@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "state": "OH",
+    "state_name": "Ohio",
+    "county": "Marion",
+    "county_slug": "marion",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 10.27,
+    "total_exemptions_usd": 11979652.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 3060.7,
+    "total_beneficiaries": 12,
+    "num_donor_beneficiaries": 4,
+    "donor_rate_pct": 33.33,
+    "total_donations_usd": 130768.53,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "adjusted_exemptions_usd": 83878351.99,
+    "households": 27405,
+    "bundling_clusters": 2,
+    "round_trips": 6,
+    "multi_dippers": 2,
+    "num_awards": 43
+  },
+  "benchmarks": {
+    "state_rank": 27,
+    "state_total_counties": 88,
+    "state_percentile": 69,
+    "state_median_subsidy_usd": 4758209.5,
+    "state_median_donor_rate": 30.0,
+    "state_median_cost_per_hh": 2751.72,
+    "subsidy_context": "2.5× the state median",
+    "donor_context": "near average"
+  },
+  "narrative": {
+    "summary": "Marion County ranks 27th out of 88 Ohio counties for total tax exemptions, with $12.0M in property tax breaks — 2.5× the state median. 33% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $3,061.",
+    "subsidy_context": "2.5× the state median",
+    "donor_context": "near average"
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

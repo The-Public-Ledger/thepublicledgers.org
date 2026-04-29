@@ -1,0 +1,42 @@
+<div class="glance-grid" role="list" aria-label="Investigation overview">
+  <a href="/ida/states/" class="glance-item" role="listitem">
+    <span class="glance-item__value">${{ printf "%.0f" (div .totalSubsidies 1000000000.0) }}B</span>
+    <span class="glance-item__name">IDA Subsidies</span>
+    <span class="glance-item__detail">{{ .statesWithData }} states</span>
+  </a>
+  <a href="/malpractice/" class="glance-item" role="listitem">
+    <span class="glance-item__value glance-item__value--danger">{{ .malpractice.headline_stats.total_excluded_active | lang.FormatNumber 0 }}</span>
+    <span class="glance-item__name">Excluded Physicians</span>
+    <span class="glance-item__detail">52 state dashboards</span>
+  </a>
+  <a href="/deep-dives/water-environmental-justice/" class="glance-item" role="listitem">
+    <span class="glance-item__value">{{ printf "%.0f" (div .water.key_stats.total_facilities 1000.0) }}K</span>
+    <span class="glance-item__name">EPA Facilities</span>
+    <span class="glance-item__detail">{{ .water.key_stats.counties_covered | lang.FormatNumber 0 }} counties</span>
+  </a>
+  <a href="/deep-dives/opioid-settlement/" class="glance-item" role="listitem">
+    <span class="glance-item__value">${{ printf "%.0f" (div .opioid.key_stats.allocation_tracked_usd 1000000000.0) }}B</span>
+    <span class="glance-item__name">Opioid Settlements</span>
+    <span class="glance-item__detail">{{ .opioid.key_stats.states_tracked }} states tracked</span>
+  </a>
+  <a href="/deep-dives/faith/" class="glance-item" role="listitem">
+    <span class="glance-item__value">{{ .faith.key_stats.desert_counties }}</span>
+    <span class="glance-item__name">Health Service Deserts</span>
+    <span class="glance-item__detail">{{ printf "%.1f" (div .faith.key_stats.desert_residents 1000000.0) }}M residents</span>
+  </a>
+  <a href="/deep-dives/nys-power/" class="glance-item" role="listitem">
+    <span class="glance-item__value">+{{ printf "%.0f" .nys_power.key_stats.premium_pct }}%</span>
+    <span class="glance-item__name">NY Rate Premium</span>
+    <span class="glance-item__detail">${{ printf "%.0f" (div .nys_power.key_stats.lobbying_total_usd 1000000.0) }}M lobbying</span>
+  </a>
+  <a href="/deep-dives/subsidy-clawback/" class="glance-item" role="listitem">
+    <span class="glance-item__value">{{ .clawback.key_stats.companies_matched | lang.FormatNumber 0 }}</span>
+    <span class="glance-item__name">Clawback Candidates</span>
+    <span class="glance-item__detail">{{ .clawback.key_stats.workers_affected | lang.FormatNumber 0 }} workers</span>
+  </a>
+  <a href="/deep-dives/charter-school/" class="glance-item" role="listitem">
+    <span class="glance-item__value">{{ .charter.key_stats.school_count | lang.FormatNumber 0 }}</span>
+    <span class="glance-item__name">Charter Schools</span>
+    <span class="glance-item__detail">${{ printf "%.0f" (div (default 0.0 .charter.key_stats.friends_of_annual_rent_usd) 1000000.0) }}M/yr in shell flows</span>
+  </a>
+</div>

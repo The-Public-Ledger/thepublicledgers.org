@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "state": "SD",
+    "state_name": "South Dakota",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 66,
+      "counties_with_data": 29,
+      "crossref_complete": false,
+      "deals_count": 0,
+      "contributions_matched": 9
+    },
+    "coverage_status": "placeholder"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 105252063.0,
+    "total_beneficiaries": 825,
+    "matched_donors": 9,
+    "pct_beneficiaries_donating": 0.0109,
+    "total_donations_usd": 529500.0
+  },
+  "top_findings": [
+    "9 of 825 subsidized companies (1.1%) made campaign donations — $529,500 total.",
+    "$414,000 in donations flowed from beneficiaries to 3 political committees. Top recipient: Vote Yes for a Strong South Dakota ($400,000).",
+    "$105M in total subsidies tracked across 825 beneficiary companies in South Dakota."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 414000.0,
+    "num_committees_receiving": 3,
+    "top_committee_name": "Vote Yes for a Strong South Dakota",
+    "top_committee_amount": 400000.0,
+    "top_committee_pct": 100.0
+  },
+  "counties": [
+    {
+      "name": "Grant",
+      "slug": "grant",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 3,
+      "num_awards": 3,
+      "echo_penalties_usd": 29917.0,
+      "fips_county": "46051"
+    },
+    {
+      "name": "Pennington",
+      "slug": "pennington",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 12,
+      "num_awards": 12,
+      "echo_penalties_usd": 4983.0,
+      "fips_county": "46093"
+    },
+    {
+      "name": "Aurora",
+      "slug": "aurora",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46003"
+    },
+    {
+      "name": "Beadle",
+      "slug": "beadle",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46005"
+    },
+    {
+      "name": "Bon Homme",
+      "slug": "bon-homme",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 2,
+      "num_awards": 2,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46009"
+    },
+    {
+      "name": "Brookings",
+      "slug": "brookings",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 11,
+      "num_awards": 11,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46011"
+    },
+    {
+      "name": "Brown",
+      "slug": "brown",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 2,
+      "num_awards": 2,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46013"
+    },
+    {
+      "name": "Charles Mix",
+      "slug": "charles-mix",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46023"
+    },
+    {
+      "name": "Clay",
+      "slug": "clay",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 2,
+      "num_awards": 2,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46027"
+    },
+    {
+      "name": "Codington",
+      "slug": "codington",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 9,
+      "num_awards": 9,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46029"
+    },
+    {
+      "name": "Davison",
+      "slug": "davison",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 4,
+      "num_awards": 4,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46035"
+    },
+    {
+      "name": "Day",
+      "slug": "day",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 3,
+      "num_awards": 3,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46037"
+    },
+    {
+      "name": "Deuel",
+      "slug": "deuel",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46039"
+    },
+    {
+      "name": "Douglas",
+      "slug": "douglas",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46043"
+    },
+    {
+      "name": "Hughes",
+      "slug": "hughes",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 2,
+      "num_awards": 2,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46065"
+    },
+    {
+      "name": "Hutchinson",
+      "slug": "hutchinson",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46067"
+    },
+    {
+      "name": "Jerauld",
+      "slug": "jerauld",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 2,
+      "num_awards": 2,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46073"
+    },
+    {
+      "name": "Kingsbury",
+      "slug": "kingsbury",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 3,
+      "num_awards": 3,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46077"
+    },
+    {
+      "name": "Lake",
+      "slug": "lake",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 3,
+      "num_awards": 3,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46079"
+    },
+    {
+      "name": "Lawrence",
+      "slug": "lawrence",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46081"
+    },
+    {
+      "name": "Lincoln",
+      "slug": "lincoln",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 6,
+      "num_awards": 6,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46083"
+    },
+    {
+      "name": "Mcpherson",
+      "slug": "mcpherson",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46089"
+    },
+    {
+      "name": "Meade",
+      "slug": "meade",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 2,
+      "num_awards": 2,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46093"
+    },
+    {
+      "name": "Miner",
+      "slug": "miner",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46097"
+    },
+    {
+      "name": "Minnehaha",
+      "slug": "minnehaha",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 17,
+      "num_awards": 17,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46099"
+    },
+    {
+      "name": "Moody",
+      "slug": "moody",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46101"
+    },
+    {
+      "name": "Turner",
+      "slug": "turner",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 4,
+      "num_awards": 4,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46125"
+    },
+    {
+      "name": "Union",
+      "slug": "union",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 1,
+      "num_awards": 1,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46127"
+    },
+    {
+      "name": "Yankton",
+      "slug": "yankton",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 7,
+      "num_awards": 7,
+      "echo_penalties_usd": 0.0,
+      "fips_county": "46135"
+    }
+  ]
+}

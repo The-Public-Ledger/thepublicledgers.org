@@ -1,0 +1,204 @@
+<section class="section community-lookup" aria-labelledby="lookup-title">
+  <div class="container">
+    <div class="section-header">
+      <h2 id="lookup-title" class="section-title">Look up your community</h2>
+      <p class="section-subtitle">See how public money flows in your state and county</p>
+    </div>
+
+    <form class="lookup-form" onsubmit="return false;" role="search" aria-label="Community lookup">
+      <div class="lookup-form__group">
+        <label for="lookup-state">State</label>
+        <select id="lookup-state">
+          <option value="">Select a state</option>
+          {{ range $abbr, $data := site.Data.states }}
+            <option value="{{ $abbr }}">{{ $data.meta.state_name }}</option>
+          {{ end }}
+        </select>
+      </div>
+      <div class="lookup-form__group">
+        <label for="lookup-county">County</label>
+        <select id="lookup-county" disabled>
+          <option value="">Select a state first</option>
+        </select>
+      </div>
+    </form>
+
+    <div id="lookup-results" class="lookup-results" aria-live="polite"></div>
+  </div>
+</section>
+
+<script>
+(function() {
+  var stateSelect = document.getElementById('lookup-state');
+  var countySelect = document.getElementById('lookup-county');
+  var results = document.getElementById('lookup-results');
+  var cache = {};
+
+  function fmtMoney(n) {
+    n = parseFloat(n);
+    if (!n) return null;
+    if (n >= 1e9) return '$' + (n / 1e9).toFixed(1) + 'B';
+    if (n >= 1e6) return '$' + (n / 1e6).toFixed(0) + 'M';
+    if (n >= 1e3) return '$' + (n / 1e3).toFixed(0) + 'K';
+    return '$' + n.toFixed(0);
+  }
+
+  function card(investigation, value, label, url) {
+    if (!value) return '';
+    return '<a href="' + url + '" class="lookup-card">' +
+      '<div class="lookup-card__investigation">' + investigation + '</div>' +
+      '<div class="lookup-card__value">' + value + '</div>' +
+      '<div class="lookup-card__label">' + label + '</div>' +
+      '</a>';
+  }
+
+  function renderStateResults(data) {
+    var html = '<div class="lookup-summary">';
+
+    // Malpractice
+    if (data.malpractice && data.malpractice.excluded_count) {
+      html += card('Malpractice',
+        data.malpractice.excluded_count.toLocaleString(),
+        'excluded physicians (' + data.malpractice.per_1000.toFixed(1) + ' per 1K)',
+        '/malpractice/states/' + data.state + '/');
+    }
+
+    // Water
+    if (data.water && data.water.violations) {
+      html += card('Water &amp; Environment',
+        data.water.violations.toLocaleString(),
+        'EPA violations across ' + data.water.facilities.toLocaleString() + ' facilities',
+        '/deep-dives/water-environmental-justice/');
+    }
+
+    // Opioid
+    if (data.opioid && data.opioid.allocation_usd) {
+      html += card('Opioid Settlement',
+        fmtMoney(data.opioid.allocation_usd),
+        'allocated (' + fmtMoney(data.opioid.spend_usd) + ' spent)',
+        '/deep-dives/opioid-settlement/');
+    }
+
+    // IDA state level
+    if (data.ida && data.ida.subsidies_usd) {
+      html += card('Subsidies',
+        fmtMoney(data.ida.subsidies_usd),
+        data.ida.beneficiaries.toLocaleString() + ' beneficiaries tracked',
+        '/ida/states/' + data.state + '/');
+    }
+
+    html += '</div>';
+
+    if (data.counties && data.counties.length > 0) {
+      html += '<p class="lookup-hint">Select a county above for local detail.</p>';
+    }
+
+    results.innerHTML = html;
+  }
+
+  function renderCountyResults(data, county) {
+    var c = null;
+    for (var i = 0; i < data.counties.length; i++) {
+      if (data.counties[i].slug === county) {
+        c = data.counties[i];
+        break;
+      }
+    }
+    if (!c) { results.innerHTML = '<p class="lookup-empty">County data not available.</p>'; return; }
+
+    var html = '<h3 class="lookup-county-title">' + c.name + ', ' + data.state_name + '</h3>';
+    html += '<div class="lookup-summary">';
+
+    // County IDA data
+    if (c.subsidies_usd) {
+      html += card('Subsidies',
+        fmtMoney(c.subsidies_usd),
+        c.projects + ' projects, ' + c.donor_rate_pct.toFixed(0) + '% donor rate',
+        '/ida/counties/' + data.state + '/' + c.slug + '/');
+    }
+
+    // State-level malpractice (no county breakdown)
+    if (data.malpractice && data.malpractice.excluded_count) {
+      html += card('Malpractice',
+        data.malpractice.excluded_count.toLocaleString(),
+        'excluded physicians statewide (' + data.malpractice.per_1000.toFixed(1) + '/1K)',
+        '/malpractice/states/' + data.state + '/');
+    }
+
+    // Water (state level)
+    if (data.water && data.water.violations) {
+      html += card('Water &amp; Environment',
+        data.water.violations.toLocaleString(),
+        'EPA violations statewide',
+        '/deep-dives/water-environmental-justice/');
+    }
+
+    // Opioid
+    if (data.opioid && data.opioid.allocation_usd) {
+      html += card('Opioid Settlement',
+        fmtMoney(data.opioid.allocation_usd),
+        'state allocation',
+        '/deep-dives/opioid-settlement/');
+    }
+
+    html += '</div>';
+    results.innerHTML = html;
+  }
+
+  function loadState(abbr) {
+    if (cache[abbr]) {
+      onStateLoaded(cache[abbr]);
+      return;
+    }
+    fetch('/data/lookup/' + abbr + '.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        cache[abbr] = data;
+        onStateLoaded(data);
+      })
+      .catch(function() {
+        results.innerHTML = '<p class="lookup-empty">Could not load data for this state.</p>';
+      });
+  }
+
+  function onStateLoaded(data) {
+    // Populate county dropdown
+    countySelect.innerHTML = '<option value="">All ' + data.state_name + '</option>';
+    if (data.counties && data.counties.length > 0) {
+      data.counties.forEach(function(c) {
+        var opt = document.createElement('option');
+        opt.value = c.slug;
+        opt.textContent = c.name;
+        countySelect.appendChild(opt);
+      });
+      countySelect.disabled = false;
+    } else {
+      countySelect.innerHTML = '<option value="">No county data available</option>';
+      countySelect.disabled = true;
+    }
+    renderStateResults(data);
+  }
+
+  stateSelect.addEventListener('change', function() {
+    var abbr = stateSelect.value;
+    if (!abbr) {
+      countySelect.innerHTML = '<option value="">Select a state first</option>';
+      countySelect.disabled = true;
+      results.innerHTML = '';
+      return;
+    }
+    loadState(abbr);
+  });
+
+  countySelect.addEventListener('change', function() {
+    var abbr = stateSelect.value;
+    var county = countySelect.value;
+    if (!abbr || !cache[abbr]) return;
+    if (!county) {
+      renderStateResults(cache[abbr]);
+    } else {
+      renderCountyResults(cache[abbr], county);
+    }
+  });
+})();
+</script>

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "state": "VA",
+    "state_name": "Virginia",
+    "county": "Loudoun",
+    "county_slug": "loudoun",
+    "last_updated": "2026-04-17",
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "pay_to_play_score": 4.4,
+    "total_exemptions_usd": 31892276.0,
+    "net_exemptions_usd": 0.0,
+    "cost_per_household_usd": 448.33,
+    "total_beneficiaries": 0,
+    "num_donor_beneficiaries": 7,
+    "donor_rate_pct": 0.0,
+    "total_donations_usd": 0.0,
+    "jobs_promised": 0,
+    "jobs_current": 0,
+    "num_awards": 52,
+    "warn_workers_affected": 0,
+    "fips_county": "107"
+  },
+  "benchmarks": {
+    "state_rank": 5,
+    "state_total_counties": 130,
+    "state_percentile": 96,
+    "state_median_subsidy_usd": 1847832.5,
+    "state_median_donor_rate": 0.0,
+    "state_median_cost_per_hh": 114.38,
+    "subsidy_context": "17.3× the state median",
+    "donor_context": ""
+  },
+  "narrative": {
+    "summary": "Loudoun County ranks 5th out of 130 Virginia counties for total tax exemptions, with $31.9M in property tax breaks — 17.3× the state median. The per-household cost of these subsidies is $448.",
+    "subsidy_context": "17.3× the state median",
+    "donor_context": ""
+  },
+  "top_findings": [],
+  "deals": [],
+  "campaign_finance": [],
+  "timing_clusters": [],
+  "flags": {
+    "triple_dippers": [],
+    "bad_deals": [],
+    "round_trip_flows": [],
+    "bundling_clusters": []
+  }
+}

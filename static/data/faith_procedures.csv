@@ -1,0 +1,174 @@
+facility_name,opcert,ccn,city,is_religious,match_type,confidence,parent_system,denomination,is_sole_county,total_discharges,ob_discharges,csection_count,PGN008_count,FRS005_count,FRS003_count,FRS001_count,PGN008_rate_per1k,FRS005_rate_per1k,FRS003_rate_per1k,FRS001_rate_per1k
+A.O. Fox Memorial Hospital,3801000,,,False,,,,,,2525,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Adirondack Medical Center-Saranac Lake Site,1623001,,,False,,,,,,4401,416,118,0,0,0,1,0.0,0.0,0.0,0.23
+Albany Medical Center - South Clinical Campus,0101000,,,False,,,,,,71339,5166,1893,0,14,15,116,0.0,2.71,2.9,1.63
+Arnot Ogden Medical Center,0701000,,,False,,,,,,17788,2112,702,0,4,2,7,0.0,1.89,0.95,0.39
+Auburn Community Hospital,0501000,,,False,,,,,,9699,725,223,0,2,1,6,0.0,2.76,1.38,0.62
+Bellevue Hospital Center,7002001,,,False,,,,,,56391,3559,891,0,1,29,159,0.0,0.28,8.15,2.82
+Bertrand Chaffee Hospital,1427000,,,False,,,,,,1553,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Blythedale Children's Hospital,5957000,,,False,,,,,,881,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Bon Secours Community Hospital,3535001,330135,PORT JERVIS,True,EXACT,HIGH,,CATHOLIC,False,5813,3,0,0,0,0,1,0.0,0.0,0.0,0.17
+BronxCare Hospital Center,7000001,,,False,,,,,,50881,3372,1098,0,6,16,235,0.0,1.78,4.74,4.62
+Brookdale Hospital Medical Center,7001002,,,False,,,,,,40036,1622,418,0,6,2,108,0.0,3.7,1.23,2.7
+Brooklyn Hospital Center - Downtown Campus,7001003,,,False,,,,,,22735,2929,1091,0,1,6,224,0.0,0.34,2.05,9.85
+"Brooks-TLC Hospital System, Inc.",0601000,,,False,,,,,,2372,16,3,0,0,0,1,0.0,0.0,0.0,0.42
+Buffalo General Medical Center,1401014,,,False,,,,,,106526,13106,4977,0,9,30,164,0.0,0.69,2.29,1.54
+Calvary Hospital,7000011,,,False,,,,,,4993,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Canton-Potsdam Hospital,4429000,,,False,,,,,,10056,1268,441,0,0,1,34,0.0,0.0,0.79,3.38
+Carthage Area Hospital Inc,2238700,,,False,,,,,,2519,777,162,0,0,0,0,0.0,0.0,0.0,0.0
+Cayuga Medical Center at Ithaca,5401001,,,False,,,,,,11315,1570,399,0,0,0,2,0.0,0.0,0.0,0.18
+Chenango Memorial Hospital Inc,0824000,,,False,,,,,,2591,416,96,0,1,2,32,0.0,2.4,4.81,12.35
+Claxton-Hepburn Medical Center,4401000,,,False,,,,,,4242,209,90,0,0,0,1,0.0,0.0,0.0,0.24
+Clifton Springs Hospital and Clinic,3421000,,,False,,,,,,5836,15,6,0,0,0,1,0.0,0.0,0.0,0.17
+Clifton-Fine Hospital,4458701,,,False,,,,,,56,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Cobleskill Regional Hospital,,,,False,,,,,,217,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Cobleskill Regional Hospital,4720700,,,False,,,,,,638,1,0,0,0,0,0,0.0,0.0,0.0,0.0
+Cohen Children's Medical Center,7003004,,,False,,,,,,166369,20873,5788,0,19,108,798,0.0,0.91,5.17,4.8
+Columbia Memorial Hospital,1001000,,,False,,,,,,5949,0,0,0,0,2,4,0.0,0.0,0.0,0.67
+Community Memorial Hospital Inc,2625700,,,False,,,,,,1722,1,0,0,0,1,16,0.0,0.0,1000.0,9.29
+Coney Island Hospital,7001009,,,False,,,,,,27060,3126,900,0,2,17,26,0.0,0.64,5.44,0.96
+Corning Hospital,5001000,,,False,,,,,,9521,1132,331,0,6,2,6,0.0,5.3,1.77,0.63
+Crouse Hospital,3301008,,,False,,,,,,42097,7799,2706,0,2,27,219,0.0,0.26,3.46,5.2
+Cuba Memorial Hospital Inc,0226700,,,False,,,,,,77,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+David H. Koch Center For Cancer Care,,,,False,,,,,,354,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+David H. Koch Center For Cancer Care,7002020,,,False,,,,,,49007,0,0,0,0,127,565,0.0,0.0,0.0,11.53
+Delaware Valley Hospital Inc,1229700,,,False,,,,,,323,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Eastern Niagara Hospital - Lockport Division,3101000,,,False,,,,,,713,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Ellenville Regional Hospital,5526700,,,False,,,,,,190,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Ellis Hospital,4601001,,,False,,,,,,25635,3571,1187,0,0,2,45,0.0,0.0,0.56,1.76
+Elmhurst Hospital Center,7003000,,,False,,,,,,40924,5225,1420,0,2,13,118,0.0,0.38,2.49,2.88
+Erie County Medical Center,1401005,,,False,,,,,,31141,116,0,0,0,0,1,0.0,0.0,0.0,0.03
+F.F. Thompson Hospital,3429000,,,False,,,,,,11875,1563,381,0,1,2,13,0.0,0.64,1.28,1.09
+Faxton-St Lukes Healthcare St Lukes Division,3202003,,,False,,,,,,31799,2718,831,0,1,10,35,0.0,0.37,3.68,1.1
+Flushing Hospital Medical Center,7003001,,,False,,,,,,25294,5213,1772,0,1,5,43,0.0,0.19,0.96,1.7
+Garnet Health Medical Center,3523000,,,False,,,,,,41340,2261,890,0,0,2,56,0.0,0.0,0.88,1.35
+Garnet Health Medical Center - Catskills,5263000,,,False,,,,,,7141,1007,351,0,0,0,6,0.0,0.0,0.0,0.84
+Garnet Health Medical Center - Catskills - G. Hermann Site,5263700,,,False,,,,,,193,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Geneva General Hospital,3402000,,,False,,,,,,5235,2,0,0,0,0,0,0.0,0.0,0.0,0.0
+Glen Cove Hospital,2901000,,,False,,,,,,11586,9,0,0,0,2,9,0.0,0.0,222.22,0.78
+Glens Falls Hospital,5601000,,,False,,,,,,24233,2103,595,0,5,2,6,0.0,2.38,0.95,0.25
+Good Samaritan Hospital Medical Center,5154001,330286,WEST ISLIP,True,EXACT,LOW,,CATHOLIC,False,51592,5504,2550,0,1,38,247,0.0,0.18,6.9,4.79
+Good Samaritan Hospital of Suffern,4329000,330158,SUFFERN,True,EXACT,LOW,,CATHOLIC,False,34217,7198,492,0,0,1,32,0.0,0.0,0.14,0.94
+Gouverneur Hospital,4423701,,,False,,,,,,971,1,0,0,0,0,0,0.0,0.0,0.0,0.0
+Guthrie Cortland Medical Center,1101000,,,False,,,,,,8075,627,141,0,2,0,4,0.0,3.19,0.0,0.5
+Harlem Hospital Center,7002009,,,False,,,,,,20709,1572,430,0,4,9,20,0.0,2.54,5.73,0.97
+HealthAlliance Hospital Broadway Campus,5501000,,,False,,,,,,9431,262,72,0,0,1,2,0.0,0.0,3.82,0.21
+HealthAlliance Hospital Broadway Campus,5501001,,,False,,,,,,2782,102,32,0,0,0,1,0.0,0.0,0.0,0.36
+Helen Hayes Hospital,4322000,,,False,,,,,,2904,2,0,0,0,0,0,0.0,0.0,0.0,0.0
+Henry J. Carter Specialty Hospital,7002050,,,False,,,,,,915,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Highland Hospital,2701001,,,False,,,,,,34707,5407,1461,0,3,28,222,0.0,0.55,5.18,6.4
+Hospital for Special Surgery,7002012,,,False,,,,,,20334,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Huntington Hospital,5153000,,,False,,,,,,41442,4542,1539,0,7,22,105,0.0,1.54,4.84,2.53
+Interfaith Medical Center,7001046,,,False,,,,,,4,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Ira Davenport Memorial Hospital,5022000,,,False,,,,,,331,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Jacobi Medical Center,7000002,,,False,,,,,,50307,5732,1673,0,21,17,71,0.0,3.66,2.97,1.41
+Jamaica Hospital Medical Center,7003003,,,False,,,,,,32847,3621,1210,0,3,11,74,0.0,0.83,3.04,2.25
+John T Mather Memorial Hospital of Port Jefferson New York Inc,5149000,,,False,,,,,,19026,7,0,0,0,2,6,0.0,0.0,285.71,0.32
+Kenmore Mercy Hospital,1404000,330102,KENMORE,True,EXACT,MEDIUM,Catholic Health (Buffalo),CATHOLIC,False,12392,7,0,0,0,0,0,0.0,0.0,0.0,0.0
+Kings County Hospital Center,7001016,,,False,,,,,,36371,3188,764,0,7,10,89,0.0,2.2,3.14,2.45
+Lakeview Center for Mental Health and Wellness,3702000,,,False,,,,,,9722,828,258,0,5,0,76,0.0,6.04,0.0,7.82
+Lenox Hill Hospital,7002017,,,False,,,,,,61683,8210,2668,0,3,54,482,0.0,0.37,6.58,7.81
+Lewis County General Hospital,2424700,,,False,,,,,,1801,76,30,0,0,0,3,0.0,0.0,0.0,1.67
+Lincoln Medical & Mental Health Center,7000008,,,False,,,,,,36406,3549,968,0,3,12,86,0.0,0.85,3.38,2.36
+Little Falls Hospital,2129700,,,False,,,,,,1414,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Long Island Community Hospital,5123000,,,False,,,,,,18078,8,0,0,0,2,5,0.0,0.0,250.0,0.28
+Maimonides Medical Center,7001020,,,False,,,,,,67066,12278,2897,0,6,11,207,0.0,0.49,0.9,3.09
+Margaretville Hospital,1226701,,,False,,,,,,195,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Mary Imogene Bassett Hospital,3824000,,,False,,,,,,18682,1963,450,0,1,24,16,0.0,0.51,12.23,0.86
+Massena Hospital,4402000,,,False,,,,,,423,2,0,0,0,0,0,0.0,0.0,0.0,0.0
+Massena Hospital,4402001,,,False,,,,,,917,2,0,0,0,0,2,0.0,0.0,0.0,2.18
+Medina Memorial Hospital,3622700,,,False,,,,,,398,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Memorial Hosp of Wm F & Gertrude F Jones A/K/A Jones Memorial Hosp,0228000,,,False,,,,,,3766,724,244,0,1,0,7,0.0,1.38,0.0,1.86
+Mercy Hospital,2909000,330259,ROCKVILLE CENTRE,True,TOKEN,HIGH,MERCY,CATHOLIC,False,22490,2004,687,0,1,5,59,0.0,0.5,2.5,2.62
+Mercy Hospital of Buffalo,1401008,330279,BUFFALO,True,EXACT,MEDIUM,Catholic Health (Buffalo),CATHOLIC,False,34348,3519,1200,0,1,3,35,0.0,0.28,0.85,1.02
+Metropolitan Hospital Center,7002021,,,False,,,,,,16003,2285,580,0,2,8,26,0.0,0.88,3.5,1.62
+Mid-Hudson Valley Division of Westchester Medical Center,5957001,,,False,,,,,,67108,3403,1090,0,1,23,126,0.0,0.29,6.76,1.88
+Montefiore Med Center - Jack D Weiler Hosp of A Einstein College Div,7000006,,,False,,,,,,152432,9724,3072,0,9,40,383,0.0,0.93,4.11,2.51
+Montefiore Mount Vernon Hospital,5903001,,,False,,,,,,5130,11,0,0,1,1,11,0.0,90.91,90.91,2.14
+Montefiore New Rochelle Hospital,5904001,,,False,,,,,,11377,1257,362,0,1,2,85,0.0,0.8,1.59,7.47
+Montefiore Nyack,4324000,,,False,,,,,,23571,3094,774,0,3,1,63,0.0,0.97,0.32,2.67
+Mount Sinai Beth Israel,7002002,,,False,,,,,,35555,26,0,0,1,1,25,0.0,38.46,38.46,0.7
+Mount Sinai Hospital,7002024,,,False,,,,,,121879,13524,3667,0,2,35,420,0.0,0.15,2.59,3.45
+Mount Sinai Morningside,7002032,,,False,,,,,,83791,10800,3129,0,6,18,330,0.0,0.56,1.67,3.94
+Mount Sinai South Nassau,2950001,,,False,,,,,,41730,5117,1462,0,42,13,181,0.0,8.21,2.54,4.34
+Mount St. Mary's Hospital and Health Center,3121001,330188,LEWISTON,True,TOKEN,MEDIUM,Catholic Health (Buffalo),CATHOLIC,False,7671,373,120,0,0,0,5,0.0,0.0,0.0,0.65
+NYU Langone Hospital-Brooklyn,7002053,,,False,,,,,,216769,27462,7809,0,12,81,574,0.0,0.44,2.95,2.65
+NYU Langone Hospital-Long Island,2908000,,,False,,,,,,17451,2721,922,0,3,8,96,0.0,1.1,2.94,5.5
+Nassau University Medical Center,2950002,,,False,,,,,,31143,2026,602,0,5,7,115,0.0,2.47,3.46,3.69
+Nathan Littauer Hospital,1701000,,,False,,,,,,4831,628,141,0,2,1,23,0.0,3.18,1.59,4.76
+New York - Presbyterian Brooklyn Methodist Hospital,7002054,,,False,,,,,,288033,42311,13415,0,52,134,723,0.0,1.23,3.17,2.51
+New York - Presbyterian Brooklyn Methodist Hospital,7001021,,,False,,,,,,24900,3968,968,0,4,8,139,0.0,1.01,2.02,5.58
+New York - Presbyterian Hospital,5922000,,,False,,,,,,1506,177,63,0,0,0,6,0.0,0.0,0.0,3.98
+New York - Presbyterian/Queens,7003010,,,False,,,,,,56822,5283,1800,0,4,26,157,0.0,0.76,4.92,2.76
+"New York Community Hospital of Brooklyn, Inc",7001008,,,False,,,,,,8600,6,0,0,0,0,0,0.0,0.0,0.0,0.0
+New York Eye and Ear Infirmary of Mount Sinai,7002026,,,False,,,,,,554,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+NewYork-Presbyterian/Hudson Valley Hospital,5901000,,,False,,,,,,16335,1640,425,0,4,1,4,0.0,2.44,0.61,0.24
+Newark-Wayne Community Hospital,5820000,,,False,,,,,,10091,1005,204,0,0,3,9,0.0,0.0,2.99,0.89
+Niagara Falls Memorial Medical Center,3102000,,,False,,,,,,7444,585,245,0,0,1,3,0.0,0.0,1.71,0.4
+Nicholas H. Noyes Memorial Hospital,2527000,,,False,,,,,,4692,567,122,0,0,3,11,0.0,0.0,5.29,2.34
+North Central Bronx Hospital,7000024,,,False,,,,,,3906,626,162,0,7,0,5,0.0,11.18,0.0,1.28
+North Shore University Hospital,2951001,,,False,,,,,,105972,13031,4297,0,8,39,266,0.0,0.61,2.99,2.51
+Northern Dutchess Hospital,1327000,,,False,,,,,,12219,2079,670,0,1,8,15,0.0,0.48,3.85,1.23
+Northern Westchester Hospital,5920000,,,False,,,,,,21515,4101,1471,0,1,12,73,0.0,0.24,2.93,3.39
+O'Connor Hospital,1254700,,,False,,,,,,299,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Olean General Hospital,0401001,,,False,,,,,,12008,1223,376,0,10,4,11,0.0,8.18,3.27,0.92
+Oneida Health Hospital,2601001,,,False,,,,,,5300,813,265,0,0,2,19,0.0,0.0,2.46,3.58
+Our Lady of Lourdes Memorial Hospital,0301001,,,False,,,,,,18241,1526,412,0,0,2,14,0.0,0.0,1.31,0.77
+Peconic Bay Medical Center,5155000,,,False,,,,,,20414,943,326,0,0,4,46,0.0,0.0,4.24,2.25
+Phelps Hospital,5932000,,,False,,,,,,14756,1617,461,0,0,4,13,0.0,0.0,2.47,0.88
+Plainview Hospital,2952005,,,False,,,,,,16849,16,0,0,0,6,51,0.0,0.0,375.0,3.03
+Putnam Hospital,3950000,,,False,,,,,,6702,114,40,0,0,2,5,0.0,0.0,17.54,0.75
+Queens Hospital Center,7003007,,,False,,,,,,25369,3063,817,0,3,6,98,0.0,0.98,1.96,3.86
+Redacted for Confidentiality,,,,False,,,,,,10685,6655,103,806,127,417,38,121.11,19.08,62.66,3.56
+Richmond University Medical Center,7004010,,,False,,,,,,28951,5552,2074,0,5,13,91,0.0,0.9,2.34,3.14
+"River Hospital, Inc.",2221700,,,False,,,,,,269,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Rochester General Hospital,2701003,,,False,,,,,,55505,3701,978,0,1,18,87,0.0,0.27,4.86,1.57
+"Rome Memorial Hospital, Inc",3201002,,,False,,,,,,8050,1383,424,0,0,0,6,0.0,0.0,0.0,0.75
+Roswell Park Cancer Institute,1401010,,,False,,,,,,10947,0,0,0,2,21,143,0.0,0.0,0.0,13.06
+SBH Health System,7000014,,,False,,,,,,28409,1529,369,0,3,5,48,0.0,1.96,3.27,1.69
+SJRH - Dobbs Ferry Pavillion,5907001,,,False,,,,,,29359,2363,897,0,0,4,92,0.0,0.0,1.69,3.13
+Samaritan Hospital,4102002,,,False,,,,,,19384,1636,268,0,1,7,16,0.0,0.61,4.28,0.83
+Samaritan Medical Center,2201000,,,False,,,,,,16944,2766,789,0,1,1,5,0.0,0.36,0.36,0.3
+Saratoga Hospital,4501000,,,False,,,,,,21328,1729,518,0,0,1,3,0.0,0.0,0.58,0.14
+Schuyler Hospital,4823700,,,False,,,,,,601,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Sisters of Charity Hospital,1401013,330078,BUFFALO,True,EXACT,MEDIUM,Catholic Health (Buffalo),CATHOLIC,False,25436,6038,1748,0,0,5,54,0.0,0.0,0.83,2.12
+Soldiers and Sailors Memorial Hospital of Yates County,6120700,,,False,,,,,,534,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+South Shore University Hospital,5154000,,,False,,,,,,49519,5788,2015,0,8,53,586,0.0,1.38,9.16,11.83
+St Anthony Community Hospital,3529000,330205,WARWICK,True,EXACT,HIGH,,UNKNOWN_RELIGIOUS,False,4044,758,312,0,0,2,34,0.0,0.0,2.64,8.41
+St Catherine of Siena Hospital,5157003,330401,SMITHTOWN,True,EXACT,HIGH,,UNKNOWN_RELIGIOUS,False,20094,568,261,0,0,2,8,0.0,0.0,3.52,0.4
+St Elizabeth Medical Center,3202002,,,False,,,,,,8041,2,0,0,0,0,0,0.0,0.0,0.0,0.0
+St Johns Episcopal Hospital So Shore,7001024,,,False,,,,,,17198,967,243,0,0,2,30,0.0,0.0,2.07,1.74
+St Luke's Cornwall Hospital/Newburgh,3522000,,,False,,,,,,20499,2524,864,0,1,1,52,0.0,0.4,0.4,2.54
+St. Charles Hospital,5149001,330246,PORT JEFFERSON,True,NORMALIZED,HIGH,,UNKNOWN_RELIGIOUS,False,20973,2638,1227,0,0,4,59,0.0,0.0,1.52,2.81
+St. Francis Hospital & Heart Center,2953000,330182,ROSLYN,True,TOKEN,HIGH,,UNKNOWN_RELIGIOUS,False,39288,6,0,0,0,0,1,0.0,0.0,0.0,0.03
+St. James Hospital,5002001,,,False,,,,,,1834,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+St. Joseph Hospital,2952006,,,False,,,,,,12840,6,0,0,0,1,2,0.0,0.0,166.67,0.16
+St. Joseph's Hospital,0701001,,,False,,,,,,292,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+St. Joseph's Hospital Health Center,3301003,,,False,,,,,,35188,3190,995,0,3,3,21,0.0,0.94,0.94,0.6
+St. Joseph's MC-St. Vincent's Westchester Division,5907002,,,False,,,,,,11021,1,0,0,0,0,7,0.0,0.0,0.0,0.64
+St. Mary's Healthcare,2801001,330047,AMSTERDAM,True,NORMALIZED,MEDIUM,SSM Health,CATHOLIC,True,7245,739,219,0,0,0,9,0.0,0.0,0.0,1.24
+St. Peter's Addiction Recovery Center,0101004,,,False,,,,,,49308,6033,2229,0,0,13,111,0.0,0.0,2.15,2.25
+Staten Island University Hosp-North,7004003,,,False,,,,,,77134,6667,1465,0,5,29,240,0.0,0.75,4.35,3.11
+Stony Brook Eastern Long Island Hospital,5151001,,,False,,,,,,82679,9686,3569,0,5,15,178,0.0,0.52,1.55,2.15
+Stony Brook Eastern Long Island Hospital,5127000,,,False,,,,,,689,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Strong Memorial Hospital,2701005,,,False,,,,,,80020,7526,2271,0,7,21,92,0.0,0.93,2.79,1.15
+Sunnyview Hospital and Rehabilitation Center,4601004,,,False,,,,,,4251,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+The Unity Hospital of Rochester,2754001,,,False,,,,,,36262,2870,712,0,1,7,30,0.0,0.35,2.44,0.83
+The University of Vermont Health Network - Alice Hyde Medical Center,1624000,,,False,,,,,,1270,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+The University of Vermont Health Network - Champlain Valley Physicians Hospital,0901001,,,False,,,,,,16106,1314,377,0,0,2,50,0.0,0.0,1.52,3.1
+The University of Vermont Health Network - Elizabethtown Community Hospital,1552701,,,False,,,,,,1299,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+UPMC Chautauqua at WCA,0602001,,,False,,,,,,12152,1385,487,0,21,8,13,0.0,15.16,5.78,1.07
+UPSTATE University Hospital at Community General,3301007,,,False,,,,,,61324,2033,587,0,2,5,55,0.0,0.98,2.46,0.9
+United Health Services Hospitals Inc. - Binghamton General Hospital,0303001,,,False,,,,,,33651,3328,1104,0,1,8,42,0.0,0.3,2.4,1.25
+United Memorial Medical Center Bank Street Campus,1801000,,,False,,,,,,9924,940,239,0,0,2,14,0.0,0.0,2.13,1.41
+University Hospital of Brooklyn,7001037,,,False,,,,,,14454,1426,387,0,1,3,30,0.0,0.7,2.1,2.08
+Vassar Brothers Medical Center,1302001,,,False,,,,,,44843,5241,1937,0,4,15,164,0.0,0.76,2.86,3.66
+Westfield Memorial Hospital Inc,0632000,,,False,,,,,,262,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+White Plains Hospital Center,5902001,,,False,,,,,,46346,4709,1722,0,10,26,165,0.0,2.12,5.52,3.56
+Winifred Masterson Burke Rehabilitation Hospital,5902002,,,False,,,,,,5827,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+Woodhull Medical & Mental Health Center,7001045,,,False,,,,,,18559,2745,611,0,2,1,74,0.0,0.73,0.36,3.99
+Wyckoff Heights Medical Center,7001035,,,False,,,,,,23199,2303,681,0,2,5,48,0.0,0.87,2.17,2.07
+Wyoming County Community Hospital,6027000,,,False,,,,,,2540,176,52,0,0,1,5,0.0,0.0,5.68,1.97
+MASSENA HOSPITAL,4402701,,,False,,,,,,1060,3,0,0,0,0,0,0.0,0.0,0.0,0.0
+THE UNIVERSITY OF VERMONT HEALTH NETWORK - ALICE HYDE MEDICAL CENTER,1624700,,,False,,,,,,390,0,0,0,0,0,0,0.0,0.0,0.0,0.0
+WYOMING COUNTY COMMUNITY HOSPITAL,6027700,,,False,,,,,,1248,0,0,0,0,0,0,0.0,0.0,0.0,0.0

@@ -1,0 +1,21 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <nav aria-label="Footer navigation">
+      <ul class="footer-nav" role="list">
+        {{ range .Site.Menus.footer }}
+        <li>
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+
+    <p class="footer-note">
+      All findings derived from public records. Sources linked for independent verification.
+    </p>
+
+    <p class="footer-copyright">
+      &copy; {{ now.Year }} The Public Ledgers. Independent data journalism.
+    </p>
+  </div>
+</footer>

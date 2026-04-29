@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "state": "NH",
+    "state_name": "New Hampshire",
+    "last_updated": "2026-04-17",
+    "sources": [
+      "Good Jobs First"
+    ],
+    "coverage": {
+      "counties_total": 10,
+      "counties_with_data": 10,
+      "crossref_complete": true,
+      "deals_count": 1025,
+      "contributions_matched": 112
+    },
+    "coverage_status": "full"
+  },
+  "summary_stats": {
+    "total_exemptions_usd": 739758.0,
+    "total_beneficiaries": 1025,
+    "total_donations_usd": 1196019.05,
+    "matched_donors": 112,
+    "pct_beneficiaries_donating": 0.1093
+  },
+  "top_findings": [
+    "112 of 1,025 subsidized companies (10.9%) made campaign donations — $1.2M total.",
+    "$694,308 in donations flowed from beneficiaries to 46 political committees. Top recipient: New Hampshire Bankers Association State BankPAC ($232,450).",
+    "6 companies showed statistically significant pre-award donation spikes (BH-corrected, q<0.05). Top: Bedford Ambulatory Surgical Center LLC (14.4× baseline, z=27.4).",
+    "$1M in total subsidies tracked across 1,025 beneficiary companies in New Hampshire."
+  ],
+  "counsel_conflicts": [],
+  "committee_stats": {
+    "total_from_beneficiaries": 694307.87,
+    "num_committees_receiving": 46,
+    "top_committee_name": "New Hampshire Bankers Association State BankPAC",
+    "top_committee_amount": 232450.0,
+    "top_committee_pct": 28.33
+  },
+  "timeline_stats": {
+    "total_spikes": 11,
+    "bh_sig_count": 6,
+    "top_spike_name": "Bedford Ambulatory Surgical Center LLC",
+    "top_spike_z": 27.4,
+    "top_spike_ratio": 14.4,
+    "top_spike_subsidy": 0.0
+  },
+  "counties": [
+    {
+      "name": "Belknap",
+      "slug": "belknap",
+      "score": 50.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "33001"
+    },
+    {
+      "name": "Carroll",
+      "slug": "carroll",
+      "score": 50.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "33003"
+    },
+    {
+      "name": "Cheshire",
+      "slug": "cheshire",
+      "score": 50.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "33005"
+    },
+    {
+      "name": "Coos",
+      "slug": "coos",
+      "score": 50.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "33007"
+    },
+    {
+      "name": "Grafton",
+      "slug": "grafton",
+      "score": 50.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "33009"
+    },
+    {
+      "name": "Hillsborough",
+      "slug": "hillsborough",
+      "score": 50.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "33011"
+    },
+    {
+      "name": "Merrimack",
+      "slug": "merrimack",
+      "score": 50.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "33013"
+    },
+    {
+      "name": "Rockingham",
+      "slug": "rockingham",
+      "score": 50.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "33015"
+    },
+    {
+      "name": "Strafford",
+      "slug": "strafford",
+      "score": 50.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "33017"
+    },
+    {
+      "name": "Sullivan",
+      "slug": "sullivan",
+      "score": 50.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 0,
+      "fips_county": "33019"
+    }
+  ]
+}
