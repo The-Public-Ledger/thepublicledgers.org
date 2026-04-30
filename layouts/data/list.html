@@ -24,6 +24,8 @@
       <button class="data-tab"         role="tab" aria-selected="false" id="tab-entity_hub" aria-controls="tabpanel" data-tab="entity_hub" tabindex="-1">Entity Hub</button>
       <button class="data-tab"         role="tab" aria-selected="false" id="tab-lending" aria-controls="tabpanel" data-tab="lending" tabindex="-1">Lending Disparities</button>
       <button class="data-tab"         role="tab" aria-selected="false" id="tab-nih_grants" aria-controls="tabpanel" data-tab="nih_grants" tabindex="-1">NIH Grants</button>
+      <button class="data-tab"         role="tab" aria-selected="false" id="tab-ocr_states"  aria-controls="tabpanel" data-tab="ocr_states"  tabindex="-1">OCR — By State</button>
+      <button class="data-tab"         role="tab" aria-selected="false" id="tab-ocr_schools" aria-controls="tabpanel" data-tab="ocr_schools" tabindex="-1">OCR — Top Schools</button>
     </div>
 
     <!-- Tab description -->
@@ -94,7 +96,9 @@
     malpractice:  { state: '', search: '' },
     'entity_hub':   { search: '' },
     'lending':      { state: '', search: '' },
-    'nih_grants':   { state: '', search: '' }
+    'nih_grants':   { state: '', search: '' },
+    'ocr_states':   { search: '' },
+    'ocr_schools':  { search: '' }
   };
 
   var STATE_NAMES = {
@@ -281,6 +285,45 @@
         { key: 'total_amount',   label: 'Total Awards',   type: 'money' },
         { key: 'total_awards',   label: 'Grant Count',    type: 'num' },
         { key: 'fiscal_years',   label: 'Fiscal Years',   type: 'text' },
+      ]
+    },
+    'ocr_states': {
+      label: 'OCR Enforcement — By State',
+      description: 'State-level crossref: school restraint and seclusion incidence (CRDC 2021-22) vs. OCR resolution agreements (2025). Source: ED CRDC + Senate HELP Committee "Justice Denied" (April 28, 2026).',
+      csv: '/data/ocr_enforcement_states.csv',
+      json: '/data/ocr_states.json',
+      stateField: null,
+      countyField: null,
+      context: '<strong>How to read this:</strong> R&S Instances = number of times disabled students were physically restrained or placed in seclusion at school (2021-22). OCR Agreements = legally binding federal civil rights resolutions reached in 2025. States marked YES in the Zero column received no federal enforcement in 2025 despite documented R&S activity. Source: <a href="https://www2.ed.gov/about/offices/list/ocr/data.html">ED CRDC 2021-22</a> + <a href="https://www.sanders.senate.gov/wp-content/uploads/04.24.26-Justice-Denied-How-Trumps-Office-for-Civil-Rights-Reached-a-12-Year-Low-in-Protecting-Students-from-Discrimination_FINAL.pdf">Senate HELP Minority Staff Report, April 2026</a>.',
+      columns: [
+        { key: 'state',            label: 'State',           type: 'text' },
+        { key: 'region',           label: 'OCR Office',      type: 'text' },
+        { key: 'rs_instances',     label: 'R&S Instances',   type: 'num' },
+        { key: 'rs_students',      label: 'R&S Students',    type: 'num' },
+        { key: 'ocr_pending',      label: 'OCR Pending',     type: 'num' },
+        { key: 'ocr_agreements',   label: 'OCR Agreements',  type: 'num' },
+        { key: 'agreement_rate',   label: 'Rate %',          type: 'num' },
+        { key: 'zero',             label: 'Zero Flag',       type: 'text' },
+      ]
+    },
+    'ocr_schools': {
+      label: 'OCR Enforcement — Top Schools',
+      description: 'The 25 US schools with the highest documented restraint and seclusion instances against disabled students (CRDC 2021-22). These schools now operate in an enforcement void.',
+      csv: '/data/ocr_enforcement_schools.csv',
+      json: '/data/ocr_schools.json',
+      stateField: null,
+      countyField: null,
+      context: '<strong>How to read this:</strong> Per-Student = average number of restraint/seclusion incidents per affected student per year. A ratio above 5 means the same child was restrained or secluded repeatedly. Zero Flag = state received 0 OCR resolution agreements in 2025. Source: <a href="https://www2.ed.gov/about/offices/list/ocr/data.html">ED CRDC 2021-22</a>.',
+      columns: [
+        { key: 'school',         label: 'School',          type: 'text' },
+        { key: 'district',       label: 'District',        type: 'text' },
+        { key: 'state',          label: 'State',           type: 'text' },
+        { key: 'region',         label: 'OCR Office',      type: 'text' },
+        { key: 'rs_instances',   label: 'R&S Instances',   type: 'num' },
+        { key: 'rs_students',    label: 'Students',        type: 'num' },
+        { key: 'per_student',    label: 'Per-Student',     type: 'num' },
+        { key: 'prior_year',     label: '2020-21',         type: 'num' },
+        { key: 'zero',           label: 'Zero Flag',       type: 'text' },
       ]
     }
   };
