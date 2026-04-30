@@ -34,9 +34,4 @@
     <span class="glance-item__name">Clawback Candidates</span>
     <span class="glance-item__detail">{{ .clawback.key_stats.workers_affected | lang.FormatNumber 0 }} workers</span>
   </a>
-  <a href="/deep-dives/charter-school/" class="glance-item" role="listitem">
-    <span class="glance-item__value">{{ .charter.key_stats.school_count | lang.FormatNumber 0 }}</span>
-    <span class="glance-item__name">Charter Schools</span>
-    <span class="glance-item__detail">${{ printf "%.0f" (div (default 0.0 .charter.key_stats.friends_of_annual_rent_usd) 1000000.0) }}M/yr in shell flows</span>
-  </a>
-</div>
+  </div>

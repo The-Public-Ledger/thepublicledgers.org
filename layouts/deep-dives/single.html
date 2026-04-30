@@ -264,26 +264,6 @@
       ) }}
     {{ end }}
 
-    {{ if eq $slug "charter_school" }}
-      {{ partial "data-explorer.html" (dict
-        "id" "charter-explorer"
-        "title" "Explore Charter School Data"
-        "description" "Charter school lease flags and financial risk indicators."
-        "jsonUrl" "/data/charter_lease_flags.csv"
-        "csvUrl" "/data/charter_lease_flags.csv"
-        "columns" (slice
-          (dict "key" "school_name" "label" "School" "type" "text")
-          (dict "key" "state" "label" "State" "type" "text")
-          (dict "key" "flag_type" "label" "Flag" "type" "text")
-          (dict "key" "lease_amount" "label" "Lease Amount" "type" "money")
-          (dict "key" "enrollment" "label" "Enrollment" "type" "num")
-        )
-        "stateField" "state"
-        "countyField" ""
-        "context" ""
-      ) }}
-    {{ end }}
-
     {{ if eq $slug "opioid_settlement" }}
       {{ partial "data-explorer.html" (dict
         "id" "opioid-explorer"

@@ -1,139 +1,151 @@
 {
-  "generated": "2026-03-27",
-  "total_hub_entities": 107610,
-  "indexed_entities": 1502,
+  "generated": "2026-04-30",
+  "total_hub_entities": 664221,
+  "indexed_entities": 31580,
   "min_sources": 2,
-  "max_score": 13,
-  "avg_score": 3.6,
+  "max_score": 20,
+  "avg_score": 2.7,
   "entities_by_category": {
-    "money": 663,
-    "patients": 417,
-    "environment": 510,
-    "governing": 660
+    "money": 2839,
+    "patients": 1590,
+    "environment": 3277,
+    "governing": 1478
   },
   "entities_by_type": {
-    "corporate": 1243,
-    "government": 242,
-    "education": 11,
-    "foreign_gov": 6
+    "corporate": 29279,
+    "government": 1932,
+    "education": 358,
+    "foreign_gov": 11
   },
   "top_10": [
     {
       "rank": 1,
-      "name": "Amazon",
-      "score": 13,
-      "source_count": 6,
-      "category_count": 3,
+      "name": "Eaton",
+      "score": 20,
+      "source_count": 9,
+      "category_count": 4,
       "categories": [
         "Pollution & Enforcement",
         "Governing Pays",
-        "Where did the money go?"
+        "Where did the money go?",
+        "other"
       ]
     },
     {
       "rank": 2,
-      "name": "FedEx",
-      "score": 11,
-      "source_count": 5,
-      "category_count": 3,
+      "name": "Amazon.com Services LLC",
+      "score": 20,
+      "source_count": 8,
+      "category_count": 4,
       "categories": [
         "Pollution & Enforcement",
         "Governing Pays",
-        "Where did the money go?"
+        "Where did the money go?",
+        "other"
       ]
     },
     {
       "rank": 3,
-      "name": "International Paper Co.",
-      "score": 11,
-      "source_count": 5,
-      "category_count": 3,
+      "name": "FedEx",
+      "score": 19,
+      "source_count": 8,
+      "category_count": 4,
       "categories": [
         "Pollution & Enforcement",
         "Governing Pays",
-        "Where did the money go?"
+        "Where did the money go?",
+        "other"
       ]
     },
     {
       "rank": 4,
-      "name": "Tractor Supply Company",
-      "score": 11,
-      "source_count": 5,
-      "category_count": 3,
+      "name": "International Paper Company",
+      "score": 19,
+      "source_count": 8,
+      "category_count": 4,
       "categories": [
         "Pollution & Enforcement",
         "Governing Pays",
-        "Where did the money go?"
+        "Where did the money go?",
+        "other"
       ]
     },
     {
       "rank": 5,
-      "name": "Cardinal Health",
-      "score": 10,
-      "source_count": 4,
-      "category_count": 3,
+      "name": "Air Products and Chemicals, Inc.",
+      "score": 17,
+      "source_count": 7,
+      "category_count": 4,
       "categories": [
         "Pollution & Enforcement",
         "Governing Pays",
-        "Where did the money go?"
+        "Where did the money go?",
+        "other"
       ]
     },
     {
       "rank": 6,
-      "name": "Booz Allen Hamilton Inc.",
-      "score": 9,
-      "source_count": 5,
-      "category_count": 2,
+      "name": "Caterpillar",
+      "score": 17,
+      "source_count": 7,
+      "category_count": 4,
       "categories": [
+        "Pollution & Enforcement",
         "Governing Pays",
-        "Where did the money go?"
+        "Where did the money go?",
+        "other"
       ]
     },
     {
       "rank": 7,
-      "name": "Air Products and Chemicals, Inc.",
-      "score": 9,
-      "source_count": 4,
-      "category_count": 3,
+      "name": "Corning",
+      "score": 17,
+      "source_count": 7,
+      "category_count": 4,
       "categories": [
         "Pollution & Enforcement",
         "Governing Pays",
-        "Where did the money go?"
+        "Where did the money go?",
+        "other"
       ]
     },
     {
       "rank": 8,
-      "name": "Bristol-Myers Squibb Co., Inc.",
-      "score": 9,
-      "source_count": 4,
-      "category_count": 3,
+      "name": "PPG Industries",
+      "score": 17,
+      "source_count": 7,
+      "category_count": 4,
       "categories": [
         "Pollution & Enforcement",
         "Governing Pays",
-        "Where did the money go?"
+        "Where did the money go?",
+        "other"
       ]
     },
     {
       "rank": 9,
-      "name": "General Mills, Inc.",
-      "score": 9,
-      "source_count": 4,
-      "category_count": 3,
+      "name": "Parker Hannifin",
+      "score": 17,
+      "source_count": 7,
+      "category_count": 4,
       "categories": [
         "Pollution & Enforcement",
         "Governing Pays",
-        "Where did the money go?"
+        "Where did the money go?",
+        "other"
       ]
     },
     {
       "rank": 10,
-      "name": "McKesson Corporation",
-      "score": 9,
-      "source_count": 4,
-      "category_count": 2,
+      "name": "United Parcel Service",
+      "score": 17,
+      "source_count": 7,
+      "category_count": 4,
       "categories": [
+        "Pollution & Enforcement",
         "Governing Pays",
-        "Where did the money go?"
+        "Where did the money go?",
+        "other"
       ]
     }
   ],
@@ -146,7 +158,6 @@
       "ida_ny",
       "ida_oh",
       "nursing_home",
-      "charter_school",
       "faith_hospital",
       "oge_trade",
       "fara",

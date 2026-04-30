@@ -1,34 +1,34 @@
 {
-  "total_entities": 31895,
-  "multi_source_entities": 31895,
-  "three_plus": 3514,
-  "four_plus": 625,
-  "source_count": 20,
+  "total_entities": 31629,
+  "multi_source_entities": 31629,
+  "three_plus": 3497,
+  "four_plus": 624,
+  "source_count": 19,
   "sources": [
     {
       "key": "usaspending",
       "label": "Federal Contracts (USASpending)",
-      "count": 16805
+      "count": 16803
     },
     {
       "key": "dol_whd",
       "label": "Wage Violations (DOL)",
-      "count": 15256
+      "count": 15191
     },
     {
       "key": "sam_gov",
       "label": "Federal Contractors (SAM)",
-      "count": 14737
+      "count": 14558
     },
     {
       "key": "osha",
       "label": "OSHA Inspections",
-      "count": 8794
+      "count": 8790
     },
     {
       "key": "water_epa",
       "label": "EPA Facilities",
-      "count": 3305
+      "count": 3293
     },
     {
       "key": "opioid",
@@ -38,7 +38,7 @@
     {
       "key": "nih_exporter",
       "label": "NIH Grants",
-      "count": 1169
+      "count": 1168
     },
     {
       "key": "hrsa_340b",
@@ -68,7 +68,7 @@
     {
       "key": "ida_ny",
       "label": "IDA Subsidies (NY)",
-      "count": 537
+      "count": 535
     },
     {
       "key": "fara_principal",
@@ -86,11 +86,6 @@
       "count": 404
     },
     {
-      "key": "charter_school",
-      "label": "Charter Schools",
-      "count": 284
-    },
-    {
       "key": "faith_hospital",
       "label": "Religious Hospitals",
       "count": 212
@@ -103,7 +98,7 @@
     {
       "key": "opioid_vendor",
       "label": "Opioid Vendors",
-      "count": 145
+      "count": 144
     }
   ],
   "top_entities": [

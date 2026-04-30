@@ -3,7 +3,6 @@
 {{ $malpractice := site.Data.malpractice.national_summary }}
 {{ $water := site.Data.deep_dives.water }}
 {{ $opioid := site.Data.deep_dives.opioid_settlement }}
-{{ $charter := site.Data.deep_dives.charter_school }}
 {{ $nursing := site.Data.deep_dives.nursing_home }}
 
 {{/* Compute live aggregates from state data */}}
@@ -60,7 +59,7 @@
         <span class="category-entry__label">Public money</span>
         <span class="category-entry__title">Where did the money go?</span>
         <span class="category-entry__meta">
-          {{ $subsidyFmt }} in tracked subsidies · opioid settlements · charter school leases · utility rates
+          {{ $subsidyFmt }} in tracked subsidies · opioid settlements · utility rates
           <span class="category-entry__arrow">→</span>
         </span>
       </a>
@@ -127,10 +126,6 @@
       <div class="stat-card">
         <div class="stat-card__value">{{ if $nursing }}{{ $nursing.key_stats.facility_count | lang.FormatNumber 0 }}{{ else }}14,710{{ end }}</div>
         <div class="stat-card__label">nursing homes tracked for quality, penalties, and political spending</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-card__value">{{ $charter.key_stats.school_count | lang.FormatNumber 0 }}</div>
-        <div class="stat-card__label">charter schools tracked across 47 states</div>
       </div>
     </div>
   </div>
