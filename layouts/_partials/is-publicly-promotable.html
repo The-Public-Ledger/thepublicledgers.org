@@ -1,0 +1,19 @@
+{{- /*
+  Returns truthy ("1") if the given page is eligible for public promotion
+  (featured cards, hub listings, related content, search index).
+  Returns empty (falsy) for pages that should remain reachable by direct URL
+  but must not be surfaced in navigation or recirculation.
+
+  Excludes:
+    - paused_for_coi: campaign-period recusal (see root CLAUDE.md / AGENTS.md)
+    - noindex: explicit author opt-out
+    - Draft: Hugo draft flag
+
+  Usage:
+    {{ if partial "is-publicly-promotable.html" . }}…{{ end }}
+*/ -}}
+{{- $promotable := true -}}
+{{- if .Params.paused_for_coi -}}{{- $promotable = false -}}{{- end -}}
+{{- if .Params.noindex -}}{{- $promotable = false -}}{{- end -}}
+{{- if .Draft -}}{{- $promotable = false -}}{{- end -}}
+{{- if $promotable -}}1{{- end -}}

@@ -1,6 +1,6 @@
 {{- $featured := slice -}}
 {{- range site.AllPages -}}
-  {{- if .Params.featured -}}
+  {{- if and .Params.featured (partial "is-publicly-promotable.html" .) -}}
     {{- $featured = $featured | append . -}}
   {{- end -}}
 {{- end -}}

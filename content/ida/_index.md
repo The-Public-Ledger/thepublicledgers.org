@@ -28,4 +28,4 @@ This investigation is in **beta**. Findings are sourced from public records and 
 
 ### Flagship analysis: New York
 
-New York has the deepest data: 104 IDAs, $12.19B in tracked exemptions, 2,753 county-level scorecards. Read the [full New York investigation](/investigations/ida-accountability/) for detailed findings including the Erie County IDA case study, Harris Beach fee analysis, and school district revenue impact.
+New York has the deepest data: 104 IDAs, $12.19B in tracked exemptions, 2,753 county-level scorecards.

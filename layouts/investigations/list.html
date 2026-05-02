@@ -24,7 +24,13 @@
 
     {{ range $categories }}
     {{ $cat := . }}
-    {{ $pages := where $all ".Params.category" $cat.key }}
+    {{ $catPages := where $all ".Params.category" $cat.key }}
+    {{ $pages := slice }}
+    {{ range $catPages }}
+      {{ if partial "is-publicly-promotable.html" . }}
+        {{ $pages = $pages | append . }}
+      {{ end }}
+    {{ end }}
     {{ if $pages }}
     <section class="hub-section hub-section--{{ $cat.mod }}" aria-labelledby="cat-{{ $cat.key }}">
       <div class="hub-section__header">

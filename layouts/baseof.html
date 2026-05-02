@@ -55,7 +55,7 @@
   {{ partial "header.html" . }}
   {{ partial "nav-mobile.html" . }}
 
-  <main id="main-content" class="site-main" data-pagefind-body>
+  <main id="main-content" class="site-main"{{ if not .Params.paused_for_coi }} data-pagefind-body{{ end }}>
     {{ block "main" . }}{{ end }}
   </main>
 

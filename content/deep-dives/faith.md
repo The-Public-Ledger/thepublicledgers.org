@@ -18,10 +18,6 @@ sources:
   - "IRS EFILE XML (Form 990 Part VII, FY2023)"
 ---
 
-*Disclosure: Zach Beaudoin, who conducted this analysis, is a candidate for Erie County Legislature, District 11. The Erie County case study below documents patterns in Erie County governance. All findings are derived from public records; methodology is at [/methodology/](/methodology/).*
-
----
-
 Religious hospitals, social service agencies, and family planning grantees receive tens of billions of dollars in annual public funding. In 63 counties, a religious organization operates the **only emergency room** (68 total including 5 hospital-only counties). In 50 of those counties, the same religious institutional network also receives direct federal grants for WIC, Head Start, refugee resettlement, or other social services — creating circumstances where families in those counties encounter only religiously operated providers across multiple publicly funded service categories.
 
 ## The Hospital Desert
@@ -50,16 +46,7 @@ A pregnant woman in Garden City delivers at a hospital that follows the Ethical 
 
 Clermont County (pop. 209,000) is the largest confirmed-Catholic sole-ER county in the dataset. Trinity Health's Mercy Health - Clermont Hospital is the only emergency room, receiving $850M in Medicare and Medicaid revenue. This is a suburban county — not a remote rural community — where over 200,000 residents have no secular ER alternative.
 
-Trinity Health is the same parent company that operates Catholic Health in Buffalo, NY. The system appears across multiple states in the dataset. Catholic Charities operates social services in Ohio ($8.3M statewide in AmeriCorps, HUD housing, and refugee resettlement).
-
-### Erie County, New York — Billing Data Confirmation
-
-Erie County offers the deepest documentation because New York provides granular billing data through the SPARCS inpatient discharge database.
-
-- **Catholic Health** (Trinity Health affiliate): closed Kenmore Mercy Hospital (2021); Sisters of Charity Hospital (Catholic) is now the nearest ER for Kenmore and North Tonawanda; Mercy Hospital of Buffalo remains open — both Catholic Health hospitals document zero tubal ligations
-- **Catholic Charities of Buffalo**: confirmed WIC local agency ($66.2M cumulative, USASpending); Bishop Fisher named Chairman on IRS Form 990
-- **Single authority chain**: IRS XML confirms Bishop Fisher governs Catholic Charities directly and exercises indirect board authority over Catholic Health through his diocesan representative (Monsignor Robert Zapfel)
-- **Procedure restriction confirmed**: Sisters of Charity: 863 C-sections/year, **zero tubal ligations**; Mercy Hospital of Buffalo: 622 C-sections/year, **zero tubal ligations** (NY SPARCS 2024)
+Catholic Charities operates social services in Ohio ($8.3M statewide in AmeriCorps, HUD housing, and refugee resettlement).
 
 ## Downloads
 

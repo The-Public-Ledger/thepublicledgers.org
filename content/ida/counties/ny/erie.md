@@ -6,4 +6,6 @@ state_name: "New York"
 county_slug: "erie"
 county_name: "Erie County"
 layout: "county-dashboard"
+paused_for_coi: true
+noindex: true
 ---

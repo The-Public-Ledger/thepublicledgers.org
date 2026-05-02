@@ -4,6 +4,8 @@ date: 2026-03-16
 description: "Tracking $12.19 billion in property tax exemptions across New York's 104 Industrial Development Agencies — who benefits, who pays, and what happens when promises aren't kept."
 status: active
 category: money
+paused_for_coi: true
+noindex: true
 hub_stat: "$12.19B in tax exemptions across 104 New York IDAs"
 tags: ["new-york", "ida", "property-tax", "pay-to-play"]
 ---

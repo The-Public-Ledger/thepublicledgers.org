@@ -4,6 +4,8 @@ date: 2026-03-16
 description: "Erie County faces a $90 million budget deficit while its IDAs have exempted $266.8 million in school property taxes — $710 per household, every year."
 status: active
 category: money
+paused_for_coi: true
+noindex: true
 hub_stat: "$266.8M school property taxes exempted · $710 per household per year"
 tags: ["erie-county", "new-york", "ida", "schools", "property-tax"]
 ---
