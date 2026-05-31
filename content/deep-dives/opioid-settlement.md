@@ -1,13 +1,14 @@
 ---
 title: "Opioid Settlement Spending Tracker"
-description: "Tracking $24B in opioid settlement allocations across all 50 states. $3.8B in documented spending — just 16% of funds allocated. 1,329 mission-drift flags."
+description: "Tracking $5.36B in opioid settlement allocations across 42 states (KFF-supplemented, expected) and $2.28B in documented spending to recipients. 1,329 mission-drift flags."
 date: 2026-03-24
+lastmod: 2026-05-31
 status: "beta"
 tags: ["opioid", "settlements", "public-money", "mission-drift", "accountability"]
 layout: "deep-dive"
 deep_dive_slug: "opioid_settlement"
 category: "money"
-hub_stat: "$24B tracked · only 16% of funds documented"
+hub_stat: "$5.36B allocated across 42 states · $2.28B documented spend"
 sources:
   - "State opioid settlement spending reports (8 states)"
   - "KFF Health News national allocation database"
@@ -25,27 +26,33 @@ campaign finance and relief-fund databases to surface potential mission drift.
 
 ## Scale
 
-We track opioid settlement spending at three levels of detail:
+We track opioid settlement money at three levels of detail:
 
-- **National:** ~$26B committed across all 50 states from 8 settlements (Distributor,
-  Janssen, Teva, Walgreens, CVS, Allergan, Walmart, Kroger) to 6,297+ recipients
+- **National commitment:** ~$26B committed across all 50 states from 8 settlements (Distributor,
+  Janssen, Teva, Walgreens, CVS, Allergan, Walmart, Kroger) to 6,000+ recipients
   (source: KFF settlement database)
-- **Documented spending:** ~$5.4B in payments tracked across **46 states** (state-specific
-  extractors + KFF disbursement data, filtered to ≤2025 payments)
-- **Vendor-level detail:** **42 states** with processed recipient-level data ($2.4B
-  allocation, $1.4B documented spend) from 10 state-specific PDF/spreadsheet extractions
-  + KFF breakdowns
+- **Allocation tracked (KFF-supplemented, *expected*):** **$5.36B** across the 42-state
+  spend-joined rollup (46-state raw allocation universe: $5.63B). This is *expected*
+  state-level settlement allocation — including allocation-only states (e.g. Florida, California)
+  with little or no documented disbursement — **not** money confirmed paid to recipients.
+- **Documented spending:** **$2.28B** in payments tracked to recipients across **38 states**
+  (state-specific extractors + KFF disbursement data, ≤2025); ~18 states publish recipient/vendor-level detail.
+
+⚠️ **Read carefully — expected vs. documented:** allocation ($5.36B) is *announced/expected*
+money; documented spend ($2.28B) is what has been *traced to recipients*. Do **not** divide
+the two for a simple "spend rate" — much of the allocation has not yet been disbursed.
 
 ⚠️ **Coverage note:** 9 states lack vendor-level detail (AR, CA, DC, DE, FL, LA, NH, NV, OK).
 Two top-10 overdose mortality states are among them: Delaware (53.0/100K) and Louisiana
-(50.6/100K). The 42-state rollup is the authoritative processed dataset; other figures
-are supplementary.
+(50.6/100K). The 42-state rollup is the authoritative processed dataset.
 
-| Category | Amount | Share |
-|----------|--------|-------|
-| Direct service (treatment, recovery, harm reduction) | $149.8M | 53.8% |
-| Review-worthy (consulting, capital, unclear) | $23.4M | 8.4% |
-| Other tracked spending / KFF disbursements | $105.2M | 37.8% |
+Of the $2.28B in documented spending, the pipeline classifies:
+
+| Category | Amount | Share of documented spend |
+|----------|--------|---------------------------|
+| Direct service (treatment, recovery, harm reduction) | $297.7M | 13.0% |
+| Review-worthy (consulting, capital, unclear) | $72.0M | 3.2% |
+| Other / unclassified spending | $1,913.5M | 83.8% |
 
 ## States with Spending Data
 
@@ -131,4 +138,4 @@ classification to flag spending that may not align with settlement intent.
 For newsrooms: contact editor@thepublicledgers.org for the full dataset and
 mission-drift flag file.
 
-{{< source-note db="State opioid settlement reports, KFF Health News / Johns Hopkins / Shatterproof, FEC, SBA PPP" date="2026-03-24" >}}
+{{< source-note db="State opioid settlement reports, KFF Health News / Johns Hopkins / Shatterproof, FEC, SBA PPP" date="2026-05-31" >}}
