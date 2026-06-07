@@ -5,6 +5,9 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### Changed
+- Deep-dive page subheadings normalized to sentence case (20 headings across 7 pages), matching the `investigations/` section convention; proper nouns preserved
+
 ## [v1.3.0] — 2026-03-20
 
 ### Added

@@ -21,14 +21,14 @@ enforcement data (ECHO), demographic data (Census ACS), and political spending r
 to map the overlap between environmental enforcement gaps, demographic vulnerability,
 and political influence.
 
-## Enforcement Gaps
+## Enforcement gaps
 
 EPA penalty and enforcement data reveals systematic variation in how environmental
 violations are addressed. Total penalties assessed: $2.8B. The analysis identifies
 counties where enforcement intensity (penalties per violation) falls below the national
 median despite above-average violation rates.
 
-## Demographic Disparities
+## Demographic disparities
 
 Census demographic data overlaid on EPA facility and violation records documents
 environmental justice disparities:
@@ -42,7 +42,7 @@ environmental justice disparities:
   **fewer** detected health violations and **higher** penalties — the opposite of the
   under-enforcement hypothesis. The enforcement-gap model is null for both race and income.
 
-## Polluter Political Spending
+## Polluter political spending
 
 Cross-referencing major violators against FEC campaign finance records and Senate lobbying
 disclosures maps the political spending of companies with the worst environmental records.

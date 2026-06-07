@@ -29,7 +29,7 @@ the layoff came within 5-10 years of the subsidy award and the subsidy exceeded 
 **71 of 152** received programs with explicit job-creation commitments (grants, MEGADEALs,
 training reimbursements), giving the strongest legal basis for clawback enforcement.
 
-## Top States by Worker Impact
+## Top states by worker impact
 
 | State | Companies | Workers | Subsidy Exposure |
 |-------|-----------|---------|-----------------|

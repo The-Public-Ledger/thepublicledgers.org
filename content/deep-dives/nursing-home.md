@@ -19,26 +19,26 @@ data (quality ratings, penalties, ownership, staffing) against federal campaign 
 records and PPP loan data to map the political and financial footprint of nursing home
 operators.
 
-## Quality and Enforcement
+## Quality and enforcement
 
 CMS Care Compare data documents facility quality ratings, deficiency citations, and civil
 monetary penalties. Facilities with persistent low ratings and repeat penalties are flagged
 for further investigation. Total penalties across registered facilities: $480.1M.
 
-## Political Spending
+## Political spending
 
 Nursing home owners, operators, and parent organizations contributed $45K in documented
 federal campaign contributions. The pipeline matches facility names, owner names, and
 parent organization names against FEC individual contributions using multi-tier entity
 resolution.
 
-## PPP Loan Exposure
+## PPP loan exposure
 
 Nursing home entities received $650K in Paycheck Protection Program loans during 2020–2021.
 Cross-referencing PPP borrower records against CMS ownership data identifies the overlap
 between facilities collecting public healthcare payments and those receiving pandemic relief.
 
-## Ownership Chains
+## Ownership chains
 
 CMS ownership data documents the corporate structures behind nursing homes — including
 parent organizations, management companies, and individual owners with interests in

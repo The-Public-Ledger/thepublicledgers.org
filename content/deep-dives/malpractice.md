@@ -26,7 +26,7 @@ Excluded physicians from the OIG LEIE are matched against active NPI records in 
 
 Results are further cross-referenced against state medical board disciplinary actions (NY OPMC, CA DHCS) and CMS Open Payments data to identify excluded physicians who also received industry payments or state-level sanctions.
 
-## Explore by State
+## Explore by state
 
 Each state has a detailed factsheet with per-capita rates, exclusion type breakdowns, migration patterns, and priority cases. [Browse all states](/malpractice/states/).
 

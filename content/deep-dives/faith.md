@@ -20,13 +20,13 @@ sources:
 
 Religious hospitals, social service agencies, and family planning grantees receive tens of billions of dollars in annual public funding. In 63 counties, a religious organization operates the **only emergency room** (68 total including 5 hospital-only counties). In 50 of those counties, the same religious institutional network also receives direct federal grants for WIC, Head Start, refugee resettlement, or other social services — creating circumstances where families in those counties encounter only religiously operated providers across multiple publicly funded service categories.
 
-## The Hospital Desert
+## The hospital desert
 
 A "hospital desert" means the county's only emergency room is operated by a religious organization that follows doctrine-based clinical guidelines, such as the Catholic Church's *Ethical and Religious Directives* (ERDs). The ERDs prohibit sterilization, contraception, emergency contraception, and abortion at all facilities that operate under them.
 
 New York state billing data (SPARCS) confirms these restrictions are reflected in actual care: Catholic hospitals document zero tubal ligations at a rate 46.8 percentage points higher than secular peers — 75% of religious hospitals record zero vs. 28.2% of secular peers — even at facilities performing 800+ C-sections annually.
 
-## The Double Capture
+## The double capture
 
 In counties where the only hospital is religious, low-income families often also encounter religious organizations when accessing federally funded services. Catholic Charities — the social service arm of the Catholic Church — received $3.9B in federal grants since 2015 for refugee resettlement, Head Start, housing, and nutrition programs (WIC). When the same diocesan authority governs both the hospital and the social service network, families may face no secular alternative within the county across multiple publicly funded service categories.
 
@@ -34,15 +34,15 @@ In counties where the only hospital is religious, low-income families often also
 
 Religious health systems spent $35.2M in reported federal lobbying (2017-2025). The largest filers include Ascension Health ($16.4M), CHA ($6.9M), and Trinity Health ($6.7M). At the state level in New York, JCOPE records document 162 lobbying filings (2011-2025), including 54 related to certificate-of-need law — the regulatory framework that governs hospital closures and expansions.
 
-## Case Studies
+## Case studies
 
-### Finney County, Kansas — Triple Capture
+### Finney County, Kansas — triple capture
 
 Finney County is the only "triple capture" county in the dataset. St. Catherine Hospital (Catholic, Diocese of Dodge City) is the sole ER for 38,000 residents in Garden City — a meatpacking hub with a large immigrant and refugee workforce. Catholic Charities of Southwest Kansas administers HUD housing and emergency services ($4.2M, USASpending). Head Start serves 272 children in the county.
 
 A pregnant woman in Garden City delivers at a hospital that follows the Ethical and Religious Directives, receives food and housing assistance from Catholic Charities, and sends her children to a publicly funded Head Start — with no secular alternative at any point. Total Medicare and Medicaid revenue to the sole ER: $343M.
 
-### Clermont County, Ohio — Suburban Cincinnati
+### Clermont County, Ohio — suburban Cincinnati
 
 Clermont County (pop. 209,000) is the largest confirmed-Catholic sole-ER county in the dataset. Trinity Health's Mercy Health - Clermont Hospital is the only emergency room, receiving $850M in Medicare and Medicaid revenue. This is a suburban county — not a remote rural community — where over 200,000 residents have no secular ER alternative.
 

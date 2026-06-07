@@ -54,7 +54,7 @@ Of the $2.28B in documented spending, the pipeline classifies:
 | Review-worthy (consulting, capital, unclear) | $72.0M | 3.2% |
 | Other / unclassified spending | $1,913.5M | 83.8% |
 
-## States with Spending Data
+## States with spending data
 
 | State | Allocated | Spent | Direct Service | Review-Worthy |
 |-------|-----------|-------|----------------|--------------|
@@ -69,7 +69,7 @@ Of the $2.28B in documented spending, the pipeline classifies:
 | NJ | $231.6M | $4.1M | $3.7M | $0.76M |
 | WV | ~$70M | $3.2M | $0.87M | $2.3M |
 
-## West Virginia: A Case Study in Mission Drift
+## West Virginia: a case study in mission drift
 
 A manual review of all 70 vendor-level spending rows in West Virginia confirmed
 that the automated mission-drift classification is accurate:
@@ -92,7 +92,7 @@ Only 22.8% of West Virginia's documented spending reaches treatment, recovery,
 or prevention services. The majority funds police equipment under settlement
 categories broad enough to technically qualify.
 
-## Mission-Drift Flags
+## Mission-drift flags
 
 The pipeline flagged **1,329 spending transactions** for editorial review across
 six categories: opaque descriptions (generic "services" or "support" labels),
@@ -110,7 +110,7 @@ Virginia spot-check (above) confirmed that flagged items warrant investigation.
 - Spending data mixes FY2023-24 and FY2024-25 across states
 - Vendor political-spending matches (155) include medium-confidence word-overlap
 
-## Data Sources & Attribution
+## Data sources & attribution
 
 National spending data from the [KFF Health News opioid settlement database](https://kffhealthnews.org/news/article/opioid-settlement-funds-detailed-database-state-county-city-spending/),
 a project of KFF Health News, Johns Hopkins Bloomberg School of Public Health,
