@@ -39,9 +39,9 @@
     {
       "name": "Maricopa",
       "slug": "maricopa",
-      "score": 95.3,
+      "score": 96.3,
       "total_exemptions_usd": 387413758.0,
-      "cost_per_household_usd": 232.6,
+      "cost_per_household_usd": 234.8,
       "total_beneficiaries": 0,
       "num_awards": 397,
       "fips_county": "013"
@@ -49,22 +49,12 @@
     {
       "name": "Pima",
       "slug": "pima",
-      "score": 88.7,
+      "score": 87.7,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
       "num_awards": 74,
       "fips_county": "019"
-    },
-    {
-      "name": "Mohave",
-      "slug": "mohave",
-      "score": 87.7,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 33,
-      "fips_county": "015"
     },
     {
       "name": "Yavapai",
@@ -79,17 +69,27 @@
     {
       "name": "Pinal",
       "slug": "pinal",
-      "score": 83.0,
+      "score": 86.0,
       "total_exemptions_usd": 126460000.0,
-      "cost_per_household_usd": 834.77,
+      "cost_per_household_usd": 854.46,
       "total_beneficiaries": 0,
       "num_awards": 30,
       "fips_county": "021"
     },
     {
+      "name": "Mohave",
+      "slug": "mohave",
+      "score": 84.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 33,
+      "fips_county": "015"
+    },
+    {
       "name": "Apache",
       "slug": "apache",
-      "score": 81.7,
+      "score": 80.7,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
@@ -107,19 +107,9 @@
       "fips_county": "027"
     },
     {
-      "name": "Navajo",
-      "slug": "navajo",
-      "score": 73.7,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 8,
-      "fips_county": "017"
-    },
-    {
       "name": "Coconino",
       "slug": "coconino",
-      "score": 71.7,
+      "score": 72.7,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
@@ -127,19 +117,19 @@
       "fips_county": "005"
     },
     {
-      "name": "Gila",
-      "slug": "gila",
-      "score": 69.7,
+      "name": "Navajo",
+      "slug": "navajo",
+      "score": 70.7,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 5,
-      "fips_county": "007"
+      "num_awards": 8,
+      "fips_county": "017"
     },
     {
       "name": "Graham",
       "slug": "graham",
-      "score": 69.7,
+      "score": 68.7,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
@@ -147,9 +137,19 @@
       "fips_county": "009"
     },
     {
+      "name": "Gila",
+      "slug": "gila",
+      "score": 64.7,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 5,
+      "fips_county": "007"
+    },
+    {
       "name": "Cochise",
       "slug": "cochise",
-      "score": 63.7,
+      "score": 60.7,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
@@ -159,7 +159,7 @@
     {
       "name": "Greenlee",
       "slug": "greenlee",
-      "score": 63.7,
+      "score": 60.7,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
@@ -169,7 +169,7 @@
     {
       "name": "La Paz",
       "slug": "la-paz",
-      "score": 63.7,
+      "score": 60.7,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
@@ -179,7 +179,7 @@
     {
       "name": "Santa Cruz",
       "slug": "santa-cruz",
-      "score": 63.7,
+      "score": 60.7,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,

@@ -23,12 +23,12 @@
     "fips_county": "001"
   },
   "benchmarks": {
-    "state_rank": 82,
+    "state_rank": 83,
     "state_total_counties": 100,
-    "state_percentile": 18,
+    "state_percentile": 17,
     "state_median_subsidy_usd": 22813128.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 3154.89,
+    "state_median_cost_per_hh": 2808.94,
     "subsidy_context": "no subsidy data",
     "donor_context": ""
   },

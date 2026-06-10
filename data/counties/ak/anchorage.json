@@ -8,10 +8,10 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 81.0,
+    "accountability_score": 82.0,
     "total_exemptions_usd": 1095904052.0,
     "net_exemptions_usd": 0.0,
-    "cost_per_household_usd": 10229.28,
+    "cost_per_household_usd": 9579.75,
     "total_beneficiaries": 0,
     "num_donor_beneficiaries": 10,
     "donor_rate_pct": 0.0,
@@ -28,12 +28,12 @@
     "state_percentile": 97,
     "state_median_subsidy_usd": 148500000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 35602.44,
+    "state_median_cost_per_hh": 29739.97,
     "subsidy_context": "7.4× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Anchorage County ranks 1st out of 29 Alaska counties for total tax exemptions, with $1.1B in property tax breaks — 7.4× the state median. The per-household cost of these subsidies is $10,229.",
+    "summary": "Anchorage County ranks 1st out of 29 Alaska counties for total tax exemptions, with $1.1B in property tax breaks — 7.4× the state median. The per-household cost of these subsidies is $9,580.",
     "subsidy_context": "7.4× the state median",
     "donor_context": ""
   },

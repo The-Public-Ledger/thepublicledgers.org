@@ -8,10 +8,10 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 83.0,
+    "accountability_score": 86.0,
     "total_exemptions_usd": 126460000.0,
     "net_exemptions_usd": 0.0,
-    "cost_per_household_usd": 834.77,
+    "cost_per_household_usd": 854.46,
     "total_beneficiaries": 0,
     "num_donor_beneficiaries": 6,
     "donor_rate_pct": 0.0,
@@ -28,12 +28,12 @@
     "state_percentile": 87,
     "state_median_subsidy_usd": 256936879.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 533.68,
+    "state_median_cost_per_hh": 544.63,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Pinal County ranks 2nd out of 15 Arizona counties for total tax exemptions, with $126.5M in property tax breaks — below the state median. The per-household cost of these subsidies is $835.",
+    "summary": "Pinal County ranks 2nd out of 15 Arizona counties for total tax exemptions, with $126.5M in property tax breaks — below the state median. The per-household cost of these subsidies is $854.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

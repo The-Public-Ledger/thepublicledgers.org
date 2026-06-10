@@ -25,7 +25,6 @@
   "top_findings": [
     "570 of 5,698 subsidized companies (10.0%) made campaign donations — $39.0M total.",
     "$10.6M in donations flowed from beneficiaries to 346 political committees. Top recipient: MICHIGAN CITIZENS FOR STRONG AND SAFE COMMUNITIES ($4.6M).",
-    "9 companies showed statistically significant pre-award donation spikes (BH-corrected, q<0.05). Top: Auto-Owners Insurance (48.7× baseline, z=42.0).",
     "$16.51B in total subsidies tracked across 5,698 beneficiary companies in Michigan."
   ],
   "counsel_conflicts": [],
@@ -35,14 +34,6 @@
     "top_committee_name": "MICHIGAN CITIZENS FOR STRONG AND SAFE COMMUNITIES",
     "top_committee_amount": 4560000.0,
     "top_committee_pct": 26.09
-  },
-  "timeline_stats": {
-    "total_spikes": 15,
-    "bh_sig_count": 9,
-    "top_spike_name": "Auto-Owners Insurance",
-    "top_spike_z": 42.0,
-    "top_spike_ratio": 48.7,
-    "top_spike_subsidy": 28968000.0
   },
   "counties": [
     {

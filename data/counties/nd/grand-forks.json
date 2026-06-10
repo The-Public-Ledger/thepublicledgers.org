@@ -8,10 +8,10 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 31.0,
+    "accountability_score": 41.0,
     "total_exemptions_usd": 1346025.0,
     "net_exemptions_usd": 0.0,
-    "cost_per_household_usd": 40.1,
+    "cost_per_household_usd": 1346025.0,
     "total_beneficiaries": 0,
     "num_donor_beneficiaries": 1,
     "donor_rate_pct": 0.0,
@@ -33,7 +33,7 @@
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Grand Forks County ranks 3rd out of 50 North Dakota counties for total tax exemptions, with $1.3M in property tax breaks — 13.4× the state median. The per-household cost of these subsidies is $40.",
+    "summary": "Grand Forks County ranks 3rd out of 50 North Dakota counties for total tax exemptions, with $1.3M in property tax breaks — 13.4× the state median. The per-household cost of these subsidies is $1,346,025.",
     "subsidy_context": "13.4× the state median",
     "donor_context": ""
   },

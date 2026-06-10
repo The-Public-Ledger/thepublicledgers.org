@@ -8,7 +8,7 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 35.1,
+    "accountability_score": 30.1,
     "total_exemptions_usd": 338600000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 3773.92,
@@ -28,7 +28,7 @@
     "state_percentile": 93,
     "state_median_subsidy_usd": 44400682.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 1241.68,
+    "state_median_cost_per_hh": 1396.58,
     "subsidy_context": "7.6× the state median",
     "donor_context": ""
   },

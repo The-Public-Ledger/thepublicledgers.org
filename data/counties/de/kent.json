@@ -8,10 +8,10 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 3.1,
+    "accountability_score": 2.9,
     "total_exemptions_usd": 1846205.0,
     "net_exemptions_usd": 0.0,
-    "cost_per_household_usd": 27.67,
+    "cost_per_household_usd": 31.83,
     "total_beneficiaries": 0,
     "num_donor_beneficiaries": 8,
     "donor_rate_pct": 0.0,
@@ -28,12 +28,12 @@
     "state_percentile": 0,
     "state_median_subsidy_usd": 3076859.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 31.93,
+    "state_median_cost_per_hh": 36.63,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Kent County ranks 3rd out of 3 Delaware counties for total tax exemptions, with $1.8M in property tax breaks — below the state median. The per-household cost of these subsidies is $28.",
+    "summary": "Kent County ranks 3rd out of 3 Delaware counties for total tax exemptions, with $1.8M in property tax breaks — below the state median. The per-household cost of these subsidies is $32.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

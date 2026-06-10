@@ -39,7 +39,7 @@
     {
       "name": "Cass",
       "slug": "cass",
-      "score": 70.0,
+      "score": 55.0,
       "total_exemptions_usd": 10857167.0,
       "cost_per_household_usd": 126.33,
       "total_beneficiaries": 0,
@@ -47,9 +47,19 @@
       "fips_county": "017"
     },
     {
+      "name": "Grand Forks",
+      "slug": "grand-forks",
+      "score": 41.0,
+      "total_exemptions_usd": 1346025.0,
+      "cost_per_household_usd": 1346025.0,
+      "total_beneficiaries": 0,
+      "num_awards": 87,
+      "fips_county": "035"
+    },
+    {
       "name": "Burleigh",
       "slug": "burleigh",
-      "score": 31.0,
+      "score": 27.0,
       "total_exemptions_usd": 1511961.0,
       "cost_per_household_usd": 35.19,
       "total_beneficiaries": 0,
@@ -57,19 +67,9 @@
       "fips_county": "015"
     },
     {
-      "name": "Grand Forks",
-      "slug": "grand-forks",
-      "score": 31.0,
-      "total_exemptions_usd": 1346025.0,
-      "cost_per_household_usd": 40.1,
-      "total_beneficiaries": 0,
-      "num_awards": 87,
-      "fips_county": "035"
-    },
-    {
       "name": "Stark",
       "slug": "stark",
-      "score": 31.0,
+      "score": 24.0,
       "total_exemptions_usd": 944065.0,
       "cost_per_household_usd": 61.44,
       "total_beneficiaries": 0,
@@ -79,7 +79,7 @@
     {
       "name": "Ward",
       "slug": "ward",
-      "score": 24.0,
+      "score": 20.0,
       "total_exemptions_usd": 956299.0,
       "cost_per_household_usd": 29.61,
       "total_beneficiaries": 0,
@@ -87,19 +87,9 @@
       "fips_county": "101"
     },
     {
-      "name": "Sargent",
-      "slug": "sargent",
-      "score": 22.0,
-      "total_exemptions_usd": 182868.0,
-      "cost_per_household_usd": 91.16,
-      "total_beneficiaries": 0,
-      "num_awards": 11,
-      "fips_county": "081"
-    },
-    {
       "name": "Richland",
       "slug": "richland",
-      "score": 20.0,
+      "score": 12.0,
       "total_exemptions_usd": 531567.0,
       "cost_per_household_usd": 70.53,
       "total_beneficiaries": 0,
@@ -107,9 +97,19 @@
       "fips_county": "077"
     },
     {
+      "name": "Sargent",
+      "slug": "sargent",
+      "score": 11.0,
+      "total_exemptions_usd": 182868.0,
+      "cost_per_household_usd": 91.16,
+      "total_beneficiaries": 0,
+      "num_awards": 11,
+      "fips_county": "081"
+    },
+    {
       "name": "Barnes",
       "slug": "barnes",
-      "score": 18.0,
+      "score": 7.0,
       "total_exemptions_usd": 514326.0,
       "cost_per_household_usd": 90.34,
       "total_beneficiaries": 0,
@@ -117,19 +117,9 @@
       "fips_county": "003"
     },
     {
-      "name": "Foster",
-      "slug": "foster",
-      "score": 12.0,
-      "total_exemptions_usd": 100110.0,
-      "cost_per_household_usd": 56.46,
-      "total_beneficiaries": 0,
-      "num_awards": 5,
-      "fips_county": "031"
-    },
-    {
       "name": "Morton",
       "slug": "morton",
-      "score": 12.0,
+      "score": 7.0,
       "total_exemptions_usd": 657939.0,
       "cost_per_household_usd": 43.33,
       "total_beneficiaries": 0,
@@ -137,19 +127,9 @@
       "fips_county": "059"
     },
     {
-      "name": "Eddy",
-      "slug": "eddy",
-      "score": 9.0,
-      "total_exemptions_usd": 92815.0,
-      "cost_per_household_usd": 72.85,
-      "total_beneficiaries": 0,
-      "num_awards": 5,
-      "fips_county": "027"
-    },
-    {
       "name": "Traill",
       "slug": "traill",
-      "score": 9.0,
+      "score": 6.0,
       "total_exemptions_usd": 107550.0,
       "cost_per_household_usd": 29.27,
       "total_beneficiaries": 0,
@@ -159,32 +139,12 @@
     {
       "name": "Wells",
       "slug": "wells",
-      "score": 7.0,
+      "score": 6.0,
       "total_exemptions_usd": 20000.0,
       "cost_per_household_usd": 8.61,
       "total_beneficiaries": 0,
       "num_awards": 18,
       "fips_county": "103"
-    },
-    {
-      "name": "Ransom",
-      "slug": "ransom",
-      "score": 6.0,
-      "total_exemptions_usd": 131965.0,
-      "cost_per_household_usd": 51.71,
-      "total_beneficiaries": 0,
-      "num_awards": 9,
-      "fips_county": "073"
-    },
-    {
-      "name": "Steele",
-      "slug": "steele",
-      "score": 6.0,
-      "total_exemptions_usd": 5368.0,
-      "cost_per_household_usd": 4.82,
-      "total_beneficiaries": 0,
-      "num_awards": 10,
-      "fips_county": "091"
     },
     {
       "name": "Benson",
@@ -205,6 +165,16 @@
       "total_beneficiaries": 0,
       "num_awards": 9,
       "fips_county": "025"
+    },
+    {
+      "name": "Foster",
+      "slug": "foster",
+      "score": 5.0,
+      "total_exemptions_usd": 100110.0,
+      "cost_per_household_usd": 56.46,
+      "total_beneficiaries": 0,
+      "num_awards": 5,
+      "fips_county": "031"
     },
     {
       "name": "Griggs",
@@ -237,6 +207,16 @@
       "fips_county": "079"
     },
     {
+      "name": "Steele",
+      "slug": "steele",
+      "score": 5.0,
+      "total_exemptions_usd": 5368.0,
+      "cost_per_household_usd": 4.82,
+      "total_beneficiaries": 0,
+      "num_awards": 10,
+      "fips_county": "091"
+    },
+    {
       "name": "Stutsman",
       "slug": "stutsman",
       "score": 5.0,
@@ -257,46 +237,6 @@
       "fips_county": "105"
     },
     {
-      "name": "Cavalier",
-      "slug": "cavalier",
-      "score": 2.0,
-      "total_exemptions_usd": 38625.0,
-      "cost_per_household_usd": 18.27,
-      "total_beneficiaries": 0,
-      "num_awards": 3,
-      "fips_county": "019"
-    },
-    {
-      "name": "Bottineau",
-      "slug": "bottineau",
-      "score": 1.0,
-      "total_exemptions_usd": 28500.0,
-      "cost_per_household_usd": 7.17,
-      "total_beneficiaries": 0,
-      "num_awards": 9,
-      "fips_county": "009"
-    },
-    {
-      "name": "Bowman",
-      "slug": "bowman",
-      "score": 1.0,
-      "total_exemptions_usd": 9434.0,
-      "cost_per_household_usd": 5.73,
-      "total_beneficiaries": 0,
-      "num_awards": 6,
-      "fips_county": "011"
-    },
-    {
-      "name": "Walsh",
-      "slug": "walsh",
-      "score": 1.0,
-      "total_exemptions_usd": 37000.0,
-      "cost_per_household_usd": 7.09,
-      "total_beneficiaries": 0,
-      "num_awards": 13,
-      "fips_county": "099"
-    },
-    {
       "name": "Billings",
       "slug": "billings",
       "score": 0.0,
@@ -307,6 +247,26 @@
       "fips_county": "007"
     },
     {
+      "name": "Bottineau",
+      "slug": "bottineau",
+      "score": 0.0,
+      "total_exemptions_usd": 28500.0,
+      "cost_per_household_usd": 7.17,
+      "total_beneficiaries": 0,
+      "num_awards": 9,
+      "fips_county": "009"
+    },
+    {
+      "name": "Bowman",
+      "slug": "bowman",
+      "score": 0.0,
+      "total_exemptions_usd": 9434.0,
+      "cost_per_household_usd": 5.73,
+      "total_beneficiaries": 0,
+      "num_awards": 6,
+      "fips_county": "011"
+    },
+    {
       "name": "Burke",
       "slug": "burke",
       "score": 0.0,
@@ -315,6 +275,16 @@
       "total_beneficiaries": 0,
       "num_awards": 1,
       "fips_county": "013"
+    },
+    {
+      "name": "Cavalier",
+      "slug": "cavalier",
+      "score": 0.0,
+      "total_exemptions_usd": 38625.0,
+      "cost_per_household_usd": 18.27,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "019"
     },
     {
       "name": "Dickey",
@@ -335,6 +305,16 @@
       "total_beneficiaries": 0,
       "num_awards": 4,
       "fips_county": "023"
+    },
+    {
+      "name": "Eddy",
+      "slug": "eddy",
+      "score": 0.0,
+      "total_exemptions_usd": 92815.0,
+      "cost_per_household_usd": 72.85,
+      "total_beneficiaries": 0,
+      "num_awards": 5,
+      "fips_county": "027"
     },
     {
       "name": "Emmons",
@@ -497,6 +477,16 @@
       "fips_county": "069"
     },
     {
+      "name": "Ransom",
+      "slug": "ransom",
+      "score": 0.0,
+      "total_exemptions_usd": 131965.0,
+      "cost_per_household_usd": 51.71,
+      "total_beneficiaries": 0,
+      "num_awards": 9,
+      "fips_county": "073"
+    },
+    {
       "name": "Renville",
       "slug": "renville",
       "score": 0.0,
@@ -535,6 +525,16 @@
       "total_beneficiaries": 0,
       "num_awards": 3,
       "fips_county": "095"
+    },
+    {
+      "name": "Walsh",
+      "slug": "walsh",
+      "score": 0.0,
+      "total_exemptions_usd": 37000.0,
+      "cost_per_household_usd": 7.09,
+      "total_beneficiaries": 0,
+      "num_awards": 13,
+      "fips_county": "099"
     }
   ]
 }

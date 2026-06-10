@@ -8,12 +8,12 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 95.3,
+    "accountability_score": 96.3,
     "total_exemptions_usd": 387413758.0,
     "net_exemptions_usd": 0.0,
-    "cost_per_household_usd": 232.6,
+    "cost_per_household_usd": 234.8,
     "total_beneficiaries": 0,
-    "num_donor_beneficiaries": 30,
+    "num_donor_beneficiaries": 28,
     "donor_rate_pct": 0.0,
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
@@ -28,12 +28,12 @@
     "state_percentile": 93,
     "state_median_subsidy_usd": 256936879.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 533.68,
+    "state_median_cost_per_hh": 544.63,
     "subsidy_context": "above the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Maricopa County ranks 1st out of 15 Arizona counties for total tax exemptions, with $387.4M in property tax breaks — above the state median. The per-household cost of these subsidies is $233.",
+    "summary": "Maricopa County ranks 1st out of 15 Arizona counties for total tax exemptions, with $387.4M in property tax breaks — above the state median. The per-household cost of these subsidies is $235.",
     "subsidy_context": "above the state median",
     "donor_context": ""
   },

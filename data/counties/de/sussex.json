@@ -8,12 +8,12 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 4.6,
+    "accountability_score": 4.9,
     "total_exemptions_usd": 3076859.0,
     "net_exemptions_usd": 0.0,
-    "cost_per_household_usd": 31.93,
+    "cost_per_household_usd": 36.63,
     "total_beneficiaries": 0,
-    "num_donor_beneficiaries": 9,
+    "num_donor_beneficiaries": 10,
     "donor_rate_pct": 0.0,
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
@@ -28,12 +28,12 @@
     "state_percentile": 33,
     "state_median_subsidy_usd": 3076859.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 31.93,
+    "state_median_cost_per_hh": 36.63,
     "subsidy_context": "near the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Sussex County ranks 2nd out of 3 Delaware counties for total tax exemptions, with $3.1M in property tax breaks — near the state median. The per-household cost of these subsidies is $32.",
+    "summary": "Sussex County ranks 2nd out of 3 Delaware counties for total tax exemptions, with $3.1M in property tax breaks — near the state median. The per-household cost of these subsidies is $37.",
     "subsidy_context": "near the state median",
     "donor_context": ""
   },

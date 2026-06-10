@@ -39,7 +39,7 @@
     {
       "name": "Polk",
       "slug": "polk",
-      "score": 50.6,
+      "score": 58.1,
       "total_exemptions_usd": 927111798.0,
       "cost_per_household_usd": 4658.55,
       "total_beneficiaries": 0,
@@ -49,7 +49,7 @@
     {
       "name": "Scott",
       "slug": "scott",
-      "score": 44.8,
+      "score": 52.3,
       "total_exemptions_usd": 153932412.0,
       "cost_per_household_usd": 2154.83,
       "total_beneficiaries": 0,
@@ -67,14 +67,44 @@
       "fips_county": "113"
     },
     {
-      "name": "Clarke",
-      "slug": "clarke",
-      "score": 18.6,
-      "total_exemptions_usd": 15752994.0,
-      "cost_per_household_usd": 4061.1,
+      "name": "Black Hawk",
+      "slug": "black-hawk",
+      "score": 26.9,
+      "total_exemptions_usd": 274794378.0,
+      "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 66,
-      "fips_county": "039"
+      "num_awards": 240,
+      "fips_county": "013"
+    },
+    {
+      "name": "Dubuque",
+      "slug": "dubuque",
+      "score": 23.9,
+      "total_exemptions_usd": 269712180.0,
+      "cost_per_household_usd": 6745.33,
+      "total_beneficiaries": 0,
+      "num_awards": 240,
+      "fips_county": "061"
+    },
+    {
+      "name": "Pottawattamie",
+      "slug": "pottawattamie",
+      "score": 22.5,
+      "total_exemptions_usd": 238068510.0,
+      "cost_per_household_usd": 6406.24,
+      "total_beneficiaries": 0,
+      "num_awards": 186,
+      "fips_county": "155"
+    },
+    {
+      "name": "Chickasaw",
+      "slug": "chickasaw",
+      "score": 21.0,
+      "total_exemptions_usd": 98188032.0,
+      "cost_per_household_usd": 19956.92,
+      "total_beneficiaries": 0,
+      "num_awards": 54,
+      "fips_county": "037"
     },
     {
       "name": "Adams",
@@ -97,34 +127,24 @@
       "fips_county": "187"
     },
     {
-      "name": "Buena Vista",
-      "slug": "buena-vista",
-      "score": 14.6,
-      "total_exemptions_usd": 164505858.0,
-      "cost_per_household_usd": 21823.54,
+      "name": "Story",
+      "slug": "story",
+      "score": 15.1,
+      "total_exemptions_usd": 194374734.0,
+      "cost_per_household_usd": 5060.26,
       "total_beneficiaries": 0,
-      "num_awards": 30,
-      "fips_county": "021"
+      "num_awards": 258,
+      "fips_county": "169"
     },
     {
-      "name": "Dubuque",
-      "slug": "dubuque",
-      "score": 13.9,
-      "total_exemptions_usd": 269712180.0,
-      "cost_per_household_usd": 6745.33,
+      "name": "Clarke",
+      "slug": "clarke",
+      "score": 13.6,
+      "total_exemptions_usd": 15752994.0,
+      "cost_per_household_usd": 4061.1,
       "total_beneficiaries": 0,
-      "num_awards": 240,
-      "fips_county": "061"
-    },
-    {
-      "name": "Black Hawk",
-      "slug": "black-hawk",
-      "score": 13.7,
-      "total_exemptions_usd": 274794378.0,
-      "cost_per_household_usd": 5118.07,
-      "total_beneficiaries": 0,
-      "num_awards": 240,
-      "fips_county": "013"
+      "num_awards": 66,
+      "fips_county": "039"
     },
     {
       "name": "Muscatine",
@@ -137,24 +157,24 @@
       "fips_county": "139"
     },
     {
-      "name": "Pottawattamie",
-      "slug": "pottawattamie",
-      "score": 12.5,
-      "total_exemptions_usd": 238068510.0,
-      "cost_per_household_usd": 6406.24,
+      "name": "Lee",
+      "slug": "lee",
+      "score": 11.4,
+      "total_exemptions_usd": 96024240.0,
+      "cost_per_household_usd": 6740.44,
       "total_beneficiaries": 0,
-      "num_awards": 186,
-      "fips_county": "155"
+      "num_awards": 90,
+      "fips_county": "111"
     },
     {
-      "name": "Chickasaw",
-      "slug": "chickasaw",
-      "score": 11.0,
-      "total_exemptions_usd": 98188032.0,
-      "cost_per_household_usd": 19956.92,
+      "name": "Poweshiek",
+      "slug": "poweshiek",
+      "score": 11.1,
+      "total_exemptions_usd": 70519950.0,
+      "cost_per_household_usd": 9086.45,
       "total_beneficiaries": 0,
-      "num_awards": 54,
-      "fips_county": "037"
+      "num_awards": 24,
+      "fips_county": "157"
     },
     {
       "name": "Mitchell",
@@ -187,16 +207,6 @@
       "fips_county": "149"
     },
     {
-      "name": "Story",
-      "slug": "story",
-      "score": 10.1,
-      "total_exemptions_usd": 194374734.0,
-      "cost_per_household_usd": 5060.26,
-      "total_beneficiaries": 0,
-      "num_awards": 258,
-      "fips_county": "169"
-    },
-    {
       "name": "Wapello",
       "slug": "wapello",
       "score": 10.1,
@@ -205,6 +215,16 @@
       "total_beneficiaries": 0,
       "num_awards": 78,
       "fips_county": "179"
+    },
+    {
+      "name": "Marshall",
+      "slug": "marshall",
+      "score": 9.9,
+      "total_exemptions_usd": 73685262.0,
+      "cost_per_household_usd": 4819.81,
+      "total_beneficiaries": 0,
+      "num_awards": 48,
+      "fips_county": "127"
     },
     {
       "name": "Hardin",
@@ -227,6 +247,26 @@
       "fips_county": "197"
     },
     {
+      "name": "Allamakee",
+      "slug": "allamakee",
+      "score": 8.3,
+      "total_exemptions_usd": 32594412.0,
+      "cost_per_household_usd": 5459.7,
+      "total_beneficiaries": 0,
+      "num_awards": 36,
+      "fips_county": "005"
+    },
+    {
+      "name": "Humboldt",
+      "slug": "humboldt",
+      "score": 7.9,
+      "total_exemptions_usd": 22813128.0,
+      "cost_per_household_usd": 5414.94,
+      "total_beneficiaries": 0,
+      "num_awards": 42,
+      "fips_county": "091"
+    },
+    {
       "name": "Iowa",
       "slug": "iowa",
       "score": 7.4,
@@ -237,14 +277,14 @@
       "fips_county": "095"
     },
     {
-      "name": "Des Moines",
-      "slug": "des-moines",
-      "score": 7.2,
-      "total_exemptions_usd": 114515346.0,
-      "cost_per_household_usd": 6638.19,
+      "name": "Cerro Gordo",
+      "slug": "cerro-gordo",
+      "score": 7.3,
+      "total_exemptions_usd": 54129672.0,
+      "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 66,
-      "fips_county": "057"
+      "num_awards": 78,
+      "fips_county": "033"
     },
     {
       "name": "Kossuth",
@@ -255,6 +295,16 @@
       "total_beneficiaries": 0,
       "num_awards": 60,
       "fips_county": "109"
+    },
+    {
+      "name": "Buena Vista",
+      "slug": "buena-vista",
+      "score": 7.1,
+      "total_exemptions_usd": 164505858.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 30,
+      "fips_county": "021"
     },
     {
       "name": "Cass",
@@ -287,14 +337,24 @@
       "fips_county": "171"
     },
     {
-      "name": "Lee",
-      "slug": "lee",
-      "score": 6.4,
-      "total_exemptions_usd": 96024240.0,
-      "cost_per_household_usd": 6740.44,
+      "name": "Washington",
+      "slug": "washington",
+      "score": 6.7,
+      "total_exemptions_usd": 21025800.0,
+      "cost_per_household_usd": 2356.62,
       "total_beneficiaries": 0,
-      "num_awards": 90,
-      "fips_county": "111"
+      "num_awards": 36,
+      "fips_county": "183"
+    },
+    {
+      "name": "Fayette",
+      "slug": "fayette",
+      "score": 6.4,
+      "total_exemptions_usd": 16020570.0,
+      "cost_per_household_usd": 1947.08,
+      "total_beneficiaries": 0,
+      "num_awards": 42,
+      "fips_county": "065"
     },
     {
       "name": "Delaware",
@@ -317,34 +377,34 @@
       "fips_county": "047"
     },
     {
-      "name": "Poweshiek",
-      "slug": "poweshiek",
-      "score": 6.1,
-      "total_exemptions_usd": 70519950.0,
-      "cost_per_household_usd": 9086.45,
-      "total_beneficiaries": 0,
-      "num_awards": 24,
-      "fips_county": "157"
-    },
-    {
-      "name": "Palo Alto",
-      "slug": "palo-alto",
+      "name": "Henry",
+      "slug": "henry",
       "score": 5.4,
-      "total_exemptions_usd": 39423618.0,
-      "cost_per_household_usd": 10845.56,
+      "total_exemptions_usd": 4549722.0,
+      "cost_per_household_usd": 595.36,
       "total_beneficiaries": 0,
-      "num_awards": 30,
-      "fips_county": "147"
+      "num_awards": 42,
+      "fips_county": "087"
     },
     {
-      "name": "Marshall",
-      "slug": "marshall",
-      "score": 4.9,
-      "total_exemptions_usd": 73685262.0,
-      "cost_per_household_usd": 4819.81,
+      "name": "Grundy",
+      "slug": "grundy",
+      "score": 5.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 48,
-      "fips_county": "127"
+      "num_awards": 6,
+      "fips_county": "075"
+    },
+    {
+      "name": "Des Moines",
+      "slug": "des-moines",
+      "score": 4.9,
+      "total_exemptions_usd": 114515346.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 66,
+      "fips_county": "057"
     },
     {
       "name": "Buchanan",
@@ -387,16 +447,6 @@
       "fips_county": "193"
     },
     {
-      "name": "Allamakee",
-      "slug": "allamakee",
-      "score": 3.3,
-      "total_exemptions_usd": 32594412.0,
-      "cost_per_household_usd": 5459.7,
-      "total_beneficiaries": 0,
-      "num_awards": 36,
-      "fips_county": "005"
-    },
-    {
       "name": "Cedar",
       "slug": "cedar",
       "score": 3.3,
@@ -405,16 +455,6 @@
       "total_beneficiaries": 0,
       "num_awards": 36,
       "fips_county": "031"
-    },
-    {
-      "name": "Cerro Gordo",
-      "slug": "cerro-gordo",
-      "score": 3.3,
-      "total_exemptions_usd": 54129672.0,
-      "cost_per_household_usd": 2783.02,
-      "total_beneficiaries": 0,
-      "num_awards": 78,
-      "fips_county": "033"
     },
     {
       "name": "Johnson",
@@ -445,16 +485,6 @@
       "total_beneficiaries": 0,
       "num_awards": 36,
       "fips_county": "027"
-    },
-    {
-      "name": "Humboldt",
-      "slug": "humboldt",
-      "score": 2.9,
-      "total_exemptions_usd": 22813128.0,
-      "cost_per_household_usd": 5414.94,
-      "total_beneficiaries": 0,
-      "num_awards": 42,
-      "fips_county": "091"
     },
     {
       "name": "Jasper",
@@ -507,24 +537,14 @@
       "fips_county": "165"
     },
     {
-      "name": "Washington",
-      "slug": "washington",
+      "name": "Palo Alto",
+      "slug": "palo-alto",
       "score": 1.7,
-      "total_exemptions_usd": 21025800.0,
-      "cost_per_household_usd": 2356.62,
+      "total_exemptions_usd": 39423618.0,
+      "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 36,
-      "fips_county": "183"
-    },
-    {
-      "name": "Fayette",
-      "slug": "fayette",
-      "score": 1.4,
-      "total_exemptions_usd": 16020570.0,
-      "cost_per_household_usd": 1947.08,
-      "total_beneficiaries": 0,
-      "num_awards": 42,
-      "fips_county": "065"
+      "num_awards": 30,
+      "fips_county": "147"
     },
     {
       "name": "Ida",
@@ -665,16 +685,6 @@
       "total_beneficiaries": 0,
       "num_awards": 6,
       "fips_county": "071"
-    },
-    {
-      "name": "Henry",
-      "slug": "henry",
-      "score": 0.4,
-      "total_exemptions_usd": 4549722.0,
-      "cost_per_household_usd": 595.36,
-      "total_beneficiaries": 0,
-      "num_awards": 42,
-      "fips_county": "087"
     },
     {
       "name": "Wayne",
@@ -864,16 +874,6 @@
       "total_beneficiaries": 0,
       "num_awards": 0,
       "fips_county": "073"
-    },
-    {
-      "name": "Grundy",
-      "slug": "grundy",
-      "score": 0.0,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 6,
-      "fips_county": "075"
     },
     {
       "name": "Hamilton",

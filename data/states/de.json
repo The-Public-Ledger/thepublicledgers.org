@@ -41,7 +41,7 @@
       "slug": "new-castle",
       "score": 100.0,
       "total_exemptions_usd": 463980741.0,
-      "cost_per_household_usd": 2128.33,
+      "cost_per_household_usd": 2128.35,
       "total_beneficiaries": 0,
       "num_awards": 824,
       "fips_county": "003"
@@ -49,9 +49,9 @@
     {
       "name": "Sussex",
       "slug": "sussex",
-      "score": 4.6,
+      "score": 4.9,
       "total_exemptions_usd": 3076859.0,
-      "cost_per_household_usd": 31.93,
+      "cost_per_household_usd": 36.63,
       "total_beneficiaries": 0,
       "num_awards": 104,
       "fips_county": "005"
@@ -59,9 +59,9 @@
     {
       "name": "Kent",
       "slug": "kent",
-      "score": 3.1,
+      "score": 2.9,
       "total_exemptions_usd": 1846205.0,
-      "cost_per_household_usd": 27.67,
+      "cost_per_household_usd": 31.83,
       "total_beneficiaries": 0,
       "num_awards": 66,
       "fips_county": "001"

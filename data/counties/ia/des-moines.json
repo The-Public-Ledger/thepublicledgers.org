@@ -8,10 +8,10 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 7.2,
+    "accountability_score": 4.9,
     "total_exemptions_usd": 114515346.0,
     "net_exemptions_usd": 0.0,
-    "cost_per_household_usd": 6638.19,
+    "cost_per_household_usd": 0.0,
     "total_beneficiaries": 0,
     "num_donor_beneficiaries": 0,
     "donor_rate_pct": 0.0,
@@ -28,12 +28,12 @@
     "state_percentile": 87,
     "state_median_subsidy_usd": 22813128.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 3154.89,
+    "state_median_cost_per_hh": 2808.94,
     "subsidy_context": "5.0× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Des Moines County ranks 13th out of 100 Iowa counties for total tax exemptions, with $114.5M in property tax breaks — 5.0× the state median. The per-household cost of these subsidies is $6,638.",
+    "summary": "Des Moines County ranks 13th out of 100 Iowa counties for total tax exemptions, with $114.5M in property tax breaks — 5.0× the state median.",
     "subsidy_context": "5.0× the state median",
     "donor_context": ""
   },

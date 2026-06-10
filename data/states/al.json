@@ -39,7 +39,7 @@
     {
       "name": "Jefferson",
       "slug": "jefferson",
-      "score": 70.0,
+      "score": 69.1,
       "total_exemptions_usd": 191855788.0,
       "cost_per_household_usd": 721.82,
       "total_beneficiaries": 0,
@@ -49,7 +49,7 @@
     {
       "name": "Wilcox",
       "slug": "wilcox",
-      "score": 55.0,
+      "score": 40.0,
       "total_exemptions_usd": 202100000.0,
       "cost_per_household_usd": 56468.29,
       "total_beneficiaries": 0,
@@ -57,49 +57,9 @@
       "fips_county": "131"
     },
     {
-      "name": "Mobile",
-      "slug": "mobile",
-      "score": 49.5,
-      "total_exemptions_usd": 1985236286.0,
-      "cost_per_household_usd": 12438.43,
-      "total_beneficiaries": 0,
-      "num_awards": 13,
-      "fips_county": "097"
-    },
-    {
-      "name": "Talladega",
-      "slug": "talladega",
-      "score": 43.6,
-      "total_exemptions_usd": 247700000.0,
-      "cost_per_household_usd": 7654.75,
-      "total_beneficiaries": 0,
-      "num_awards": 2,
-      "fips_county": "121"
-    },
-    {
-      "name": "Coosa",
-      "slug": "coosa",
-      "score": 42.9,
-      "total_exemptions_usd": 28863235.0,
-      "cost_per_household_usd": 7217.61,
-      "total_beneficiaries": 0,
-      "num_awards": 2,
-      "fips_county": "037"
-    },
-    {
-      "name": "Madison",
-      "slug": "madison",
-      "score": 41.8,
-      "total_exemptions_usd": 996980659.0,
-      "cost_per_household_usd": 6247.96,
-      "total_beneficiaries": 0,
-      "num_awards": 9,
-      "fips_county": "089"
-    },
-    {
       "name": "Tuscaloosa",
       "slug": "tuscaloosa",
-      "score": 41.8,
+      "score": 37.5,
       "total_exemptions_usd": 458561436.0,
       "cost_per_household_usd": 5411.2,
       "total_beneficiaries": 0,
@@ -107,9 +67,49 @@
       "fips_county": "125"
     },
     {
+      "name": "Mobile",
+      "slug": "mobile",
+      "score": 36.7,
+      "total_exemptions_usd": 1985236286.0,
+      "cost_per_household_usd": 12438.43,
+      "total_beneficiaries": 0,
+      "num_awards": 13,
+      "fips_county": "097"
+    },
+    {
+      "name": "Madison",
+      "slug": "madison",
+      "score": 34.8,
+      "total_exemptions_usd": 996980659.0,
+      "cost_per_household_usd": 6247.96,
+      "total_beneficiaries": 0,
+      "num_awards": 9,
+      "fips_county": "089"
+    },
+    {
+      "name": "Coosa",
+      "slug": "coosa",
+      "score": 33.6,
+      "total_exemptions_usd": 28863235.0,
+      "cost_per_household_usd": 7217.61,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "037"
+    },
+    {
+      "name": "Talladega",
+      "slug": "talladega",
+      "score": 32.7,
+      "total_exemptions_usd": 247700000.0,
+      "cost_per_household_usd": 7654.75,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "121"
+    },
+    {
       "name": "Morgan",
       "slug": "morgan",
-      "score": 39.2,
+      "score": 32.2,
       "total_exemptions_usd": 235000000.0,
       "cost_per_household_usd": 4895.43,
       "total_beneficiaries": 0,
@@ -117,9 +117,19 @@
       "fips_county": "103"
     },
     {
+      "name": "Baldwin",
+      "slug": "baldwin",
+      "score": 30.2,
+      "total_exemptions_usd": 349272511.0,
+      "cost_per_household_usd": 3846.53,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "003"
+    },
+    {
       "name": "Jackson",
       "slug": "jackson",
-      "score": 36.5,
+      "score": 30.2,
       "total_exemptions_usd": 81000000.0,
       "cost_per_household_usd": 3918.72,
       "total_beneficiaries": 0,
@@ -129,7 +139,7 @@
     {
       "name": "Montgomery",
       "slug": "montgomery",
-      "score": 35.1,
+      "score": 30.1,
       "total_exemptions_usd": 338600000.0,
       "cost_per_household_usd": 3773.92,
       "total_beneficiaries": 0,
@@ -137,19 +147,9 @@
       "fips_county": "101"
     },
     {
-      "name": "Baldwin",
-      "slug": "baldwin",
-      "score": 34.3,
-      "total_exemptions_usd": 349272511.0,
-      "cost_per_household_usd": 3846.53,
-      "total_beneficiaries": 0,
-      "num_awards": 3,
-      "fips_county": "003"
-    },
-    {
       "name": "Coffee",
       "slug": "coffee",
-      "score": 32.7,
+      "score": 29.2,
       "total_exemptions_usd": 59938129.0,
       "cost_per_household_usd": 2943.48,
       "total_beneficiaries": 0,
@@ -159,7 +159,7 @@
     {
       "name": "Limestone",
       "slug": "limestone",
-      "score": 30.0,
+      "score": 28.0,
       "total_exemptions_usd": 81395144.0,
       "cost_per_household_usd": 2110.21,
       "total_beneficiaries": 0,
@@ -169,7 +169,7 @@
     {
       "name": "Macon",
       "slug": "macon",
-      "score": 29.0,
+      "score": 26.5,
       "total_exemptions_usd": 9959001.0,
       "cost_per_household_usd": 1396.58,
       "total_beneficiaries": 0,
@@ -177,19 +177,9 @@
       "fips_county": "087"
     },
     {
-      "name": "Lee",
-      "slug": "lee",
-      "score": 27.0,
-      "total_exemptions_usd": 70820815.0,
-      "cost_per_household_usd": 1086.78,
-      "total_beneficiaries": 0,
-      "num_awards": 6,
-      "fips_county": "081"
-    },
-    {
       "name": "Covington",
       "slug": "covington",
-      "score": 26.4,
+      "score": 26.1,
       "total_exemptions_usd": 13325094.0,
       "cost_per_household_usd": 938.78,
       "total_beneficiaries": 0,
@@ -197,9 +187,19 @@
       "fips_county": "039"
     },
     {
+      "name": "Lee",
+      "slug": "lee",
+      "score": 25.6,
+      "total_exemptions_usd": 70820815.0,
+      "cost_per_household_usd": 1086.78,
+      "total_beneficiaries": 0,
+      "num_awards": 6,
+      "fips_county": "081"
+    },
+    {
       "name": "Autauga",
       "slug": "autauga",
-      "score": 24.5,
+      "score": 23.8,
       "total_exemptions_usd": 14805224.0,
       "cost_per_household_usd": 663.67,
       "total_beneficiaries": 0,
@@ -209,7 +209,7 @@
     {
       "name": "Colbert",
       "slug": "colbert",
-      "score": 20.6,
+      "score": 21.4,
       "total_exemptions_usd": 5990847.0,
       "cost_per_household_usd": 257.49,
       "total_beneficiaries": 0,
@@ -229,7 +229,7 @@
     {
       "name": "Marion",
       "slug": "marion",
-      "score": 20.0,
+      "score": 19.7,
       "total_exemptions_usd": 2381976.0,
       "cost_per_household_usd": 216.19,
       "total_beneficiaries": 0,
@@ -237,19 +237,9 @@
       "fips_county": "093"
     },
     {
-      "name": "St. Clair",
-      "slug": "st-clair",
-      "score": 19.4,
-      "total_exemptions_usd": 6379836.0,
-      "cost_per_household_usd": 188.54,
-      "total_beneficiaries": 0,
-      "num_awards": 7,
-      "fips_county": "115"
-    },
-    {
       "name": "Dekalb",
       "slug": "dekalb",
-      "score": 18.8,
+      "score": 18.6,
       "total_exemptions_usd": 4093445.0,
       "cost_per_household_usd": 159.34,
       "total_beneficiaries": 0,
@@ -259,7 +249,7 @@
     {
       "name": "Chambers",
       "slug": "chambers",
-      "score": 13.6,
+      "score": 14.6,
       "total_exemptions_usd": 515636.0,
       "cost_per_household_usd": 39.23,
       "total_beneficiaries": 0,
@@ -269,7 +259,7 @@
     {
       "name": "Houston",
       "slug": "houston",
-      "score": 13.6,
+      "score": 14.6,
       "total_exemptions_usd": 1644778.0,
       "cost_per_household_usd": 39.59,
       "total_beneficiaries": 0,
@@ -295,6 +285,16 @@
       "total_beneficiaries": 0,
       "num_awards": 2,
       "fips_county": "015"
+    },
+    {
+      "name": "St. Clair",
+      "slug": "st-clair",
+      "score": 2.2,
+      "total_exemptions_usd": 6379836.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 7,
+      "fips_county": "115"
     },
     {
       "name": "Barbour",

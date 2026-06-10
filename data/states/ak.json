@@ -39,9 +39,9 @@
     {
       "name": "Anchorage",
       "slug": "anchorage",
-      "score": 81.0,
+      "score": 82.0,
       "total_exemptions_usd": 1095904052.0,
-      "cost_per_household_usd": 10229.28,
+      "cost_per_household_usd": 9579.75,
       "total_beneficiaries": 0,
       "num_awards": 308,
       "fips_county": "020"
@@ -51,7 +51,7 @@
       "slug": "northwest-arctic",
       "score": 44.0,
       "total_exemptions_usd": 267000000.0,
-      "cost_per_household_usd": 150337.84,
+      "cost_per_household_usd": 98306.33,
       "total_beneficiaries": 0,
       "num_awards": 1,
       "fips_county": "188"
@@ -59,9 +59,9 @@
     {
       "name": "Skagway",
       "slug": "skagway",
-      "score": 37.0,
+      "score": 38.0,
       "total_exemptions_usd": 25000000.0,
-      "cost_per_household_usd": 60975.61,
+      "cost_per_household_usd": 49900.2,
       "total_beneficiaries": 0,
       "num_awards": 1,
       "fips_county": "232"
@@ -71,7 +71,7 @@
       "slug": "ketchikan-gateway",
       "score": 32.0,
       "total_exemptions_usd": 30000000.0,
-      "cost_per_household_usd": 5387.93,
+      "cost_per_household_usd": 4691.9,
       "total_beneficiaries": 0,
       "num_awards": 1,
       "fips_county": "130"
