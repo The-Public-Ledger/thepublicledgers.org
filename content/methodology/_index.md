@@ -120,21 +120,19 @@ A company flagged as statistically significant had a donation pattern in the yea
 
 In addition to the descriptive pipeline, we estimate formal regressions using Stata to test whether the donation gap survives statistical controls.
 
-**Main result (OLS with individual-level controls):** Using 438,714 unique organization donors from the NYSBOE campaign finance database as a control group, we estimate that IDA subsidy recipients donate approximately 130% more than non-recipient organizations in the same county and era (OLS β = 0.83, p < 0.001, with county and decade fixed effects). This gap is robust across six specifications with different control sets.
+**Main result (OLS with individual-level controls):** Using 438,714 unique organization donors from the NYSBOE campaign finance database as a control group, we estimate that IDA subsidy recipients donate approximately 130% more than non-recipient organizations in the same county and era (OLS β = 0.83, p < 0.001, with county and decade fixed effects). This gap is robust across six specifications with different control sets. *Exploratory analysis — no pre-registered analysis plan. Because the control group is organizations already appearing in campaign-finance records, this estimates the difference among politically active firms, not population-wide donation propensity.*
 
 <iframe src="/data/viz_coefficient_stability.html" width="100%" height="520" frameborder="0" style="max-width: 920px;"></iframe>
 
-**Donation probability:** A logit model estimates that IDA recipients are 19 percentage points more likely to be substantive donors ($1,000+) than comparable non-recipient organizations (average marginal effect, p < 0.001).
+**Donation probability:** A logit model estimates that IDA recipients are about 24 percentage points more likely to be substantive donors ($1,000+) than comparable non-recipient organizations (average marginal effect 0.2375, p < 0.001; same politically-active-firm control universe as above). *Exploratory — no pre-registered analysis plan.*
 
 <iframe src="/data/viz_donation_rate.html" width="100%" height="470" frameborder="0" style="max-width: 720px;"></iframe>
 
-**Dose-response:** Among IDA recipients, larger subsidies are associated with larger donations (β = 0.057 per log-dollar of subsidy, p < 0.001). A 10% increase in subsidy amount is associated with a 0.6% increase in donation amount.
+**Dose-response:** Among IDA recipients, larger subsidies are associated with larger donations (β = +0.023 per log-dollar of subsidy, p < 0.05; the association concentrates in larger awards, with β = +0.213 among awards of $100,000 or more, p < 0.01). A 10% increase in subsidy amount is associated with roughly a 0.2% increase in donation amount overall. These estimates are exploratory — no prospective pre-analysis plan was filed.
 
 <iframe src="/data/viz_dose_response.html" width="100%" height="520" frameborder="0" style="max-width: 770px;"></iframe>
 
-**Timing (event study):** An event study using monthly donation data around IDA approval dates finds no significant concentration of donations in the months immediately before approval. The donation gap is in *rate* (recipients donate more overall), not *timing* (donations are not clustered before approval). This result is reported as a valid negative finding.
-
-<iframe src="/data/viz_event_study.html" width="100%" height="470" frameborder="0" style="max-width: 870px;"></iframe>
+**Timing (TWFE event study) — superseded; retained as an appendix record only:** An earlier two-way fixed effects (TWFE) event study using monthly donation data around IDA approval dates reported no significant concentration of donations before approval. That result is **no longer a current finding**. As documented above, a Goodman-Bacon (2021) decomposition showed that 95.7% of the TWFE estimate's identifying variation came from forbidden treated-versus-treated comparisons, rendering it unreliable; the Callaway-Sant'Anna estimator (overall ATT = −3.11 log points, p < 0.001, with a pre-approval donation surge) is the primary causal estimate for donation timing. The TWFE result is noted here only to document the methodology transition and should not be cited.
 
 **School district panel:** A district-level panel analysis (2017–2022, 147,000+ district-year observations) found no statistically significant reduction in per-pupil property tax revenue associated with IDA exemptions after controlling for district fixed effects. This is consistent with districts adjusting tax rates to offset lost base — shifting the burden to homeowners rather than experiencing a budget cut.
 
@@ -236,3 +234,4 @@ Methodology updates — where the analytical approach is refined rather than an 
 | 2026-04-08 | Illinois spike analysis rerun using nonparametric test with BH correction. Result: 196 ratio-based spikes, 0 BH-significant (was 116 under z-score test). Methodology section updated to document the z-score → nonparametric transition. |
 | 2026-04-08 | Florida beneficiary-donor crossref rerun with canonical normalization. Match rate revised from 39.2% to 36.1%. |
 | 2026-04-08 | Opioid headline allocation corrected from $5.6B to ~$5.4B after removing WV Wyoming County $274.6M data entry error (confirmed by WV First Foundation as erroneous in source PDF). |
+| 2026-06-09 | TWFE event-study section explicitly marked superseded (it had remained on this page alongside the Callaway-Sant'Anna update); deprecated event-study visualization removed. Dose-response coefficients updated to the current clustered estimates (β = +0.023 overall, +0.213 for $100K+ awards; prior 0.057 figure was from a superseded specification). |

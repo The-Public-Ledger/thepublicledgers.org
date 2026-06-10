@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Livingston",
     "county_slug": "livingston",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 54.81,
+    "accountability_score": 54.81,
     "total_exemptions_usd": 49172574.23,
     "net_exemptions_usd": 32153784.27,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Livingston County ranks 46th out of 104 New York counties for total tax exemptions, with $49.2M in property tax breaks — near the state median. 28% of subsidy recipients donated to local officials.",
+    "summary": "Livingston County ranks 46th out of 104 New York counties for total tax exemptions, with $49.2M in property tax breaks — near the state median. 28% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "near the state median",
     "donor_context": "near average"
   },

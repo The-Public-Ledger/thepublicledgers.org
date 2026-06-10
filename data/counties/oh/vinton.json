@@ -4,11 +4,11 @@
     "state_name": "Ohio",
     "county": "Vinton",
     "county_slug": "vinton",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 20.95,
+    "accountability_score": 20.95,
     "total_exemptions_usd": 200000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 2657.16,
@@ -36,7 +36,7 @@
     "donor_context": "3.2× the state average"
   },
   "narrative": {
-    "summary": "Vinton County ranks 78th out of 88 Ohio counties for total tax exemptions, with $200K in property tax breaks — below the state median. 100% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,657.",
+    "summary": "Vinton County ranks 78th out of 88 Ohio counties for total tax exemptions, with $200K in property tax breaks — below the state median. 100% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $2,657.",
     "subsidy_context": "below the state median",
     "donor_context": "3.2× the state average"
   },

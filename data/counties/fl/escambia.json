@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Escambia",
     "county_slug": "escambia",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 4.4,
+    "accountability_score": 4.4,
     "total_exemptions_usd": 53432200.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 365.67,
@@ -33,7 +33,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Escambia County ranks 13th out of 78 Florida counties for total tax exemptions, with $53.4M in property tax breaks — 6.7× the state median. 41% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $366.",
+    "summary": "Escambia County ranks 13th out of 78 Florida counties for total tax exemptions, with $53.4M in property tax breaks — 6.7× the state median. 41% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $366.",
     "subsidy_context": "6.7× the state median",
     "donor_context": "near average"
   },

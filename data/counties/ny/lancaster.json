@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Lancaster",
     "county_slug": "lancaster",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 57.09,
+    "accountability_score": 57.09,
     "total_exemptions_usd": 24887118.69,
     "net_exemptions_usd": 11559144.53,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "above average"
   },
   "narrative": {
-    "summary": "Lancaster County ranks 67th out of 104 New York counties for total tax exemptions, with $24.9M in property tax breaks — below the state median. 35% of subsidy recipients donated to local officials.",
+    "summary": "Lancaster County ranks 67th out of 104 New York counties for total tax exemptions, with $24.9M in property tax breaks — below the state median. 35% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "above average"
   },

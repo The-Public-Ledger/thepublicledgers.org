@@ -4,11 +4,11 @@
     "state_name": "Utah",
     "county": "Weber",
     "county_slug": "weber",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 10.3,
+    "accountability_score": 10.3,
     "total_exemptions_usd": 22594958.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 251.08,

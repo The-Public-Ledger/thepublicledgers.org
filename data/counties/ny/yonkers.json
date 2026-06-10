@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Yonkers",
     "county_slug": "yonkers",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 57.86,
+    "accountability_score": 57.86,
     "total_exemptions_usd": 428966725.96,
     "net_exemptions_usd": 211945591.78,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Yonkers County ranks 4th out of 104 New York counties for total tax exemptions, with $429.0M in property tax breaks — 10.1× the state median. 27% of subsidy recipients donated to local officials.",
+    "summary": "Yonkers County ranks 4th out of 104 New York counties for total tax exemptions, with $429.0M in property tax breaks — 10.1× the state median. 27% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "10.1× the state median",
     "donor_context": "near average"
   },

@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Onondaga",
     "county_slug": "onondaga",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 56.41,
+    "accountability_score": 56.41,
     "total_exemptions_usd": 158199945.44,
     "net_exemptions_usd": 87567526.6,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "above average"
   },
   "narrative": {
-    "summary": "Onondaga County ranks 23rd out of 104 New York counties for total tax exemptions, with $158.2M in property tax breaks — 3.7× the state median. 32% of subsidy recipients donated to local officials.",
+    "summary": "Onondaga County ranks 23rd out of 104 New York counties for total tax exemptions, with $158.2M in property tax breaks — 3.7× the state median. 32% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "3.7× the state median",
     "donor_context": "above average"
   },

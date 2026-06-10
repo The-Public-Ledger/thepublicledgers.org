@@ -4,11 +4,11 @@
     "state_name": "Ohio",
     "county": "Franklin",
     "county_slug": "franklin",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 13.36,
+    "accountability_score": 13.36,
     "total_exemptions_usd": 232297321.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 3022.22,
@@ -36,7 +36,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Franklin County ranks 6th out of 88 Ohio counties for total tax exemptions, with $232.3M in property tax breaks — 48.8× the state median. 13% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $3,022.",
+    "summary": "Franklin County ranks 6th out of 88 Ohio counties for total tax exemptions, with $232.3M in property tax breaks — 48.8× the state median. 13% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $3,022.",
     "subsidy_context": "48.8× the state median",
     "donor_context": "below average"
   },

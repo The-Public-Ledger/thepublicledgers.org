@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Clifton Park",
     "county_slug": "clifton-park",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 37.96,
+    "accountability_score": 37.96,
     "total_exemptions_usd": 5887283.52,
     "net_exemptions_usd": 4467402.47,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Clifton Park County ranks 94th out of 104 New York counties for total tax exemptions, with $5.9M in property tax breaks — below the state median. 14% of subsidy recipients donated to local officials.",
+    "summary": "Clifton Park County ranks 94th out of 104 New York counties for total tax exemptions, with $5.9M in property tax breaks — below the state median. 14% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "below average"
   },

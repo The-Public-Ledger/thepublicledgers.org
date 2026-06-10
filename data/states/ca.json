@@ -2,7 +2,7 @@
   "meta": {
     "state": "CA",
     "state_name": "California",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "sources": [
       "Good Jobs First"
     ],
@@ -25,7 +25,6 @@
   "top_findings": [
     "2,713 of 6,338 subsidized companies (41.0%) made campaign donations — $2082.2M total.",
     "$10.2M in donations flowed from beneficiaries to 40 political committees. Top recipient: INTEGRATED HEALTHCARE HOLDINGS, INC. ($4.3M).",
-    "185 companies showed statistically significant pre-award donation spikes (BH-corrected, q<0.05). Top: GRIMMWAY ENTERPRISES INC. DBA GRIMMWAY FARMS (297.2× baseline, z=790.3).",
     "$68.44B in total subsidies tracked across 6,338 beneficiary companies in California."
   ],
   "counsel_conflicts": [],
@@ -35,14 +34,6 @@
     "top_committee_name": "INTEGRATED HEALTHCARE HOLDINGS, INC.",
     "top_committee_amount": 4290291.0,
     "top_committee_pct": 100.0
-  },
-  "timeline_stats": {
-    "total_spikes": 378,
-    "bh_sig_count": 185,
-    "top_spike_name": "GRIMMWAY ENTERPRISES INC. DBA GRIMMWAY FARMS",
-    "top_spike_z": 790.3,
-    "top_spike_ratio": 297.2,
-    "top_spike_subsidy": 4018920.0
   },
   "counties": [
     {

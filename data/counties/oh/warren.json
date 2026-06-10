@@ -4,11 +4,11 @@
     "state_name": "Ohio",
     "county": "Warren",
     "county_slug": "warren",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 2.37,
+    "accountability_score": 2.37,
     "total_exemptions_usd": 13601220.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 2769.0,
@@ -36,7 +36,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Warren County ranks 25th out of 88 Ohio counties for total tax exemptions, with $13.6M in property tax breaks — 2.9× the state median. 8% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,769.",
+    "summary": "Warren County ranks 25th out of 88 Ohio counties for total tax exemptions, with $13.6M in property tax breaks — 2.9× the state median. 8% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $2,769.",
     "subsidy_context": "2.9× the state median",
     "donor_context": "below average"
   },

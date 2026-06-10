@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Chautauqua",
     "county_slug": "chautauqua",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 58.59,
+    "accountability_score": 58.59,
     "total_exemptions_usd": 169002774.99,
     "net_exemptions_usd": 154277148.95,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Chautauqua County ranks 22nd out of 104 New York counties for total tax exemptions, with $169.0M in property tax breaks — 4.0× the state median. 21% of subsidy recipients donated to local officials.",
+    "summary": "Chautauqua County ranks 22nd out of 104 New York counties for total tax exemptions, with $169.0M in property tax breaks — 4.0× the state median. 21% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "4.0× the state median",
     "donor_context": "near average"
   },

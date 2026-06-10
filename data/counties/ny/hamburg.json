@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Hamburg",
     "county_slug": "hamburg",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 49.22,
+    "accountability_score": 49.22,
     "total_exemptions_usd": 29350575.68,
     "net_exemptions_usd": 16748892.18,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Hamburg County ranks 61st out of 104 New York counties for total tax exemptions, with $29.4M in property tax breaks — below the state median. 29% of subsidy recipients donated to local officials.",
+    "summary": "Hamburg County ranks 61st out of 104 New York counties for total tax exemptions, with $29.4M in property tax breaks — below the state median. 29% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "near average"
   },

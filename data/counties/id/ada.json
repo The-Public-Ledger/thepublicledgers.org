@@ -4,11 +4,11 @@
     "state_name": "Idaho",
     "county": "Ada",
     "county_slug": "ada",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 22.2,
+    "accountability_score": 22.2,
     "total_exemptions_usd": 46406037.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 243.42,

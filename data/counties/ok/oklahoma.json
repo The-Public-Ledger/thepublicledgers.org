@@ -8,7 +8,6 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 4.4,
     "total_exemptions_usd": 250972052.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 710.11,
@@ -20,7 +19,8 @@
     "jobs_current": 0,
     "num_awards": 405,
     "warn_workers_affected": 0,
-    "fips_county": "109"
+    "fips_county": "109",
+    "accountability_score": 4.4
   },
   "benchmarks": {
     "state_rank": 4,

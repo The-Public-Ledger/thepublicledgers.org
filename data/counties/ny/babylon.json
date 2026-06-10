@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Babylon",
     "county_slug": "babylon",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 51.21,
+    "accountability_score": 51.21,
     "total_exemptions_usd": 294098128.5,
     "net_exemptions_usd": 132054592.2,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Babylon County ranks 11th out of 104 New York counties for total tax exemptions, with $294.1M in property tax breaks — 6.9× the state median. 25% of subsidy recipients donated to local officials.",
+    "summary": "Babylon County ranks 11th out of 104 New York counties for total tax exemptions, with $294.1M in property tax breaks — 6.9× the state median. 25% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "6.9× the state median",
     "donor_context": "near average"
   },

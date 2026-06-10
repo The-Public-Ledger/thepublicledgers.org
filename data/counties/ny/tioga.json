@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Tioga",
     "county_slug": "tioga",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 49.37,
+    "accountability_score": 49.37,
     "total_exemptions_usd": 104351993.14,
     "net_exemptions_usd": 51678233.62,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Tioga County ranks 31st out of 104 New York counties for total tax exemptions, with $104.4M in property tax breaks — 2.5× the state median. 13% of subsidy recipients donated to local officials.",
+    "summary": "Tioga County ranks 31st out of 104 New York counties for total tax exemptions, with $104.4M in property tax breaks — 2.5× the state median. 13% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "2.5× the state median",
     "donor_context": "below average"
   },

@@ -4,11 +4,11 @@
     "state_name": "Nevada",
     "county": "Washoe",
     "county_slug": "washoe",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 73.67,
+    "accountability_score": 73.67,
     "total_exemptions_usd": 10997651.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 52.75,

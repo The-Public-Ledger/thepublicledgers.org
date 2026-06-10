@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Dutchess",
     "county_slug": "dutchess",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 52.33,
+    "accountability_score": 52.33,
     "total_exemptions_usd": 419817582.4,
     "net_exemptions_usd": 319617823.7,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Dutchess County ranks 5th out of 104 New York counties for total tax exemptions, with $419.8M in property tax breaks — 9.9× the state median. 23% of subsidy recipients donated to local officials.",
+    "summary": "Dutchess County ranks 5th out of 104 New York counties for total tax exemptions, with $419.8M in property tax breaks — 9.9× the state median. 23% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "9.9× the state median",
     "donor_context": "near average"
   },

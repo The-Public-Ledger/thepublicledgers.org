@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Genesee",
     "county_slug": "genesee",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 46.17,
+    "accountability_score": 46.17,
     "total_exemptions_usd": 70822165.31,
     "net_exemptions_usd": 51819894.67,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Genesee County ranks 38th out of 104 New York counties for total tax exemptions, with $70.8M in property tax breaks — above the state median. 19% of subsidy recipients donated to local officials.",
+    "summary": "Genesee County ranks 38th out of 104 New York counties for total tax exemptions, with $70.8M in property tax breaks — above the state median. 19% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "above the state median",
     "donor_context": "below average"
   },

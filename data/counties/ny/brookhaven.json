@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Brookhaven",
     "county_slug": "brookhaven",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 51.7,
+    "accountability_score": 51.7,
     "total_exemptions_usd": 328122524.5,
     "net_exemptions_usd": 172155843.5,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Brookhaven County ranks 9th out of 104 New York counties for total tax exemptions, with $328.1M in property tax breaks — 7.7× the state median. 26% of subsidy recipients donated to local officials.",
+    "summary": "Brookhaven County ranks 9th out of 104 New York counties for total tax exemptions, with $328.1M in property tax breaks — 7.7× the state median. 26% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "7.7× the state median",
     "donor_context": "near average"
   },

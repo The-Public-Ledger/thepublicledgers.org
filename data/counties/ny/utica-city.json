@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Utica (City)",
     "county_slug": "utica-city",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 23.16,
+    "accountability_score": 23.16,
     "total_exemptions_usd": 46901246.88,
     "net_exemptions_usd": 37599582.88,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Utica (City) County ranks 49th out of 104 New York counties for total tax exemptions, with $46.9M in property tax breaks — near the state median. 16% of subsidy recipients donated to local officials.",
+    "summary": "Utica (City) County ranks 49th out of 104 New York counties for total tax exemptions, with $46.9M in property tax breaks — near the state median. 16% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "near the state median",
     "donor_context": "below average"
   },

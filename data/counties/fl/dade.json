@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Dade",
     "county_slug": "dade",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 3.3,
+    "accountability_score": 3.3,
     "total_exemptions_usd": 225159969.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.0,
@@ -33,7 +33,7 @@
     "donor_context": "above average"
   },
   "narrative": {
-    "summary": "Dade County ranks 7th out of 78 Florida counties for total tax exemptions, with $225.2M in property tax breaks — 28.0× the state median. 62% of subsidy recipients donated to local officials.",
+    "summary": "Dade County ranks 7th out of 78 Florida counties for total tax exemptions, with $225.2M in property tax breaks — 28.0× the state median. 62% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "28.0× the state median",
     "donor_context": "above average"
   },

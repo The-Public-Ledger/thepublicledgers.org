@@ -4,11 +4,11 @@
     "state_name": "Ohio",
     "county": "Seneca",
     "county_slug": "seneca",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 6.43,
+    "accountability_score": 6.43,
     "total_exemptions_usd": 1141066.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 2671.19,
@@ -36,7 +36,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Seneca County ranks 65th out of 88 Ohio counties for total tax exemptions, with $1.1M in property tax breaks — below the state median. 25% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $2,671.",
+    "summary": "Seneca County ranks 65th out of 88 Ohio counties for total tax exemptions, with $1.1M in property tax breaks — below the state median. 25% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $2,671.",
     "subsidy_context": "below the state median",
     "donor_context": "near average"
   },

@@ -4,11 +4,11 @@
     "state_name": "Rhode Island",
     "county": "Bristol",
     "county_slug": "bristol",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 10.54,
+    "accountability_score": 10.54,
     "total_exemptions_usd": 40196529.2,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 2096.52,

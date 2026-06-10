@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Putnam",
     "county_slug": "putnam",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 45.0,
+    "accountability_score": 45.0,
     "total_exemptions_usd": 8426147.66,
     "net_exemptions_usd": 4639924.66,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Putnam County ranks 86th out of 104 New York counties for total tax exemptions, with $8.4M in property tax breaks — below the state median. 23% of subsidy recipients donated to local officials.",
+    "summary": "Putnam County ranks 86th out of 104 New York counties for total tax exemptions, with $8.4M in property tax breaks — below the state median. 23% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "near average"
   },

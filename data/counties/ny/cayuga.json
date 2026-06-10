@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Cayuga",
     "county_slug": "cayuga",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 35.41,
+    "accountability_score": 35.41,
     "total_exemptions_usd": 18217932.52,
     "net_exemptions_usd": 14373143.27,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Cayuga County ranks 71st out of 104 New York counties for total tax exemptions, with $18.2M in property tax breaks — below the state median. 19% of subsidy recipients donated to local officials.",
+    "summary": "Cayuga County ranks 71st out of 104 New York counties for total tax exemptions, with $18.2M in property tax breaks — below the state median. 19% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "below average"
   },

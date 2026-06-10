@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Madison",
     "county_slug": "madison",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 56.5,
+    "accountability_score": 56.5,
     "total_exemptions_usd": 10370054.28,
     "net_exemptions_usd": 7321224.15,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "above average"
   },
   "narrative": {
-    "summary": "Madison County ranks 82nd out of 104 New York counties for total tax exemptions, with $10.4M in property tax breaks — below the state median. 43% of subsidy recipients donated to local officials.",
+    "summary": "Madison County ranks 82nd out of 104 New York counties for total tax exemptions, with $10.4M in property tax breaks — below the state median. 43% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "above average"
   },

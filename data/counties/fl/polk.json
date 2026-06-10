@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Polk",
     "county_slug": "polk",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 3.65,
+    "accountability_score": 3.65,
     "total_exemptions_usd": 26501700.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 82.81,
@@ -33,7 +33,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Polk County ranks 16th out of 78 Florida counties for total tax exemptions, with $26.5M in property tax breaks — 3.3× the state median. 25% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $83.",
+    "summary": "Polk County ranks 16th out of 78 Florida counties for total tax exemptions, with $26.5M in property tax breaks — 3.3× the state median. 25% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $83.",
     "subsidy_context": "3.3× the state median",
     "donor_context": "below average"
   },

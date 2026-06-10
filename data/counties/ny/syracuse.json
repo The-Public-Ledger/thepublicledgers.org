@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Syracuse",
     "county_slug": "syracuse",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 48.69,
+    "accountability_score": 48.69,
     "total_exemptions_usd": 232367900.5,
     "net_exemptions_usd": 198388912.94,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Syracuse County ranks 14th out of 104 New York counties for total tax exemptions, with $232.4M in property tax breaks — 5.5× the state median. 19% of subsidy recipients donated to local officials.",
+    "summary": "Syracuse County ranks 14th out of 104 New York counties for total tax exemptions, with $232.4M in property tax breaks — 5.5× the state median. 19% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "5.5× the state median",
     "donor_context": "below average"
   },

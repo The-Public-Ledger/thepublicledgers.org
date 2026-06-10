@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Chenango",
     "county_slug": "chenango",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 36.46,
+    "accountability_score": 36.46,
     "total_exemptions_usd": 12448193.1,
     "net_exemptions_usd": 7202869.51,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Chenango County ranks 78th out of 104 New York counties for total tax exemptions, with $12.4M in property tax breaks — below the state median. 12% of subsidy recipients donated to local officials.",
+    "summary": "Chenango County ranks 78th out of 104 New York counties for total tax exemptions, with $12.4M in property tax breaks — below the state median. 12% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "below average"
   },

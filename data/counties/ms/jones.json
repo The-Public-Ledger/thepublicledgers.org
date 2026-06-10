@@ -4,11 +4,11 @@
     "state_name": "Mississippi",
     "county": "Jones",
     "county_slug": "jones",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 22.7,
+    "accountability_score": 22.7,
     "total_exemptions_usd": 125506.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 5.21,

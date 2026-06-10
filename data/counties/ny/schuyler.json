@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Schuyler",
     "county_slug": "schuyler",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 52.28,
+    "accountability_score": 52.28,
     "total_exemptions_usd": 11181893.17,
     "net_exemptions_usd": 3665519.75,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Schuyler County ranks 81st out of 104 New York counties for total tax exemptions, with $11.2M in property tax breaks — below the state median. 22% of subsidy recipients donated to local officials.",
+    "summary": "Schuyler County ranks 81st out of 104 New York counties for total tax exemptions, with $11.2M in property tax breaks — below the state median. 22% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "near average"
   },

@@ -4,11 +4,11 @@
     "state_name": "Maryland",
     "county": "Frederick",
     "county_slug": "frederick",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 16.5,
+    "accountability_score": 16.5,
     "total_exemptions_usd": 85930054.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 860.24,

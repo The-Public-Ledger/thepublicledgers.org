@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Broome",
     "county_slug": "broome",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 53.11,
+    "accountability_score": 53.11,
     "total_exemptions_usd": 141894363.6,
     "net_exemptions_usd": 89914420.47,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Broome County ranks 25th out of 104 New York counties for total tax exemptions, with $141.9M in property tax breaks — 3.3× the state median. 31% of subsidy recipients donated to local officials.",
+    "summary": "Broome County ranks 25th out of 104 New York counties for total tax exemptions, with $141.9M in property tax breaks — 3.3× the state median. 31% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "3.3× the state median",
     "donor_context": "near average"
   },

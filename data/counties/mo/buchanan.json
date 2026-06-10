@@ -4,11 +4,11 @@
     "state_name": "Missouri",
     "county": "Buchanan",
     "county_slug": "buchanan",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 18.3,
+    "accountability_score": 18.3,
     "total_exemptions_usd": 13879.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.42,

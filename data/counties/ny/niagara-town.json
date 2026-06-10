@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Niagara Town",
     "county_slug": "niagara-town",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 56.48,
+    "accountability_score": 56.48,
     "total_exemptions_usd": 7822767.0,
     "net_exemptions_usd": 2693065.0,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Niagara Town County ranks 89th out of 104 New York counties for total tax exemptions, with $7.8M in property tax breaks — below the state median. 29% of subsidy recipients donated to local officials.",
+    "summary": "Niagara Town County ranks 89th out of 104 New York counties for total tax exemptions, with $7.8M in property tax breaks — below the state median. 29% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "near average"
   },

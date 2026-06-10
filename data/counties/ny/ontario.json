@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Ontario",
     "county_slug": "ontario",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 53.25,
+    "accountability_score": 53.25,
     "total_exemptions_usd": 95509483.17,
     "net_exemptions_usd": 53702471.25,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Ontario County ranks 32nd out of 104 New York counties for total tax exemptions, with $95.5M in property tax breaks — 2.3× the state median. 25% of subsidy recipients donated to local officials.",
+    "summary": "Ontario County ranks 32nd out of 104 New York counties for total tax exemptions, with $95.5M in property tax breaks — 2.3× the state median. 25% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "2.3× the state median",
     "donor_context": "near average"
   },

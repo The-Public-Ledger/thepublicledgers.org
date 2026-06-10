@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Lewis",
     "county_slug": "lewis",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 41.02,
+    "accountability_score": 41.02,
     "total_exemptions_usd": 42448554.03,
     "net_exemptions_usd": 20819157.57,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Lewis County ranks 52nd out of 104 New York counties for total tax exemptions, with $42.4M in property tax breaks — near the state median. 17% of subsidy recipients donated to local officials.",
+    "summary": "Lewis County ranks 52nd out of 104 New York counties for total tax exemptions, with $42.4M in property tax breaks — near the state median. 17% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "near the state median",
     "donor_context": "below average"
   },

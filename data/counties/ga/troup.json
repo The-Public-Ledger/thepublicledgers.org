@@ -4,11 +4,11 @@
     "state_name": "Georgia",
     "county": "Troup",
     "county_slug": "troup",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 4.1,
+    "accountability_score": 4.1,
     "total_exemptions_usd": 845250000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 14781.09,

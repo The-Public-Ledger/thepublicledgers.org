@@ -4,11 +4,11 @@
     "state_name": "Indiana",
     "county": "Grant",
     "county_slug": "grant",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 2.95,
+    "accountability_score": 2.95,
     "total_exemptions_usd": 54993500.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.0,

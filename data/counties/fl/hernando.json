@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Hernando",
     "county_slug": "hernando",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 2.8,
+    "accountability_score": 2.8,
     "total_exemptions_usd": 3244000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 36.19,
@@ -33,7 +33,7 @@
     "donor_context": "above average"
   },
   "narrative": {
-    "summary": "Hernando County ranks 43rd out of 78 Florida counties for total tax exemptions, with $3.2M in property tax breaks — below the state median. 67% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $36.",
+    "summary": "Hernando County ranks 43rd out of 78 Florida counties for total tax exemptions, with $3.2M in property tax breaks — below the state median. 67% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $36.",
     "subsidy_context": "below the state median",
     "donor_context": "above average"
   },

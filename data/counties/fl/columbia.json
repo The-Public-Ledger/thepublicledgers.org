@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Columbia",
     "county_slug": "columbia",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 3.2,
+    "accountability_score": 3.2,
     "total_exemptions_usd": 7395900.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 247.89,
@@ -33,7 +33,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Columbia County ranks 34th out of 78 Florida counties for total tax exemptions, with $7.4M in property tax breaks — near the state median. 36% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $248.",
+    "summary": "Columbia County ranks 34th out of 78 Florida counties for total tax exemptions, with $7.4M in property tax breaks — near the state median. 36% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $248.",
     "subsidy_context": "near the state median",
     "donor_context": "near average"
   },

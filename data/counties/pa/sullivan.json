@@ -8,7 +8,6 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 1.0,
     "total_exemptions_usd": 0.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.0,
@@ -20,7 +19,8 @@
     "jobs_current": 0,
     "multi_dippers": 0,
     "echo_penalties_usd": 0.0,
-    "congressional_donations_usd": 0.0
+    "congressional_donations_usd": 0.0,
+    "accountability_score": 1.0
   },
   "benchmarks": {
     "state_rank": 57,

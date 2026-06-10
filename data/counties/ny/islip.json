@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Islip",
     "county_slug": "islip",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 54.17,
+    "accountability_score": 54.17,
     "total_exemptions_usd": 366258440.66,
     "net_exemptions_usd": 195654698.87,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Islip County ranks 7th out of 104 New York counties for total tax exemptions, with $366.3M in property tax breaks — 8.6× the state median. 24% of subsidy recipients donated to local officials.",
+    "summary": "Islip County ranks 7th out of 104 New York counties for total tax exemptions, with $366.3M in property tax breaks — 8.6× the state median. 24% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "8.6× the state median",
     "donor_context": "near average"
   },

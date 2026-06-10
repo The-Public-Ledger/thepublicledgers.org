@@ -4,11 +4,11 @@
     "state_name": "California",
     "county": "Napa",
     "county_slug": "napa",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 6.43,
+    "accountability_score": 6.43,
     "total_exemptions_usd": 25131000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 510.61,

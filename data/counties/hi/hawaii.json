@@ -4,11 +4,11 @@
     "state_name": "Hawaii",
     "county": "Hawaii",
     "county_slug": "hawaii",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 96.79,
+    "accountability_score": 96.79,
     "total_exemptions_usd": 585036.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 8.07,

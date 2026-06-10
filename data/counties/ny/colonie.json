@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Colonie",
     "county_slug": "colonie",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 46.46,
+    "accountability_score": 46.46,
     "total_exemptions_usd": 16509160.99,
     "net_exemptions_usd": 13741129.63,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Colonie County ranks 72nd out of 104 New York counties for total tax exemptions, with $16.5M in property tax breaks — below the state median. 18% of subsidy recipients donated to local officials.",
+    "summary": "Colonie County ranks 72nd out of 104 New York counties for total tax exemptions, with $16.5M in property tax breaks — below the state median. 18% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "below average"
   },

@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Niagara",
     "county_slug": "niagara",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 73.5,
+    "accountability_score": 73.5,
     "total_exemptions_usd": 173290027.0,
     "net_exemptions_usd": 108764167.0,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "above average"
   },
   "narrative": {
-    "summary": "Niagara County ranks 21st out of 104 New York counties for total tax exemptions, with $173.3M in property tax breaks — 4.1× the state median. 45% of subsidy recipients donated to local officials.",
+    "summary": "Niagara County ranks 21st out of 104 New York counties for total tax exemptions, with $173.3M in property tax breaks — 4.1× the state median. 45% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "4.1× the state median",
     "donor_context": "above average"
   },

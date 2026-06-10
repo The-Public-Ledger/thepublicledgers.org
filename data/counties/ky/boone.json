@@ -4,11 +4,11 @@
     "state_name": "Kentucky",
     "county": "Boone",
     "county_slug": "boone",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 4.4,
+    "accountability_score": 4.4,
     "total_exemptions_usd": 550848522.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 10123.02,

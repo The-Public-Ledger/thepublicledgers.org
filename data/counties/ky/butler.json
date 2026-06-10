@@ -4,11 +4,11 @@
     "state_name": "Kentucky",
     "county": "Butler",
     "county_slug": "butler",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 2.4,
+    "accountability_score": 2.4,
     "total_exemptions_usd": 48929960.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.0,

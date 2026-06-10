@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Sullivan",
     "county_slug": "sullivan",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 40.83,
+    "accountability_score": 40.83,
     "total_exemptions_usd": 145154583.78,
     "net_exemptions_usd": 98262360.51,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Sullivan County ranks 24th out of 104 New York counties for total tax exemptions, with $145.2M in property tax breaks — 3.4× the state median. 13% of subsidy recipients donated to local officials.",
+    "summary": "Sullivan County ranks 24th out of 104 New York counties for total tax exemptions, with $145.2M in property tax breaks — 3.4× the state median. 13% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "3.4× the state median",
     "donor_context": "below average"
   },

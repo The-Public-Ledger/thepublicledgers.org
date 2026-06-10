@@ -13,9 +13,9 @@ Industrial Development Agencies and similar subsidy programs operate across more
 
 ### What we found
 
-Across the 14 states with complete donor-subsidy crossref analysis, **22-28% of subsidy beneficiaries also donated to political campaigns** affiliated with the officials who control subsidy approvals. This rate is 2-3 times the baseline business donation rate in most states (derived from Census County Business Patterns; all ratios are upper bounds).
+Across the 14 states with complete donor-subsidy crossref analysis, **22-28% of subsidy beneficiaries also donated to political campaigns** affiliated with the officials who control subsidy approvals. How that compares to the baseline business donation rate varies by state: in most states with a computed baseline, beneficiary donation rates are at or below the all-business rate (Ohio statewide 0.9×, Texas 0.8×, Pennsylvania 0.6×). Elevated ratios appear in the largest-employer size class — 2–3× among 500+ employee firms in Ohio and Illinois. All baseline ratios are derived from Census County Business Patterns and are upper bounds.
 
-Formal regression analysis using 438,714 New York organization donors as controls estimates that subsidy recipients donate approximately **130% more than non-recipient organizations** in the same county and era (OLS, p < 0.001). A logit model finds recipients are **19 percentage points more likely** to be substantive donors ($1,000+). These findings document a correlation; they do not establish that donations caused approvals.
+Formal regression analysis using 438,714 New York organization donors as controls estimates that subsidy recipients donate approximately **130% more than non-recipient organizations** in the same county and era (OLS, p < 0.001). A logit model finds recipients are **about 24 percentage points more likely** to be substantive donors ($1,000+) — among organizations already appearing in state campaign-finance records. These findings document a correlation; they do not establish that donations caused approvals.
 
 ### Status and caveats
 

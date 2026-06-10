@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "St. Lawrence",
     "county_slug": "st-lawrence",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 31.84,
+    "accountability_score": 31.84,
     "total_exemptions_usd": 13854417.15,
     "net_exemptions_usd": 9903971.35,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "St. Lawrence County ranks 75th out of 104 New York counties for total tax exemptions, with $13.9M in property tax breaks — below the state median. 14% of subsidy recipients donated to local officials.",
+    "summary": "St. Lawrence County ranks 75th out of 104 New York counties for total tax exemptions, with $13.9M in property tax breaks — below the state median. 14% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "below average"
   },

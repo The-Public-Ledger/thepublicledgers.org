@@ -18,10 +18,9 @@ tags: ["new-york", "ida", "property-tax", "pay-to-play"]
 <div class="key-finding-title">Key findings</div>
 
 - **$12.19 billion** in property tax exemptions granted by 104 NYS IDAs, shifted onto homeowners — **$2,384 per household** statewide (cumulative across all active projects)
-- **40.5%** of Erie County IDA beneficiaries also donated to political campaigns
-- **100%** project approval rate at Erie County IDA during the 2017 State Comptroller audit — no project was ever denied or clawed back
-- **Harris Beach PLLC** earned an estimated **$3.7–4.9 million** from ECIDA; partners at the firm contributed **$79,850** to committees affiliated with the officials who appoint the board it advises
 - The pattern persists across both Republican and Democratic administrations — documented in NYSBOE records showing contributions redirected as power changed hands
+
+*Note (2026-06-09): Erie County–specific findings have been removed from this page for the duration of the researcher's candidacy for Erie County Legislator (conflict-of-interest recusal — see [editorial standards](/standards/)). They will be re-reviewed, with right-of-reply outreach to all named subjects, after the election resolves.*
 
 </div>
 
@@ -49,7 +48,6 @@ Cross-referencing IDA project data (34,348 projects) from the NYS Authorities Bu
 
 ### County deep dives
 
-- [Erie County](/investigations/erie-county-schools/) — A $90M budget deficit, $266.8M in school tax exemptions, 100% project approval rate per the 2017 Comptroller audit, and zero clawbacks when companies missed job targets
 - [Greene County](/ida/counties/ny/greene/) — Highest per-household tax shift in NYS ($11,073); a gas plant that got $176M for 31 jobs then sold to a hedge fund manager
 - [Nassau County](/ida/counties/ny/nassau/) — Mangano corruption pipeline; 39 beneficiaries donated $183K
 - [Rensselaer County](/ida/counties/ny/rensselaer/) — MetLife's $55.4M in exemptions while employment collapsed 85%

@@ -66,11 +66,15 @@
         ) }}
         {{ end }}
 
-        {{ if .pay_to_play_score }}
+        {{/* accountability_score is the current export key; pay_to_play_score is the
+             legacy key still present in county JSONs generated before 2026-06-09 —
+             fallback can be removed after the next full export */}}
+        {{ $accScore := or .accountability_score .pay_to_play_score }}
+        {{ if $accScore }}
         {{ partial "ida/stat-card-contextual.html" (dict
-          "value" (printf "%.1f" .pay_to_play_score)
+          "value" (printf "%.1f" $accScore)
           "label" "Accountability Score"
-          "context" (cond (ge .pay_to_play_score 60.0) "High concern" (cond (ge .pay_to_play_score 40.0) "Moderate concern" "Lower concern"))
+          "context" (cond (ge $accScore 60.0) "High concern" (cond (ge $accScore 40.0) "Moderate concern" "Lower concern"))
         ) }}
         {{ end }}
 

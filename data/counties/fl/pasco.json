@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Pasco",
     "county_slug": "pasco",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 3.9,
+    "accountability_score": 3.9,
     "total_exemptions_usd": 44027300.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 169.94,
@@ -33,7 +33,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Pasco County ranks 14th out of 78 Florida counties for total tax exemptions, with $44.0M in property tax breaks — 5.5× the state median. 20% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $170.",
+    "summary": "Pasco County ranks 14th out of 78 Florida counties for total tax exemptions, with $44.0M in property tax breaks — 5.5× the state median. 20% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $170.",
     "subsidy_context": "5.5× the state median",
     "donor_context": "below average"
   },

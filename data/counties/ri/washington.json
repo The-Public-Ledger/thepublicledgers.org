@@ -4,11 +4,11 @@
     "state_name": "Rhode Island",
     "county": "Washington",
     "county_slug": "washington",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 13.83,
+    "accountability_score": 13.83,
     "total_exemptions_usd": 80409914.4,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 1563.6,

@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Albany",
     "county_slug": "albany",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 55.0,
+    "accountability_score": 55.0,
     "total_exemptions_usd": 22055346.86,
     "net_exemptions_usd": 16227642.16,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Albany County ranks 69th out of 104 New York counties for total tax exemptions, with $22.1M in property tax breaks — below the state median. 25% of subsidy recipients donated to local officials.",
+    "summary": "Albany County ranks 69th out of 104 New York counties for total tax exemptions, with $22.1M in property tax breaks — below the state median. 25% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "near average"
   },

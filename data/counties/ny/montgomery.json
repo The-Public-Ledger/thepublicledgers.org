@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Montgomery",
     "county_slug": "montgomery",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 39.22,
+    "accountability_score": 39.22,
     "total_exemptions_usd": 45259459.22,
     "net_exemptions_usd": 21408252.52,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Montgomery County ranks 51st out of 104 New York counties for total tax exemptions, with $45.3M in property tax breaks — near the state median. 15% of subsidy recipients donated to local officials.",
+    "summary": "Montgomery County ranks 51st out of 104 New York counties for total tax exemptions, with $45.3M in property tax breaks — near the state median. 15% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "near the state median",
     "donor_context": "below average"
   },

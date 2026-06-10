@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Wallkill",
     "county_slug": "wallkill",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 67.06,
+    "accountability_score": 67.06,
     "total_exemptions_usd": 3085964.29,
     "net_exemptions_usd": 2102168.53,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "above average"
   },
   "narrative": {
-    "summary": "Wallkill County ranks 97th out of 104 New York counties for total tax exemptions, with $3.1M in property tax breaks — below the state median. 40% of subsidy recipients donated to local officials.",
+    "summary": "Wallkill County ranks 97th out of 104 New York counties for total tax exemptions, with $3.1M in property tax breaks — below the state median. 40% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "above average"
   },

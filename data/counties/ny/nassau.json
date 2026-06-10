@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Nassau",
     "county_slug": "nassau",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 57.43,
+    "accountability_score": 57.43,
     "total_exemptions_usd": 1011492827.3,
     "net_exemptions_usd": 574651995.75,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Nassau County ranks 2nd out of 104 New York counties for total tax exemptions, with $1.0B in property tax breaks — 23.8× the state median. 31% of subsidy recipients donated to local officials.",
+    "summary": "Nassau County ranks 2nd out of 104 New York counties for total tax exemptions, with $1.0B in property tax breaks — 23.8× the state median. 31% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "23.8× the state median",
     "donor_context": "near average"
   },

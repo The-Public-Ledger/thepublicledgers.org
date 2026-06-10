@@ -4,11 +4,11 @@
     "state_name": "Idaho",
     "county": "Jerome",
     "county_slug": "jerome",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 19.2,
+    "accountability_score": 19.2,
     "total_exemptions_usd": 21519056.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 2659.3,

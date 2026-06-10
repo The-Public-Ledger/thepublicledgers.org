@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Schoharie",
     "county_slug": "schoharie",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 72.18,
+    "accountability_score": 72.18,
     "total_exemptions_usd": 71827609.38,
     "net_exemptions_usd": 25681484.95,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "2.9× the state average"
   },
   "narrative": {
-    "summary": "Schoharie County ranks 37th out of 104 New York counties for total tax exemptions, with $71.8M in property tax breaks — above the state median. 75% of subsidy recipients donated to local officials.",
+    "summary": "Schoharie County ranks 37th out of 104 New York counties for total tax exemptions, with $71.8M in property tax breaks — above the state median. 75% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "above the state median",
     "donor_context": "2.9× the state average"
   },

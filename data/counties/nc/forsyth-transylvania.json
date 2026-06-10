@@ -4,11 +4,11 @@
     "state_name": "North Carolina",
     "county": "Forsyth Transylvania",
     "county_slug": "forsyth-transylvania",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 2.4,
+    "accountability_score": 2.4,
     "total_exemptions_usd": 8425260.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.0,

@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Mount Vernon",
     "county_slug": "mount-vernon",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 68.88,
+    "accountability_score": 68.88,
     "total_exemptions_usd": 49178659.1,
     "net_exemptions_usd": 35830281.93,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "above average"
   },
   "narrative": {
-    "summary": "Mount Vernon County ranks 45th out of 104 New York counties for total tax exemptions, with $49.2M in property tax breaks — near the state median. 33% of subsidy recipients donated to local officials.",
+    "summary": "Mount Vernon County ranks 45th out of 104 New York counties for total tax exemptions, with $49.2M in property tax breaks — near the state median. 33% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "near the state median",
     "donor_context": "above average"
   },

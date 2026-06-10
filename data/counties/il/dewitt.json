@@ -8,7 +8,6 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 0.0,
     "total_exemptions_usd": 0.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.0,
@@ -20,7 +19,8 @@
     "jobs_current": 0,
     "echo_penalties_usd": 0.0,
     "num_penalized": 1,
-    "households": 7111
+    "households": 7111,
+    "accountability_score": 0.0
   },
   "top_findings": [],
   "deals": [],

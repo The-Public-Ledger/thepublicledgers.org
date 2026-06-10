@@ -4,11 +4,11 @@
     "state_name": "Alabama",
     "county": "Dekalb",
     "county_slug": "dekalb",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 18.8,
+    "accountability_score": 18.8,
     "total_exemptions_usd": 4093445.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 159.34,

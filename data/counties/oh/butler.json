@@ -4,11 +4,11 @@
     "state_name": "Ohio",
     "county": "Butler",
     "county_slug": "butler",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 11.88,
+    "accountability_score": 11.88,
     "total_exemptions_usd": 134053406.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 3493.72,
@@ -36,7 +36,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Butler County ranks 12th out of 88 Ohio counties for total tax exemptions, with $134.1M in property tax breaks — 28.2× the state median. 17% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $3,494.",
+    "summary": "Butler County ranks 12th out of 88 Ohio counties for total tax exemptions, with $134.1M in property tax breaks — 28.2× the state median. 17% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $3,494.",
     "subsidy_context": "28.2× the state median",
     "donor_context": "below average"
   },

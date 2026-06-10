@@ -4,11 +4,11 @@
     "state_name": "Connecticut",
     "county": "New Haven County",
     "county_slug": "new-haven-county",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 2.0,
+    "accountability_score": 2.0,
     "total_exemptions_usd": 199591860.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 199591860.0,

@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Franklin",
     "county_slug": "franklin",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 65.78,
+    "accountability_score": 65.78,
     "total_exemptions_usd": 50775438.74,
     "net_exemptions_usd": 42552204.99,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Franklin County ranks 44th out of 104 New York counties for total tax exemptions, with $50.8M in property tax breaks — near the state median. 25% of subsidy recipients donated to local officials.",
+    "summary": "Franklin County ranks 44th out of 104 New York counties for total tax exemptions, with $50.8M in property tax breaks — near the state median. 25% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "near the state median",
     "donor_context": "near average"
   },

@@ -4,11 +4,11 @@
     "state_name": "Nevada",
     "county": "Storey",
     "county_slug": "storey",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 59.33,
+    "accountability_score": 59.33,
     "total_exemptions_usd": 5070903.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 2621.98,

@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "New Rochelle",
     "county_slug": "new-rochelle",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 31.24,
+    "accountability_score": 31.24,
     "total_exemptions_usd": 231273587.15,
     "net_exemptions_usd": 208486284.6,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "New Rochelle County ranks 15th out of 104 New York counties for total tax exemptions, with $231.3M in property tax breaks — 5.4× the state median. 7% of subsidy recipients donated to local officials.",
+    "summary": "New Rochelle County ranks 15th out of 104 New York counties for total tax exemptions, with $231.3M in property tax breaks — 5.4× the state median. 7% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "5.4× the state median",
     "donor_context": "below average"
   },

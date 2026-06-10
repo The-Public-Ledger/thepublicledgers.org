@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Mount Pleasant",
     "county_slug": "mount-pleasant",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 52.14,
+    "accountability_score": 52.14,
     "total_exemptions_usd": 65516644.77,
     "net_exemptions_usd": 40424703.4,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Mount Pleasant County ranks 40th out of 104 New York counties for total tax exemptions, with $65.5M in property tax breaks — above the state median. 19% of subsidy recipients donated to local officials.",
+    "summary": "Mount Pleasant County ranks 40th out of 104 New York counties for total tax exemptions, with $65.5M in property tax breaks — above the state median. 19% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "above the state median",
     "donor_context": "below average"
   },

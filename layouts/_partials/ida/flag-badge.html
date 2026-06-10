@@ -1,11 +1,11 @@
 {{ $flag := .flag }}
 {{ $label := .label }}
 {{ $tooltips := dict
-  "triple-dipper" "This company received subsidies, made campaign donations, AND hired the same law firm that serves on the IDA board"
+  "triple-dipper" "This company received subsidies, made campaign donations, AND hired the same law firm that serves as the IDA's agency counsel"
   "bad-deal" "This subsidy cost more than $100,000 per job created"
-  "timing-conflict" "Campaign donation timing coincides suspiciously with subsidy approval"
-  "round-trip" "Money flowed from company to politician and back through subsidies"
-  "bundling" "Multiple executives from the same company made coordinated donations"
+  "timing-conflict" "Campaign donations were concentrated in the period before subsidy approval"
+  "round-trip" "Public filings document both donations from this company to a campaign committee and payments from that committee back to the company"
+  "bundling" "Multiple executives from the same company donated on the same day"
 }}
 {{ $tip := index $tooltips $flag }}
 <span class="flag-badge flag-badge--{{ $flag }}"{{ with $tip }} title="{{ . }}"{{ end }}>

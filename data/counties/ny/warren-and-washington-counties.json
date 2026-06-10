@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Warren And Washington Counties",
     "county_slug": "warren-and-washington-counties",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 37.18,
+    "accountability_score": 37.18,
     "total_exemptions_usd": 37182073.37,
     "net_exemptions_usd": 28725199.05,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Warren And Washington Counties County ranks 54th out of 104 New York counties for total tax exemptions, with $37.2M in property tax breaks — near the state median. 18% of subsidy recipients donated to local officials.",
+    "summary": "Warren And Washington Counties County ranks 54th out of 104 New York counties for total tax exemptions, with $37.2M in property tax breaks — near the state median. 18% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "near the state median",
     "donor_context": "below average"
   },

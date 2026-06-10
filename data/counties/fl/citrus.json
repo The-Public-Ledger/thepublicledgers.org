@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Citrus",
     "county_slug": "citrus",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 1.85,
+    "accountability_score": 1.85,
     "total_exemptions_usd": 712500.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 8.67,
@@ -33,7 +33,7 @@
     "donor_context": "2.7× the state average"
   },
   "narrative": {
-    "summary": "Citrus County ranks 53rd out of 78 Florida counties for total tax exemptions, with $712K in property tax breaks — below the state median. 100% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $9.",
+    "summary": "Citrus County ranks 53rd out of 78 Florida counties for total tax exemptions, with $712K in property tax breaks — below the state median. 100% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $9.",
     "subsidy_context": "below the state median",
     "donor_context": "2.7× the state average"
   },

@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Greene",
     "county_slug": "greene",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 63.4,
+    "accountability_score": 63.4,
     "total_exemptions_usd": 221345118.6,
     "net_exemptions_usd": 169501369.6,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Greene County ranks 16th out of 104 New York counties for total tax exemptions, with $221.3M in property tax breaks — 5.2× the state median. 29% of subsidy recipients donated to local officials.",
+    "summary": "Greene County ranks 16th out of 104 New York counties for total tax exemptions, with $221.3M in property tax breaks — 5.2× the state median. 29% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "5.2× the state median",
     "donor_context": "near average"
   },

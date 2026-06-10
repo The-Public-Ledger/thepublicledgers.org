@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Sarasota",
     "county_slug": "sarasota",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 3.1,
+    "accountability_score": 3.1,
     "total_exemptions_usd": 8033000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 31.55,
@@ -33,7 +33,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Sarasota County ranks 32nd out of 78 Florida counties for total tax exemptions, with $8.0M in property tax breaks — near the state median. 31% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $32.",
+    "summary": "Sarasota County ranks 32nd out of 78 Florida counties for total tax exemptions, with $8.0M in property tax breaks — near the state median. 31% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $32.",
     "subsidy_context": "near the state median",
     "donor_context": "near average"
   },

@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Clay",
     "county_slug": "clay",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 2.7,
+    "accountability_score": 2.7,
     "total_exemptions_usd": 4795500.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 56.03,
@@ -33,7 +33,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Clay County ranks 38th out of 78 Florida counties for total tax exemptions, with $4.8M in property tax breaks — below the state median. 18% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $56.",
+    "summary": "Clay County ranks 38th out of 78 Florida counties for total tax exemptions, with $4.8M in property tax breaks — below the state median. 18% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $56.",
     "subsidy_context": "below the state median",
     "donor_context": "below average"
   },

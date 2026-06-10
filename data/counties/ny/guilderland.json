@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Guilderland",
     "county_slug": "guilderland",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 30.85,
+    "accountability_score": 30.85,
     "total_exemptions_usd": 4233546.48,
     "net_exemptions_usd": 4132111.53,
     "cost_per_household_usd": 0.0,

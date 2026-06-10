@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Cattaraugus",
     "county_slug": "cattaraugus",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 66.55,
+    "accountability_score": 66.55,
     "total_exemptions_usd": 78911287.65,
     "net_exemptions_usd": 72025174.85,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Cattaraugus County ranks 35th out of 104 New York counties for total tax exemptions, with $78.9M in property tax breaks — above the state median. 29% of subsidy recipients donated to local officials.",
+    "summary": "Cattaraugus County ranks 35th out of 104 New York counties for total tax exemptions, with $78.9M in property tax breaks — above the state median. 29% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "above the state median",
     "donor_context": "near average"
   },

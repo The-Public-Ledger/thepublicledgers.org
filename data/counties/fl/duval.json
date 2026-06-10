@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Duval",
     "county_slug": "duval",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 4.4,
+    "accountability_score": 4.4,
     "total_exemptions_usd": 232544240.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 531.74,
@@ -33,7 +33,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Duval County ranks 5th out of 78 Florida counties for total tax exemptions, with $232.5M in property tax breaks — 28.9× the state median. 29% of subsidy recipients donated to local officials. The per-household cost of these subsidies is $532.",
+    "summary": "Duval County ranks 5th out of 78 Florida counties for total tax exemptions, with $232.5M in property tax breaks — 28.9× the state median. 29% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $532.",
     "subsidy_context": "28.9× the state median",
     "donor_context": "below average"
   },

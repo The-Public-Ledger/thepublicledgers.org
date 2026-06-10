@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Hempstead",
     "county_slug": "hempstead",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 74.22,
+    "accountability_score": 74.22,
     "total_exemptions_usd": 666504013.0,
     "net_exemptions_usd": 373307095.8,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "above average"
   },
   "narrative": {
-    "summary": "Hempstead County ranks 3rd out of 104 New York counties for total tax exemptions, with $666.5M in property tax breaks — 15.7× the state median. 43% of subsidy recipients donated to local officials.",
+    "summary": "Hempstead County ranks 3rd out of 104 New York counties for total tax exemptions, with $666.5M in property tax breaks — 15.7× the state median. 43% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "15.7× the state median",
     "donor_context": "above average"
   },

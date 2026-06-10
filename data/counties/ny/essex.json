@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Essex",
     "county_slug": "essex",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 49.9,
+    "accountability_score": 49.9,
     "total_exemptions_usd": 15410660.96,
     "net_exemptions_usd": 14773482.08,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Essex County ranks 73rd out of 104 New York counties for total tax exemptions, with $15.4M in property tax breaks — below the state median. 19% of subsidy recipients donated to local officials.",
+    "summary": "Essex County ranks 73rd out of 104 New York counties for total tax exemptions, with $15.4M in property tax breaks — below the state median. 19% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "below average"
   },

@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Monroe",
     "county_slug": "monroe",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 37.23,
+    "accountability_score": 37.23,
     "total_exemptions_usd": 390577814.28,
     "net_exemptions_usd": 241360168.99,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Monroe County ranks 6th out of 104 New York counties for total tax exemptions, with $390.6M in property tax breaks — 9.2× the state median. 14% of subsidy recipients donated to local officials.",
+    "summary": "Monroe County ranks 6th out of 104 New York counties for total tax exemptions, with $390.6M in property tax breaks — 9.2× the state median. 14% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "9.2× the state median",
     "donor_context": "below average"
   },

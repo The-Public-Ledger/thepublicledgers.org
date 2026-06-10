@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Orange",
     "county_slug": "orange",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 61.84,
+    "accountability_score": 61.84,
     "total_exemptions_usd": 174747112.55,
     "net_exemptions_usd": 101208352.67,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Orange County ranks 19th out of 104 New York counties for total tax exemptions, with $174.7M in property tax breaks — 4.1× the state median. 26% of subsidy recipients donated to local officials.",
+    "summary": "Orange County ranks 19th out of 104 New York counties for total tax exemptions, with $174.7M in property tax breaks — 4.1× the state median. 26% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "4.1× the state median",
     "donor_context": "near average"
   },

@@ -4,11 +4,11 @@
     "state_name": "Arizona",
     "county": "Coconino",
     "county_slug": "coconino",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 71.7,
+    "accountability_score": 71.7,
     "total_exemptions_usd": 0.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.0,

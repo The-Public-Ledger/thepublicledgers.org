@@ -4,11 +4,11 @@
     "state_name": "Minnesota",
     "county": "Dodge",
     "county_slug": "dodge",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 5.6,
+    "accountability_score": 5.6,
     "total_exemptions_usd": 770000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 98.38,

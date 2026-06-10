@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Wayne",
     "county_slug": "wayne",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 27.43,
+    "accountability_score": 27.43,
     "total_exemptions_usd": 31963827.19,
     "net_exemptions_usd": 18785524.47,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Wayne County ranks 56th out of 104 New York counties for total tax exemptions, with $32.0M in property tax breaks — below the state median. 13% of subsidy recipients donated to local officials.",
+    "summary": "Wayne County ranks 56th out of 104 New York counties for total tax exemptions, with $32.0M in property tax breaks — below the state median. 13% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "below average"
   },

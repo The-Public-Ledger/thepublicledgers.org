@@ -4,11 +4,11 @@
     "state_name": "Iowa",
     "county": "Iowa",
     "county_slug": "iowa",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 7.4,
+    "accountability_score": 7.4,
     "total_exemptions_usd": 79644000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 11715.8,

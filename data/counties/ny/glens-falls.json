@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Glens Falls",
     "county_slug": "glens-falls",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 18.37,
+    "accountability_score": 18.37,
     "total_exemptions_usd": 6026125.78,
     "net_exemptions_usd": 3411646.81,
     "cost_per_household_usd": 0.0,

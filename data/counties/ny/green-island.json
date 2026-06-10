@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Green Island",
     "county_slug": "green-island",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 60.15,
+    "accountability_score": 60.15,
     "total_exemptions_usd": 6782666.0,
     "net_exemptions_usd": 4433126.0,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "above average"
   },
   "narrative": {
-    "summary": "Green Island County ranks 92nd out of 104 New York counties for total tax exemptions, with $6.8M in property tax breaks — below the state median. 50% of subsidy recipients donated to local officials.",
+    "summary": "Green Island County ranks 92nd out of 104 New York counties for total tax exemptions, with $6.8M in property tax breaks — below the state median. 50% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "above average"
   },

@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Bethlehem",
     "county_slug": "bethlehem",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 45.34,
+    "accountability_score": 45.34,
     "total_exemptions_usd": 29797960.41,
     "net_exemptions_usd": -7203341.59,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Bethlehem County ranks 60th out of 104 New York counties for total tax exemptions, with $29.8M in property tax breaks — below the state median. 12% of subsidy recipients donated to local officials.",
+    "summary": "Bethlehem County ranks 60th out of 104 New York counties for total tax exemptions, with $29.8M in property tax breaks — below the state median. 12% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "below the state median",
     "donor_context": "below average"
   },

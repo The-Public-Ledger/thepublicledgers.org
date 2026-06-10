@@ -4,11 +4,11 @@
     "state_name": "Georgia",
     "county": "Jeff Davis",
     "county_slug": "jeff-davis",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 4.05,
+    "accountability_score": 4.05,
     "total_exemptions_usd": 4028880.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 355.37,

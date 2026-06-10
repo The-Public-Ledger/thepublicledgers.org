@@ -4,11 +4,11 @@
     "state_name": "Indiana",
     "county": "Switzerland",
     "county_slug": "switzerland",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 1.75,
+    "accountability_score": 1.75,
     "total_exemptions_usd": 122000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 27.78,

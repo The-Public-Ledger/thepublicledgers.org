@@ -4,11 +4,11 @@
     "state_name": "New York",
     "county": "Schenectady",
     "county_slug": "schenectady",
-    "last_updated": "2026-05-20",
+    "last_updated": "2026-06-10",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "pay_to_play_score": 65.53,
+    "accountability_score": 65.53,
     "total_exemptions_usd": 82148067.58,
     "net_exemptions_usd": 23494894.96,
     "cost_per_household_usd": 0.0,
@@ -34,7 +34,7 @@
     "donor_context": "above average"
   },
   "narrative": {
-    "summary": "Schenectady County ranks 34th out of 104 New York counties for total tax exemptions, with $82.1M in property tax breaks — above the state median. 36% of subsidy recipients donated to local officials.",
+    "summary": "Schenectady County ranks 34th out of 104 New York counties for total tax exemptions, with $82.1M in property tax breaks — above the state median. 36% of subsidy recipients contributed to committees affiliated with local officials.",
     "subsidy_context": "above the state median",
     "donor_context": "above average"
   },
