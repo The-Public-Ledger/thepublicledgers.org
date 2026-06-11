@@ -8,7 +8,7 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 6.0,
+    "accountability_score": 8.3,
     "total_exemptions_usd": 2646802.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 621.75,
@@ -23,17 +23,17 @@
     "fips_county": "40103"
   },
   "benchmarks": {
-    "state_rank": 14,
+    "state_rank": 13,
     "state_total_counties": 20,
-    "state_percentile": 30,
-    "state_median_subsidy_usd": 12591440.5,
+    "state_percentile": 35,
+    "state_median_subsidy_usd": 8090488.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 559.98,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Noble County ranks 14th out of 20 Oklahoma counties for total tax exemptions, with $2.6M in property tax breaks — below the state median. The per-household cost of these subsidies is $622.",
+    "summary": "Noble County ranks 13th out of 20 Oklahoma counties for total tax exemptions, with $2.6M in property tax breaks — below the state median. The per-household cost of these subsidies is $622.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

@@ -8,7 +8,7 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 16.8,
+    "accountability_score": 29.9,
     "total_exemptions_usd": 154821947.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 4410.76,
@@ -23,18 +23,18 @@
     "fips_county": "40131"
   },
   "benchmarks": {
-    "state_rank": 5,
+    "state_rank": 3,
     "state_total_counties": 20,
-    "state_percentile": 75,
-    "state_median_subsidy_usd": 12591440.5,
+    "state_percentile": 85,
+    "state_median_subsidy_usd": 8090488.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 559.98,
-    "subsidy_context": "12.3× the state median",
+    "subsidy_context": "19.1× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Rogers County ranks 5th out of 20 Oklahoma counties for total tax exemptions, with $154.8M in property tax breaks — 12.3× the state median. The per-household cost of these subsidies is $4,411.",
-    "subsidy_context": "12.3× the state median",
+    "summary": "Rogers County ranks 3rd out of 20 Oklahoma counties for total tax exemptions, with $154.8M in property tax breaks — 19.1× the state median. The per-household cost of these subsidies is $4,411.",
+    "subsidy_context": "19.1× the state median",
     "donor_context": ""
   },
   "top_findings": [],

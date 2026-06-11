@@ -8,7 +8,7 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 13.7,
+    "accountability_score": 14.0,
     "total_exemptions_usd": 1248561.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 71.74,
@@ -23,17 +23,17 @@
     "fips_county": "40121"
   },
   "benchmarks": {
-    "state_rank": 17,
+    "state_rank": 16,
     "state_total_counties": 20,
-    "state_percentile": 15,
-    "state_median_subsidy_usd": 12591440.5,
+    "state_percentile": 20,
+    "state_median_subsidy_usd": 8090488.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 559.98,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Pittsburg County ranks 17th out of 20 Oklahoma counties for total tax exemptions, with $1.2M in property tax breaks — below the state median. The per-household cost of these subsidies is $72.",
+    "summary": "Pittsburg County ranks 16th out of 20 Oklahoma counties for total tax exemptions, with $1.2M in property tax breaks — below the state median. The per-household cost of these subsidies is $72.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

@@ -8,33 +8,33 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 2.1,
-    "total_exemptions_usd": 17000000.0,
+    "accountability_score": 0.0,
+    "total_exemptions_usd": 1000000.0,
     "net_exemptions_usd": 0.0,
-    "cost_per_household_usd": 64.32,
+    "cost_per_household_usd": 3.78,
     "total_beneficiaries": 0,
     "num_donor_beneficiaries": 0,
     "donor_rate_pct": 0.0,
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
     "jobs_current": 0,
-    "num_awards": 17,
+    "num_awards": 1,
     "warn_workers_affected": 0,
     "fips_county": "40143"
   },
   "benchmarks": {
-    "state_rank": 9,
+    "state_rank": 18,
     "state_total_counties": 20,
-    "state_percentile": 55,
-    "state_median_subsidy_usd": 12591440.5,
+    "state_percentile": 10,
+    "state_median_subsidy_usd": 8090488.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 559.98,
-    "subsidy_context": "above the state median",
+    "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Tulsa County ranks 9th out of 20 Oklahoma counties for total tax exemptions, with $17.0M in property tax breaks — above the state median. The per-household cost of these subsidies is $64.",
-    "subsidy_context": "above the state median",
+    "summary": "Tulsa County ranks 18th out of 20 Oklahoma counties for total tax exemptions, with $1.0M in property tax breaks — below the state median. The per-household cost of these subsidies is $4.",
+    "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "top_findings": [],

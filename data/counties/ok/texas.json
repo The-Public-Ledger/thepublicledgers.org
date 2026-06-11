@@ -8,33 +8,33 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 55.4,
-    "total_exemptions_usd": 118347622.0,
+    "accountability_score": 58.6,
+    "total_exemptions_usd": 41847622.0,
     "net_exemptions_usd": 0.0,
-    "cost_per_household_usd": 17239.27,
+    "cost_per_household_usd": 6095.79,
     "total_beneficiaries": 0,
     "num_donor_beneficiaries": 2,
     "donor_rate_pct": 0.0,
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
     "jobs_current": 0,
-    "num_awards": 193,
+    "num_awards": 176,
     "warn_workers_affected": 0,
     "fips_county": "40139"
   },
   "benchmarks": {
-    "state_rank": 6,
+    "state_rank": 4,
     "state_total_counties": 20,
-    "state_percentile": 70,
-    "state_median_subsidy_usd": 12591440.5,
+    "state_percentile": 80,
+    "state_median_subsidy_usd": 8090488.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 559.98,
-    "subsidy_context": "9.4× the state median",
+    "subsidy_context": "5.2× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Texas County ranks 6th out of 20 Oklahoma counties for total tax exemptions, with $118.3M in property tax breaks — 9.4× the state median. The per-household cost of these subsidies is $17,239.",
-    "subsidy_context": "9.4× the state median",
+    "summary": "Texas County ranks 4th out of 20 Oklahoma counties for total tax exemptions, with $41.8M in property tax breaks — 5.2× the state median. The per-household cost of these subsidies is $6,096.",
+    "subsidy_context": "5.2× the state median",
     "donor_context": ""
   },
   "top_findings": [],

@@ -8,7 +8,7 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 5.4,
+    "accountability_score": 6.3,
     "total_exemptions_usd": 7695515.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 241.67,
@@ -23,18 +23,18 @@
     "fips_county": "40119"
   },
   "benchmarks": {
-    "state_rank": 12,
+    "state_rank": 11,
     "state_total_counties": 20,
-    "state_percentile": 40,
-    "state_median_subsidy_usd": 12591440.5,
+    "state_percentile": 45,
+    "state_median_subsidy_usd": 8090488.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 559.98,
-    "subsidy_context": "below the state median",
+    "subsidy_context": "near the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Payne County ranks 12th out of 20 Oklahoma counties for total tax exemptions, with $7.7M in property tax breaks — below the state median. The per-household cost of these subsidies is $242.",
-    "subsidy_context": "below the state median",
+    "summary": "Payne County ranks 11th out of 20 Oklahoma counties for total tax exemptions, with $7.7M in property tax breaks — near the state median. The per-household cost of these subsidies is $242.",
+    "subsidy_context": "near the state median",
     "donor_context": ""
   },
   "top_findings": [],

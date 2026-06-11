@@ -8,7 +8,7 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 41.8,
+    "accountability_score": 66.6,
     "total_exemptions_usd": 274073663.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 10706.84,
@@ -23,18 +23,18 @@
     "fips_county": "40101"
   },
   "benchmarks": {
-    "state_rank": 4,
+    "state_rank": 2,
     "state_total_counties": 20,
-    "state_percentile": 80,
-    "state_median_subsidy_usd": 12591440.5,
+    "state_percentile": 90,
+    "state_median_subsidy_usd": 8090488.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 559.98,
-    "subsidy_context": "21.8× the state median",
+    "subsidy_context": "33.9× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Muskogee County ranks 4th out of 20 Oklahoma counties for total tax exemptions, with $274.1M in property tax breaks — 21.8× the state median. The per-household cost of these subsidies is $10,707.",
-    "subsidy_context": "21.8× the state median",
+    "summary": "Muskogee County ranks 2nd out of 20 Oklahoma counties for total tax exemptions, with $274.1M in property tax breaks — 33.9× the state median. The per-household cost of these subsidies is $10,707.",
+    "subsidy_context": "33.9× the state median",
     "donor_context": ""
   },
   "top_findings": [],
