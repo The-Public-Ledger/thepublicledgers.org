@@ -81,6 +81,18 @@
       </div>
       {{ end }}
 
+      {{/* ── Score/flag disclaimer (required on every page presenting donor-beneficiary data) ── */}}
+      <div class="context-callout" role="note" aria-label="About these scores and flags">
+        <p><strong>About these scores and flags:</strong> Scores and flags on this page
+        are pattern-detection outputs computed from public records. They document
+        correlations and timing patterns in the data; they are not findings of
+        wrongdoing by any company, official, or agency.</p>
+        <p>Companies that donated to political committees affiliated with
+        IDA-appointing officials received tax exemptions. This analysis documents a
+        correlation between donations and exemptions; it does not establish that
+        donations caused approvals.</p>
+      </div>
+
       {{/* ── LAYER 3: Benchmark comparison bars ──────────────────────── */}}
       {{ with $countyData.benchmarks }}
       {{ $stats := $countyData.summary_stats }}
@@ -148,7 +160,13 @@
             Download All Counties CSV
           </a>
         </div>
-        <p class="csv-download__note">Data as of {{ $countyData.meta.last_updated }}. CC-BY licensed for republication with attribution.</p>
+        <p class="csv-download__note">Data as of {{ $countyData.meta.last_updated }}.
+        Our derived statistics are CC BY 4.0 licensed for republication with
+        attribution to The Public Ledgers. Underlying subsidy records were compiled
+        by the <a href="https://subsidytracker.goodjobsfirst.org/">Good Jobs First
+        Subsidy Tracker</a> (licensed); credit Good Jobs First when reusing
+        subsidy figures. Good Jobs First's compilation is not sublicensed under
+        CC BY, and we do not redistribute their per-company exports wholesale.</p>
       </div>
 
       <script>

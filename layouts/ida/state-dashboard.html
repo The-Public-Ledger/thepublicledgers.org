@@ -62,6 +62,18 @@
       </div>
       {{ end }}
 
+      {{/* ── Score/flag disclaimer (required on every page presenting donor-beneficiary data) ── */}}
+      <div class="context-callout" role="note" aria-label="About these scores and findings">
+        <p><strong>About these scores and findings:</strong> Scores, donor rates, and
+        spike counts on this page are pattern-detection outputs computed from public
+        records. They document correlations and timing patterns in the data; they
+        are not findings of wrongdoing by any company, official, or agency.</p>
+        <p>Companies that donated to political committees affiliated with
+        IDA-appointing officials received tax exemptions. This analysis documents a
+        correlation between donations and exemptions; it does not establish that
+        donations caused approvals.</p>
+      </div>
+
       {{/* ── LAYER 3: Small multiples county grid ─────────────────────── */}}
       {{ partial "ida/small-multiples.html" $stateData }}
 

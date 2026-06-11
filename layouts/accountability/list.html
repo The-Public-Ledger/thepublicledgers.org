@@ -10,6 +10,15 @@
       <p class="data-updated">Data generated {{ $idx.generated }} from {{ $idx.total_hub_entities | lang.FormatNumber 0 }} entity hub records across 13 investigation sources.</p>
     </header>
 
+    {{/* ── Score disclaimer (anomaly-not-wrongdoing framing, before any scores render) ── */}}
+    <div class="context-callout" role="note" aria-label="What this index measures">
+      <p><strong>What this index measures:</strong> The accountability score measures
+      cross-investigation visibility — how often an entity appears across the public
+      record datasets we analyze. Scores are pattern-detection outputs that document
+      correlations and dataset overlap, not wrongdoing. Presence in a source dataset,
+      or in this index, is not a finding of wrongdoing by any entity.</p>
+    </div>
+
     {{/* ── Headline stats ──────────────────────────────────────────── */}}
     <div class="stat-grid">
       <div class="stat-card">

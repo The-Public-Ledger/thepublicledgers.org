@@ -13,14 +13,14 @@ We document these relationships from public records. We do not claim to prove ca
 
 ## Data sources
 
-We rely exclusively on public records. No anonymous tips, leaked documents, or paywalled sources are used.
+We rely exclusively on public records. No anonymous tips or leaked documents are used. One source — the Good Jobs First Subsidy Tracker — is accessed under a paid subscription; the records it compiles are themselves public.
 
 ### Federal sources (used across all states)
 
 | Source | Description | Access |
 |--------|-------------|--------|
 | **FEC Individual Contributions** | Campaign donations to federal candidates and PACs, 2020–2024 cycles | Bulk download, fec.gov |
-| **Good Jobs First Subsidy Tracker** | Economic development subsidies across all 50 states (grants, tax credits, abatements) | Web scrape, goodjobsfirst.org |
+| **Good Jobs First Subsidy Tracker** | Economic development subsidies across all 50 states (grants, tax credits, abatements) | Licensed access (paid subscription), subsidytracker.goodjobsfirst.org |
 | **EPA ECHO** | Environmental compliance and penalty records for ~800,000 U.S. facilities | Bulk download, echo.epa.gov |
 | **SBA PPP Loans** | Paycheck Protection Program loans ≥$150,000 through Sept. 30, 2024 | Bulk download, sba.gov |
 | **SEC EDGAR** | Public company filings and officer identification | API + bulk download, sec.gov |
@@ -45,7 +45,11 @@ The [Accountability Project](https://publicaccountability.org/) at the Universit
 
 Source datasets are downloaded during pipeline runs. The Git commit history at [github.com/The-Public-Ledger/thepublicledgers.org](https://github.com/The-Public-Ledger/thepublicledgers.org) records when each dataset was processed and published. All state pages display a "Last updated" date reflecting the most recent data run.
 
-FEC data covers 2020–2024 election cycles. Good Jobs First data reflects awards reported as of the scrape date. Accountability Project campaign finance files reflect contributions through approximately late 2024. PPP data is a static FOIA release through September 30, 2024.
+FEC data covers 2020–2024 election cycles. Good Jobs First data reflects awards reported as of the most recent licensed export date. Accountability Project campaign finance files reflect contributions through approximately late 2024. PPP data is a static FOIA release through September 30, 2024.
+
+### Data licensing
+
+Our derived statistics — county scorecards, aggregate match rates, crossref summaries — are published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) and may be republished with attribution to The Public Ledgers. Where those statistics are computed from subsidy records compiled by the [Good Jobs First Subsidy Tracker](https://subsidytracker.goodjobsfirst.org/), credit Good Jobs First as the compiler of the underlying records. The underlying subsidy data is public record, but Good Jobs First's compilation and cleaning is their product, accessed under a paid subscription: we do not sublicense it under CC BY, and we do not redistribute Good Jobs First's per-company exports wholesale — only aggregate statistics derived from them, with attribution. License terms for every source we use are tracked in our internal data-license register; contact [editor@thepublicledgers.org](mailto:editor@thepublicledgers.org) with licensing questions.
 
 ---
 
@@ -144,7 +148,7 @@ In addition to the descriptive pipeline, we estimate formal regressions using St
 
 All analysis uses Python with only the standard library. The Git repository at [github.com/The-Public-Ledger/thepublicledgers.org](https://github.com/The-Public-Ledger/thepublicledgers.org) contains all site data files and their complete change history — each data refresh is committed with a message describing what changed and when, providing a timestamped record of every published figure.
 
-Analysis scripts are available on request at [editor@thepublicledgers.org](mailto:editor@thepublicledgers.org). All source data is publicly downloadable from the agencies listed above. No proprietary tool or paywalled source is required to reproduce our findings.
+Analysis scripts are available on request at [editor@thepublicledgers.org](mailto:editor@thepublicledgers.org). Source data is publicly downloadable from the agencies listed above, with one exception: bulk exports from the Good Jobs First Subsidy Tracker require a paid subscription (the underlying records are public and individual awards can be viewed free on their site). No proprietary tool is required to reproduce our findings.
 
 Aggregated outputs — county scorecards, beneficiary-donor crossref summaries, tax shift calculations — are available for download on the [Data page](/data/).
 
