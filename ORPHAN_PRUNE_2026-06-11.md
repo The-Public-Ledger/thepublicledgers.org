@@ -24,10 +24,14 @@ orphans; the exporter still writes all 104 NY county files.
 > county-attribution fix landed in `county_scorecards_ok.py` /
 > `county_scorecards_ne.py` (Gazetteer-validated city→county resolution;
 > unresolvable rows go to an UNKNOWN bucket that is never exported).
-> `ok/oklahoma.json` refreshed with **$885,316,852** — the $250,972,052
+> `ok/oklahoma.json` refreshed with **$288,286,452** — the $250,972,052
 > County="Oklahoma" rows (which the old `normalize_county()` dropped by
-> stripping the word OKLAHOMA) plus $634M of City="Oklahoma City" rows now
-> correctly attributed to Oklahoma County. Bogus pages pruned:
+> stripping the word OKLAHOMA) plus $37.3M of deduped City="Oklahoma City"/
+> Edmond rows now correctly attributed to Oklahoma County. (An interim figure
+> of $885M was committed before discovering ok_incentives.csv carries 16,034
+> fully-identical duplicate rows — the corruption that got it quarantined as
+> .corrupt-2026-06; the scorecard script now dedupes, and the deduped state
+> total $993.4M reconciles with the documented $1.0B OK figure.) Bogus pages pruned:
 > `ok/oklahoma-city` + NE `beatrice`, `benkelman`, `blair`, `fairbury`,
 > `lyons`, `norfolk`, `pilger`, `douglas-and-sarpy`, `lancaster-and-seward`
 > (JSON + content stub each). NE 40→51 county pages (city→county map
