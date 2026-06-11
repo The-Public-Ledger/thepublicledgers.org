@@ -20,6 +20,19 @@ orphans; the exporter still writes all 104 NY county files.
 
 ## KEPT-PENDING-UPSTREAM (1)
 
+> **RESOLVED 2026-06-11 (same day, later session):** the upstream
+> county-attribution fix landed in `county_scorecards_ok.py` /
+> `county_scorecards_ne.py` (Gazetteer-validated city→county resolution;
+> unresolvable rows go to an UNKNOWN bucket that is never exported).
+> `ok/oklahoma.json` refreshed with **$885,316,852** — the $250,972,052
+> County="Oklahoma" rows (which the old `normalize_county()` dropped by
+> stripping the word OKLAHOMA) plus $634M of City="Oklahoma City" rows now
+> correctly attributed to Oklahoma County. Bogus pages pruned:
+> `ok/oklahoma-city` + NE `beatrice`, `benkelman`, `blair`, `fairbury`,
+> `lyons`, `norfolk`, `pilger`, `douglas-and-sarpy`, `lancaster-and-seward`
+> (JSON + content stub each). NE 40→51 county pages (city→county map
+> expanded by 38 towns); OK 21→20. Validator expected counts updated.
+
 | Path | Why kept | Upstream fix that restores it |
 |------|----------|-------------------------------|
 | `data/counties/ok/oklahoma.json` (+ `content/ida/counties/ok/oklahoma.md`) | Oklahoma County carried **$250,972,052 total_subsidy** in `ok_county_scorecards.csv` (v1) but is ABSENT from `ok_county_scorecards_v2.csv` — the v2 rebuild mislabels the row as **"Oklahoma City"** (a city, not a county), so the exporter now writes `ok/oklahoma-city.json` instead. Real county with real data; deleting it would drop legitimate coverage. Page currently serves stale v1-era data. | Fix county attribution in the OK step-19 `county_scorecards.py` run so the row reads "Oklahoma" (county); regenerate `ida/states/oklahoma/outputs/ok_county_scorecards_v2.csv`; re-run exporter. Then `ok/oklahoma-city.json` + its stub become the orphans to prune. Same v2 run shows other city names contaminating the county column in NE ("Beatrice", "Blair", "Benkelman", "Fairbury", "Pilger", "Lyons", "Kearney"…) — same upstream bug, those rows currently mint bogus "county" pages. |
