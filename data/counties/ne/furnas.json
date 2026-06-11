@@ -2,14 +2,14 @@
   "meta": {
     "state": "NE",
     "state_name": "Nebraska",
-    "county": "Blair",
-    "county_slug": "blair",
+    "county": "Furnas",
+    "county_slug": "furnas",
     "last_updated": "2026-06-11",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 5.2,
-    "total_exemptions_usd": 188500.0,
+    "accountability_score": 0.0,
+    "total_exemptions_usd": 0.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.0,
     "total_beneficiaries": 0,
@@ -20,21 +20,21 @@
     "jobs_current": 0,
     "num_awards": 1,
     "warn_workers_affected": 0,
-    "fips_county": ""
+    "fips_county": "31065"
   },
   "benchmarks": {
-    "state_rank": 6,
-    "state_total_counties": 40,
-    "state_percentile": 85,
-    "state_median_subsidy_usd": 176000.0,
+    "state_rank": 35,
+    "state_total_counties": 51,
+    "state_percentile": 31,
+    "state_median_subsidy_usd": 119875.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 9.12,
-    "subsidy_context": "near the state median",
+    "subsidy_context": "no subsidy data",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Blair County ranks 6th out of 40 Nebraska counties for total tax exemptions, with $188K in property tax breaks — near the state median.",
-    "subsidy_context": "near the state median",
+    "summary": "",
+    "subsidy_context": "no subsidy data",
     "donor_context": ""
   },
   "top_findings": [],

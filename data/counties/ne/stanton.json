@@ -2,39 +2,39 @@
   "meta": {
     "state": "NE",
     "state_name": "Nebraska",
-    "county": "Lyons",
-    "county_slug": "lyons",
+    "county": "Stanton",
+    "county_slug": "stanton",
     "last_updated": "2026-06-11",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 2.5,
-    "total_exemptions_usd": 55500.0,
+    "accountability_score": 8.9,
+    "total_exemptions_usd": 176000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.0,
     "total_beneficiaries": 0,
-    "num_donor_beneficiaries": 0,
+    "num_donor_beneficiaries": 1,
     "donor_rate_pct": 0.0,
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
     "jobs_current": 0,
     "num_awards": 1,
     "warn_workers_affected": 0,
-    "fips_county": ""
+    "fips_county": "31167"
   },
   "benchmarks": {
-    "state_rank": 9,
-    "state_total_counties": 40,
-    "state_percentile": 78,
-    "state_median_subsidy_usd": 176000.0,
+    "state_rank": 8,
+    "state_total_counties": 51,
+    "state_percentile": 84,
+    "state_median_subsidy_usd": 119875.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 9.12,
-    "subsidy_context": "below the state median",
+    "subsidy_context": "above the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Lyons County ranks 9th out of 40 Nebraska counties for total tax exemptions, with $56K in property tax breaks — below the state median.",
-    "subsidy_context": "below the state median",
+    "summary": "Stanton County ranks 8th out of 51 Nebraska counties for total tax exemptions, with $176K in property tax breaks — above the state median.",
+    "subsidy_context": "above the state median",
     "donor_context": ""
   },
   "top_findings": [],

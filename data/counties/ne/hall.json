@@ -18,23 +18,23 @@
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
     "jobs_current": 0,
-    "num_awards": 14,
+    "num_awards": 15,
     "warn_workers_affected": 0,
     "fips_county": "31079"
   },
   "benchmarks": {
     "state_rank": 2,
-    "state_total_counties": 40,
-    "state_percentile": 95,
-    "state_median_subsidy_usd": 176000.0,
+    "state_total_counties": 51,
+    "state_percentile": 96,
+    "state_median_subsidy_usd": 119875.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 9.12,
-    "subsidy_context": "7.1× the state median",
+    "subsidy_context": "10.5× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Hall County ranks 2nd out of 40 Nebraska counties for total tax exemptions, with $1.3M in property tax breaks — 7.1× the state median. The per-household cost of these subsidies is $52.",
-    "subsidy_context": "7.1× the state median",
+    "summary": "Hall County ranks 2nd out of 51 Nebraska counties for total tax exemptions, with $1.3M in property tax breaks — 10.5× the state median. The per-household cost of these subsidies is $52.",
+    "subsidy_context": "10.5× the state median",
     "donor_context": ""
   },
   "top_findings": [],

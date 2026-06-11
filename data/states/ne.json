@@ -8,10 +8,10 @@
     ],
     "coverage": {
       "counties_total": 93,
-      "counties_with_data": 40,
+      "counties_with_data": 51,
       "crossref_complete": true,
       "deals_count": 2746,
-      "contributions_matched": 21
+      "contributions_matched": 26
     },
     "coverage_status": "full"
   },
@@ -19,11 +19,11 @@
     "total_exemptions_usd": 501007531.0,
     "total_beneficiaries": 2746,
     "total_donations_usd": 0.0,
-    "matched_donors": 21,
-    "pct_beneficiaries_donating": 0.0076
+    "matched_donors": 26,
+    "pct_beneficiaries_donating": 0.0095
   },
   "top_findings": [
-    "21 of 2,746 subsidized companies (0.8%) made campaign donations — $0 total.",
+    "26 of 2,746 subsidized companies (0.9%) made campaign donations — $0 total.",
     "$2.5M in donations flowed from beneficiaries to 172 political committees. Top recipient: JIM PILLEN FOR GOVERNOR ($1.3M).",
     "$501M in total subsidies tracked across 2,746 beneficiary companies in Nebraska."
   ],
@@ -39,17 +39,17 @@
     {
       "name": "Lancaster",
       "slug": "lancaster",
-      "score": 69.9,
+      "score": 69.2,
       "total_exemptions_usd": 1445873.0,
       "cost_per_household_usd": 11.13,
       "total_beneficiaries": 0,
-      "num_awards": 69,
+      "num_awards": 72,
       "fips_county": "31109"
     },
     {
       "name": "Douglas",
       "slug": "douglas",
-      "score": 68.8,
+      "score": 67.4,
       "total_exemptions_usd": 763794.0,
       "cost_per_household_usd": 3.3,
       "total_beneficiaries": 0,
@@ -63,65 +63,98 @@
       "total_exemptions_usd": 1254252.0,
       "cost_per_household_usd": 52.2,
       "total_beneficiaries": 0,
-      "num_awards": 14,
+      "num_awards": 15,
       "fips_county": "31079"
     },
     {
       "name": "Burt",
       "slug": "burt",
-      "score": 20.7,
-      "total_exemptions_usd": 204500.0,
-      "cost_per_household_usd": 73.3,
+      "score": 23.7,
+      "total_exemptions_usd": 279862.0,
+      "cost_per_household_usd": 100.31,
       "total_beneficiaries": 0,
-      "num_awards": 1,
+      "num_awards": 3,
       "fips_county": "31021"
     },
     {
-      "name": "Fairbury",
-      "slug": "fairbury",
+      "name": "Jefferson",
+      "slug": "jefferson",
       "score": 18.5,
       "total_exemptions_usd": 525250.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 1
+      "num_awards": 1,
+      "fips_county": "31095"
     },
     {
-      "name": "Pilger",
-      "slug": "pilger",
+      "name": "Stanton",
+      "slug": "stanton",
       "score": 8.9,
       "total_exemptions_usd": 176000.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 1
-    },
-    {
-      "name": "York",
-      "slug": "york",
-      "score": 6.8,
-      "total_exemptions_usd": 39750.0,
-      "cost_per_household_usd": 7.11,
-      "total_beneficiaries": 0,
-      "num_awards": 3,
-      "fips_county": "31185"
+      "num_awards": 1,
+      "fips_county": "31167"
     },
     {
       "name": "Platte",
       "slug": "platte",
-      "score": 6.6,
-      "total_exemptions_usd": 29500.0,
-      "cost_per_household_usd": 2.22,
+      "score": 7.9,
+      "total_exemptions_usd": 69620.0,
+      "cost_per_household_usd": 5.24,
       "total_beneficiaries": 0,
-      "num_awards": 13,
+      "num_awards": 16,
       "fips_county": "31141"
     },
     {
-      "name": "Blair",
-      "slug": "blair",
+      "name": "Gage",
+      "slug": "gage",
+      "score": 7.3,
+      "total_exemptions_usd": 119500.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 10,
+      "fips_county": "31067"
+    },
+    {
+      "name": "Dakota",
+      "slug": "dakota",
+      "score": 7.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 9,
+      "fips_county": "31043"
+    },
+    {
+      "name": "Holt",
+      "slug": "holt",
+      "score": 5.6,
+      "total_exemptions_usd": 203000.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "31089"
+    },
+    {
+      "name": "Washington",
+      "slug": "washington",
       "score": 5.2,
       "total_exemptions_usd": 188500.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 1
+      "num_awards": 8,
+      "fips_county": "31177"
+    },
+    {
+      "name": "Chase",
+      "slug": "chase",
+      "score": 4.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "31029"
     },
     {
       "name": "Kearney",
@@ -130,17 +163,28 @@
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 1,
+      "num_awards": 2,
       "fips_county": "31099"
     },
     {
-      "name": "Beatrice",
-      "slug": "beatrice",
+      "name": "York",
+      "slug": "york",
+      "score": 3.8,
+      "total_exemptions_usd": 39750.0,
+      "cost_per_household_usd": 7.11,
+      "total_beneficiaries": 0,
+      "num_awards": 3,
+      "fips_county": "31185"
+    },
+    {
+      "name": "Cedar",
+      "slug": "cedar",
       "score": 3.3,
-      "total_exemptions_usd": 119500.0,
+      "total_exemptions_usd": 120250.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 1
+      "num_awards": 2,
+      "fips_county": "31027"
     },
     {
       "name": "Lincoln",
@@ -149,45 +193,98 @@
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 2,
+      "num_awards": 3,
       "fips_county": "31111"
     },
     {
-      "name": "Lyons",
-      "slug": "lyons",
-      "score": 2.5,
-      "total_exemptions_usd": 55500.0,
+      "name": "Dawson",
+      "slug": "dawson",
+      "score": 2.0,
+      "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 1
-    },
-    {
-      "name": "Benkelman",
-      "slug": "benkelman",
-      "score": 1.4,
-      "total_exemptions_usd": 13750.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 1
+      "num_awards": 5,
+      "fips_county": "31047"
     },
     {
       "name": "Dodge",
       "slug": "dodge",
+      "score": 1.8,
+      "total_exemptions_usd": 30000.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 13,
+      "fips_county": "31053"
+    },
+    {
+      "name": "Thurston",
+      "slug": "thurston",
+      "score": 1.8,
+      "total_exemptions_usd": 30000.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "31173"
+    },
+    {
+      "name": "Madison",
+      "slug": "madison",
+      "score": 1.5,
+      "total_exemptions_usd": 52500.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 16,
+      "fips_county": "31119"
+    },
+    {
+      "name": "Dundy",
+      "slug": "dundy",
+      "score": 1.4,
+      "total_exemptions_usd": 13750.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "31057"
+    },
+    {
+      "name": "Richardson",
+      "slug": "richardson",
+      "score": 1.3,
+      "total_exemptions_usd": 46500.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "31147"
+    },
+    {
+      "name": "Johnson",
+      "slug": "johnson",
       "score": 1.0,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 11,
-      "fips_county": "31053"
+      "num_awards": 2,
+      "fips_county": "31097"
     },
     {
-      "name": "Norfolk",
-      "slug": "norfolk",
-      "score": 0.6,
-      "total_exemptions_usd": 22500.0,
+      "name": "Perkins",
+      "slug": "perkins",
+      "score": 1.0,
+      "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 1
+      "num_awards": 1,
+      "fips_county": "31135"
+    },
+    {
+      "name": "Polk",
+      "slug": "polk",
+      "score": 0.8,
+      "total_exemptions_usd": 29304.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "31143"
     },
     {
       "name": "Adams",
@@ -198,6 +295,16 @@
       "total_beneficiaries": 0,
       "num_awards": 9,
       "fips_county": "31001"
+    },
+    {
+      "name": "Boone",
+      "slug": "boone",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "31011"
     },
     {
       "name": "Box Butte",
@@ -216,7 +323,7 @@
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 8,
+      "num_awards": 12,
       "fips_county": "31019"
     },
     {
@@ -240,6 +347,16 @@
       "fips_county": "31037"
     },
     {
+      "name": "Cuming",
+      "slug": "cuming",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "31039"
+    },
+    {
       "name": "Custer",
       "slug": "custer",
       "score": 0.0,
@@ -248,16 +365,6 @@
       "total_beneficiaries": 0,
       "num_awards": 1,
       "fips_county": "31041"
-    },
-    {
-      "name": "Dakota",
-      "slug": "dakota",
-      "score": 0.0,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 4,
-      "fips_county": "31043"
     },
     {
       "name": "Dawes",
@@ -270,33 +377,14 @@
       "fips_county": "31045"
     },
     {
-      "name": "Dawson",
-      "slug": "dawson",
+      "name": "Furnas",
+      "slug": "furnas",
       "score": 0.0,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 2,
-      "fips_county": "31047"
-    },
-    {
-      "name": "Douglas And Sarpy",
-      "slug": "douglas-and-sarpy",
-      "score": 0.0,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 2
-    },
-    {
-      "name": "Gage",
-      "slug": "gage",
-      "score": 0.0,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 7,
-      "fips_county": "31067"
+      "num_awards": 1,
+      "fips_county": "31065"
     },
     {
       "name": "Hamilton",
@@ -305,27 +393,28 @@
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 4,
+      "num_awards": 5,
       "fips_county": "31081"
     },
     {
-      "name": "Lancaster And Seward",
-      "slug": "lancaster-and-seward",
+      "name": "Hitchcock",
+      "slug": "hitchcock",
       "score": 0.0,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 1
+      "num_awards": 3,
+      "fips_county": "31087"
     },
     {
-      "name": "Madison",
-      "slug": "madison",
+      "name": "Merrick",
+      "slug": "merrick",
       "score": 0.0,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 12,
-      "fips_county": "31119"
+      "num_awards": 3,
+      "fips_county": "31121"
     },
     {
       "name": "Nemaha",
@@ -346,6 +435,26 @@
       "total_beneficiaries": 0,
       "num_awards": 5,
       "fips_county": "31131"
+    },
+    {
+      "name": "Pawnee",
+      "slug": "pawnee",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 2,
+      "fips_county": "31133"
+    },
+    {
+      "name": "Pierce",
+      "slug": "pierce",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "31139"
     },
     {
       "name": "Red Willow",
@@ -374,7 +483,7 @@
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 5,
+      "num_awards": 7,
       "fips_county": "31153"
     },
     {
@@ -408,14 +517,24 @@
       "fips_county": "31159"
     },
     {
-      "name": "Washington",
-      "slug": "washington",
+      "name": "Thayer",
+      "slug": "thayer",
       "score": 0.0,
       "total_exemptions_usd": 0.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 0,
-      "num_awards": 6,
-      "fips_county": "31177"
+      "num_awards": 1,
+      "fips_county": "31169"
+    },
+    {
+      "name": "Valley",
+      "slug": "valley",
+      "score": 0.0,
+      "total_exemptions_usd": 0.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 0,
+      "num_awards": 1,
+      "fips_county": "31175"
     },
     {
       "name": "Wayne",

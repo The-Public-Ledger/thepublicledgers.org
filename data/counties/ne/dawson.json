@@ -8,7 +8,7 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 0.0,
+    "accountability_score": 2.0,
     "total_exemptions_usd": 0.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.0,
@@ -18,15 +18,15 @@
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
     "jobs_current": 0,
-    "num_awards": 2,
+    "num_awards": 5,
     "warn_workers_affected": 0,
     "fips_county": "31047"
   },
   "benchmarks": {
-    "state_rank": 25,
-    "state_total_counties": 40,
-    "state_percentile": 38,
-    "state_median_subsidy_usd": 176000.0,
+    "state_rank": 23,
+    "state_total_counties": 51,
+    "state_percentile": 55,
+    "state_median_subsidy_usd": 119875.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 9.12,
     "subsidy_context": "no subsidy data",

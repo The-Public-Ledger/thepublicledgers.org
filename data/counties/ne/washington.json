@@ -8,8 +8,8 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 0.0,
-    "total_exemptions_usd": 0.0,
+    "accountability_score": 5.2,
+    "total_exemptions_usd": 188500.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.0,
     "total_beneficiaries": 0,
@@ -18,23 +18,23 @@
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
     "jobs_current": 0,
-    "num_awards": 6,
+    "num_awards": 8,
     "warn_workers_affected": 0,
     "fips_county": "31177"
   },
   "benchmarks": {
-    "state_rank": 39,
-    "state_total_counties": 40,
-    "state_percentile": 2,
-    "state_median_subsidy_usd": 176000.0,
+    "state_rank": 7,
+    "state_total_counties": 51,
+    "state_percentile": 86,
+    "state_median_subsidy_usd": 119875.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 9.12,
-    "subsidy_context": "no subsidy data",
+    "subsidy_context": "above the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "",
-    "subsidy_context": "no subsidy data",
+    "summary": "Washington County ranks 7th out of 51 Nebraska counties for total tax exemptions, with $188K in property tax breaks — above the state median.",
+    "subsidy_context": "above the state median",
     "donor_context": ""
   },
   "top_findings": [],

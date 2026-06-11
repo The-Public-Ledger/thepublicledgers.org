@@ -2,14 +2,14 @@
   "meta": {
     "state": "NE",
     "state_name": "Nebraska",
-    "county": "Norfolk",
-    "county_slug": "norfolk",
+    "county": "Valley",
+    "county_slug": "valley",
     "last_updated": "2026-06-11",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 0.6,
-    "total_exemptions_usd": 22500.0,
+    "accountability_score": 0.0,
+    "total_exemptions_usd": 0.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.0,
     "total_beneficiaries": 0,
@@ -20,21 +20,21 @@
     "jobs_current": 0,
     "num_awards": 1,
     "warn_workers_affected": 0,
-    "fips_county": ""
+    "fips_county": "31175"
   },
   "benchmarks": {
-    "state_rank": 12,
-    "state_total_counties": 40,
-    "state_percentile": 70,
-    "state_median_subsidy_usd": 176000.0,
+    "state_rank": 50,
+    "state_total_counties": 51,
+    "state_percentile": 2,
+    "state_median_subsidy_usd": 119875.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 9.12,
-    "subsidy_context": "below the state median",
+    "subsidy_context": "no subsidy data",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Norfolk County ranks 12th out of 40 Nebraska counties for total tax exemptions, with $22K in property tax breaks — below the state median.",
-    "subsidy_context": "below the state median",
+    "summary": "",
+    "subsidy_context": "no subsidy data",
     "donor_context": ""
   },
   "top_findings": [],

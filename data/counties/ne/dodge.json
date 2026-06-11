@@ -8,8 +8,8 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 1.0,
-    "total_exemptions_usd": 0.0,
+    "accountability_score": 1.8,
+    "total_exemptions_usd": 30000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.0,
     "total_beneficiaries": 0,
@@ -18,23 +18,23 @@
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
     "jobs_current": 0,
-    "num_awards": 11,
+    "num_awards": 13,
     "warn_workers_affected": 0,
     "fips_county": "31053"
   },
   "benchmarks": {
-    "state_rank": 16,
-    "state_total_counties": 40,
-    "state_percentile": 60,
-    "state_median_subsidy_usd": 176000.0,
+    "state_rank": 15,
+    "state_total_counties": 51,
+    "state_percentile": 71,
+    "state_median_subsidy_usd": 119875.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 9.12,
-    "subsidy_context": "no subsidy data",
+    "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "",
-    "subsidy_context": "no subsidy data",
+    "summary": "Dodge County ranks 15th out of 51 Nebraska counties for total tax exemptions, with $30K in property tax breaks — below the state median.",
+    "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "top_findings": [],

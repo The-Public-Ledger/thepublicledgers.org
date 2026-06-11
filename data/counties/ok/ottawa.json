@@ -8,7 +8,7 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 2.0,
+    "accountability_score": 2.2,
     "total_exemptions_usd": 1470995.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 125.53,
@@ -20,7 +20,7 @@
     "jobs_current": 0,
     "num_awards": 42,
     "warn_workers_affected": 0,
-    "fips_county": ""
+    "fips_county": "40115"
   },
   "benchmarks": {
     "state_rank": 15,

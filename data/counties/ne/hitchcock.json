@@ -2,8 +2,8 @@
   "meta": {
     "state": "NE",
     "state_name": "Nebraska",
-    "county": "Lancaster And Seward",
-    "county_slug": "lancaster-and-seward",
+    "county": "Hitchcock",
+    "county_slug": "hitchcock",
     "last_updated": "2026-06-11",
     "coverage_status": "full"
   },
@@ -18,15 +18,15 @@
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
     "jobs_current": 0,
-    "num_awards": 1,
+    "num_awards": 3,
     "warn_workers_affected": 0,
-    "fips_county": ""
+    "fips_county": "31087"
   },
   "benchmarks": {
-    "state_rank": 29,
-    "state_total_counties": 40,
-    "state_percentile": 28,
-    "state_median_subsidy_usd": 176000.0,
+    "state_rank": 37,
+    "state_total_counties": 51,
+    "state_percentile": 27,
+    "state_median_subsidy_usd": 119875.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 9.12,
     "subsidy_context": "no subsidy data",

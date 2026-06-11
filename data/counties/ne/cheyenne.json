@@ -23,10 +23,10 @@
     "fips_county": "31033"
   },
   "benchmarks": {
-    "state_rank": 20,
-    "state_total_counties": 40,
-    "state_percentile": 50,
-    "state_median_subsidy_usd": 176000.0,
+    "state_rank": 30,
+    "state_total_counties": 51,
+    "state_percentile": 41,
+    "state_median_subsidy_usd": 119875.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 9.12,
     "subsidy_context": "no subsidy data",
