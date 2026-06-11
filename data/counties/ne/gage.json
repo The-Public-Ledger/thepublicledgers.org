@@ -8,10 +8,10 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 7.3,
+    "accountability_score": 16.7,
     "total_exemptions_usd": 119500.0,
     "net_exemptions_usd": 0.0,
-    "cost_per_household_usd": 0.0,
+    "cost_per_household_usd": 13.05,
     "total_beneficiaries": 0,
     "num_donor_beneficiaries": 1,
     "donor_rate_pct": 0.0,
@@ -28,12 +28,12 @@
     "state_percentile": 80,
     "state_median_subsidy_usd": 119875.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 9.12,
+    "state_median_cost_per_hh": 14.78,
     "subsidy_context": "near the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Gage County ranks 10th out of 51 Nebraska counties for total tax exemptions, with $120K in property tax breaks — near the state median.",
+    "summary": "Gage County ranks 10th out of 51 Nebraska counties for total tax exemptions, with $120K in property tax breaks — near the state median. The per-household cost of these subsidies is $13.",
     "subsidy_context": "near the state median",
     "donor_context": ""
   },

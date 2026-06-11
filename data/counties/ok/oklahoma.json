@@ -8,10 +8,10 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 58.9,
+    "accountability_score": 59.4,
     "total_exemptions_usd": 885316852.0,
     "net_exemptions_usd": 0.0,
-    "cost_per_household_usd": 2504.95,
+    "cost_per_household_usd": 2782.16,
     "total_beneficiaries": 0,
     "num_donor_beneficiaries": 7,
     "donor_rate_pct": 0.0,
@@ -33,7 +33,7 @@
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Oklahoma County ranks 1st out of 20 Oklahoma counties for total tax exemptions, with $885.3M in property tax breaks — 70.3× the state median. The per-household cost of these subsidies is $2,505.",
+    "summary": "Oklahoma County ranks 1st out of 20 Oklahoma counties for total tax exemptions, with $885.3M in property tax breaks — 70.3× the state median. The per-household cost of these subsidies is $2,782.",
     "subsidy_context": "70.3× the state median",
     "donor_context": ""
   },
