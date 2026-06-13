@@ -4,7 +4,7 @@
     "state_name": "Washington",
     "county": "Pierce",
     "county_slug": "pierce",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 2,
-    "state_total_counties": 40,
+    "state_total_counties": 39,
     "state_percentile": 95,
     "state_median_subsidy_usd": 421357.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 4.64,
+    "state_median_cost_per_hh": 4.51,
     "subsidy_context": "8.6× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Pierce County ranks 2nd out of 40 Washington counties for total tax exemptions, with $3.6M in property tax breaks — 8.6× the state median. The per-household cost of these subsidies is $10.",
+    "summary": "Pierce County ranks 2nd out of 39 Washington counties for total tax exemptions, with $3.6M in property tax breaks — 8.6× the state median. The per-household cost of these subsidies is $10.",
     "subsidy_context": "8.6× the state median",
     "donor_context": ""
   },

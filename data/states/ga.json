@@ -2,7 +2,7 @@
   "meta": {
     "state": "GA",
     "state_name": "Georgia",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "sources": [
       "Good Jobs First"
     ],
@@ -16,7 +16,7 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "total_exemptions_usd": 5727823126.0,
+    "total_exemptions_usd": 5539308126.0,
     "total_beneficiaries": 1152,
     "total_donations_usd": 7779128.89,
     "matched_donors": 272,
@@ -25,7 +25,7 @@
   "top_findings": [
     "272 of 1,152 subsidized companies (23.6%) made campaign donations — $7.8M total.",
     "$6.4M in donations flowed from beneficiaries to 476 political committees. Top recipient: The Coca-Cola Company Georgia Political Action Fun ($1.0M).",
-    "$5.73B in total subsidies tracked across 1,152 beneficiary companies in Georgia."
+    "$5.54B in total subsidies tracked across 1,152 beneficiary companies in Georgia."
   ],
   "counsel_conflicts": [],
   "committee_stats": {
@@ -297,15 +297,6 @@
       "fips_county": "313"
     },
     {
-      "name": "Whitfield And Murray",
-      "slug": "whitfield-and-murray",
-      "score": 3.6,
-      "total_exemptions_usd": 105600000.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 1
-    },
-    {
       "name": "Early",
       "slug": "early",
       "score": 3.5,
@@ -396,15 +387,6 @@
       "fips_county": "175"
     },
     {
-      "name": "Rome Floyd",
-      "slug": "rome-floyd",
-      "score": 3.25,
-      "total_exemptions_usd": 3000000.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 1
-    },
-    {
       "name": "Clarke",
       "slug": "clarke",
       "score": 3.2,
@@ -493,15 +475,6 @@
       "total_beneficiaries": 0,
       "num_awards": 46,
       "fips_county": "211"
-    },
-    {
-      "name": "Gainesville And Hall",
-      "slug": "gainesville-and-hall",
-      "score": 2.9,
-      "total_exemptions_usd": 315000.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 1
     },
     {
       "name": "Gwinnett",
@@ -784,15 +757,6 @@
       "fips_county": "217"
     },
     {
-      "name": "Oconee And Athens Clarke",
-      "slug": "oconee-and-athens-clarke",
-      "score": 2.4,
-      "total_exemptions_usd": 77700000.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 1
-    },
-    {
       "name": "Banks",
       "slug": "banks",
       "score": 2.3,
@@ -993,15 +957,6 @@
       "fips_county": "159"
     },
     {
-      "name": "Statewide",
-      "slug": "statewide",
-      "score": 1.8,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 837.23,
-      "total_beneficiaries": 0,
-      "num_awards": 0
-    },
-    {
       "name": "Appling",
       "slug": "appling",
       "score": 1.7,
@@ -1032,15 +987,6 @@
       "fips_county": "057"
     },
     {
-      "name": "Dalton Whitfield",
-      "slug": "dalton-whitfield",
-      "score": 1.7,
-      "total_exemptions_usd": 700000.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 1
-    },
-    {
       "name": "Henry",
       "slug": "henry",
       "score": 1.7,
@@ -1069,15 +1015,6 @@
       "total_beneficiaries": 0,
       "num_awards": 2,
       "fips_county": "171"
-    },
-    {
-      "name": "Multi",
-      "slug": "multi",
-      "score": 1.7,
-      "total_exemptions_usd": 1200000.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 1
     },
     {
       "name": "Pulaski",

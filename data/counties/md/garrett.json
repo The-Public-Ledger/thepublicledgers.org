@@ -4,7 +4,7 @@
     "state_name": "Maryland",
     "county": "Garrett",
     "county_slug": "garrett",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,8 +24,8 @@
   },
   "benchmarks": {
     "state_rank": 12,
-    "state_total_counties": 25,
-    "state_percentile": 52,
+    "state_total_counties": 24,
+    "state_percentile": 50,
     "state_median_subsidy_usd": 23966891.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 395.69,
@@ -33,7 +33,7 @@
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Garrett County ranks 12th out of 25 Maryland counties for total tax exemptions, with $7.1M in property tax breaks — below the state median. The per-household cost of these subsidies is $571.",
+    "summary": "Garrett County ranks 12th out of 24 Maryland counties for total tax exemptions, with $7.1M in property tax breaks — below the state median. The per-household cost of these subsidies is $571.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

@@ -2,7 +2,7 @@
   "meta": {
     "state": "NV",
     "state_name": "Nevada",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "sources": [
       "Good Jobs First"
     ],
@@ -11,7 +11,7 @@
       "counties_with_data": 17,
       "crossref_complete": true,
       "deals_count": 741,
-      "contributions_matched": 401
+      "contributions_matched": 201
     },
     "coverage_status": "full"
   },
@@ -19,11 +19,11 @@
     "total_exemptions_usd": 145611349.0,
     "total_beneficiaries": 741,
     "total_donations_usd": 3739695.35,
-    "matched_donors": 401,
+    "matched_donors": 201,
     "pct_beneficiaries_donating": 0.1188
   },
   "top_findings": [
-    "401 of 741 subsidized companies (11.9%) made campaign donations — $3.7M total.",
+    "201 of 741 subsidized companies (11.9%) made campaign donations — $3.7M total.",
     "$380,342 in donations flowed from beneficiaries to 20 political committees. Top recipient: REPUBLICAN STATE LEADERSHIP COMMITTEE ($171,500).",
     "$146M in total subsidies tracked across 741 beneficiary companies in Nevada."
   ],
@@ -115,15 +115,6 @@
       "total_beneficiaries": 0,
       "num_awards": 6,
       "fips_county": "007"
-    },
-    {
-      "name": "Statewide",
-      "slug": "statewide",
-      "score": 38.54,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 87.39,
-      "total_beneficiaries": 0,
-      "num_awards": 0
     },
     {
       "name": "Carson City",

@@ -4,7 +4,7 @@
     "state_name": "Colorado",
     "county": "Summit",
     "county_slug": "summit",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 36,
-    "state_total_counties": 65,
-    "state_percentile": 45,
+    "state_total_counties": 64,
+    "state_percentile": 44,
     "state_median_subsidy_usd": 5169064.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 277.95,
+    "state_median_cost_per_hh": 267.35,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Summit County ranks 36th out of 65 Colorado counties for total tax exemptions, with $12K in property tax breaks — below the state median.",
+    "summary": "Summit County ranks 36th out of 64 Colorado counties for total tax exemptions, with $12K in property tax breaks — below the state median.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

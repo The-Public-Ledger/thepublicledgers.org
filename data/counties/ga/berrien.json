@@ -4,7 +4,7 @@
     "state_name": "Georgia",
     "county": "Berrien",
     "county_slug": "berrien",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,12 +23,12 @@
     "fips_county": "019"
   },
   "benchmarks": {
-    "state_rank": 112,
-    "state_total_counties": 166,
-    "state_percentile": 33,
+    "state_rank": 105,
+    "state_total_counties": 159,
+    "state_percentile": 34,
     "state_median_subsidy_usd": 2925000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 189.14,
+    "state_median_cost_per_hh": 185.3,
     "subsidy_context": "no subsidy data",
     "donor_context": ""
   },

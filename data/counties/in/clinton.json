@@ -4,7 +4,7 @@
     "state_name": "Indiana",
     "county": "Clinton",
     "county_slug": "clinton",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,11 +24,11 @@
   },
   "benchmarks": {
     "state_rank": 75,
-    "state_total_counties": 93,
-    "state_percentile": 19,
+    "state_total_counties": 92,
+    "state_percentile": 18,
     "state_median_subsidy_usd": 14823050.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 992.64,
+    "state_median_cost_per_hh": 989.55,
     "subsidy_context": "no subsidy data",
     "donor_context": ""
   },

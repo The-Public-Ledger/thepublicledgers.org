@@ -4,7 +4,7 @@
     "state_name": "Georgia",
     "county": "Dade",
     "county_slug": "dade",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,12 +23,12 @@
     "fips_county": "083"
   },
   "benchmarks": {
-    "state_rank": 121,
-    "state_total_counties": 166,
-    "state_percentile": 27,
+    "state_rank": 114,
+    "state_total_counties": 159,
+    "state_percentile": 28,
     "state_median_subsidy_usd": 2925000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 189.14,
+    "state_median_cost_per_hh": 185.3,
     "subsidy_context": "no subsidy data",
     "donor_context": ""
   },

@@ -4,7 +4,7 @@
     "state_name": "Texas",
     "county": "King",
     "county_slug": "king",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,9 +23,9 @@
     "fips_county": "269"
   },
   "benchmarks": {
-    "state_rank": 148,
-    "state_total_counties": 257,
-    "state_percentile": 42,
+    "state_rank": 146,
+    "state_total_counties": 254,
+    "state_percentile": 43,
     "state_median_subsidy_usd": 0.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 0.0,

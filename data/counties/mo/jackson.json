@@ -4,7 +4,7 @@
     "state_name": "Missouri",
     "county": "Jackson",
     "county_slug": "jackson",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,17 +24,17 @@
   },
   "benchmarks": {
     "state_rank": 1,
-    "state_total_counties": 18,
+    "state_total_counties": 17,
     "state_percentile": 94,
-    "state_median_subsidy_usd": 829469.5,
+    "state_median_subsidy_usd": 740939.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 24.65,
-    "subsidy_context": "2813.8× the state median",
+    "subsidy_context": "3150.0× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Jackson County ranks 1st out of 18 Missouri counties for total tax exemptions, with $2.3B in property tax breaks — 2813.8× the state median. The per-household cost of these subsidies is $7,808.",
-    "subsidy_context": "2813.8× the state median",
+    "summary": "Jackson County ranks 1st out of 17 Missouri counties for total tax exemptions, with $2.3B in property tax breaks — 3150.0× the state median. The per-household cost of these subsidies is $7,808.",
+    "subsidy_context": "3150.0× the state median",
     "donor_context": ""
   },
   "top_findings": [],

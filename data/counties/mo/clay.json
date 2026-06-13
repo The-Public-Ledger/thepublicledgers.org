@@ -4,7 +4,7 @@
     "state_name": "Missouri",
     "county": "Clay",
     "county_slug": "clay",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,18 +23,18 @@
     "fips_county": "047"
   },
   "benchmarks": {
-    "state_rank": 5,
-    "state_total_counties": 18,
-    "state_percentile": 72,
-    "state_median_subsidy_usd": 829469.5,
+    "state_rank": 4,
+    "state_total_counties": 17,
+    "state_percentile": 76,
+    "state_median_subsidy_usd": 740939.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 24.65,
-    "subsidy_context": "3.0× the state median",
+    "subsidy_context": "3.3× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Clay County ranks 5th out of 18 Missouri counties for total tax exemptions, with $2.5M in property tax breaks — 3.0× the state median. The per-household cost of these subsidies is $25.",
-    "subsidy_context": "3.0× the state median",
+    "summary": "Clay County ranks 4th out of 17 Missouri counties for total tax exemptions, with $2.5M in property tax breaks — 3.3× the state median. The per-household cost of these subsidies is $25.",
+    "subsidy_context": "3.3× the state median",
     "donor_context": ""
   },
   "top_findings": [],

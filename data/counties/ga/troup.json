@@ -4,7 +4,7 @@
     "state_name": "Georgia",
     "county": "Troup",
     "county_slug": "troup",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 2,
-    "state_total_counties": 166,
+    "state_total_counties": 159,
     "state_percentile": 99,
     "state_median_subsidy_usd": 2925000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 189.14,
+    "state_median_cost_per_hh": 185.3,
     "subsidy_context": "289.0× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Troup County ranks 2nd out of 166 Georgia counties for total tax exemptions, with $845.2M in property tax breaks — 289.0× the state median. The per-household cost of these subsidies is $14,781.",
+    "summary": "Troup County ranks 2nd out of 159 Georgia counties for total tax exemptions, with $845.2M in property tax breaks — 289.0× the state median. The per-household cost of these subsidies is $14,781.",
     "subsidy_context": "289.0× the state median",
     "donor_context": ""
   },

@@ -4,7 +4,7 @@
     "state_name": "Florida",
     "county": "Martin",
     "county_slug": "martin",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,18 +23,18 @@
     "warn_notices": 0
   },
   "benchmarks": {
-    "state_rank": 36,
-    "state_total_counties": 78,
-    "state_percentile": 54,
-    "state_median_subsidy_usd": 8033000.0,
-    "state_median_donor_rate": 28.09,
+    "state_rank": 35,
+    "state_total_counties": 67,
+    "state_percentile": 48,
+    "state_median_subsidy_usd": 8466250.0,
+    "state_median_donor_rate": 27.27,
     "state_median_cost_per_hh": 96.46,
-    "subsidy_context": "near the state median",
+    "subsidy_context": "below the state median",
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Martin County ranks 36th out of 78 Florida counties for total tax exemptions, with $6.5M in property tax breaks — near the state median. 25% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $79.",
-    "subsidy_context": "near the state median",
+    "summary": "Martin County ranks 35th out of 67 Florida counties for total tax exemptions, with $6.5M in property tax breaks — below the state median. 25% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $79.",
+    "subsidy_context": "below the state median",
     "donor_context": "below average"
   },
   "top_findings": [],

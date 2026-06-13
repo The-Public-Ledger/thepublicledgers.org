@@ -2,13 +2,13 @@
   "meta": {
     "state": "MO",
     "state_name": "Missouri",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "sources": [
       "Good Jobs First"
     ],
     "coverage": {
       "counties_total": 114,
-      "counties_with_data": 18,
+      "counties_with_data": 17,
       "crossref_complete": true,
       "deals_count": 2320,
       "contributions_matched": 145
@@ -16,7 +16,7 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "total_exemptions_usd": 4070779857.0,
+    "total_exemptions_usd": 2350338372.0,
     "total_beneficiaries": 2320,
     "total_donations_usd": 1740883.27,
     "matched_donors": 145,
@@ -25,7 +25,7 @@
   "top_findings": [
     "145 of 2,320 subsidized companies (6.2%) made campaign donations — $1.7M total.",
     "$134,011 in donations flowed from beneficiaries to 9 political committees. Top recipient: MBA RIVER HERITAGE REGION PAC ($68,332).",
-    "$4.07B in total subsidies tracked across 2,320 beneficiary companies in Missouri."
+    "$2.35B in total subsidies tracked across 2,320 beneficiary companies in Missouri."
   ],
   "counsel_conflicts": [],
   "committee_stats": {
@@ -36,15 +36,6 @@
     "top_committee_pct": 4.35
   },
   "counties": [
-    {
-      "name": "Unknown",
-      "slug": "unknown",
-      "score": 84.4,
-      "total_exemptions_usd": 1720441485.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 5010
-    },
     {
       "name": "Jackson",
       "slug": "jackson",

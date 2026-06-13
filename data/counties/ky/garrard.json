@@ -4,7 +4,7 @@
     "state_name": "Kentucky",
     "county": "Garrard",
     "county_slug": "garrard",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "079"
   },
   "benchmarks": {
-    "state_rank": 98,
-    "state_total_counties": 122,
-    "state_percentile": 20,
-    "state_median_subsidy_usd": 8608841.0,
+    "state_rank": 97,
+    "state_total_counties": 120,
+    "state_percentile": 19,
+    "state_median_subsidy_usd": 8849500.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 2548.24,
+    "state_median_cost_per_hh": 2448.66,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Garrard County ranks 98th out of 122 Kentucky counties for total tax exemptions, with $124K in property tax breaks — below the state median.",
+    "summary": "Garrard County ranks 97th out of 120 Kentucky counties for total tax exemptions, with $124K in property tax breaks — below the state median.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

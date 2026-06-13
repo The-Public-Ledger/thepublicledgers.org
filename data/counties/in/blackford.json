@@ -4,7 +4,7 @@
     "state_name": "Indiana",
     "county": "Blackford",
     "county_slug": "blackford",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,12 +23,12 @@
     "fips_county": "009"
   },
   "benchmarks": {
-    "state_rank": 80,
-    "state_total_counties": 93,
+    "state_rank": 79,
+    "state_total_counties": 92,
     "state_percentile": 14,
     "state_median_subsidy_usd": 14823050.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 992.64,
+    "state_median_cost_per_hh": 989.55,
     "subsidy_context": "no subsidy data",
     "donor_context": ""
   },

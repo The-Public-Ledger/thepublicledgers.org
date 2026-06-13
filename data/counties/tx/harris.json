@@ -4,7 +4,7 @@
     "state_name": "Texas",
     "county": "Harris",
     "county_slug": "harris",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,8 +24,8 @@
   },
   "benchmarks": {
     "state_rank": 14,
-    "state_total_counties": 257,
-    "state_percentile": 95,
+    "state_total_counties": 254,
+    "state_percentile": 94,
     "state_median_subsidy_usd": 0.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 0.0,

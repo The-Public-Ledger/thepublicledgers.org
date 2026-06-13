@@ -4,7 +4,7 @@
     "state_name": "North Carolina",
     "county": "Cabarrus",
     "county_slug": "cabarrus",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "025"
   },
   "benchmarks": {
-    "state_rank": 6,
-    "state_total_counties": 103,
-    "state_percentile": 94,
-    "state_median_subsidy_usd": 8425260.0,
+    "state_rank": 5,
+    "state_total_counties": 100,
+    "state_percentile": 95,
+    "state_median_subsidy_usd": 7575926.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 103.72,
+    "state_median_cost_per_hh": 134.61,
     "subsidy_context": "above the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Cabarrus County ranks 6th out of 103 North Carolina counties for total tax exemptions, with $11.0M in property tax breaks — above the state median.",
+    "summary": "Cabarrus County ranks 5th out of 100 North Carolina counties for total tax exemptions, with $11.0M in property tax breaks — above the state median.",
     "subsidy_context": "above the state median",
     "donor_context": ""
   },

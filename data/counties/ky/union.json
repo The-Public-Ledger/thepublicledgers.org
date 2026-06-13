@@ -4,7 +4,7 @@
     "state_name": "Kentucky",
     "county": "Union",
     "county_slug": "union",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,17 +24,17 @@
   },
   "benchmarks": {
     "state_rank": 27,
-    "state_total_counties": 122,
+    "state_total_counties": 120,
     "state_percentile": 78,
-    "state_median_subsidy_usd": 8608841.0,
+    "state_median_subsidy_usd": 8849500.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 2548.24,
-    "subsidy_context": "4.9× the state median",
+    "state_median_cost_per_hh": 2448.66,
+    "subsidy_context": "4.7× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Union County ranks 27th out of 122 Kentucky counties for total tax exemptions, with $41.9M in property tax breaks — 4.9× the state median. The per-household cost of these subsidies is $14,162.",
-    "subsidy_context": "4.9× the state median",
+    "summary": "Union County ranks 27th out of 120 Kentucky counties for total tax exemptions, with $41.9M in property tax breaks — 4.7× the state median. The per-household cost of these subsidies is $14,162.",
+    "subsidy_context": "4.7× the state median",
     "donor_context": ""
   },
   "top_findings": [],

@@ -4,7 +4,7 @@
     "state_name": "Indiana",
     "county": "Posey",
     "county_slug": "posey",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 58,
-    "state_total_counties": 93,
-    "state_percentile": 38,
+    "state_total_counties": 92,
+    "state_percentile": 37,
     "state_median_subsidy_usd": 14823050.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 992.64,
+    "state_median_cost_per_hh": 989.55,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Posey County ranks 58th out of 93 Indiana counties for total tax exemptions, with $5.2M in property tax breaks — below the state median.",
+    "summary": "Posey County ranks 58th out of 92 Indiana counties for total tax exemptions, with $5.2M in property tax breaks — below the state median.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

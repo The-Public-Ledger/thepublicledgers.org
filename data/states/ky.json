@@ -2,7 +2,7 @@
   "meta": {
     "state": "KY",
     "state_name": "Kentucky",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "sources": [
       "Good Jobs First"
     ],
@@ -16,7 +16,7 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "total_exemptions_usd": 7419574250.0,
+    "total_exemptions_usd": 7418574250.0,
     "total_beneficiaries": 4744,
     "total_donations_usd": 3247081.25,
     "matched_donors": 99,
@@ -697,15 +697,6 @@
       "fips_county": "231"
     },
     {
-      "name": "Statewide",
-      "slug": "statewide",
-      "score": 1.8,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 4266.7,
-      "total_beneficiaries": 0,
-      "num_awards": 0
-    },
-    {
       "name": "Mclean",
       "slug": "mclean",
       "score": 1.75,
@@ -914,15 +905,6 @@
       "total_beneficiaries": 0,
       "num_awards": 35,
       "fips_county": "107"
-    },
-    {
-      "name": "Kentucky",
-      "slug": "kentucky",
-      "score": 1.35,
-      "total_exemptions_usd": 1000000.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 5
     },
     {
       "name": "Lincoln",

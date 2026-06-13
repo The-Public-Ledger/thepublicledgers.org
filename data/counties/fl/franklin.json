@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Franklin",
     "county_slug": "franklin",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 1.75,
+    "accountability_score": 1.55,
     "total_exemptions_usd": 420000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 49.91,
@@ -23,17 +23,17 @@
     "warn_notices": 0
   },
   "benchmarks": {
-    "state_rank": 56,
-    "state_total_counties": 78,
-    "state_percentile": 28,
-    "state_median_subsidy_usd": 8033000.0,
-    "state_median_donor_rate": 28.09,
+    "state_rank": 53,
+    "state_total_counties": 67,
+    "state_percentile": 21,
+    "state_median_subsidy_usd": 8466250.0,
+    "state_median_donor_rate": 27.27,
     "state_median_cost_per_hh": 96.46,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Franklin County ranks 56th out of 78 Florida counties for total tax exemptions, with $420K in property tax breaks — below the state median. The per-household cost of these subsidies is $50.",
+    "summary": "Franklin County ranks 53rd out of 67 Florida counties for total tax exemptions, with $420K in property tax breaks — below the state median. The per-household cost of these subsidies is $50.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

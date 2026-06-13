@@ -4,7 +4,7 @@
     "state_name": "Nevada",
     "county": "White Pine",
     "county_slug": "white-pine",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,12 +23,12 @@
     "fips_county": "033"
   },
   "benchmarks": {
-    "state_rank": 18,
-    "state_total_counties": 18,
+    "state_rank": 17,
+    "state_total_counties": 17,
     "state_percentile": 0,
     "state_median_subsidy_usd": 5070903.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 135.19,
+    "state_median_cost_per_hh": 254.73,
     "subsidy_context": "no subsidy data",
     "donor_context": ""
   },

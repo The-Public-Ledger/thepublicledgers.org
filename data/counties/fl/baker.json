@@ -4,7 +4,7 @@
     "state_name": "Florida",
     "county": "Baker",
     "county_slug": "baker",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -18,22 +18,22 @@
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
     "jobs_current": 0,
-    "num_awards": 4,
+    "num_awards": 2,
     "warn_workers_affected": 0,
     "warn_notices": 0
   },
   "benchmarks": {
-    "state_rank": 55,
-    "state_total_counties": 78,
-    "state_percentile": 29,
-    "state_median_subsidy_usd": 8033000.0,
-    "state_median_donor_rate": 28.09,
+    "state_rank": 52,
+    "state_total_counties": 67,
+    "state_percentile": 22,
+    "state_median_subsidy_usd": 8466250.0,
+    "state_median_donor_rate": 27.27,
     "state_median_cost_per_hh": 96.46,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Baker County ranks 55th out of 78 Florida counties for total tax exemptions, with $426K in property tax breaks — below the state median. The per-household cost of these subsidies is $43.",
+    "summary": "Baker County ranks 52nd out of 67 Florida counties for total tax exemptions, with $426K in property tax breaks — below the state median. The per-household cost of these subsidies is $43.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

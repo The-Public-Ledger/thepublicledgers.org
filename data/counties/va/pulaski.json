@@ -4,7 +4,7 @@
     "state_name": "Virginia",
     "county": "Pulaski",
     "county_slug": "pulaski",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 2,
-    "state_total_counties": 130,
+    "state_total_counties": 129,
     "state_percentile": 98,
     "state_median_subsidy_usd": 1847832.5,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 114.38,
+    "state_median_cost_per_hh": 109.94,
     "subsidy_context": "37.9× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Pulaski County ranks 2nd out of 130 Virginia counties for total tax exemptions, with $70.0M in property tax breaks — 37.9× the state median.",
+    "summary": "Pulaski County ranks 2nd out of 129 Virginia counties for total tax exemptions, with $70.0M in property tax breaks — 37.9× the state median.",
     "subsidy_context": "37.9× the state median",
     "donor_context": ""
   },

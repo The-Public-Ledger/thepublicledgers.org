@@ -4,7 +4,7 @@
     "state_name": "North Carolina",
     "county": "Johnston",
     "county_slug": "johnston",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,17 +24,17 @@
   },
   "benchmarks": {
     "state_rank": 1,
-    "state_total_counties": 103,
+    "state_total_counties": 100,
     "state_percentile": 99,
-    "state_median_subsidy_usd": 8425260.0,
+    "state_median_subsidy_usd": 7575926.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 103.72,
-    "subsidy_context": "16.5× the state median",
+    "state_median_cost_per_hh": 134.61,
+    "subsidy_context": "18.4× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Johnston County ranks 1st out of 103 North Carolina counties for total tax exemptions, with $139.3M in property tax breaks — 16.5× the state median. The per-household cost of these subsidies is $1,634.",
-    "subsidy_context": "16.5× the state median",
+    "summary": "Johnston County ranks 1st out of 100 North Carolina counties for total tax exemptions, with $139.3M in property tax breaks — 18.4× the state median. The per-household cost of these subsidies is $1,634.",
+    "subsidy_context": "18.4× the state median",
     "donor_context": ""
   },
   "top_findings": [],

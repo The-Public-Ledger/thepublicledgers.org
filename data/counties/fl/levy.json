@@ -4,7 +4,7 @@
     "state_name": "Florida",
     "county": "Levy",
     "county_slug": "levy",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "warn_notices": 0
   },
   "benchmarks": {
-    "state_rank": 54,
-    "state_total_counties": 78,
-    "state_percentile": 31,
-    "state_median_subsidy_usd": 8033000.0,
-    "state_median_donor_rate": 28.09,
+    "state_rank": 51,
+    "state_total_counties": 67,
+    "state_percentile": 24,
+    "state_median_subsidy_usd": 8466250.0,
+    "state_median_donor_rate": 27.27,
     "state_median_cost_per_hh": 96.46,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Levy County ranks 54th out of 78 Florida counties for total tax exemptions, with $512K in property tax breaks — below the state median. The per-household cost of these subsidies is $24.",
+    "summary": "Levy County ranks 51st out of 67 Florida counties for total tax exemptions, with $512K in property tax breaks — below the state median. The per-household cost of these subsidies is $24.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

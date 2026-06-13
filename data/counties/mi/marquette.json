@@ -4,7 +4,7 @@
     "state_name": "Michigan",
     "county": "Marquette",
     "county_slug": "marquette",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 18,
-    "state_total_counties": 84,
-    "state_percentile": 79,
+    "state_total_counties": 83,
+    "state_percentile": 78,
     "state_median_subsidy_usd": 4170000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 98.69,
+    "state_median_cost_per_hh": 97.1,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Marquette County ranks 18th out of 84 Michigan counties for total tax exemptions, with $2.0M in property tax breaks — below the state median. The per-household cost of these subsidies is $60.",
+    "summary": "Marquette County ranks 18th out of 83 Michigan counties for total tax exemptions, with $2.0M in property tax breaks — below the state median. The per-household cost of these subsidies is $60.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

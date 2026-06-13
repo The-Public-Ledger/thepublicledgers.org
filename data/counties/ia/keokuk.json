@@ -4,7 +4,7 @@
     "state_name": "Iowa",
     "county": "Keokuk",
     "county_slug": "keokuk",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,10 +23,10 @@
     "fips_county": "107"
   },
   "benchmarks": {
-    "state_rank": 90,
-    "state_total_counties": 100,
+    "state_rank": 89,
+    "state_total_counties": 99,
     "state_percentile": 10,
-    "state_median_subsidy_usd": 22813128.0,
+    "state_median_subsidy_usd": 27703770.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 2808.94,
     "subsidy_context": "no subsidy data",

@@ -2,7 +2,7 @@
   "meta": {
     "state": "KS",
     "state_name": "Kansas",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "sources": [
       "Good Jobs First"
     ],
@@ -11,22 +11,22 @@
       "counties_with_data": 105,
       "crossref_complete": true,
       "deals_count": 2145,
-      "contributions_matched": 422
+      "contributions_matched": 183
     },
     "coverage_status": "full"
   },
   "summary_stats": {
-    "total_exemptions_usd": 3681634539.0,
+    "total_exemptions_usd": 998233236.0,
     "total_beneficiaries": 2145,
     "total_donations_usd": 1337682.88,
-    "matched_donors": 422,
+    "matched_donors": 183,
     "pct_beneficiaries_donating": 0.08529999999999999
   },
   "top_findings": [
-    "422 of 2,145 subsidized companies (8.5%) made campaign donations — $1.3M total.",
+    "183 of 2,145 subsidized companies (8.5%) made campaign donations — $1.3M total.",
     "$626,117 in donations flowed from beneficiaries to 37 political committees. Top recipient: Derek Schmidt ($150,767).",
     "3 companies showed statistically significant pre-award donation spikes (BH-corrected, q<0.05). Top: Kaw Valley Engineering Inc (28.3× baseline, z=36.0).",
-    "$3.68B in total subsidies tracked across 2,145 beneficiary companies in Kansas."
+    "$998M in total subsidies tracked across 2,145 beneficiary companies in Kansas."
   ],
   "counsel_conflicts": [],
   "committee_stats": {
@@ -45,16 +45,6 @@
     "top_spike_subsidy": 8779.0
   },
   "counties": [
-    {
-      "name": "Unknown",
-      "slug": "unknown",
-      "score": 85.0,
-      "total_exemptions_usd": 3681634539.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 5415,
-      "fips_county": "000"
-    },
     {
       "name": "Allen",
       "slug": "allen",

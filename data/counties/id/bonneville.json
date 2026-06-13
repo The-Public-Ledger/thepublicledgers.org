@@ -4,7 +4,7 @@
     "state_name": "Idaho",
     "county": "Bonneville",
     "county_slug": "bonneville",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,17 +24,17 @@
   },
   "benchmarks": {
     "state_rank": 1,
-    "state_total_counties": 45,
+    "state_total_counties": 44,
     "state_percentile": 98,
-    "state_median_subsidy_usd": 5229000.0,
+    "state_median_subsidy_usd": 5748000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 262.92,
-    "subsidy_context": "53.4× the state median",
+    "state_median_cost_per_hh": 248.8,
+    "subsidy_context": "48.6× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Bonneville County ranks 1st out of 45 Idaho counties for total tax exemptions, with $279.4M in property tax breaks — 53.4× the state median. The per-household cost of these subsidies is $6,590.",
-    "subsidy_context": "53.4× the state median",
+    "summary": "Bonneville County ranks 1st out of 44 Idaho counties for total tax exemptions, with $279.4M in property tax breaks — 48.6× the state median. The per-household cost of these subsidies is $6,590.",
+    "subsidy_context": "48.6× the state median",
     "donor_context": ""
   },
   "top_findings": [],

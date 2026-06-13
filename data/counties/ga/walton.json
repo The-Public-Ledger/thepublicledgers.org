@@ -4,7 +4,7 @@
     "state_name": "Georgia",
     "county": "Walton",
     "county_slug": "walton",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "297"
   },
   "benchmarks": {
-    "state_rank": 67,
-    "state_total_counties": 166,
+    "state_rank": 64,
+    "state_total_counties": 159,
     "state_percentile": 60,
     "state_median_subsidy_usd": 2925000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 189.14,
+    "state_median_cost_per_hh": 185.3,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Walton County ranks 67th out of 166 Georgia counties for total tax exemptions, with $1.7M in property tax breaks — below the state median. The per-household cost of these subsidies is $24.",
+    "summary": "Walton County ranks 64th out of 159 Georgia counties for total tax exemptions, with $1.7M in property tax breaks — below the state median. The per-household cost of these subsidies is $24.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

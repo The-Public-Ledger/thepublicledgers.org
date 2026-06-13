@@ -4,7 +4,7 @@
     "state_name": "Iowa",
     "county": "Monona",
     "county_slug": "monona",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "133"
   },
   "benchmarks": {
-    "state_rank": 81,
-    "state_total_counties": 100,
+    "state_rank": 80,
+    "state_total_counties": 99,
     "state_percentile": 19,
-    "state_median_subsidy_usd": 22813128.0,
+    "state_median_subsidy_usd": 27703770.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 2808.94,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Monona County ranks 81st out of 100 Iowa counties for total tax exemptions, with $380K in property tax breaks — below the state median. The per-household cost of these subsidies is $99.",
+    "summary": "Monona County ranks 80th out of 99 Iowa counties for total tax exemptions, with $380K in property tax breaks — below the state median. The per-household cost of these subsidies is $99.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

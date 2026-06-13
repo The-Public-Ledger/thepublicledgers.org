@@ -4,7 +4,7 @@
     "state_name": "North Carolina",
     "county": "Henderson",
     "county_slug": "henderson",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "089"
   },
   "benchmarks": {
-    "state_rank": 8,
-    "state_total_counties": 103,
-    "state_percentile": 92,
-    "state_median_subsidy_usd": 8425260.0,
+    "state_rank": 6,
+    "state_total_counties": 100,
+    "state_percentile": 94,
+    "state_median_subsidy_usd": 7575926.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 103.72,
+    "state_median_cost_per_hh": 134.61,
     "subsidy_context": "near the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Henderson County ranks 8th out of 103 North Carolina counties for total tax exemptions, with $7.6M in property tax breaks — near the state median. The per-household cost of these subsidies is $135.",
+    "summary": "Henderson County ranks 6th out of 100 North Carolina counties for total tax exemptions, with $7.6M in property tax breaks — near the state median. The per-household cost of these subsidies is $135.",
     "subsidy_context": "near the state median",
     "donor_context": ""
   },

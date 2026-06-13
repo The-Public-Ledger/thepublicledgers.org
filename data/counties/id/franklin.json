@@ -4,7 +4,7 @@
     "state_name": "Idaho",
     "county": "Franklin",
     "county_slug": "franklin",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "16041"
   },
   "benchmarks": {
-    "state_rank": 20,
-    "state_total_counties": 45,
-    "state_percentile": 56,
-    "state_median_subsidy_usd": 5229000.0,
+    "state_rank": 19,
+    "state_total_counties": 44,
+    "state_percentile": 57,
+    "state_median_subsidy_usd": 5748000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 262.92,
+    "state_median_cost_per_hh": 248.8,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Franklin County ranks 20th out of 45 Idaho counties for total tax exemptions, with $310K in property tax breaks — below the state median. The per-household cost of these subsidies is $66.",
+    "summary": "Franklin County ranks 19th out of 44 Idaho counties for total tax exemptions, with $310K in property tax breaks — below the state median. The per-household cost of these subsidies is $66.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

@@ -2,7 +2,7 @@
   "meta": {
     "state": "IN",
     "state_name": "Indiana",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "sources": [
       "Good Jobs First"
     ],
@@ -715,15 +715,6 @@
       "total_beneficiaries": 0,
       "num_awards": 0,
       "fips_county": "023"
-    },
-    {
-      "name": "Statewide",
-      "slug": "statewide",
-      "score": 1.8,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 7482.52,
-      "total_beneficiaries": 0,
-      "num_awards": 0
     },
     {
       "name": "Switzerland",

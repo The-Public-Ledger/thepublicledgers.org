@@ -4,7 +4,7 @@
     "state_name": "Nevada",
     "county": "Carson City",
     "county_slug": "carson-city",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 9,
-    "state_total_counties": 18,
-    "state_percentile": 50,
+    "state_total_counties": 17,
+    "state_percentile": 47,
     "state_median_subsidy_usd": 5070903.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 135.19,
+    "state_median_cost_per_hh": 254.73,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Carson City County ranks 9th out of 18 Nevada counties for total tax exemptions, with $1.1M in property tax breaks — below the state median.",
+    "summary": "Carson City County ranks 9th out of 17 Nevada counties for total tax exemptions, with $1.1M in property tax breaks — below the state median.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

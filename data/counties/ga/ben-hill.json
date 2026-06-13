@@ -4,7 +4,7 @@
     "state_name": "Georgia",
     "county": "Ben Hill",
     "county_slug": "ben-hill",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "017"
   },
   "benchmarks": {
-    "state_rank": 49,
-    "state_total_counties": 166,
+    "state_rank": 47,
+    "state_total_counties": 159,
     "state_percentile": 70,
     "state_median_subsidy_usd": 2925000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 189.14,
+    "state_median_cost_per_hh": 185.3,
     "subsidy_context": "near the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Ben Hill County ranks 49th out of 166 Georgia counties for total tax exemptions, with $3.0M in property tax breaks — near the state median. The per-household cost of these subsidies is $185.",
+    "summary": "Ben Hill County ranks 47th out of 159 Georgia counties for total tax exemptions, with $3.0M in property tax breaks — near the state median. The per-household cost of these subsidies is $185.",
     "subsidy_context": "near the state median",
     "donor_context": ""
   },

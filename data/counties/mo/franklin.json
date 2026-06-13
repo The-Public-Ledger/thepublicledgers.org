@@ -4,7 +4,7 @@
     "state_name": "Missouri",
     "county": "Franklin",
     "county_slug": "franklin",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "071"
   },
   "benchmarks": {
-    "state_rank": 6,
-    "state_total_counties": 18,
-    "state_percentile": 67,
-    "state_median_subsidy_usd": 829469.5,
+    "state_rank": 5,
+    "state_total_counties": 17,
+    "state_percentile": 71,
+    "state_median_subsidy_usd": 740939.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 24.65,
     "subsidy_context": "above the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Franklin County ranks 6th out of 18 Missouri counties for total tax exemptions, with $1.1M in property tax breaks — above the state median. The per-household cost of these subsidies is $26.",
+    "summary": "Franklin County ranks 5th out of 17 Missouri counties for total tax exemptions, with $1.1M in property tax breaks — above the state median. The per-household cost of these subsidies is $26.",
     "subsidy_context": "above the state median",
     "donor_context": ""
   },

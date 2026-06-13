@@ -4,7 +4,7 @@
     "state_name": "Missouri",
     "county": "Jasper",
     "county_slug": "jasper",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,18 +23,18 @@
     "fips_county": "097"
   },
   "benchmarks": {
-    "state_rank": 8,
-    "state_total_counties": 18,
-    "state_percentile": 56,
-    "state_median_subsidy_usd": 829469.5,
+    "state_rank": 7,
+    "state_total_counties": 17,
+    "state_percentile": 59,
+    "state_median_subsidy_usd": 740939.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 24.65,
-    "subsidy_context": "near the state median",
+    "subsidy_context": "above the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Jasper County ranks 8th out of 18 Missouri counties for total tax exemptions, with $950K in property tax breaks — near the state median. The per-household cost of these subsidies is $20.",
-    "subsidy_context": "near the state median",
+    "summary": "Jasper County ranks 7th out of 17 Missouri counties for total tax exemptions, with $950K in property tax breaks — above the state median. The per-household cost of these subsidies is $20.",
+    "subsidy_context": "above the state median",
     "donor_context": ""
   },
   "top_findings": [],

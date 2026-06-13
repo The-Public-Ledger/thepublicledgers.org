@@ -4,7 +4,7 @@
     "state_name": "Idaho",
     "county": "Camas",
     "county_slug": "camas",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,12 +23,12 @@
     "fips_county": "16025"
   },
   "benchmarks": {
-    "state_rank": 28,
-    "state_total_counties": 45,
-    "state_percentile": 38,
-    "state_median_subsidy_usd": 5229000.0,
+    "state_rank": 27,
+    "state_total_counties": 44,
+    "state_percentile": 39,
+    "state_median_subsidy_usd": 5748000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 262.92,
+    "state_median_cost_per_hh": 248.8,
     "subsidy_context": "no subsidy data",
     "donor_context": ""
   },

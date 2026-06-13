@@ -4,7 +4,7 @@
     "state_name": "Virginia",
     "county": "Henry",
     "county_slug": "henry",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 6,
-    "state_total_counties": 130,
+    "state_total_counties": 129,
     "state_percentile": 95,
     "state_median_subsidy_usd": 1847832.5,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 114.38,
+    "state_median_cost_per_hh": 109.94,
     "subsidy_context": "8.0× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Henry County ranks 6th out of 130 Virginia counties for total tax exemptions, with $14.8M in property tax breaks — 8.0× the state median. The per-household cost of these subsidies is $580.",
+    "summary": "Henry County ranks 6th out of 129 Virginia counties for total tax exemptions, with $14.8M in property tax breaks — 8.0× the state median. The per-household cost of these subsidies is $580.",
     "subsidy_context": "8.0× the state median",
     "donor_context": ""
   },

@@ -2,7 +2,7 @@
   "meta": {
     "state": "MI",
     "state_name": "Michigan",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "sources": [
       "Good Jobs First"
     ],
@@ -465,15 +465,6 @@
       "total_beneficiaries": 0,
       "num_awards": 0,
       "fips_county": "069"
-    },
-    {
-      "name": "Statewide",
-      "slug": "statewide",
-      "score": 1.8,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 2348.2,
-      "total_beneficiaries": 0,
-      "num_awards": 0
     },
     {
       "name": "Charlevoix",

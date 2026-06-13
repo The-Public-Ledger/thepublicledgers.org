@@ -4,7 +4,7 @@
     "state_name": "Nevada",
     "county": "Washoe",
     "county_slug": "washoe",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 2,
-    "state_total_counties": 18,
-    "state_percentile": 89,
+    "state_total_counties": 17,
+    "state_percentile": 88,
     "state_median_subsidy_usd": 5070903.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 135.19,
+    "state_median_cost_per_hh": 254.73,
     "subsidy_context": "2.2× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Washoe County ranks 2nd out of 18 Nevada counties for total tax exemptions, with $11.0M in property tax breaks — 2.2× the state median. The per-household cost of these subsidies is $53.",
+    "summary": "Washoe County ranks 2nd out of 17 Nevada counties for total tax exemptions, with $11.0M in property tax breaks — 2.2× the state median. The per-household cost of these subsidies is $53.",
     "subsidy_context": "2.2× the state median",
     "donor_context": ""
   },

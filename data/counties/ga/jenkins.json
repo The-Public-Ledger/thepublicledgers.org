@@ -4,7 +4,7 @@
     "state_name": "Georgia",
     "county": "Jenkins",
     "county_slug": "jenkins",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "165"
   },
   "benchmarks": {
-    "state_rank": 92,
-    "state_total_counties": 166,
+    "state_rank": 87,
+    "state_total_counties": 159,
     "state_percentile": 45,
     "state_median_subsidy_usd": 2925000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 189.14,
+    "state_median_cost_per_hh": 185.3,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Jenkins County ranks 92nd out of 166 Georgia counties for total tax exemptions, with $500K in property tax breaks — below the state median.",
+    "summary": "Jenkins County ranks 87th out of 159 Georgia counties for total tax exemptions, with $500K in property tax breaks — below the state median.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

@@ -4,7 +4,7 @@
     "state_name": "Indiana",
     "county": "Switzerland",
     "county_slug": "switzerland",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 73,
-    "state_total_counties": 93,
-    "state_percentile": 22,
+    "state_total_counties": 92,
+    "state_percentile": 21,
     "state_median_subsidy_usd": 14823050.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 992.64,
+    "state_median_cost_per_hh": 989.55,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Switzerland County ranks 73rd out of 93 Indiana counties for total tax exemptions, with $122K in property tax breaks — below the state median. The per-household cost of these subsidies is $28.",
+    "summary": "Switzerland County ranks 73rd out of 92 Indiana counties for total tax exemptions, with $122K in property tax breaks — below the state median. The per-household cost of these subsidies is $28.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

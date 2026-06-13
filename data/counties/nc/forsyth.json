@@ -4,7 +4,7 @@
     "state_name": "North Carolina",
     "county": "Forsyth",
     "county_slug": "forsyth",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "067"
   },
   "benchmarks": {
-    "state_rank": 5,
-    "state_total_counties": 103,
-    "state_percentile": 95,
-    "state_median_subsidy_usd": 8425260.0,
+    "state_rank": 4,
+    "state_total_counties": 100,
+    "state_percentile": 96,
+    "state_median_subsidy_usd": 7575926.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 103.72,
+    "state_median_cost_per_hh": 134.61,
     "subsidy_context": "above the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Forsyth County ranks 5th out of 103 North Carolina counties for total tax exemptions, with $13.7M in property tax breaks — above the state median.",
+    "summary": "Forsyth County ranks 4th out of 100 North Carolina counties for total tax exemptions, with $13.7M in property tax breaks — above the state median.",
     "subsidy_context": "above the state median",
     "donor_context": ""
   },

@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Walton",
     "county_slug": "walton",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 1.55,
+    "accountability_score": 1.35,
     "total_exemptions_usd": 971000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 17.11,
@@ -18,22 +18,22 @@
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
     "jobs_current": 0,
-    "num_awards": 8,
+    "num_awards": 6,
     "warn_workers_affected": 0,
     "warn_notices": 0
   },
   "benchmarks": {
-    "state_rank": 52,
-    "state_total_counties": 78,
-    "state_percentile": 33,
-    "state_median_subsidy_usd": 8033000.0,
-    "state_median_donor_rate": 28.09,
+    "state_rank": 49,
+    "state_total_counties": 67,
+    "state_percentile": 27,
+    "state_median_subsidy_usd": 8466250.0,
+    "state_median_donor_rate": 27.27,
     "state_median_cost_per_hh": 96.46,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Walton County ranks 52nd out of 78 Florida counties for total tax exemptions, with $971K in property tax breaks — below the state median. The per-household cost of these subsidies is $17.",
+    "summary": "Walton County ranks 49th out of 67 Florida counties for total tax exemptions, with $971K in property tax breaks — below the state median. The per-household cost of these subsidies is $17.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

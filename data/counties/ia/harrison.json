@@ -4,7 +4,7 @@
     "state_name": "Iowa",
     "county": "Harrison",
     "county_slug": "harrison",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "085"
   },
   "benchmarks": {
-    "state_rank": 69,
-    "state_total_counties": 100,
+    "state_rank": 68,
+    "state_total_counties": 99,
     "state_percentile": 31,
-    "state_median_subsidy_usd": 22813128.0,
+    "state_median_subsidy_usd": 27703770.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 2808.94,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Harrison County ranks 69th out of 100 Iowa counties for total tax exemptions, with $2.0M in property tax breaks — below the state median. The per-household cost of these subsidies is $343.",
+    "summary": "Harrison County ranks 68th out of 99 Iowa counties for total tax exemptions, with $2.0M in property tax breaks — below the state median. The per-household cost of these subsidies is $343.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

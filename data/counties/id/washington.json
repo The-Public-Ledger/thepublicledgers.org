@@ -4,7 +4,7 @@
     "state_name": "Idaho",
     "county": "Washington",
     "county_slug": "washington",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "16087"
   },
   "benchmarks": {
-    "state_rank": 15,
-    "state_total_counties": 45,
-    "state_percentile": 67,
-    "state_median_subsidy_usd": 5229000.0,
+    "state_rank": 14,
+    "state_total_counties": 44,
+    "state_percentile": 68,
+    "state_median_subsidy_usd": 5748000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 262.92,
+    "state_median_cost_per_hh": 248.8,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Washington County ranks 15th out of 45 Idaho counties for total tax exemptions, with $1.4M in property tax breaks — below the state median. The per-household cost of these subsidies is $346.",
+    "summary": "Washington County ranks 14th out of 44 Idaho counties for total tax exemptions, with $1.4M in property tax breaks — below the state median. The per-household cost of these subsidies is $346.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

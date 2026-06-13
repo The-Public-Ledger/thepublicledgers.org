@@ -4,7 +4,7 @@
     "state_name": "Florida",
     "county": "Indian River",
     "county_slug": "indian-river",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,18 +23,18 @@
     "warn_notices": 0
   },
   "benchmarks": {
-    "state_rank": 19,
-    "state_total_counties": 78,
-    "state_percentile": 76,
-    "state_median_subsidy_usd": 8033000.0,
-    "state_median_donor_rate": 28.09,
+    "state_rank": 18,
+    "state_total_counties": 67,
+    "state_percentile": 73,
+    "state_median_subsidy_usd": 8466250.0,
+    "state_median_donor_rate": 27.27,
     "state_median_cost_per_hh": 96.46,
-    "subsidy_context": "2.1× the state median",
+    "subsidy_context": "above the state median",
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Indian River County ranks 19th out of 78 Florida counties for total tax exemptions, with $16.7M in property tax breaks — 2.1× the state median. 22% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $199.",
-    "subsidy_context": "2.1× the state median",
+    "summary": "Indian River County ranks 18th out of 67 Florida counties for total tax exemptions, with $16.7M in property tax breaks — above the state median. 22% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $199.",
+    "subsidy_context": "above the state median",
     "donor_context": "below average"
   },
   "top_findings": [],

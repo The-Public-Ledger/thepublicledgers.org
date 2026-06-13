@@ -4,7 +4,7 @@
     "state_name": "Maryland",
     "county": "Calvert",
     "county_slug": "calvert",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,7 +24,7 @@
   },
   "benchmarks": {
     "state_rank": 1,
-    "state_total_counties": 25,
+    "state_total_counties": 24,
     "state_percentile": 96,
     "state_median_subsidy_usd": 23966891.0,
     "state_median_donor_rate": 0.0,
@@ -33,7 +33,7 @@
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Calvert County ranks 1st out of 25 Maryland counties for total tax exemptions, with $506.3M in property tax breaks — 21.1× the state median. The per-household cost of these subsidies is $15,211.",
+    "summary": "Calvert County ranks 1st out of 24 Maryland counties for total tax exemptions, with $506.3M in property tax breaks — 21.1× the state median. The per-household cost of these subsidies is $15,211.",
     "subsidy_context": "21.1× the state median",
     "donor_context": ""
   },

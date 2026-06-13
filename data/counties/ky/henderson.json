@@ -4,7 +4,7 @@
     "state_name": "Kentucky",
     "county": "Henderson",
     "county_slug": "henderson",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,17 +24,17 @@
   },
   "benchmarks": {
     "state_rank": 2,
-    "state_total_counties": 122,
+    "state_total_counties": 120,
     "state_percentile": 98,
-    "state_median_subsidy_usd": 8608841.0,
+    "state_median_subsidy_usd": 8849500.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 2548.24,
-    "subsidy_context": "98.4× the state median",
+    "state_median_cost_per_hh": 2448.66,
+    "subsidy_context": "95.8× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Henderson County ranks 2nd out of 122 Kentucky counties for total tax exemptions, with $847.5M in property tax breaks — 98.4× the state median. The per-household cost of these subsidies is $84,059.",
-    "subsidy_context": "98.4× the state median",
+    "summary": "Henderson County ranks 2nd out of 120 Kentucky counties for total tax exemptions, with $847.5M in property tax breaks — 95.8× the state median. The per-household cost of these subsidies is $84,059.",
+    "subsidy_context": "95.8× the state median",
     "donor_context": ""
   },
   "top_findings": [],

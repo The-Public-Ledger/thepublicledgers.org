@@ -4,7 +4,7 @@
     "state_name": "North Carolina",
     "county": "New Hanover",
     "county_slug": "new-hanover",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,17 +24,17 @@
   },
   "benchmarks": {
     "state_rank": 2,
-    "state_total_counties": 103,
+    "state_total_counties": 100,
     "state_percentile": 98,
-    "state_median_subsidy_usd": 8425260.0,
+    "state_median_subsidy_usd": 7575926.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 103.72,
-    "subsidy_context": "8.5× the state median",
+    "state_median_cost_per_hh": 134.61,
+    "subsidy_context": "9.5× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "New Hanover County ranks 2nd out of 103 North Carolina counties for total tax exemptions, with $72.0M in property tax breaks — 8.5× the state median.",
-    "subsidy_context": "8.5× the state median",
+    "summary": "New Hanover County ranks 2nd out of 100 North Carolina counties for total tax exemptions, with $72.0M in property tax breaks — 9.5× the state median.",
+    "subsidy_context": "9.5× the state median",
     "donor_context": ""
   },
   "top_findings": [],

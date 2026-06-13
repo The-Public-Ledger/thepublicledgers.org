@@ -2,7 +2,7 @@
   "meta": {
     "state": "WA",
     "state_name": "Washington",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "sources": [
       "Good Jobs First"
     ],
@@ -225,15 +225,6 @@
       "total_beneficiaries": 0,
       "num_awards": 1,
       "fips_county": "039"
-    },
-    {
-      "name": "Statewide",
-      "slug": "statewide",
-      "score": 1.8,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 9.04,
-      "total_beneficiaries": 0,
-      "num_awards": 0
     },
     {
       "name": "Adams",

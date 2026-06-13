@@ -4,7 +4,7 @@
     "state_name": "Idaho",
     "county": "Cassia",
     "county_slug": "cassia",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 7,
-    "state_total_counties": 45,
+    "state_total_counties": 44,
     "state_percentile": 84,
-    "state_median_subsidy_usd": 5229000.0,
+    "state_median_subsidy_usd": 5748000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 262.92,
+    "state_median_cost_per_hh": 248.8,
     "subsidy_context": "above the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Cassia County ranks 7th out of 45 Idaho counties for total tax exemptions, with $9.2M in property tax breaks — above the state median. The per-household cost of these subsidies is $1,129.",
+    "summary": "Cassia County ranks 7th out of 44 Idaho counties for total tax exemptions, with $9.2M in property tax breaks — above the state median. The per-household cost of these subsidies is $1,129.",
     "subsidy_context": "above the state median",
     "donor_context": ""
   },

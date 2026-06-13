@@ -4,7 +4,7 @@
     "state_name": "Texas",
     "county": "San Patricio",
     "county_slug": "san-patricio",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,9 +23,9 @@
     "fips_county": "409"
   },
   "benchmarks": {
-    "state_rank": 212,
-    "state_total_counties": 257,
-    "state_percentile": 18,
+    "state_rank": 210,
+    "state_total_counties": 254,
+    "state_percentile": 17,
     "state_median_subsidy_usd": 0.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 0.0,

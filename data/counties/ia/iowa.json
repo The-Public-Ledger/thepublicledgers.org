@@ -4,7 +4,7 @@
     "state_name": "Iowa",
     "county": "Iowa",
     "county_slug": "iowa",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,17 +24,17 @@
   },
   "benchmarks": {
     "state_rank": 21,
-    "state_total_counties": 100,
+    "state_total_counties": 99,
     "state_percentile": 79,
-    "state_median_subsidy_usd": 22813128.0,
+    "state_median_subsidy_usd": 27703770.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 2808.94,
-    "subsidy_context": "3.5× the state median",
+    "subsidy_context": "2.9× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Iowa County ranks 21st out of 100 Iowa counties for total tax exemptions, with $79.6M in property tax breaks — 3.5× the state median. The per-household cost of these subsidies is $11,716.",
-    "subsidy_context": "3.5× the state median",
+    "summary": "Iowa County ranks 21st out of 99 Iowa counties for total tax exemptions, with $79.6M in property tax breaks — 2.9× the state median. The per-household cost of these subsidies is $11,716.",
+    "subsidy_context": "2.9× the state median",
     "donor_context": ""
   },
   "top_findings": [],

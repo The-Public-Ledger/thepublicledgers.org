@@ -2,7 +2,7 @@
   "meta": {
     "state": "MD",
     "state_name": "Maryland",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "sources": [
       "Good Jobs First"
     ],
@@ -265,16 +265,6 @@
       "total_beneficiaries": 0,
       "num_awards": 0,
       "fips_county": "037"
-    },
-    {
-      "name": "St. Mary S",
-      "slug": "st-mary-s",
-      "score": 0.0,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 0,
-      "fips_county": "000"
     },
     {
       "name": "Talbot",

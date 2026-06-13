@@ -4,7 +4,7 @@
     "state_name": "Nevada",
     "county": "Lyon",
     "county_slug": "lyon",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 3,
-    "state_total_counties": 18,
-    "state_percentile": 83,
+    "state_total_counties": 17,
+    "state_percentile": 82,
     "state_median_subsidy_usd": 5070903.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 135.19,
+    "state_median_cost_per_hh": 254.73,
     "subsidy_context": "above the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Lyon County ranks 3rd out of 18 Nevada counties for total tax exemptions, with $9.2M in property tax breaks — above the state median. The per-household cost of these subsidies is $374.",
+    "summary": "Lyon County ranks 3rd out of 17 Nevada counties for total tax exemptions, with $9.2M in property tax breaks — above the state median. The per-household cost of these subsidies is $374.",
     "subsidy_context": "above the state median",
     "donor_context": ""
   },

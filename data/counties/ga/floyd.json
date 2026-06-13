@@ -4,7 +4,7 @@
     "state_name": "Georgia",
     "county": "Floyd",
     "county_slug": "floyd",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "115"
   },
   "benchmarks": {
-    "state_rank": 75,
-    "state_total_counties": 166,
+    "state_rank": 71,
+    "state_total_counties": 159,
     "state_percentile": 55,
     "state_median_subsidy_usd": 2925000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 189.14,
+    "state_median_cost_per_hh": 185.3,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Floyd County ranks 75th out of 166 Georgia counties for total tax exemptions, with $1.1M in property tax breaks — below the state median. The per-household cost of these subsidies is $26.",
+    "summary": "Floyd County ranks 71st out of 159 Georgia counties for total tax exemptions, with $1.1M in property tax breaks — below the state median. The per-household cost of these subsidies is $26.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

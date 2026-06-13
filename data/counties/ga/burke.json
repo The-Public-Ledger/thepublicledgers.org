@@ -4,7 +4,7 @@
     "state_name": "Georgia",
     "county": "Burke",
     "county_slug": "burke",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "033"
   },
   "benchmarks": {
-    "state_rank": 44,
-    "state_total_counties": 166,
-    "state_percentile": 73,
+    "state_rank": 42,
+    "state_total_counties": 159,
+    "state_percentile": 74,
     "state_median_subsidy_usd": 2925000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 189.14,
+    "state_median_cost_per_hh": 185.3,
     "subsidy_context": "near the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Burke County ranks 44th out of 166 Georgia counties for total tax exemptions, with $3.5M in property tax breaks — near the state median.",
+    "summary": "Burke County ranks 42nd out of 159 Georgia counties for total tax exemptions, with $3.5M in property tax breaks — near the state median.",
     "subsidy_context": "near the state median",
     "donor_context": ""
   },

@@ -4,7 +4,7 @@
     "state_name": "Kansas",
     "county": "Morris",
     "county_slug": "morris",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,10 +23,10 @@
     "fips_county": "127"
   },
   "benchmarks": {
-    "state_rank": 65,
-    "state_total_counties": 106,
+    "state_rank": 64,
+    "state_total_counties": 105,
     "state_percentile": 39,
-    "state_median_subsidy_usd": 3681634539.0,
+    "state_median_subsidy_usd": 0.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 0.0,
     "subsidy_context": "no subsidy data",

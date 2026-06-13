@@ -4,7 +4,7 @@
     "state_name": "Colorado",
     "county": "Las Animas",
     "county_slug": "las-animas",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,12 +23,12 @@
     "fips_county": "071"
   },
   "benchmarks": {
-    "state_rank": 53,
-    "state_total_counties": 65,
-    "state_percentile": 18,
+    "state_rank": 52,
+    "state_total_counties": 64,
+    "state_percentile": 19,
     "state_median_subsidy_usd": 5169064.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 277.95,
+    "state_median_cost_per_hh": 267.35,
     "subsidy_context": "no subsidy data",
     "donor_context": ""
   },

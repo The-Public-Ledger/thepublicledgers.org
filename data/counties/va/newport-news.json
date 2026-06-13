@@ -4,7 +4,7 @@
     "state_name": "Virginia",
     "county": "Newport News",
     "county_slug": "newport-news",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,12 +23,12 @@
     "fips_county": "700"
   },
   "benchmarks": {
-    "state_rank": 113,
-    "state_total_counties": 130,
+    "state_rank": 112,
+    "state_total_counties": 129,
     "state_percentile": 13,
     "state_median_subsidy_usd": 1847832.5,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 114.38,
+    "state_median_cost_per_hh": 109.94,
     "subsidy_context": "no subsidy data",
     "donor_context": ""
   },

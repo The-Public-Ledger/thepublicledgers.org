@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Hillsborough",
     "county_slug": "hillsborough",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 4.4,
+    "accountability_score": 4.2,
     "total_exemptions_usd": 195100900.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 321.77,
@@ -18,23 +18,23 @@
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
     "jobs_current": 0,
-    "num_awards": 205,
+    "num_awards": 190,
     "warn_workers_affected": 0,
     "warn_notices": 0
   },
   "benchmarks": {
     "state_rank": 8,
-    "state_total_counties": 78,
-    "state_percentile": 90,
-    "state_median_subsidy_usd": 8033000.0,
-    "state_median_donor_rate": 28.09,
+    "state_total_counties": 67,
+    "state_percentile": 88,
+    "state_median_subsidy_usd": 8466250.0,
+    "state_median_donor_rate": 27.27,
     "state_median_cost_per_hh": 96.46,
-    "subsidy_context": "24.3× the state median",
+    "subsidy_context": "23.0× the state median",
     "donor_context": "near average"
   },
   "narrative": {
-    "summary": "Hillsborough County ranks 8th out of 78 Florida counties for total tax exemptions, with $195.1M in property tax breaks — 24.3× the state median. 32% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $322.",
-    "subsidy_context": "24.3× the state median",
+    "summary": "Hillsborough County ranks 8th out of 67 Florida counties for total tax exemptions, with $195.1M in property tax breaks — 23.0× the state median. 32% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $322.",
+    "subsidy_context": "23.0× the state median",
     "donor_context": "near average"
   },
   "top_findings": [],

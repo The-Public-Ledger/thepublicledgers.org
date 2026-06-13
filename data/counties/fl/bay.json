@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Bay",
     "county_slug": "bay",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 3.55,
+    "accountability_score": 3.35,
     "total_exemptions_usd": 14210000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 136.07,
@@ -18,22 +18,22 @@
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
     "jobs_current": 0,
-    "num_awards": 28,
+    "num_awards": 24,
     "warn_workers_affected": 0,
     "warn_notices": 0
   },
   "benchmarks": {
-    "state_rank": 22,
-    "state_total_counties": 78,
-    "state_percentile": 72,
-    "state_median_subsidy_usd": 8033000.0,
-    "state_median_donor_rate": 28.09,
+    "state_rank": 21,
+    "state_total_counties": 67,
+    "state_percentile": 69,
+    "state_median_subsidy_usd": 8466250.0,
+    "state_median_donor_rate": 27.27,
     "state_median_cost_per_hh": 96.46,
     "subsidy_context": "above the state median",
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Bay County ranks 22nd out of 78 Florida counties for total tax exemptions, with $14.2M in property tax breaks — above the state median. 24% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $136.",
+    "summary": "Bay County ranks 21st out of 67 Florida counties for total tax exemptions, with $14.2M in property tax breaks — above the state median. 24% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $136.",
     "subsidy_context": "above the state median",
     "donor_context": "below average"
   },

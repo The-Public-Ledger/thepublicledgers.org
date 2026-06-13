@@ -4,7 +4,7 @@
     "state_name": "Kansas",
     "county": "Marion",
     "county_slug": "marion",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,10 +23,10 @@
     "fips_county": "115"
   },
   "benchmarks": {
-    "state_rank": 58,
-    "state_total_counties": 106,
-    "state_percentile": 45,
-    "state_median_subsidy_usd": 3681634539.0,
+    "state_rank": 57,
+    "state_total_counties": 105,
+    "state_percentile": 46,
+    "state_median_subsidy_usd": 0.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 0.0,
     "subsidy_context": "no subsidy data",

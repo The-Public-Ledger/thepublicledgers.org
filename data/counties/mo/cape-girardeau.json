@@ -4,7 +4,7 @@
     "state_name": "Missouri",
     "county": "Cape Girardeau",
     "county_slug": "cape-girardeau",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "031"
   },
   "benchmarks": {
-    "state_rank": 15,
-    "state_total_counties": 18,
-    "state_percentile": 17,
-    "state_median_subsidy_usd": 829469.5,
+    "state_rank": 14,
+    "state_total_counties": 17,
+    "state_percentile": 18,
+    "state_median_subsidy_usd": 740939.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 24.65,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Cape Girardeau County ranks 15th out of 18 Missouri counties for total tax exemptions, with $211K in property tax breaks — below the state median. The per-household cost of these subsidies is $7.",
+    "summary": "Cape Girardeau County ranks 14th out of 17 Missouri counties for total tax exemptions, with $211K in property tax breaks — below the state median. The per-household cost of these subsidies is $7.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

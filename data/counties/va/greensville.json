@@ -4,7 +4,7 @@
     "state_name": "Virginia",
     "county": "Greensville",
     "county_slug": "greensville",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 32,
-    "state_total_counties": 130,
+    "state_total_counties": 129,
     "state_percentile": 75,
     "state_median_subsidy_usd": 1847832.5,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 114.38,
+    "state_median_cost_per_hh": 109.94,
     "subsidy_context": "near the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Greensville County ranks 32nd out of 130 Virginia counties for total tax exemptions, with $2.1M in property tax breaks — near the state median. The per-household cost of these subsidies is $1,028.",
+    "summary": "Greensville County ranks 32nd out of 129 Virginia counties for total tax exemptions, with $2.1M in property tax breaks — near the state median. The per-household cost of these subsidies is $1,028.",
     "subsidy_context": "near the state median",
     "donor_context": ""
   },

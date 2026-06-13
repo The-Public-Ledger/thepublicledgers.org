@@ -4,7 +4,7 @@
     "state_name": "Washington",
     "county": "Benton",
     "county_slug": "benton",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,12 +23,12 @@
     "fips_county": "005"
   },
   "benchmarks": {
-    "state_rank": 23,
-    "state_total_counties": 40,
-    "state_percentile": 42,
+    "state_rank": 22,
+    "state_total_counties": 39,
+    "state_percentile": 44,
     "state_median_subsidy_usd": 421357.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 4.64,
+    "state_median_cost_per_hh": 4.51,
     "subsidy_context": "no subsidy data",
     "donor_context": ""
   },

@@ -4,11 +4,11 @@
     "state_name": "Florida",
     "county": "Lake",
     "county_slug": "lake",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
-    "accountability_score": 1.55,
+    "accountability_score": 1.0,
     "total_exemptions_usd": 125000.0,
     "net_exemptions_usd": 0.0,
     "cost_per_household_usd": 0.7,
@@ -23,17 +23,17 @@
     "warn_notices": 0
   },
   "benchmarks": {
-    "state_rank": 61,
-    "state_total_counties": 78,
-    "state_percentile": 22,
-    "state_median_subsidy_usd": 8033000.0,
-    "state_median_donor_rate": 28.09,
+    "state_rank": 58,
+    "state_total_counties": 67,
+    "state_percentile": 13,
+    "state_median_subsidy_usd": 8466250.0,
+    "state_median_donor_rate": 27.27,
     "state_median_cost_per_hh": 96.46,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Lake County ranks 61st out of 78 Florida counties for total tax exemptions, with $125K in property tax breaks — below the state median. The per-household cost of these subsidies is $1.",
+    "summary": "Lake County ranks 58th out of 67 Florida counties for total tax exemptions, with $125K in property tax breaks — below the state median. The per-household cost of these subsidies is $1.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

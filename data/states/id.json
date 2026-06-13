@@ -2,7 +2,7 @@
   "meta": {
     "state": "ID",
     "state_name": "Idaho",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "sources": [
       "Good Jobs First"
     ],
@@ -16,7 +16,7 @@
     "coverage_status": "full"
   },
   "summary_stats": {
-    "total_exemptions_usd": 443102561.0,
+    "total_exemptions_usd": 438702117.0,
     "total_beneficiaries": 342,
     "total_donations_usd": 1968750.39,
     "matched_donors": 62,
@@ -24,7 +24,7 @@
   },
   "top_findings": [
     "62 of 342 subsidized companies (18.1%) made campaign donations — $2.0M total.",
-    "$443M in total subsidies tracked across 342 beneficiary companies in Idaho."
+    "$439M in total subsidies tracked across 342 beneficiary companies in Idaho."
   ],
   "counsel_conflicts": [],
   "counties": [
@@ -57,16 +57,6 @@
       "total_beneficiaries": 0,
       "num_awards": 5,
       "fips_county": "16053"
-    },
-    {
-      "name": "Nampa",
-      "slug": "nampa",
-      "score": 10.6,
-      "total_exemptions_usd": 4400444.0,
-      "cost_per_household_usd": 4400.44,
-      "total_beneficiaries": 0,
-      "num_awards": 1,
-      "fips_county": "16000"
     },
     {
       "name": "Power",

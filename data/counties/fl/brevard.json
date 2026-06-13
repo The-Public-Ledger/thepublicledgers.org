@@ -4,7 +4,7 @@
     "state_name": "Florida",
     "county": "Brevard",
     "county_slug": "brevard",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -18,23 +18,23 @@
     "total_donations_usd": 0.0,
     "jobs_promised": 0,
     "jobs_current": 0,
-    "num_awards": 121,
+    "num_awards": 114,
     "warn_workers_affected": 0,
     "warn_notices": 0
   },
   "benchmarks": {
     "state_rank": 3,
-    "state_total_counties": 78,
+    "state_total_counties": 67,
     "state_percentile": 96,
-    "state_median_subsidy_usd": 8033000.0,
-    "state_median_donor_rate": 28.09,
+    "state_median_subsidy_usd": 8466250.0,
+    "state_median_donor_rate": 27.27,
     "state_median_cost_per_hh": 96.46,
-    "subsidy_context": "149.7× the state median",
+    "subsidy_context": "142.0× the state median",
     "donor_context": "below average"
   },
   "narrative": {
-    "summary": "Brevard County ranks 3rd out of 78 Florida counties for total tax exemptions, with $1.2B in property tax breaks — 149.7× the state median. 23% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $4,142.",
-    "subsidy_context": "149.7× the state median",
+    "summary": "Brevard County ranks 3rd out of 67 Florida counties for total tax exemptions, with $1.2B in property tax breaks — 142.0× the state median. 23% of subsidy recipients contributed to committees affiliated with local officials. The per-household cost of these subsidies is $4,142.",
+    "subsidy_context": "142.0× the state median",
     "donor_context": "below average"
   },
   "top_findings": [],

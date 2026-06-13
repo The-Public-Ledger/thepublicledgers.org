@@ -4,7 +4,7 @@
     "state_name": "Texas",
     "county": "Camp",
     "county_slug": "camp",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,9 +23,9 @@
     "fips_county": "063"
   },
   "benchmarks": {
-    "state_rank": 58,
-    "state_total_counties": 257,
-    "state_percentile": 77,
+    "state_rank": 56,
+    "state_total_counties": 254,
+    "state_percentile": 78,
     "state_median_subsidy_usd": 0.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 0.0,

@@ -4,7 +4,7 @@
     "state_name": "Kentucky",
     "county": "Leslie",
     "county_slug": "leslie",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,12 +23,12 @@
     "fips_county": "131"
   },
   "benchmarks": {
-    "state_rank": 111,
-    "state_total_counties": 122,
+    "state_rank": 109,
+    "state_total_counties": 120,
     "state_percentile": 9,
-    "state_median_subsidy_usd": 8608841.0,
+    "state_median_subsidy_usd": 8849500.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 2548.24,
+    "state_median_cost_per_hh": 2448.66,
     "subsidy_context": "no subsidy data",
     "donor_context": ""
   },

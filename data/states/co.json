@@ -2,7 +2,7 @@
   "meta": {
     "state": "CO",
     "state_name": "Colorado",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "sources": [
       "Good Jobs First"
     ],
@@ -405,15 +405,6 @@
       "total_beneficiaries": 0,
       "num_awards": 0,
       "fips_county": "025"
-    },
-    {
-      "name": "Statewide",
-      "slug": "statewide",
-      "score": 1.8,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 277.95,
-      "total_beneficiaries": 0,
-      "num_awards": 0
     },
     {
       "name": "Summit",

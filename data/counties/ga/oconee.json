@@ -4,7 +4,7 @@
     "state_name": "Georgia",
     "county": "Oconee",
     "county_slug": "oconee",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "219"
   },
   "benchmarks": {
-    "state_rank": 12,
-    "state_total_counties": 166,
-    "state_percentile": 93,
+    "state_rank": 10,
+    "state_total_counties": 159,
+    "state_percentile": 94,
     "state_median_subsidy_usd": 2925000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 189.14,
+    "state_median_cost_per_hh": 185.3,
     "subsidy_context": "12.3× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Oconee County ranks 12th out of 166 Georgia counties for total tax exemptions, with $36.0M in property tax breaks — 12.3× the state median.",
+    "summary": "Oconee County ranks 10th out of 159 Georgia counties for total tax exemptions, with $36.0M in property tax breaks — 12.3× the state median.",
     "subsidy_context": "12.3× the state median",
     "donor_context": ""
   },

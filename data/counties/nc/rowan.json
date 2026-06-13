@@ -4,7 +4,7 @@
     "state_name": "North Carolina",
     "county": "Rowan",
     "county_slug": "rowan",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "159"
   },
   "benchmarks": {
-    "state_rank": 12,
-    "state_total_counties": 103,
-    "state_percentile": 88,
-    "state_median_subsidy_usd": 8425260.0,
+    "state_rank": 10,
+    "state_total_counties": 100,
+    "state_percentile": 90,
+    "state_median_subsidy_usd": 7575926.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 103.72,
+    "state_median_cost_per_hh": 134.61,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Rowan County ranks 12th out of 103 North Carolina counties for total tax exemptions, with $1.1M in property tax breaks — below the state median.",
+    "summary": "Rowan County ranks 10th out of 100 North Carolina counties for total tax exemptions, with $1.1M in property tax breaks — below the state median.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

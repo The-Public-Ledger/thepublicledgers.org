@@ -4,7 +4,7 @@
     "state_name": "Maryland",
     "county": "Baltimore",
     "county_slug": "baltimore",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,8 +24,8 @@
   },
   "benchmarks": {
     "state_rank": 4,
-    "state_total_counties": 25,
-    "state_percentile": 84,
+    "state_total_counties": 24,
+    "state_percentile": 83,
     "state_median_subsidy_usd": 23966891.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 395.69,
@@ -33,7 +33,7 @@
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Baltimore County ranks 4th out of 25 Maryland counties for total tax exemptions, with $144.6M in property tax breaks — 6.0× the state median. The per-household cost of these subsidies is $440.",
+    "summary": "Baltimore County ranks 4th out of 24 Maryland counties for total tax exemptions, with $144.6M in property tax breaks — 6.0× the state median. The per-household cost of these subsidies is $440.",
     "subsidy_context": "6.0× the state median",
     "donor_context": ""
   },

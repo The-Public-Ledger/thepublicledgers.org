@@ -4,7 +4,7 @@
     "state_name": "Georgia",
     "county": "Grady",
     "county_slug": "grady",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "131"
   },
   "benchmarks": {
-    "state_rank": 53,
-    "state_total_counties": 166,
-    "state_percentile": 68,
+    "state_rank": 50,
+    "state_total_counties": 159,
+    "state_percentile": 69,
     "state_median_subsidy_usd": 2925000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 189.14,
+    "state_median_cost_per_hh": 185.3,
     "subsidy_context": "near the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Grady County ranks 53rd out of 166 Georgia counties for total tax exemptions, with $3.0M in property tax breaks — near the state median.",
+    "summary": "Grady County ranks 50th out of 159 Georgia counties for total tax exemptions, with $3.0M in property tax breaks — near the state median.",
     "subsidy_context": "near the state median",
     "donor_context": ""
   },

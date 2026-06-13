@@ -4,7 +4,7 @@
     "state_name": "Kansas",
     "county": "Chautauqua",
     "county_slug": "chautauqua",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,10 +23,10 @@
     "fips_county": "019"
   },
   "benchmarks": {
-    "state_rank": 11,
-    "state_total_counties": 106,
+    "state_rank": 10,
+    "state_total_counties": 105,
     "state_percentile": 90,
-    "state_median_subsidy_usd": 3681634539.0,
+    "state_median_subsidy_usd": 0.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 0.0,
     "subsidy_context": "no subsidy data",

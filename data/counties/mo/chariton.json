@@ -4,7 +4,7 @@
     "state_name": "Missouri",
     "county": "Chariton",
     "county_slug": "chariton",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "041"
   },
   "benchmarks": {
-    "state_rank": 17,
-    "state_total_counties": 18,
+    "state_rank": 16,
+    "state_total_counties": 17,
     "state_percentile": 6,
-    "state_median_subsidy_usd": 829469.5,
+    "state_median_subsidy_usd": 740939.0,
     "state_median_donor_rate": 0.0,
     "state_median_cost_per_hh": 24.65,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Chariton County ranks 17th out of 18 Missouri counties for total tax exemptions, with $64K in property tax breaks — below the state median. The per-household cost of these subsidies is $25.",
+    "summary": "Chariton County ranks 16th out of 17 Missouri counties for total tax exemptions, with $64K in property tax breaks — below the state median. The per-household cost of these subsidies is $25.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

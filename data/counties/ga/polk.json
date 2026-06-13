@@ -4,7 +4,7 @@
     "state_name": "Georgia",
     "county": "Polk",
     "county_slug": "polk",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "233"
   },
   "benchmarks": {
-    "state_rank": 55,
-    "state_total_counties": 166,
+    "state_rank": 52,
+    "state_total_counties": 159,
     "state_percentile": 67,
     "state_median_subsidy_usd": 2925000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 189.14,
+    "state_median_cost_per_hh": 185.3,
     "subsidy_context": "near the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Polk County ranks 55th out of 166 Georgia counties for total tax exemptions, with $2.9M in property tax breaks — near the state median. The per-household cost of these subsidies is $84.",
+    "summary": "Polk County ranks 52nd out of 159 Georgia counties for total tax exemptions, with $2.9M in property tax breaks — near the state median. The per-household cost of these subsidies is $84.",
     "subsidy_context": "near the state median",
     "donor_context": ""
   },

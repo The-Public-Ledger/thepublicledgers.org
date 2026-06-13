@@ -4,7 +4,7 @@
     "state_name": "Kentucky",
     "county": "Hickman",
     "county_slug": "hickman",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -24,16 +24,16 @@
   },
   "benchmarks": {
     "state_rank": 75,
-    "state_total_counties": 122,
-    "state_percentile": 39,
-    "state_median_subsidy_usd": 8608841.0,
+    "state_total_counties": 120,
+    "state_percentile": 38,
+    "state_median_subsidy_usd": 8849500.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 2548.24,
+    "state_median_cost_per_hh": 2448.66,
     "subsidy_context": "below the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Hickman County ranks 75th out of 122 Kentucky counties for total tax exemptions, with $1.8M in property tax breaks — below the state median. The per-household cost of these subsidies is $813.",
+    "summary": "Hickman County ranks 75th out of 120 Kentucky counties for total tax exemptions, with $1.8M in property tax breaks — below the state median. The per-household cost of these subsidies is $813.",
     "subsidy_context": "below the state median",
     "donor_context": ""
   },

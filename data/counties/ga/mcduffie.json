@@ -4,7 +4,7 @@
     "state_name": "Georgia",
     "county": "Mcduffie",
     "county_slug": "mcduffie",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,12 +23,12 @@
     "fips_county": "189"
   },
   "benchmarks": {
-    "state_rank": 141,
-    "state_total_counties": 166,
-    "state_percentile": 15,
+    "state_rank": 134,
+    "state_total_counties": 159,
+    "state_percentile": 16,
     "state_median_subsidy_usd": 2925000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 189.14,
+    "state_median_cost_per_hh": 185.3,
     "subsidy_context": "no subsidy data",
     "donor_context": ""
   },

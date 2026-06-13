@@ -4,7 +4,7 @@
     "state_name": "Georgia",
     "county": "Bibb",
     "county_slug": "bibb",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "coverage_status": "full"
   },
   "summary_stats": {
@@ -23,17 +23,17 @@
     "fips_county": "021"
   },
   "benchmarks": {
-    "state_rank": 17,
-    "state_total_counties": 166,
-    "state_percentile": 90,
+    "state_rank": 15,
+    "state_total_counties": 159,
+    "state_percentile": 91,
     "state_median_subsidy_usd": 2925000.0,
     "state_median_donor_rate": 0.0,
-    "state_median_cost_per_hh": 189.14,
+    "state_median_cost_per_hh": 185.3,
     "subsidy_context": "4.7× the state median",
     "donor_context": ""
   },
   "narrative": {
-    "summary": "Bibb County ranks 17th out of 166 Georgia counties for total tax exemptions, with $13.8M in property tax breaks — 4.7× the state median.",
+    "summary": "Bibb County ranks 15th out of 159 Georgia counties for total tax exemptions, with $13.8M in property tax breaks — 4.7× the state median.",
     "subsidy_context": "4.7× the state median",
     "donor_context": ""
   },

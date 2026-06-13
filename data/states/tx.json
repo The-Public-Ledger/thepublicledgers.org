@@ -2,7 +2,7 @@
   "meta": {
     "state": "TX",
     "state_name": "Texas",
-    "last_updated": "2026-06-11",
+    "last_updated": "2026-06-13",
     "sources": [
       "Good Jobs First"
     ],
@@ -175,15 +175,6 @@
       "total_beneficiaries": 0,
       "num_awards": 1393,
       "fips_county": "201"
-    },
-    {
-      "name": "Hayes",
-      "slug": "hayes",
-      "score": 2.2,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 75
     },
     {
       "name": "Hopkins",
@@ -584,15 +575,6 @@
       "total_beneficiaries": 0,
       "num_awards": 0,
       "fips_county": "059"
-    },
-    {
-      "name": "Camaron",
-      "slug": "camaron",
-      "score": 1.0,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 15
     },
     {
       "name": "Cameron",
@@ -2483,15 +2465,6 @@
       "total_beneficiaries": 0,
       "num_awards": 45,
       "fips_county": "485"
-    },
-    {
-      "name": "Wichita Falls",
-      "slug": "wichita-falls",
-      "score": 1.0,
-      "total_exemptions_usd": 0.0,
-      "cost_per_household_usd": 0.0,
-      "total_beneficiaries": 0,
-      "num_awards": 15
     },
     {
       "name": "Wilbarger",
