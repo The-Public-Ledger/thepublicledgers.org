@@ -128,7 +128,7 @@
     },
     districts: {
       label: 'School District Impact — NY',
-      description: '477 NY school districts showing IDA revenue loss, per-pupil impact, and donor rate among IDA beneficiaries.',
+      description: '477 NY school districts showing IDA revenue loss, per-pupil impact, and donor rate among IDA beneficiaries. "Low Geocode Conf." flags districts where over half the revenue rests on coarse (approximate) geocodes that may be assigned to the wrong district.',
       csv: '/data/ny_district_impact.csv',
       json: '/data/districts.json',
       stateField: null,
@@ -142,6 +142,7 @@
         { key: 'enrollment',   label: 'Enrollment',      type: 'num' },
         { key: 'per_pupil',    label: 'Per Pupil Impact',type: 'money' },
         { key: 'donor_rate',   label: 'Donor Rate %',    type: 'num' },
+        { key: 'low_geocode_confidence', label: 'Low Geocode Conf.', type: 'text' },
       ]
     },
     bad_deals: {
