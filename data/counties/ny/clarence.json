@@ -4,39 +4,15 @@
     "state_name": "New York",
     "county": "Clarence",
     "county_slug": "clarence",
-    "last_updated": "2026-06-13",
-    "coverage_status": "full"
+    "last_updated": "2026-07-17",
+    "coverage_status": "paused_for_coi",
+    "paused_for_coi": true,
+    "notice": "Clarence County data is withheld pending conflict-of-interest review for the duration of the researcher's Erie County Legislature (District 11) candidacy (~December 2026)."
   },
-  "summary_stats": {
-    "accountability_score": 61.12,
-    "total_exemptions_usd": 8023895.0,
-    "net_exemptions_usd": 3100057.0,
-    "cost_per_household_usd": 0.0,
-    "total_beneficiaries": 51,
-    "num_donor_beneficiaries": 24,
-    "donor_rate_pct": 47.06,
-    "total_donations_usd": 165922.83,
-    "jobs_promised": 15090,
-    "jobs_current": 11181,
-    "total_projects": 245,
-    "num_officials_receiving": 13,
-    "official_total_received_usd": 42476.6,
-    "num_pipelines": 38
-  },
-  "benchmarks": {
-    "state_rank": 88,
-    "state_total_counties": 104,
-    "state_percentile": 15,
-    "state_median_subsidy_usd": 42448554.03,
-    "state_median_donor_rate": 23.3,
-    "state_median_cost_per_hh": 0.0,
-    "subsidy_context": "below the state median",
-    "donor_context": "above average"
-  },
+  "summary_stats": {},
+  "benchmarks": {},
   "narrative": {
-    "summary": "Clarence County ranks 88th out of 104 New York counties for total tax exemptions, with $8.0M in property tax breaks — below the state median. 47% of subsidy recipients contributed to committees affiliated with local officials.",
-    "subsidy_context": "below the state median",
-    "donor_context": "above average"
+    "summary": "Clarence County data is withheld pending conflict-of-interest review for the campaign duration (~December 2026)."
   },
   "top_findings": [],
   "deals": [],
