@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "WI",
     "state_name": "Wisconsin",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 26,
-    "physician_population": 22777,
-    "per_1000_physicians": 1.142,
+    "excluded_count": 25,
+    "physician_population": 22996,
+    "per_1000_physicians": 1.087,
     "double_flagged": 2,
-    "industry_payments_usd": 8467.19
+    "industry_payments_usd": 6097.0599999999995
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 17
+      "count": 16
     },
     {
       "code": "1128a4",
@@ -43,11 +43,6 @@
       "from_state": "MD",
       "from_name": "Maryland",
       "count": 2
-    },
-    {
-      "from_state": "IL",
-      "from_name": "Illinois",
-      "count": 1
     },
     {
       "from_state": "FL",
@@ -129,14 +124,6 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "LIEGEOIS, NANETTE nan",
-      "npi": "1154362937",
-      "score": 56.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2015-12-20",
-      "specialty": "DERMATOLOGY"
-    },
-    {
       "name": "LOPEZ, GLORIA nan",
       "npi": "1558466359",
       "score": 56.0,
@@ -167,43 +154,51 @@
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2026-01-20",
       "specialty": "ORTHOPEDICS"
+    },
+    {
+      "name": "WHITE, CULLY R",
+      "npi": "1013093178",
+      "score": 54.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2016-08-18",
+      "specialty": "NEUROLOGY"
     }
   ],
   "industry_payments": [
     {
       "name": "ARASSI, SIAMAK nan",
       "npi": "1083680417",
-      "total_usd": 2249.26,
-      "payment_count": 151,
-      "companies": 17
+      "total_usd": 1675.06,
+      "payment_count": 110,
+      "companies": 14
+    },
+    {
+      "name": "MORASKI, LUANN nan",
+      "npi": "1689625436",
+      "total_usd": 1397.82,
+      "payment_count": 87,
+      "companies": 16
     },
     {
       "name": "WHITE, CULLY R",
       "npi": "1013093178",
-      "total_usd": 2116.7,
-      "payment_count": 20,
+      "total_usd": 1163.04,
+      "payment_count": 16,
       "companies": 1
     },
     {
       "name": "MARIFKE, JERALD P",
       "npi": "1821091679",
-      "total_usd": 1380.48,
-      "payment_count": 18,
-      "companies": 9
+      "total_usd": 960.5,
+      "payment_count": 13,
+      "companies": 7
     },
     {
       "name": "THOMAS, MANUEL DE JESUS",
       "npi": "1790870558",
-      "total_usd": 1317.7,
-      "payment_count": 77,
-      "companies": 20
-    },
-    {
-      "name": "MORASKI, LUANN nan",
-      "npi": "1689625436",
-      "total_usd": 1208.06,
-      "payment_count": 78,
-      "companies": 15
+      "total_usd": 718.05,
+      "payment_count": 41,
+      "companies": 17
     },
     {
       "name": "LOPEZ, GLORIA nan",
@@ -217,13 +212,6 @@
       "npi": "1740267459",
       "total_usd": 66.92,
       "payment_count": 3,
-      "companies": 1
-    },
-    {
-      "name": "MONTEMURRO, ANGELINA M",
-      "npi": "1417904491",
-      "total_usd": 12.4,
-      "payment_count": 1,
       "companies": 1
     }
   ]

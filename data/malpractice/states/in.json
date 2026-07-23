@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "IN",
     "state_name": "Indiana",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 36,
-    "physician_population": 21622,
-    "per_1000_physicians": 1.665,
+    "physician_population": 21763,
+    "per_1000_physicians": 1.654,
     "double_flagged": 6,
-    "industry_payments_usd": 21400.920000000002
+    "industry_payments_usd": 11332.19
   },
   "exclusion_types": [
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 16
+      "count": 15
     },
     {
       "code": "1128b4",
@@ -30,7 +30,7 @@
     {
       "code": "1128a2",
       "label": "Patient Abuse/Neglect",
-      "count": 3
+      "count": 4
     }
   ],
   "migrants_in": [
@@ -80,11 +80,6 @@
       "to_state": "WA",
       "to_name": "Washington",
       "count": 2
-    },
-    {
-      "to_state": "GA",
-      "to_name": "Georgia",
-      "count": 1
     },
     {
       "to_state": "IA",
@@ -186,39 +181,32 @@
   ],
   "industry_payments": [
     {
-      "name": "JOSHI, JAY KAUSHIK",
-      "npi": "1497047435",
-      "total_usd": 9611.69,
-      "payment_count": 25,
-      "companies": 12
-    },
-    {
       "name": "LOPEZ, ALFREDO M",
       "npi": "1518958040",
-      "total_usd": 4681.16,
-      "payment_count": 156,
-      "companies": 34
+      "total_usd": 3905.62,
+      "payment_count": 129,
+      "companies": 31
     },
     {
       "name": "TIWARI, KAMAL KUMAR",
       "npi": "1578558789",
-      "total_usd": 3066.76,
-      "payment_count": 6,
+      "total_usd": 3149.36,
+      "payment_count": 7,
       "companies": 4
     },
     {
       "name": "JENISON, JAMES E",
       "npi": "1174511356",
-      "total_usd": 1515.32,
-      "payment_count": 108,
-      "companies": 29
+      "total_usd": 1115.09,
+      "payment_count": 80,
+      "companies": 22
     },
     {
       "name": "WAHIB, SAMIR ALI",
       "npi": "1851353866",
-      "total_usd": 644.26,
-      "payment_count": 16,
-      "companies": 8
+      "total_usd": 1107.35,
+      "payment_count": 22,
+      "companies": 9
     },
     {
       "name": "MYERS, CHARLES E",
@@ -226,6 +214,13 @@
       "total_usd": 486.12,
       "payment_count": 3,
       "companies": 1
+    },
+    {
+      "name": "JOSHI, JAY KAUSHIK",
+      "npi": "1497047435",
+      "total_usd": 456.48,
+      "payment_count": 21,
+      "companies": 11
     },
     {
       "name": "FARLEY, JOHANN DAVID",
@@ -237,9 +232,9 @@
     {
       "name": "MATHEW, JOHN C",
       "npi": "1093755134",
-      "total_usd": 272.64,
-      "payment_count": 26,
-      "companies": 2
+      "total_usd": 225.54,
+      "payment_count": 22,
+      "companies": 1
     },
     {
       "name": "SCHWARTZ, CORTNEY L",
@@ -249,11 +244,11 @@
       "companies": 1
     },
     {
-      "name": "CAVINS, JONATHON WADE",
-      "npi": "1407066384",
-      "total_usd": 205.54,
-      "payment_count": 15,
-      "companies": 6
+      "name": "SOHAIL, SYED nan",
+      "npi": "1053523910",
+      "total_usd": 130.38,
+      "payment_count": 2,
+      "companies": 2
     }
   ]
 }

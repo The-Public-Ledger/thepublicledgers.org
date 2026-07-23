@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "MA",
     "state_name": "Massachusetts",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 48,
-    "physician_population": 42339,
-    "per_1000_physicians": 1.134,
+    "excluded_count": 49,
+    "physician_population": 42936,
+    "per_1000_physicians": 1.141,
     "double_flagged": 7,
-    "industry_payments_usd": 80986.40999999997
+    "industry_payments_usd": 108126.37
   },
   "exclusion_types": [
     {
@@ -35,7 +35,7 @@
     {
       "code": "1128a3",
       "label": "Felony Healthcare Fraud",
-      "count": 2
+      "count": 3
     },
     {
       "code": "1128b5",
@@ -88,13 +88,18 @@
       "from_state": "ME",
       "from_name": "Maine",
       "count": 1
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
+      "count": 1
     }
   ],
   "migrants_out": [
     {
       "to_state": "NY",
       "to_name": "New York",
-      "count": 4
+      "count": 5
     },
     {
       "to_state": "CT",
@@ -117,8 +122,8 @@
       "count": 1
     },
     {
-      "to_state": "PA",
-      "to_name": "Pennsylvania",
+      "to_state": "NH",
+      "to_name": "New Hampshire",
       "count": 1
     },
     {
@@ -161,6 +166,14 @@
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2025-10-20",
       "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "SHAFA, RAHIM nan",
+      "npi": "1205920527",
+      "score": 75.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2026-05-20",
+      "specialty": "PSYCHIATRY"
     },
     {
       "name": "CARACENI, LESLIE C",
@@ -209,51 +222,57 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2026-01-20",
       "specialty": "PSYCHIATRY"
-    },
-    {
-      "name": "PFANNL, ROLF nan",
-      "npi": "1558474601",
-      "score": 62.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2023-02-20",
-      "specialty": "PATHOLOGY"
     }
   ],
   "industry_payments": [
     {
+      "name": "SHAFA, RAHIM nan",
+      "npi": "1205920527",
+      "total_usd": 46623.84,
+      "payment_count": 314,
+      "companies": 22
+    },
+    {
       "name": "OCH, MOHAMAD R",
       "npi": "1629098496",
-      "total_usd": 59529.89,
-      "payment_count": 1088,
-      "companies": 35
+      "total_usd": 44938.11,
+      "payment_count": 957,
+      "companies": 34
     },
     {
       "name": "NAIR, ANIL K",
       "npi": "1003834433",
-      "total_usd": 15669.56,
-      "payment_count": 98,
-      "companies": 17
+      "total_usd": 12959.76,
+      "payment_count": 69,
+      "companies": 11
     },
     {
       "name": "GODEFROI, ROBERT nan",
       "npi": "1669460994",
-      "total_usd": 3367.86,
-      "payment_count": 243,
-      "companies": 17
+      "total_usd": 1627.11,
+      "payment_count": 119,
+      "companies": 14
+    },
+    {
+      "name": "DIXON, DUANE E",
+      "npi": "1114918752",
+      "total_usd": 1470.11,
+      "payment_count": 27,
+      "companies": 14
     },
     {
       "name": "PATEL, ASHOK JIVANLAL",
       "npi": "1902825441",
-      "total_usd": 1801.98,
-      "payment_count": 101,
-      "companies": 14
+      "total_usd": 161.97,
+      "payment_count": 7,
+      "companies": 5
     },
     {
       "name": "GREEN, MARK nan",
       "npi": "1407075294",
-      "total_usd": 250.56,
-      "payment_count": 7,
-      "companies": 5
+      "total_usd": 135.22,
+      "payment_count": 5,
+      "companies": 3
     },
     {
       "name": "COOPER, MARCUS P",
@@ -263,20 +282,6 @@
       "companies": 2
     },
     {
-      "name": "MIRON, RICHARD V",
-      "npi": "1760589816",
-      "total_usd": 92.76,
-      "payment_count": 6,
-      "companies": 3
-    },
-    {
-      "name": "KATZ, GERALD B",
-      "npi": "1730170101",
-      "total_usd": 45.01,
-      "payment_count": 3,
-      "companies": 1
-    },
-    {
       "name": "KINRYS, GUSTAVO D",
       "npi": "1023076676",
       "total_usd": 40.06,
@@ -284,10 +289,10 @@
       "companies": 1
     },
     {
-      "name": "CARACENI, LESLIE C",
-      "npi": "1295829521",
-      "total_usd": 34.05,
-      "payment_count": 2,
+      "name": "OLADIPO, OLAREWAJU JAMES",
+      "npi": "1841350386",
+      "total_usd": 30.75,
+      "payment_count": 1,
       "companies": 1
     }
   ]

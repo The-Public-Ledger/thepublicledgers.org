@@ -2,24 +2,24 @@
   "meta": {
     "state_abbr": "OK",
     "state_name": "Oklahoma",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 25,
-    "physician_population": 11584,
-    "per_1000_physicians": 2.158,
-    "double_flagged": 2,
-    "industry_payments_usd": 3098734.0399999996
+    "excluded_count": 27,
+    "physician_population": 11763,
+    "per_1000_physicians": 2.295,
+    "double_flagged": 1,
+    "industry_payments_usd": 3091757.4299999997
   },
   "exclusion_types": [
     {
-      "code": "1128a1",
-      "label": "Program-Related Crime",
-      "count": 8
-    },
-    {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
+      "count": 9
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
       "count": 7
     },
     {
@@ -43,12 +43,27 @@
       "count": 1
     },
     {
+      "code": "1128b1",
+      "label": "Misdemeanor Fraud",
+      "count": 1
+    },
+    {
       "code": "1128b14",
       "label": "1128b14",
       "count": 1
     }
   ],
   "migrants_in": [
+    {
+      "from_state": "CO",
+      "from_name": "Colorado",
+      "count": 2
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 1
+    },
     {
       "from_state": "IA",
       "from_name": "Iowa",
@@ -57,11 +72,6 @@
     {
       "from_state": "KS",
       "from_name": "Kansas",
-      "count": 1
-    },
-    {
-      "from_state": "CO",
-      "from_name": "Colorado",
       "count": 1
     }
   ],
@@ -105,11 +115,27 @@
       "specialty": "PSYCHIATRY"
     },
     {
+      "name": "SCOTT, ROBERT BRENT",
+      "npi": "1659371920",
+      "score": 73.5,
+      "exclusion_label": "Misdemeanor Fraud",
+      "exclusion_date": "2026-05-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
       "name": "ROBISON, MELVIN L",
       "npi": "1790887529",
       "score": 68.0,
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2023-02-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "BELK, JOHN nan",
+      "npi": "1790199982",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-06-18",
       "specialty": "FAMILY PRACTICE"
     },
     {
@@ -131,7 +157,7 @@
     {
       "name": "ONARO, NELSON C",
       "npi": "1699783712",
-      "score": 59.0,
+      "score": 56.0,
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2024-05-20",
       "specialty": "FAMILY PRACTICE"
@@ -151,52 +177,29 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2024-01-18",
       "specialty": "ORTHOPEDICS"
-    },
-    {
-      "name": "MOSES, CHRISTOPHER VINCENT",
-      "npi": "1801838826",
-      "score": 53.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2021-02-18",
-      "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "THOMAS, JEREMY D",
-      "npi": "1386670081",
-      "score": 53.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2020-02-20",
-      "specialty": "SURGERY"
     }
   ],
   "industry_payments": [
     {
       "name": "FRANK, ALEXANDER FREDRICK",
       "npi": "1164450573",
-      "total_usd": 3096904.69,
-      "payment_count": 311,
-      "companies": 27
-    },
-    {
-      "name": "ONARO, NELSON C",
-      "npi": "1699783712",
-      "total_usd": 688.55,
-      "payment_count": 33,
-      "companies": 14
+      "total_usd": 3090489.01,
+      "payment_count": 217,
+      "companies": 25
     },
     {
       "name": "HENRY, MILLARD LAFAYETTE",
       "npi": "1275983777",
-      "total_usd": 658.8,
-      "payment_count": 30,
-      "companies": 15
+      "total_usd": 552.37,
+      "payment_count": 26,
+      "companies": 16
     },
     {
-      "name": "PATEL, NARESHKUMAR G",
-      "npi": "1740473933",
-      "total_usd": 216.65,
-      "payment_count": 5,
-      "companies": 1
+      "name": "ONARO, NELSON C",
+      "npi": "1699783712",
+      "total_usd": 255.96,
+      "payment_count": 7,
+      "companies": 5
     },
     {
       "name": "CRUSE, ANTHONY nan",
@@ -208,14 +211,28 @@
     {
       "name": "WALKER, JAMES D",
       "npi": "1225023450",
-      "total_usd": 36.29,
-      "payment_count": 2,
-      "companies": 2
+      "total_usd": 124.51,
+      "payment_count": 7,
+      "companies": 3
     },
     {
       "name": "JAMES, ANDREA nan",
       "npi": "1932312691",
-      "total_usd": 15.93,
+      "total_usd": 78.66,
+      "payment_count": 2,
+      "companies": 2
+    },
+    {
+      "name": "SCOTT, ROBERT BRENT",
+      "npi": "1659371920",
+      "total_usd": 24.22,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "CAMERON, JENNIFER RENE",
+      "npi": "1912951716",
+      "total_usd": 19.57,
       "payment_count": 1,
       "companies": 1
     }

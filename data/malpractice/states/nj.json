@@ -2,30 +2,30 @@
   "meta": {
     "state_abbr": "NJ",
     "state_name": "New Jersey",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 82,
-    "physician_population": 37335,
-    "per_1000_physicians": 2.196,
+    "excluded_count": 81,
+    "physician_population": 37953,
+    "per_1000_physicians": 2.134,
     "double_flagged": 32,
-    "industry_payments_usd": 197571.97999999995
+    "industry_payments_usd": 197478.1
   },
   "exclusion_types": [
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 32
+      "count": 31
     },
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 21
+      "count": 23
     },
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 14
+      "count": 13
     },
     {
       "code": "1128a3",
@@ -40,11 +40,6 @@
     {
       "code": "1128b7",
       "label": "Fraud/Kickbacks",
-      "count": 1
-    },
-    {
-      "code": "1128b14",
-      "label": "1128b14",
       "count": 1
     },
     {
@@ -104,7 +99,7 @@
     {
       "to_state": "NY",
       "to_name": "New York",
-      "count": 21
+      "count": 22
     },
     {
       "to_state": "PA",
@@ -160,6 +155,14 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2018-04-19",
       "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "GRINBERG, SAGY nan",
+      "npi": "1093177503",
+      "score": 77.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2023-11-20",
+      "specialty": "GENERAL PRACTICE"
     },
     {
       "name": "GONZALEZ, FELICIA E",
@@ -218,14 +221,6 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
-      "name": "JACQUES, ARNOLD J",
-      "npi": "1124170899",
-      "score": 67.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2011-06-20",
-      "specialty": "PSYCHIATRY"
-    },
-    {
       "name": "POET, ALBERT nan",
       "npi": "1134270903",
       "score": 66.5,
@@ -238,65 +233,65 @@
     {
       "name": "CHU, ALICE nan",
       "npi": "1962513366",
-      "total_usd": 170053.34,
-      "payment_count": 440,
-      "companies": 30
+      "total_usd": 167238.53,
+      "payment_count": 200,
+      "companies": 20
+    },
+    {
+      "name": "BURKE, WILLIAM nan",
+      "npi": "1932154739",
+      "total_usd": 9498.32,
+      "payment_count": 17,
+      "companies": 6
     },
     {
       "name": "COSTA, RICHARD C",
       "npi": "1982693511",
-      "total_usd": 10685.89,
-      "payment_count": 876,
-      "companies": 62
-    },
-    {
-      "name": "CATANIA, RAYMOND nan",
-      "npi": "1023094711",
-      "total_usd": 2635.26,
-      "payment_count": 170,
-      "companies": 23
+      "total_usd": 8439.15,
+      "payment_count": 650,
+      "companies": 54
     },
     {
       "name": "APONTE, DENNIS L",
       "npi": "1053458018",
-      "total_usd": 2242.86,
-      "payment_count": 24,
-      "companies": 9
+      "total_usd": 2002.94,
+      "payment_count": 20,
+      "companies": 10
     },
     {
       "name": "GOLDIS, MICHAEL E",
       "npi": "1982603247",
-      "total_usd": 2131.78,
-      "payment_count": 128,
-      "companies": 27
+      "total_usd": 1763.82,
+      "payment_count": 105,
+      "companies": 23
     },
     {
-      "name": "OSWARI, DANIEL nan",
-      "npi": "1265506489",
-      "total_usd": 1743.36,
-      "payment_count": 131,
-      "companies": 19
+      "name": "CATANIA, RAYMOND nan",
+      "npi": "1023094711",
+      "total_usd": 1373.87,
+      "payment_count": 90,
+      "companies": 16
     },
     {
-      "name": "SOKALSKY, BRIAN EDWARD",
-      "npi": "1881872828",
-      "total_usd": 1324.32,
-      "payment_count": 12,
-      "companies": 7
+      "name": "RIOS, JOSE CONRADO",
+      "npi": "1689846123",
+      "total_usd": 1304.95,
+      "payment_count": 10,
+      "companies": 5
     },
     {
       "name": "CONTE, SALVATORE nan",
       "npi": "1174688493",
-      "total_usd": 1195.87,
-      "payment_count": 71,
-      "companies": 22
+      "total_usd": 943.3,
+      "payment_count": 49,
+      "companies": 16
     },
     {
       "name": "MARESSA, JULIAN MARK",
       "npi": "1275643116",
-      "total_usd": 1143.56,
-      "payment_count": 90,
-      "companies": 24
+      "total_usd": 815.68,
+      "payment_count": 61,
+      "companies": 19
     },
     {
       "name": "GRINBERG, SAGY nan",

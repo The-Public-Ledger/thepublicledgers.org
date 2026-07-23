@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "OH",
     "state_name": "Ohio",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 120,
-    "physician_population": 48019,
-    "per_1000_physicians": 2.499,
-    "double_flagged": 15,
-    "industry_payments_usd": 728268.0800000002
+    "physician_population": 48965,
+    "per_1000_physicians": 2.451,
+    "double_flagged": 13,
+    "industry_payments_usd": 513072.34
   },
   "exclusion_types": [
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 42
+      "count": 43
     },
     {
       "code": "1128b4",
@@ -40,7 +40,7 @@
     {
       "code": "1128a3",
       "label": "Felony Healthcare Fraud",
-      "count": 4
+      "count": 3
     },
     {
       "code": "1128b3",
@@ -72,7 +72,7 @@
     {
       "from_state": "FL",
       "from_name": "Florida",
-      "count": 3
+      "count": 2
     },
     {
       "from_state": "AL",
@@ -107,14 +107,14 @@
   ],
   "migrants_out": [
     {
-      "to_state": "KY",
-      "to_name": "Kentucky",
+      "to_state": "MI",
+      "to_name": "Michigan",
       "count": 4
     },
     {
-      "to_state": "MI",
-      "to_name": "Michigan",
-      "count": 3
+      "to_state": "KY",
+      "to_name": "Kentucky",
+      "count": 4
     },
     {
       "to_state": "WV",
@@ -129,6 +129,11 @@
     {
       "to_state": "CT",
       "to_name": "Connecticut",
+      "count": 1
+    },
+    {
+      "to_state": "OR",
+      "to_name": "Oregon",
       "count": 1
     },
     {
@@ -150,22 +155,9 @@
       "to_state": "SC",
       "to_name": "South Carolina",
       "count": 1
-    },
-    {
-      "to_state": "CA",
-      "to_name": "California",
-      "count": 1
     }
   ],
   "priority_cases": [
-    {
-      "name": "NICKELS, JOHN HARVEY",
-      "npi": "1629181490",
-      "score": 89.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2020-02-20",
-      "specialty": "ANESTHESIOLOGY"
-    },
     {
       "name": "GETACHEW, ESKENDER nan",
       "npi": "1033177571",
@@ -189,14 +181,6 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2024-11-20",
       "specialty": "RHEUMATOLOGY"
-    },
-    {
-      "name": "ROSENFIELD, JONATHAN nan",
-      "npi": "1851655625",
-      "score": 74.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2024-05-20",
-      "specialty": "FAMILY PRACTICE"
     },
     {
       "name": "FRANTZ, GARY JAMES",
@@ -223,6 +207,14 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
+      "name": "ROSENFIELD, JONATHAN nan",
+      "npi": "1851655625",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-05-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
       "name": "GRONBECK, DONALD ALEXANDER",
       "npi": "1235366709",
       "score": 70.0,
@@ -237,78 +229,86 @@
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2024-11-20",
       "specialty": "NEUROLOGY"
-    }
-  ],
-  "industry_payments": [
-    {
-      "name": "MIN, DENNIS nan",
-      "npi": "1104808518",
-      "total_usd": 228689.4,
-      "payment_count": 718,
-      "companies": 30
-    },
-    {
-      "name": "FLEMING, JAMES E",
-      "npi": "1952326159",
-      "total_usd": 122298.97,
-      "payment_count": 320,
-      "companies": 20
-    },
-    {
-      "name": "RAHMAN, MAHMOOD nan",
-      "npi": "1548248297",
-      "total_usd": 82938.36,
-      "payment_count": 674,
-      "companies": 18
-    },
-    {
-      "name": "GRAWE, KATHARINE ROXANNE",
-      "npi": "1801014238",
-      "total_usd": 79501.53,
-      "payment_count": 38,
-      "companies": 4
-    },
-    {
-      "name": "DESHPANDE, KEDAR KRISHNA",
-      "npi": "1801891007",
-      "total_usd": 37869.99,
-      "payment_count": 343,
-      "companies": 33
-    },
-    {
-      "name": "HENRY, JIMMY M",
-      "npi": "1548483670",
-      "total_usd": 28601.81,
-      "payment_count": 590,
-      "companies": 50
     },
     {
       "name": "PAOLONE, VINCENT nan",
       "npi": "1619069739",
-      "total_usd": 24659.09,
-      "payment_count": 434,
-      "companies": 34
+      "score": 70.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2025-11-20",
+      "specialty": "GENERAL PRACTICE"
+    }
+  ],
+  "industry_payments": [
+    {
+      "name": "FLEMING, JAMES E",
+      "npi": "1952326159",
+      "total_usd": 128247.41,
+      "payment_count": 312,
+      "companies": 22
+    },
+    {
+      "name": "MIN, DENNIS nan",
+      "npi": "1104808518",
+      "total_usd": 126783.47,
+      "payment_count": 404,
+      "companies": 24
+    },
+    {
+      "name": "RAHMAN, MAHMOOD nan",
+      "npi": "1548248297",
+      "total_usd": 44997.66,
+      "payment_count": 358,
+      "companies": 14
+    },
+    {
+      "name": "GRAWE, KATHARINE ROXANNE",
+      "npi": "1801014238",
+      "total_usd": 43569.56,
+      "payment_count": 23,
+      "companies": 4
     },
     {
       "name": "MANN, JAMES ARTHUR",
       "npi": "1639581473",
-      "total_usd": 20282.09,
-      "payment_count": 142,
-      "companies": 15
+      "total_usd": 24572.79,
+      "payment_count": 193,
+      "companies": 17
+    },
+    {
+      "name": "PAOLONE, VINCENT nan",
+      "npi": "1619069739",
+      "total_usd": 23607.34,
+      "payment_count": 358,
+      "companies": 34
     },
     {
       "name": "FRANZESE, JOSEPH nan",
       "npi": "1093002586",
-      "total_usd": 18572.4,
-      "payment_count": 54,
-      "companies": 23
+      "total_usd": 17932.62,
+      "payment_count": 48,
+      "companies": 22
     },
     {
-      "name": "BAUER, WILLIAM R",
-      "npi": "1316931942",
-      "total_usd": 12947.0,
-      "payment_count": 352,
-      "companies": 46
+      "name": "DESHPANDE, KEDAR KRISHNA",
+      "npi": "1801891007",
+      "total_usd": 17444.96,
+      "payment_count": 188,
+      "companies": 24
+    },
+    {
+      "name": "HENRY, JIMMY M",
+      "npi": "1548483670",
+      "total_usd": 13708.64,
+      "payment_count": 325,
+      "companies": 35
+    },
+    {
+      "name": "FLOREA, ROBERT ANDREI",
+      "npi": "1376723684",
+      "total_usd": 9195.98,
+      "payment_count": 626,
+      "companies": 39
     }
   ]
 }

@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "PR",
     "state_name": "Puerto Rico",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 50,
-    "physician_population": 12488,
-    "per_1000_physicians": 4.004,
-    "double_flagged": 1,
-    "industry_payments_usd": 12293.43
+    "excluded_count": 51,
+    "physician_population": 12523,
+    "per_1000_physicians": 4.073,
+    "double_flagged": 2,
+    "industry_payments_usd": 9825.61
   },
   "exclusion_types": [
     {
@@ -20,7 +20,7 @@
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 18
+      "count": 20
     },
     {
       "code": "1128a4",
@@ -35,11 +35,6 @@
     {
       "code": "1128b1",
       "label": "Misdemeanor Fraud",
-      "count": 1
-    },
-    {
-      "code": "1128b7",
-      "label": "Fraud/Kickbacks",
       "count": 1
     },
     {
@@ -167,71 +162,71 @@
     {
       "name": "MUNIZ MOLINERO, CARLOS A",
       "npi": "1194871277",
-      "total_usd": 4430.21,
-      "payment_count": 128,
-      "companies": 14
-    },
-    {
-      "name": "COTTO, HECTOR L",
-      "npi": "1750363834",
-      "total_usd": 2597.35,
-      "payment_count": 37,
-      "companies": 9
+      "total_usd": 3758.44,
+      "payment_count": 94,
+      "companies": 12
     },
     {
       "name": "MELENDEZ ORTIZ, FELIX nan",
       "npi": "1356404909",
-      "total_usd": 1845.49,
-      "payment_count": 52,
+      "total_usd": 1296.26,
+      "payment_count": 32,
       "companies": 9
+    },
+    {
+      "name": "COTTO, HECTOR L",
+      "npi": "1750363834",
+      "total_usd": 1002.21,
+      "payment_count": 15,
+      "companies": 7
     },
     {
       "name": "CUBANO, CESAR M",
       "npi": "1972685758",
-      "total_usd": 1050.75,
-      "payment_count": 31,
-      "companies": 6
+      "total_usd": 939.1,
+      "payment_count": 22,
+      "companies": 5
     },
     {
       "name": "MADRID GUZMAN, ALFONSO ALBERTO",
       "npi": "1225188766",
-      "total_usd": 492.79,
-      "payment_count": 6,
-      "companies": 3
+      "total_usd": 829.22,
+      "payment_count": 11,
+      "companies": 4
     },
     {
       "name": "HERNANDEZ RAMIREZ, AARON A",
       "npi": "1366433187",
-      "total_usd": 444.12,
-      "payment_count": 11,
-      "companies": 8
+      "total_usd": 432.58,
+      "payment_count": 10,
+      "companies": 7
     },
     {
       "name": "ALVAREZ, MARIO nan",
       "npi": "1083630016",
-      "total_usd": 331.91,
-      "payment_count": 4,
-      "companies": 3
+      "total_usd": 361.91,
+      "payment_count": 5,
+      "companies": 4
+    },
+    {
+      "name": "LOPEZ, JOSE C",
+      "npi": "1275590499",
+      "total_usd": 228.76,
+      "payment_count": 10,
+      "companies": 4
     },
     {
       "name": "DE JESUS, JORGE R",
       "npi": "1194721431",
-      "total_usd": 300.48,
-      "payment_count": 5,
+      "total_usd": 228.48,
+      "payment_count": 4,
       "companies": 3
-    },
-    {
-      "name": "RIVERA, MIGUEL ANGEL",
-      "npi": "1144324690",
-      "total_usd": 187.99,
-      "payment_count": 9,
-      "companies": 1
     },
     {
       "name": "SANTIAGO, LUIS ANTONIO",
       "npi": "1699746933",
-      "total_usd": 143.2,
-      "payment_count": 4,
+      "total_usd": 218.2,
+      "payment_count": 7,
       "companies": 2
     }
   ]

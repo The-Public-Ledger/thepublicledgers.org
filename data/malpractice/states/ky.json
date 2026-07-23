@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "KY",
     "state_name": "Kentucky",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 61,
-    "physician_population": 15127,
-    "per_1000_physicians": 4.033,
-    "double_flagged": 8,
-    "industry_payments_usd": 63131.390000000014
+    "excluded_count": 62,
+    "physician_population": 15275,
+    "per_1000_physicians": 4.059,
+    "double_flagged": 7,
+    "industry_payments_usd": 50685.619999999995
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 25
+      "count": 26
     },
     {
       "code": "1128a4",
@@ -99,7 +99,7 @@
     {
       "to_state": "MI",
       "to_name": "Michigan",
-      "count": 8
+      "count": 9
     },
     {
       "to_state": "OH",
@@ -127,11 +127,6 @@
       "count": 2
     },
     {
-      "to_state": "FL",
-      "to_name": "Florida",
-      "count": 2
-    },
-    {
       "to_state": "MO",
       "to_name": "Missouri",
       "count": 2
@@ -142,9 +137,14 @@
       "count": 2
     },
     {
-      "to_state": "NY",
-      "to_name": "New York",
-      "count": 2
+      "to_state": "WV",
+      "to_name": "West Virginia",
+      "count": 1
+    },
+    {
+      "to_state": "KS",
+      "to_name": "Kansas",
+      "count": 1
     }
   ],
   "priority_cases": [
@@ -233,37 +233,30 @@
     {
       "name": "FLETCHER, MICHAEL EUGENE",
       "npi": "1063476216",
-      "total_usd": 18249.61,
-      "payment_count": 28,
-      "companies": 13
+      "total_usd": 17970.62,
+      "payment_count": 17,
+      "companies": 9
     },
     {
       "name": "PETERS, LAWRENCE H",
       "npi": "1417927229",
-      "total_usd": 13322.47,
-      "payment_count": 605,
-      "companies": 56
+      "total_usd": 12800.06,
+      "payment_count": 537,
+      "companies": 50
+    },
+    {
+      "name": "MOHAMED, AMR nan",
+      "npi": "1992988257",
+      "total_usd": 9100.16,
+      "payment_count": 18,
+      "companies": 10
     },
     {
       "name": "HARDISON, BARRY G",
       "npi": "1225039258",
-      "total_usd": 12770.47,
-      "payment_count": 41,
-      "companies": 8
-    },
-    {
-      "name": "MAHMOOD, IJAZ nan",
-      "npi": "1609858539",
-      "total_usd": 7049.62,
-      "payment_count": 34,
-      "companies": 16
-    },
-    {
-      "name": "CASTLE, JASON RH",
-      "npi": "1497910111",
-      "total_usd": 3173.01,
-      "payment_count": 250,
-      "companies": 19
+      "total_usd": 2891.61,
+      "payment_count": 13,
+      "companies": 6
     },
     {
       "name": "GAINEY, MICHAEL S",
@@ -273,32 +266,39 @@
       "companies": 41
     },
     {
-      "name": "SUETHOLZ, DAVID WAYNE",
-      "npi": "1811950256",
-      "total_usd": 1919.47,
-      "payment_count": 173,
-      "companies": 23
-    },
-    {
       "name": "ROSENBLUM, FREDERICK JAY",
       "npi": "1083673180",
-      "total_usd": 1750.29,
-      "payment_count": 75,
+      "total_usd": 1707.6,
+      "payment_count": 72,
+      "companies": 13
+    },
+    {
+      "name": "SUETHOLZ, DAVID WAYNE",
+      "npi": "1811950256",
+      "total_usd": 1439.2,
+      "payment_count": 114,
+      "companies": 20
+    },
+    {
+      "name": "CASTLE, JASON RH",
+      "npi": "1497910111",
+      "total_usd": 1112.04,
+      "payment_count": 79,
       "companies": 13
     },
     {
       "name": "STAMPER, JASON NOAH",
       "npi": "1780635250",
-      "total_usd": 696.84,
-      "payment_count": 47,
-      "companies": 12
+      "total_usd": 365.89,
+      "payment_count": 24,
+      "companies": 11
     },
     {
-      "name": "MAZUMDER, MOHAMMED AKHLACK HOSSAIN",
-      "npi": "1043445927",
-      "total_usd": 300.95,
-      "payment_count": 18,
-      "companies": 5
+      "name": "STRAUSS, JON M",
+      "npi": "1306889894",
+      "total_usd": 189.69,
+      "payment_count": 2,
+      "companies": 1
     }
   ]
 }

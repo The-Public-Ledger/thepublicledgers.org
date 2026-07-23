@@ -2,30 +2,30 @@
   "meta": {
     "state_abbr": "FL",
     "state_name": "Florida",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 267,
-    "physician_population": 83444,
-    "per_1000_physicians": 3.2,
-    "double_flagged": 52,
-    "industry_payments_usd": 2114833.8500000006
+    "excluded_count": 266,
+    "physician_population": 85082,
+    "per_1000_physicians": 3.126,
+    "double_flagged": 121,
+    "industry_payments_usd": 3495664.08
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 91
+      "count": 89
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 79
+      "count": 78
     },
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 59
+      "count": 60
     },
     {
       "code": "1128a3",
@@ -38,6 +38,11 @@
       "count": 8
     },
     {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 2
+    },
+    {
       "code": "1128b14",
       "label": "1128b14",
       "count": 2
@@ -45,11 +50,6 @@
     {
       "code": "1128b1",
       "label": "Misdemeanor Fraud",
-      "count": 1
-    },
-    {
-      "code": "1128b7",
-      "label": "Fraud/Kickbacks",
       "count": 1
     },
     {
@@ -95,11 +95,6 @@
       "count": 2
     },
     {
-      "from_state": "KY",
-      "from_name": "Kentucky",
-      "count": 2
-    },
-    {
       "from_state": "IL",
       "from_name": "Illinois",
       "count": 2
@@ -107,6 +102,11 @@
     {
       "from_state": "NC",
       "from_name": "North Carolina",
+      "count": 2
+    },
+    {
+      "from_state": "MS",
+      "from_name": "Mississippi",
       "count": 2
     }
   ],
@@ -147,19 +147,19 @@
       "count": 4
     },
     {
-      "to_state": "OH",
-      "to_name": "Ohio",
-      "count": 3
-    },
-    {
-      "to_state": "AL",
-      "to_name": "Alabama",
-      "count": 3
-    },
-    {
       "to_state": "TN",
       "to_name": "Tennessee",
       "count": 3
+    },
+    {
+      "to_state": "VA",
+      "to_name": "Virginia",
+      "count": 2
+    },
+    {
+      "to_state": "OH",
+      "to_name": "Ohio",
+      "count": 2
     }
   ],
   "priority_cases": [
@@ -178,6 +178,14 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2025-11-20",
       "specialty": "GYN/OBS"
+    },
+    {
+      "name": "RIVERAKOLB, KENNETH nan",
+      "npi": "1720256324",
+      "score": 76.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2022-05-19",
+      "specialty": "GENERAL PRACTICE"
     },
     {
       "name": "SALEH, OMAR M",
@@ -212,14 +220,6 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
-      "name": "ASFORA MD FRCSC PC, WILSON T",
-      "npi": "1194706754",
-      "score": 70.0,
-      "exclusion_label": "Fraud/Kickbacks",
-      "exclusion_date": "2021-04-30",
-      "specialty": "NEUROLOGY"
-    },
-    {
       "name": "RERKO, DAVID nan",
       "npi": "1932157062",
       "score": 70.0,
@@ -246,74 +246,74 @@
   ],
   "industry_payments": [
     {
+      "name": "ASFORA MD FRCSC PC, WILSON T",
+      "npi": "1194706754",
+      "total_usd": 1338339.81,
+      "payment_count": 27,
+      "companies": 12
+    },
+    {
       "name": "PAPPACHEN, STEPHEN nan",
       "npi": "1063418580",
-      "total_usd": 967137.3,
-      "payment_count": 1386,
-      "companies": 9
+      "total_usd": 1254904.16,
+      "payment_count": 1781,
+      "companies": 2
     },
     {
       "name": "NORTON, ROBERT PATRICK",
       "npi": "1972798379",
-      "total_usd": 844840.37,
-      "payment_count": 492,
-      "companies": 59
-    },
-    {
-      "name": "MORALES, OSMIN nan",
-      "npi": "1942217526",
-      "total_usd": 107088.35,
-      "payment_count": 19,
-      "companies": 8
+      "total_usd": 694675.32,
+      "payment_count": 426,
+      "companies": 58
     },
     {
       "name": "SHAKNOVSKY, THOMAS J",
       "npi": "1568690014",
-      "total_usd": 48661.04,
-      "payment_count": 163,
-      "companies": 31
+      "total_usd": 46282.95,
+      "payment_count": 131,
+      "companies": 27
+    },
+    {
+      "name": "MORALES, OSMIN nan",
+      "npi": "1942217526",
+      "total_usd": 41800.94,
+      "payment_count": 5,
+      "companies": 3
     },
     {
       "name": "LIEBERMAN, DREW EVAN",
       "npi": "1194798942",
-      "total_usd": 39993.8,
+      "total_usd": 39864.87,
       "payment_count": 105,
       "companies": 9
     },
     {
       "name": "EDWARDS, JEFFREY BRYANT",
       "npi": "1871988972",
-      "total_usd": 19044.19,
-      "payment_count": 276,
-      "companies": 29
+      "total_usd": 20936.55,
+      "payment_count": 300,
+      "companies": 32
     },
     {
       "name": "CRUZ, JOSE A",
       "npi": "1093705790",
-      "total_usd": 14313.72,
-      "payment_count": 609,
+      "total_usd": 15240.26,
+      "payment_count": 648,
       "companies": 28
     },
     {
-      "name": "FREY, MICHAEL E",
-      "npi": "1780672543",
-      "total_usd": 12359.69,
-      "payment_count": 101,
-      "companies": 25
+      "name": "VAZQUEZ, JOSE L",
+      "npi": "1083647952",
+      "total_usd": 4721.29,
+      "payment_count": 207,
+      "companies": 27
     },
     {
-      "name": "GHOSH, MONA nan",
-      "npi": "1497915185",
-      "total_usd": 7710.27,
-      "payment_count": 100,
-      "companies": 29
-    },
-    {
-      "name": "CUGINI, CHRISTY D",
-      "npi": "1447313283",
-      "total_usd": 6302.94,
-      "payment_count": 393,
-      "companies": 30
+      "name": "ALVAREZJACINTO, ORESTES A",
+      "npi": "1861407652",
+      "total_usd": 4490.9,
+      "payment_count": 107,
+      "companies": 43
     }
   ]
 }

@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "WY",
     "state_name": "Wyoming",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 6,
-    "physician_population": 1510,
-    "per_1000_physicians": 3.974,
+    "physician_population": 1519,
+    "per_1000_physicians": 3.95,
     "double_flagged": 0,
-    "industry_payments_usd": 172.19
+    "industry_payments_usd": 77.93
   },
   "exclusion_types": [
     {
@@ -90,9 +90,9 @@
     {
       "name": "LOVELL, JASON DEE",
       "npi": "1003066838",
-      "total_usd": 172.19,
-      "payment_count": 8,
-      "companies": 6
+      "total_usd": 77.93,
+      "payment_count": 2,
+      "companies": 2
     }
   ]
 }

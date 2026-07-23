@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "ID",
     "state_name": "Idaho",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 6,
-    "physician_population": 4876,
-    "per_1000_physicians": 1.231,
+    "excluded_count": 7,
+    "physician_population": 4951,
+    "per_1000_physicians": 1.414,
     "double_flagged": 0,
-    "industry_payments_usd": 55.589999999999996
+    "industry_payments_usd": 207.33
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 3
+      "count": 4
     },
     {
       "code": "1128a4",
@@ -75,6 +75,14 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
+      "name": "WILLS, ALEX BRENT",
+      "npi": "1649597055",
+      "score": 60.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-06-18",
+      "specialty": "PSYCHIATRY"
+    },
+    {
       "name": "SKOUMAL, STEVE M",
       "npi": "1134279920",
       "score": 56.0,
@@ -108,6 +116,13 @@
     }
   ],
   "industry_payments": [
+    {
+      "name": "WILLS, ALEX BRENT",
+      "npi": "1649597055",
+      "total_usd": 151.74,
+      "payment_count": 5,
+      "companies": 3
+    },
     {
       "name": "SKOUMAL, STEVE M",
       "npi": "1134279920",

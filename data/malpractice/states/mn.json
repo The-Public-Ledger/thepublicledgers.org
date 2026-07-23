@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "MN",
     "state_name": "Minnesota",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 8,
-    "physician_population": 23773,
-    "per_1000_physicians": 0.337,
-    "double_flagged": 0,
-    "industry_payments_usd": 270.74
+    "physician_population": 24190,
+    "per_1000_physicians": 0.331,
+    "double_flagged": 1,
+    "industry_payments_usd": 115.91000000000001
   },
   "exclusion_types": [
     {
@@ -59,7 +59,7 @@
     {
       "to_state": "IL",
       "to_name": "Illinois",
-      "count": 2
+      "count": 3
     },
     {
       "to_state": "CA",
@@ -160,13 +160,6 @@
   ],
   "industry_payments": [
     {
-      "name": "MEANY, GAVIN PATRICK",
-      "npi": "1962723825",
-      "total_usd": 160.02,
-      "payment_count": 12,
-      "companies": 4
-    },
-    {
       "name": "POLUKHIN, ELENA L",
       "npi": "1336187814",
       "total_usd": 99.34,
@@ -177,6 +170,13 @@
       "name": "EAKES, MARK WENDELL",
       "npi": "1043508922",
       "total_usd": 11.38,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "MEANY, GAVIN PATRICK",
+      "npi": "1962723825",
+      "total_usd": 5.19,
       "payment_count": 1,
       "companies": 1
     }

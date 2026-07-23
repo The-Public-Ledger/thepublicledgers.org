@@ -2,25 +2,25 @@
   "meta": {
     "state_abbr": "TN",
     "state_name": "Tennessee",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 78,
-    "physician_population": 23371,
-    "per_1000_physicians": 3.337,
+    "excluded_count": 77,
+    "physician_population": 23707,
+    "per_1000_physicians": 3.248,
     "double_flagged": 7,
-    "industry_payments_usd": 45613.64999999999
+    "industry_payments_usd": 27439.36
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 28
+      "count": 27
     },
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 25
+      "count": 24
     },
     {
       "code": "1128a1",
@@ -31,6 +31,11 @@
       "code": "1128a3",
       "label": "Felony Healthcare Fraud",
       "count": 8
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
+      "count": 1
     },
     {
       "code": "1128a2",
@@ -50,14 +55,14 @@
       "count": 6
     },
     {
-      "from_state": "FL",
-      "from_name": "Florida",
+      "from_state": "GA",
+      "from_name": "Georgia",
       "count": 3
     },
     {
-      "from_state": "AL",
-      "from_name": "Alabama",
-      "count": 2
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 3
     },
     {
       "from_state": "LA",
@@ -75,11 +80,6 @@
       "count": 2
     },
     {
-      "from_state": "GA",
-      "from_name": "Georgia",
-      "count": 2
-    },
-    {
       "from_state": "HI",
       "from_name": "Hawaii",
       "count": 1
@@ -92,6 +92,11 @@
     {
       "from_state": "PA",
       "from_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "from_state": "CO",
+      "from_name": "Colorado",
       "count": 1
     }
   ],
@@ -223,72 +228,72 @@
     {
       "name": "ALPEROVICH, ALEXANDER nan",
       "npi": "1922096221",
-      "total_usd": 25699.86,
-      "payment_count": 731,
-      "companies": 44
-    },
-    {
-      "name": "STIMPSON, PETER GAGNON",
-      "npi": "1467463828",
-      "total_usd": 3905.24,
-      "payment_count": 191,
-      "companies": 33
+      "total_usd": 13469.86,
+      "payment_count": 567,
+      "companies": 39
     },
     {
       "name": "MISRA, EVA nan",
       "npi": "1578983094",
-      "total_usd": 2980.24,
-      "payment_count": 39,
-      "companies": 20
+      "total_usd": 4681.67,
+      "payment_count": 52,
+      "companies": 25
     },
     {
-      "name": "YANG, HARRISON YN",
-      "npi": "1770505612",
-      "total_usd": 2109.54,
-      "payment_count": 46,
-      "companies": 10
+      "name": "STIMPSON, PETER GAGNON",
+      "npi": "1467463828",
+      "total_usd": 2475.67,
+      "payment_count": 128,
+      "companies": 30
     },
     {
       "name": "STANTON, JOHN L",
       "npi": "1245233063",
-      "total_usd": 2012.96,
-      "payment_count": 107,
-      "companies": 32
+      "total_usd": 1658.37,
+      "payment_count": 86,
+      "companies": 23
+    },
+    {
+      "name": "YANG, HARRISON YN",
+      "npi": "1770505612",
+      "total_usd": 1060.52,
+      "payment_count": 17,
+      "companies": 9
     },
     {
       "name": "CANTRELL, CAROL R",
       "npi": "1417996117",
-      "total_usd": 1196.75,
-      "payment_count": 72,
-      "companies": 17
-    },
-    {
-      "name": "FARMER, RICHARD G",
-      "npi": "1679623375",
-      "total_usd": 1144.72,
-      "payment_count": 46,
-      "companies": 11
+      "total_usd": 843.01,
+      "payment_count": 49,
+      "companies": 16
     },
     {
       "name": "COFFEY, DAVID BRUCE",
       "npi": "1912011792",
-      "total_usd": 872.77,
-      "payment_count": 52,
-      "companies": 11
-    },
-    {
-      "name": "MAUGHON, ROBERT MICKEY",
-      "npi": "1093800609",
-      "total_usd": 851.91,
-      "payment_count": 45,
-      "companies": 13
+      "total_usd": 544.53,
+      "payment_count": 28,
+      "companies": 8
     },
     {
       "name": "KARLOSKY, LORAN E",
       "npi": "1386816544",
-      "total_usd": 755.1,
-      "payment_count": 50,
-      "companies": 18
+      "total_usd": 378.57,
+      "payment_count": 22,
+      "companies": 12
+    },
+    {
+      "name": "WEST, WILLARD MAHLON",
+      "npi": "1598718330",
+      "total_usd": 341.06,
+      "payment_count": 20,
+      "companies": 11
+    },
+    {
+      "name": "PATTERSON, MICHAEL ALAN",
+      "npi": "1154471035",
+      "total_usd": 292.1,
+      "payment_count": 6,
+      "companies": 2
     }
   ]
 }

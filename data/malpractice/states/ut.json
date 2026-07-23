@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "UT",
     "state_name": "Utah",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 17,
-    "physician_population": 9872,
-    "per_1000_physicians": 1.722,
+    "physician_population": 9996,
+    "per_1000_physicians": 1.701,
     "double_flagged": 2,
-    "industry_payments_usd": 1220.45
+    "industry_payments_usd": 567.37
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 8
+      "count": 9
     },
     {
       "code": "1128a2",
@@ -23,14 +23,14 @@
       "count": 4
     },
     {
-      "code": "1128a4",
-      "label": "Felony Controlled Substance",
-      "count": 2
-    },
-    {
       "code": "1128a1",
       "label": "Program-Related Crime",
       "count": 2
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 1
     },
     {
       "code": "1128b14",
@@ -120,14 +120,6 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "HOLVERSON, JEFFREY S",
-      "npi": "1437314291",
-      "score": 53.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2017-07-20",
-      "specialty": "GENERAL PRACTICE"
-    },
-    {
       "name": "YOUNG, STEVEN ROBERT",
       "npi": "1962497685",
       "score": 51.2,
@@ -142,22 +134,30 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "1999-06-17",
       "specialty": "GENERAL PRACTICE/FP"
+    },
+    {
+      "name": "ALLDREDGE, O LAYTON",
+      "npi": "1225144264",
+      "score": 44.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2016-12-20",
+      "specialty": "SURGERY"
     }
   ],
   "industry_payments": [
     {
-      "name": "GREENWOOD, NICK CARL",
-      "npi": "1306065636",
-      "total_usd": 829.54,
-      "payment_count": 14,
+      "name": "YOUNG, STEVEN ROBERT",
+      "npi": "1962497685",
+      "total_usd": 367.2,
+      "payment_count": 9,
       "companies": 5
     },
     {
-      "name": "YOUNG, STEVEN ROBERT",
-      "npi": "1962497685",
-      "total_usd": 334.17,
-      "payment_count": 8,
-      "companies": 4
+      "name": "GREENWOOD, NICK CARL",
+      "npi": "1306065636",
+      "total_usd": 143.43,
+      "payment_count": 2,
+      "companies": 1
     },
     {
       "name": "GRANT, MORGAN K",

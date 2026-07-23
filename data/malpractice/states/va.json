@@ -2,30 +2,30 @@
   "meta": {
     "state_abbr": "VA",
     "state_name": "Virginia",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 69,
-    "physician_population": 30607,
-    "per_1000_physicians": 2.254,
-    "double_flagged": 16,
-    "industry_payments_usd": 60477.02
+    "excluded_count": 68,
+    "physician_population": 31086,
+    "per_1000_physicians": 2.187,
+    "double_flagged": 14,
+    "industry_payments_usd": 48497.64
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 31
+      "count": 29
     },
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 21
+      "count": 20
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 11
+      "count": 13
     },
     {
       "code": "1128a3",
@@ -47,7 +47,7 @@
     {
       "from_state": "WV",
       "from_name": "West Virginia",
-      "count": 5
+      "count": 6
     },
     {
       "from_state": "PA",
@@ -127,13 +127,13 @@
       "count": 1
     },
     {
-      "to_state": "NC",
-      "to_name": "North Carolina",
+      "to_state": "PR",
+      "to_name": "Puerto Rico",
       "count": 1
     },
     {
-      "to_state": "PR",
-      "to_name": "Puerto Rico",
+      "to_state": "WA",
+      "to_name": "Washington",
       "count": 1
     }
   ],
@@ -223,23 +223,23 @@
     {
       "name": "GAGLIONE, JIMDAVID nan",
       "npi": "1487629796",
-      "total_usd": 24152.92,
-      "payment_count": 2,
-      "companies": 2
+      "total_usd": 24140.76,
+      "payment_count": 1,
+      "companies": 1
     },
     {
       "name": "SAMUELS, GARFIELD HUE",
       "npi": "1083654669",
-      "total_usd": 12415.73,
-      "payment_count": 703,
-      "companies": 45
+      "total_usd": 10009.92,
+      "payment_count": 568,
+      "companies": 42
     },
     {
       "name": "RALEY, THOMAS J",
       "npi": "1518967207",
-      "total_usd": 5274.2,
-      "payment_count": 75,
-      "companies": 12
+      "total_usd": 4716.04,
+      "payment_count": 57,
+      "companies": 9
     },
     {
       "name": "LAPIDES, DAVID A",
@@ -249,46 +249,46 @@
       "companies": 3
     },
     {
-      "name": "DIXON, DUANE E",
-      "npi": "1114918752",
-      "total_usd": 2290.12,
-      "payment_count": 76,
-      "companies": 21
-    },
-    {
-      "name": "AHMAD, ISHTIAQ nan",
-      "npi": "1326008384",
-      "total_usd": 2134.03,
-      "payment_count": 54,
-      "companies": 15
-    },
-    {
       "name": "HARRIS, WILLIAM OVERTON",
       "npi": "1952397630",
-      "total_usd": 1368.3,
+      "total_usd": 1480.2,
       "payment_count": 58,
-      "companies": 21
+      "companies": 26
+    },
+    {
+      "name": "OLIVER, PATRICK ANTHONY",
+      "npi": "1154518751",
+      "total_usd": 1069.07,
+      "payment_count": 34,
+      "companies": 16
     },
     {
       "name": "MONTILLA, LINO CUETO",
       "npi": "1831248731",
-      "total_usd": 1243.8,
-      "payment_count": 65,
-      "companies": 27
+      "total_usd": 944.2,
+      "payment_count": 47,
+      "companies": 23
+    },
+    {
+      "name": "CLANTON, SAMUEL THOMAS",
+      "npi": "1992148100",
+      "total_usd": 930.46,
+      "payment_count": 53,
+      "companies": 13
+    },
+    {
+      "name": "ZACKRISON, LEILA H",
+      "npi": "1184626921",
+      "total_usd": 552.42,
+      "payment_count": 30,
+      "companies": 6
     },
     {
       "name": "ROSEN, LEONARD ASHER",
       "npi": "1417006842",
-      "total_usd": 1181.19,
-      "payment_count": 32,
-      "companies": 11
-    },
-    {
-      "name": "MARSHALL, CHRISTOPHER GEORGE",
-      "npi": "1982670360",
-      "total_usd": 1163.49,
-      "payment_count": 87,
-      "companies": 19
+      "total_usd": 514.33,
+      "payment_count": 13,
+      "companies": 7
     }
   ]
 }

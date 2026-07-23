@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "MD",
     "state_name": "Maryland",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 56,
-    "physician_population": 27534,
-    "per_1000_physicians": 2.034,
-    "double_flagged": 11,
-    "industry_payments_usd": 222081.35
+    "excluded_count": 55,
+    "physician_population": 27859,
+    "per_1000_physicians": 1.974,
+    "double_flagged": 10,
+    "industry_payments_usd": 189172.59
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 37
+      "count": 36
     },
     {
       "code": "1128a4",
@@ -95,6 +95,11 @@
       "count": 1
     },
     {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 1
+    },
+    {
       "from_state": "DC",
       "from_name": "District of Columbia",
       "count": 1
@@ -149,14 +154,6 @@
   ],
   "priority_cases": [
     {
-      "name": "ALEXANDER, DANIEL R",
-      "npi": "1366474512",
-      "score": 73.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2017-07-20",
-      "specialty": "INTERNAL MEDICINE"
-    },
-    {
       "name": "YEROKUN, OLUWATOBI nan",
       "npi": "1922398114",
       "score": 73.0,
@@ -205,6 +202,14 @@
       "specialty": "PEDIATRICS"
     },
     {
+      "name": "YACOUB, JOHN K",
+      "npi": "1902903826",
+      "score": 65.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2015-03-19",
+      "specialty": "GYN/OBS"
+    },
+    {
       "name": "MCLAREN, MARTIN ROOSEVELT",
       "npi": "1134243173",
       "score": 62.0,
@@ -231,74 +236,74 @@
   ],
   "industry_payments": [
     {
-      "name": "LANSING, MICHAEL WAYNE",
-      "npi": "1962483230",
-      "total_usd": 114914.41,
-      "payment_count": 372,
-      "companies": 31
-    },
-    {
       "name": "WHITE, CHARLES S",
       "npi": "1164414421",
-      "total_usd": 90558.52,
-      "payment_count": 49,
+      "total_usd": 93245.09,
+      "payment_count": 51,
       "companies": 6
+    },
+    {
+      "name": "LANSING, MICHAEL WAYNE",
+      "npi": "1962483230",
+      "total_usd": 84693.6,
+      "payment_count": 201,
+      "companies": 19
     },
     {
       "name": "SMITH, STEPHEN R",
       "npi": "1588732077",
-      "total_usd": 3859.92,
-      "payment_count": 96,
-      "companies": 20
-    },
-    {
-      "name": "VITARELLO, JOHN A",
-      "npi": "1609879329",
-      "total_usd": 2271.74,
-      "payment_count": 188,
-      "companies": 20
-    },
-    {
-      "name": "PATEL, PRANAV S",
-      "npi": "1811067275",
-      "total_usd": 2013.04,
-      "payment_count": 98,
-      "companies": 16
+      "total_usd": 2297.33,
+      "payment_count": 62,
+      "companies": 14
     },
     {
       "name": "YEROKUN, OLUWATOBI nan",
       "npi": "1922398114",
-      "total_usd": 1785.3,
-      "payment_count": 27,
+      "total_usd": 1744.67,
+      "payment_count": 24,
       "companies": 10
     },
     {
       "name": "HAMILTON, JOHN nan",
       "npi": "1992961312",
-      "total_usd": 1742.35,
-      "payment_count": 28,
-      "companies": 9
+      "total_usd": 1721.03,
+      "payment_count": 26,
+      "companies": 7
+    },
+    {
+      "name": "PATEL, PRANAV S",
+      "npi": "1811067275",
+      "total_usd": 1413.44,
+      "payment_count": 78,
+      "companies": 15
+    },
+    {
+      "name": "VITARELLO, JOHN A",
+      "npi": "1609879329",
+      "total_usd": 1138.06,
+      "payment_count": 84,
+      "companies": 17
     },
     {
       "name": "HOFFBERG, HOWARD J",
       "npi": "1104870229",
-      "total_usd": 1599.17,
-      "payment_count": 39,
-      "companies": 16
-    },
-    {
-      "name": "HANLEY, ROBERT S",
-      "npi": "1306965793",
-      "total_usd": 815.77,
-      "payment_count": 27,
-      "companies": 11
+      "total_usd": 757.88,
+      "payment_count": 16,
+      "companies": 7
     },
     {
       "name": "HOLCOMB, HENRY HILLIARD",
       "npi": "1225110075",
-      "total_usd": 728.43,
-      "payment_count": 36,
+      "total_usd": 623.49,
+      "payment_count": 30,
       "companies": 3
+    },
+    {
+      "name": "HANLEY, ROBERT S",
+      "npi": "1306965793",
+      "total_usd": 482.94,
+      "payment_count": 11,
+      "companies": 6
     }
   ]
 }

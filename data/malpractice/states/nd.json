@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "ND",
     "state_name": "North Dakota",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 2,
-    "physician_population": 2714,
-    "per_1000_physicians": 0.737,
+    "physician_population": 2724,
+    "per_1000_physicians": 0.734,
     "double_flagged": 0,
-    "industry_payments_usd": 13.53
+    "industry_payments_usd": 0
   },
   "exclusion_types": [
     {
@@ -44,13 +44,5 @@
       "specialty": "OPHTHALMOLOGY"
     }
   ],
-  "industry_payments": [
-    {
-      "name": "NELSON, BLAIR ALLEN",
-      "npi": "1841288164",
-      "total_usd": 13.53,
-      "payment_count": 1,
-      "companies": 1
-    }
-  ]
+  "industry_payments": []
 }

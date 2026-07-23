@@ -2,25 +2,25 @@
   "meta": {
     "state_abbr": "AL",
     "state_name": "Alabama",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 57,
-    "physician_population": 14710,
-    "per_1000_physicians": 3.875,
-    "double_flagged": 4,
-    "industry_payments_usd": 48482.81999999999
+    "physician_population": 14947,
+    "per_1000_physicians": 3.813,
+    "double_flagged": 5,
+    "industry_payments_usd": 33481.71
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 24
+      "count": 25
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 14
+      "count": 13
     },
     {
       "code": "1128a4",
@@ -75,14 +75,14 @@
       "count": 3
     },
     {
-      "from_state": "FL",
-      "from_name": "Florida",
-      "count": 3
-    },
-    {
       "from_state": "LA",
       "from_name": "Louisiana",
       "count": 3
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 2
     },
     {
       "from_state": "MS",
@@ -122,11 +122,6 @@
       "count": 3
     },
     {
-      "to_state": "TN",
-      "to_name": "Tennessee",
-      "count": 2
-    },
-    {
       "to_state": "GA",
       "to_name": "Georgia",
       "count": 2
@@ -149,6 +144,11 @@
     {
       "to_state": "MN",
       "to_name": "Minnesota",
+      "count": 1
+    },
+    {
+      "to_state": "TN",
+      "to_name": "Tennessee",
       "count": 1
     }
   ],
@@ -176,14 +176,6 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2023-12-20",
       "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "GAYLE, FRANCENE A",
-      "npi": "1922080415",
-      "score": 71.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2025-08-20",
-      "specialty": "FAMILY PRACTICE"
     },
     {
       "name": "EARLA, JANAKI RAM",
@@ -232,43 +224,37 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2022-03-20",
       "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "AGGARWAL, SHELINDER nan",
+      "npi": "1891743654",
+      "score": 65.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2017-09-20",
+      "specialty": "GENERAL PRACTICE"
     }
   ],
   "industry_payments": [
     {
       "name": "FOSTER, WARREN QUINTON",
       "npi": "1760666531",
-      "total_usd": 16746.39,
-      "payment_count": 339,
-      "companies": 37
+      "total_usd": 13092.76,
+      "payment_count": 294,
+      "companies": 35
     },
     {
       "name": "WAYNE, ALAN J",
       "npi": "1477531283",
-      "total_usd": 9133.07,
-      "payment_count": 582,
-      "companies": 46
+      "total_usd": 8520.44,
+      "payment_count": 534,
+      "companies": 42
     },
     {
       "name": "BECDACH, SAMMY F",
       "npi": "1497726137",
-      "total_usd": 6062.02,
-      "payment_count": 428,
-      "companies": 55
-    },
-    {
-      "name": "WAKEFIELD, PHILIP MARK",
-      "npi": "1417042862",
-      "total_usd": 3255.62,
-      "payment_count": 110,
-      "companies": 27
-    },
-    {
-      "name": "JACKSON, MICHELLE S",
-      "npi": "1568479715",
-      "total_usd": 2449.99,
-      "payment_count": 188,
-      "companies": 37
+      "total_usd": 3889.64,
+      "payment_count": 246,
+      "companies": 51
     },
     {
       "name": "SIDDIQUE, MOHAMMAD nan",
@@ -280,30 +266,44 @@
     {
       "name": "CIMINO, JOHN P",
       "npi": "1578548244",
-      "total_usd": 1149.22,
-      "payment_count": 25,
-      "companies": 7
+      "total_usd": 1100.08,
+      "payment_count": 22,
+      "companies": 6
     },
     {
-      "name": "STEHL, RICHARD A",
-      "npi": "1760490411",
-      "total_usd": 933.63,
-      "payment_count": 49,
-      "companies": 13
+      "name": "WAKEFIELD, PHILIP MARK",
+      "npi": "1417042862",
+      "total_usd": 987.46,
+      "payment_count": 66,
+      "companies": 21
+    },
+    {
+      "name": "JACKSON, MICHELLE S",
+      "npi": "1568479715",
+      "total_usd": 680.41,
+      "payment_count": 43,
+      "companies": 23
     },
     {
       "name": "ALMEIDA, OSCAR DOMINGO",
       "npi": "1003939471",
-      "total_usd": 864.14,
-      "payment_count": 28,
-      "companies": 6
+      "total_usd": 663.79,
+      "payment_count": 24,
+      "companies": 4
     },
     {
-      "name": "EARLA, JANAKI RAM",
-      "npi": "1336349844",
-      "total_usd": 634.57,
-      "payment_count": 44,
-      "companies": 17
+      "name": "THOMAS, JAMES V",
+      "npi": "1235175886",
+      "total_usd": 419.33,
+      "payment_count": 27,
+      "companies": 9
+    },
+    {
+      "name": "WALKER, ALBERT BEDFORD",
+      "npi": "1437111002",
+      "total_usd": 391.72,
+      "payment_count": 24,
+      "companies": 11
     }
   ]
 }

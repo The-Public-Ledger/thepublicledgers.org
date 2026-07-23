@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "LA",
     "state_name": "Louisiana",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 52,
-    "physician_population": 15530,
-    "per_1000_physicians": 3.348,
-    "double_flagged": 8,
-    "industry_payments_usd": 70655.31999999998
+    "excluded_count": 50,
+    "physician_population": 15782,
+    "per_1000_physicians": 3.168,
+    "double_flagged": 7,
+    "industry_payments_usd": 51729.13
   },
   "exclusion_types": [
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 24
+      "count": 23
     },
     {
       "code": "1128b4",
@@ -25,12 +25,12 @@
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 7
+      "count": 8
     },
     {
       "code": "1128a3",
       "label": "Felony Healthcare Fraud",
-      "count": 6
+      "count": 4
     },
     {
       "code": "1128b7",
@@ -42,7 +42,7 @@
     {
       "from_state": "TX",
       "from_name": "Texas",
-      "count": 9
+      "count": 8
     },
     {
       "from_state": "FL",
@@ -105,11 +105,6 @@
       "to_state": "NY",
       "to_name": "New York",
       "count": 1
-    },
-    {
-      "to_state": "PA",
-      "to_name": "Pennsylvania",
-      "count": 1
     }
   ],
   "priority_cases": [
@@ -136,22 +131,6 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2024-11-20",
       "specialty": "INTERNAL MEDICINE"
-    },
-    {
-      "name": "AUZINE, DONALD PETER",
-      "npi": "1780752444",
-      "score": 75.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2024-09-19",
-      "specialty": "PAIN MANAGEMENT"
-    },
-    {
-      "name": "BERNAUER, ROBERT DALE",
-      "npi": "1235211095",
-      "score": 75.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2024-11-20",
-      "specialty": "ORTHOPEDICS"
     },
     {
       "name": "BARRETT, MELISSA R",
@@ -192,78 +171,94 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2018-12-20",
       "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "MOGAN, JOSEPH JOHN",
+      "npi": "1831119684",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2016-06-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "JOACHIM, DAN WILLIAM",
+      "npi": "1407972680",
+      "score": 66.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2012-08-20",
+      "specialty": "NEUROLOGY"
     }
   ],
   "industry_payments": [
     {
       "name": "HAAS, SHANNON nan",
       "npi": "1710205034",
-      "total_usd": 32381.59,
-      "payment_count": 45,
-      "companies": 8
+      "total_usd": 25660.43,
+      "payment_count": 26,
+      "companies": 4
     },
     {
       "name": "HICKEY, KEITH GREGORY",
       "npi": "1538100078",
-      "total_usd": 8635.26,
-      "payment_count": 569,
-      "companies": 42
+      "total_usd": 7199.94,
+      "payment_count": 471,
+      "companies": 40
     },
     {
       "name": "DEAN, ROBERT KYLE",
       "npi": "1659418325",
-      "total_usd": 7640.88,
-      "payment_count": 352,
-      "companies": 36
-    },
-    {
-      "name": "CHUNG, CHI FEI nan",
-      "npi": "1720158066",
-      "total_usd": 5376.59,
-      "payment_count": 56,
-      "companies": 4
-    },
-    {
-      "name": "BARROW, GRAY W",
-      "npi": "1851433460",
-      "total_usd": 3487.7,
-      "payment_count": 131,
-      "companies": 32
+      "total_usd": 6108.86,
+      "payment_count": 236,
+      "companies": 35
     },
     {
       "name": "AKULA, SHIVA KUMAR",
       "npi": "1679643639",
-      "total_usd": 2941.7,
-      "payment_count": 171,
-      "companies": 10
+      "total_usd": 2502.78,
+      "payment_count": 144,
+      "companies": 9
     },
     {
       "name": "HART, WILLIAM B",
       "npi": "1851334270",
-      "total_usd": 2474.85,
-      "payment_count": 45,
-      "companies": 14
+      "total_usd": 1614.98,
+      "payment_count": 36,
+      "companies": 12
+    },
+    {
+      "name": "CHUNG, CHI FEI nan",
+      "npi": "1720158066",
+      "total_usd": 1398.72,
+      "payment_count": 32,
+      "companies": 3
+    },
+    {
+      "name": "BARROW, GRAY W",
+      "npi": "1851433460",
+      "total_usd": 1239.69,
+      "payment_count": 62,
+      "companies": 23
     },
     {
       "name": "SMITH, ROBERT C",
       "npi": "1962553560",
-      "total_usd": 1076.55,
-      "payment_count": 83,
-      "companies": 16
+      "total_usd": 1143.84,
+      "payment_count": 86,
+      "companies": 14
     },
     {
       "name": "CLEMENT, RICHARD JAMES",
       "npi": "1144321696",
-      "total_usd": 1076.2,
-      "payment_count": 67,
-      "companies": 24
+      "total_usd": 1019.1,
+      "payment_count": 60,
+      "companies": 21
     },
     {
-      "name": "JONES, MICHAEL BOZELLY",
-      "npi": "1801005053",
-      "total_usd": 1064.67,
-      "payment_count": 49,
-      "companies": 5
+      "name": "HUNTER, MICHAEL SELWYN",
+      "npi": "1851450613",
+      "total_usd": 855.83,
+      "payment_count": 14,
+      "companies": 3
     }
   ]
 }

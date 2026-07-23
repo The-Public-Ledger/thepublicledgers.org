@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "IA",
     "state_name": "Iowa",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 16,
-    "physician_population": 9820,
-    "per_1000_physicians": 1.629,
-    "double_flagged": 2,
-    "industry_payments_usd": 3954.93
+    "excluded_count": 17,
+    "physician_population": 9904,
+    "per_1000_physicians": 1.716,
+    "double_flagged": 1,
+    "industry_payments_usd": 4046.0299999999997
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 7
+      "count": 8
     },
     {
       "code": "1128a1",
@@ -34,6 +34,11 @@
     }
   ],
   "migrants_in": [
+    {
+      "from_state": "NE",
+      "from_name": "Nebraska",
+      "count": 1
+    },
     {
       "from_state": "TX",
       "from_name": "Texas",
@@ -63,6 +68,14 @@
     }
   ],
   "priority_cases": [
+    {
+      "name": "BONEBRAKE, TED ARTHUR",
+      "npi": "1356788616",
+      "score": 75.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-05-20",
+      "specialty": "FAMILY PRACTICE"
+    },
     {
       "name": "SEO, MANGIL nan",
       "npi": "1568474567",
@@ -134,30 +147,29 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2020-10-20",
       "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "LINDAMAN, LYNN MELVIN",
-      "npi": "1477525038",
-      "score": 50.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2025-12-18",
-      "specialty": "ORTHOPEDICS"
     }
   ],
   "industry_payments": [
     {
       "name": "PIPER, SCOTT J",
       "npi": "1194712976",
-      "total_usd": 2752.56,
-      "payment_count": 188,
-      "companies": 22
+      "total_usd": 2682.35,
+      "payment_count": 183,
+      "companies": 20
     },
     {
       "name": "KUMAR, NARINDER nan",
       "npi": "1245205269",
-      "total_usd": 1012.67,
-      "payment_count": 52,
-      "companies": 25
+      "total_usd": 1071.06,
+      "payment_count": 54,
+      "companies": 26
+    },
+    {
+      "name": "MARTIN, ANGEL S",
+      "npi": "1821085531",
+      "total_usd": 133.8,
+      "payment_count": 3,
+      "companies": 2
     },
     {
       "name": "ROSENBLATT, MICHAEL M",
@@ -167,23 +179,23 @@
       "companies": 1
     },
     {
-      "name": "LINDAMAN, LYNN MELVIN",
-      "npi": "1477525038",
-      "total_usd": 59.95,
-      "payment_count": 4,
-      "companies": 3
-    },
-    {
-      "name": "MARTIN, ANGEL S",
-      "npi": "1821085531",
-      "total_usd": 25.21,
-      "payment_count": 1,
-      "companies": 1
+      "name": "BONEBRAKE, TED ARTHUR",
+      "npi": "1356788616",
+      "total_usd": 39.32,
+      "payment_count": 2,
+      "companies": 2
     },
     {
       "name": "HANSEN, BRIAN J",
       "npi": "1255345492",
       "total_usd": 15.11,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "LINDAMAN, LYNN MELVIN",
+      "npi": "1477525038",
+      "total_usd": 14.96,
       "payment_count": 1,
       "companies": 1
     }

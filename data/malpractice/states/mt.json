@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "MT",
     "state_name": "Montana",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 9,
-    "physician_population": 3756,
-    "per_1000_physicians": 2.396,
+    "physician_population": 3783,
+    "per_1000_physicians": 2.379,
     "double_flagged": 2,
-    "industry_payments_usd": 62211.26999999999
+    "industry_payments_usd": 35402.01
   },
   "exclusion_types": [
     {
@@ -140,23 +140,23 @@
     {
       "name": "DEVOUS, ARNOLD S",
       "npi": "1073566733",
-      "total_usd": 45744.55,
-      "payment_count": 79,
+      "total_usd": 20955.32,
+      "payment_count": 31,
       "companies": 3
     },
     {
       "name": "WEINER, THOMAS CARL",
       "npi": "1538260179",
-      "total_usd": 15785.73,
-      "payment_count": 335,
-      "companies": 47
+      "total_usd": 13867.06,
+      "payment_count": 181,
+      "companies": 41
     },
     {
       "name": "DEAN, RONALD D",
       "npi": "1437198074",
-      "total_usd": 295.31,
-      "payment_count": 17,
-      "companies": 7
+      "total_usd": 243.1,
+      "payment_count": 13,
+      "companies": 6
     },
     {
       "name": "MILLER, JOHN BERNARD",
@@ -182,9 +182,9 @@
     {
       "name": "GRAHAM, DAVID M",
       "npi": "1962425868",
-      "total_usd": 61.77,
-      "payment_count": 4,
-      "companies": 3
+      "total_usd": 12.62,
+      "payment_count": 1,
+      "companies": 1
     }
   ]
 }

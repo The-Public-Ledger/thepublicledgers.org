@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "DC",
     "state_name": "District of Columbia",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 6,
-    "physician_population": 7350,
-    "per_1000_physicians": 0.816,
+    "physician_population": 7474,
+    "per_1000_physicians": 0.803,
     "double_flagged": 2,
-    "industry_payments_usd": 387.55999999999995
+    "industry_payments_usd": 1086.7
   },
   "exclusion_types": [
     {
@@ -119,6 +119,13 @@
   ],
   "industry_payments": [
     {
+      "name": "JACKSON, ANITA LOUISE",
+      "npi": "1346286010",
+      "total_usd": 772.77,
+      "payment_count": 14,
+      "companies": 5
+    },
+    {
       "name": "CAO, ROBERT MINH",
       "npi": "1003103698",
       "total_usd": 120.87,
@@ -128,9 +135,9 @@
     {
       "name": "OKAFOR, NDUBUISI JOSEPH",
       "npi": "1164534947",
-      "total_usd": 108.71,
-      "payment_count": 6,
-      "companies": 3
+      "total_usd": 97.34,
+      "payment_count": 5,
+      "companies": 2
     },
     {
       "name": "STILLIONS, DUANE M",
@@ -138,13 +145,6 @@
       "total_usd": 95.72,
       "payment_count": 2,
       "companies": 2
-    },
-    {
-      "name": "NGUYEN, HIEU S",
-      "npi": "1275513590",
-      "total_usd": 62.26,
-      "payment_count": 3,
-      "companies": 3
     }
   ]
 }

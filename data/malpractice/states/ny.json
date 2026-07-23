@@ -2,25 +2,25 @@
   "meta": {
     "state_abbr": "NY",
     "state_name": "New York",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 275,
-    "physician_population": 101918,
-    "per_1000_physicians": 2.698,
-    "double_flagged": 486,
-    "industry_payments_usd": 9712158.50999999
+    "excluded_count": 279,
+    "physician_population": 103821,
+    "per_1000_physicians": 2.687,
+    "double_flagged": 388,
+    "industry_payments_usd": 5900036.81
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 104
+      "count": 106
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 72
+      "count": 71
     },
     {
       "code": "1128a4",
@@ -30,7 +30,7 @@
     {
       "code": "1128a3",
       "label": "Felony Healthcare Fraud",
-      "count": 18
+      "count": 21
     },
     {
       "code": "1128a2",
@@ -67,12 +67,12 @@
     {
       "from_state": "NJ",
       "from_name": "New Jersey",
-      "count": 21
+      "count": 22
     },
     {
       "from_state": "PA",
       "from_name": "Pennsylvania",
-      "count": 18
+      "count": 19
     },
     {
       "from_state": "FL",
@@ -80,14 +80,9 @@
       "count": 8
     },
     {
-      "from_state": "WV",
-      "from_name": "West Virginia",
-      "count": 4
-    },
-    {
       "from_state": "MA",
       "from_name": "Massachusetts",
-      "count": 4
+      "count": 5
     },
     {
       "from_state": "CT",
@@ -100,18 +95,23 @@
       "count": 3
     },
     {
+      "from_state": "WV",
+      "from_name": "West Virginia",
+      "count": 3
+    },
+    {
       "from_state": "CA",
       "from_name": "California",
       "count": 2
     },
     {
-      "from_state": "KY",
-      "from_name": "Kentucky",
-      "count": 2
-    },
-    {
       "from_state": "NC",
       "from_name": "North Carolina",
+      "count": 1
+    },
+    {
+      "from_state": "AL",
+      "from_name": "Alabama",
       "count": 1
     }
   ],
@@ -169,12 +169,28 @@
   ],
   "priority_cases": [
     {
+      "name": "MITTAL, NIRANJAN KUMAR",
+      "npi": "1083680003",
+      "score": 85.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2026-05-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
       "name": "MIRZA, MUHAMMAD A",
       "npi": "1881677409",
       "score": 80.5,
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2025-06-19",
       "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "BELFIORE, MICHAEL nan",
+      "npi": "1598801557",
+      "score": 80.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2026-06-18",
+      "specialty": "FAMILY PRACTICE"
     },
     {
       "name": "PADUCH, DARIUS ADAM",
@@ -201,28 +217,12 @@
       "specialty": "PSYCHIATRY"
     },
     {
-      "name": "HADDEN, ROBERT nan",
-      "npi": "1295767671",
-      "score": 77.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2023-12-20",
-      "specialty": "GYN/OBS"
-    },
-    {
       "name": "ADELGLASS, HOWARD nan",
       "npi": "1962427427",
       "score": 76.0,
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2023-10-19",
       "specialty": "PAIN MANAGEMENT"
-    },
-    {
-      "name": "BEJJANI, FADI JOSEPH",
-      "npi": "1699834747",
-      "score": 76.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2013-08-20",
-      "specialty": "GENERAL PRACTICE"
     },
     {
       "name": "LARUELLE, MARC nan",
@@ -253,30 +253,30 @@
     {
       "name": "RENTROP, KLAUS PETER",
       "npi": "1194723601",
-      "total_usd": 9182612.58,
-      "payment_count": 21,
-      "companies": 10
+      "total_usd": 5634198.55,
+      "payment_count": 16,
+      "companies": 9
     },
     {
-      "name": "CHEEMA, MUHAMMAD AZAM",
-      "npi": "1821050485",
-      "total_usd": 211377.58,
-      "payment_count": 401,
-      "companies": 19
+      "name": "MITTAL, NIRANJAN KUMAR",
+      "npi": "1083680003",
+      "total_usd": 49212.69,
+      "payment_count": 5,
+      "companies": 2
     },
     {
-      "name": "SAYEGH, NADEM JAMIL",
-      "npi": "1255306973",
-      "total_usd": 109329.39,
-      "payment_count": 541,
-      "companies": 48
+      "name": "SHAH, AMIT RAJENDRA",
+      "npi": "1396067682",
+      "total_usd": 34593.25,
+      "payment_count": 230,
+      "companies": 40
     },
     {
-      "name": "WAHBA, SAMEH nan",
-      "npi": "1154544567",
-      "total_usd": 26841.35,
-      "payment_count": 324,
-      "companies": 22
+      "name": "STEPHAN, WILLIAM H",
+      "npi": "1952370173",
+      "total_usd": 27398.81,
+      "payment_count": 1626,
+      "companies": 71
     },
     {
       "name": "SMITH, JENNIFER nan",
@@ -288,16 +288,9 @@
     {
       "name": "DIAMOND, RICHARD MARC",
       "npi": "1316053952",
-      "total_usd": 16162.55,
-      "payment_count": 784,
-      "companies": 67
-    },
-    {
-      "name": "LUPIANO, JOHN D",
-      "npi": "1881634954",
-      "total_usd": 14417.29,
-      "payment_count": 124,
-      "companies": 30
+      "total_usd": 15363.11,
+      "payment_count": 732,
+      "companies": 63
     },
     {
       "name": "MIRZA, MUHAMMAD A",
@@ -309,16 +302,23 @@
     {
       "name": "HADI, MOHAMMED ABDULALEEM",
       "npi": "1275760100",
-      "total_usd": 10567.28,
-      "payment_count": 440,
-      "companies": 56
+      "total_usd": 10421.56,
+      "payment_count": 439,
+      "companies": 55
     },
     {
-      "name": "PADUCH, DARIUS ADAM",
-      "npi": "1265529333",
-      "total_usd": 10359.09,
-      "payment_count": 6,
-      "companies": 4
+      "name": "WAHBA, SAMEH nan",
+      "npi": "1154544567",
+      "total_usd": 9676.05,
+      "payment_count": 123,
+      "companies": 18
+    },
+    {
+      "name": "LUPIANO, JOHN D",
+      "npi": "1881634954",
+      "total_usd": 8435.26,
+      "payment_count": 73,
+      "companies": 24
     }
   ]
 }

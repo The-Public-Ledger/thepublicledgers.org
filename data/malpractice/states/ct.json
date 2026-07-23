@@ -2,30 +2,30 @@
   "meta": {
     "state_abbr": "CT",
     "state_name": "Connecticut",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 26,
-    "physician_population": 19013,
-    "per_1000_physicians": 1.367,
+    "excluded_count": 27,
+    "physician_population": 19354,
+    "per_1000_physicians": 1.395,
     "double_flagged": 6,
-    "industry_payments_usd": 21027.25
+    "industry_payments_usd": 10756.550000000001
   },
   "exclusion_types": [
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 10
+      "count": 11
     },
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 5
+      "count": 6
     },
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 4
+      "count": 3
     },
     {
       "code": "1128a3",
@@ -99,7 +99,7 @@
     {
       "to_state": "PA",
       "to_name": "Pennsylvania",
-      "count": 2
+      "count": 3
     },
     {
       "to_state": "PR",
@@ -191,42 +191,35 @@
       "specialty": "RHEUMATOLOGY"
     },
     {
-      "name": "KATSETOS, JOHN C",
-      "npi": "1831121979",
+      "name": "MANSOUROV, RAMIL nan",
+      "npi": "1992768477",
       "score": 65.0,
       "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2016-05-19",
-      "specialty": "INTERNAL MEDICINE"
+      "exclusion_date": "2019-12-19",
+      "specialty": "GENERAL PRACTICE"
     }
   ],
   "industry_payments": [
     {
       "name": "BRAYLOVSKY, ANATOLY nan",
       "npi": "1023004124",
-      "total_usd": 5920.15,
-      "payment_count": 405,
-      "companies": 45
-    },
-    {
-      "name": "ABARIENTOS, CRISPIN REYNALDO",
-      "npi": "1124292966",
-      "total_usd": 5510.49,
-      "payment_count": 296,
-      "companies": 28
+      "total_usd": 3101.71,
+      "payment_count": 220,
+      "companies": 35
     },
     {
       "name": "SYED, NAIMET A",
       "npi": "1821180605",
-      "total_usd": 4847.32,
-      "payment_count": 185,
-      "companies": 13
+      "total_usd": 2612.19,
+      "payment_count": 81,
+      "companies": 11
     },
     {
-      "name": "SALZBERG, DONALD JAMES",
-      "npi": "1063413615",
-      "total_usd": 1523.32,
-      "payment_count": 75,
-      "companies": 12
+      "name": "ABARIENTOS, CRISPIN REYNALDO",
+      "npi": "1124292966",
+      "total_usd": 1344.19,
+      "payment_count": 79,
+      "companies": 22
     },
     {
       "name": "THILLAINATHAN, ANANTHAKUMAR nan",
@@ -243,25 +236,25 @@
       "companies": 11
     },
     {
+      "name": "SALZBERG, DONALD JAMES",
+      "npi": "1063413615",
+      "total_usd": 817.49,
+      "payment_count": 39,
+      "companies": 9
+    },
+    {
+      "name": "HUSSEIN, KHALIL IAN",
+      "npi": "1427442409",
+      "total_usd": 172.35,
+      "payment_count": 3,
+      "companies": 1
+    },
+    {
       "name": "AHMED, SHEIKH IRFAN",
       "npi": "1245210764",
-      "total_usd": 347.64,
-      "payment_count": 13,
-      "companies": 4
-    },
-    {
-      "name": "CLEMONS FERRARA, CLARISSE D",
-      "npi": "1265659916",
-      "total_usd": 230.97,
-      "payment_count": 2,
-      "companies": 2
-    },
-    {
-      "name": "HAMEEDI, FAWAD nan",
-      "npi": "1124318068",
-      "total_usd": 88.72,
-      "payment_count": 4,
-      "companies": 3
+      "total_usd": 142.69,
+      "payment_count": 1,
+      "companies": 1
     },
     {
       "name": "IDREES, JAHANZAIB nan",
@@ -269,6 +262,13 @@
       "total_usd": 78.56,
       "payment_count": 4,
       "companies": 4
+    },
+    {
+      "name": "HAMEEDI, FAWAD nan",
+      "npi": "1124318068",
+      "total_usd": 66.69,
+      "payment_count": 3,
+      "companies": 3
     }
   ]
 }

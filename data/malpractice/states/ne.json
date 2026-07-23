@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "NE",
     "state_name": "Nebraska",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 5,
-    "physician_population": 6504,
-    "per_1000_physicians": 0.769,
+    "excluded_count": 6,
+    "physician_population": 6524,
+    "per_1000_physicians": 0.92,
     "double_flagged": 0,
-    "industry_payments_usd": 591.95
+    "industry_payments_usd": 688.55
   },
   "exclusion_types": [
     {
@@ -23,12 +23,22 @@
       "count": 2
     },
     {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 1
+    },
+    {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
       "count": 1
     }
   ],
   "migrants_in": [
+    {
+      "from_state": "KS",
+      "from_name": "Kansas",
+      "count": 1
+    },
     {
       "from_state": "OR",
       "from_name": "Oregon",
@@ -37,12 +47,25 @@
   ],
   "migrants_out": [
     {
+      "to_state": "IA",
+      "to_name": "Iowa",
+      "count": 1
+    },
+    {
       "to_state": "NC",
       "to_name": "North Carolina",
       "count": 1
     }
   ],
   "priority_cases": [
+    {
+      "name": "EDWARDS, JEFFREY L",
+      "npi": "1710921119",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-05-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
     {
       "name": "YAZDI, NAVID D",
       "npi": "1780685230",
@@ -88,9 +111,16 @@
     {
       "name": "ALI, MAMAN LAWAN",
       "npi": "1710181151",
-      "total_usd": 405.74,
-      "payment_count": 27,
-      "companies": 13
+      "total_usd": 320.45,
+      "payment_count": 20,
+      "companies": 11
+    },
+    {
+      "name": "EDWARDS, JEFFREY L",
+      "npi": "1710921119",
+      "total_usd": 191.44,
+      "payment_count": 12,
+      "companies": 10
     },
     {
       "name": "FRASER, JEFFREY L",
@@ -102,9 +132,9 @@
     {
       "name": "HUGHES, KEITH PATRICK",
       "npi": "1588604987",
-      "total_usd": 57.53,
-      "payment_count": 4,
-      "companies": 3
+      "total_usd": 47.98,
+      "payment_count": 3,
+      "companies": 2
     }
   ]
 }

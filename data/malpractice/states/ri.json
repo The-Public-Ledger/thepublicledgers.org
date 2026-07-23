@@ -2,12 +2,12 @@
   "meta": {
     "state_abbr": "RI",
     "state_name": "Rhode Island",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 4,
-    "physician_population": 5587,
-    "per_1000_physicians": 0.716,
+    "physician_population": 5725,
+    "per_1000_physicians": 0.699,
     "double_flagged": 1,
     "industry_payments_usd": 991.56
   },

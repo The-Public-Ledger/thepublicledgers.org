@@ -2,30 +2,30 @@
   "meta": {
     "state_abbr": "NC",
     "state_name": "North Carolina",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 29,
-    "physician_population": 36652,
-    "per_1000_physicians": 0.791,
+    "excluded_count": 30,
+    "physician_population": 37206,
+    "per_1000_physicians": 0.806,
     "double_flagged": 7,
-    "industry_payments_usd": 23009.410000000003
+    "industry_payments_usd": 18686.26
   },
   "exclusion_types": [
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 10
+      "count": 11
     },
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 9
+      "count": 10
     },
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 6
+      "count": 5
     },
     {
       "code": "1128b7",
@@ -80,8 +80,8 @@
       "count": 1
     },
     {
-      "from_state": "VA",
-      "from_name": "Virginia",
+      "from_state": "FL",
+      "from_name": "Florida",
       "count": 1
     },
     {
@@ -97,6 +97,11 @@
   ],
   "migrants_out": [
     {
+      "to_state": "PA",
+      "to_name": "Pennsylvania",
+      "count": 3
+    },
+    {
       "to_state": "TX",
       "to_name": "Texas",
       "count": 3
@@ -105,11 +110,6 @@
       "to_state": "SC",
       "to_name": "South Carolina",
       "count": 3
-    },
-    {
-      "to_state": "PA",
-      "to_name": "Pennsylvania",
-      "count": 2
     },
     {
       "to_state": "VA",
@@ -149,14 +149,6 @@
   ],
   "priority_cases": [
     {
-      "name": "RANDALL, WENDELL LEWIS",
-      "npi": "1902856065",
-      "score": 84.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2024-10-20",
-      "specialty": "PHYSICIAN PRACTICE ("
-    },
-    {
       "name": "FRASER, JEFFREY L",
       "npi": "1790792380",
       "score": 76.0,
@@ -171,14 +163,6 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2018-05-20",
       "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "JACKSON, ANITA LOUISE",
-      "npi": "1346286010",
-      "score": 71.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2024-05-20",
-      "specialty": "OTORHINOLARYNGOLOGY"
     },
     {
       "name": "DIXON, DONOVAN D",
@@ -205,6 +189,14 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
+      "name": "JACKSON, ANITA LOUISE",
+      "npi": "1346286010",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-05-20",
+      "specialty": "OTORHINOLARYNGOLOGY"
+    },
+    {
       "name": "SWACKHAMMER, RANDY L",
       "npi": "1770607228",
       "score": 68.0,
@@ -221,69 +213,49 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "LE, MARK TUAN",
-      "npi": "1417931213",
-      "score": 65.0,
+      "name": "RANDALL, WENDELL LEWIS",
+      "npi": "1902856065",
+      "score": 66.0,
       "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2016-05-19",
-      "specialty": "INTERNAL MEDICINE"
+      "exclusion_date": "2025-11-20",
+      "specialty": "PHYSICIAN PRACTICE ("
+    },
+    {
+      "name": "MOHOMED, FASIL FERRIS",
+      "npi": "1851518971",
+      "score": 65.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-06-18",
+      "specialty": "GENERAL PRACTICE"
     }
   ],
   "industry_payments": [
     {
       "name": "JREISAT, KHALED F",
       "npi": "1396843132",
-      "total_usd": 15792.89,
-      "payment_count": 1125,
-      "companies": 75
+      "total_usd": 13471.98,
+      "payment_count": 951,
+      "companies": 66
     },
     {
       "name": "FUENTES, EDWIN L",
       "npi": "1053360966",
-      "total_usd": 1058.73,
+      "total_usd": 1163.85,
       "payment_count": 58,
-      "companies": 31
+      "companies": 30
     },
     {
       "name": "DANIEL, JARROD RYAN",
       "npi": "1053452615",
-      "total_usd": 985.68,
-      "payment_count": 32,
-      "companies": 4
-    },
-    {
-      "name": "JACKSON, ANITA LOUISE",
-      "npi": "1346286010",
-      "total_usd": 849.08,
-      "payment_count": 15,
-      "companies": 5
-    },
-    {
-      "name": "SWACKHAMMER, RANDY L",
-      "npi": "1770607228",
-      "total_usd": 647.81,
+      "total_usd": 845.52,
       "payment_count": 19,
-      "companies": 9
-    },
-    {
-      "name": "ZACHER, ALLAN NORMAN",
-      "npi": "1790761096",
-      "total_usd": 579.56,
-      "payment_count": 11,
-      "companies": 2
-    },
-    {
-      "name": "KUMAR, SANJAY nan",
-      "npi": "1508915216",
-      "total_usd": 499.59,
-      "payment_count": 27,
-      "companies": 5
+      "companies": 4
     },
     {
       "name": "HEROMAN, JAMES WESLEY",
       "npi": "1053454009",
-      "total_usd": 444.99,
-      "payment_count": 24,
+      "total_usd": 434.12,
+      "payment_count": 23,
       "companies": 12
     },
     {
@@ -294,11 +266,39 @@
       "companies": 11
     },
     {
+      "name": "COPELAND, CRAIG F",
+      "npi": "1124234356",
+      "total_usd": 338.9,
+      "payment_count": 18,
+      "companies": 2
+    },
+    {
+      "name": "ZACHER, ALLAN NORMAN",
+      "npi": "1790761096",
+      "total_usd": 309.83,
+      "payment_count": 7,
+      "companies": 2
+    },
+    {
+      "name": "KUMAR, SANJAY nan",
+      "npi": "1508915216",
+      "total_usd": 276.81,
+      "payment_count": 19,
+      "companies": 5
+    },
+    {
       "name": "HOFFMAN, JEFFREY D",
       "npi": "1841287679",
-      "total_usd": 334.15,
-      "payment_count": 7,
-      "companies": 6
+      "total_usd": 273.54,
+      "payment_count": 5,
+      "companies": 5
+    },
+    {
+      "name": "PRUTHI, RAJ S",
+      "npi": "1417042656",
+      "total_usd": 245.89,
+      "payment_count": 5,
+      "companies": 4
     }
   ]
 }

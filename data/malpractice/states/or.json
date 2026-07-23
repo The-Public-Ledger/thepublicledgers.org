@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "OR",
     "state_name": "Oregon",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 36,
-    "physician_population": 17487,
-    "per_1000_physicians": 2.059,
-    "double_flagged": 8,
-    "industry_payments_usd": 90006.14000000001
+    "excluded_count": 37,
+    "physician_population": 17667,
+    "per_1000_physicians": 2.094,
+    "double_flagged": 7,
+    "industry_payments_usd": 85405.92
   },
   "exclusion_types": [
     {
@@ -18,13 +18,13 @@
       "count": 31
     },
     {
-      "code": "1128a2",
-      "label": "Patient Abuse/Neglect",
-      "count": 2
-    },
-    {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
+      "count": 3
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
       "count": 2
     },
     {
@@ -57,6 +57,11 @@
     {
       "from_state": "ID",
       "from_name": "Idaho",
+      "count": 1
+    },
+    {
+      "from_state": "OH",
+      "from_name": "Ohio",
       "count": 1
     },
     {
@@ -108,6 +113,14 @@
     }
   ],
   "priority_cases": [
+    {
+      "name": "FETTMAN, MARK S",
+      "npi": "1043201981",
+      "score": 79.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2026-05-20",
+      "specialty": "PSYCHIATRY"
+    },
     {
       "name": "ABBASSIAN, SORAYA ANN",
       "npi": "1225029184",
@@ -179,79 +192,71 @@
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2023-03-20",
       "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "LATULIPPE, STEVEN A",
-      "npi": "1992814990",
-      "score": 62.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2023-06-20",
-      "specialty": "FAMILY PRACTICE"
     }
   ],
   "industry_payments": [
     {
       "name": "HARDER, ROBERT JACK",
       "npi": "1114913431",
-      "total_usd": 56131.41,
-      "payment_count": 110,
+      "total_usd": 56529.45,
+      "payment_count": 124,
       "companies": 5
     },
     {
       "name": "SANDEFUR, ERIC TODD",
       "npi": "1346333721",
-      "total_usd": 9303.84,
-      "payment_count": 6,
-      "companies": 3
+      "total_usd": 9275.65,
+      "payment_count": 4,
+      "companies": 2
     },
     {
       "name": "LARGE, LANCE BRANDON",
       "npi": "1750362554",
-      "total_usd": 8194.24,
-      "payment_count": 504,
-      "companies": 45
+      "total_usd": 7310.88,
+      "payment_count": 436,
+      "companies": 43
     },
     {
       "name": "PHAM, NHAN nan",
       "npi": "1457775611",
-      "total_usd": 6871.69,
-      "payment_count": 46,
-      "companies": 7
+      "total_usd": 5301.59,
+      "payment_count": 47,
+      "companies": 5
     },
     {
       "name": "WEEKS, JAMES A",
       "npi": "1114992104",
-      "total_usd": 3333.1,
-      "payment_count": 192,
-      "companies": 40
-    },
-    {
-      "name": "LAWRENCE, SHARON M",
-      "npi": "1144218454",
-      "total_usd": 2220.16,
-      "payment_count": 139,
-      "companies": 19
+      "total_usd": 2928.35,
+      "payment_count": 171,
+      "companies": 37
     },
     {
       "name": "FARLEY, DAVID B",
       "npi": "1518982636",
-      "total_usd": 1187.35,
-      "payment_count": 60,
-      "companies": 11
+      "total_usd": 1052.63,
+      "payment_count": 53,
+      "companies": 7
+    },
+    {
+      "name": "LAWRENCE, SHARON M",
+      "npi": "1144218454",
+      "total_usd": 1048.42,
+      "payment_count": 61,
+      "companies": 17
     },
     {
       "name": "THOMAS, PAUL NORMAN",
       "npi": "1285692137",
-      "total_usd": 1063.83,
-      "payment_count": 56,
-      "companies": 20
+      "total_usd": 684.37,
+      "payment_count": 37,
+      "companies": 13
     },
     {
       "name": "GOLDBERG, CHARLES BARRY",
       "npi": "1336107200",
-      "total_usd": 651.33,
-      "payment_count": 28,
-      "companies": 12
+      "total_usd": 377.12,
+      "payment_count": 11,
+      "companies": 7
     },
     {
       "name": "KLEIN, JOEL BRUCE",

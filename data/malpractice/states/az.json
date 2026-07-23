@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "AZ",
     "state_name": "Arizona",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 26,
-    "physician_population": 24549,
-    "per_1000_physicians": 1.059,
-    "double_flagged": 6,
-    "industry_payments_usd": 214729.78999999998
+    "physician_population": 24917,
+    "per_1000_physicians": 1.043,
+    "double_flagged": 5,
+    "industry_payments_usd": 213065.62999999998
   },
   "exclusion_types": [
     {
@@ -20,7 +20,7 @@
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 8
+      "count": 7
     },
     {
       "code": "1128a1",
@@ -35,6 +35,11 @@
     {
       "code": "1128b3",
       "label": "1128b3",
+      "count": 1
+    },
+    {
+      "code": "1128b14",
+      "label": "1128b14",
       "count": 1
     },
     {
@@ -178,72 +183,65 @@
     {
       "name": "SIMMONS, WALTER NEIL",
       "npi": "1023087293",
-      "total_usd": 191780.03,
-      "payment_count": 99,
+      "total_usd": 191672.08,
+      "payment_count": 98,
       "companies": 4
     },
     {
       "name": "AVILES, GEORGE MARTINEZ",
       "npi": "1114914843",
-      "total_usd": 18471.07,
-      "payment_count": 32,
-      "companies": 13
+      "total_usd": 18114.51,
+      "payment_count": 11,
+      "companies": 5
     },
     {
       "name": "RUBIN, MARK JONATHAN",
       "npi": "1376538496",
-      "total_usd": 2481.06,
-      "payment_count": 136,
-      "companies": 35
-    },
-    {
-      "name": "GINGERICH, SHELDON E",
-      "npi": "1003896192",
-      "total_usd": 515.37,
-      "payment_count": 53,
-      "companies": 9
-    },
-    {
-      "name": "HAM, MICHAEL LEE",
-      "npi": "1750385647",
-      "total_usd": 506.02,
-      "payment_count": 13,
-      "companies": 9
-    },
-    {
-      "name": "NGUYEN, LINH C",
-      "npi": "1275596827",
-      "total_usd": 327.62,
-      "payment_count": 5,
-      "companies": 5
+      "total_usd": 1924.54,
+      "payment_count": 106,
+      "companies": 29
     },
     {
       "name": "KAHN, SHAKEEL AZIZ",
       "npi": "1760524573",
-      "total_usd": 306.97,
-      "payment_count": 7,
+      "total_usd": 405.58,
+      "payment_count": 10,
+      "companies": 6
+    },
+    {
+      "name": "HAM, MICHAEL LEE",
+      "npi": "1750385647",
+      "total_usd": 349.11,
+      "payment_count": 9,
+      "companies": 7
+    },
+    {
+      "name": "NGUYEN, LINH C",
+      "npi": "1275596827",
+      "total_usd": 347.94,
+      "payment_count": 5,
       "companies": 5
     },
     {
       "name": "BILLING, RAJEEV nan",
       "npi": "1821430562",
-      "total_usd": 203.23,
-      "payment_count": 13,
-      "companies": 8
-    },
-    {
-      "name": "LINDSTROM, STEPHEN E",
-      "npi": "1083600274",
-      "total_usd": 100.0,
-      "payment_count": 1,
-      "companies": 1
+      "total_usd": 163.05,
+      "payment_count": 10,
+      "companies": 6
     },
     {
       "name": "NIELSEN, DAVID EUGENE",
       "npi": "1639513773",
-      "total_usd": 20.11,
-      "payment_count": 1,
-      "companies": 1
+      "total_usd": 57.0,
+      "payment_count": 3,
+      "companies": 2
+    },
+    {
+      "name": "GINGERICH, SHELDON E",
+      "npi": "1003896192",
+      "total_usd": 31.82,
+      "payment_count": 2,
+      "companies": 2
     }
   ]
 }

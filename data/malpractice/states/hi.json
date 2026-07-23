@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "HI",
     "state_name": "Hawaii",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 6,
-    "physician_population": 5907,
-    "per_1000_physicians": 1.016,
+    "physician_population": 5984,
+    "per_1000_physicians": 1.003,
     "double_flagged": 0,
-    "industry_payments_usd": 1172.17
+    "industry_payments_usd": 497.45000000000005
   },
   "exclusion_types": [
     {
@@ -111,29 +111,22 @@
     {
       "name": "YANG, SUNG S",
       "npi": "1043470370",
-      "total_usd": 987.22,
-      "payment_count": 15,
+      "total_usd": 461.85,
+      "payment_count": 10,
       "companies": 4
-    },
-    {
-      "name": "ARRINGTON, CLIFTON W",
-      "npi": "1508955055",
-      "total_usd": 108.1,
-      "payment_count": 7,
-      "companies": 2
     },
     {
       "name": "LIPETZ, MARK DAVID",
       "npi": "1306919956",
-      "total_usd": 42.93,
-      "payment_count": 3,
-      "companies": 2
+      "total_usd": 19.1,
+      "payment_count": 1,
+      "companies": 1
     },
     {
       "name": "KAIWI, PAUL ADAM",
       "npi": "1730123365",
-      "total_usd": 33.92,
-      "payment_count": 2,
+      "total_usd": 16.5,
+      "payment_count": 1,
       "companies": 1
     }
   ]

@@ -2,25 +2,25 @@
   "meta": {
     "state_abbr": "CO",
     "state_name": "Colorado",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 41,
-    "physician_population": 22935,
-    "per_1000_physicians": 1.788,
-    "double_flagged": 10,
-    "industry_payments_usd": 7641.58
+    "excluded_count": 40,
+    "physician_population": 23130,
+    "per_1000_physicians": 1.729,
+    "double_flagged": 9,
+    "industry_payments_usd": 5807.59
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 25
+      "count": 26
     },
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 7
+      "count": 5
     },
     {
       "code": "1128a1",
@@ -40,13 +40,13 @@
   ],
   "migrants_in": [
     {
-      "from_state": "TX",
-      "from_name": "Texas",
-      "count": 3
-    },
-    {
       "from_state": "PA",
       "from_name": "Pennsylvania",
+      "count": 1
+    },
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
       "count": 1
     },
     {
@@ -70,6 +70,11 @@
       "to_state": "CA",
       "to_name": "California",
       "count": 5
+    },
+    {
+      "to_state": "OK",
+      "to_name": "Oklahoma",
+      "count": 2
     },
     {
       "to_state": "UT",
@@ -102,11 +107,6 @@
       "count": 1
     },
     {
-      "to_state": "OK",
-      "to_name": "Oklahoma",
-      "count": 1
-    },
-    {
       "to_state": "TN",
       "to_name": "Tennessee",
       "count": 1
@@ -116,7 +116,7 @@
     {
       "name": "JOSEPH, FRANCIS F",
       "npi": "1790706745",
-      "score": 81.0,
+      "score": 78.0,
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2024-05-20",
       "specialty": "FAMILY PRACTICE"
@@ -128,14 +128,6 @@
       "exclusion_label": "Patient Abuse/Neglect",
       "exclusion_date": "2021-06-17",
       "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "LITTLEFORD, JOHN ALAN",
-      "npi": "1053411421",
-      "score": 68.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2019-09-19",
-      "specialty": "PAIN MANAGEMENT"
     },
     {
       "name": "MONTANTE, JOSEPH ROBERT",
@@ -151,14 +143,6 @@
       "score": 65.0,
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2017-07-20",
-      "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "TUCKER, KELLY WADE",
-      "npi": "1871568782",
-      "score": 65.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2010-03-18",
       "specialty": "FAMILY PRACTICE"
     },
     {
@@ -186,49 +170,51 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "HANSEN, RICHARD NORMAN",
-      "npi": "1770579401",
+      "name": "MOFFAT, ROBERT J",
+      "npi": "1235277104",
       "score": 56.0,
       "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2013-01-20",
-      "specialty": "GASTROENTEROLOGY"
+      "exclusion_date": "2012-08-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "SCHLICHT, CHRISTIAN R",
+      "npi": "1568489490",
+      "score": 56.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2014-05-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "TUCKER, KELLY WADE",
+      "npi": "1871568782",
+      "score": 56.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2009-11-19",
+      "specialty": "FAMILY PRACTICE"
     }
   ],
   "industry_payments": [
     {
       "name": "MATTHEWS, STEPHEN nan",
       "npi": "1982099297",
-      "total_usd": 3382.64,
-      "payment_count": 104,
-      "companies": 29
+      "total_usd": 2871.01,
+      "payment_count": 100,
+      "companies": 26
     },
     {
       "name": "GALLAGHER, MICHAEL D",
       "npi": "1548218654",
-      "total_usd": 1871.24,
+      "total_usd": 1884.78,
       "payment_count": 32,
-      "companies": 7
-    },
-    {
-      "name": "TYLER, JOHN MASON",
-      "npi": "1487666376",
-      "total_usd": 485.39,
-      "payment_count": 33,
-      "companies": 12
+      "companies": 8
     },
     {
       "name": "WEISS, HOWARD S",
       "npi": "1780712604",
-      "total_usd": 459.57,
-      "payment_count": 6,
-      "companies": 5
-    },
-    {
-      "name": "GESSNER, WIESLAW PAWEL",
-      "npi": "1225118011",
-      "total_usd": 419.28,
-      "payment_count": 5,
-      "companies": 5
+      "total_usd": 312.9,
+      "payment_count": 3,
+      "companies": 2
     },
     {
       "name": "MOFFAT, ROBERT J",
@@ -238,25 +224,11 @@
       "companies": 1
     },
     {
-      "name": "KESTEN, JEFFREY nan",
-      "npi": "1124107909",
-      "total_usd": 185.27,
-      "payment_count": 15,
-      "companies": 7
-    },
-    {
       "name": "WU, JOHN VAN",
       "npi": "1518930395",
-      "total_usd": 158.09,
-      "payment_count": 5,
-      "companies": 2
-    },
-    {
-      "name": "HO, ANDREW MARK",
-      "npi": "1609801877",
-      "total_usd": 153.8,
-      "payment_count": 3,
-      "companies": 3
+      "total_usd": 138.09,
+      "payment_count": 4,
+      "companies": 1
     },
     {
       "name": "COOPER, WILLIAM H",
@@ -264,6 +236,34 @@
       "total_usd": 137.7,
       "payment_count": 2,
       "companies": 2
+    },
+    {
+      "name": "GESSNER, WIESLAW PAWEL",
+      "npi": "1225118011",
+      "total_usd": 136.91,
+      "payment_count": 2,
+      "companies": 2
+    },
+    {
+      "name": "TYLER, JOHN MASON",
+      "npi": "1487666376",
+      "total_usd": 66.1,
+      "payment_count": 4,
+      "companies": 4
+    },
+    {
+      "name": "SETTLES, RICHARD J",
+      "npi": "1891798153",
+      "total_usd": 38.92,
+      "payment_count": 3,
+      "companies": 2
+    },
+    {
+      "name": "HAMMOND, DOUGLAS K",
+      "npi": "1003892746",
+      "total_usd": 26.35,
+      "payment_count": 1,
+      "companies": 1
     }
   ]
 }

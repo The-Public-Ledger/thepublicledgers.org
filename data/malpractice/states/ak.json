@@ -2,29 +2,29 @@
   "meta": {
     "state_abbr": "AK",
     "state_name": "Alaska",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 4,
-    "physician_population": 2644,
-    "per_1000_physicians": 1.513,
+    "physician_population": 2654,
+    "per_1000_physicians": 1.507,
     "double_flagged": 0,
-    "industry_payments_usd": 1599.44
+    "industry_payments_usd": 685.3000000000001
   },
   "exclusion_types": [
     {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 2
+    },
+    {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 2
+      "count": 1
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 1
-    },
-    {
-      "code": "1128a4",
-      "label": "Felony Controlled Substance",
       "count": 1
     }
   ],
@@ -80,33 +80,33 @@
     {
       "name": "DAVIDHIZAR, LAVERN R",
       "npi": "1154334381",
-      "score": 47.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2021-09-20",
-      "specialty": "FAMILY PRACTICE"
+      "score": 59.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-10-20",
+      "specialty": "GENERAL PRACTICE"
     }
   ],
   "industry_payments": [
     {
       "name": "DAVIDHIZAR, LAVERN R",
       "npi": "1154334381",
-      "total_usd": 1491.66,
-      "payment_count": 68,
-      "companies": 14
-    },
-    {
-      "name": "CHISHOLM MD, DAVID REGINALD",
-      "npi": "1427156868",
-      "total_usd": 63.07,
-      "payment_count": 4,
-      "companies": 2
+      "total_usd": 638.7,
+      "payment_count": 31,
+      "companies": 9
     },
     {
       "name": "CARLSON, RAY LYNN",
       "npi": "1114077468",
-      "total_usd": 44.71,
-      "payment_count": 3,
-      "companies": 2
+      "total_usd": 26.71,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "CHISHOLM MD, DAVID REGINALD",
+      "npi": "1427156868",
+      "total_usd": 19.89,
+      "payment_count": 1,
+      "companies": 1
     }
   ]
 }

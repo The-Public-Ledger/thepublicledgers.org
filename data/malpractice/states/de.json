@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "DE",
     "state_name": "Delaware",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 7,
-    "physician_population": 4016,
-    "per_1000_physicians": 1.743,
-    "double_flagged": 2,
-    "industry_payments_usd": 248.27
+    "physician_population": 4102,
+    "per_1000_physicians": 1.706,
+    "double_flagged": 1,
+    "industry_payments_usd": 49.69
   },
   "exclusion_types": [
     {
@@ -98,7 +98,7 @@
     {
       "name": "BRATHWAITE, LINDSAY MARTIN",
       "npi": "1386695591",
-      "score": 44.0,
+      "score": 41.0,
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2016-05-19",
       "specialty": "DERMATOLOGY"
@@ -124,9 +124,9 @@
     {
       "name": "GOODING, FREDERICK WAYNE",
       "npi": "1255377180",
-      "total_usd": 248.27,
-      "payment_count": 11,
-      "companies": 9
+      "total_usd": 49.69,
+      "payment_count": 2,
+      "companies": 2
     }
   ]
 }

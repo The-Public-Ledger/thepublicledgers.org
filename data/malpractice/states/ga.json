@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "GA",
     "state_name": "Georgia",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 57,
-    "physician_population": 33234,
-    "per_1000_physicians": 1.715,
-    "double_flagged": 10,
-    "industry_payments_usd": 24673.1
+    "excluded_count": 58,
+    "physician_population": 33625,
+    "per_1000_physicians": 1.725,
+    "double_flagged": 12,
+    "industry_payments_usd": 11615.27
   },
   "exclusion_types": [
     {
@@ -25,7 +25,7 @@
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 10
+      "count": 12
     },
     {
       "code": "1128a3",
@@ -38,14 +38,14 @@
       "count": 2
     },
     {
-      "code": "1128b7",
-      "label": "Fraud/Kickbacks",
-      "count": 2
-    },
-    {
       "code": "1128b14",
       "label": "1128b14",
       "count": 2
+    },
+    {
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
+      "count": 1
     },
     {
       "code": "BRCH SA",
@@ -85,11 +85,6 @@
       "count": 1
     },
     {
-      "from_state": "IN",
-      "from_name": "Indiana",
-      "count": 1
-    },
-    {
       "from_state": "OR",
       "from_name": "Oregon",
       "count": 1
@@ -119,7 +114,7 @@
     {
       "to_state": "TN",
       "to_name": "Tennessee",
-      "count": 2
+      "count": 3
     },
     {
       "to_state": "KY",
@@ -186,14 +181,6 @@
       "specialty": "OTORHINOLARYNGOLOGY"
     },
     {
-      "name": "ORR, SEAN CHRISTOPHER",
-      "npi": "1013059740",
-      "score": 72.0,
-      "exclusion_label": "Fraud/Kickbacks",
-      "exclusion_date": "2017-03-16",
-      "specialty": "NEUROLOGY"
-    },
-    {
       "name": "BYNES, FRANK HOWARD",
       "npi": "1518296839",
       "score": 71.0,
@@ -232,16 +219,17 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2020-06-18",
       "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "JENKINS, OLIVER H",
+      "npi": "1033111000",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-03-20",
+      "specialty": "OTORHINOLARYNGOLOGY"
     }
   ],
   "industry_payments": [
-    {
-      "name": "GALLUPS, JEFFREY M",
-      "npi": "1851471866",
-      "total_usd": 10634.58,
-      "payment_count": 13,
-      "companies": 3
-    },
     {
       "name": "JENKINS, OLIVER H",
       "npi": "1033111000",
@@ -250,60 +238,67 @@
       "companies": 11
     },
     {
-      "name": "BERINHOUT, RANDALL CHARLES",
-      "npi": "1720031503",
-      "total_usd": 2520.98,
-      "payment_count": 93,
-      "companies": 22
-    },
-    {
       "name": "YASIN, NURA F",
       "npi": "1265518567",
-      "total_usd": 2226.95,
-      "payment_count": 153,
+      "total_usd": 2152.37,
+      "payment_count": 148,
       "companies": 19
+    },
+    {
+      "name": "BERINHOUT, RANDALL CHARLES",
+      "npi": "1720031503",
+      "total_usd": 1708.93,
+      "payment_count": 71,
+      "companies": 13
     },
     {
       "name": "GEIGER, DOUGLAS LECEDIOUS",
       "npi": "1851682868",
-      "total_usd": 1420.92,
+      "total_usd": 1418.13,
       "payment_count": 22,
-      "companies": 13
+      "companies": 14
     },
     {
       "name": "MOSS, DOUGLAS nan",
       "npi": "1679542781",
-      "total_usd": 1201.84,
-      "payment_count": 14,
-      "companies": 7
+      "total_usd": 639.77,
+      "payment_count": 8,
+      "companies": 4
     },
     {
       "name": "GRAY, DURIEL DONNELL",
       "npi": "1619170701",
-      "total_usd": 519.35,
-      "payment_count": 32,
+      "total_usd": 534.55,
+      "payment_count": 33,
       "companies": 12
-    },
-    {
-      "name": "MANSFIELD, KATHY E",
-      "npi": "1538242169",
-      "total_usd": 398.68,
-      "payment_count": 31,
-      "companies": 6
     },
     {
       "name": "LESLIE, HARVEY BOWEN",
       "npi": "1992883201",
-      "total_usd": 349.95,
-      "payment_count": 10,
-      "companies": 6
+      "total_usd": 283.23,
+      "payment_count": 6,
+      "companies": 5
+    },
+    {
+      "name": "SECURO, ANTHONY TODDE",
+      "npi": "1912077967",
+      "total_usd": 232.9,
+      "payment_count": 12,
+      "companies": 7
+    },
+    {
+      "name": "CHEEKS, CURTIS nan",
+      "npi": "1528164092",
+      "total_usd": 209.34,
+      "payment_count": 12,
+      "companies": 7
     },
     {
       "name": "BUTLER, KAREN LIND",
       "npi": "1902858848",
-      "total_usd": 253.37,
-      "payment_count": 9,
-      "companies": 7
+      "total_usd": 201.35,
+      "payment_count": 5,
+      "companies": 4
     }
   ]
 }

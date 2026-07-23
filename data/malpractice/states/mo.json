@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "MO",
     "state_name": "Missouri",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 48,
-    "physician_population": 25013,
-    "per_1000_physicians": 1.919,
-    "double_flagged": 5,
-    "industry_payments_usd": 1587499.2199999995
+    "excluded_count": 49,
+    "physician_population": 25237,
+    "per_1000_physicians": 1.942,
+    "double_flagged": 6,
+    "industry_payments_usd": 1168880.6099999999
   },
   "exclusion_types": [
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 27
+      "count": 26
     },
     {
       "code": "1128a3",
@@ -25,7 +25,7 @@
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 5
+      "count": 6
     },
     {
       "code": "1128a4",
@@ -45,7 +45,7 @@
     {
       "code": "1128a2",
       "label": "Patient Abuse/Neglect",
-      "count": 1
+      "count": 2
     },
     {
       "code": "1128b14",
@@ -125,6 +125,14 @@
       "specialty": "EMERGENCY MEDICINE"
     },
     {
+      "name": "MAES, EARL BLAIR",
+      "npi": "1699717363",
+      "score": 76.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-12-18",
+      "specialty": "RADIOLOGY"
+    },
+    {
       "name": "SAGGAR, SONNY S",
       "npi": "1578596235",
       "score": 76.0,
@@ -133,20 +141,20 @@
       "specialty": "EMERGENCY MEDICINE"
     },
     {
+      "name": "SICURO, FRANCO nan",
+      "npi": "1629159207",
+      "score": 73.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-02-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
       "name": "DERGES, PATRICIA nan",
       "npi": "1134648959",
       "score": 72.5,
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2023-09-20",
       "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "MAES, EARL BLAIR",
-      "npi": "1699717363",
-      "score": 72.2,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2025-12-18",
-      "specialty": "RADIOLOGY"
     },
     {
       "name": "ALI, ASIM M",
@@ -179,86 +187,78 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2023-03-20",
       "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "LAMONDA, JUSTIN GARY",
-      "npi": "1669601357",
-      "score": 68.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2024-02-20",
-      "specialty": "FAMILY PRACTICE"
     }
   ],
   "industry_payments": [
     {
       "name": "MALIK, MOHD AZFAR",
       "npi": "1942208715",
-      "total_usd": 1191735.31,
-      "payment_count": 2425,
-      "companies": 45
-    },
-    {
-      "name": "HALLEY, RANDALL E",
-      "npi": "1245232693",
-      "total_usd": 118644.88,
-      "payment_count": 236,
-      "companies": 23
+      "total_usd": 955942.82,
+      "payment_count": 1982,
+      "companies": 39
     },
     {
       "name": "RODGERS, WILLIAM BLAKE",
       "npi": "1336140177",
-      "total_usd": 80044.63,
-      "payment_count": 40,
-      "companies": 2
+      "total_usd": 77347.54,
+      "payment_count": 33,
+      "companies": 1
     },
     {
       "name": "CARTER, ROBERT RICK",
       "npi": "1083645402",
-      "total_usd": 66176.97,
-      "payment_count": 259,
-      "companies": 48
+      "total_usd": 48039.29,
+      "payment_count": 234,
+      "companies": 46
     },
     {
       "name": "CHAND, SUNIL GUPTA",
       "npi": "1205800257",
-      "total_usd": 39582.96,
-      "payment_count": 109,
-      "companies": 21
+      "total_usd": 24069.35,
+      "payment_count": 85,
+      "companies": 22
+    },
+    {
+      "name": "HALLEY, RANDALL E",
+      "npi": "1245232693",
+      "total_usd": 17926.8,
+      "payment_count": 45,
+      "companies": 12
     },
     {
       "name": "SICURO, FRANCO nan",
       "npi": "1629159207",
-      "total_usd": 30945.58,
-      "payment_count": 411,
-      "companies": 31
-    },
-    {
-      "name": "LIBRACH, STANLEY L",
-      "npi": "1346342920",
-      "total_usd": 17220.72,
-      "payment_count": 200,
-      "companies": 29
+      "total_usd": 16761.56,
+      "payment_count": 266,
+      "companies": 30
     },
     {
       "name": "ALI, IFTIKHAR nan",
       "npi": "1700813607",
-      "total_usd": 11811.55,
-      "payment_count": 922,
-      "companies": 63
+      "total_usd": 8982.6,
+      "payment_count": 685,
+      "companies": 57
+    },
+    {
+      "name": "LIBRACH, STANLEY L",
+      "npi": "1346342920",
+      "total_usd": 5697.34,
+      "payment_count": 114,
+      "companies": 21
+    },
+    {
+      "name": "SANDERS, THOMAS L",
+      "npi": "1730443961",
+      "total_usd": 3712.64,
+      "payment_count": 51,
+      "companies": 12
     },
     {
       "name": "DICKINSON, BRETT nan",
       "npi": "1942287735",
-      "total_usd": 6847.39,
-      "payment_count": 574,
-      "companies": 47
-    },
-    {
-      "name": "BEE, LEE PETER",
-      "npi": "1669429908",
-      "total_usd": 4236.0,
-      "payment_count": 180,
-      "companies": 22
+      "total_usd": 3579.32,
+      "payment_count": 251,
+      "companies": 37
     }
   ]
 }

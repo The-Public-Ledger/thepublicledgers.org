@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "WV",
     "state_name": "West Virginia",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 33,
-    "physician_population": 6559,
-    "per_1000_physicians": 5.031,
-    "double_flagged": 6,
-    "industry_payments_usd": 112390.81999999998
+    "excluded_count": 32,
+    "physician_population": 6682,
+    "per_1000_physicians": 4.789,
+    "double_flagged": 5,
+    "industry_payments_usd": 101892.86
   },
   "exclusion_types": [
     {
@@ -20,7 +20,7 @@
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 7
+      "count": 6
     },
     {
       "code": "1128b4",
@@ -119,7 +119,7 @@
     {
       "to_state": "VA",
       "to_name": "Virginia",
-      "count": 5
+      "count": 6
     },
     {
       "to_state": "KY",
@@ -127,14 +127,14 @@
       "count": 4
     },
     {
-      "to_state": "NY",
-      "to_name": "New York",
-      "count": 4
-    },
-    {
       "to_state": "NC",
       "to_name": "North Carolina",
       "count": 4
+    },
+    {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 3
     },
     {
       "to_state": "SC",
@@ -245,65 +245,65 @@
     {
       "name": "HESS, DAVID ELWOOD",
       "npi": "1740275676",
-      "total_usd": 24064.8,
-      "payment_count": 1024,
-      "companies": 59
-    },
-    {
-      "name": "HOUDERSHELDT, RICKY L",
-      "npi": "1457306300",
-      "total_usd": 5412.83,
-      "payment_count": 445,
-      "companies": 35
+      "total_usd": 19667.52,
+      "payment_count": 835,
+      "companies": 53
     },
     {
       "name": "OTELLIN, ALEXANDER VLADIMIROVICH",
       "npi": "1740302066",
-      "total_usd": 4936.66,
-      "payment_count": 302,
-      "companies": 22
+      "total_usd": 3958.31,
+      "payment_count": 234,
+      "companies": 19
     },
     {
-      "name": "BARIT, MANUEL CORTEZ",
-      "npi": "1376505164",
-      "total_usd": 1547.45,
-      "payment_count": 64,
-      "companies": 10
+      "name": "HOUDERSHELDT, RICKY L",
+      "npi": "1457306300",
+      "total_usd": 3060.09,
+      "payment_count": 228,
+      "companies": 28
     },
     {
       "name": "JOHNSON, JOHN H",
       "npi": "1922003318",
-      "total_usd": 1294.23,
-      "payment_count": 60,
-      "companies": 15
+      "total_usd": 1014.8,
+      "payment_count": 52,
+      "companies": 11
     },
     {
       "name": "ROMANO, THOMAS JAMES",
       "npi": "1902136443",
-      "total_usd": 884.28,
-      "payment_count": 51,
-      "companies": 8
-    },
-    {
-      "name": "GONZALEZRAMOS, FERNANDO LUIS",
-      "npi": "1053348771",
-      "total_usd": 819.73,
-      "payment_count": 12,
-      "companies": 6
-    },
-    {
-      "name": "AGGARWAL, MADHU nan",
-      "npi": "1336136431",
-      "total_usd": 349.54,
-      "payment_count": 9,
-      "companies": 4
+      "total_usd": 492.49,
+      "payment_count": 22,
+      "companies": 7
     },
     {
       "name": "THOMAS, WILLIAM SCOTT",
       "npi": "1013945278",
-      "total_usd": 199.87,
+      "total_usd": 279.11,
       "payment_count": 14,
-      "companies": 4
+      "companies": 5
+    },
+    {
+      "name": "AGGARWAL, MADHU nan",
+      "npi": "1336136431",
+      "total_usd": 261.65,
+      "payment_count": 4,
+      "companies": 1
+    },
+    {
+      "name": "KABBARA, ZOUHAIR nan",
+      "npi": "1285068668",
+      "total_usd": 242.57,
+      "payment_count": 12,
+      "companies": 5
+    },
+    {
+      "name": "BARIT, MANUEL CORTEZ",
+      "npi": "1376505164",
+      "total_usd": 120.48,
+      "payment_count": 5,
+      "companies": 1
     }
   ]
 }

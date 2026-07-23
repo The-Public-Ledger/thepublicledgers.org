@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "MS",
     "state_name": "Mississippi",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 16,
-    "physician_population": 7758,
-    "per_1000_physicians": 2.062,
-    "double_flagged": 2,
-    "industry_payments_usd": 7568.38
+    "physician_population": 7820,
+    "per_1000_physicians": 2.046,
+    "double_flagged": 4,
+    "industry_payments_usd": 4346.929999999999
   },
   "exclusion_types": [
     {
@@ -168,51 +168,37 @@
     {
       "name": "SANFORD, BENJAMIN F",
       "npi": "1629042304",
-      "total_usd": 4042.24,
-      "payment_count": 238,
-      "companies": 34
-    },
-    {
-      "name": "NELSON, SCOTT nan",
-      "npi": "1336220276",
-      "total_usd": 1200.01,
-      "payment_count": 17,
-      "companies": 8
+      "total_usd": 2527.2,
+      "payment_count": 159,
+      "companies": 24
     },
     {
       "name": "RYAN, CHARLES G",
       "npi": "1548263627",
-      "total_usd": 885.96,
-      "payment_count": 38,
-      "companies": 17
+      "total_usd": 837.9,
+      "payment_count": 35,
+      "companies": 16
+    },
+    {
+      "name": "NELSON, SCOTT nan",
+      "npi": "1336220276",
+      "total_usd": 423.14,
+      "payment_count": 6,
+      "companies": 3
     },
     {
       "name": "JACKSON, JOSEPH nan",
       "npi": "1922074806",
-      "total_usd": 750.28,
-      "payment_count": 52,
-      "companies": 16
+      "total_usd": 364.06,
+      "payment_count": 21,
+      "companies": 11
     },
     {
       "name": "RIGSBY, REGINALD D",
       "npi": "1407817240",
-      "total_usd": 414.32,
-      "payment_count": 12,
-      "companies": 7
-    },
-    {
-      "name": "SULTAN, SHAHJAHAN nan",
-      "npi": "1699938498",
-      "total_usd": 233.97,
-      "payment_count": 27,
-      "companies": 2
-    },
-    {
-      "name": "JUAKALI, EBONY nan",
-      "npi": "1376905901",
-      "total_usd": 26.92,
-      "payment_count": 2,
-      "companies": 2
+      "total_usd": 179.95,
+      "payment_count": 5,
+      "companies": 4
     },
     {
       "name": "RUSSELL, KEITH PERRY",

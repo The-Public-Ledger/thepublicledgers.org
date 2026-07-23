@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "NH",
     "state_name": "New Hampshire",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 8,
-    "physician_population": 6171,
-    "per_1000_physicians": 1.296,
+    "excluded_count": 10,
+    "physician_population": 6252,
+    "per_1000_physicians": 1.599,
     "double_flagged": 1,
-    "industry_payments_usd": 697.39
+    "industry_payments_usd": 2102.33
   },
   "exclusion_types": [
     {
@@ -25,10 +25,21 @@
     {
       "code": "1128a2",
       "label": "Patient Abuse/Neglect",
+      "count": 2
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
       "count": 1
     }
   ],
-  "migrants_in": [],
+  "migrants_in": [
+    {
+      "from_state": "MA",
+      "from_name": "Massachusetts",
+      "count": 1
+    }
+  ],
   "migrants_out": [
     {
       "to_state": "PA",
@@ -37,6 +48,30 @@
     }
   ],
   "priority_cases": [
+    {
+      "name": "DUYMAZLAR, HASAN nan",
+      "npi": "1902876659",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-05-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "MARKS, THOMAS nan",
+      "npi": "1932188455",
+      "score": 65.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2026-05-20",
+      "specialty": "ORTHOPEDICS"
+    },
+    {
+      "name": "KHAN, ADNAN S",
+      "npi": "1245363761",
+      "score": 59.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2026-05-20",
+      "specialty": "FAMILY PRACTICE"
+    },
     {
       "name": "MACDONALD, HUGH V",
       "npi": "1235247313",
@@ -52,14 +87,6 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2026-04-20",
       "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "DUYMAZLAR, HASAN nan",
-      "npi": "1902876659",
-      "score": 50.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2014-11-20",
-      "specialty": "EMERGENCY MEDICINE"
     },
     {
       "name": "VIDAVER, ROBERT CLYDE",
@@ -104,18 +131,32 @@
   ],
   "industry_payments": [
     {
-      "name": "SOUCY, ROBERT G",
-      "npi": "1609857747",
-      "total_usd": 547.39,
+      "name": "MARKS, THOMAS nan",
+      "npi": "1932188455",
+      "total_usd": 1687.03,
       "payment_count": 15,
       "companies": 7
     },
     {
-      "name": "MACDONALD, HUGH V",
-      "npi": "1235247313",
-      "total_usd": 150.0,
-      "payment_count": 1,
-      "companies": 1
+      "name": "SOUCY, ROBERT G",
+      "npi": "1609857747",
+      "total_usd": 308.88,
+      "payment_count": 8,
+      "companies": 4
+    },
+    {
+      "name": "MAES, EARL BLAIR",
+      "npi": "1699717363",
+      "total_usd": 66.99,
+      "payment_count": 2,
+      "companies": 2
+    },
+    {
+      "name": "KHAN, ADNAN S",
+      "npi": "1245363761",
+      "total_usd": 39.43,
+      "payment_count": 2,
+      "companies": 2
     }
   ]
 }

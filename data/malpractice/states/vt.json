@@ -2,12 +2,12 @@
   "meta": {
     "state_abbr": "VT",
     "state_name": "Vermont",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 3,
-    "physician_population": 2825,
-    "per_1000_physicians": 1.062,
+    "physician_population": 2859,
+    "per_1000_physicians": 1.049,
     "double_flagged": 2,
     "industry_payments_usd": 0
   },

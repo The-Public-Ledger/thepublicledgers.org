@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "WA",
     "state_name": "Washington",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 51,
-    "physician_population": 29638,
-    "per_1000_physicians": 1.721,
+    "excluded_count": 52,
+    "physician_population": 29949,
+    "per_1000_physicians": 1.736,
     "double_flagged": 15,
-    "industry_payments_usd": 135426.53999999998
+    "industry_payments_usd": 90001.67
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 33
+      "count": 32
     },
     {
       "code": "1128a1",
@@ -33,6 +33,11 @@
       "count": 4
     },
     {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
+      "count": 3
+    },
+    {
       "code": "1128b7",
       "label": "Fraud/Kickbacks",
       "count": 1
@@ -40,11 +45,6 @@
     {
       "code": "1128b6",
       "label": "1128b6",
-      "count": 1
-    },
-    {
-      "code": "1128a3",
-      "label": "Felony Healthcare Fraud",
       "count": 1
     },
     {
@@ -80,11 +80,6 @@
       "count": 1
     },
     {
-      "from_state": "FL",
-      "from_name": "Florida",
-      "count": 1
-    },
-    {
       "from_state": "UT",
       "from_name": "Utah",
       "count": 1
@@ -102,6 +97,16 @@
     {
       "from_state": "KS",
       "from_name": "Kansas",
+      "count": 1
+    },
+    {
+      "from_state": "VA",
+      "from_name": "Virginia",
+      "count": 1
+    },
+    {
+      "from_state": "SD",
+      "from_name": "South Dakota",
       "count": 1
     }
   ],
@@ -150,6 +155,22 @@
       "specialty": "INFECTIOUS DISEASE"
     },
     {
+      "name": "VOEGELPODADERA, ANDREW nan",
+      "npi": "1386393031",
+      "score": 80.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2026-06-18",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "WASHINGTON, WILLIAM J",
+      "npi": "1780768861",
+      "score": 75.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2026-05-20",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
       "name": "ARNOLD, JANET S",
       "npi": "1427311968",
       "score": 71.0,
@@ -196,73 +217,43 @@
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2024-09-19",
       "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "POTHINI, GOURI BHAWAN",
-      "npi": "1710211487",
-      "score": 65.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2024-12-19",
-      "specialty": "EMERGENCY MEDICINE"
-    },
-    {
-      "name": "PIROUZKAR, BEHROUZ nan",
-      "npi": "1821085119",
-      "score": 62.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2012-04-19",
-      "specialty": "OPHTHALMOLOGY"
     }
   ],
   "industry_payments": [
     {
       "name": "MOORE, GEORGE WALTER",
       "npi": "1588604110",
-      "total_usd": 86868.88,
-      "payment_count": 656,
-      "companies": 49
+      "total_usd": 54994.62,
+      "payment_count": 395,
+      "companies": 39
     },
     {
       "name": "DREYER, JASON ADAM",
       "npi": "1194949594",
-      "total_usd": 28557.14,
-      "payment_count": 62,
-      "companies": 6
-    },
-    {
-      "name": "JUTLA, RAJNI K",
-      "npi": "1467564484",
-      "total_usd": 7294.6,
-      "payment_count": 140,
-      "companies": 29
-    },
-    {
-      "name": "THOMPSON, ROBERT G",
-      "npi": "1154418580",
-      "total_usd": 2767.45,
-      "payment_count": 121,
-      "companies": 19
+      "total_usd": 15857.74,
+      "payment_count": 45,
+      "companies": 5
     },
     {
       "name": "BRYANT, MARY KATHERINE",
       "npi": "1174901540",
-      "total_usd": 2600.39,
-      "payment_count": 11,
-      "companies": 7
+      "total_usd": 6700.49,
+      "payment_count": 40,
+      "companies": 10
     },
     {
-      "name": "KIMURA, IRENE KIMIVO",
-      "npi": "1366448359",
-      "total_usd": 1453.93,
-      "payment_count": 66,
-      "companies": 21
+      "name": "JUTLA, RAJNI K",
+      "npi": "1467564484",
+      "total_usd": 4680.64,
+      "payment_count": 76,
+      "companies": 17
     },
     {
-      "name": "MEDANI, IGNATIUS C",
-      "npi": "1295831659",
-      "total_usd": 1299.95,
-      "payment_count": 67,
-      "companies": 20
+      "name": "THOMPSON, ROBERT G",
+      "npi": "1154418580",
+      "total_usd": 1954.67,
+      "payment_count": 90,
+      "companies": 19
     },
     {
       "name": "STOCKIN, MICHAEL DAVID",
@@ -272,18 +263,32 @@
       "companies": 5
     },
     {
-      "name": "BRECHT, KRISTINE SUSANNE",
-      "npi": "1922071802",
-      "total_usd": 994.36,
-      "payment_count": 14,
-      "companies": 4
+      "name": "KIMURA, IRENE KIMIVO",
+      "npi": "1366448359",
+      "total_usd": 1017.77,
+      "payment_count": 51,
+      "companies": 18
     },
     {
-      "name": "LANEY, THOMAS JOACHIM",
-      "npi": "1295943595",
-      "total_usd": 898.71,
-      "payment_count": 17,
-      "companies": 4
+      "name": "BRECHT, KRISTINE SUSANNE",
+      "npi": "1922071802",
+      "total_usd": 780.48,
+      "payment_count": 10,
+      "companies": 3
+    },
+    {
+      "name": "THORN, THOMAS A",
+      "npi": "1942248109",
+      "total_usd": 640.0,
+      "payment_count": 2,
+      "companies": 1
+    },
+    {
+      "name": "MEDANI, IGNATIUS C",
+      "npi": "1295831659",
+      "total_usd": 592.4,
+      "payment_count": 29,
+      "companies": 14
     }
   ]
 }

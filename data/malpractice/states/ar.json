@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "AR",
     "state_name": "Arkansas",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 13,
-    "physician_population": 8935,
-    "per_1000_physicians": 1.455,
+    "excluded_count": 12,
+    "physician_population": 9054,
+    "per_1000_physicians": 1.325,
     "double_flagged": 2,
-    "industry_payments_usd": 780525.5899999999
+    "industry_payments_usd": 510625.17000000004
   },
   "exclusion_types": [
     {
@@ -18,18 +18,18 @@
       "count": 5
     },
     {
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 3
+    },
+    {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 3
+      "count": 2
     },
     {
       "code": "1128a2",
       "label": "Patient Abuse/Neglect",
-      "count": 3
-    },
-    {
-      "code": "1128b4",
-      "label": "License Revoked/Suspended",
       "count": 2
     }
   ],
@@ -94,14 +94,6 @@
   ],
   "priority_cases": [
     {
-      "name": "LEVY, ROBERT MORRIS",
-      "npi": "1235150749",
-      "score": 75.2,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2021-04-20",
-      "specialty": "PATHOLOGY"
-    },
-    {
       "name": "PARKER, L JOSEPH",
       "npi": "1174566574",
       "score": 74.0,
@@ -158,6 +150,14 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
+      "name": "LEVY, ROBERT MORRIS",
+      "npi": "1235150749",
+      "score": 60.2,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2020-12-20",
+      "specialty": "PATHOLOGY"
+    },
+    {
       "name": "ROSENSCHEIN, GUY RAOUL",
       "npi": "1114931029",
       "score": 59.0,
@@ -178,9 +178,9 @@
     {
       "name": "MAASS, ADAM J",
       "npi": "1841258738",
-      "total_usd": 772017.97,
-      "payment_count": 1629,
-      "companies": 40
+      "total_usd": 502366.83,
+      "payment_count": 1065,
+      "companies": 37
     },
     {
       "name": "CHAN, PATRICK DOORSHANG",
@@ -190,25 +190,11 @@
       "companies": 1
     },
     {
-      "name": "AHMAD, MAHMOOD nan",
-      "npi": "1831145929",
-      "total_usd": 120.25,
-      "payment_count": 1,
-      "companies": 1
-    },
-    {
-      "name": "ANTOON, PATRICK DAVID",
-      "npi": "1891090262",
-      "total_usd": 118.08,
-      "payment_count": 8,
-      "companies": 4
-    },
-    {
       "name": "PARKER, L JOSEPH",
       "npi": "1174566574",
-      "total_usd": 60.45,
-      "payment_count": 4,
-      "companies": 3
+      "total_usd": 49.5,
+      "payment_count": 3,
+      "companies": 2
     }
   ]
 }

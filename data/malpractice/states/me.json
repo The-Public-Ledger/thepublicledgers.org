@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "ME",
     "state_name": "Maine",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 11,
-    "physician_population": 6446,
-    "per_1000_physicians": 1.706,
+    "physician_population": 6545,
+    "per_1000_physicians": 1.681,
     "double_flagged": 2,
-    "industry_payments_usd": 743.7599999999999
+    "industry_payments_usd": 466.51
   },
   "exclusion_types": [
     {
@@ -127,16 +127,16 @@
     {
       "name": "NORRIS, MERIDETH C",
       "npi": "1386684868",
-      "total_usd": 467.46,
-      "payment_count": 7,
-      "companies": 6
+      "total_usd": 222.39,
+      "payment_count": 4,
+      "companies": 3
     },
     {
       "name": "LEE, NORRIS K",
       "npi": "1023188703",
-      "total_usd": 169.88,
-      "payment_count": 5,
-      "companies": 4
+      "total_usd": 137.7,
+      "payment_count": 3,
+      "companies": 3
     },
     {
       "name": "GILMORE, MICHAEL nan",

@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "NM",
     "state_name": "New Mexico",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 17,
-    "physician_population": 7148,
-    "per_1000_physicians": 2.378,
+    "excluded_count": 18,
+    "physician_population": 7220,
+    "per_1000_physicians": 2.493,
     "double_flagged": 2,
-    "industry_payments_usd": 98879.84999999999
+    "industry_payments_usd": 15585.92
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 12
+      "count": 13
     },
     {
       "code": "1128a4",
@@ -122,6 +122,14 @@
       "specialty": "NEUROLOGY"
     },
     {
+      "name": "TIERNAN, PETER KING",
+      "npi": "1902819550",
+      "score": 50.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-05-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
       "name": "ASWAD, MOHAMED BASEL",
       "npi": "1871571406",
       "score": 47.0,
@@ -144,58 +152,57 @@
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2020-02-20",
       "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "THYAGARAJ, SUJAN nan",
-      "npi": "1063611499",
-      "score": 44.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2018-01-18",
-      "specialty": "PSYCHIATRY"
     }
   ],
   "industry_payments": [
     {
       "name": "GELINAS, CLAUDE D",
       "npi": "1528034378",
-      "total_usd": 90447.26,
-      "payment_count": 5,
+      "total_usd": 8320.01,
+      "payment_count": 1,
       "companies": 1
     },
     {
       "name": "ERASMUS, MARK D",
       "npi": "1407879513",
-      "total_usd": 5910.84,
-      "payment_count": 150,
-      "companies": 33
+      "total_usd": 5481.78,
+      "payment_count": 108,
+      "companies": 29
     },
     {
       "name": "ASWAD, MOHAMED BASEL",
       "npi": "1871571406",
-      "total_usd": 1042.85,
-      "payment_count": 17,
-      "companies": 9
-    },
-    {
-      "name": "BEALE, MARK D",
-      "npi": "1164547709",
-      "total_usd": 864.45,
-      "payment_count": 45,
-      "companies": 9
+      "total_usd": 1021.88,
+      "payment_count": 13,
+      "companies": 10
     },
     {
       "name": "LEVITT, KEITH nan",
       "npi": "1922346428",
-      "total_usd": 328.89,
-      "payment_count": 13,
-      "companies": 6
+      "total_usd": 261.87,
+      "payment_count": 9,
+      "companies": 3
+    },
+    {
+      "name": "TIERNAN, PETER KING",
+      "npi": "1902819550",
+      "total_usd": 151.7,
+      "payment_count": 9,
+      "companies": 7
     },
     {
       "name": "YASIN, FARES FEHMI",
       "npi": "1255427472",
-      "total_usd": 200.17,
-      "payment_count": 17,
-      "companies": 3
+      "total_usd": 141.25,
+      "payment_count": 14,
+      "companies": 1
+    },
+    {
+      "name": "BEALE, MARK D",
+      "npi": "1164547709",
+      "total_usd": 122.04,
+      "payment_count": 4,
+      "companies": 4
     },
     {
       "name": "BRANDT, DANIEL J",

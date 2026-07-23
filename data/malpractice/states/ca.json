@@ -2,25 +2,25 @@
   "meta": {
     "state_abbr": "CA",
     "state_name": "California",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 423,
-    "physician_population": 144003,
-    "per_1000_physicians": 2.937,
-    "double_flagged": 505,
-    "industry_payments_usd": 416029.26999999967
+    "excluded_count": 425,
+    "physician_population": 146092,
+    "per_1000_physicians": 2.909,
+    "double_flagged": 509,
+    "industry_payments_usd": 567374.23
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 227
+      "count": 231
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 66
+      "count": 64
     },
     {
       "code": "1128a4",
@@ -187,22 +187,6 @@
       "specialty": "SURGERY"
     },
     {
-      "name": "STREET, WENDELL MARK",
-      "npi": "1437240314",
-      "score": 76.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2024-04-18",
-      "specialty": "PAIN MANAGEMENT"
-    },
-    {
-      "name": "PAYNE, DAVID nan",
-      "npi": "1760492193",
-      "score": 75.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2024-05-20",
-      "specialty": "ORTHOPEDICS"
-    },
-    {
       "name": "VILLARROEL, MICHAEL LOUIS",
       "npi": "1760452031",
       "score": 75.5,
@@ -235,20 +219,12 @@
       "specialty": "DERMATOLOGY"
     },
     {
-      "name": "BHANDARI, BHUPINDER N",
-      "npi": "1417068511",
-      "score": 73.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2023-06-20",
-      "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "SALERNO, EGISTO nan",
-      "npi": "1053423764",
-      "score": 71.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2021-05-20",
-      "specialty": "INTERNAL MEDICINE"
+      "name": "PAYNE, DAVID nan",
+      "npi": "1760492193",
+      "score": 72.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2024-05-20",
+      "specialty": "ORTHOPEDICS"
     },
     {
       "name": "ARONOWITZ, JOEL ALAN",
@@ -257,78 +233,102 @@
       "exclusion_label": "Fraud/Kickbacks",
       "exclusion_date": "2023-04-14",
       "specialty": "PLASTIC SURGERY"
+    },
+    {
+      "name": "CAPEN, DANIEL A",
+      "npi": "1801946496",
+      "score": 69.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2020-07-20",
+      "specialty": "ORTHOPEDICS"
+    },
+    {
+      "name": "BERKOWITZ, ARNOLD nan",
+      "npi": "1043369093",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2017-07-20",
+      "specialty": "ONCOLOGY"
+    },
+    {
+      "name": "BRYAN, WASHINGTON nan",
+      "npi": "1316073455",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2018-01-18",
+      "specialty": "PAIN MANAGEMENT"
     }
   ],
   "industry_payments": [
     {
-      "name": "BIJANPOUR, KAMAL nan",
-      "npi": "1598903858",
-      "total_usd": 41588.97,
-      "payment_count": 67,
-      "companies": 9
+      "name": "SWANSON, CRAIG ANDREW",
+      "npi": "1568534410",
+      "total_usd": 200697.75,
+      "payment_count": 35,
+      "companies": 3
+    },
+    {
+      "name": "LOEB, CHARLES ANDREW",
+      "npi": "1750878997",
+      "total_usd": 52793.81,
+      "payment_count": 59,
+      "companies": 10
     },
     {
       "name": "TEPPER, GIL nan",
       "npi": "1821147976",
-      "total_usd": 39115.62,
-      "payment_count": 15,
-      "companies": 7
+      "total_usd": 37579.76,
+      "payment_count": 6,
+      "companies": 4
     },
     {
       "name": "ROSENTHAL, DAVID N",
       "npi": "1427236744",
-      "total_usd": 36840.14,
-      "payment_count": 82,
-      "companies": 9
+      "total_usd": 35747.1,
+      "payment_count": 60,
+      "companies": 8
     },
     {
-      "name": "PRYDE, JERRY JUDD",
-      "npi": "1558479147",
-      "total_usd": 22885.0,
-      "payment_count": 1,
-      "companies": 1
-    },
-    {
-      "name": "SIAO, DONALD nan",
-      "npi": "1861415374",
-      "total_usd": 19933.08,
-      "payment_count": 1086,
-      "companies": 70
+      "name": "BIJANPOUR, KAMAL nan",
+      "npi": "1598903858",
+      "total_usd": 23492.35,
+      "payment_count": 37,
+      "companies": 8
     },
     {
       "name": "STALEY, JENNINGS RYAN",
       "npi": "1295812329",
-      "total_usd": 17381.15,
-      "payment_count": 23,
-      "companies": 5
+      "total_usd": 17168.23,
+      "payment_count": 19,
+      "companies": 4
+    },
+    {
+      "name": "SIAO, DONALD nan",
+      "npi": "1861415374",
+      "total_usd": 16484.64,
+      "payment_count": 900,
+      "companies": 62
+    },
+    {
+      "name": "THOMPSON, WILLIAM MOORE",
+      "npi": "1174588891",
+      "total_usd": 12480.74,
+      "payment_count": 635,
+      "companies": 40
     },
     {
       "name": "POSADA, JUAN ESTEBAN",
       "npi": "1265496301",
-      "total_usd": 15335.41,
-      "payment_count": 763,
-      "companies": 59
+      "total_usd": 11044.83,
+      "payment_count": 536,
+      "companies": 48
     },
     {
-      "name": "SWANSON, CRAIG ANDREW",
-      "npi": "1568534410",
-      "total_usd": 12471.74,
-      "payment_count": 11,
-      "companies": 3
-    },
-    {
-      "name": "BIRLEW, NICHOLAS RAYMOND",
-      "npi": "1821188483",
-      "total_usd": 11867.83,
-      "payment_count": 665,
-      "companies": 56
-    },
-    {
-      "name": "BHANDARI, BHUPINDER N",
-      "npi": "1417068511",
-      "total_usd": 11015.78,
-      "payment_count": 383,
-      "companies": 56
+      "name": "BARRIENTOS, DOMINGO CHUA",
+      "npi": "1184685281",
+      "total_usd": 10302.05,
+      "payment_count": 684,
+      "companies": 46
     }
   ]
 }

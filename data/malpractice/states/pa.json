@@ -2,30 +2,30 @@
   "meta": {
     "state_abbr": "PA",
     "state_name": "Pennsylvania",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 135,
-    "physician_population": 61392,
-    "per_1000_physicians": 2.199,
-    "double_flagged": 25,
-    "industry_payments_usd": 409301.9000000001
+    "excluded_count": 131,
+    "physician_population": 62462,
+    "per_1000_physicians": 2.097,
+    "double_flagged": 22,
+    "industry_payments_usd": 299439.82
   },
   "exclusion_types": [
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 55
+      "count": 53
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 34
+      "count": 36
     },
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 19
+      "count": 17
     },
     {
       "code": "1128a3",
@@ -40,7 +40,7 @@
     {
       "code": "1128b14",
       "label": "1128b14",
-      "count": 5
+      "count": 3
     },
     {
       "code": "1128b7",
@@ -75,18 +75,18 @@
       "count": 4
     },
     {
+      "from_state": "CT",
+      "from_name": "Connecticut",
+      "count": 3
+    },
+    {
       "from_state": "NC",
       "from_name": "North Carolina",
-      "count": 2
+      "count": 3
     },
     {
       "from_state": "KY",
       "from_name": "Kentucky",
-      "count": 2
-    },
-    {
-      "from_state": "CT",
-      "from_name": "Connecticut",
       "count": 2
     },
     {
@@ -114,7 +114,7 @@
     {
       "to_state": "NY",
       "to_name": "New York",
-      "count": 18
+      "count": 19
     },
     {
       "to_state": "OH",
@@ -144,7 +144,7 @@
     {
       "to_state": "MI",
       "to_name": "Michigan",
-      "count": 2
+      "count": 3
     },
     {
       "to_state": "OR",
@@ -180,12 +180,12 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "EVERS, MARTIN L",
-      "npi": "1366434110",
-      "score": 80.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2024-05-20",
-      "specialty": "INTERNAL MEDICINE"
+      "name": "MITCHELL, JOHN F",
+      "npi": "1316012347",
+      "score": 79.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-11-20",
+      "specialty": "PSYCHIATRY"
     },
     {
       "name": "OSUJI, CHUMA G",
@@ -204,6 +204,14 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
+      "name": "EVERS, MARTIN L",
+      "npi": "1366434110",
+      "score": 77.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2024-05-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
       "name": "ADIBI, JUSTIN nan",
       "npi": "1063073757",
       "score": 75.0,
@@ -220,100 +228,92 @@
       "specialty": "PEDIATRICS"
     },
     {
-      "name": "THOMPSON, VINCENT J",
-      "npi": "1174526180",
-      "score": 74.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2024-08-20",
-      "specialty": "PAIN MANAGEMENT"
-    },
-    {
-      "name": "PARSIA, KEYKHOSROW S",
-      "npi": "1043312168",
-      "score": 73.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2018-04-19",
-      "specialty": "PSYCHIATRY"
-    },
-    {
       "name": "MABRY, MYRA CUMMINGS",
       "npi": "1306070719",
       "score": 72.5,
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2021-07-20",
       "specialty": "GYN/OBS"
+    },
+    {
+      "name": "ANAND, NEIL nan",
+      "npi": "1982626818",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-05-20",
+      "specialty": "PAIN MANAGEMENT"
     }
   ],
   "industry_payments": [
     {
       "name": "DAVIS, CHRISTOPHER JACKSON",
       "npi": "1144473208",
-      "total_usd": 299129.63,
-      "payment_count": 483,
-      "companies": 10
+      "total_usd": 226097.87,
+      "payment_count": 375,
+      "companies": 12
     },
     {
       "name": "KURTZER, YITZCHOK BARRY",
       "npi": "1154321891",
-      "total_usd": 22774.3,
-      "payment_count": 1857,
-      "companies": 71
+      "total_usd": 18482.19,
+      "payment_count": 1459,
+      "companies": 65
     },
     {
       "name": "SIMONS, BERNIE M",
       "npi": "1174548499",
-      "total_usd": 19631.91,
-      "payment_count": 1095,
-      "companies": 73
+      "total_usd": 14581.41,
+      "payment_count": 830,
+      "companies": 59
     },
     {
       "name": "BIRD, LUIS nan",
       "npi": "1538222658",
-      "total_usd": 13485.16,
-      "payment_count": 665,
-      "companies": 26
-    },
-    {
-      "name": "HO, YEE CHUNG",
-      "npi": "1801853379",
-      "total_usd": 7000.27,
-      "payment_count": 97,
-      "companies": 15
-    },
-    {
-      "name": "LEE, JOHN KEUNSANG",
-      "npi": "1811187099",
-      "total_usd": 5557.31,
-      "payment_count": 484,
-      "companies": 38
+      "total_usd": 10758.03,
+      "payment_count": 530,
+      "companies": 24
     },
     {
       "name": "MORAN, KURT PAUL",
       "npi": "1831214535",
-      "total_usd": 5172.49,
-      "payment_count": 13,
-      "companies": 7
-    },
-    {
-      "name": "KOOSHKABADI, ALI nan",
-      "npi": "1306078183",
-      "total_usd": 4751.05,
-      "payment_count": 72,
-      "companies": 10
-    },
-    {
-      "name": "HARRIS, JOHN ALEXANDER",
-      "npi": "1427376821",
-      "total_usd": 4586.4,
+      "total_usd": 5055.09,
       "payment_count": 6,
-      "companies": 2
+      "companies": 4
+    },
+    {
+      "name": "LEE, JOHN KEUNSANG",
+      "npi": "1811187099",
+      "total_usd": 4113.54,
+      "payment_count": 350,
+      "companies": 30
+    },
+    {
+      "name": "HO, YEE CHUNG",
+      "npi": "1801853379",
+      "total_usd": 3866.31,
+      "payment_count": 49,
+      "companies": 9
+    },
+    {
+      "name": "VALENTINO, STEVEN JOHN",
+      "npi": "1366400798",
+      "total_usd": 2831.98,
+      "payment_count": 27,
+      "companies": 7
     },
     {
       "name": "WHALEN, THOMAS J",
       "npi": "1164587697",
-      "total_usd": 4087.06,
-      "payment_count": 351,
-      "companies": 34
+      "total_usd": 1888.33,
+      "payment_count": 159,
+      "companies": 20
+    },
+    {
+      "name": "NOTHSTEIN, GARY nan",
+      "npi": "1982647756",
+      "total_usd": 1737.57,
+      "payment_count": 98,
+      "companies": 19
     }
   ]
 }

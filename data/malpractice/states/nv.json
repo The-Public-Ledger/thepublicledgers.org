@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "NV",
     "state_name": "Nevada",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
-    "excluded_count": 28,
-    "physician_population": 9138,
-    "per_1000_physicians": 3.064,
-    "double_flagged": 9,
-    "industry_payments_usd": 16433.78
+    "excluded_count": 29,
+    "physician_population": 9288,
+    "per_1000_physicians": 3.122,
+    "double_flagged": 7,
+    "industry_payments_usd": 18656.46
   },
   "exclusion_types": [
     {
@@ -20,7 +20,7 @@
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 8
+      "count": 9
     },
     {
       "code": "1128a1",
@@ -191,74 +191,74 @@
   ],
   "industry_payments": [
     {
-      "name": "OKEKE, MATTHEW OBI",
-      "npi": "1730272709",
-      "total_usd": 5954.13,
-      "payment_count": 141,
-      "companies": 22
+      "name": "WASHINSKY, RICHARD D",
+      "npi": "1497723738",
+      "total_usd": 5957.63,
+      "payment_count": 7,
+      "companies": 6
     },
     {
       "name": "CHEN, EUGENE Y",
       "npi": "1811987845",
-      "total_usd": 4581.96,
-      "payment_count": 31,
+      "total_usd": 4705.16,
+      "payment_count": 33,
       "companies": 4
     },
     {
-      "name": "HARRIS, JAMES B",
-      "npi": "1104862366",
-      "total_usd": 2093.62,
-      "payment_count": 16,
-      "companies": 12
+      "name": "OKEKE, MATTHEW OBI",
+      "npi": "1730272709",
+      "total_usd": 4658.48,
+      "payment_count": 73,
+      "companies": 17
     },
     {
       "name": "BRUCE, VICTOR nan",
       "npi": "1134139884",
-      "total_usd": 1754.64,
-      "payment_count": 43,
-      "companies": 13
+      "total_usd": 1522.19,
+      "payment_count": 35,
+      "companies": 11
     },
     {
-      "name": "MURRAY, CONRAD ROBERT",
-      "npi": "1730137340",
-      "total_usd": 768.67,
-      "payment_count": 7,
-      "companies": 4
+      "name": "HARRIS, JAMES B",
+      "npi": "1104862366",
+      "total_usd": 945.03,
+      "payment_count": 10,
+      "companies": 8
     },
     {
       "name": "WELCH, ANDREW JACKSON",
       "npi": "1518907435",
-      "total_usd": 543.8,
-      "payment_count": 6,
-      "companies": 4
-    },
-    {
-      "name": "ARCOTTA, KAREN FRANCES",
-      "npi": "1649269986",
-      "total_usd": 264.76,
-      "payment_count": 11,
-      "companies": 7
+      "total_usd": 381.75,
+      "payment_count": 3,
+      "companies": 3
     },
     {
       "name": "BARARIA, VINAY KUNAR",
       "npi": "1679679096",
-      "total_usd": 261.13,
-      "payment_count": 6,
-      "companies": 4
+      "total_usd": 168.7,
+      "payment_count": 4,
+      "companies": 3
     },
     {
-      "name": "HOLPER, STEVEN A",
-      "npi": "1477504157",
-      "total_usd": 51.85,
+      "name": "MURRAY, CONRAD ROBERT",
+      "npi": "1730137340",
+      "total_usd": 147.82,
+      "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "ARCOTTA, KAREN FRANCES",
+      "npi": "1649269986",
+      "total_usd": 77.38,
       "payment_count": 4,
-      "companies": 2
+      "companies": 4
     },
     {
       "name": "VON FELDMANN, DIETRICH nan",
       "npi": "1346354917",
-      "total_usd": 41.9,
-      "payment_count": 2,
-      "companies": 2
+      "total_usd": 25.23,
+      "payment_count": 1,
+      "companies": 1
     }
   ]
 }

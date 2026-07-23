@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "SC",
     "state_name": "South Carolina",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 12,
-    "physician_population": 17445,
-    "per_1000_physicians": 0.688,
+    "physician_population": 17658,
+    "per_1000_physicians": 0.68,
     "double_flagged": 2,
-    "industry_payments_usd": 5693.12
+    "industry_payments_usd": 5335.2699999999995
   },
   "exclusion_types": [
     {
@@ -188,23 +188,16 @@
     {
       "name": "RODRIGUEZ, DAVID C",
       "npi": "1952399222",
-      "total_usd": 5238.21,
-      "payment_count": 331,
+      "total_usd": 5049.9,
+      "payment_count": 317,
       "companies": 46
     },
     {
       "name": "WILLIAMS, JAMES O",
       "npi": "1891854873",
-      "total_usd": 277.55,
-      "payment_count": 8,
-      "companies": 7
-    },
-    {
-      "name": "RANDOLPH, DAVID THOMAS",
-      "npi": "1629599931",
-      "total_usd": 121.83,
-      "payment_count": 1,
-      "companies": 1
+      "total_usd": 244.03,
+      "payment_count": 6,
+      "companies": 6
     },
     {
       "name": "HYNES, JOHN DEWEY",
@@ -216,9 +209,9 @@
     {
       "name": "MACAULEY, RICHARD WAYNE",
       "npi": "1992777296",
-      "total_usd": 25.63,
-      "payment_count": 2,
-      "companies": 2
+      "total_usd": 11.44,
+      "payment_count": 1,
+      "companies": 1
     }
   ]
 }

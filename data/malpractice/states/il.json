@@ -2,35 +2,35 @@
   "meta": {
     "state_abbr": "IL",
     "state_name": "Illinois",
-    "last_updated": "2026-04-26"
+    "last_updated": "2026-07-23"
   },
   "summary_stats": {
     "excluded_count": 111,
-    "physician_population": 48840,
-    "per_1000_physicians": 2.273,
-    "double_flagged": 14,
-    "industry_payments_usd": 263229.96
+    "physician_population": 49439,
+    "per_1000_physicians": 2.245,
+    "double_flagged": 11,
+    "industry_payments_usd": 172539.01
   },
   "exclusion_types": [
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 45
+      "count": 46
     },
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 29
+      "count": 28
     },
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 10
+      "count": 11
     },
     {
       "code": "1128b5",
       "label": "Federal/State Program Exclusion",
-      "count": 9
+      "count": 8
     },
     {
       "code": "1128a3",
@@ -70,6 +70,11 @@
       "count": 6
     },
     {
+      "from_state": "MN",
+      "from_name": "Minnesota",
+      "count": 3
+    },
+    {
       "from_state": "MO",
       "from_name": "Missouri",
       "count": 3
@@ -82,11 +87,6 @@
     {
       "from_state": "WI",
       "from_name": "Wisconsin",
-      "count": 2
-    },
-    {
-      "from_state": "MN",
-      "from_name": "Minnesota",
       "count": 2
     },
     {
@@ -132,11 +132,6 @@
       "count": 2
     },
     {
-      "to_state": "WI",
-      "to_name": "Wisconsin",
-      "count": 1
-    },
-    {
       "to_state": "NJ",
       "to_name": "New Jersey",
       "count": 1
@@ -159,6 +154,11 @@
     {
       "to_state": "VA",
       "to_name": "Virginia",
+      "count": 1
+    },
+    {
+      "to_state": "TX",
+      "to_name": "Texas",
       "count": 1
     }
   ],
@@ -212,6 +212,14 @@
       "specialty": "NEUROLOGY"
     },
     {
+      "name": "GALVANI, THEODORE J",
+      "npi": "1801901814",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2020-05-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
       "name": "MULTANI, SUKHWINDER S",
       "npi": "1518176601",
       "score": 68.0,
@@ -234,37 +242,22 @@
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2013-09-19",
       "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "AGUSTSSON, THORDUR SKULI",
-      "npi": "1790895977",
-      "score": 65.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2024-12-19",
-      "specialty": "INTERNAL MEDICINE"
     }
   ],
   "industry_payments": [
     {
       "name": "MAHESHWARI, HIRALAL nan",
       "npi": "1740238757",
-      "total_usd": 170365.08,
-      "payment_count": 1309,
-      "companies": 59
+      "total_usd": 86036.33,
+      "payment_count": 1028,
+      "companies": 54
     },
     {
       "name": "BROTMAN, MONIQUE nan",
       "npi": "1447395108",
-      "total_usd": 73848.66,
-      "payment_count": 175,
+      "total_usd": 73533.11,
+      "payment_count": 169,
       "companies": 28
-    },
-    {
-      "name": "SCHWAGER, VERNE ARCHIBALD",
-      "npi": "1194845131",
-      "total_usd": 4176.98,
-      "payment_count": 79,
-      "companies": 16
     },
     {
       "name": "NATALE, JOHN JOSEPH",
@@ -274,18 +267,18 @@
       "companies": 1
     },
     {
-      "name": "DIACONESCU, ELIZA nan",
-      "npi": "1881655140",
-      "total_usd": 2178.47,
-      "payment_count": 197,
-      "companies": 28
+      "name": "SCHWAGER, VERNE ARCHIBALD",
+      "npi": "1194845131",
+      "total_usd": 2273.72,
+      "payment_count": 44,
+      "companies": 12
     },
     {
-      "name": "RUDIN, ANDREW SCOTT",
-      "npi": "1255373452",
-      "total_usd": 1414.16,
-      "payment_count": 68,
-      "companies": 18
+      "name": "DIACONESCU, ELIZA nan",
+      "npi": "1881655140",
+      "total_usd": 1146.37,
+      "payment_count": 91,
+      "companies": 22
     },
     {
       "name": "MEMAR, OMEED nan",
@@ -295,24 +288,31 @@
       "companies": 2
     },
     {
-      "name": "DEMOREST, STANLEY DAVID",
-      "npi": "1982769071",
-      "total_usd": 839.1,
-      "payment_count": 42,
-      "companies": 16
+      "name": "RUDIN, ANDREW SCOTT",
+      "npi": "1255373452",
+      "total_usd": 663.65,
+      "payment_count": 36,
+      "companies": 15
     },
     {
-      "name": "JOSEPH, FRANCIS F",
-      "npi": "1790706745",
-      "total_usd": 788.99,
-      "payment_count": 48,
-      "companies": 20
+      "name": "DEMOREST, STANLEY DAVID",
+      "npi": "1982769071",
+      "total_usd": 548.55,
+      "payment_count": 28,
+      "companies": 12
     },
     {
       "name": "ANUKWU, LINUS UCHECHUKWU",
       "npi": "1144242090",
-      "total_usd": 775.31,
-      "payment_count": 32,
+      "total_usd": 509.71,
+      "payment_count": 23,
+      "companies": 10
+    },
+    {
+      "name": "RECCHIA, NICHOLAS G",
+      "npi": "1033149455",
+      "total_usd": 456.0,
+      "payment_count": 26,
       "companies": 12
     }
   ]
