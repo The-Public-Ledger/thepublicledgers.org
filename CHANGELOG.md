@@ -5,8 +5,17 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### Fixed
+- Deep-dive data explorers restored. Five pages rendered blank tables from two independent key-drift bugs: `deep_dive_slug` on nursing-home and water named the URL slug rather than the data-file key (so `index site.Data.deep_dives $slug` returned nil and the entire page body was skipped), and 13 of 26 declared explorer column keys named CSV headers that do not exist (the partial renders a missing key as an em-dash). Root cause fixed upstream in `export_hugo_deep_dives.py`; both classes now gated by `check_deep_dive_surfaces.py` in `make check`.
+- Nursing-home Hugo export refreshed to the corrected CLAIMS figures (14,700 facilities / 5,893 low-rated / $462,082,018 penalties), replacing pre-2026-06-13 registry numbers.
+
 ### Changed
+- Nursing-home explorer now shows entity-level political spending (owner LLCs, parent orgs, facilities) instead of the 775-row per-owner FEC table, which would have named individuals on an investigation with no right-of-reply outreach logged.
+- Water's low-income health-violation ratio labelled as unadjusted for water-system mix and explicitly not an under-enforcement finding, per the 2026-06-18 peer review.
 - Deep-dive page subheadings normalized to sentence case (20 headings across 7 pages), matching the `investigations/` section convention; proper nouns preserved
+
+### Deploy notes
+- **2026-08-26 — deployed with `make export-gate` red, deliberately.** The gate failed on one publication blocker: the open P0 *"Nursing Home: [owner name withheld pending right-of-reply] named without right-of-reply outreach"* (opened 2026-04-17; RoR outreach is its only remaining action). The blocker predates this change and is unaffected by it — this deploy *reduces* named exposure by removing the 775-person table from the rendered page. It does not close the P0: `/data/nursing_home_owner_fec.csv` is still served and still names Qazi and [owner name withheld pending right-of-reply]. Override authorized by the editor. Not a precedent — the gate stays authoritative.
 
 ## [v1.3.0] — 2026-03-20
 
