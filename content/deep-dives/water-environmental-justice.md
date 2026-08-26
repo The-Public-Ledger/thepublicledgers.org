@@ -5,7 +5,7 @@ date: 2026-04-14
 status: "active"
 tags: ["water", "environment", "epa", "enforcement", "environmental-justice"]
 layout: "deep-dive"
-deep_dive_slug: "water-environmental-justice"
+deep_dive_slug: "water"
 sources:
   - "EPA ECHO Enforcement and Compliance History"
   - "EPA SDWIS Safe Drinking Water Information System"

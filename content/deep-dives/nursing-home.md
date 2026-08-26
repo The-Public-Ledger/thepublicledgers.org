@@ -5,7 +5,7 @@ date: 2026-04-03
 status: "active"
 tags: ["healthcare", "nursing-homes", "campaign-finance", "ppp", "patient-safety"]
 layout: "deep-dive"
-deep_dive_slug: "nursing-home"
+deep_dive_slug: "nursing_home"
 sources:
   - "CMS Care Compare (Nursing Home Provider Info)"
   - "CMS Nursing Home Ownership Data"

@@ -116,13 +116,13 @@
       {{/* Nursing Home stats */}}
       {{ with $stats.facility_count }}
       <div class="totals-bar__item">
-        <span class="totals-bar__value">{{ . }}</span>
+        <span class="totals-bar__value">{{ lang.FormatNumber 0 . }}</span>
         <span class="totals-bar__label">nursing homes tracked</span>
       </div>
       {{ end }}
       {{ with $stats.low_rated_count }}
       <div class="totals-bar__item">
-        <span class="totals-bar__value totals-bar__value--danger">{{ . }}</span>
+        <span class="totals-bar__value totals-bar__value--danger">{{ lang.FormatNumber 0 . }}</span>
         <span class="totals-bar__label">below-average rated</span>
       </div>
       {{ end }}
@@ -193,7 +193,7 @@
       {{ with $stats.lowinc_health_disparity_ratio }}
       <div class="totals-bar__item">
         <span class="totals-bar__value">{{ printf "%.1f" . }}x</span>
-        <span class="totals-bar__label">health violation rate — low-income areas</span>
+        <span class="totals-bar__label">health violations, low-income areas — unadjusted for water-system mix; not an under-enforcement finding (<a href="/methodology/">methodology</a>)</span>
       </div>
       {{ end }}
     </div>
@@ -234,9 +234,9 @@
         "columns" (slice
           (dict "key" "facility_name" "label" "Facility" "type" "text")
           (dict "key" "state" "label" "State" "type" "text")
-          (dict "key" "total_violations" "label" "Violations" "type" "num")
+          (dict "key" "health_violations" "label" "Health Violations" "type" "num")
           (dict "key" "total_penalties" "label" "Penalties" "type" "money")
-          (dict "key" "serious_violations" "label" "Serious" "type" "num")
+          (dict "key" "sdwa_serious_violator" "label" "Serious Violator" "type" "text")
         )
         "stateField" "state"
         "countyField" ""
@@ -248,17 +248,19 @@
       {{ partial "data-explorer.html" (dict
         "id" "nh-explorer"
         "title" "Explore Nursing Home Political Spending"
-        "description" "FEC contributions by nursing home owners and executives."
-        "jsonUrl" "/data/nursing_home_owner_fec.csv"
-        "csvUrl" "/data/nursing_home_owner_fec.csv"
+        "description" "FEC contributions and PPP loans by nursing home operating entities — owner LLCs, parent organizations, and facilities. Entity-level only; per-owner figures are withheld pending right-of-reply."
+        "jsonUrl" "/data/nursing_home_political_spending.csv"
+        "csvUrl" "/data/nursing_home_political_spending.csv"
         "columns" (slice
-          (dict "key" "owner_name" "label" "Owner/Executive" "type" "text")
-          (dict "key" "state" "label" "State" "type" "text")
-          (dict "key" "role" "label" "Role" "type" "text")
-          (dict "key" "total_fec_usd" "label" "FEC Amount" "type" "money")
-          (dict "key" "facilities" "label" "Facilities" "type" "num")
+          (dict "key" "entity_name" "label" "Entity" "type" "text")
+          (dict "key" "entity_role" "label" "Role" "type" "text" "values" (dict
+            "owner_name" "Owner" "parent_org_name" "Parent org" "facility_name" "Facility"))
+          (dict "key" "states" "label" "State" "type" "text")
+          (dict "key" "facility_count" "label" "Facilities" "type" "num")
+          (dict "key" "fec_total" "label" "FEC Amount" "type" "money")
+          (dict "key" "ppp_total" "label" "PPP Loans" "type" "money")
         )
-        "stateField" "state"
+        "stateField" "states"
         "countyField" ""
         "context" ""
       ) }}
@@ -272,10 +274,10 @@
         "jsonUrl" "/data/opioid_top_recipients.csv"
         "csvUrl" "/data/opioid_top_recipients.csv"
         "columns" (slice
-          (dict "key" "recipient" "label" "Recipient" "type" "text")
+          (dict "key" "recipient_name" "label" "Recipient" "type" "text")
           (dict "key" "state" "label" "State" "type" "text")
-          (dict "key" "amount_usd" "label" "Amount" "type" "money")
-          (dict "key" "category" "label" "Category" "type" "text")
+          (dict "key" "allocation_amount" "label" "Allocation" "type" "money")
+          (dict "key" "dominant_category_bucket" "label" "Dominant Category" "type" "text")
         )
         "stateField" "state"
         "countyField" ""
@@ -287,14 +289,14 @@
       {{ partial "data-explorer.html" (dict
         "id" "power-explorer"
         "title" "Explore NY Utility Rate Data"
-        "description" "Rate increase history and cost decomposition for NY utility companies."
+        "description" "New York vs. national average residential electricity rates, 2015-2025, and New York's premium over the national average."
         "jsonUrl" "/data/power_rate_increase_history.csv"
         "csvUrl" "/data/power_rate_increase_history.csv"
         "columns" (slice
-          (dict "key" "company" "label" "Company" "type" "text")
           (dict "key" "year" "label" "Year" "type" "text")
-          (dict "key" "rate_cents" "label" "Rate (¢/kWh)" "type" "num")
-          (dict "key" "increase_pct" "label" "Increase %" "type" "num")
+          (dict "key" "ny_rate" "label" "NY Rate (¢/kWh)" "type" "num")
+          (dict "key" "us_rate" "label" "US Rate (¢/kWh)" "type" "num")
+          (dict "key" "ny_premium_pct" "label" "NY Premium %" "type" "num")
         )
         "stateField" ""
         "countyField" ""
