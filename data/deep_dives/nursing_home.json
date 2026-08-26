@@ -3,7 +3,7 @@
     "title": "Nursing Home Accountability",
     "slug": "nursing-home",
     "status": "active",
-    "last_updated": "2026-04-03",
+    "last_updated": "2026-08-25",
     "sources": [
       "CMS Care Compare (Nursing Home Provider Info)",
       "CMS Nursing Home Ownership Data",
@@ -13,22 +13,22 @@
     ]
   },
   "key_stats": {
-    "facility_count": 14710,
+    "facility_count": 14700,
     "state_count": 53,
-    "low_rated_count": 6006,
-    "total_penalties_usd": 480096127.0,
+    "low_rated_count": 5893,
+    "total_penalties_usd": 462082018.0,
     "fec_total_usd": 44812.0,
     "ppp_total_usd": 649982.0,
-    "owner_linked_count": 14087,
-    "penalized_count": 6798,
-    "owner_fec_matched": 770,
-    "owner_fec_total_usd": 12467989.0
+    "owner_linked_count": 14062,
+    "penalized_count": 6628,
+    "owner_fec_matched": 775,
+    "owner_fec_total_usd": 12509417.0
   },
   "top_findings": [
-    "Registry covers 14,710 nursing home facilities across 53 states",
-    "6006 facilities rated 1\u20132 stars (CMS overall rating) \u2014 indicating below-average quality",
-    "$480.1M in total CMS penalties assessed against registered facilities",
-    "770 nursing home owners matched by name to FEC individual contributions \u2014 $12.5M in high-confidence federal donations (2017\u20132024)",
+    "Registry covers 14,700 nursing home facilities across 53 states",
+    "5,893 facilities rated 1\u20132 stars (CMS overall rating) \u2014 indicating below-average quality",
+    "$462.1M in total CMS penalties assessed against registered facilities",
+    "775 nursing home owners matched by name to FEC individual contributions \u2014 $12.5M in high-confidence federal donations (2017\u20132024)",
     "Nursing home entities received $650K in PPP loans \u2014 with $658K forgiven"
   ],
   "top_penalties": [
