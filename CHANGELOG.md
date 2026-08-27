@@ -15,7 +15,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
 - Deep-dive page subheadings normalized to sentence case (20 headings across 7 pages), matching the `investigations/` section convention; proper nouns preserved
 
 ### Deploy notes
-- **2026-08-26 — deployed with `make export-gate` red, deliberately.** The gate failed on one publication blocker: the open P0 *"Nursing Home: [owner name withheld pending right-of-reply] named without right-of-reply outreach"* (opened 2026-04-17; RoR outreach is its only remaining action). The blocker predates this change and is unaffected by it — this deploy *reduces* named exposure by removing the 775-person table from the rendered page. It does not close the P0: `/data/nursing_home_owner_fec.csv` is still served and still names Qazi and [owner name withheld pending right-of-reply]. Override authorized by the editor. Not a precedent — the gate stays authoritative.
+- **2026-08-26 — deployed with `make export-gate` red, deliberately.** The gate failed on one publication blocker: an open P0 covering a named nursing-home owner awaiting right-of-reply outreach (opened 2026-04-17; that outreach is its only remaining action). The blocker predates this change and is unaffected by it — this deploy *reduces* named exposure by removing the 775-person table from the rendered page. It did not close the P0: the underlying owner-FEC CSV was still served at that point and still named individuals. Override authorized by the editor. Not a precedent — the gate stays authoritative.
 
 ## [v1.3.0] — 2026-03-20
 
