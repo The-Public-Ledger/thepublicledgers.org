@@ -28,7 +28,7 @@ Over the same period that rates climbed 42%, utilities paid out **$36.8 billion 
 
 The utility sector spent **$75.7 million lobbying** the Public Service Commission between 2015 and 2024. Of that, $62.9 million — 87.7% — targeted rate-related proceedings directly.
 
-Meanwhile, **46 energy sector entities** donated $8.32 million to state campaigns across 8,465 individual contributions. Governor-level donations alone totaled $659,000.
+Meanwhile, **44 energy sector entities** donated $8.13 million to state campaigns across 8,397 individual contributions. Governor-level donations alone totaled $659,000.
 
 ## The regulatory pipeline
 

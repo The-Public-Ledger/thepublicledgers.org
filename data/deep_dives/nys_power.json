@@ -3,19 +3,19 @@
     "title": "NYS Power: Regulatory Capture",
     "slug": "nys-power",
     "status": "complete",
-    "last_updated": "2026-03-23",
+    "last_updated": "2026-09-06",
     "sources": ["NYSBOE", "FEC", "COELIG/JCOPE", "EIA", "FERC", "SEC", "PSC", "Census", "ProPublica 990"]
   },
   "key_stats": {
-    "ny_rate_cents_per_kwh": 26.49,
+    "ny_rate_cents_per_kwh": 25.19,
     "us_rate_cents_per_kwh": 16.83,
     "premium_pct": 49.7,
     "clean_energy_share_of_increases_pct": 4.7,
     "clean_energy_dollars": 187000000,
     "total_rate_increase_dollars": 4000000000,
-    "campaign_contributions_usd": 8320000,
-    "campaign_contributions_entities": 46,
-    "campaign_contributions_donations": 8465,
+    "campaign_contributions_usd": 8130000,
+    "campaign_contributions_entities": 44,
+    "campaign_contributions_donations": 8397,
     "governor_donations_usd": 659000,
     "lobbying_total_usd": 75700000,
     "lobbying_rate_related_usd": 62900000,
@@ -33,9 +33,7 @@
     "nonprofit_officer_comp_usd": 47800000,
     "nonprofit_orgs": 19,
     "psc_commissioners_from_clean_energy": 4,
-    "psc_total_commissioners": 7,
-    "fec_total_usd": 32200000,
-    "fec_donations": 194964
+    "psc_total_commissioners": 7
   },
   "top_findings": [
     "New York electricity rates are 49.7% above the national average (EIA 2024: 25.19¢ vs 16.83¢/kWh)",
@@ -43,7 +41,7 @@
     "Utilities spent $75.7M lobbying the PSC, 87.7% on rate-related proceedings",
     "$36.8B in shareholder dividends paid 2015–2024 — 5.3× the clean energy surcharge",
     "4 of 7 PSC commissioners came from clean energy organizations",
-    "Energy sector donated $8.32M to state campaigns across 46 entities",
+    "Energy sector donated $8.13M to state campaigns across 44 entities",
     "CEO compensation grew 64% while rates grew 42% (2015–2024)",
     "Consumer complaints surged 84% (2019–2024); billing complaints +120%"
   ],
