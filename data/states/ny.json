@@ -2,7 +2,7 @@
   "meta": {
     "state": "NY",
     "state_name": "New York",
-    "last_updated": "2026-07-17",
+    "last_updated": "2026-09-06",
     "sources": [
       "NYSBOE",
       "NYABO",
@@ -224,6 +224,15 @@
       "num_awards": 0
     },
     {
+      "name": "Clarence",
+      "slug": "clarence",
+      "score": 61.12,
+      "total_exemptions_usd": 8023895.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 51,
+      "num_awards": 0
+    },
+    {
       "name": "Schenectady (City)",
       "slug": "schenectady-city",
       "score": 60.44,
@@ -239,6 +248,24 @@
       "total_exemptions_usd": 6782666.0,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 4,
+      "num_awards": 0
+    },
+    {
+      "name": "Concord",
+      "slug": "concord",
+      "score": 59.13,
+      "total_exemptions_usd": 146915.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 4,
+      "num_awards": 0
+    },
+    {
+      "name": "Erie",
+      "slug": "erie",
+      "score": 58.79,
+      "total_exemptions_usd": 213786203.27,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 237,
       "num_awards": 0
     },
     {
@@ -293,6 +320,15 @@
       "total_exemptions_usd": 47277285.63,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 32,
+      "num_awards": 0
+    },
+    {
+      "name": "Lancaster",
+      "slug": "lancaster",
+      "score": 57.09,
+      "total_exemptions_usd": 24887118.69,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 65,
       "num_awards": 0
     },
     {
@@ -548,6 +584,15 @@
       "num_awards": 0
     },
     {
+      "name": "Hamburg",
+      "slug": "hamburg",
+      "score": 49.22,
+      "total_exemptions_usd": 29350575.68,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 66,
+      "num_awards": 0
+    },
+    {
       "name": "Syracuse",
       "slug": "syracuse",
       "score": 48.69,
@@ -797,6 +842,15 @@
       "total_exemptions_usd": 8515034.51,
       "cost_per_household_usd": 0.0,
       "total_beneficiaries": 7,
+      "num_awards": 0
+    },
+    {
+      "name": "Amherst",
+      "slug": "amherst",
+      "score": 34.61,
+      "total_exemptions_usd": 64683619.0,
+      "cost_per_household_usd": 0.0,
+      "total_beneficiaries": 98,
       "num_awards": 0
     },
     {

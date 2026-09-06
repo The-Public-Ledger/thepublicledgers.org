@@ -5,6 +5,9 @@ Format follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### Changed
+- Erie County, NY and its five town IDA dashboards (Amherst, Clarence, Concord, Hamburg, Lancaster) restored as uniform pipeline output with an inline candidacy disclosure (withheld 2026-06-09 → 2026-09-06). Data regenerated 2026-09-06 — same underlying figures as the 2026-06-13 export; Erie rows re-added to the New York state county list. The Erie-specific investigation article and the Erie call-outs on the IDA overview remain withheld under the researcher's candidacy recusal; see the root project `CLAUDE.md` 2026-09-06 amendment.
+
 ### Fixed
 - Deep-dive data explorers restored. Five pages rendered blank tables from two independent key-drift bugs: `deep_dive_slug` on nursing-home and water named the URL slug rather than the data-file key (so `index site.Data.deep_dives $slug` returned nil and the entire page body was skipped), and 13 of 26 declared explorer column keys named CSV headers that do not exist (the partial renders a missing key as an em-dash). Root cause fixed upstream in `export_hugo_deep_dives.py`; both classes now gated by `check_deep_dive_surfaces.py` in `make check`.
 - Nursing-home Hugo export refreshed to the corrected CLAIMS figures (14,700 facilities / 5,893 low-rated / $462,082,018 penalties), replacing pre-2026-06-13 registry numbers.
