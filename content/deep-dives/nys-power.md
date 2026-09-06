@@ -30,6 +30,8 @@ The utility sector spent **$75.7 million lobbying** the Public Service Commissio
 
 Meanwhile, **44 energy sector entities** donated $8.13 million to state campaigns across 8,397 individual contributions. Governor-level donations alone totaled $659,000.
 
+At the federal level, **148,680 contributions totaling $18.55 million** (2020, 2022, and 2024 cycles) were made by individuals whose FEC-reported employer matches a New York utility or energy company. This is individual giving aggregated by employer — not corporate or PAC money — and the match is on the employer field donors report themselves; the $16.1 million matched on exact or word-overlap employer names is the more conservative figure.
+
 ## The regulatory pipeline
 
 The PSC — the body that approves rate increases — has a structural conflict problem. Its chair previously led KeySpan Energy, now National Grid. Four of seven current commissioners came directly from clean energy advocacy organizations: EDF ($247M budget), NRDC ($193M), IREC ($7.4M), and the state DEC.

@@ -33,7 +33,11 @@
     "nonprofit_officer_comp_usd": 47800000,
     "nonprofit_orgs": 19,
     "psc_commissioners_from_clean_energy": 4,
-    "psc_total_commissioners": 7
+    "psc_total_commissioners": 7,
+    "fec_total_usd": 18546773,
+    "fec_donations": 148680,
+    "fec_unique_donors": 8708,
+    "fec_committees": 1077
   },
   "top_findings": [
     "New York electricity rates are 49.7% above the national average (EIA 2024: 25.19¢ vs 16.83¢/kWh)",
