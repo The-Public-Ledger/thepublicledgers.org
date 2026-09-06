@@ -3,3 +3,12 @@ resources/
 .hugo_build.lock
 .DS_Store
 .claude/
+
+# Explorer "download" copies written by scripts/export/export_entity_hub_explorer.py
+# copy_data_csvs() (33–92 MB each). Nothing in layouts/ links them and they 404 live;
+# canonical copies live in the main repo's scripts/outputs/. Un-ignore deliberately
+# if a download link is ever added. entity_hub.csv is the pre-2026-04-30 name.
+static/data/federal_spending_fy2024.csv
+static/data/whd_enforcement.csv
+static/data/nih_grants_by_org.csv
+static/data/entity_hub.csv
