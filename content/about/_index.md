@@ -33,7 +33,7 @@ We are building a small team. If you are a data journalist, investigative report
 
 ## Disclosure
 
-Zach Beaudoin is a candidate for Erie County Legislature, District 11. The Public Ledger operates independently of any campaign. Editorial decisions are not influenced by campaign activity, and no campaign funds are used to support this project. The research and data analysis that form the basis of this work predate the campaign.
+Zach Beaudoin was a candidate for Erie County Legislature, District 11, in the November 2026 election, did not win, and holds no public office. The Public Ledger operated independently of that campaign. Editorial decisions were not influenced by campaign activity, and no campaign funds were used to support this project. The research and data analysis that form the basis of this work predate the campaign.
 
 Any investigation where Erie County governance is a subject will carry a prominent disclosure at the top of the piece. See our [Ethics & Conflict of Interest Policy](/ethics/) for full details.
 

@@ -17,7 +17,7 @@ When our analysis identifies a pattern involving a named individual or organizat
 
 The Public Ledgers is editorially independent. No funder, sponsor, advertiser, or political entity has influence over what we publish or how we present it.
 
-**Conflict of interest disclosure:** The editor and founder, Zach Beaudoin, is a candidate for Erie County Legislature, District 11. This candidacy is disclosed on the About page and in any article where Erie County governance is a subject. The research and data analysis that form the basis of this project predate the campaign.
+**Conflict of interest disclosure:** The editor and founder, Zach Beaudoin, was a candidate for Erie County Legislature, District 11, in the November 2026 election, did not win, and holds no public office. This candidacy and its result are disclosed on the About page and in any article where Erie County governance is a subject. The research and data analysis that form the basis of this project predate the campaign.
 
 ## Byline disclosure
 

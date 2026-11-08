@@ -50,9 +50,9 @@ When a conflict of interest is identified, the editor will take one of the follo
 
 The following conflicts of interest are currently active and disclosed:
 
-### Editor candidacy
+### Editor candidacy (concluded November 2026)
 
-Zach Beaudoin is a candidate for Erie County Legislature, District 11. Any investigation where Erie County governance is a direct subject carries a prominent disclosure. The research and data analysis that form the basis of this project predate the campaign. No editorial decisions are made to benefit any campaign.
+Zach Beaudoin was a candidate for Erie County Legislature, District 11, in the November 2026 election, did not win, and holds no public office. Any investigation where Erie County governance is a direct subject carries a prominent disclosure of that candidacy and its result. The campaign-period recusal on Erie County reporting ended on 2026-11-08; reporting that names individuals is published only after right-of-reply outreach. The research and data analysis that form the basis of this project predate the campaign. No editorial decisions were made to benefit any campaign.
 
 ### Referred investigations
 

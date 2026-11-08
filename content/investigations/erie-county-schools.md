@@ -15,8 +15,8 @@ tags: ["erie-county", "new-york", "ida", "schools", "property-tax"]
 
 **Removed pending conflict-of-interest review (2026-06-09).**
 
-The researcher behind The Public Ledger is a candidate for Erie County Legislator, District 11 (November 2026). This page covered Erie County subjects inside the campaign-recusal scope and has been taken down for the duration of the campaign to avoid any appearance that investigative reporting is being used as campaign material.
+The researcher behind The Public Ledger was a candidate for Erie County Legislator, District 11, in the November 2026 election, and did not win. This page covered Erie County subjects inside the campaign-recusal scope and was taken down for the duration of the campaign to avoid any appearance that investigative reporting was being used as campaign material. The campaign-period recusal ended on 2026-11-08.
 
-The underlying public-records analysis is preserved in the project's internal audit trail and will be re-reviewed — including right-of-reply outreach to all named subjects — after the election resolves (~December 2026).
+The page stays down until the underlying public-records analysis, preserved in the project's internal audit trail, has been re-reviewed, including right-of-reply outreach to every named subject.
 
 Editorial standards: [/standards/](/standards/). Contact: editor@thepublicledgers.org.
