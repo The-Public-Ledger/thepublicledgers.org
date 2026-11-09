@@ -14,7 +14,7 @@
   "top_state_by_gap": "AZ",
   "top_violator": "ARDAGH GLASS INC",
   "poc_penalty_disparity_ratio": 2.18,
-  "poc_health_disparity_ratio": 0.63,
+  "poc_health_disparity_ratio_retracted": "0.63 removed 2026-11-09; retracted 2026-06-22 as a cross-source over-merge artifact (CLAIMS row 49)",
   "lowinc_health_disparity_ratio": 0.86,
   "lowinc_q1_facility_count": 30180,
   "lowinc_health_disparity_ratio_q2q5": 0.82

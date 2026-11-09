@@ -33,14 +33,21 @@ median despite above-average violation rates.
 Census demographic data overlaid on EPA facility and violation records documents
 environmental justice disparities:
 
-- **Income is the dominant predictor of environmental health violations.** County-level
-  regression (N=2,963, state fixed effects) shows low-income communities have significantly
-  more detected health violations per facility (β=0.031, p<0.001). This finding is stable
-  across five robustness specifications.
-- Higher-POC communities show a descriptive 2.2x penalty ratio, but this likely reflects
-  larger industrial facilities in those areas. When controlling for income, POC predicts
-  **fewer** detected health violations and **higher** penalties — the opposite of the
-  under-enforcement hypothesis. The enforcement-gap model is null for both race and income.
+- **Income, not race, is the defensible predictor of drinking-water health violations.**
+  A county-level model restricted to public water systems (N=2,993 counties, state fixed
+  effects, rural control) finds a higher health-violation rate per water system in
+  lower-income counties (β=0.0146, p=0.032). The estimate is exploratory — no pre-registered
+  analysis plan — and was re-estimated on 2026-06-22 after an independent peer review.
+- Higher-POC communities show a descriptive 2.2x penalty ratio, which likely reflects
+  larger industrial facilities in those areas. Once income is controlled, race does not
+  predict health violations (null, p=0.26). The enforcement-gap model is null for both race
+  and income.
+- **Correction (2026-06-22).** An earlier version of this page reported that high-POC
+  communities had *fewer* detected health violations (0.63x) and presented this as evidence
+  against the under-enforcement hypothesis. That result was an artifact of attaching
+  water-system violations to geocoded industrial facilities, which cannot incur them; it has
+  been retracted. Restricted to water systems, the descriptive gradient runs the other way
+  (1.38x, Q1→Q5), with the magnitude indicative only.
 
 ## Polluter political spending
 

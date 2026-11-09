@@ -3,7 +3,7 @@
     "title": "Nursing Home Accountability",
     "slug": "nursing-home",
     "status": "active",
-    "last_updated": "2026-08-25",
+    "last_updated": "2026-11-09",
     "sources": [
       "CMS Care Compare (Nursing Home Provider Info)",
       "CMS Nursing Home Ownership Data",
@@ -21,14 +21,14 @@
     "ppp_total_usd": 649982.0,
     "owner_linked_count": 14062,
     "penalized_count": 6628,
-    "owner_fec_matched": 775,
-    "owner_fec_total_usd": 12509417.0
+    "owner_fec_matched": 704,
+    "owner_fec_total_usd": 13190299.0
   },
   "top_findings": [
     "Registry covers 14,700 nursing home facilities across 53 states",
     "5,893 facilities rated 1\u20132 stars (CMS overall rating) \u2014 indicating below-average quality",
     "$462.1M in total CMS penalties assessed against registered facilities",
-    "775 nursing home owners matched by name to FEC individual contributions \u2014 $12.5M in high-confidence federal donations (2017\u20132024)",
+    "704 nursing home owners (publishable PRIMARY tier) matched by name to FEC individual contributions \u2014 $13.19M in federal donations across the 2019\u20132024 cycles (re-derived 2026-08-03; supersedes the 775 / $12.5M figure published 2026-03-29)",
     "Nursing home entities received $650K in PPP loans \u2014 with $658K forgiven"
   ],
   "_withheld": "top_owner_fec_donors / top_penalties / top_fec removed 2026-08-26: named natural persons beside adverse data with no right-of-reply sent (open P0). Gate: scripts/infra/check_named_person_publication.py"

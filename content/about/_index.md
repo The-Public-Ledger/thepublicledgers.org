@@ -48,7 +48,7 @@ The Public Ledger launched in early 2026. Our current scope:
 - **3,285+ published pages** including state dashboards, county-level scorecards, and data explorers
 - **All methodology documented** and reproducible from public sources
 
-Investigations range from national scope (50-state IDA subsidy tracking, 14,710 nursing home facilities) to deep local accountability (NYC charter school landlord networks, NYS police union PAC disbursements).
+Investigations range from national scope (50-state IDA subsidy tracking, 14,700 nursing home facilities) to deep local accountability (NYC charter school landlord networks, NYS police union PAC disbursements).
 
 ---
 

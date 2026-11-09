@@ -1,6 +1,6 @@
 ---
 title: "Nursing Home Accountability"
-description: "Registry covers 14,710 nursing home facilities across 53 states"
+description: "Registry covers 14,700 nursing home facilities across 53 states"
 date: 2026-04-03
 status: "active"
 tags: ["healthcare", "nursing-homes", "campaign-finance", "ppp", "patient-safety"]
