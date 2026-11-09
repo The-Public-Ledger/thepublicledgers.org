@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "MD",
     "state_name": "Maryland",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 55,
-    "physician_population": 27859,
-    "per_1000_physicians": 1.974,
+    "excluded_count": 56,
+    "physician_population": 27882,
+    "per_1000_physicians": 2.008,
     "double_flagged": 10,
-    "industry_payments_usd": 189172.59
+    "industry_payments_usd": 193782.37
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 36
+      "count": 37
     },
     {
       "code": "1128a4",
@@ -30,12 +30,12 @@
     {
       "code": "1128a2",
       "label": "Patient Abuse/Neglect",
-      "count": 3
+      "count": 4
     },
     {
       "code": "1128b7",
       "label": "Fraud/Kickbacks",
-      "count": 2
+      "count": 1
     },
     {
       "code": "1128a3",
@@ -147,12 +147,33 @@
       "count": 1
     },
     {
+      "to_state": "CT",
+      "to_name": "Connecticut",
+      "count": 1
+    },
+    {
       "to_state": "IL",
       "to_name": "Illinois",
       "count": 1
     }
   ],
   "priority_cases": [
+    {
+      "name": "TORRES, ERNESTO C",
+      "npi": "1699758185",
+      "score": 82.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2023-06-20",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "BRAY, THOMAS H",
+      "npi": "1659339679",
+      "score": 76.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2014-01-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
     {
       "name": "YEROKUN, OLUWATOBI nan",
       "npi": "1922398114",
@@ -162,12 +183,20 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "BRAY, THOMAS H",
-      "npi": "1659339679",
-      "score": 72.2,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2014-01-20",
-      "specialty": "ANESTHESIOLOGY"
+      "name": "MALIK, ISHTIAQ A",
+      "npi": "1750320412",
+      "score": 70.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2026-01-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "RUDMAN, MICHAEL STEPHEN",
+      "npi": "1508861568",
+      "score": 67.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2007-08-20",
+      "specialty": "GYN/OBS"
     },
     {
       "name": "GAMEZ, WILFREDO nan",
@@ -208,30 +237,6 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2015-03-19",
       "specialty": "GYN/OBS"
-    },
-    {
-      "name": "MCLAREN, MARTIN ROOSEVELT",
-      "npi": "1134243173",
-      "score": 62.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2009-12-20",
-      "specialty": "ANESTHESIOLOGY"
-    },
-    {
-      "name": "TORRES, ERNESTO C",
-      "npi": "1699758185",
-      "score": 62.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2023-06-20",
-      "specialty": "PEDIATRICS"
-    },
-    {
-      "name": "MAROOF, ANISSA MIRZA",
-      "npi": "1447418918",
-      "score": 59.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2025-11-20",
-      "specialty": "PSYCHIATRY"
     }
   ],
   "industry_payments": [
@@ -248,6 +253,13 @@
       "total_usd": 84693.6,
       "payment_count": 201,
       "companies": 19
+    },
+    {
+      "name": "ROBERSON, JAMES CURTIS",
+      "npi": "1003918558",
+      "total_usd": 4609.78,
+      "payment_count": 157,
+      "companies": 18
     },
     {
       "name": "SMITH, STEPHEN R",
@@ -297,13 +309,6 @@
       "total_usd": 623.49,
       "payment_count": 30,
       "companies": 3
-    },
-    {
-      "name": "HANLEY, ROBERT S",
-      "npi": "1306965793",
-      "total_usd": 482.94,
-      "payment_count": 11,
-      "companies": 6
     }
   ]
 }

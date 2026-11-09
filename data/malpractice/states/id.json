@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "ID",
     "state_name": "Idaho",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 7,
-    "physician_population": 4951,
-    "per_1000_physicians": 1.414,
+    "physician_population": 4998,
+    "per_1000_physicians": 1.401,
     "double_flagged": 0,
-    "industry_payments_usd": 207.33
+    "industry_payments_usd": 207.33000000000004
   },
   "exclusion_types": [
     {
@@ -75,6 +75,22 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
+      "name": "APPLEBAUM, MICHAEL J",
+      "npi": "1861431967",
+      "score": 67.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2012-06-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "DAHLIN, JAN OLOF",
+      "npi": "1306834643",
+      "score": 61.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2008-12-18",
+      "specialty": "ORTHOPEDICS"
+    },
+    {
       "name": "WILLS, ALEX BRENT",
       "npi": "1649597055",
       "score": 60.0,
@@ -93,26 +109,10 @@
     {
       "name": "BUTLER, MARK nan",
       "npi": "1831107341",
-      "score": 50.0,
+      "score": 47.0,
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2024-10-20",
       "specialty": "INTERNAL MEDICINE"
-    },
-    {
-      "name": "APPLEBAUM, MICHAEL J",
-      "npi": "1861431967",
-      "score": 47.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2012-06-20",
-      "specialty": "PSYCHIATRY"
-    },
-    {
-      "name": "DAHLIN, JAN OLOF",
-      "npi": "1306834643",
-      "score": 41.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2008-12-18",
-      "specialty": "ORTHOPEDICS"
     }
   ],
   "industry_payments": [

@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "MN",
     "state_name": "Minnesota",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 8,
-    "physician_population": 24190,
-    "per_1000_physicians": 0.331,
-    "double_flagged": 1,
-    "industry_payments_usd": 115.91000000000001
+    "physician_population": 24285,
+    "per_1000_physicians": 0.329,
+    "double_flagged": 0,
+    "industry_payments_usd": 115.91
   },
   "exclusion_types": [
     {
@@ -118,20 +118,20 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
+      "name": "BEALL, JOHN A",
+      "npi": "1053373753",
+      "score": 61.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2008-12-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
       "name": "WASEMILLER, JAMES P",
       "npi": "1619995420",
       "score": 56.0,
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2013-01-20",
       "specialty": "SURGERY"
-    },
-    {
-      "name": "BEALL, JOHN A",
-      "npi": "1053373753",
-      "score": 41.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2008-12-18",
-      "specialty": "FAMILY PRACTICE"
     },
     {
       "name": "COOK, RENEE nan",

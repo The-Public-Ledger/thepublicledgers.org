@@ -2,25 +2,25 @@
   "meta": {
     "state_abbr": "OH",
     "state_name": "Ohio",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 120,
-    "physician_population": 48965,
-    "per_1000_physicians": 2.451,
-    "double_flagged": 13,
-    "industry_payments_usd": 513072.34
+    "excluded_count": 127,
+    "physician_population": 48972,
+    "per_1000_physicians": 2.593,
+    "double_flagged": 18,
+    "industry_payments_usd": 513652.69000000006
   },
   "exclusion_types": [
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 43
+      "count": 46
     },
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 36
+      "count": 40
     },
     {
       "code": "1128a4",
@@ -55,19 +55,24 @@
   ],
   "migrants_in": [
     {
+      "from_state": "KY",
+      "from_name": "Kentucky",
+      "count": 9
+    },
+    {
       "from_state": "PA",
       "from_name": "Pennsylvania",
       "count": 9
     },
     {
-      "from_state": "KY",
-      "from_name": "Kentucky",
+      "from_state": "WV",
+      "from_name": "West Virginia",
       "count": 8
     },
     {
-      "from_state": "WV",
-      "from_name": "West Virginia",
-      "count": 7
+      "from_state": "AZ",
+      "from_name": "Arizona",
+      "count": 3
     },
     {
       "from_state": "FL",
@@ -77,11 +82,6 @@
     {
       "from_state": "AL",
       "from_name": "Alabama",
-      "count": 2
-    },
-    {
-      "from_state": "AZ",
-      "from_name": "Arizona",
       "count": 2
     },
     {
@@ -117,8 +117,18 @@
       "count": 4
     },
     {
+      "to_state": "FL",
+      "to_name": "Florida",
+      "count": 2
+    },
+    {
       "to_state": "WV",
       "to_name": "West Virginia",
+      "count": 2
+    },
+    {
+      "to_state": "CA",
+      "to_name": "California",
       "count": 2
     },
     {
@@ -145,26 +155,32 @@
       "to_state": "PA",
       "to_name": "Pennsylvania",
       "count": 1
-    },
-    {
-      "to_state": "FL",
-      "to_name": "Florida",
-      "count": 1
-    },
-    {
-      "to_state": "SC",
-      "to_name": "South Carolina",
-      "count": 1
     }
   ],
   "priority_cases": [
     {
-      "name": "GETACHEW, ESKENDER nan",
-      "npi": "1033177571",
-      "score": 74.0,
+      "name": "FRANTZ, GARY JAMES",
+      "npi": "1073510855",
+      "score": 91.0,
       "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2024-10-20",
+      "exclusion_date": "2022-11-20",
       "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "YAKHMI, RAJIV nan",
+      "npi": "1841276292",
+      "score": 82.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2012-03-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "BLANKENBURG, ROBERT SCOTT",
+      "npi": "1093787343",
+      "score": 76.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2012-01-19",
+      "specialty": "PEDIATRICS"
     },
     {
       "name": "HEINEY, JAKE P",
@@ -183,11 +199,35 @@
       "specialty": "RHEUMATOLOGY"
     },
     {
-      "name": "FRANTZ, GARY JAMES",
-      "npi": "1073510855",
+      "name": "PALOSKI, WILLIAM GEORGE",
+      "npi": "1992798086",
+      "score": 73.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2017-10-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "SINGH, ANKITA nan",
+      "npi": "1265870935",
+      "score": 73.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-09-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "BALGO, TROY WAYNE",
+      "npi": "1104921949",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-09-20",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "GETACHEW, ESKENDER nan",
+      "npi": "1033177571",
       "score": 71.0,
       "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2022-11-20",
+      "exclusion_date": "2024-10-20",
       "specialty": "FAMILY PRACTICE"
     },
     {
@@ -197,46 +237,6 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2026-01-20",
       "specialty": "ANESTHESIOLOGY"
-    },
-    {
-      "name": "MUKHDOMI, GULAM nan",
-      "npi": "1184653214",
-      "score": 71.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2026-01-20",
-      "specialty": "PAIN MANAGEMENT"
-    },
-    {
-      "name": "ROSENFIELD, JONATHAN nan",
-      "npi": "1851655625",
-      "score": 71.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2024-05-20",
-      "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "GRONBECK, DONALD ALEXANDER",
-      "npi": "1235366709",
-      "score": 70.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2025-12-18",
-      "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "KOOSHKABADI, ALI nan",
-      "npi": "1306078183",
-      "score": 70.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2024-11-20",
-      "specialty": "NEUROLOGY"
-    },
-    {
-      "name": "PAOLONE, VINCENT nan",
-      "npi": "1619069739",
-      "score": 70.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2025-11-20",
-      "specialty": "GENERAL PRACTICE"
     }
   ],
   "industry_payments": [

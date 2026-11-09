@@ -2,30 +2,30 @@
   "meta": {
     "state_abbr": "KY",
     "state_name": "Kentucky",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 62,
-    "physician_population": 15275,
-    "per_1000_physicians": 4.059,
-    "double_flagged": 7,
-    "industry_payments_usd": 50685.619999999995
+    "physician_population": 15282,
+    "per_1000_physicians": 4.057,
+    "double_flagged": 9,
+    "industry_payments_usd": 48002.15000000001
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 26
+      "count": 25
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
+      "count": 16
     },
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
       "count": 16
-    },
-    {
-      "code": "1128a1",
-      "label": "Program-Related Crime",
-      "count": 15
     },
     {
       "code": "1128a2",
@@ -104,7 +104,7 @@
     {
       "to_state": "OH",
       "to_name": "Ohio",
-      "count": 8
+      "count": 9
     },
     {
       "to_state": "IL",
@@ -173,14 +173,6 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "COMPTON, CRYSTAL KAY",
-      "npi": "1053505479",
-      "score": 74.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2024-08-20",
-      "specialty": "INTERNAL MEDICINE"
-    },
-    {
       "name": "JOSHI, ASHU TOSH",
       "npi": "1659370369",
       "score": 72.0,
@@ -189,20 +181,12 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "AKERS, SCOTT R",
-      "npi": "1487738720",
+      "name": "COMPTON, CRYSTAL KAY",
+      "npi": "1053505479",
       "score": 71.0,
       "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2021-08-19",
-      "specialty": "PAIN MANAGEMENT"
-    },
-    {
-      "name": "CASTLE, JASON RH",
-      "npi": "1497910111",
-      "score": 71.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2021-08-19",
-      "specialty": "FAMILY PRACTICE"
+      "exclusion_date": "2024-08-20",
+      "specialty": "INTERNAL MEDICINE"
     },
     {
       "name": "SIEFERT, W L GREGORY",
@@ -227,6 +211,22 @@
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2018-05-20",
       "specialty": "EMERGENCY MEDICINE"
+    },
+    {
+      "name": "AKANDE, EZEKIEL nan",
+      "npi": "1003859885",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2022-02-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "AKERS, SCOTT R",
+      "npi": "1487738720",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-08-19",
+      "specialty": "PAIN MANAGEMENT"
     }
   ],
   "industry_payments": [
@@ -250,13 +250,6 @@
       "total_usd": 9100.16,
       "payment_count": 18,
       "companies": 10
-    },
-    {
-      "name": "HARDISON, BARRY G",
-      "npi": "1225039258",
-      "total_usd": 2891.61,
-      "payment_count": 13,
-      "companies": 6
     },
     {
       "name": "GAINEY, MICHAEL S",
@@ -292,6 +285,13 @@
       "total_usd": 365.89,
       "payment_count": 24,
       "companies": 11
+    },
+    {
+      "name": "ALZADON, JOSE nan",
+      "npi": "1366612459",
+      "total_usd": 208.14,
+      "payment_count": 6,
+      "companies": 3
     },
     {
       "name": "STRAUSS, JON M",

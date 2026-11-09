@@ -2,25 +2,25 @@
   "meta": {
     "state_abbr": "OK",
     "state_name": "Oklahoma",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 27,
-    "physician_population": 11763,
-    "per_1000_physicians": 2.295,
-    "double_flagged": 1,
+    "physician_population": 11823,
+    "per_1000_physicians": 2.284,
+    "double_flagged": 2,
     "industry_payments_usd": 3091757.4299999997
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 9
+      "count": 10
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 7
+      "count": 6
     },
     {
       "code": "1128a4",

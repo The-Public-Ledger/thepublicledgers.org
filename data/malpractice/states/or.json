@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "OR",
     "state_name": "Oregon",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 37,
-    "physician_population": 17667,
-    "per_1000_physicians": 2.094,
-    "double_flagged": 7,
-    "industry_payments_usd": 85405.92
+    "excluded_count": 39,
+    "physician_population": 17794,
+    "per_1000_physicians": 2.192,
+    "double_flagged": 8,
+    "industry_payments_usd": 85661.99999999999
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 31
+      "count": 33
     },
     {
       "code": "1128a4",
@@ -77,14 +77,14 @@
   ],
   "migrants_out": [
     {
-      "to_state": "CA",
-      "to_name": "California",
+      "to_state": "WA",
+      "to_name": "Washington",
       "count": 4
     },
     {
-      "to_state": "WA",
-      "to_name": "Washington",
-      "count": 3
+      "to_state": "CA",
+      "to_name": "California",
+      "count": 4
     },
     {
       "to_state": "MD",
@@ -114,6 +114,14 @@
   ],
   "priority_cases": [
     {
+      "name": "ABBASSIAN, SORAYA ANN",
+      "npi": "1225029184",
+      "score": 91.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2014-04-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
       "name": "FETTMAN, MARK S",
       "npi": "1043201981",
       "score": 79.0,
@@ -122,12 +130,12 @@
       "specialty": "PSYCHIATRY"
     },
     {
-      "name": "ABBASSIAN, SORAYA ANN",
-      "npi": "1225029184",
-      "score": 71.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2014-04-20",
-      "specialty": "INTERNAL MEDICINE"
+      "name": "THOMAS, HAROLD nan",
+      "npi": "1639173339",
+      "score": 70.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2015-07-20",
+      "specialty": "EMERGENCY MEDICINE"
     },
     {
       "name": "MOMAH, DENNIS S",
@@ -136,22 +144,6 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2017-01-19",
       "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "APAU, RICHARD K",
-      "npi": "1326114943",
-      "score": 65.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2024-10-20",
-      "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "GOLDBERG, CHARLES BARRY",
-      "npi": "1336107200",
-      "score": 65.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2024-10-20",
-      "specialty": "FAMILY PRACTICE"
     },
     {
       "name": "HARDER, ROBERT JACK",
@@ -184,6 +176,14 @@
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2025-02-20",
       "specialty": "ORTHOPEDICS"
+    },
+    {
+      "name": "APAU, RICHARD K",
+      "npi": "1326114943",
+      "score": 62.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2024-10-20",
+      "specialty": "GENERAL PRACTICE"
     },
     {
       "name": "FARLEY, DAVID B",

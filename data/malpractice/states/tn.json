@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "TN",
     "state_name": "Tennessee",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 77,
-    "physician_population": 23707,
-    "per_1000_physicians": 3.248,
-    "double_flagged": 7,
-    "industry_payments_usd": 27439.36
+    "excluded_count": 79,
+    "physician_population": 23717,
+    "per_1000_physicians": 3.331,
+    "double_flagged": 9,
+    "industry_payments_usd": 27461.609999999997
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 27
+      "count": 29
     },
     {
       "code": "1128a4",
@@ -152,6 +152,22 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
+      "name": "KNOX, GEORGE P",
+      "npi": "1740250661",
+      "score": 76.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2010-07-20",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
+      "name": "DUBE, MICHAEL N",
+      "npi": "1932185121",
+      "score": 71.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2012-07-19",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
       "name": "BALLARD, THOMAS KELLY",
       "npi": "1932300761",
       "score": 71.0,
@@ -166,14 +182,6 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2023-05-18",
       "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "FARMER, RICHARD G",
-      "npi": "1679623375",
-      "score": 71.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2021-08-19",
-      "specialty": "PSYCHIATRY"
     },
     {
       "name": "MACCARONE, JAMES J",
@@ -192,22 +200,6 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "NOEL, TAMEKA LACHELLE",
-      "npi": "1194017947",
-      "score": 71.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2021-06-17",
-      "specialty": "ANESTHESIOLOGY"
-    },
-    {
-      "name": "ORUSA, SAMSON KANLA",
-      "npi": "1346388568",
-      "score": 71.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2024-06-20",
-      "specialty": "PAIN MANAGEMENT"
-    },
-    {
       "name": "STANTON, JOHN L",
       "npi": "1245233063",
       "score": 71.0,
@@ -222,6 +214,14 @@
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2017-03-20",
       "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "FARMER, RICHARD G",
+      "npi": "1679623375",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-08-19",
+      "specialty": "PSYCHIATRY"
     }
   ],
   "industry_payments": [

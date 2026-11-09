@@ -2,29 +2,34 @@
   "meta": {
     "state_abbr": "AK",
     "state_name": "Alaska",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 4,
-    "physician_population": 2654,
-    "per_1000_physicians": 1.507,
+    "excluded_count": 5,
+    "physician_population": 2666,
+    "per_1000_physicians": 1.875,
     "double_flagged": 0,
-    "industry_payments_usd": 685.3000000000001
+    "industry_payments_usd": 1398.7700000000002
   },
   "exclusion_types": [
     {
-      "code": "1128a4",
-      "label": "Felony Controlled Substance",
-      "count": 2
-    },
-    {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 1
+      "count": 2
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
+      "count": 1
+    },
+    {
+      "code": "1128a4",
+      "label": "Felony Controlled Substance",
+      "count": 1
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
       "count": 1
     }
   ],
@@ -43,6 +48,11 @@
       "from_state": "NY",
       "from_name": "New York",
       "count": 1
+    },
+    {
+      "from_state": "CA",
+      "from_name": "California",
+      "count": 1
     }
   ],
   "migrants_out": [
@@ -53,6 +63,14 @@
     }
   ],
   "priority_cases": [
+    {
+      "name": "TAN, CLARIBEL K",
+      "npi": "1649249483",
+      "score": 75.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2026-07-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
     {
       "name": "CARLSON, RAY LYNN",
       "npi": "1114077468",
@@ -80,13 +98,20 @@
     {
       "name": "DAVIDHIZAR, LAVERN R",
       "npi": "1154334381",
-      "score": 59.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2024-10-20",
-      "specialty": "GENERAL PRACTICE"
+      "score": 44.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2021-09-20",
+      "specialty": "FAMILY PRACTICE"
     }
   ],
   "industry_payments": [
+    {
+      "name": "TAN, CLARIBEL K",
+      "npi": "1649249483",
+      "total_usd": 713.47,
+      "payment_count": 29,
+      "companies": 9
+    },
     {
       "name": "DAVIDHIZAR, LAVERN R",
       "npi": "1154334381",

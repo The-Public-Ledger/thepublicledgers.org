@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "MS",
     "state_name": "Mississippi",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 16,
-    "physician_population": 7820,
-    "per_1000_physicians": 2.046,
-    "double_flagged": 4,
-    "industry_payments_usd": 4346.929999999999
+    "physician_population": 7868,
+    "per_1000_physicians": 2.034,
+    "double_flagged": 3,
+    "industry_payments_usd": 4346.93
   },
   "exclusion_types": [
     {

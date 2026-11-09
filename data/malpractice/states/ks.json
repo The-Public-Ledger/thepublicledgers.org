@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "KS",
     "state_name": "Kansas",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 8,
-    "physician_population": 8946,
-    "per_1000_physicians": 0.894,
+    "physician_population": 9072,
+    "per_1000_physicians": 0.882,
     "double_flagged": 1,
-    "industry_payments_usd": 177512.77
+    "industry_payments_usd": 183928.56999999998
   },
   "exclusion_types": [
     {
@@ -59,7 +59,7 @@
     {
       "to_state": "MO",
       "to_name": "Missouri",
-      "count": 5
+      "count": 6
     },
     {
       "to_state": "NE",
@@ -91,7 +91,7 @@
     {
       "name": "SIMONS, LAWRENCE M",
       "npi": "1811961709",
-      "score": 81.2,
+      "score": 85.0,
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2010-09-20",
       "specialty": "ANESTHESIOLOGY"
@@ -107,10 +107,18 @@
     {
       "name": "SCHUSTER, MICHAEL PAUL",
       "npi": "1649207853",
-      "score": 68.0,
+      "score": 65.0,
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2016-07-20",
       "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "DICKIE, JAMES D",
+      "npi": "1174510549",
+      "score": 64.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2017-03-20",
+      "specialty": "GENERAL PRACTICE"
     },
     {
       "name": "BEJAR, JOSE MARIA",
@@ -123,18 +131,10 @@
     {
       "name": "SIMON, STEVEN M",
       "npi": "1821058827",
-      "score": 53.0,
+      "score": 50.0,
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2021-10-20",
       "specialty": "PAIN MANAGEMENT"
-    },
-    {
-      "name": "DICKIE, JAMES D",
-      "npi": "1174510549",
-      "score": 49.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2017-03-20",
-      "specialty": "GENERAL PRACTICE"
     },
     {
       "name": "COLEMAN, ROBERT JOHN",
@@ -160,6 +160,13 @@
       "total_usd": 177435.03,
       "payment_count": 6,
       "companies": 3
+    },
+    {
+      "name": "AALBERS, BRIAN MICHAEL",
+      "npi": "1740584747",
+      "total_usd": 6415.8,
+      "payment_count": 154,
+      "companies": 44
     },
     {
       "name": "SCHUSTER, MICHAEL PAUL",

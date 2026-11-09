@@ -2,34 +2,34 @@
   "meta": {
     "state_abbr": "WA",
     "state_name": "Washington",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 52,
-    "physician_population": 29949,
-    "per_1000_physicians": 1.736,
+    "excluded_count": 55,
+    "physician_population": 30076,
+    "per_1000_physicians": 1.829,
     "double_flagged": 15,
-    "industry_payments_usd": 90001.67
+    "industry_payments_usd": 97865.00999999998
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 32
+      "count": 33
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
+      "count": 6
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
       "count": 5
     },
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 4
-    },
-    {
-      "code": "1128a2",
-      "label": "Patient Abuse/Neglect",
       "count": 4
     },
     {
@@ -62,7 +62,7 @@
     {
       "from_state": "OR",
       "from_name": "Oregon",
-      "count": 3
+      "count": 4
     },
     {
       "from_state": "CA",
@@ -179,9 +179,33 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
+      "name": "HAEGER, ERIC E",
+      "npi": "1366404592",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-08-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "DILLER, JOHN LEWIS",
+      "npi": "1437226511",
+      "score": 70.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2014-04-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "HILL, JOSIAH D",
+      "npi": "1881125433",
+      "score": 70.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2026-09-20",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
       "name": "BJARKE, CHRIS B",
       "npi": "1730237348",
-      "score": 71.0,
+      "score": 68.0,
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2024-08-20",
       "specialty": "FAMILY PRACTICE"
@@ -192,30 +216,6 @@
       "score": 68.0,
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2017-01-19",
-      "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "WALKER, BRIAN nan",
-      "npi": "1427006246",
-      "score": 66.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2011-08-18",
-      "specialty": "PSYCHIATRY"
-    },
-    {
-      "name": "LANEY, THOMAS JOACHIM",
-      "npi": "1295943595",
-      "score": 66.2,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2024-12-19",
-      "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "CANDIDO, CAMILLO nan",
-      "npi": "1306308283",
-      "score": 65.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2024-09-19",
       "specialty": "FAMILY PRACTICE"
     }
   ],
@@ -242,6 +242,13 @@
       "companies": 10
     },
     {
+      "name": "STENEKER, SJARDO L",
+      "npi": "1346444296",
+      "total_usd": 6533.86,
+      "payment_count": 276,
+      "companies": 30
+    },
+    {
       "name": "JUTLA, RAJNI K",
       "npi": "1467564484",
       "total_usd": 4680.64,
@@ -254,6 +261,13 @@
       "total_usd": 1954.67,
       "payment_count": 90,
       "companies": 19
+    },
+    {
+      "name": "HAEGER, ERIC E",
+      "npi": "1366404592",
+      "total_usd": 1295.93,
+      "payment_count": 46,
+      "companies": 7
     },
     {
       "name": "STOCKIN, MICHAEL DAVID",
@@ -275,20 +289,6 @@
       "total_usd": 780.48,
       "payment_count": 10,
       "companies": 3
-    },
-    {
-      "name": "THORN, THOMAS A",
-      "npi": "1942248109",
-      "total_usd": 640.0,
-      "payment_count": 2,
-      "companies": 1
-    },
-    {
-      "name": "MEDANI, IGNATIUS C",
-      "npi": "1295831659",
-      "total_usd": 592.4,
-      "payment_count": 29,
-      "companies": 14
     }
   ]
 }

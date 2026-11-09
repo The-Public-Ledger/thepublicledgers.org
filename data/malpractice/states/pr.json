@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "PR",
     "state_name": "Puerto Rico",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 51,
-    "physician_population": 12523,
-    "per_1000_physicians": 4.073,
+    "physician_population": 12564,
+    "per_1000_physicians": 4.059,
     "double_flagged": 2,
-    "industry_payments_usd": 9825.61
+    "industry_payments_usd": 9825.610000000002
   },
   "exclusion_types": [
     {
@@ -78,6 +78,22 @@
   "migrants_out": [],
   "priority_cases": [
     {
+      "name": "PACHECO, RAYSA R",
+      "npi": "1518912682",
+      "score": 86.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2013-06-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "SANTIAGO, LUIS ANTONIO",
+      "npi": "1699746933",
+      "score": 83.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2015-10-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
       "name": "REYES, HARRY O",
       "npi": "1245266105",
       "score": 82.8,
@@ -86,73 +102,57 @@
       "specialty": "EMERGENCY MEDICINE"
     },
     {
-      "name": "DE JESUS, JORGE R",
-      "npi": "1194721431",
-      "score": 71.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2025-03-20",
-      "specialty": "PSYCHIATRY"
-    },
-    {
-      "name": "MADRID GUZMAN, ALFONSO ALBERTO",
-      "npi": "1225188766",
-      "score": 69.5,
+      "name": "PIETRI SEPULVEDA, RICHARD nan",
+      "npi": "1811966591",
+      "score": 74.5,
       "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2016-07-20",
-      "specialty": "PSYCHIATRY"
-    },
-    {
-      "name": "MELENDEZ ORTIZ, FELIX nan",
-      "npi": "1356404909",
-      "score": 69.2,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2023-08-20",
-      "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "TIRADO, GUILLERMO J",
-      "npi": "1629087473",
-      "score": 68.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2019-09-19",
+      "exclusion_date": "2019-03-20",
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "CASTILLO, MARCIAL nan",
-      "npi": "1124170048",
-      "score": 66.5,
+      "name": "RODRIGUEZ NAVARRO, RAYMOND nan",
+      "npi": "1184691461",
+      "score": 74.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2019-03-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "AYALA, WANDA W",
+      "npi": "1710937651",
+      "score": 71.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2012-09-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "DEL AMO, FERNANDO M",
+      "npi": "1770570194",
+      "score": 71.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2012-09-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "ESCOBAR, SAMUEL nan",
+      "npi": "1538143136",
+      "score": 71.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2013-04-18",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "MERCEDES DE PEA, EUSEBIO nan",
+      "npi": "1659318681",
+      "score": 71.5,
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2012-11-20",
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "FAURA CLAVELL, LUIS ENRIQUE",
-      "npi": "1649317298",
-      "score": 66.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2015-08-20",
-      "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "CASTRO CRUZ, JULIO nan",
-      "npi": "1720285810",
-      "score": 66.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2014-03-20",
-      "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "PACHECO, RAYSA R",
-      "npi": "1518912682",
-      "score": 66.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2013-06-20",
-      "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "VALLEJO, GLADYS nan",
-      "npi": "1598844581",
-      "score": 66.5,
+      "name": "VEGA, VIVIAN E",
+      "npi": "1821043084",
+      "score": 71.5,
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2012-09-20",
       "specialty": "GENERAL PRACTICE"

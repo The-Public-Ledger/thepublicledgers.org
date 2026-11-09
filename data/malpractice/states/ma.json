@@ -2,25 +2,25 @@
   "meta": {
     "state_abbr": "MA",
     "state_name": "Massachusetts",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 49,
-    "physician_population": 42936,
-    "per_1000_physicians": 1.141,
-    "double_flagged": 7,
-    "industry_payments_usd": 108126.37
+    "excluded_count": 51,
+    "physician_population": 42972,
+    "per_1000_physicians": 1.187,
+    "double_flagged": 8,
+    "industry_payments_usd": 108291.20999999998
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 26
+      "count": 28
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 10
+      "count": 11
     },
     {
       "code": "1128a4",
@@ -38,11 +38,6 @@
       "count": 3
     },
     {
-      "code": "1128b5",
-      "label": "Federal/State Program Exclusion",
-      "count": 1
-    },
-    {
       "code": "1128b14",
       "label": "1128b14",
       "count": 1
@@ -52,7 +47,7 @@
     {
       "from_state": "FL",
       "from_name": "Florida",
-      "count": 2
+      "count": 3
     },
     {
       "from_state": "NY",
@@ -146,7 +141,7 @@
     {
       "name": "REUBEN, SCOTT nan",
       "npi": "1992796015",
-      "score": 82.8,
+      "score": 86.5,
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2011-07-20",
       "specialty": "ANESTHESIOLOGY"
@@ -158,6 +153,14 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2025-05-20",
       "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "KINRYS, GUSTAVO D",
+      "npi": "1023076676",
+      "score": 76.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-06-19",
+      "specialty": "PSYCHIATRY"
     },
     {
       "name": "AWAISI, MUHAMMAD S",
@@ -176,6 +179,14 @@
       "specialty": "PSYCHIATRY"
     },
     {
+      "name": "PERLMAN, BERNARD H",
+      "npi": "1477579456",
+      "score": 75.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-08-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
       "name": "CARACENI, LESLIE C",
       "npi": "1295829521",
       "score": 71.0,
@@ -192,28 +203,12 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
-      "name": "WILKING, SPENCER VANB",
-      "npi": "1205818358",
-      "score": 66.2,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2016-06-20",
-      "specialty": "INTERNAL MEDICINE"
-    },
-    {
-      "name": "CLINTON, DAVID L",
-      "npi": "1306951645",
-      "score": 65.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2024-07-18",
-      "specialty": "INTERNAL MEDICINE"
-    },
-    {
-      "name": "JAWORSKI, MAVIS WEBSTER",
-      "npi": "1154483931",
-      "score": 65.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2024-09-19",
-      "specialty": "FAMILY PRACTICE"
+      "name": "PORTER, KATHALEEN A",
+      "npi": "1093706517",
+      "score": 70.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2014-01-20",
+      "specialty": "SURGERY"
     },
     {
       "name": "OCH, MOHAMAD R",
@@ -275,6 +270,13 @@
       "companies": 3
     },
     {
+      "name": "DERKEVORKIAN, NAZARET nan",
+      "npi": "1467441253",
+      "total_usd": 133.54,
+      "payment_count": 2,
+      "companies": 2
+    },
+    {
       "name": "COOPER, MARCUS P",
       "npi": "1588622989",
       "total_usd": 102.78,
@@ -286,13 +288,6 @@
       "npi": "1023076676",
       "total_usd": 40.06,
       "payment_count": 2,
-      "companies": 1
-    },
-    {
-      "name": "OLADIPO, OLAREWAJU JAMES",
-      "npi": "1841350386",
-      "total_usd": 30.75,
-      "payment_count": 1,
       "companies": 1
     }
   ]

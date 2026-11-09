@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "IN",
     "state_name": "Indiana",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 36,
-    "physician_population": 21763,
-    "per_1000_physicians": 1.654,
-    "double_flagged": 6,
-    "industry_payments_usd": 11332.19
+    "excluded_count": 37,
+    "physician_population": 21958,
+    "per_1000_physicians": 1.685,
+    "double_flagged": 7,
+    "industry_payments_usd": 11347.85
   },
   "exclusion_types": [
     {
@@ -18,14 +18,14 @@
       "count": 15
     },
     {
-      "code": "1128b4",
-      "label": "License Revoked/Suspended",
+      "code": "1128a1",
+      "label": "Program-Related Crime",
       "count": 9
     },
     {
-      "code": "1128a1",
-      "label": "Program-Related Crime",
-      "count": 8
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
+      "count": 9
     },
     {
       "code": "1128a2",
@@ -37,7 +37,7 @@
     {
       "from_state": "IL",
       "from_name": "Illinois",
-      "count": 4
+      "count": 5
     },
     {
       "from_state": "KY",
@@ -45,13 +45,13 @@
       "count": 2
     },
     {
-      "from_state": "CO",
-      "from_name": "Colorado",
+      "from_state": "TX",
+      "from_name": "Texas",
       "count": 1
     },
     {
-      "from_state": "WI",
-      "from_name": "Wisconsin",
+      "from_state": "CO",
+      "from_name": "Colorado",
       "count": 1
     },
     {
@@ -123,9 +123,17 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
+      "name": "CATALDI, BETHANY nan",
+      "npi": "1205890886",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-07-20",
+      "specialty": "PLASTIC SURGERY"
+    },
+    {
       "name": "CAMPBELL, JEFFREY ALAN",
       "npi": "1518063585",
-      "score": 71.0,
+      "score": 68.0,
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2024-07-18",
       "specialty": "FAMILY PRACTICE"
@@ -169,14 +177,6 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2013-04-18",
       "specialty": "ANESTHESIOLOGY"
-    },
-    {
-      "name": "HENDERSON, JACQUELINE nan",
-      "npi": "1366482358",
-      "score": 59.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2016-06-20",
-      "specialty": "EMERGENCY MEDICINE"
     }
   ],
   "industry_payments": [

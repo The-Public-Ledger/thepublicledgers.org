@@ -2,12 +2,12 @@
   "meta": {
     "state_abbr": "HI",
     "state_name": "Hawaii",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 6,
-    "physician_population": 5984,
-    "per_1000_physicians": 1.003,
+    "physician_population": 5986,
+    "per_1000_physicians": 1.002,
     "double_flagged": 0,
     "industry_payments_usd": 497.45000000000005
   },
@@ -59,19 +59,19 @@
   ],
   "priority_cases": [
     {
+      "name": "KAIWI, PAUL ADAM",
+      "npi": "1730123365",
+      "score": 91.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-06-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
       "name": "OLEARY, CORNELIUS JOSEPH",
       "npi": "1871707513",
       "score": 81.0,
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2025-06-19",
-      "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "KAIWI, PAUL ADAM",
-      "npi": "1730123365",
-      "score": 71.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2023-06-20",
       "specialty": "GENERAL PRACTICE"
     },
     {
@@ -83,19 +83,19 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "YANG, SUNG S",
-      "npi": "1043470370",
-      "score": 53.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2021-08-19",
-      "specialty": "INTERNAL MEDICINE"
-    },
-    {
       "name": "LIPETZ, MARK DAVID",
       "npi": "1306919956",
       "score": 50.0,
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2020-07-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "YANG, SUNG S",
+      "npi": "1043470370",
+      "score": 50.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2021-08-19",
       "specialty": "INTERNAL MEDICINE"
     },
     {

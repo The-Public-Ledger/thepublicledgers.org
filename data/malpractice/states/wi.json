@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "WI",
     "state_name": "Wisconsin",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 25,
-    "physician_population": 22996,
-    "per_1000_physicians": 1.087,
-    "double_flagged": 2,
-    "industry_payments_usd": 6097.0599999999995
+    "excluded_count": 26,
+    "physician_population": 23165,
+    "per_1000_physicians": 1.122,
+    "double_flagged": 3,
+    "industry_payments_usd": 6174.85
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 16
+      "count": 17
     },
     {
       "code": "1128a4",
@@ -67,11 +67,6 @@
       "count": 1
     },
     {
-      "to_state": "IN",
-      "to_name": "Indiana",
-      "count": 1
-    },
-    {
       "to_state": "MD",
       "to_name": "Maryland",
       "count": 1
@@ -83,6 +78,14 @@
     }
   ],
   "priority_cases": [
+    {
+      "name": "SAUNDERS, EVAN KEITH",
+      "npi": "1669421152",
+      "score": 76.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2013-06-20",
+      "specialty": "SURGERY"
+    },
     {
       "name": "POTERUCHA, JOSEPH THOMAS",
       "npi": "1154559060",
@@ -140,14 +143,6 @@
       "specialty": "PSYCHIATRY"
     },
     {
-      "name": "SAUNDERS, EVAN KEITH",
-      "npi": "1669421152",
-      "score": 56.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2013-06-20",
-      "specialty": "SURGERY"
-    },
-    {
       "name": "ORTIZ, JOSE A",
       "npi": "1811964158",
       "score": 55.0,
@@ -156,12 +151,12 @@
       "specialty": "ORTHOPEDICS"
     },
     {
-      "name": "WHITE, CULLY R",
-      "npi": "1013093178",
-      "score": 54.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2016-08-18",
-      "specialty": "NEUROLOGY"
+      "name": "KOTSONIS, STEVEN MATHER",
+      "npi": "1306017991",
+      "score": 53.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-02-18",
+      "specialty": "GENERAL PRACTICE"
     }
   ],
   "industry_payments": [
@@ -205,6 +200,13 @@
       "npi": "1558466359",
       "total_usd": 115.67,
       "payment_count": 1,
+      "companies": 1
+    },
+    {
+      "name": "KANITZ, DAN D",
+      "npi": "1710961065",
+      "total_usd": 77.79,
+      "payment_count": 4,
       "companies": 1
     },
     {

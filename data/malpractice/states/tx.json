@@ -2,40 +2,40 @@
   "meta": {
     "state_abbr": "TX",
     "state_name": "Texas",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 186,
-    "physician_population": 89439,
-    "per_1000_physicians": 2.08,
+    "excluded_count": 193,
+    "physician_population": 89696,
+    "per_1000_physicians": 2.152,
     "double_flagged": 29,
-    "industry_payments_usd": 833893.99
+    "industry_payments_usd": 839336.5900000002
   },
   "exclusion_types": [
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 83
+      "count": 85
     },
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 36
+      "count": 41
     },
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 28
+      "count": 29
     },
     {
       "code": "1128a3",
       "label": "Felony Healthcare Fraud",
-      "count": 18
+      "count": 19
     },
     {
       "code": "1128a2",
       "label": "Patient Abuse/Neglect",
-      "count": 6
+      "count": 5
     },
     {
       "code": "1128b14",
@@ -55,7 +55,7 @@
     {
       "code": "BRCH SA",
       "label": "BRCH SA",
-      "count": 2
+      "count": 1
     },
     {
       "code": "1128b1",
@@ -77,7 +77,7 @@
     {
       "from_state": "LA",
       "from_name": "Louisiana",
-      "count": 9
+      "count": 10
     },
     {
       "from_state": "AL",
@@ -88,6 +88,16 @@
       "from_state": "NC",
       "from_name": "North Carolina",
       "count": 3
+    },
+    {
+      "from_state": "NM",
+      "from_name": "New Mexico",
+      "count": 2
+    },
+    {
+      "from_state": "AZ",
+      "from_name": "Arizona",
+      "count": 2
     },
     {
       "from_state": "AR",
@@ -113,16 +123,6 @@
       "from_state": "FL",
       "from_name": "Florida",
       "count": 1
-    },
-    {
-      "from_state": "NJ",
-      "from_name": "New Jersey",
-      "count": 1
-    },
-    {
-      "from_state": "MN",
-      "from_name": "Minnesota",
-      "count": 1
     }
   ],
   "migrants_out": [
@@ -142,13 +142,28 @@
       "count": 3
     },
     {
+      "to_state": "NM",
+      "to_name": "New Mexico",
+      "count": 2
+    },
+    {
       "to_state": "VA",
       "to_name": "Virginia",
       "count": 2
     },
     {
+      "to_state": "NY",
+      "to_name": "New York",
+      "count": 2
+    },
+    {
       "to_state": "IL",
       "to_name": "Illinois",
+      "count": 2
+    },
+    {
+      "to_state": "CO",
+      "to_name": "Colorado",
       "count": 2
     },
     {
@@ -159,21 +174,6 @@
     {
       "to_state": "CT",
       "to_name": "Connecticut",
-      "count": 1
-    },
-    {
-      "to_state": "VT",
-      "to_name": "Vermont",
-      "count": 1
-    },
-    {
-      "to_state": "WY",
-      "to_name": "Wyoming",
-      "count": 1
-    },
-    {
-      "to_state": "KY",
-      "to_name": "Kentucky",
       "count": 1
     }
   ],
@@ -187,12 +187,12 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
-      "name": "ORTIZ, RAYNALDO RIVERA",
-      "npi": "1467549873",
-      "score": 82.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2025-06-19",
-      "specialty": "ANESTHESIOLOGY"
+      "name": "ANWAR, FATEN nan",
+      "npi": "1417928656",
+      "score": 76.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2011-04-20",
+      "specialty": "PATHOLOGY"
     },
     {
       "name": "DOLAN, ROBERT T",
@@ -209,6 +209,14 @@
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2025-05-20",
       "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "TABA, MICHAEL M",
+      "npi": "1720024029",
+      "score": 75.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2026-07-20",
+      "specialty": "ORTHOPEDICS"
     },
     {
       "name": "FISCHER, CHARLES H",
@@ -235,28 +243,20 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "HENRY, SHAWN MARK",
-      "npi": "1518901222",
-      "score": 72.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2021-09-20",
-      "specialty": "SURGERY"
-    },
-    {
-      "name": "RIMLAWI, MICHAEL BASSEM",
-      "npi": "1851367692",
-      "score": 72.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2021-09-20",
-      "specialty": "SURGERY"
-    },
-    {
       "name": "RODONAIA, GRIGORIY TSOTNEEVICH",
       "npi": "1023210317",
       "score": 72.5,
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2022-04-20",
       "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "MALAVE, ERNESTO nan",
+      "npi": "1609985852",
+      "score": 72.2,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-08-20",
+      "specialty": "FAMILY PRACTICE"
     }
   ],
   "industry_payments": [

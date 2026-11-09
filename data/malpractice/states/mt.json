@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "MT",
     "state_name": "Montana",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 9,
-    "physician_population": 3783,
-    "per_1000_physicians": 2.379,
-    "double_flagged": 2,
-    "industry_payments_usd": 35402.01
+    "physician_population": 3794,
+    "per_1000_physicians": 2.372,
+    "double_flagged": 3,
+    "industry_payments_usd": 35402.009999999995
   },
   "exclusion_types": [
     {
@@ -33,8 +33,8 @@
       "count": 1
     },
     {
-      "code": "1128a4",
-      "label": "Felony Controlled Substance",
+      "code": "1128b7",
+      "label": "Fraud/Kickbacks",
       "count": 1
     }
   ],
@@ -106,9 +106,9 @@
     {
       "name": "PICKENS, CORY nan",
       "npi": "1033186697",
-      "score": 50.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2011-09-20",
+      "score": 47.0,
+      "exclusion_label": "Fraud/Kickbacks",
+      "exclusion_date": "2017-09-05",
       "specialty": "ANESTHESIOLOGY"
     },
     {

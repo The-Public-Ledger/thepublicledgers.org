@@ -2,12 +2,12 @@
   "meta": {
     "state_abbr": "ME",
     "state_name": "Maine",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 11,
-    "physician_population": 6545,
-    "per_1000_physicians": 1.681,
+    "physician_population": 6581,
+    "per_1000_physicians": 1.671,
     "double_flagged": 2,
     "industry_payments_usd": 466.51
   },
@@ -45,7 +45,7 @@
     {
       "name": "LEE, NORRIS K",
       "npi": "1023188703",
-      "score": 65.0,
+      "score": 62.0,
       "exclusion_label": "Patient Abuse/Neglect",
       "exclusion_date": "2024-09-19",
       "specialty": "OTORHINOLARYNGOLOGY"

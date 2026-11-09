@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "SC",
     "state_name": "South Carolina",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 12,
-    "physician_population": 17658,
-    "per_1000_physicians": 0.68,
+    "physician_population": 17860,
+    "per_1000_physicians": 0.672,
     "double_flagged": 2,
-    "industry_payments_usd": 5335.2699999999995
+    "industry_payments_usd": 5335.269999999999
   },
   "exclusion_types": [
     {
@@ -77,6 +77,11 @@
       "count": 1
     },
     {
+      "to_state": "WV",
+      "to_name": "West Virginia",
+      "count": 1
+    },
+    {
       "to_state": "MI",
       "to_name": "Michigan",
       "count": 1
@@ -106,7 +111,7 @@
     {
       "name": "RANDOLPH, DAVID THOMAS",
       "npi": "1629599931",
-      "score": 85.0,
+      "score": 82.0,
       "exclusion_label": "Patient Abuse/Neglect",
       "exclusion_date": "2024-09-19",
       "specialty": "PEDIATRICS"
@@ -146,7 +151,7 @@
     {
       "name": "SAMAAN, MARK nan",
       "npi": "1154550622",
-      "score": 65.0,
+      "score": 62.0,
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2024-08-20",
       "specialty": "FAMILY PRACTICE"
@@ -168,20 +173,20 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
+      "name": "FOWLER, JIMMY DEAN",
+      "npi": "1871572495",
+      "score": 58.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2007-01-18",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
       "name": "BURLING, JOHN N",
       "npi": "1649292079",
       "score": 57.5,
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2022-05-19",
       "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "WILSON, BEVERLEY DELORIS",
-      "npi": "1013079870",
-      "score": 54.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2011-02-20",
-      "specialty": "PEDIATRICS"
     }
   ],
   "industry_payments": [

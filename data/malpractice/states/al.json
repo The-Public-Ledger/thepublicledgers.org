@@ -2,25 +2,25 @@
   "meta": {
     "state_abbr": "AL",
     "state_name": "Alabama",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 57,
-    "physician_population": 14947,
-    "per_1000_physicians": 3.813,
-    "double_flagged": 5,
-    "industry_payments_usd": 33481.71
+    "excluded_count": 59,
+    "physician_population": 14963,
+    "per_1000_physicians": 3.943,
+    "double_flagged": 9,
+    "industry_payments_usd": 35413.22000000001
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 25
+      "count": 30
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 13
+      "count": 12
     },
     {
       "code": "1128a4",
@@ -30,17 +30,17 @@
     {
       "code": "1128a3",
       "label": "Felony Healthcare Fraud",
-      "count": 3
-    },
-    {
-      "code": "1128a2",
-      "label": "Patient Abuse/Neglect",
       "count": 2
     },
     {
       "code": "1128b3",
       "label": "1128b3",
       "count": 2
+    },
+    {
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
+      "count": 1
     },
     {
       "code": "1156",
@@ -70,14 +70,14 @@
       "count": 4
     },
     {
-      "from_state": "AR",
-      "from_name": "Arkansas",
-      "count": 3
-    },
-    {
       "from_state": "LA",
       "from_name": "Louisiana",
       "count": 3
+    },
+    {
+      "from_state": "AR",
+      "from_name": "Arkansas",
+      "count": 2
     },
     {
       "from_state": "FL",
@@ -154,20 +154,20 @@
   ],
   "priority_cases": [
     {
+      "name": "RUAN, XIULU nan",
+      "npi": "1023079274",
+      "score": 85.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2017-10-19",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
       "name": "ALI, MUHAMMAD WASIMSADIQ",
       "npi": "1790709913",
       "score": 84.2,
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2016-11-20",
       "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "ROBERTS, PAUL nan",
-      "npi": "1902996713",
-      "score": 72.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2021-10-20",
-      "specialty": "EMERGENCY MEDICINE"
     },
     {
       "name": "BEAUCHAMP, DLIVRO LEMAT",
@@ -192,6 +192,14 @@
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2025-11-20",
       "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "ROBERTS, PAUL nan",
+      "npi": "1902996713",
+      "score": 69.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2021-10-20",
+      "specialty": "EMERGENCY MEDICINE"
     },
     {
       "name": "IFEDIBA, PATRICK E",
@@ -223,14 +231,6 @@
       "score": 68.0,
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2022-03-20",
-      "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "AGGARWAL, SHELINDER nan",
-      "npi": "1891743654",
-      "score": 65.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2017-09-20",
       "specialty": "GENERAL PRACTICE"
     }
   ],
@@ -278,6 +278,20 @@
       "companies": 21
     },
     {
+      "name": "CARRIGAN, DIVYA ALAPATI",
+      "npi": "1356798607",
+      "total_usd": 952.19,
+      "payment_count": 54,
+      "companies": 15
+    },
+    {
+      "name": "HALVORSON, DAVID J",
+      "npi": "1790880698",
+      "total_usd": 870.59,
+      "payment_count": 44,
+      "companies": 11
+    },
+    {
       "name": "JACKSON, MICHELLE S",
       "npi": "1568479715",
       "total_usd": 680.41,
@@ -290,20 +304,6 @@
       "total_usd": 663.79,
       "payment_count": 24,
       "companies": 4
-    },
-    {
-      "name": "THOMAS, JAMES V",
-      "npi": "1235175886",
-      "total_usd": 419.33,
-      "payment_count": 27,
-      "companies": 9
-    },
-    {
-      "name": "WALKER, ALBERT BEDFORD",
-      "npi": "1437111002",
-      "total_usd": 391.72,
-      "payment_count": 24,
-      "companies": 11
     }
   ]
 }

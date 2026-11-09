@@ -2,12 +2,12 @@
   "meta": {
     "state_abbr": "ND",
     "state_name": "North Dakota",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 2,
-    "physician_population": 2724,
-    "per_1000_physicians": 0.734,
+    "physician_population": 2742,
+    "per_1000_physicians": 0.729,
     "double_flagged": 0,
     "industry_payments_usd": 0
   },

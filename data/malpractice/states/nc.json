@@ -2,30 +2,30 @@
   "meta": {
     "state_abbr": "NC",
     "state_name": "North Carolina",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 30,
-    "physician_population": 37206,
-    "per_1000_physicians": 0.806,
-    "double_flagged": 7,
-    "industry_payments_usd": 18686.26
+    "excluded_count": 34,
+    "physician_population": 37425,
+    "per_1000_physicians": 0.908,
+    "double_flagged": 9,
+    "industry_payments_usd": 88781.57999999999
   },
   "exclusion_types": [
     {
-      "code": "1128a1",
-      "label": "Program-Related Crime",
-      "count": 11
-    },
-    {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
+      "count": 14
+    },
+    {
+      "code": "1128a1",
+      "label": "Program-Related Crime",
       "count": 10
     },
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 5
+      "count": 6
     },
     {
       "code": "1128b7",
@@ -50,6 +50,11 @@
       "count": 4
     },
     {
+      "from_state": "FL",
+      "from_name": "Florida",
+      "count": 3
+    },
+    {
       "from_state": "ME",
       "from_name": "Maine",
       "count": 1
@@ -65,11 +70,6 @@
       "count": 1
     },
     {
-      "from_state": "NE",
-      "from_name": "Nebraska",
-      "count": 1
-    },
-    {
       "from_state": "SC",
       "from_name": "South Carolina",
       "count": 1
@@ -80,8 +80,8 @@
       "count": 1
     },
     {
-      "from_state": "FL",
-      "from_name": "Florida",
+      "from_state": "VA",
+      "from_name": "Virginia",
       "count": 1
     },
     {
@@ -112,11 +112,6 @@
       "count": 3
     },
     {
-      "to_state": "VA",
-      "to_name": "Virginia",
-      "count": 2
-    },
-    {
       "to_state": "GA",
       "to_name": "Georgia",
       "count": 2
@@ -145,16 +140,29 @@
       "to_state": "AE",
       "to_name": "AE",
       "count": 1
+    },
+    {
+      "to_state": "NJ",
+      "to_name": "New Jersey",
+      "count": 1
     }
   ],
   "priority_cases": [
     {
-      "name": "FRASER, JEFFREY L",
-      "npi": "1790792380",
-      "score": 76.0,
+      "name": "LE, MARK TUAN",
+      "npi": "1417931213",
+      "score": 82.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2016-05-19",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "RANDALL, WENDELL LEWIS",
+      "npi": "1902856065",
+      "score": 81.0,
       "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2021-08-19",
-      "specialty": "FAMILY PRACTICE"
+      "exclusion_date": "2024-10-20",
+      "specialty": "PHYSICIAN PRACTICE ("
     },
     {
       "name": "FUENTES, EDWIN L",
@@ -163,6 +171,22 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2018-05-20",
       "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "BARRO, LEE DENNIS",
+      "npi": "1316943384",
+      "score": 70.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2010-02-18",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "BRYANT, TRAVIS BRANDON",
+      "npi": "1528647450",
+      "score": 70.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-08-20",
+      "specialty": "GENERAL PRACTICE"
     },
     {
       "name": "DIXON, DONOVAN D",
@@ -203,33 +227,16 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2022-12-20",
       "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "KIM, JONG W",
-      "npi": "1740379981",
-      "score": 68.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2023-05-18",
-      "specialty": "INTERNAL MEDICINE"
-    },
-    {
-      "name": "RANDALL, WENDELL LEWIS",
-      "npi": "1902856065",
-      "score": 66.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2025-11-20",
-      "specialty": "PHYSICIAN PRACTICE ("
-    },
-    {
-      "name": "MOHOMED, FASIL FERRIS",
-      "npi": "1851518971",
-      "score": 65.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2026-06-18",
-      "specialty": "GENERAL PRACTICE"
     }
   ],
   "industry_payments": [
+    {
+      "name": "MCDONOUGH, ADAM CARLTON",
+      "npi": "1225349053",
+      "total_usd": 68975.37,
+      "payment_count": 173,
+      "companies": 13
+    },
     {
       "name": "JREISAT, KHALED F",
       "npi": "1396843132",
@@ -250,6 +257,13 @@
       "total_usd": 845.52,
       "payment_count": 19,
       "companies": 4
+    },
+    {
+      "name": "CHO, ALEX HAN",
+      "npi": "1841415601",
+      "total_usd": 781.43,
+      "payment_count": 8,
+      "companies": 3
     },
     {
       "name": "HEROMAN, JAMES WESLEY",
@@ -280,25 +294,11 @@
       "companies": 2
     },
     {
-      "name": "KUMAR, SANJAY nan",
-      "npi": "1508915216",
-      "total_usd": 276.81,
-      "payment_count": 19,
-      "companies": 5
-    },
-    {
-      "name": "HOFFMAN, JEFFREY D",
-      "npi": "1841287679",
-      "total_usd": 273.54,
-      "payment_count": 5,
-      "companies": 5
-    },
-    {
-      "name": "PRUTHI, RAJ S",
-      "npi": "1417042656",
-      "total_usd": 245.89,
-      "payment_count": 5,
-      "companies": 4
+      "name": "BROWNING, TREYA ZION",
+      "npi": "1780044115",
+      "total_usd": 305.82,
+      "payment_count": 15,
+      "companies": 12
     }
   ]
 }

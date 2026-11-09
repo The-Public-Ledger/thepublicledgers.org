@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "WV",
     "state_name": "West Virginia",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 32,
-    "physician_population": 6682,
-    "per_1000_physicians": 4.789,
+    "excluded_count": 33,
+    "physician_population": 6709,
+    "per_1000_physicians": 4.919,
     "double_flagged": 5,
-    "industry_payments_usd": 101892.86
+    "industry_payments_usd": 102026.93000000001
   },
   "exclusion_types": [
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 17
+      "count": 18
     },
     {
       "code": "1128a1",
@@ -70,6 +70,11 @@
       "count": 1
     },
     {
+      "from_state": "SC",
+      "from_name": "South Carolina",
+      "count": 1
+    },
+    {
       "from_state": "CA",
       "from_name": "California",
       "count": 1
@@ -93,18 +98,13 @@
       "from_state": "NY",
       "from_name": "New York",
       "count": 1
-    },
-    {
-      "from_state": "CO",
-      "from_name": "Colorado",
-      "count": 1
     }
   ],
   "migrants_out": [
     {
       "to_state": "MI",
       "to_name": "Michigan",
-      "count": 27
+      "count": 29
     },
     {
       "to_state": "PA",
@@ -114,12 +114,12 @@
     {
       "to_state": "OH",
       "to_name": "Ohio",
-      "count": 7
+      "count": 8
     },
     {
       "to_state": "VA",
       "to_name": "Virginia",
-      "count": 6
+      "count": 8
     },
     {
       "to_state": "KY",
@@ -127,14 +127,14 @@
       "count": 4
     },
     {
-      "to_state": "NC",
-      "to_name": "North Carolina",
+      "to_state": "NY",
+      "to_name": "New York",
       "count": 4
     },
     {
-      "to_state": "NY",
-      "to_name": "New York",
-      "count": 3
+      "to_state": "NC",
+      "to_name": "North Carolina",
+      "count": 4
     },
     {
       "to_state": "SC",
@@ -160,6 +160,14 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2021-11-18",
       "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "EARLEY, WILLIAM JEFFREY",
+      "npi": "1770595043",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2026-07-20",
+      "specialty": "FAMILY PRACTICE"
     },
     {
       "name": "OTELLIN, ALEXANDER VLADIMIROVICH",
@@ -224,14 +232,6 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2014-08-20",
       "specialty": "INTERNAL MEDICINE"
-    },
-    {
-      "name": "GORDINHO, JOSE JORGE",
-      "npi": "1124089016",
-      "score": 65.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2017-07-20",
-      "specialty": "NEPHROLOGY"
     }
   ],
   "industry_payments": [
@@ -299,9 +299,9 @@
       "companies": 5
     },
     {
-      "name": "BARIT, MANUEL CORTEZ",
-      "npi": "1376505164",
-      "total_usd": 120.48,
+      "name": "EARLEY, WILLIAM JEFFREY",
+      "npi": "1770595043",
+      "total_usd": 134.07,
       "payment_count": 5,
       "companies": 1
     }

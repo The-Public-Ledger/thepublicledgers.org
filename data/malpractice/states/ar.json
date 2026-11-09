@@ -2,12 +2,12 @@
   "meta": {
     "state_abbr": "AR",
     "state_name": "Arkansas",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 12,
-    "physician_population": 9054,
-    "per_1000_physicians": 1.325,
+    "physician_population": 9075,
+    "per_1000_physicians": 1.322,
     "double_flagged": 2,
     "industry_payments_usd": 510625.17000000004
   },
@@ -18,8 +18,8 @@
       "count": 5
     },
     {
-      "code": "1128b4",
-      "label": "License Revoked/Suspended",
+      "code": "1128a2",
+      "label": "Patient Abuse/Neglect",
       "count": 3
     },
     {
@@ -28,8 +28,8 @@
       "count": 2
     },
     {
-      "code": "1128a2",
-      "label": "Patient Abuse/Neglect",
+      "code": "1128b4",
+      "label": "License Revoked/Suspended",
       "count": 2
     }
   ],
@@ -59,7 +59,7 @@
     {
       "to_state": "AL",
       "to_name": "Alabama",
-      "count": 3
+      "count": 2
     },
     {
       "to_state": "TN",
@@ -94,6 +94,14 @@
   ],
   "priority_cases": [
     {
+      "name": "LEVY, ROBERT MORRIS",
+      "npi": "1235150749",
+      "score": 75.2,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2021-04-20",
+      "specialty": "PATHOLOGY"
+    },
+    {
       "name": "PARKER, L JOSEPH",
       "npi": "1174566574",
       "score": 74.0,
@@ -110,20 +118,20 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "GABY, CECIL WALTER",
-      "npi": "1578514816",
-      "score": 71.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2021-10-20",
-      "specialty": "PEDIATRICS"
-    },
-    {
       "name": "MAASS, ADAM J",
       "npi": "1841258738",
       "score": 70.0,
       "exclusion_label": "Patient Abuse/Neglect",
       "exclusion_date": "2025-10-20",
       "specialty": "ENDOCRINOLOGY"
+    },
+    {
+      "name": "GABY, CECIL WALTER",
+      "npi": "1578514816",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2021-10-20",
+      "specialty": "PEDIATRICS"
     },
     {
       "name": "JOHNS, RICHARD D",
@@ -134,28 +142,20 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
+      "name": "CHAN, PATRICK DOORSHANG",
+      "npi": "1588652275",
+      "score": 67.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2008-09-18",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
       "name": "BARROW, ROBERT L",
       "npi": "1770551665",
       "score": 65.0,
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2016-12-20",
       "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "CHAN, PATRICK DOORSHANG",
-      "npi": "1588652275",
-      "score": 63.2,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2008-09-18",
-      "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "LEVY, ROBERT MORRIS",
-      "npi": "1235150749",
-      "score": 60.2,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2020-12-20",
-      "specialty": "PATHOLOGY"
     },
     {
       "name": "ROSENSCHEIN, GUY RAOUL",

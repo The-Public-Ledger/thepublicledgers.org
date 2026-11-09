@@ -2,29 +2,29 @@
   "meta": {
     "state_abbr": "MO",
     "state_name": "Missouri",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 49,
-    "physician_population": 25237,
-    "per_1000_physicians": 1.942,
-    "double_flagged": 6,
-    "industry_payments_usd": 1168880.6099999999
+    "excluded_count": 50,
+    "physician_population": 25354,
+    "per_1000_physicians": 1.972,
+    "double_flagged": 4,
+    "industry_payments_usd": 1167622.62
   },
   "exclusion_types": [
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 26
-    },
-    {
-      "code": "1128a3",
-      "label": "Felony Healthcare Fraud",
-      "count": 6
+      "count": 28
     },
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
+      "count": 6
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
       "count": 6
     },
     {
@@ -45,7 +45,7 @@
     {
       "code": "1128a2",
       "label": "Patient Abuse/Neglect",
-      "count": 2
+      "count": 1
     },
     {
       "code": "1128b14",
@@ -62,7 +62,7 @@
     {
       "from_state": "KS",
       "from_name": "Kansas",
-      "count": 5
+      "count": 6
     },
     {
       "from_state": "KY",
@@ -75,6 +75,11 @@
       "count": 2
     },
     {
+      "from_state": "CO",
+      "from_name": "Colorado",
+      "count": 1
+    },
+    {
       "from_state": "NC",
       "from_name": "North Carolina",
       "count": 1
@@ -82,6 +87,11 @@
     {
       "from_state": "XX",
       "from_name": "XX",
+      "count": 1
+    },
+    {
+      "from_state": "TX",
+      "from_name": "Texas",
       "count": 1
     }
   ],
@@ -108,6 +118,14 @@
     }
   ],
   "priority_cases": [
+    {
+      "name": "ELLEGOOD, JAMES H",
+      "npi": "1760479372",
+      "score": 82.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2010-01-20",
+      "specialty": "GENERAL PRACTICE"
+    },
     {
       "name": "IZQUIERDOMALON, ROMEL nan",
       "npi": "1033422357",
@@ -141,14 +159,6 @@
       "specialty": "EMERGENCY MEDICINE"
     },
     {
-      "name": "SICURO, FRANCO nan",
-      "npi": "1629159207",
-      "score": 73.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2024-02-20",
-      "specialty": "PSYCHIATRY"
-    },
-    {
       "name": "DERGES, PATRICIA nan",
       "npi": "1134648959",
       "score": 72.5,
@@ -165,14 +175,6 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "DATTEL, FREDERICK SCOTT",
-      "npi": "1912008525",
-      "score": 71.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2024-08-20",
-      "specialty": "GENERAL PRACTICE"
-    },
-    {
       "name": "LIBRACH, STANLEY L",
       "npi": "1346342920",
       "score": 71.0,
@@ -181,12 +183,20 @@
       "specialty": "SURGERY"
     },
     {
-      "name": "HALLEY, RANDALL E",
-      "npi": "1245232693",
-      "score": 68.0,
+      "name": "ROETHLE, SCOTT TAGGART",
+      "npi": "1639292329",
+      "score": 71.0,
       "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2023-03-20",
-      "specialty": "FAMILY PRACTICE"
+      "exclusion_date": "2026-08-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "SPIEGEL, CRAIG A",
+      "npi": "1548262942",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-08-20",
+      "specialty": "PEDIATRICS"
     }
   ],
   "industry_payments": [
@@ -226,18 +236,25 @@
       "companies": 12
     },
     {
-      "name": "SICURO, FRANCO nan",
-      "npi": "1629159207",
-      "total_usd": 16761.56,
-      "payment_count": 266,
-      "companies": 30
-    },
-    {
       "name": "ALI, IFTIKHAR nan",
       "npi": "1700813607",
       "total_usd": 8982.6,
       "payment_count": 685,
       "companies": 57
+    },
+    {
+      "name": "SPIEGEL, CRAIG A",
+      "npi": "1548262942",
+      "total_usd": 8351.0,
+      "payment_count": 119,
+      "companies": 18
+    },
+    {
+      "name": "MALIK, SHAZIA nan",
+      "npi": "1477552206",
+      "total_usd": 7288.21,
+      "payment_count": 401,
+      "companies": 30
     },
     {
       "name": "LIBRACH, STANLEY L",
@@ -252,13 +269,6 @@
       "total_usd": 3712.64,
       "payment_count": 51,
       "companies": 12
-    },
-    {
-      "name": "DICKINSON, BRETT nan",
-      "npi": "1942287735",
-      "total_usd": 3579.32,
-      "payment_count": 251,
-      "companies": 37
     }
   ]
 }

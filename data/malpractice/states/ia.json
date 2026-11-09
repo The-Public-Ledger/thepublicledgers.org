@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "IA",
     "state_name": "Iowa",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 17,
-    "physician_population": 9904,
-    "per_1000_physicians": 1.716,
+    "physician_population": 9985,
+    "per_1000_physicians": 1.703,
     "double_flagged": 1,
-    "industry_payments_usd": 4046.0299999999997
+    "industry_payments_usd": 4046.03
   },
   "exclusion_types": [
     {
@@ -93,6 +93,14 @@
       "specialty": "PEDIATRICS"
     },
     {
+      "name": "LOUVIERE, MARK J",
+      "npi": "1003816984",
+      "score": 70.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2008-06-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
       "name": "PIPER, SCOTT J",
       "npi": "1194712976",
       "score": 65.0,
@@ -107,6 +115,14 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2011-04-20",
       "specialty": "SURGERY"
+    },
+    {
+      "name": "KUMAR, NARINDER nan",
+      "npi": "1245205269",
+      "score": 61.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2010-04-20",
+      "specialty": "PEDIATRICS"
     },
     {
       "name": "NEYMAN, GREGORY P",
@@ -125,28 +141,12 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "KUMAR, NARINDER nan",
-      "npi": "1245205269",
-      "score": 51.0,
+      "name": "ROSENBLATT, MICHAEL M",
+      "npi": "1477543668",
+      "score": 52.0,
       "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2010-04-20",
-      "specialty": "PEDIATRICS"
-    },
-    {
-      "name": "HAUSER, RICHARD LEE",
-      "npi": "1689784399",
-      "score": 50.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2017-05-18",
-      "specialty": "PSYCHIATRY"
-    },
-    {
-      "name": "LATELLA, JOSEPH X",
-      "npi": "1073593919",
-      "score": 50.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2020-10-20",
-      "specialty": "FAMILY PRACTICE"
+      "exclusion_date": "2007-12-20",
+      "specialty": "EMERGENCY MEDICINE"
     }
   ],
   "industry_payments": [

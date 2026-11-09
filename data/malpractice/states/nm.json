@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "NM",
     "state_name": "New Mexico",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 18,
-    "physician_population": 7220,
-    "per_1000_physicians": 2.493,
+    "physician_population": 7199,
+    "per_1000_physicians": 2.5,
     "double_flagged": 2,
-    "industry_payments_usd": 15585.92
+    "industry_payments_usd": 15585.920000000002
   },
   "exclusion_types": [
     {
@@ -20,28 +20,23 @@
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 2
+      "count": 3
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
       "count": 2
-    },
-    {
-      "code": "1128a2",
-      "label": "Patient Abuse/Neglect",
-      "count": 1
     }
   ],
   "migrants_in": [
     {
-      "from_state": "CO",
-      "from_name": "Colorado",
-      "count": 1
-    },
-    {
       "from_state": "TX",
       "from_name": "Texas",
+      "count": 2
+    },
+    {
+      "from_state": "CO",
+      "from_name": "Colorado",
       "count": 1
     },
     {
@@ -54,11 +49,16 @@
     {
       "to_state": "TX",
       "to_name": "Texas",
-      "count": 1
+      "count": 2
     },
     {
       "to_state": "WV",
       "to_name": "West Virginia",
+      "count": 1
+    },
+    {
+      "to_state": "VA",
+      "to_name": "Virginia",
       "count": 1
     },
     {
@@ -74,6 +74,14 @@
   ],
   "priority_cases": [
     {
+      "name": "BEALE, MARK D",
+      "npi": "1164547709",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2023-04-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
       "name": "LEVITT, KEITH nan",
       "npi": "1922346428",
       "score": 71.0,
@@ -87,14 +95,6 @@
       "score": 68.0,
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2020-07-20",
-      "specialty": "PSYCHIATRY"
-    },
-    {
-      "name": "BEALE, MARK D",
-      "npi": "1164547709",
-      "score": 62.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2022-10-20",
       "specialty": "PSYCHIATRY"
     },
     {

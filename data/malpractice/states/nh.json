@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "NH",
     "state_name": "New Hampshire",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 10,
-    "physician_population": 6252,
-    "per_1000_physicians": 1.599,
+    "physician_population": 6293,
+    "per_1000_physicians": 1.589,
     "double_flagged": 1,
-    "industry_payments_usd": 2102.33
+    "industry_payments_usd": 2102.3299999999995
   },
   "exclusion_types": [
     {

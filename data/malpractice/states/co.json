@@ -2,12 +2,12 @@
   "meta": {
     "state_abbr": "CO",
     "state_name": "Colorado",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 40,
-    "physician_population": 23130,
-    "per_1000_physicians": 1.729,
+    "physician_population": 23265,
+    "per_1000_physicians": 1.719,
     "double_flagged": 9,
     "industry_payments_usd": 5807.59
   },
@@ -15,12 +15,12 @@
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 26
+      "count": 25
     },
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 5
+      "count": 6
     },
     {
       "code": "1128a1",
@@ -40,13 +40,13 @@
   ],
   "migrants_in": [
     {
-      "from_state": "PA",
-      "from_name": "Pennsylvania",
-      "count": 1
-    },
-    {
       "from_state": "TX",
       "from_name": "Texas",
+      "count": 2
+    },
+    {
+      "from_state": "PA",
+      "from_name": "Pennsylvania",
       "count": 1
     },
     {
@@ -75,6 +75,11 @@
       "to_state": "OK",
       "to_name": "Oklahoma",
       "count": 2
+    },
+    {
+      "to_state": "MO",
+      "to_name": "Missouri",
+      "count": 1
     },
     {
       "to_state": "UT",
@@ -124,10 +129,26 @@
     {
       "name": "NEISLER, JUSTIN BOWEN",
       "npi": "1902257256",
-      "score": 77.0,
+      "score": 74.0,
       "exclusion_label": "Patient Abuse/Neglect",
       "exclusion_date": "2021-06-17",
       "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "HAMMOND, DOUGLAS K",
+      "npi": "1003892746",
+      "score": 73.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2018-04-19",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
+      "name": "LITTLEFORD, JOHN ALAN",
+      "npi": "1053411421",
+      "score": 68.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2019-09-19",
+      "specialty": "PAIN MANAGEMENT"
     },
     {
       "name": "MONTANTE, JOSEPH ROBERT",
@@ -154,44 +175,28 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "DATKHAEVA, TATYANA I",
-      "npi": "1609909423",
-      "score": 57.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2013-12-19",
-      "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "GESSNER, WIESLAW PAWEL",
-      "npi": "1225118011",
-      "score": 57.0,
+      "name": "JAMES, DONOVAN C",
+      "npi": "1457343014",
+      "score": 61.0,
       "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2023-11-20",
-      "specialty": "GENERAL PRACTICE"
+      "exclusion_date": "2015-02-19",
+      "specialty": "SURGERY"
     },
     {
-      "name": "MOFFAT, ROBERT J",
-      "npi": "1235277104",
-      "score": 56.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2012-08-20",
-      "specialty": "INTERNAL MEDICINE"
-    },
-    {
-      "name": "SCHLICHT, CHRISTIAN R",
-      "npi": "1568489490",
-      "score": 56.0,
+      "name": "PARRA, MICHAEL THEODORE",
+      "npi": "1932162369",
+      "score": 61.0,
       "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2014-05-20",
-      "specialty": "ANESTHESIOLOGY"
+      "exclusion_date": "2013-02-20",
+      "specialty": "ONCOLOGY"
     },
     {
-      "name": "TUCKER, KELLY WADE",
-      "npi": "1871568782",
-      "score": 56.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2009-11-19",
-      "specialty": "FAMILY PRACTICE"
+      "name": "SBARBARO, JAMES nan",
+      "npi": "1558315986",
+      "score": 61.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2016-10-20",
+      "specialty": "CARDIOLOGY"
     }
   ],
   "industry_payments": [

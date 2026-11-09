@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "FL",
     "state_name": "Florida",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 266,
-    "physician_population": 85082,
-    "per_1000_physicians": 3.126,
-    "double_flagged": 121,
-    "industry_payments_usd": 3495664.08
+    "excluded_count": 273,
+    "physician_population": 85446,
+    "per_1000_physicians": 3.195,
+    "double_flagged": 210,
+    "industry_payments_usd": 3593999.66
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 89
+      "count": 100
     },
     {
       "code": "1128a1",
@@ -25,7 +25,7 @@
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 60
+      "count": 56
     },
     {
       "code": "1128a3",
@@ -100,13 +100,13 @@
       "count": 2
     },
     {
-      "from_state": "NC",
-      "from_name": "North Carolina",
+      "from_state": "OH",
+      "from_name": "Ohio",
       "count": 2
     },
     {
-      "from_state": "MS",
-      "from_name": "Mississippi",
+      "from_state": "NC",
+      "from_name": "North Carolina",
       "count": 2
     }
   ],
@@ -114,7 +114,7 @@
     {
       "to_state": "NY",
       "to_name": "New York",
-      "count": 8
+      "count": 10
     },
     {
       "to_state": "PR",
@@ -147,29 +147,29 @@
       "count": 4
     },
     {
+      "to_state": "NC",
+      "to_name": "North Carolina",
+      "count": 3
+    },
+    {
       "to_state": "TN",
       "to_name": "Tennessee",
       "count": 3
     },
     {
-      "to_state": "VA",
-      "to_name": "Virginia",
-      "count": 2
-    },
-    {
-      "to_state": "OH",
-      "to_name": "Ohio",
-      "count": 2
+      "to_state": "MA",
+      "to_name": "Massachusetts",
+      "count": 3
     }
   ],
   "priority_cases": [
     {
-      "name": "BURACK, STEVEN ADAM",
-      "npi": "1639220064",
-      "score": 81.0,
+      "name": "AFZAL, FIAZ MD",
+      "npi": "1003801044",
+      "score": 82.0,
       "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2024-09-19",
-      "specialty": "PAIN MANAGEMENT"
+      "exclusion_date": "2014-09-18",
+      "specialty": "INTERNAL MEDICINE"
     },
     {
       "name": "GHOSH, MONA nan",
@@ -180,11 +180,27 @@
       "specialty": "GYN/OBS"
     },
     {
-      "name": "RIVERAKOLB, KENNETH nan",
-      "npi": "1720256324",
-      "score": 76.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2022-05-19",
+      "name": "BURACK, STEVEN ADAM",
+      "npi": "1639220064",
+      "score": 78.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-09-19",
+      "specialty": "PAIN MANAGEMENT"
+    },
+    {
+      "name": "AGUILAR, CARLOS ERNESTO",
+      "npi": "1225075948",
+      "score": 77.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2023-01-19",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "VILLAMAN, YVELICE ANTONIA",
+      "npi": "1851339881",
+      "score": 77.5,
+      "exclusion_label": "Felony Healthcare Fraud",
+      "exclusion_date": "2022-09-20",
       "specialty": "GENERAL PRACTICE"
     },
     {
@@ -220,28 +236,12 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
-      "name": "RERKO, DAVID nan",
-      "npi": "1932157062",
+      "name": "GARCIADORTA, FERNANDO nan",
+      "npi": "1487605515",
       "score": 70.0,
-      "exclusion_label": "License Revoked/Suspended",
-      "exclusion_date": "2026-04-20",
-      "specialty": "ANESTHESIOLOGY"
-    },
-    {
-      "name": "HEILBRON, ROY GILBERT",
-      "npi": "1518929421",
-      "score": 69.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2019-10-20",
-      "specialty": "CARDIOLOGY"
-    },
-    {
-      "name": "KURRLE, ROBERT WILLIAM",
-      "npi": "1255431888",
-      "score": 69.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2020-05-20",
-      "specialty": "OPHTHALMOLOGY"
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2017-06-20",
+      "specialty": "GENERAL PRACTICE"
     }
   ],
   "industry_payments": [
@@ -265,6 +265,13 @@
       "total_usd": 694675.32,
       "payment_count": 426,
       "companies": 58
+    },
+    {
+      "name": "SASTRY, VATSALA S",
+      "npi": "1336131481",
+      "total_usd": 82269.11,
+      "payment_count": 240,
+      "companies": 18
     },
     {
       "name": "SHAKNOVSKY, THOMAS J",
@@ -302,18 +309,11 @@
       "companies": 28
     },
     {
-      "name": "VAZQUEZ, JOSE L",
-      "npi": "1083647952",
-      "total_usd": 4721.29,
-      "payment_count": 207,
+      "name": "SORIAL, ANDREW L",
+      "npi": "1255725602",
+      "total_usd": 8969.54,
+      "payment_count": 418,
       "companies": 27
-    },
-    {
-      "name": "ALVAREZJACINTO, ORESTES A",
-      "npi": "1861407652",
-      "total_usd": 4490.9,
-      "payment_count": 107,
-      "companies": 43
     }
   ]
 }

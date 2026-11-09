@@ -2,12 +2,12 @@
   "meta": {
     "state_abbr": "SD",
     "state_name": "South Dakota",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 1,
-    "physician_population": 2866,
-    "per_1000_physicians": 0.349,
+    "physician_population": 2884,
+    "per_1000_physicians": 0.347,
     "double_flagged": 0,
     "industry_payments_usd": 0
   },

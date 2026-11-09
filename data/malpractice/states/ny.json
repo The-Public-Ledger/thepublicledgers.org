@@ -2,25 +2,25 @@
   "meta": {
     "state_abbr": "NY",
     "state_name": "New York",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 279,
-    "physician_population": 103821,
-    "per_1000_physicians": 2.687,
-    "double_flagged": 388,
-    "industry_payments_usd": 5900036.81
+    "excluded_count": 287,
+    "physician_population": 103668,
+    "per_1000_physicians": 2.768,
+    "double_flagged": 391,
+    "industry_payments_usd": 5932157.110000002
   },
   "exclusion_types": [
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 106
+      "count": 108
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 71
+      "count": 75
     },
     {
       "code": "1128a4",
@@ -30,7 +30,7 @@
     {
       "code": "1128a3",
       "label": "Felony Healthcare Fraud",
-      "count": 21
+      "count": 22
     },
     {
       "code": "1128a2",
@@ -43,6 +43,11 @@
       "count": 4
     },
     {
+      "code": "1128b5",
+      "label": "Federal/State Program Exclusion",
+      "count": 3
+    },
+    {
       "code": "1128b1",
       "label": "Misdemeanor Fraud",
       "count": 3
@@ -50,11 +55,6 @@
     {
       "code": "1128b14",
       "label": "1128b14",
-      "count": 2
-    },
-    {
-      "code": "1128b5",
-      "label": "Federal/State Program Exclusion",
       "count": 2
     },
     {
@@ -67,22 +67,27 @@
     {
       "from_state": "NJ",
       "from_name": "New Jersey",
-      "count": 22
+      "count": 23
     },
     {
       "from_state": "PA",
       "from_name": "Pennsylvania",
-      "count": 19
+      "count": 18
     },
     {
       "from_state": "FL",
       "from_name": "Florida",
-      "count": 8
+      "count": 10
     },
     {
       "from_state": "MA",
       "from_name": "Massachusetts",
       "count": 5
+    },
+    {
+      "from_state": "WV",
+      "from_name": "West Virginia",
+      "count": 4
     },
     {
       "from_state": "CT",
@@ -95,23 +100,18 @@
       "count": 3
     },
     {
-      "from_state": "WV",
-      "from_name": "West Virginia",
-      "count": 3
-    },
-    {
       "from_state": "CA",
       "from_name": "California",
       "count": 2
     },
     {
-      "from_state": "NC",
-      "from_name": "North Carolina",
-      "count": 1
+      "from_state": "TX",
+      "from_name": "Texas",
+      "count": 2
     },
     {
-      "from_state": "AL",
-      "from_name": "Alabama",
+      "from_state": "NC",
+      "from_name": "North Carolina",
       "count": 1
     }
   ],
@@ -130,6 +130,11 @@
       "to_state": "CT",
       "to_name": "Connecticut",
       "count": 2
+    },
+    {
+      "to_state": "UT",
+      "to_name": "Utah",
+      "count": 1
     },
     {
       "to_state": "MA",
@@ -160,20 +165,47 @@
       "to_state": "PA",
       "to_name": "Pennsylvania",
       "count": 1
-    },
-    {
-      "to_state": "WV",
-      "to_name": "West Virginia",
-      "count": 1
     }
   ],
   "priority_cases": [
+    {
+      "name": "PIRACHA, NISAR A",
+      "npi": "1992744304",
+      "score": 88.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2018-01-18",
+      "specialty": "PAIN MANAGEMENT"
+    },
     {
       "name": "MITTAL, NIRANJAN KUMAR",
       "npi": "1083680003",
       "score": 85.5,
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2026-05-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
+      "name": "ROUSSIS, GEORGE PANAGIOTIS",
+      "npi": "1568456382",
+      "score": 85.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2018-04-19",
+      "specialty": "PEDIATRICS"
+    },
+    {
+      "name": "PRESMAN, MIKHAIL L",
+      "npi": "1245282532",
+      "score": 82.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2014-09-18",
+      "specialty": "PSYCHIATRY"
+    },
+    {
+      "name": "MEHTA, PRAVIN V CHANDRA",
+      "npi": "1245201482",
+      "score": 82.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2016-07-20",
       "specialty": "INTERNAL MEDICINE"
     },
     {
@@ -201,52 +233,20 @@
       "specialty": "UROLOGY"
     },
     {
-      "name": "LOPEZ, ERNESTO M",
-      "npi": "1346281813",
-      "score": 78.0,
+      "name": "RATANAPRSATPORN, SOMSRI nan",
+      "npi": "1508858838",
+      "score": 79.0,
       "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2020-02-20",
-      "specialty": "FAMILY PRACTICE"
+      "exclusion_date": "2026-05-20",
+      "specialty": "PEDIATRICS"
     },
     {
-      "name": "CHEEMA, MUHAMMAD AZAM",
-      "npi": "1821050485",
-      "score": 77.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2021-11-18",
-      "specialty": "PSYCHIATRY"
-    },
-    {
-      "name": "ADELGLASS, HOWARD nan",
-      "npi": "1962427427",
-      "score": 76.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2023-10-19",
-      "specialty": "PAIN MANAGEMENT"
-    },
-    {
-      "name": "LARUELLE, MARC nan",
-      "npi": "1891002424",
-      "score": 76.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2024-03-20",
-      "specialty": "PSYCHIATRY"
-    },
-    {
-      "name": "MCMAHON, SCOTT F",
-      "npi": "1144232117",
-      "score": 76.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2022-02-20",
-      "specialty": "PSYCHIATRY"
-    },
-    {
-      "name": "FREEDMAN, GORDON nan",
-      "npi": "1942220017",
-      "score": 75.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2024-08-20",
-      "specialty": "PAIN MANAGEMENT"
+      "name": "VELOSO, CESAR V",
+      "npi": "1104800333",
+      "score": 79.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2018-06-20",
+      "specialty": "PEDIATRICS"
     }
   ],
   "industry_payments": [
@@ -300,6 +300,13 @@
       "companies": 9
     },
     {
+      "name": "NEWMAN, DAVID MICHAEL",
+      "npi": "1104824705",
+      "total_usd": 10474.73,
+      "payment_count": 103,
+      "companies": 27
+    },
+    {
       "name": "HADI, MOHAMMED ABDULALEEM",
       "npi": "1275760100",
       "total_usd": 10421.56,
@@ -312,13 +319,6 @@
       "total_usd": 9676.05,
       "payment_count": 123,
       "companies": 18
-    },
-    {
-      "name": "LUPIANO, JOHN D",
-      "npi": "1881634954",
-      "total_usd": 8435.26,
-      "payment_count": 73,
-      "companies": 24
     }
   ]
 }

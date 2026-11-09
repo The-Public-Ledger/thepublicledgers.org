@@ -2,30 +2,30 @@
   "meta": {
     "state_abbr": "NV",
     "state_name": "Nevada",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 29,
-    "physician_population": 9288,
-    "per_1000_physicians": 3.122,
-    "double_flagged": 7,
-    "industry_payments_usd": 18656.46
+    "excluded_count": 30,
+    "physician_population": 9320,
+    "per_1000_physicians": 3.219,
+    "double_flagged": 9,
+    "industry_payments_usd": 22647.46
   },
   "exclusion_types": [
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 9
+      "count": 10
     },
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 9
+      "count": 10
     },
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 5
+      "count": 4
     },
     {
       "code": "1128a2",
@@ -55,6 +55,11 @@
       "count": 1
     },
     {
+      "from_state": "AZ",
+      "from_name": "Arizona",
+      "count": 1
+    },
+    {
       "from_state": "MI",
       "from_name": "Michigan",
       "count": 1
@@ -72,6 +77,11 @@
     {
       "from_state": "OR",
       "from_name": "Oregon",
+      "count": 1
+    },
+    {
+      "from_state": "FL",
+      "from_name": "Florida",
       "count": 1
     }
   ],
@@ -117,19 +127,19 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
+      "name": "ALVEAR, WILLIAM nan",
+      "npi": "1154413110",
+      "score": 74.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2025-04-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
       "name": "ARCOTTA, KAREN FRANCES",
       "npi": "1649269986",
       "score": 74.0,
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2025-06-19",
-      "specialty": "INTERNAL MEDICINE"
-    },
-    {
-      "name": "MATH, ERIC M",
-      "npi": "1053384552",
-      "score": 74.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2024-06-20",
       "specialty": "INTERNAL MEDICINE"
     },
     {
@@ -141,6 +151,14 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
+      "name": "MATH, ERIC M",
+      "npi": "1053384552",
+      "score": 71.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-06-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
       "name": "MURRAY, CONRAD ROBERT",
       "npi": "1730137340",
       "score": 71.0,
@@ -149,12 +167,12 @@
       "specialty": "CARDIOLOGY"
     },
     {
-      "name": "ACOSTA, EMMANUEL G",
-      "npi": "1851316830",
-      "score": 68.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2016-10-20",
-      "specialty": "GENERAL PRACTICE"
+      "name": "ASSAD, ABDOLLAH nan",
+      "npi": "1588633143",
+      "score": 70.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2026-07-20",
+      "specialty": "PSYCHIATRY"
     },
     {
       "name": "GUERRA, HORACE PAUL",
@@ -179,14 +197,6 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2020-03-19",
       "specialty": "CARDIOLOGY"
-    },
-    {
-      "name": "WILCOX, SIMMON L",
-      "npi": "1205890027",
-      "score": 68.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2016-11-20",
-      "specialty": "SURGERY"
     }
   ],
   "industry_payments": [
@@ -210,6 +220,13 @@
       "total_usd": 4658.48,
       "payment_count": 73,
       "companies": 17
+    },
+    {
+      "name": "ASSAD, ABDOLLAH nan",
+      "npi": "1588633143",
+      "total_usd": 3991.0,
+      "payment_count": 234,
+      "companies": 21
     },
     {
       "name": "BRUCE, VICTOR nan",
@@ -252,13 +269,6 @@
       "total_usd": 77.38,
       "payment_count": 4,
       "companies": 4
-    },
-    {
-      "name": "VON FELDMANN, DIETRICH nan",
-      "npi": "1346354917",
-      "total_usd": 25.23,
-      "payment_count": 1,
-      "companies": 1
     }
   ]
 }

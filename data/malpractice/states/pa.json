@@ -2,20 +2,20 @@
   "meta": {
     "state_abbr": "PA",
     "state_name": "Pennsylvania",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
-    "excluded_count": 131,
-    "physician_population": 62462,
-    "per_1000_physicians": 2.097,
-    "double_flagged": 22,
-    "industry_payments_usd": 299439.82
+    "excluded_count": 132,
+    "physician_population": 62585,
+    "per_1000_physicians": 2.109,
+    "double_flagged": 25,
+    "industry_payments_usd": 304214.76
   },
   "exclusion_types": [
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 53
+      "count": 51
     },
     {
       "code": "1128a1",
@@ -25,7 +25,7 @@
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 17
+      "count": 19
     },
     {
       "code": "1128a3",
@@ -40,7 +40,7 @@
     {
       "code": "1128b14",
       "label": "1128b14",
-      "count": 3
+      "count": 4
     },
     {
       "code": "1128b7",
@@ -114,7 +114,7 @@
     {
       "to_state": "NY",
       "to_name": "New York",
-      "count": 19
+      "count": 18
     },
     {
       "to_state": "OH",
@@ -124,7 +124,7 @@
     {
       "to_state": "NJ",
       "to_name": "New Jersey",
-      "count": 7
+      "count": 6
     },
     {
       "to_state": "WV",
@@ -164,6 +164,22 @@
   ],
   "priority_cases": [
     {
+      "name": "SUN, KENNETH P",
+      "npi": "1881693109",
+      "score": 88.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2023-08-20",
+      "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "VERDELL, CLARENCE nan",
+      "npi": "1649206376",
+      "score": 85.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2018-08-20",
+      "specialty": "PSYCHIATRY"
+    },
+    {
       "name": "BORKSON, JOSEPH L",
       "npi": "1235233586",
       "score": 81.2,
@@ -174,18 +190,10 @@
     {
       "name": "KURTZER, YITZCHOK BARRY",
       "npi": "1154321891",
-      "score": 81.0,
+      "score": 78.0,
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2024-10-20",
       "specialty": "INTERNAL MEDICINE"
-    },
-    {
-      "name": "MITCHELL, JOHN F",
-      "npi": "1316012347",
-      "score": 79.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2024-11-20",
-      "specialty": "PSYCHIATRY"
     },
     {
       "name": "OSUJI, CHUMA G",
@@ -226,14 +234,6 @@
       "exclusion_label": "Patient Abuse/Neglect",
       "exclusion_date": "2019-08-20",
       "specialty": "PEDIATRICS"
-    },
-    {
-      "name": "MABRY, MYRA CUMMINGS",
-      "npi": "1306070719",
-      "score": 72.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2021-07-20",
-      "specialty": "GYN/OBS"
     },
     {
       "name": "ANAND, NEIL nan",
@@ -281,6 +281,13 @@
       "companies": 4
     },
     {
+      "name": "HARRIS, JOHN ALEXANDER",
+      "npi": "1427376821",
+      "total_usd": 4586.4,
+      "payment_count": 6,
+      "companies": 2
+    },
+    {
       "name": "LEE, JOHN KEUNSANG",
       "npi": "1811187099",
       "total_usd": 4113.54,
@@ -307,13 +314,6 @@
       "total_usd": 1888.33,
       "payment_count": 159,
       "companies": 20
-    },
-    {
-      "name": "NOTHSTEIN, GARY nan",
-      "npi": "1982647756",
-      "total_usd": 1737.57,
-      "payment_count": 98,
-      "companies": 19
     }
   ]
 }

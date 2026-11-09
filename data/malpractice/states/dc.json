@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "DC",
     "state_name": "District of Columbia",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 6,
-    "physician_population": 7474,
-    "per_1000_physicians": 0.803,
+    "physician_population": 7387,
+    "per_1000_physicians": 0.812,
     "double_flagged": 2,
-    "industry_payments_usd": 1086.7
+    "industry_payments_usd": 122442.29
   },
   "exclusion_types": [
     {
@@ -95,7 +95,7 @@
     {
       "name": "LEVINE, LEWIS nan",
       "npi": "1891978771",
-      "score": 65.0,
+      "score": 62.0,
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2016-08-18",
       "specialty": "PAIN MANAGEMENT"
@@ -118,6 +118,13 @@
     }
   ],
   "industry_payments": [
+    {
+      "name": "SAAL, HOWARD M",
+      "npi": "1801827308",
+      "total_usd": 121355.59,
+      "payment_count": 133,
+      "companies": 2
+    },
     {
       "name": "JACKSON, ANITA LOUISE",
       "npi": "1346286010",

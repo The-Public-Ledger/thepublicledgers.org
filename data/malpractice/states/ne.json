@@ -2,14 +2,14 @@
   "meta": {
     "state_abbr": "NE",
     "state_name": "Nebraska",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 6,
-    "physician_population": 6524,
-    "per_1000_physicians": 0.92,
+    "physician_population": 6643,
+    "per_1000_physicians": 0.903,
     "double_flagged": 0,
-    "industry_payments_usd": 688.55
+    "industry_payments_usd": 559.87
   },
   "exclusion_types": [
     {
@@ -50,11 +50,6 @@
       "to_state": "IA",
       "to_name": "Iowa",
       "count": 1
-    },
-    {
-      "to_state": "NC",
-      "to_name": "North Carolina",
-      "count": 1
     }
   ],
   "priority_cases": [
@@ -75,14 +70,6 @@
       "specialty": "GYN/OBS"
     },
     {
-      "name": "HUGHES, KEITH PATRICK",
-      "npi": "1588604987",
-      "score": 64.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2024-06-20",
-      "specialty": "ORTHOPEDICS"
-    },
-    {
       "name": "DE LOS ANGELES, REYNALDO A",
       "npi": "1578572210",
       "score": 62.0,
@@ -91,9 +78,17 @@
       "specialty": "NEUROLOGY"
     },
     {
+      "name": "HUGHES, KEITH PATRICK",
+      "npi": "1588604987",
+      "score": 61.0,
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2024-06-20",
+      "specialty": "ORTHOPEDICS"
+    },
+    {
       "name": "ALI, MAMAN LAWAN",
       "npi": "1710181151",
-      "score": 50.0,
+      "score": 47.0,
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2024-06-20",
       "specialty": "ORTHOPEDICS"
@@ -121,13 +116,6 @@
       "total_usd": 191.44,
       "payment_count": 12,
       "companies": 10
-    },
-    {
-      "name": "FRASER, JEFFREY L",
-      "npi": "1790792380",
-      "total_usd": 128.68,
-      "payment_count": 6,
-      "companies": 3
     },
     {
       "name": "HUGHES, KEITH PATRICK",

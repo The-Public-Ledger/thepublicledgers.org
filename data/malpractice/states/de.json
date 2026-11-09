@@ -2,13 +2,13 @@
   "meta": {
     "state_abbr": "DE",
     "state_name": "Delaware",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-11-09"
   },
   "summary_stats": {
     "excluded_count": 7,
-    "physician_population": 4102,
-    "per_1000_physicians": 1.706,
-    "double_flagged": 1,
+    "physician_population": 4114,
+    "per_1000_physicians": 1.702,
+    "double_flagged": 2,
     "industry_payments_usd": 49.69
   },
   "exclusion_types": [
@@ -64,12 +64,12 @@
   ],
   "priority_cases": [
     {
-      "name": "GOODING, FREDERICK WAYNE",
-      "npi": "1255377180",
-      "score": 71.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2024-10-20",
-      "specialty": "PAIN MANAGEMENT"
+      "name": "BRADLEY, EARL B",
+      "npi": "1669414553",
+      "score": 76.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2012-10-18",
+      "specialty": "PEDIATRICS"
     },
     {
       "name": "TITUS, PATRICK ALLEN",
@@ -80,12 +80,12 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "BRADLEY, EARL B",
-      "npi": "1669414553",
-      "score": 56.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2012-10-18",
-      "specialty": "PEDIATRICS"
+      "name": "GOODING, FREDERICK WAYNE",
+      "npi": "1255377180",
+      "score": 68.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-10-20",
+      "specialty": "PAIN MANAGEMENT"
     },
     {
       "name": "CEMERLIC, SENAD nan",
