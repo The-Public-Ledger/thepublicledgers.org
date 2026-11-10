@@ -21,8 +21,8 @@
     "lobbying_total_usd": 35234037.0,
     "fec_records": 63428,
     "desert_counties": 63,
-    "desert_residents": 3073802,
-    "public_funding_usd": 34541616765,
+    "desert_residents": 2824567,
+    "public_funding_usd": 30176091761,
     "federal_grants_usd": 4870730306,
     "double_capture_counties": 50,
     "tubal_ligation_gap_pct": 46.8,
@@ -30,7 +30,7 @@
     "ny_lobbying_con_filings": 54
   },
   "top_findings": [
-    "Religious hospitals receive $34.5B annually in Medicare and Medicaid as the sole emergency room provider in 63 counties across 25 states (68 total including 5 hospital-only counties), covering 3,073,802 residents",
+    "Religious hospitals are the only emergency room in 63 counties across 25 states, home to 2,824,567 residents, and receive $30.2B a year in Medicare and Medicaid there; counting 5 more counties where a religious hospital is the only hospital but has no ER, the total is $34.5B across 68 counties and 3,073,802 residents",
     "In 50 of those 68 desert counties (ER-only + hospital-only), the same religious organization (or its affiliate) also receives federal social service funding \u2014 creating a 'double capture' of public health infrastructure",
     "Religious organizations received $4.9B in direct federal grants (2015\u20132026), led by Catholic Charities' $3.9B for refugee resettlement, housing, and Head Start",
     "Federal lobbying by major religious health systems: $35.2M across 996 filings (2017\u20132025); top spenders include Ascension Health ($16.4M), CHA ($6.9M), and Trinity Health ($6.7M)",

@@ -1,13 +1,13 @@
 ---
 title: "Faith & Public Services"
-description: "Mapping the $34.5 billion overlap between religious hospitals, federal social service grants, and the lobbying campaigns that protect the arrangement."
+description: "Mapping the 63 counties where a religious hospital runs the only emergency room — $30.2 billion a year in Medicare and Medicaid — alongside federal social service grants and the lobbying campaigns that protect the arrangement."
 date: 2026-03-21
 status: "active"
 tags: ["healthcare", "religion", "lobbying", "campaign-finance", "reproductive-health"]
 layout: "deep-dive"
 deep_dive_slug: "faith"
 category: "patients"
-hub_stat: "$34.5B in public funding to religious health systems"
+hub_stat: "$30.2B a year to religious hospitals that run the only ER in 63 counties"
 sources:
   - "CMS Provider of Services File"
   - "CMS Hospital Cost Reports (HCRIS 2022-2024)"
