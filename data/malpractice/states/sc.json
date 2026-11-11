@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "SC",
     "state_name": "South Carolina",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 12,
@@ -133,7 +133,7 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "DIMKPA, OKECHUKWU nan",
+      "name": "DIMKPA, OKECHUKWU",
       "npi": "1205894243",
       "score": 68.0,
       "exclusion_label": "Felony Controlled Substance",
@@ -141,7 +141,7 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "MCCUTCHEN, WILLIAM nan",
+      "name": "MCCUTCHEN, WILLIAM",
       "npi": "1477507739",
       "score": 68.0,
       "exclusion_label": "Felony Controlled Substance",
@@ -149,7 +149,7 @@
       "specialty": "ANESTHESIOLOGY"
     },
     {
-      "name": "SAMAAN, MARK nan",
+      "name": "SAMAAN, MARK",
       "npi": "1154550622",
       "score": 62.0,
       "exclusion_label": "License Revoked/Suspended",

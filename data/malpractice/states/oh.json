@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "OH",
     "state_name": "Ohio",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 127,
@@ -167,7 +167,7 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "YAKHMI, RAJIV nan",
+      "name": "YAKHMI, RAJIV",
       "npi": "1841276292",
       "score": 82.0,
       "exclusion_label": "Program-Related Crime",
@@ -207,7 +207,7 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "SINGH, ANKITA nan",
+      "name": "SINGH, ANKITA",
       "npi": "1265870935",
       "score": 73.0,
       "exclusion_label": "Program-Related Crime",
@@ -223,7 +223,7 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
-      "name": "GETACHEW, ESKENDER nan",
+      "name": "GETACHEW, ESKENDER",
       "npi": "1033177571",
       "score": 71.0,
       "exclusion_label": "Felony Controlled Substance",
@@ -248,14 +248,14 @@
       "companies": 22
     },
     {
-      "name": "MIN, DENNIS nan",
+      "name": "MIN, DENNIS",
       "npi": "1104808518",
       "total_usd": 126783.47,
       "payment_count": 404,
       "companies": 24
     },
     {
-      "name": "RAHMAN, MAHMOOD nan",
+      "name": "RAHMAN, MAHMOOD",
       "npi": "1548248297",
       "total_usd": 44997.66,
       "payment_count": 358,
@@ -276,14 +276,14 @@
       "companies": 17
     },
     {
-      "name": "PAOLONE, VINCENT nan",
+      "name": "PAOLONE, VINCENT",
       "npi": "1619069739",
       "total_usd": 23607.34,
       "payment_count": 358,
       "companies": 34
     },
     {
-      "name": "FRANZESE, JOSEPH nan",
+      "name": "FRANZESE, JOSEPH",
       "npi": "1093002586",
       "total_usd": 17932.62,
       "payment_count": 48,

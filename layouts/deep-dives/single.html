@@ -308,12 +308,13 @@
       {{ partial "data-explorer.html" (dict
         "id" "faith-explorer"
         "title" "Explore Religious Healthcare Deserts"
-        "description" "Counties where the only emergency room is operated by a religious health system. Filter by state or search by hospital name."
+        "description" "68 counties where every hospital is religious-operated. In 63 the only emergency room is religious-operated; in the other 5 the only hospital is religious but has no ER (see the ER status column). Filter by state or search by hospital name."
         "jsonUrl" "/data/faith_deserts.csv"
         "csvUrl" "/data/faith_deserts.csv"
         "columns" (slice
           (dict "key" "county_name" "label" "County" "type" "text")
           (dict "key" "state" "label" "State" "type" "text")
+          (dict "key" "er_status" "label" "ER status" "type" "text")
           (dict "key" "religious_hospital_names" "label" "Hospital" "type" "text")
           (dict "key" "parent_system" "label" "System" "type" "text")
           (dict "key" "denomination" "label" "Denomination" "type" "text")

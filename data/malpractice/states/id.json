@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "ID",
     "state_name": "Idaho",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 7,
@@ -107,7 +107,7 @@
       "specialty": "PATHOLOGY"
     },
     {
-      "name": "BUTLER, MARK nan",
+      "name": "BUTLER, MARK",
       "npi": "1831107341",
       "score": 47.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -138,7 +138,7 @@
       "companies": 1
     },
     {
-      "name": "BUTLER, MARK nan",
+      "name": "BUTLER, MARK",
       "npi": "1831107341",
       "total_usd": 15.12,
       "payment_count": 1,

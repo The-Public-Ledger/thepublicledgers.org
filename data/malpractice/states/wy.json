@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "WY",
     "state_name": "Wyoming",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 6,
@@ -54,7 +54,7 @@
       "specialty": "GYN/OBS"
     },
     {
-      "name": "BAUMSTARCK, JOSEPH nan",
+      "name": "BAUMSTARCK, JOSEPH",
       "npi": "1538121025",
       "score": 50.0,
       "exclusion_label": "Felony Controlled Substance",

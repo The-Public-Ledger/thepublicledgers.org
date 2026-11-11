@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "CT",
     "state_name": "Connecticut",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 28,
@@ -140,7 +140,7 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "THILLAINATHAN, ANANTHAKUMAR nan",
+      "name": "THILLAINATHAN, ANANTHAKUMAR",
       "npi": "1285900621",
       "score": 73.0,
       "exclusion_label": "Program-Related Crime",
@@ -148,7 +148,7 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "BRAYLOVSKY, ANATOLY nan",
+      "name": "BRAYLOVSKY, ANATOLY",
       "npi": "1023004124",
       "score": 71.0,
       "exclusion_label": "Program-Related Crime",
@@ -180,7 +180,7 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "IDREES, JAHANZAIB nan",
+      "name": "IDREES, JAHANZAIB",
       "npi": "1003312018",
       "score": 70.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -188,7 +188,7 @@
       "specialty": "SURGERY"
     },
     {
-      "name": "KLJUSEV, LJUDMIL nan",
+      "name": "KLJUSEV, LJUDMIL",
       "npi": "1891869566",
       "score": 69.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -206,7 +206,7 @@
   ],
   "industry_payments": [
     {
-      "name": "BRAYLOVSKY, ANATOLY nan",
+      "name": "BRAYLOVSKY, ANATOLY",
       "npi": "1023004124",
       "total_usd": 3101.71,
       "payment_count": 220,
@@ -227,14 +227,14 @@
       "companies": 22
     },
     {
-      "name": "THILLAINATHAN, ANANTHAKUMAR nan",
+      "name": "THILLAINATHAN, ANANTHAKUMAR",
       "npi": "1285900621",
       "total_usd": 1335.78,
       "payment_count": 95,
       "companies": 19
     },
     {
-      "name": "GYAMBIBI, KAKRA nan",
+      "name": "GYAMBIBI, KAKRA",
       "npi": "1760641666",
       "total_usd": 1066.42,
       "payment_count": 56,

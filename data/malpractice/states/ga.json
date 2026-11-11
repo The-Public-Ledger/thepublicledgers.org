@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "GA",
     "state_name": "Georgia",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 57,
@@ -192,7 +192,7 @@
       "specialty": "OTORHINOLARYNGOLOGY"
     },
     {
-      "name": "ASKARI, NEVORN nan",
+      "name": "ASKARI, NEVORN",
       "npi": "1073739579",
       "score": 68.0,
       "exclusion_label": "Felony Controlled Substance",
@@ -254,7 +254,7 @@
       "companies": 14
     },
     {
-      "name": "MOSS, DOUGLAS nan",
+      "name": "MOSS, DOUGLAS",
       "npi": "1679542781",
       "total_usd": 639.77,
       "payment_count": 8,
@@ -282,7 +282,7 @@
       "companies": 7
     },
     {
-      "name": "CHEEKS, CURTIS nan",
+      "name": "CHEEKS, CURTIS",
       "npi": "1528164092",
       "total_usd": 209.34,
       "payment_count": 12,

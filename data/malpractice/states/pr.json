@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "PR",
     "state_name": "Puerto Rico",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 51,
@@ -102,7 +102,7 @@
       "specialty": "EMERGENCY MEDICINE"
     },
     {
-      "name": "PIETRI SEPULVEDA, RICHARD nan",
+      "name": "PIETRI SEPULVEDA, RICHARD",
       "npi": "1811966591",
       "score": 74.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -110,7 +110,7 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "RODRIGUEZ NAVARRO, RAYMOND nan",
+      "name": "RODRIGUEZ NAVARRO, RAYMOND",
       "npi": "1184691461",
       "score": 74.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -134,7 +134,7 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "ESCOBAR, SAMUEL nan",
+      "name": "ESCOBAR, SAMUEL",
       "npi": "1538143136",
       "score": 71.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -142,7 +142,7 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "MERCEDES DE PEA, EUSEBIO nan",
+      "name": "MERCEDES DE PEA, EUSEBIO",
       "npi": "1659318681",
       "score": 71.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -167,7 +167,7 @@
       "companies": 12
     },
     {
-      "name": "MELENDEZ ORTIZ, FELIX nan",
+      "name": "MELENDEZ ORTIZ, FELIX",
       "npi": "1356404909",
       "total_usd": 1296.26,
       "payment_count": 32,
@@ -202,7 +202,7 @@
       "companies": 7
     },
     {
-      "name": "ALVAREZ, MARIO nan",
+      "name": "ALVAREZ, MARIO",
       "npi": "1083630016",
       "total_usd": 361.91,
       "payment_count": 5,

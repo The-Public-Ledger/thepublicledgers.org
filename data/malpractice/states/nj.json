@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "NJ",
     "state_name": "New Jersey",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 80,
@@ -144,7 +144,7 @@
   ],
   "priority_cases": [
     {
-      "name": "SAYEGH, RJ nan",
+      "name": "SAYEGH, RJ",
       "npi": "1346274966",
       "score": 81.2,
       "exclusion_label": "Program-Related Crime",
@@ -152,7 +152,7 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "GRINBERG, SAGY nan",
+      "name": "GRINBERG, SAGY",
       "npi": "1093177503",
       "score": 77.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -216,7 +216,7 @@
       "specialty": "CARDIOLOGY"
     },
     {
-      "name": "CHU, ALICE nan",
+      "name": "CHU, ALICE",
       "npi": "1962513366",
       "score": 68.0,
       "exclusion_label": "Program-Related Crime",
@@ -226,14 +226,14 @@
   ],
   "industry_payments": [
     {
-      "name": "CHU, ALICE nan",
+      "name": "CHU, ALICE",
       "npi": "1962513366",
       "total_usd": 167238.53,
       "payment_count": 200,
       "companies": 20
     },
     {
-      "name": "BURKE, WILLIAM nan",
+      "name": "BURKE, WILLIAM",
       "npi": "1932154739",
       "total_usd": 9498.32,
       "payment_count": 17,
@@ -261,7 +261,7 @@
       "companies": 23
     },
     {
-      "name": "CATANIA, RAYMOND nan",
+      "name": "CATANIA, RAYMOND",
       "npi": "1023094711",
       "total_usd": 1373.87,
       "payment_count": 90,
@@ -275,7 +275,7 @@
       "companies": 5
     },
     {
-      "name": "CONTE, SALVATORE nan",
+      "name": "CONTE, SALVATORE",
       "npi": "1174688493",
       "total_usd": 943.3,
       "payment_count": 49,
@@ -289,7 +289,7 @@
       "companies": 19
     },
     {
-      "name": "GRINBERG, SAGY nan",
+      "name": "GRINBERG, SAGY",
       "npi": "1093177503",
       "total_usd": 810.0,
       "payment_count": 41,

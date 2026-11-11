@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "LA",
     "state_name": "Louisiana",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 51,
@@ -157,7 +157,7 @@
       "specialty": "EMERGENCY MEDICINE"
     },
     {
-      "name": "HAAS, SHANNON nan",
+      "name": "HAAS, SHANNON",
       "npi": "1710205034",
       "score": 71.0,
       "exclusion_label": "Program-Related Crime",
@@ -165,7 +165,7 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "JUAKALI, EBONY nan",
+      "name": "JUAKALI, EBONY",
       "npi": "1376905901",
       "score": 70.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -191,7 +191,7 @@
   ],
   "industry_payments": [
     {
-      "name": "HAAS, SHANNON nan",
+      "name": "HAAS, SHANNON",
       "npi": "1710205034",
       "total_usd": 25660.43,
       "payment_count": 26,
@@ -226,7 +226,7 @@
       "companies": 12
     },
     {
-      "name": "CHUNG, CHI FEI nan",
+      "name": "CHUNG, CHI FEI",
       "npi": "1720158066",
       "total_usd": 1398.72,
       "payment_count": 32,

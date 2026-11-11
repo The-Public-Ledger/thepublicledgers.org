@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "NY",
     "state_name": "New York",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 287,
@@ -217,7 +217,7 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "BELFIORE, MICHAEL nan",
+      "name": "BELFIORE, MICHAEL",
       "npi": "1598801557",
       "score": 80.0,
       "exclusion_label": "Patient Abuse/Neglect",
@@ -233,7 +233,7 @@
       "specialty": "UROLOGY"
     },
     {
-      "name": "RATANAPRSATPORN, SOMSRI nan",
+      "name": "RATANAPRSATPORN, SOMSRI",
       "npi": "1508858838",
       "score": 79.0,
       "exclusion_label": "Felony Controlled Substance",
@@ -279,7 +279,7 @@
       "companies": 71
     },
     {
-      "name": "SMITH, JENNIFER nan",
+      "name": "SMITH, JENNIFER",
       "npi": "1700035722",
       "total_usd": 20158.17,
       "payment_count": 61,
@@ -314,7 +314,7 @@
       "companies": 55
     },
     {
-      "name": "WAHBA, SAMEH nan",
+      "name": "WAHBA, SAMEH",
       "npi": "1154544567",
       "total_usd": 9676.05,
       "payment_count": 123,

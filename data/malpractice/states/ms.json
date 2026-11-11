@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "MS",
     "state_name": "Mississippi",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 16,
@@ -92,7 +92,7 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
-      "name": "SULTAN, SHAHJAHAN nan",
+      "name": "SULTAN, SHAHJAHAN",
       "npi": "1699938498",
       "score": 72.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -100,7 +100,7 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "DIAZ, ALBERT nan",
+      "name": "DIAZ, ALBERT",
       "npi": "1124032644",
       "score": 69.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -116,7 +116,7 @@
       "specialty": "GASTROENTEROLOGY"
     },
     {
-      "name": "NELSON, SCOTT nan",
+      "name": "NELSON, SCOTT",
       "npi": "1336220276",
       "score": 68.0,
       "exclusion_label": "Program-Related Crime",
@@ -132,7 +132,7 @@
       "specialty": "ANESTHESIOLOGY"
     },
     {
-      "name": "BROWN, NATE nan",
+      "name": "BROWN, NATE",
       "npi": "1184727745",
       "score": 65.0,
       "exclusion_label": "Program-Related Crime",
@@ -180,14 +180,14 @@
       "companies": 16
     },
     {
-      "name": "NELSON, SCOTT nan",
+      "name": "NELSON, SCOTT",
       "npi": "1336220276",
       "total_usd": 423.14,
       "payment_count": 6,
       "companies": 3
     },
     {
-      "name": "JACKSON, JOSEPH nan",
+      "name": "JACKSON, JOSEPH",
       "npi": "1922074806",
       "total_usd": 364.06,
       "payment_count": 21,

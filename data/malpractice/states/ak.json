@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "AK",
     "state_name": "Alaska",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 5,
@@ -88,7 +88,7 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "AHMAD, MAHMOOD nan",
+      "name": "AHMAD, MAHMOOD",
       "npi": "1831145929",
       "score": 59.0,
       "exclusion_label": "License Revoked/Suspended",

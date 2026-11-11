@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "PA",
     "state_name": "Pennsylvania",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 132,
@@ -172,7 +172,7 @@
       "specialty": "ANESTHESIOLOGY"
     },
     {
-      "name": "VERDELL, CLARENCE nan",
+      "name": "VERDELL, CLARENCE",
       "npi": "1649206376",
       "score": 85.0,
       "exclusion_label": "Program-Related Crime",
@@ -220,7 +220,7 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "ADIBI, JUSTIN nan",
+      "name": "ADIBI, JUSTIN",
       "npi": "1063073757",
       "score": 75.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -236,7 +236,7 @@
       "specialty": "PEDIATRICS"
     },
     {
-      "name": "ANAND, NEIL nan",
+      "name": "ANAND, NEIL",
       "npi": "1982626818",
       "score": 71.0,
       "exclusion_label": "Program-Related Crime",
@@ -267,7 +267,7 @@
       "companies": 59
     },
     {
-      "name": "BIRD, LUIS nan",
+      "name": "BIRD, LUIS",
       "npi": "1538222658",
       "total_usd": 10758.03,
       "payment_count": 530,

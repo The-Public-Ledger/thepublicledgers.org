@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "NC",
     "state_name": "North Carolina",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 34,
@@ -294,11 +294,11 @@
       "companies": 2
     },
     {
-      "name": "BROWNING, TREYA ZION",
-      "npi": "1780044115",
-      "total_usd": 305.82,
-      "payment_count": 15,
-      "companies": 12
+      "name": "KUMAR, SANJAY",
+      "npi": "1508915216",
+      "total_usd": 276.81,
+      "payment_count": 19,
+      "companies": 5
     }
   ]
 }

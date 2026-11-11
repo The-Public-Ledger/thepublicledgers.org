@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "OR",
     "state_name": "Oregon",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 39,
@@ -130,7 +130,7 @@
       "specialty": "PSYCHIATRY"
     },
     {
-      "name": "THOMAS, HAROLD nan",
+      "name": "THOMAS, HAROLD",
       "npi": "1639173339",
       "score": 70.0,
       "exclusion_label": "Felony Controlled Substance",
@@ -162,7 +162,7 @@
       "specialty": "RADIOLOGY"
     },
     {
-      "name": "PHAM, NHAN nan",
+      "name": "PHAM, NHAN",
       "npi": "1457775611",
       "score": 65.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -217,7 +217,7 @@
       "companies": 43
     },
     {
-      "name": "PHAM, NHAN nan",
+      "name": "PHAM, NHAN",
       "npi": "1457775611",
       "total_usd": 5301.59,
       "payment_count": 47,

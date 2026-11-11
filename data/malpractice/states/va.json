@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "VA",
     "state_name": "Virginia",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 70,
@@ -226,7 +226,7 @@
   ],
   "industry_payments": [
     {
-      "name": "GAGLIONE, JIMDAVID nan",
+      "name": "GAGLIONE, JIMDAVID",
       "npi": "1487629796",
       "total_usd": 24140.76,
       "payment_count": 1,

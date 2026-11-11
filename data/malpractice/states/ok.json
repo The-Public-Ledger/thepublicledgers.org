@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "OK",
     "state_name": "Oklahoma",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 27,
@@ -131,7 +131,7 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "BELK, JOHN nan",
+      "name": "BELK, JOHN",
       "npi": "1790199982",
       "score": 65.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -202,7 +202,7 @@
       "companies": 5
     },
     {
-      "name": "CRUSE, ANTHONY nan",
+      "name": "CRUSE, ANTHONY",
       "npi": "1235139692",
       "total_usd": 213.13,
       "payment_count": 3,
@@ -216,7 +216,7 @@
       "companies": 3
     },
     {
-      "name": "JAMES, ANDREA nan",
+      "name": "JAMES, ANDREA",
       "npi": "1932312691",
       "total_usd": 78.66,
       "payment_count": 2,

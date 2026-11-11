@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "WV",
     "state_name": "West Virginia",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 33,
@@ -178,7 +178,7 @@
       "specialty": "PSYCHIATRY"
     },
     {
-      "name": "KESARI, SRIRAMLOO nan",
+      "name": "KESARI, SRIRAMLOO",
       "npi": "1558318832",
       "score": 71.0,
       "exclusion_label": "Felony Controlled Substance",
@@ -218,7 +218,7 @@
       "specialty": "SURGERY"
     },
     {
-      "name": "AGGARWAL, MADHU nan",
+      "name": "AGGARWAL, MADHU",
       "npi": "1336136431",
       "score": 65.0,
       "exclusion_label": "Program-Related Crime",
@@ -285,14 +285,14 @@
       "companies": 5
     },
     {
-      "name": "AGGARWAL, MADHU nan",
+      "name": "AGGARWAL, MADHU",
       "npi": "1336136431",
       "total_usd": 261.65,
       "payment_count": 4,
       "companies": 1
     },
     {
-      "name": "KABBARA, ZOUHAIR nan",
+      "name": "KABBARA, ZOUHAIR",
       "npi": "1285068668",
       "total_usd": 242.57,
       "payment_count": 12,

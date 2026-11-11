@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "AL",
     "state_name": "Alabama",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 59,
@@ -154,7 +154,7 @@
   ],
   "priority_cases": [
     {
-      "name": "RUAN, XIULU nan",
+      "name": "RUAN, XIULU",
       "npi": "1023079274",
       "score": 85.0,
       "exclusion_label": "Program-Related Crime",
@@ -194,7 +194,7 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "ROBERTS, PAUL nan",
+      "name": "ROBERTS, PAUL",
       "npi": "1902996713",
       "score": 69.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -257,7 +257,7 @@
       "companies": 51
     },
     {
-      "name": "SIDDIQUE, MOHAMMAD nan",
+      "name": "SIDDIQUE, MOHAMMAD",
       "npi": "1336107184",
       "total_usd": 1212.69,
       "payment_count": 11,

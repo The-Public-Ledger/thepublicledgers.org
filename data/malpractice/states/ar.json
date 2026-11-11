@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "AR",
     "state_name": "Arkansas",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 12,
@@ -166,7 +166,7 @@
       "specialty": "PEDIATRICS"
     },
     {
-      "name": "BECTON, PAUL nan",
+      "name": "BECTON, PAUL",
       "npi": "1760587398",
       "score": 56.0,
       "exclusion_label": "Patient Abuse/Neglect",

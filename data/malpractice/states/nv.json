@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "NV",
     "state_name": "Nevada",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 30,
@@ -119,7 +119,7 @@
   ],
   "priority_cases": [
     {
-      "name": "KESTEN, JEFFREY nan",
+      "name": "KESTEN, JEFFREY",
       "npi": "1124107909",
       "score": 84.2,
       "exclusion_label": "Program-Related Crime",
@@ -127,7 +127,7 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
-      "name": "ALVEAR, WILLIAM nan",
+      "name": "ALVEAR, WILLIAM",
       "npi": "1154413110",
       "score": 74.0,
       "exclusion_label": "Felony Controlled Substance",
@@ -167,7 +167,7 @@
       "specialty": "CARDIOLOGY"
     },
     {
-      "name": "ASSAD, ABDOLLAH nan",
+      "name": "ASSAD, ABDOLLAH",
       "npi": "1588633143",
       "score": 70.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -222,14 +222,14 @@
       "companies": 17
     },
     {
-      "name": "ASSAD, ABDOLLAH nan",
+      "name": "ASSAD, ABDOLLAH",
       "npi": "1588633143",
       "total_usd": 3991.0,
       "payment_count": 234,
       "companies": 21
     },
     {
-      "name": "BRUCE, VICTOR nan",
+      "name": "BRUCE, VICTOR",
       "npi": "1134139884",
       "total_usd": 1522.19,
       "payment_count": 35,

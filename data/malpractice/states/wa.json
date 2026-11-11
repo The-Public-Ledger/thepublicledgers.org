@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "WA",
     "state_name": "Washington",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 55,
@@ -155,7 +155,7 @@
       "specialty": "INFECTIOUS DISEASE"
     },
     {
-      "name": "VOEGELPODADERA, ANDREW nan",
+      "name": "VOEGELPODADERA, ANDREW",
       "npi": "1386393031",
       "score": 80.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -211,7 +211,7 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "MARLOW, LEA nan",
+      "name": "MARLOW, LEA",
       "npi": "1790740686",
       "score": 68.0,
       "exclusion_label": "Felony Controlled Substance",

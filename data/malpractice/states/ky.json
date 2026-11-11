@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "KY",
     "state_name": "Kentucky",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 62,
@@ -205,7 +205,7 @@
       "specialty": "PSYCHIATRY"
     },
     {
-      "name": "PEAVLER, ROBIN nan",
+      "name": "PEAVLER, ROBIN",
       "npi": "1619995552",
       "score": 69.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -213,7 +213,7 @@
       "specialty": "EMERGENCY MEDICINE"
     },
     {
-      "name": "AKANDE, EZEKIEL nan",
+      "name": "AKANDE, EZEKIEL",
       "npi": "1003859885",
       "score": 68.0,
       "exclusion_label": "Program-Related Crime",
@@ -245,7 +245,7 @@
       "companies": 50
     },
     {
-      "name": "MOHAMED, AMR nan",
+      "name": "MOHAMED, AMR",
       "npi": "1992988257",
       "total_usd": 9100.16,
       "payment_count": 18,
@@ -287,7 +287,7 @@
       "companies": 11
     },
     {
-      "name": "ALZADON, JOSE nan",
+      "name": "ALZADON, JOSE",
       "npi": "1366612459",
       "total_usd": 208.14,
       "payment_count": 6,

@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "IL",
     "state_name": "Illinois",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 110,
@@ -167,7 +167,7 @@
       "specialty": "CARDIOLOGY"
     },
     {
-      "name": "TOH, BENJAMIN nan",
+      "name": "TOH, BENJAMIN",
       "npi": "1750313177",
       "score": 71.0,
       "exclusion_label": "Program-Related Crime",
@@ -175,7 +175,7 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "RUDICH, PERRY nan",
+      "name": "RUDICH, PERRY",
       "npi": "1699721829",
       "score": 70.0,
       "exclusion_label": "Fraud/Kickbacks",
@@ -183,7 +183,7 @@
       "specialty": "RADIOLOGY"
     },
     {
-      "name": "NAGAJ, EGUERT nan",
+      "name": "NAGAJ, EGUERT",
       "npi": "1376550442",
       "score": 69.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -231,7 +231,7 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "PERALES, CONSTANTINO nan",
+      "name": "PERALES, CONSTANTINO",
       "npi": "1417942376",
       "score": 68.0,
       "exclusion_label": "Felony Controlled Substance",
@@ -241,14 +241,14 @@
   ],
   "industry_payments": [
     {
-      "name": "MAHESHWARI, HIRALAL nan",
+      "name": "MAHESHWARI, HIRALAL",
       "npi": "1740238757",
       "total_usd": 86036.33,
       "payment_count": 1028,
       "companies": 54
     },
     {
-      "name": "BROTMAN, MONIQUE nan",
+      "name": "BROTMAN, MONIQUE",
       "npi": "1447395108",
       "total_usd": 73533.11,
       "payment_count": 169,
@@ -269,14 +269,14 @@
       "companies": 12
     },
     {
-      "name": "DIACONESCU, ELIZA nan",
+      "name": "DIACONESCU, ELIZA",
       "npi": "1881655140",
       "total_usd": 1146.37,
       "payment_count": 91,
       "companies": 22
     },
     {
-      "name": "MEMAR, OMEED nan",
+      "name": "MEMAR, OMEED",
       "npi": "1538200308",
       "total_usd": 1059.08,
       "payment_count": 3,

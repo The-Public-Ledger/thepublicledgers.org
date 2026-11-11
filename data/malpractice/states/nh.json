@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "NH",
     "state_name": "New Hampshire",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 10,
@@ -49,7 +49,7 @@
   ],
   "priority_cases": [
     {
-      "name": "DUYMAZLAR, HASAN nan",
+      "name": "DUYMAZLAR, HASAN",
       "npi": "1902876659",
       "score": 71.0,
       "exclusion_label": "Program-Related Crime",
@@ -57,7 +57,7 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "MARKS, THOMAS nan",
+      "name": "MARKS, THOMAS",
       "npi": "1932188455",
       "score": 65.0,
       "exclusion_label": "Patient Abuse/Neglect",
@@ -97,7 +97,7 @@
       "specialty": "PSYCHIATRY"
     },
     {
-      "name": "KRESSIN, NANCY nan",
+      "name": "KRESSIN, NANCY",
       "npi": "1700956513",
       "score": 44.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -105,7 +105,7 @@
       "specialty": "ANESTHESIOLOGY"
     },
     {
-      "name": "TAYTAWAT, PONGPEERA nan",
+      "name": "TAYTAWAT, PONGPEERA",
       "npi": "1215224449",
       "score": 41.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -131,7 +131,7 @@
   ],
   "industry_payments": [
     {
-      "name": "MARKS, THOMAS nan",
+      "name": "MARKS, THOMAS",
       "npi": "1932188455",
       "total_usd": 1687.03,
       "payment_count": 15,

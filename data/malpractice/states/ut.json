@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "UT",
     "state_name": "Utah",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 20,
@@ -87,7 +87,7 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
-      "name": "BINNEBOESE, ADAM nan",
+      "name": "BINNEBOESE, ADAM",
       "npi": "1508253717",
       "score": 70.5,
       "exclusion_label": "Felony Healthcare Fraud",

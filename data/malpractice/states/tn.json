@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "TN",
     "state_name": "Tennessee",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 79,
@@ -226,14 +226,14 @@
   ],
   "industry_payments": [
     {
-      "name": "ALPEROVICH, ALEXANDER nan",
+      "name": "ALPEROVICH, ALEXANDER",
       "npi": "1922096221",
       "total_usd": 13469.86,
       "payment_count": 567,
       "companies": 39
     },
     {
-      "name": "MISRA, EVA nan",
+      "name": "MISRA, EVA",
       "npi": "1578983094",
       "total_usd": 4681.67,
       "payment_count": 52,

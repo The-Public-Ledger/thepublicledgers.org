@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "MI",
     "state_name": "Michigan",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 158,
@@ -142,7 +142,7 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "JANKOWSKI, DAVID nan",
+      "name": "JANKOWSKI, DAVID",
       "npi": "1588612923",
       "score": 88.0,
       "exclusion_label": "Program-Related Crime",
@@ -158,7 +158,7 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "HARDY, ANDREW nan",
+      "name": "HARDY, ANDREW",
       "npi": "1710101688",
       "score": 81.2,
       "exclusion_label": "Program-Related Crime",
@@ -182,7 +182,7 @@
       "specialty": "INFECTIOUS DISEASE"
     },
     {
-      "name": "ASLAM, NAVEED nan",
+      "name": "ASLAM, NAVEED",
       "npi": "1235146002",
       "score": 75.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -198,7 +198,7 @@
       "specialty": "OTORHINOLARYNGOLOGY"
     },
     {
-      "name": "ZAKI, GAMAL nan",
+      "name": "ZAKI, GAMAL",
       "npi": "1780674218",
       "score": 75.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -206,7 +206,7 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
-      "name": "NAEEM, NAVEED nan",
+      "name": "NAEEM, NAVEED",
       "npi": "1255537056",
       "score": 75.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -237,7 +237,7 @@
       "companies": 8
     },
     {
-      "name": "ASLAM, NAVEED nan",
+      "name": "ASLAM, NAVEED",
       "npi": "1235146002",
       "total_usd": 28600.83,
       "payment_count": 583,
@@ -251,14 +251,14 @@
       "companies": 1
     },
     {
-      "name": "DANESHVAR, GERALD nan",
+      "name": "DANESHVAR, GERALD",
       "npi": "1548427164",
       "total_usd": 23454.8,
       "payment_count": 21,
       "companies": 1
     },
     {
-      "name": "ZAKI, GAMAL nan",
+      "name": "ZAKI, GAMAL",
       "npi": "1780674218",
       "total_usd": 11619.73,
       "payment_count": 507,

@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "NM",
     "state_name": "New Mexico",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 18,
@@ -82,7 +82,7 @@
       "specialty": "PSYCHIATRY"
     },
     {
-      "name": "LEVITT, KEITH nan",
+      "name": "LEVITT, KEITH",
       "npi": "1922346428",
       "score": 71.0,
       "exclusion_label": "Program-Related Crime",
@@ -90,7 +90,7 @@
       "specialty": "ANESTHESIOLOGY"
     },
     {
-      "name": "JAIN, PAWANKUMAR nan",
+      "name": "JAIN, PAWANKUMAR",
       "npi": "1255404471",
       "score": 68.0,
       "exclusion_label": "Felony Controlled Substance",
@@ -98,7 +98,7 @@
       "specialty": "PSYCHIATRY"
     },
     {
-      "name": "HEYWOOD, GLENROY nan",
+      "name": "HEYWOOD, GLENROY",
       "npi": "1386665529",
       "score": 59.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -177,7 +177,7 @@
       "companies": 10
     },
     {
-      "name": "LEVITT, KEITH nan",
+      "name": "LEVITT, KEITH",
       "npi": "1922346428",
       "total_usd": 261.87,
       "payment_count": 9,

@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "TX",
     "state_name": "Texas",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 193,
@@ -187,7 +187,7 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
-      "name": "ANWAR, FATEN nan",
+      "name": "ANWAR, FATEN",
       "npi": "1417928656",
       "score": 76.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -251,7 +251,7 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "MALAVE, ERNESTO nan",
+      "name": "MALAVE, ERNESTO",
       "npi": "1609985852",
       "score": 72.2,
       "exclusion_label": "Program-Related Crime",
@@ -282,14 +282,14 @@
       "companies": 1
     },
     {
-      "name": "DE JESUS, ALEX nan",
+      "name": "DE JESUS, ALEX",
       "npi": "1013986629",
       "total_usd": 68122.47,
       "payment_count": 324,
       "companies": 28
     },
     {
-      "name": "MIRANDA, EDUARDO nan",
+      "name": "MIRANDA, EDUARDO",
       "npi": "1285673012",
       "total_usd": 35335.1,
       "payment_count": 1506,
@@ -324,7 +324,7 @@
       "companies": 42
     },
     {
-      "name": "UBALDO, HECTOR nan",
+      "name": "UBALDO, HECTOR",
       "npi": "1790795383",
       "total_usd": 6428.76,
       "payment_count": 110,

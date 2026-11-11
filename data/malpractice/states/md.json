@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "MD",
     "state_name": "Maryland",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 56,
@@ -175,7 +175,7 @@
       "specialty": "ANESTHESIOLOGY"
     },
     {
-      "name": "YEROKUN, OLUWATOBI nan",
+      "name": "YEROKUN, OLUWATOBI",
       "npi": "1922398114",
       "score": 73.0,
       "exclusion_label": "Program-Related Crime",
@@ -199,7 +199,7 @@
       "specialty": "GYN/OBS"
     },
     {
-      "name": "GAMEZ, WILFREDO nan",
+      "name": "GAMEZ, WILFREDO",
       "npi": "1568740843",
       "score": 65.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -269,14 +269,14 @@
       "companies": 14
     },
     {
-      "name": "YEROKUN, OLUWATOBI nan",
+      "name": "YEROKUN, OLUWATOBI",
       "npi": "1922398114",
       "total_usd": 1744.67,
       "payment_count": 24,
       "companies": 10
     },
     {
-      "name": "HAMILTON, JOHN nan",
+      "name": "HAMILTON, JOHN",
       "npi": "1992961312",
       "total_usd": 1721.03,
       "payment_count": 26,

@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "DC",
     "state_name": "District of Columbia",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 6,
@@ -85,7 +85,7 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "POOYA, MANOOCHEHR nan",
+      "name": "POOYA, MANOOCHEHR",
       "npi": "1770663882",
       "score": 71.0,
       "exclusion_label": "Patient Abuse/Neglect",
@@ -93,7 +93,7 @@
       "specialty": "CARDIOLOGY"
     },
     {
-      "name": "LEVINE, LEWIS nan",
+      "name": "LEVINE, LEWIS",
       "npi": "1891978771",
       "score": 62.0,
       "exclusion_label": "Program-Related Crime",

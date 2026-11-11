@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "MO",
     "state_name": "Missouri",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 50,
@@ -127,7 +127,7 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "IZQUIERDOMALON, ROMEL nan",
+      "name": "IZQUIERDOMALON, ROMEL",
       "npi": "1033422357",
       "score": 76.0,
       "exclusion_label": "Program-Related Crime",
@@ -135,7 +135,7 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "JAYASWAL, GAUTAM nan",
+      "name": "JAYASWAL, GAUTAM",
       "npi": "1477732659",
       "score": 76.0,
       "exclusion_label": "Program-Related Crime",
@@ -159,7 +159,7 @@
       "specialty": "EMERGENCY MEDICINE"
     },
     {
-      "name": "DERGES, PATRICIA nan",
+      "name": "DERGES, PATRICIA",
       "npi": "1134648959",
       "score": 72.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -236,7 +236,7 @@
       "companies": 12
     },
     {
-      "name": "ALI, IFTIKHAR nan",
+      "name": "ALI, IFTIKHAR",
       "npi": "1700813607",
       "total_usd": 8982.6,
       "payment_count": 685,
@@ -250,7 +250,7 @@
       "companies": 18
     },
     {
-      "name": "MALIK, SHAZIA nan",
+      "name": "MALIK, SHAZIA",
       "npi": "1477552206",
       "total_usd": 7288.21,
       "payment_count": 401,

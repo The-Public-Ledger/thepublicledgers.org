@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "CA",
     "state_name": "California",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 437,
@@ -195,7 +195,7 @@
       "specialty": "ANESTHESIOLOGY"
     },
     {
-      "name": "KARIMI, PARTO nan",
+      "name": "KARIMI, PARTO",
       "npi": "1225225048",
       "score": 74.0,
       "exclusion_label": "Felony Controlled Substance",
@@ -219,7 +219,7 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "PAYNE, DAVID nan",
+      "name": "PAYNE, DAVID",
       "npi": "1760492193",
       "score": 72.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -275,7 +275,7 @@
       "companies": 10
     },
     {
-      "name": "TEPPER, GIL nan",
+      "name": "TEPPER, GIL",
       "npi": "1821147976",
       "total_usd": 37579.76,
       "payment_count": 6,
@@ -289,7 +289,7 @@
       "companies": 8
     },
     {
-      "name": "BIJANPOUR, KAMAL nan",
+      "name": "BIJANPOUR, KAMAL",
       "npi": "1598903858",
       "total_usd": 23492.35,
       "payment_count": 37,
@@ -303,7 +303,7 @@
       "companies": 4
     },
     {
-      "name": "SIAO, DONALD nan",
+      "name": "SIAO, DONALD",
       "npi": "1861415374",
       "total_usd": 16484.64,
       "payment_count": 900,

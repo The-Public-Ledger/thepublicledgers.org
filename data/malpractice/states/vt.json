@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "VT",
     "state_name": "Vermont",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 3,
@@ -42,7 +42,7 @@
       "specialty": "GYN/OBS"
     },
     {
-      "name": "BLOHM, EIKE nan",
+      "name": "BLOHM, EIKE",
       "npi": "1215227467",
       "score": 62.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -50,7 +50,7 @@
       "specialty": "EMERGENCY MEDICINE"
     },
     {
-      "name": "FRANK, LOUIS JAY nan",
+      "name": "FRANK, LOUIS JAY",
       "npi": "1245270776",
       "score": 41.0,
       "exclusion_label": "License Revoked/Suspended",

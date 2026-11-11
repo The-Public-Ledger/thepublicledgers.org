@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "MA",
     "state_name": "Massachusetts",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 51,
@@ -139,7 +139,7 @@
   ],
   "priority_cases": [
     {
-      "name": "REUBEN, SCOTT nan",
+      "name": "REUBEN, SCOTT",
       "npi": "1992796015",
       "score": 86.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -147,7 +147,7 @@
       "specialty": "ANESTHESIOLOGY"
     },
     {
-      "name": "ARONSONFOX, RISA nan",
+      "name": "ARONSONFOX, RISA",
       "npi": "1255426136",
       "score": 76.0,
       "exclusion_label": "Program-Related Crime",
@@ -171,7 +171,7 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "SHAFA, RAHIM nan",
+      "name": "SHAFA, RAHIM",
       "npi": "1205920527",
       "score": 75.5,
       "exclusion_label": "Felony Healthcare Fraud",
@@ -221,7 +221,7 @@
   ],
   "industry_payments": [
     {
-      "name": "SHAFA, RAHIM nan",
+      "name": "SHAFA, RAHIM",
       "npi": "1205920527",
       "total_usd": 46623.84,
       "payment_count": 314,
@@ -242,7 +242,7 @@
       "companies": 11
     },
     {
-      "name": "GODEFROI, ROBERT nan",
+      "name": "GODEFROI, ROBERT",
       "npi": "1669460994",
       "total_usd": 1627.11,
       "payment_count": 119,
@@ -263,14 +263,14 @@
       "companies": 5
     },
     {
-      "name": "GREEN, MARK nan",
+      "name": "GREEN, MARK",
       "npi": "1407075294",
       "total_usd": 135.22,
       "payment_count": 5,
       "companies": 3
     },
     {
-      "name": "DERKEVORKIAN, NAZARET nan",
+      "name": "DERKEVORKIAN, NAZARET",
       "npi": "1467441253",
       "total_usd": 133.54,
       "payment_count": 2,

@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "KS",
     "state_name": "Kansas",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 8,
@@ -97,7 +97,7 @@
       "specialty": "ANESTHESIOLOGY"
     },
     {
-      "name": "HENSON, STEVEN nan",
+      "name": "HENSON, STEVEN",
       "npi": "1518923580",
       "score": 68.0,
       "exclusion_label": "Felony Controlled Substance",

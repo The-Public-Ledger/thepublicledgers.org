@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "FL",
     "state_name": "Florida",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 273,
@@ -172,7 +172,7 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "GHOSH, MONA nan",
+      "name": "GHOSH, MONA",
       "npi": "1497915185",
       "score": 81.0,
       "exclusion_label": "Program-Related Crime",
@@ -236,7 +236,7 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
-      "name": "GARCIADORTA, FERNANDO nan",
+      "name": "GARCIADORTA, FERNANDO",
       "npi": "1487605515",
       "score": 70.0,
       "exclusion_label": "Program-Related Crime",
@@ -253,7 +253,7 @@
       "companies": 12
     },
     {
-      "name": "PAPPACHEN, STEPHEN nan",
+      "name": "PAPPACHEN, STEPHEN",
       "npi": "1063418580",
       "total_usd": 1254904.16,
       "payment_count": 1781,
@@ -281,7 +281,7 @@
       "companies": 27
     },
     {
-      "name": "MORALES, OSMIN nan",
+      "name": "MORALES, OSMIN",
       "npi": "1942217526",
       "total_usd": 41800.94,
       "payment_count": 5,

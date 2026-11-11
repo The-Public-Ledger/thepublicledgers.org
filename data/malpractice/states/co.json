@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "CO",
     "state_name": "Colorado",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 40,
@@ -191,7 +191,7 @@
       "specialty": "ONCOLOGY"
     },
     {
-      "name": "SBARBARO, JAMES nan",
+      "name": "SBARBARO, JAMES",
       "npi": "1558315986",
       "score": 61.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -201,7 +201,7 @@
   ],
   "industry_payments": [
     {
-      "name": "MATTHEWS, STEPHEN nan",
+      "name": "MATTHEWS, STEPHEN",
       "npi": "1982099297",
       "total_usd": 2871.01,
       "payment_count": 100,

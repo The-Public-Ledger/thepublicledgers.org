@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "MN",
     "state_name": "Minnesota",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 8,
@@ -134,7 +134,7 @@
       "specialty": "SURGERY"
     },
     {
-      "name": "COOK, RENEE nan",
+      "name": "COOK, RENEE",
       "npi": "1598985517",
       "score": 41.0,
       "exclusion_label": "License Revoked/Suspended",

@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "AZ",
     "state_name": "Arizona",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 26,
@@ -128,7 +128,7 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
-      "name": "BILLING, RAJEEV nan",
+      "name": "BILLING, RAJEEV",
       "npi": "1821430562",
       "score": 62.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -144,7 +144,7 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "MARTINEZ, XAVIER nan",
+      "name": "MARTINEZ, XAVIER",
       "npi": "1780688218",
       "score": 62.0,
       "exclusion_label": "Patient Abuse/Neglect",
@@ -176,7 +176,7 @@
       "specialty": "INTERNAL MEDICINE"
     },
     {
-      "name": "HOCHANE, SAM nan",
+      "name": "HOCHANE, SAM",
       "npi": "1437122587",
       "score": 56.0,
       "exclusion_label": "Patient Abuse/Neglect",
@@ -228,14 +228,14 @@
       "companies": 5
     },
     {
-      "name": "SINGH, ANKITA nan",
+      "name": "SINGH, ANKITA",
       "npi": "1265870935",
       "total_usd": 219.76,
       "payment_count": 8,
       "companies": 5
     },
     {
-      "name": "BILLING, RAJEEV nan",
+      "name": "BILLING, RAJEEV",
       "npi": "1821430562",
       "total_usd": 163.05,
       "payment_count": 10,

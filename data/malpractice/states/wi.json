@@ -2,7 +2,7 @@
   "meta": {
     "state_abbr": "WI",
     "state_name": "Wisconsin",
-    "last_updated": "2026-11-09"
+    "last_updated": "2026-11-11"
   },
   "summary_stats": {
     "excluded_count": 26,
@@ -95,7 +95,7 @@
       "specialty": "PEDIATRICS"
     },
     {
-      "name": "MURALI, RAVI nan",
+      "name": "MURALI, RAVI",
       "npi": "1134310451",
       "score": 68.0,
       "exclusion_label": "Program-Related Crime",
@@ -127,7 +127,7 @@
       "specialty": "GENERAL PRACTICE"
     },
     {
-      "name": "LOPEZ, GLORIA nan",
+      "name": "LOPEZ, GLORIA",
       "npi": "1558466359",
       "score": 56.0,
       "exclusion_label": "License Revoked/Suspended",
@@ -161,14 +161,14 @@
   ],
   "industry_payments": [
     {
-      "name": "ARASSI, SIAMAK nan",
+      "name": "ARASSI, SIAMAK",
       "npi": "1083680417",
       "total_usd": 1675.06,
       "payment_count": 110,
       "companies": 14
     },
     {
-      "name": "MORASKI, LUANN nan",
+      "name": "MORASKI, LUANN",
       "npi": "1689625436",
       "total_usd": 1397.82,
       "payment_count": 87,
@@ -196,7 +196,7 @@
       "companies": 17
     },
     {
-      "name": "LOPEZ, GLORIA nan",
+      "name": "LOPEZ, GLORIA",
       "npi": "1558466359",
       "total_usd": 115.67,
       "payment_count": 1,
@@ -210,7 +210,7 @@
       "companies": 1
     },
     {
-      "name": "IQBAL, ZAFAR nan",
+      "name": "IQBAL, ZAFAR",
       "npi": "1740267459",
       "total_usd": 66.92,
       "payment_count": 3,
