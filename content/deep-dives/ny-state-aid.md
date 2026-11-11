@@ -17,10 +17,6 @@ sources:
   - "U.S. Census Bureau, 2020 population; American Community Survey 2023 5-year"
 ---
 
-<div class="context-callout">
-<strong>Disclosure:</strong> The principal researcher was a 2026 candidate for Erie County Legislator and did not win. This analysis is based solely on public financial filings and certified election results, and treats Erie County the same way as every other county. Methodology: <a href="/methodology/">/methodology/</a>.
-</div>
-
 A common belief in parts of upstate New York is that Albany sends more help to other communities. The State's own financial filings show the opposite pattern for State aid to local governments: it is larger, per resident, where there is less property wealth to tax.
 
 ## Aid falls as taxable wealth rises
@@ -59,4 +55,4 @@ These are associations, not causes. Aid formulas do not take votes into account,
 
 ## Status
 
-This analysis is published with documented limitations. It went through a six-reviewer peer review on November 10, 2026 and a targeted re-review on November 11, and its headline and vote-group figures were recomputed directly from the raw government files. Questions about how specific lines are coded were sent to the State Comptroller, the New York City Comptroller and the State Education Department on November 11, 2026; this page will be updated with their answers. County figures for both years can be downloaded below.
+This analysis is published with documented limitations. It went through a six-reviewer peer review on November 10, 2026 and a targeted re-review on November 11, and its headline and vote-group figures were recomputed directly from the raw government files. Questions about how specific lines are coded were sent to the State Comptroller, the New York City Comptroller and the State Education Department on November 11, 2026; this page will be updated with their answers. County figures for both years can be downloaded below. Methodology: [/methodology/](/methodology/).
