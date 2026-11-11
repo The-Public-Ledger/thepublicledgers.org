@@ -50,6 +50,31 @@
         <span class="totals-bar__label">donor index records</span>
       </div>
       {{ end }}
+      {{/* NY State Aid stats */}}
+      {{ with $stats.nysa_wq1_state }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">${{ lang.FormatNumber 0 . }}</span>
+        <span class="totals-bar__label">State aid per resident, least-wealthy quarter of counties</span>
+      </div>
+      {{ end }}
+      {{ with $stats.nysa_wq4_state }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">${{ lang.FormatNumber 0 . }}</span>
+        <span class="totals-bar__label">wealthiest quarter</span>
+      </div>
+      {{ end }}
+      {{ with $stats.nysa_trump_state }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">${{ lang.FormatNumber 0 . }}</span>
+        <span class="totals-bar__label">counties Trump won (per resident)</span>
+      </div>
+      {{ end }}
+      {{ with $stats.nysa_harris_state }}
+      <div class="totals-bar__item">
+        <span class="totals-bar__value">${{ lang.FormatNumber 0 . }}</span>
+        <span class="totals-bar__label">counties Harris won (per resident)</span>
+      </div>
+      {{ end }}
       {{/* Faith investigation stats */}}
       {{ with $stats.desert_counties }}
       <div class="totals-bar__item">
@@ -323,6 +348,30 @@
           (dict "key" "beds" "label" "Beds" "type" "num")
         )
         "stateField" "state"
+        "countyField" ""
+        "context" ""
+      ) }}
+    {{ end }}
+    {{ if eq $slug "ny_state_aid" }}
+      {{ partial "data-explorer.html" (dict
+        "id" "ny-state-aid-explorer"
+        "title" "Explore aid by county, FY2024"
+        "description" "State and federal aid received by local governments, per resident and per pupil, for the 57 counties outside New York City and the city as one unit, with the certified 2024 presidential margin (Trump minus Harris, in points). Download the FY2025 preliminary table: /data/ny_state_aid_counties_2025.csv"
+        "jsonUrl" "/data/ny_state_aid_counties_2024.csv"
+        "csvUrl" "/data/ny_state_aid_counties_2024.csv"
+        "columns" (slice
+          (dict "key" "name" "label" "County" "type" "text")
+          (dict "key" "won" "label" "2024 winner" "type" "text")
+          (dict "key" "margin" "label" "Margin (pts)" "type" "num")
+          (dict "key" "state" "label" "State aid / resident" "type" "money")
+          (dict "key" "state_school" "label" "State school aid / resident" "type" "money")
+          (dict "key" "fed" "label" "Federal aid / resident" "type" "money")
+          (dict "key" "both" "label" "State + federal / resident" "type" "money")
+          (dict "key" "state_school_pp" "label" "State school aid / pupil" "type" "money")
+          (dict "key" "fv" "label" "Property value / resident" "type" "money")
+          (dict "key" "pop" "label" "Population (2020)" "type" "num")
+        )
+        "stateField" ""
         "countyField" ""
         "context" ""
       ) }}
