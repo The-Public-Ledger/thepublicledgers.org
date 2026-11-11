@@ -67,7 +67,6 @@ MO→IL,MO,IL,3,Midwest,Midwest
 FL→TN,FL,TN,3,South,South
 FL→MA,FL,MA,3,South,Northeast
 WA→OR,WA,OR,3,West,West
-AZ→OH,AZ,OH,3,West,Midwest
 LA→AL,LA,AL,3,South,South
 IN→IL,IN,IL,3,Midwest,Midwest
 MD→VA,MD,VA,3,South,South
@@ -118,6 +117,7 @@ AZ→TX,AZ,TX,2,West,South
 IN→MO,IN,MO,2,Midwest,Midwest
 TX→CO,TX,CO,2,South,West
 IN→WA,IN,WA,2,Midwest,West
+AZ→OH,AZ,OH,2,West,Midwest
 MD→WI,MD,WI,2,South,Midwest
 MN→MI,MN,MI,2,Midwest,Midwest
 AR→TX,AR,TX,2,South,South
@@ -246,7 +246,6 @@ FL→IL,FL,IL,1,South,Midwest
 NY→PA,NY,PA,1,Northeast,Northeast
 NC→MO,NC,MO,1,South,Midwest
 MD→NY,MD,NY,1,South,Northeast
-OR→GA,OR,GA,1,West,South
 PA→DC,PA,DC,1,Northeast,South
 WA→NM,WA,NM,1,West,West
 FL→MS,FL,MS,1,South,South
@@ -308,6 +307,7 @@ MD→CT,MD,CT,1,South,Northeast
 NH→PA,NH,PA,1,Northeast,Northeast
 PA→RI,PA,RI,1,Northeast,Northeast
 NM→AR,NM,AR,1,West,South
+IL→AZ,IL,AZ,1,Midwest,West
 ME→MA,ME,MA,1,Northeast,Northeast
 FL→CT,FL,CT,1,South,Northeast
 OH→SC,OH,SC,1,Midwest,South

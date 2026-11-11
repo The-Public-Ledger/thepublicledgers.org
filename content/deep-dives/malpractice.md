@@ -1,6 +1,6 @@
 ---
 title: "Malpractice Accountability"
-description: "2,953 federally excluded physicians still maintain active provider records. Cross-referencing OIG exclusion lists against the national provider registry."
+description: "2,945 federally excluded physicians still maintain active provider records. Cross-referencing OIG exclusion lists against the national provider registry."
 date: 2026-03-19
 status: "active"
 featured: true
@@ -9,7 +9,7 @@ tags: ["malpractice", "patient-safety", "healthcare-fraud"]
 layout: "deep-dive"
 deep_dive_slug: "malpractice"
 category: "patients"
-hub_stat: "2,953 excluded physicians still hold active NPI records"
+hub_stat: "2,945 excluded physicians still hold active NPI records"
 sources:
   - "OIG List of Excluded Individuals/Entities (LEIE)"
   - "CMS National Plan and Provider Enumeration System (NPPES)"

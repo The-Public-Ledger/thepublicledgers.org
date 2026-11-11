@@ -6,8 +6,8 @@
   },
   "summary_stats": {
     "excluded_count": 39,
-    "physician_population": 17794,
-    "per_1000_physicians": 2.192,
+    "physician_population": 17886,
+    "per_1000_physicians": 2.18,
     "double_flagged": 8,
     "industry_payments_usd": 85661.99999999999
   },
@@ -94,11 +94,6 @@
     {
       "to_state": "NY",
       "to_name": "New York",
-      "count": 1
-    },
-    {
-      "to_state": "GA",
-      "to_name": "Georgia",
       "count": 1
     },
     {

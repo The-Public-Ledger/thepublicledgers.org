@@ -5,9 +5,9 @@
     "last_updated": "2026-11-11"
   },
   "summary_stats": {
-    "excluded_count": 127,
-    "physician_population": 48972,
-    "per_1000_physicians": 2.593,
+    "excluded_count": 126,
+    "physician_population": 48828,
+    "per_1000_physicians": 2.58,
     "double_flagged": 18,
     "industry_payments_usd": 513652.69000000006
   },
@@ -15,7 +15,7 @@
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 46
+      "count": 45
     },
     {
       "code": "1128b4",
@@ -70,11 +70,6 @@
       "count": 8
     },
     {
-      "from_state": "AZ",
-      "from_name": "Arizona",
-      "count": 3
-    },
-    {
       "from_state": "FL",
       "from_name": "Florida",
       "count": 2
@@ -82,6 +77,11 @@
     {
       "from_state": "AL",
       "from_name": "Alabama",
+      "count": 2
+    },
+    {
+      "from_state": "AZ",
+      "from_name": "Arizona",
       "count": 2
     },
     {
@@ -159,6 +159,14 @@
   ],
   "priority_cases": [
     {
+      "name": "HEINEY, JAKE P",
+      "npi": "1215081773",
+      "score": 94.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2017-04-20",
+      "specialty": "INTERNAL MEDICINE"
+    },
+    {
       "name": "FRANTZ, GARY JAMES",
       "npi": "1073510855",
       "score": 91.0,
@@ -183,14 +191,6 @@
       "specialty": "PEDIATRICS"
     },
     {
-      "name": "HEINEY, JAKE P",
-      "npi": "1215081773",
-      "score": 74.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2017-04-20",
-      "specialty": "INTERNAL MEDICINE"
-    },
-    {
       "name": "ROMANO, THOMAS JAMES",
       "npi": "1902136443",
       "score": 74.0,
@@ -204,14 +204,6 @@
       "score": 73.0,
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2017-10-19",
-      "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "SINGH, ANKITA",
-      "npi": "1265870935",
-      "score": 73.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2026-09-20",
       "specialty": "FAMILY PRACTICE"
     },
     {
@@ -237,6 +229,14 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2026-01-20",
       "specialty": "ANESTHESIOLOGY"
+    },
+    {
+      "name": "MUKHDOMI, GULAM",
+      "npi": "1184653214",
+      "score": 71.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-01-20",
+      "specialty": "PAIN MANAGEMENT"
     }
   ],
   "industry_payments": [

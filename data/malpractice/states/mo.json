@@ -6,8 +6,8 @@
   },
   "summary_stats": {
     "excluded_count": 50,
-    "physician_population": 25354,
-    "per_1000_physicians": 1.972,
+    "physician_population": 25340,
+    "per_1000_physicians": 1.973,
     "double_flagged": 4,
     "industry_payments_usd": 1167622.62
   },
@@ -119,6 +119,22 @@
   ],
   "priority_cases": [
     {
+      "name": "ALI, ASIM M",
+      "npi": "1821047218",
+      "score": 91.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2026-01-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "SAGGAR, SONNY S",
+      "npi": "1578596235",
+      "score": 91.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-10-20",
+      "specialty": "EMERGENCY MEDICINE"
+    },
+    {
       "name": "ELLEGOOD, JAMES H",
       "npi": "1760479372",
       "score": 82.0,
@@ -151,12 +167,12 @@
       "specialty": "RADIOLOGY"
     },
     {
-      "name": "SAGGAR, SONNY S",
-      "npi": "1578596235",
+      "name": "MALHOTRA, RAJESH",
+      "npi": "1891748547",
       "score": 76.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2025-10-20",
-      "specialty": "EMERGENCY MEDICINE"
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2016-05-19",
+      "specialty": "NEPHROLOGY"
     },
     {
       "name": "DERGES, PATRICIA",
@@ -164,14 +180,6 @@
       "score": 72.5,
       "exclusion_label": "Felony Healthcare Fraud",
       "exclusion_date": "2023-09-20",
-      "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "ALI, ASIM M",
-      "npi": "1821047218",
-      "score": 71.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2026-01-20",
       "specialty": "FAMILY PRACTICE"
     },
     {
@@ -189,14 +197,6 @@
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2026-08-20",
       "specialty": "ANESTHESIOLOGY"
-    },
-    {
-      "name": "SPIEGEL, CRAIG A",
-      "npi": "1548262942",
-      "score": 71.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2026-08-20",
-      "specialty": "PEDIATRICS"
     }
   ],
   "industry_payments": [

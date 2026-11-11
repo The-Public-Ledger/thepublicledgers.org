@@ -8,28 +8,28 @@
       "NY OPMC Board Actions (Health Data NY)",
       "CA DHCS Suspended & Ineligible List"
     ],
-    "record_count": 2953
+    "record_count": 2945
   },
   "headline_stats": {
-    "total_excluded_active": 2953,
-    "patient_abuse": 150,
-    "healthcare_fraud": 212,
-    "drug_felonies": 546,
-    "license_action": 1083,
-    "program_crime": 815,
-    "other_exclusions": 147,
-    "state_migrants": 758,
-    "double_flagged": 1095,
-    "industry_payments_usd": 18967580.96,
-    "industry_payments_physicians": 1215
+    "total_excluded_active": 2945,
+    "patient_abuse": 149,
+    "healthcare_fraud": 211,
+    "drug_felonies": 544,
+    "license_action": 1079,
+    "program_crime": 816,
+    "other_exclusions": 146,
+    "state_migrants": 757,
+    "double_flagged": 1092,
+    "industry_payments_usd": 18741589.68,
+    "industry_payments_physicians": 1214
   },
   "top_findings": [
-    "2,953 federally excluded physicians still maintain active National Provider Identifier (NPI) records",
-    "150 physicians convicted of patient abuse or neglect have active NPI records",
-    "212 convicted of felony healthcare fraud maintain active provider identifiers",
-    "758 excluded physicians (25%) migrated to a different state after exclusion",
-    "1095 physicians are double-flagged with both federal exclusion and state board sanctions",
-    "1215 excluded physicians received $18,967,581 in industry payments (2019\u20132025)"
+    "2,945 federally excluded physicians still maintain active National Provider Identifier (NPI) records",
+    "149 physicians convicted of patient abuse or neglect have active NPI records",
+    "211 convicted of felony healthcare fraud maintain active provider identifiers",
+    "757 excluded physicians (25%) migrated to a different state after exclusion",
+    "1092 physicians are double-flagged with both federal exclusion and state board sanctions",
+    "1214 excluded physicians received $18,741,590 in industry payments (2019\u20132025)"
   ],
   "migration_corridors": [
     {
@@ -110,94 +110,94 @@
   ],
   "specialty_hotspots": [
     {
-      "specialty": "Addiction Medicine (Family Medicine)",
-      "enrichment_ratio": 7.55,
-      "excluded_count": 12,
-      "population_count": 700
-    },
-    {
       "specialty": "Neuromusculoskeletal Medicine",
-      "enrichment_ratio": 7.53,
+      "enrichment_ratio": 7.61,
       "excluded_count": 7,
-      "population_count": 409
+      "population_count": 406
     },
     {
-      "specialty": "Pain Medicine (PM&R)",
-      "enrichment_ratio": 6.96,
-      "excluded_count": 24,
-      "population_count": 1518
+      "specialty": "Addiction Medicine (Family Medicine)",
+      "enrichment_ratio": 7.51,
+      "excluded_count": 12,
+      "population_count": 706
     },
     {
       "specialty": "Legal Medicine",
-      "enrichment_ratio": 6.94,
+      "enrichment_ratio": 7.07,
       "excluded_count": 13,
-      "population_count": 825
+      "population_count": 812
+    },
+    {
+      "specialty": "Pain Medicine (PM&R)",
+      "enrichment_ratio": 6.84,
+      "excluded_count": 24,
+      "population_count": 1550
     },
     {
       "specialty": "Addiction Medicine",
-      "enrichment_ratio": 6.21,
-      "excluded_count": 8,
-      "population_count": 567
+      "enrichment_ratio": 5.48,
+      "excluded_count": 7,
+      "population_count": 564
     },
     {
       "specialty": "146D00000X",
-      "enrichment_ratio": 4.79,
+      "enrichment_ratio": 4.91,
       "excluded_count": 5,
-      "population_count": 459
+      "population_count": 450
     },
     {
       "specialty": "General Practice",
-      "enrichment_ratio": 4.66,
-      "excluded_count": 156,
-      "population_count": 14749
+      "enrichment_ratio": 4.61,
+      "excluded_count": 155,
+      "population_count": 14839
     },
     {
       "specialty": "Addiction Psychiatry",
-      "enrichment_ratio": 4.45,
+      "enrichment_ratio": 4.47,
       "excluded_count": 6,
-      "population_count": 594
+      "population_count": 593
     },
     {
       "specialty": "Adult Medicine",
-      "enrichment_ratio": 4.32,
+      "enrichment_ratio": 4.35,
       "excluded_count": 18,
-      "population_count": 1832
+      "population_count": 1829
     },
     {
       "specialty": "Pain Medicine",
-      "enrichment_ratio": 4.25,
+      "enrichment_ratio": 4.23,
       "excluded_count": 23,
-      "population_count": 2382
+      "population_count": 2399
     },
     {
       "specialty": "Pain Medicine (Anesthesiology)",
-      "enrichment_ratio": 4.22,
+      "enrichment_ratio": 4.19,
       "excluded_count": 37,
-      "population_count": 3863
+      "population_count": 3900
     },
     {
       "specialty": "Interventional Pain Medicine",
-      "enrichment_ratio": 4.0,
+      "enrichment_ratio": 3.94,
       "excluded_count": 13,
-      "population_count": 1430
+      "population_count": 1456
     },
     {
       "specialty": "Neuromusculoskeletal Medicine & OMM",
-      "enrichment_ratio": 3.72,
+      "enrichment_ratio": 3.75,
       "excluded_count": 10,
-      "population_count": 1184
+      "population_count": 1179
     },
     {
       "specialty": "Geriatric Medicine (Family Medicine)",
-      "enrichment_ratio": 3.07,
+      "enrichment_ratio": 3.08,
       "excluded_count": 11,
       "population_count": 1577
     },
     {
       "specialty": "Forensic Psychiatry",
-      "enrichment_ratio": 2.79,
+      "enrichment_ratio": 2.82,
       "excluded_count": 5,
-      "population_count": 789
+      "population_count": 783
     }
   ],
   "temporal_trends": [
@@ -246,14 +246,14 @@
     {
       "year": 2007,
       "total_excluded": 171,
-      "still_active": 20,
-      "persistence_pct": 11.7
+      "still_active": 19,
+      "persistence_pct": 11.1
     },
     {
       "year": 2008,
       "total_excluded": 173,
-      "still_active": 34,
-      "persistence_pct": 19.7
+      "still_active": 33,
+      "persistence_pct": 19.1
     },
     {
       "year": 2009,
@@ -282,20 +282,20 @@
     {
       "year": 2013,
       "total_excluded": 252,
-      "still_active": 125,
-      "persistence_pct": 49.6
+      "still_active": 124,
+      "persistence_pct": 49.2
     },
     {
       "year": 2014,
       "total_excluded": 284,
-      "still_active": 154,
-      "persistence_pct": 54.2
+      "still_active": 152,
+      "persistence_pct": 53.5
     },
     {
       "year": 2015,
       "total_excluded": 281,
-      "still_active": 169,
-      "persistence_pct": 60.1
+      "still_active": 168,
+      "persistence_pct": 59.8
     },
     {
       "year": 2016,
@@ -324,8 +324,8 @@
     {
       "year": 2020,
       "total_excluded": 208,
-      "still_active": 143,
-      "persistence_pct": 68.8
+      "still_active": 142,
+      "persistence_pct": 68.3
     },
     {
       "year": 2021,
@@ -336,8 +336,8 @@
     {
       "year": 2022,
       "total_excluded": 283,
-      "still_active": 221,
-      "persistence_pct": 78.1
+      "still_active": 220,
+      "persistence_pct": 77.7
     },
     {
       "year": 2023,
@@ -360,8 +360,8 @@
     {
       "year": 2026,
       "total_excluded": 205,
-      "still_active": 181,
-      "persistence_pct": 88.3
+      "still_active": 180,
+      "persistence_pct": 87.8
     }
   ],
   "geographic_hotspots": [
@@ -369,351 +369,351 @@
       "state": "WV",
       "state_name": "West Virginia",
       "excluded_count": 33,
-      "physician_population": 6709,
-      "per_1000": 4.919
-    },
-    {
-      "state": "PR",
-      "state_name": "Puerto Rico",
-      "excluded_count": 51,
-      "physician_population": 12564,
-      "per_1000": 4.059
+      "physician_population": 6696,
+      "per_1000": 4.928
     },
     {
       "state": "KY",
       "state_name": "Kentucky",
       "excluded_count": 62,
-      "physician_population": 15282,
+      "physician_population": 15283,
       "per_1000": 4.057
     },
     {
-      "state": "WY",
-      "state_name": "Wyoming",
-      "excluded_count": 6,
-      "physician_population": 1518,
-      "per_1000": 3.953
+      "state": "PR",
+      "state_name": "Puerto Rico",
+      "excluded_count": 50,
+      "physician_population": 12589,
+      "per_1000": 3.972
     },
     {
       "state": "AL",
       "state_name": "Alabama",
       "excluded_count": 59,
-      "physician_population": 14963,
-      "per_1000": 3.943
+      "physician_population": 14973,
+      "per_1000": 3.94
+    },
+    {
+      "state": "WY",
+      "state_name": "Wyoming",
+      "excluded_count": 6,
+      "physician_population": 1525,
+      "per_1000": 3.934
     },
     {
       "state": "MI",
       "state_name": "Michigan",
       "excluded_count": 158,
-      "physician_population": 43201,
-      "per_1000": 3.657
+      "physician_population": 43037,
+      "per_1000": 3.671
     },
     {
       "state": "TN",
       "state_name": "Tennessee",
       "excluded_count": 79,
-      "physician_population": 23717,
-      "per_1000": 3.331
+      "physician_population": 23759,
+      "per_1000": 3.325
     },
     {
       "state": "LA",
       "state_name": "Louisiana",
       "excluded_count": 51,
-      "physician_population": 15761,
-      "per_1000": 3.236
+      "physician_population": 15741,
+      "per_1000": 3.24
     },
     {
       "state": "NV",
       "state_name": "Nevada",
       "excluded_count": 30,
-      "physician_population": 9320,
+      "physician_population": 9321,
       "per_1000": 3.219
     },
     {
       "state": "FL",
       "state_name": "Florida",
-      "excluded_count": 273,
-      "physician_population": 85446,
-      "per_1000": 3.195
+      "excluded_count": 272,
+      "physician_population": 85802,
+      "per_1000": 3.17
     },
     {
       "state": "CA",
       "state_name": "California",
-      "excluded_count": 437,
-      "physician_population": 146723,
-      "per_1000": 2.978
+      "excluded_count": 436,
+      "physician_population": 147142,
+      "per_1000": 2.963
     },
     {
       "state": "NY",
       "state_name": "New York",
-      "excluded_count": 287,
-      "physician_population": 103668,
-      "per_1000": 2.768
+      "excluded_count": 286,
+      "physician_population": 103472,
+      "per_1000": 2.764
     },
     {
       "state": "OH",
       "state_name": "Ohio",
-      "excluded_count": 127,
-      "physician_population": 48972,
-      "per_1000": 2.593
+      "excluded_count": 126,
+      "physician_population": 48828,
+      "per_1000": 2.58
     },
     {
       "state": "NM",
       "state_name": "New Mexico",
       "excluded_count": 18,
-      "physician_population": 7199,
-      "per_1000": 2.5
+      "physician_population": 7176,
+      "per_1000": 2.508
     },
     {
       "state": "MT",
       "state_name": "Montana",
       "excluded_count": 9,
-      "physician_population": 3794,
-      "per_1000": 2.372
+      "physician_population": 3785,
+      "per_1000": 2.378
     },
     {
       "state": "OK",
       "state_name": "Oklahoma",
       "excluded_count": 27,
-      "physician_population": 11823,
-      "per_1000": 2.284
+      "physician_population": 11843,
+      "per_1000": 2.28
     },
     {
       "state": "VA",
       "state_name": "Virginia",
       "excluded_count": 70,
-      "physician_population": 31209,
-      "per_1000": 2.243
+      "physician_population": 31258,
+      "per_1000": 2.239
     },
     {
       "state": "IL",
       "state_name": "Illinois",
-      "excluded_count": 110,
-      "physician_population": 49642,
-      "per_1000": 2.216
+      "excluded_count": 109,
+      "physician_population": 49591,
+      "per_1000": 2.198
     },
     {
       "state": "OR",
       "state_name": "Oregon",
       "excluded_count": 39,
-      "physician_population": 17794,
-      "per_1000": 2.192
+      "physician_population": 17886,
+      "per_1000": 2.18
     },
     {
       "state": "TX",
       "state_name": "Texas",
       "excluded_count": 193,
-      "physician_population": 89696,
-      "per_1000": 2.152
-    },
-    {
-      "state": "PA",
-      "state_name": "Pennsylvania",
-      "excluded_count": 132,
-      "physician_population": 62585,
-      "per_1000": 2.109
+      "physician_population": 89811,
+      "per_1000": 2.149
     },
     {
       "state": "NJ",
       "state_name": "New Jersey",
       "excluded_count": 80,
-      "physician_population": 37973,
-      "per_1000": 2.107
+      "physician_population": 38043,
+      "per_1000": 2.103
+    },
+    {
+      "state": "PA",
+      "state_name": "Pennsylvania",
+      "excluded_count": 131,
+      "physician_population": 62414,
+      "per_1000": 2.099
     },
     {
       "state": "MS",
       "state_name": "Mississippi",
       "excluded_count": 16,
-      "physician_population": 7868,
-      "per_1000": 2.034
+      "physician_population": 7842,
+      "per_1000": 2.04
     },
     {
       "state": "MD",
       "state_name": "Maryland",
-      "excluded_count": 56,
-      "physician_population": 27882,
-      "per_1000": 2.008
+      "excluded_count": 55,
+      "physician_population": 27767,
+      "per_1000": 1.981
     },
     {
       "state": "UT",
       "state_name": "Utah",
       "excluded_count": 20,
-      "physician_population": 10081,
-      "per_1000": 1.984
+      "physician_population": 10099,
+      "per_1000": 1.98
     },
     {
       "state": "MO",
       "state_name": "Missouri",
       "excluded_count": 50,
-      "physician_population": 25354,
-      "per_1000": 1.972
+      "physician_population": 25340,
+      "per_1000": 1.973
     },
     {
       "state": "AK",
       "state_name": "Alaska",
       "excluded_count": 5,
-      "physician_population": 2666,
-      "per_1000": 1.875
+      "physician_population": 2681,
+      "per_1000": 1.865
     },
     {
       "state": "WA",
       "state_name": "Washington",
-      "excluded_count": 55,
-      "physician_population": 30076,
-      "per_1000": 1.829
+      "excluded_count": 54,
+      "physician_population": 30162,
+      "per_1000": 1.79
     },
     {
       "state": "CO",
       "state_name": "Colorado",
       "excluded_count": 40,
-      "physician_population": 23265,
-      "per_1000": 1.719
-    },
-    {
-      "state": "IA",
-      "state_name": "Iowa",
-      "excluded_count": 17,
-      "physician_population": 9985,
-      "per_1000": 1.703
+      "physician_population": 23300,
+      "per_1000": 1.717
     },
     {
       "state": "DE",
       "state_name": "Delaware",
       "excluded_count": 7,
-      "physician_population": 4114,
-      "per_1000": 1.702
-    },
-    {
-      "state": "GA",
-      "state_name": "Georgia",
-      "excluded_count": 57,
-      "physician_population": 33765,
-      "per_1000": 1.688
+      "physician_population": 4109,
+      "per_1000": 1.704
     },
     {
       "state": "IN",
       "state_name": "Indiana",
       "excluded_count": 37,
-      "physician_population": 21958,
-      "per_1000": 1.685
+      "physician_population": 22046,
+      "per_1000": 1.678
     },
     {
       "state": "ME",
       "state_name": "Maine",
       "excluded_count": 11,
-      "physician_population": 6581,
-      "per_1000": 1.671
+      "physician_population": 6586,
+      "per_1000": 1.67
+    },
+    {
+      "state": "GA",
+      "state_name": "Georgia",
+      "excluded_count": 56,
+      "physician_population": 33839,
+      "per_1000": 1.655
+    },
+    {
+      "state": "IA",
+      "state_name": "Iowa",
+      "excluded_count": 16,
+      "physician_population": 10018,
+      "per_1000": 1.597
     },
     {
       "state": "NH",
       "state_name": "New Hampshire",
       "excluded_count": 10,
-      "physician_population": 6293,
-      "per_1000": 1.589
+      "physician_population": 6289,
+      "per_1000": 1.59
     },
     {
       "state": "CT",
       "state_name": "Connecticut",
       "excluded_count": 28,
-      "physician_population": 19326,
-      "per_1000": 1.449
+      "physician_population": 19273,
+      "per_1000": 1.453
     },
     {
       "state": "ID",
       "state_name": "Idaho",
       "excluded_count": 7,
-      "physician_population": 4998,
-      "per_1000": 1.401
+      "physician_population": 5017,
+      "per_1000": 1.395
     },
     {
       "state": "AR",
       "state_name": "Arkansas",
       "excluded_count": 12,
-      "physician_population": 9075,
-      "per_1000": 1.322
+      "physician_population": 9059,
+      "per_1000": 1.325
     },
     {
       "state": "MA",
       "state_name": "Massachusetts",
-      "excluded_count": 51,
-      "physician_population": 42972,
-      "per_1000": 1.187
+      "excluded_count": 52,
+      "physician_population": 42847,
+      "per_1000": 1.214
     },
     {
       "state": "WI",
       "state_name": "Wisconsin",
       "excluded_count": 26,
-      "physician_population": 23165,
-      "per_1000": 1.122
+      "physician_population": 23229,
+      "per_1000": 1.119
+    },
+    {
+      "state": "AZ",
+      "state_name": "Arizona",
+      "excluded_count": 28,
+      "physician_population": 25107,
+      "per_1000": 1.115
     },
     {
       "state": "VT",
       "state_name": "Vermont",
       "excluded_count": 3,
-      "physician_population": 2851,
-      "per_1000": 1.052
-    },
-    {
-      "state": "AZ",
-      "state_name": "Arizona",
-      "excluded_count": 26,
-      "physician_population": 25017,
-      "per_1000": 1.039
+      "physician_population": 2863,
+      "per_1000": 1.048
     },
     {
       "state": "HI",
       "state_name": "Hawaii",
       "excluded_count": 6,
-      "physician_population": 5986,
-      "per_1000": 1.002
-    },
-    {
-      "state": "NC",
-      "state_name": "North Carolina",
-      "excluded_count": 34,
-      "physician_population": 37425,
-      "per_1000": 0.908
+      "physician_population": 6004,
+      "per_1000": 0.999
     },
     {
       "state": "NE",
       "state_name": "Nebraska",
       "excluded_count": 6,
-      "physician_population": 6643,
-      "per_1000": 0.903
+      "physician_population": 6617,
+      "per_1000": 0.907
+    },
+    {
+      "state": "NC",
+      "state_name": "North Carolina",
+      "excluded_count": 34,
+      "physician_population": 37512,
+      "per_1000": 0.906
     },
     {
       "state": "KS",
       "state_name": "Kansas",
       "excluded_count": 8,
-      "physician_population": 9072,
-      "per_1000": 0.882
+      "physician_population": 9087,
+      "per_1000": 0.88
     },
     {
       "state": "DC",
       "state_name": "District of Columbia",
       "excluded_count": 6,
-      "physician_population": 7387,
-      "per_1000": 0.812
+      "physician_population": 7326,
+      "per_1000": 0.819
     },
     {
       "state": "RI",
       "state_name": "Rhode Island",
       "excluded_count": 4,
-      "physician_population": 5750,
-      "per_1000": 0.696
+      "physician_population": 5738,
+      "per_1000": 0.697
     },
     {
       "state": "SC",
       "state_name": "South Carolina",
       "excluded_count": 12,
-      "physician_population": 17860,
-      "per_1000": 0.672
+      "physician_population": 17920,
+      "per_1000": 0.67
     },
     {
       "state": "MN",
       "state_name": "Minnesota",
       "excluded_count": 8,
-      "physician_population": 24285,
-      "per_1000": 0.329
+      "physician_population": 24266,
+      "per_1000": 0.33
     }
   ]
 }

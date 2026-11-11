@@ -5,9 +5,9 @@
     "last_updated": "2026-11-11"
   },
   "summary_stats": {
-    "excluded_count": 273,
-    "physician_population": 85446,
-    "per_1000_physicians": 3.195,
+    "excluded_count": 272,
+    "physician_population": 85802,
+    "per_1000_physicians": 3.17,
     "double_flagged": 210,
     "industry_payments_usd": 3593999.66
   },
@@ -25,7 +25,7 @@
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 56
+      "count": 55
     },
     {
       "code": "1128a3",
@@ -236,11 +236,11 @@
       "specialty": "PAIN MANAGEMENT"
     },
     {
-      "name": "GARCIADORTA, FERNANDO",
-      "npi": "1487605515",
+      "name": "AWA, PAUL KAZUHIKO",
+      "npi": "1083655906",
       "score": 70.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2017-06-20",
+      "exclusion_label": "Felony Controlled Substance",
+      "exclusion_date": "2015-06-18",
       "specialty": "GENERAL PRACTICE"
     }
   ],

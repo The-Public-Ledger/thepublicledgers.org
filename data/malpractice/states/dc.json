@@ -6,8 +6,8 @@
   },
   "summary_stats": {
     "excluded_count": 6,
-    "physician_population": 7387,
-    "per_1000_physicians": 0.812,
+    "physician_population": 7326,
+    "per_1000_physicians": 0.819,
     "double_flagged": 2,
     "industry_payments_usd": 122442.29
   },
@@ -69,6 +69,14 @@
   ],
   "priority_cases": [
     {
+      "name": "POOYA, MANOOCHEHR",
+      "npi": "1770663882",
+      "score": 91.0,
+      "exclusion_label": "Patient Abuse/Neglect",
+      "exclusion_date": "2009-09-20",
+      "specialty": "CARDIOLOGY"
+    },
+    {
       "name": "AKHIGBE, EHIGIATOR OVBIOSE",
       "npi": "1720117518",
       "score": 78.2,
@@ -83,14 +91,6 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2025-10-20",
       "specialty": "INTERNAL MEDICINE"
-    },
-    {
-      "name": "POOYA, MANOOCHEHR",
-      "npi": "1770663882",
-      "score": 71.0,
-      "exclusion_label": "Patient Abuse/Neglect",
-      "exclusion_date": "2009-09-20",
-      "specialty": "CARDIOLOGY"
     },
     {
       "name": "LEVINE, LEWIS",

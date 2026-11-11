@@ -5,9 +5,9 @@
     "last_updated": "2026-11-11"
   },
   "summary_stats": {
-    "excluded_count": 110,
-    "physician_population": 49642,
-    "per_1000_physicians": 2.216,
+    "excluded_count": 109,
+    "physician_population": 49591,
+    "per_1000_physicians": 2.198,
     "double_flagged": 11,
     "industry_payments_usd": 172511.66999999993
   },
@@ -33,13 +33,13 @@
       "count": 8
     },
     {
-      "code": "1128a3",
-      "label": "Felony Healthcare Fraud",
-      "count": 6
-    },
-    {
       "code": "1128b7",
       "label": "Fraud/Kickbacks",
+      "count": 5
+    },
+    {
+      "code": "1128a3",
+      "label": "Felony Healthcare Fraud",
       "count": 5
     },
     {
@@ -142,6 +142,11 @@
       "count": 1
     },
     {
+      "to_state": "AZ",
+      "to_name": "Arizona",
+      "count": 1
+    },
+    {
       "to_state": "TN",
       "to_name": "Tennessee",
       "count": 1
@@ -158,6 +163,22 @@
     }
   ],
   "priority_cases": [
+    {
+      "name": "BHUTHIMETHEE, VIWATHNA",
+      "npi": "1285782599",
+      "score": 82.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2014-08-20",
+      "specialty": "GENERAL PRACTICE"
+    },
+    {
+      "name": "GREENE, PHILLIP",
+      "npi": "1346248481",
+      "score": 76.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2025-02-20",
+      "specialty": "SURGERY"
+    },
     {
       "name": "SHETH, SUSHIL A",
       "npi": "1265521587",
@@ -220,22 +241,6 @@
       "score": 68.0,
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2020-05-20",
-      "specialty": "INTERNAL MEDICINE"
-    },
-    {
-      "name": "MULTANI, SUKHWINDER S",
-      "npi": "1518176601",
-      "score": 68.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2018-10-18",
-      "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "PERALES, CONSTANTINO",
-      "npi": "1417942376",
-      "score": 68.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2020-01-20",
       "specialty": "INTERNAL MEDICINE"
     }
   ],

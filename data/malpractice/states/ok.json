@@ -6,8 +6,8 @@
   },
   "summary_stats": {
     "excluded_count": 27,
-    "physician_population": 11823,
-    "per_1000_physicians": 2.284,
+    "physician_population": 11843,
+    "per_1000_physicians": 2.28,
     "double_flagged": 2,
     "industry_payments_usd": 3091757.4299999997
   },
@@ -123,6 +123,14 @@
       "specialty": "FAMILY PRACTICE"
     },
     {
+      "name": "JENKINS, HARVEY CLARKE",
+      "npi": "1124060199",
+      "score": 73.0,
+      "exclusion_label": "Program-Related Crime",
+      "exclusion_date": "2024-01-18",
+      "specialty": "ORTHOPEDICS"
+    },
+    {
       "name": "ROBISON, MELVIN L",
       "npi": "1790887529",
       "score": 68.0,
@@ -137,6 +145,14 @@
       "exclusion_label": "License Revoked/Suspended",
       "exclusion_date": "2026-06-18",
       "specialty": "FAMILY PRACTICE"
+    },
+    {
+      "name": "PARKHURST, WESLEY E",
+      "npi": "1134226749",
+      "score": 61.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2010-01-20",
+      "specialty": "GENERAL PRACTICE/FP"
     },
     {
       "name": "BHARUCHA, KERSI J",
@@ -161,22 +177,6 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2024-05-20",
       "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "PATEL, NARESHKUMAR G",
-      "npi": "1740473933",
-      "score": 54.5,
-      "exclusion_label": "Felony Healthcare Fraud",
-      "exclusion_date": "2016-12-20",
-      "specialty": "GYN/OBS"
-    },
-    {
-      "name": "JENKINS, HARVEY CLARKE",
-      "npi": "1124060199",
-      "score": 53.0,
-      "exclusion_label": "Program-Related Crime",
-      "exclusion_date": "2024-01-18",
-      "specialty": "ORTHOPEDICS"
     }
   ],
   "industry_payments": [

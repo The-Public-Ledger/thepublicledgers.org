@@ -5,9 +5,9 @@
     "last_updated": "2026-11-11"
   },
   "summary_stats": {
-    "excluded_count": 17,
-    "physician_population": 9985,
-    "per_1000_physicians": 1.703,
+    "excluded_count": 16,
+    "physician_population": 10018,
+    "per_1000_physicians": 1.597,
     "double_flagged": 1,
     "industry_payments_usd": 4046.03
   },
@@ -15,7 +15,7 @@
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 8
+      "count": 7
     },
     {
       "code": "1128a1",

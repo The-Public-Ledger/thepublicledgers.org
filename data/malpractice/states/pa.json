@@ -5,11 +5,11 @@
     "last_updated": "2026-11-11"
   },
   "summary_stats": {
-    "excluded_count": 132,
-    "physician_population": 62585,
-    "per_1000_physicians": 2.109,
+    "excluded_count": 131,
+    "physician_population": 62414,
+    "per_1000_physicians": 2.099,
     "double_flagged": 25,
-    "industry_payments_usd": 304214.76
+    "industry_payments_usd": 78116.89000000004
   },
   "exclusion_types": [
     {
@@ -25,7 +25,7 @@
     {
       "code": "1128b4",
       "label": "License Revoked/Suspended",
-      "count": 19
+      "count": 18
     },
     {
       "code": "1128a3",
@@ -246,13 +246,6 @@
   ],
   "industry_payments": [
     {
-      "name": "DAVIS, CHRISTOPHER JACKSON",
-      "npi": "1144473208",
-      "total_usd": 226097.87,
-      "payment_count": 375,
-      "companies": 12
-    },
-    {
       "name": "KURTZER, YITZCHOK BARRY",
       "npi": "1154321891",
       "total_usd": 18482.19,
@@ -314,6 +307,13 @@
       "total_usd": 1888.33,
       "payment_count": 159,
       "companies": 20
+    },
+    {
+      "name": "NOTHSTEIN, GARY",
+      "npi": "1982647756",
+      "total_usd": 1737.57,
+      "payment_count": 98,
+      "companies": 19
     }
   ]
 }

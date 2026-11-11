@@ -6,8 +6,8 @@
   },
   "summary_stats": {
     "excluded_count": 18,
-    "physician_population": 7199,
-    "per_1000_physicians": 2.5,
+    "physician_population": 7176,
+    "per_1000_physicians": 2.508,
     "double_flagged": 2,
     "industry_payments_usd": 15585.920000000002
   },

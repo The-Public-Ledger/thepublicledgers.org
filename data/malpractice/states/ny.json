@@ -5,11 +5,11 @@
     "last_updated": "2026-11-11"
   },
   "summary_stats": {
-    "excluded_count": 287,
-    "physician_population": 103668,
-    "per_1000_physicians": 2.768,
-    "double_flagged": 391,
-    "industry_payments_usd": 5932157.110000002
+    "excluded_count": 286,
+    "physician_population": 103472,
+    "per_1000_physicians": 2.764,
+    "double_flagged": 390,
+    "industry_payments_usd": 5931802.370000002
   },
   "exclusion_types": [
     {
@@ -35,7 +35,7 @@
     {
       "code": "1128a2",
       "label": "Patient Abuse/Neglect",
-      "count": 12
+      "count": 11
     },
     {
       "code": "1128b7",

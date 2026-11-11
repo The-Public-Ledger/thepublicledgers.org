@@ -5,9 +5,9 @@
     "last_updated": "2026-11-11"
   },
   "summary_stats": {
-    "excluded_count": 51,
-    "physician_population": 12564,
-    "per_1000_physicians": 4.059,
+    "excluded_count": 50,
+    "physician_population": 12589,
+    "per_1000_physicians": 3.972,
     "double_flagged": 2,
     "industry_payments_usd": 9825.610000000002
   },
@@ -15,7 +15,7 @@
     {
       "code": "1128a3",
       "label": "Felony Healthcare Fraud",
-      "count": 22
+      "count": 21
     },
     {
       "code": "1128a1",

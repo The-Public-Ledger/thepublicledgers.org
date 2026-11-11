@@ -5,9 +5,9 @@
     "last_updated": "2026-11-11"
   },
   "summary_stats": {
-    "excluded_count": 51,
-    "physician_population": 42972,
-    "per_1000_physicians": 1.187,
+    "excluded_count": 52,
+    "physician_population": 42847,
+    "per_1000_physicians": 1.214,
     "double_flagged": 8,
     "industry_payments_usd": 108291.20999999998
   },
@@ -20,7 +20,7 @@
     {
       "code": "1128a1",
       "label": "Program-Related Crime",
-      "count": 11
+      "count": 12
     },
     {
       "code": "1128a4",

@@ -6,8 +6,8 @@
   },
   "summary_stats": {
     "excluded_count": 20,
-    "physician_population": 10081,
-    "per_1000_physicians": 1.984,
+    "physician_population": 10099,
+    "per_1000_physicians": 1.98,
     "double_flagged": 2,
     "industry_payments_usd": 1077.82
   },
@@ -119,6 +119,14 @@
       "specialty": "OPHTHALMOLOGY"
     },
     {
+      "name": "ROBERTS, STANLEY DWAYNE",
+      "npi": "1316993520",
+      "score": 61.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2016-10-20",
+      "specialty": "FAMILY PRACTICE"
+    },
+    {
       "name": "BOLICK, DAVID R",
       "npi": "1467431080",
       "score": 56.0,
@@ -149,14 +157,6 @@
       "exclusion_label": "Felony Controlled Substance",
       "exclusion_date": "2021-06-17",
       "specialty": "FAMILY PRACTICE"
-    },
-    {
-      "name": "HOLVERSON, JEFFREY S",
-      "npi": "1437314291",
-      "score": 53.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2017-07-20",
-      "specialty": "GENERAL PRACTICE"
     }
   ],
   "industry_payments": [

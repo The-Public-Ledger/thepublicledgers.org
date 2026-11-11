@@ -5,9 +5,9 @@
     "last_updated": "2026-11-11"
   },
   "summary_stats": {
-    "excluded_count": 55,
-    "physician_population": 30076,
-    "per_1000_physicians": 1.829,
+    "excluded_count": 54,
+    "physician_population": 30162,
+    "per_1000_physicians": 1.79,
     "double_flagged": 15,
     "industry_payments_usd": 97865.00999999998
   },
@@ -30,7 +30,7 @@
     {
       "code": "1128a4",
       "label": "Felony Controlled Substance",
-      "count": 4
+      "count": 3
     },
     {
       "code": "1128a3",
@@ -163,6 +163,14 @@
       "specialty": "ANESTHESIOLOGY"
     },
     {
+      "name": "CLAYTON, DANIEL ALEXANDER",
+      "npi": "1295909901",
+      "score": 79.0,
+      "exclusion_label": "License Revoked/Suspended",
+      "exclusion_date": "2020-04-20",
+      "specialty": "SURGERY"
+    },
+    {
       "name": "WASHINGTON, WILLIAM J",
       "npi": "1780768861",
       "score": 75.5,
@@ -184,14 +192,6 @@
       "score": 71.0,
       "exclusion_label": "Program-Related Crime",
       "exclusion_date": "2026-08-20",
-      "specialty": "GENERAL PRACTICE"
-    },
-    {
-      "name": "DILLER, JOHN LEWIS",
-      "npi": "1437226511",
-      "score": 70.0,
-      "exclusion_label": "Felony Controlled Substance",
-      "exclusion_date": "2014-04-20",
       "specialty": "GENERAL PRACTICE"
     },
     {
